@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:43:39.028891Z",
+  "generated_at": "2026-08-14T15:01:33.887363Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -18,7 +18,7 @@
           "title_en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
           "title_original": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
           "summary": null,
-          "recommend_reason_zh": "本文展示Amazon的Strands Robots如何用LeRobot和Hugging Face Storage Buckets实现数据闭环：录制存桶、Xet去重、从Hub流式训练、改一个参数部署回硬件。LeRobot格式已被90,000数据集和模型、8,000发布者使用。",
+          "recommend_reason_zh": null,
           "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
@@ -38,7 +38,7 @@
           "title_en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
           "title_original": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
           "summary": null,
-          "recommend_reason_zh": "本文展示Amazon的Strands Robots如何用LeRobot和Hugging Face Storage Buckets实现数据闭环：录制存桶、Xet去重、从Hub流式训练、改一个参数部署回硬件。LeRobot格式已被90,000数据集和模型、8,000发布者使用。",
+          "recommend_reason_zh": null,
           "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.82,
-      "importance": 0.82,
-      "importance_score": 0.82,
+      "score": 0.8175,
+      "importance": 0.8175,
+      "importance_score": 0.8175,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7442,
+        "recency": 0.7304,
         "story_heat": 0.0
       },
       "category": "official",
@@ -74,103 +74,16 @@
         "title_en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
         "title_original": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
         "summary": null,
-        "recommend_reason_zh": "本文展示Amazon的Strands Robots如何用LeRobot和Hugging Face Storage Buckets实现数据闭环：录制存桶、Xet去重、从Hub流式训练、改一个参数部署回硬件。LeRobot格式已被90,000数据集和模型、8,000发布者使用。",
+        "recommend_reason_zh": null,
         "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 84,
-      "persona_review": "机器人数据闭环三件套打通，搞具身智能的可以直接用这套管线记录训练部署。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
-      }
-    },
-    {
-      "story_id": "story_9ad9c9918d73",
-      "title": "Gemini 3.7 Flash 现已登陆 GitHub Copilot / Gemini 3.7 Flash is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e46a7969142d35bb9dcfae3c617c2830726c05bf",
-          "title": "Gemini 3.7 Flash 现已登陆 GitHub Copilot / Gemini 3.7 Flash is now available in GitHub Copilot",
-          "title_zh": "Gemini 3.7 Flash 现已登陆 GitHub Copilot",
-          "title_en": "Gemini 3.7 Flash is now available in GitHub Copilot",
-          "title_original": "Gemini 3.7 Flash is now available in GitHub Copilot",
-          "summary": null,
-          "recommend_reason_zh": "Google最新Flash模型Gemini 3.7 Flash现已登陆GitHub Copilot，早期测试显示其在web和app开发及agentic编码工作流上优于前代，还提升了代码质量与复杂任务验证，按提供商列表价格计费。",
-          "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T14:00:53Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "e46a7969142d35bb9dcfae3c617c2830726c05bf",
-          "title": "Gemini 3.7 Flash 现已登陆 GitHub Copilot / Gemini 3.7 Flash is now available in GitHub Copilot",
-          "title_zh": "Gemini 3.7 Flash 现已登陆 GitHub Copilot",
-          "title_en": "Gemini 3.7 Flash is now available in GitHub Copilot",
-          "title_original": "Gemini 3.7 Flash is now available in GitHub Copilot",
-          "summary": null,
-          "recommend_reason_zh": "Google最新Flash模型Gemini 3.7 Flash现已登陆GitHub Copilot，早期测试显示其在web和app开发及agentic编码工作流上优于前代，还提升了代码质量与复杂任务验证，按提供商列表价格计费。",
-          "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T14:00:53Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8078,
-      "importance": 0.8078,
-      "importance_score": 0.8078,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.71,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-13T14:00:53Z",
-      "latest_at": "2026-08-13T14:00:53Z",
-      "primary_item": {
-        "id": "e46a7969142d35bb9dcfae3c617c2830726c05bf",
-        "title": "Gemini 3.7 Flash 现已登陆 GitHub Copilot / Gemini 3.7 Flash is now available in GitHub Copilot",
-        "title_zh": "Gemini 3.7 Flash 现已登陆 GitHub Copilot",
-        "title_en": "Gemini 3.7 Flash is now available in GitHub Copilot",
-        "title_original": "Gemini 3.7 Flash is now available in GitHub Copilot",
-        "summary": null,
-        "recommend_reason_zh": "Google最新Flash模型Gemini 3.7 Flash现已登陆GitHub Copilot，早期测试显示其在web和app开发及agentic编码工作流上优于前代，还提升了代码质量与复杂任务验证，按提供商列表价格计费。",
-        "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 82,
-      "persona_review": "Copilot 里能选 Gemini 3.7 Flash，写代码/聊天直接可用，试一把省时间。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -188,7 +101,7 @@
           "title_en": "Introducing Gemini 3.7 Flash",
           "title_original": "Introducing Gemini 3.7 Flash",
           "summary": null,
-          "recommend_reason_zh": "Google发布Gemini 3.7 Flash，距3.6仅三周，FrontierCode得分从34.4%升至43.6%，DeepSWE达65.3%，输入价降至$0.75/百万token，助力开发生产级智能体。",
+          "recommend_reason_zh": null,
           "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
           "source": "Google DeepMind",
           "source_name": "Official AI Updates",
@@ -208,7 +121,7 @@
           "title_en": "Introducing Gemini 3.7 Flash",
           "title_original": "Introducing Gemini 3.7 Flash",
           "summary": null,
-          "recommend_reason_zh": "Google发布Gemini 3.7 Flash，距3.6仅三周，FrontierCode得分从34.4%升至43.6%，DeepSWE达65.3%，输入价降至$0.75/百万token，助力开发生产级智能体。",
+          "recommend_reason_zh": null,
           "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
           "source": "Google DeepMind",
           "source_name": "Official AI Updates",
@@ -218,15 +131,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8056,
-      "importance": 0.8056,
-      "importance_score": 0.8056,
+      "score": 0.8031,
+      "importance": 0.8031,
+      "importance_score": 0.8031,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7421,
+        "recency": 0.7283,
         "story_heat": 0.0
       },
       "category": "official",
@@ -244,18 +157,99 @@
         "title_en": "Introducing Gemini 3.7 Flash",
         "title_original": "Introducing Gemini 3.7 Flash",
         "summary": null,
-        "recommend_reason_zh": "Google发布Gemini 3.7 Flash，距3.6仅三周，FrontierCode得分从34.4%升至43.6%，DeepSWE达65.3%，输入价降至$0.75/百万token，助力开发生产级智能体。",
+        "recommend_reason_zh": null,
         "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 90,
-      "persona_review": "新模型已上线，编程和智能体场景直接试用，API 可接入。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
+      }
+    },
+    {
+      "story_id": "story_8bf1fc5309f6",
+      "title": "许可证数据质量提升 / License data quality improvements",
+      "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+      "primary_url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "87dd2c8686ef4e741185768b45139d717de59f24",
+          "title": "许可证数据质量提升 / License data quality improvements",
+          "title_zh": "许可证数据质量提升",
+          "title_en": "License data quality improvements",
+          "title_original": "License data quality improvements",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T19:14:12Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "87dd2c8686ef4e741185768b45139d717de59f24",
+          "title": "许可证数据质量提升 / License data quality improvements",
+          "title_zh": "许可证数据质量提升",
+          "title_en": "License data quality improvements",
+          "title_original": "License data quality improvements",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T19:14:12Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7993,
+      "importance": 0.7993,
+      "importance_score": 0.7993,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7514,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-13T19:14:12Z",
+      "latest_at": "2026-08-13T19:14:12Z",
+      "primary_item": {
+        "id": "87dd2c8686ef4e741185768b45139d717de59f24",
+        "title": "许可证数据质量提升 / License data quality improvements",
+        "title_zh": "许可证数据质量提升",
+        "title_en": "License data quality improvements",
+        "title_original": "License data quality improvements",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -273,7 +267,7 @@
           "title_en": "Bring your spreadsheet data to life with Sheets canvas",
           "title_original": "Bring your spreadsheet data to life with Sheets canvas",
           "summary": null,
-          "recommend_reason_zh": "Google Sheets新功能Sheets canvas用Gemini把表格数据变成无需编码的交互式迷你应用，支持学习追踪器、座位表等，并自动同步原始表格，现已面向Google AI Pro和Ultra订阅者推出。",
+          "recommend_reason_zh": null,
           "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
           "source": "Google AI Blog",
           "source_name": "Official AI Updates",
@@ -293,7 +287,7 @@
           "title_en": "Bring your spreadsheet data to life with Sheets canvas",
           "title_original": "Bring your spreadsheet data to life with Sheets canvas",
           "summary": null,
-          "recommend_reason_zh": "Google Sheets新功能Sheets canvas用Gemini把表格数据变成无需编码的交互式迷你应用，支持学习追踪器、座位表等，并自动同步原始表格，现已面向Google AI Pro和Ultra订阅者推出。",
+          "recommend_reason_zh": null,
           "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
           "source": "Google AI Blog",
           "source_name": "Official AI Updates",
@@ -303,15 +297,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.797,
-      "importance": 0.797,
-      "importance_score": 0.797,
+      "score": 0.7945,
+      "importance": 0.7945,
+      "importance_score": 0.7945,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7387,
+        "recency": 0.7249,
         "story_heat": 0.0
       },
       "category": "official",
@@ -329,18 +323,16 @@
         "title_en": "Bring your spreadsheet data to life with Sheets canvas",
         "title_original": "Bring your spreadsheet data to life with Sheets canvas",
         "summary": null,
-        "recommend_reason_zh": "Google Sheets新功能Sheets canvas用Gemini把表格数据变成无需编码的交互式迷你应用，支持学习追踪器、座位表等，并自动同步原始表格，现已面向Google AI Pro和Ultra订阅者推出。",
+        "recommend_reason_zh": null,
         "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "表格秒变交互应用，做内部小工具和原型能省事，值得上手试试。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -388,15 +380,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7827,
-      "importance": 0.7827,
-      "importance_score": 0.7827,
+      "score": 0.7795,
+      "importance": 0.7795,
+      "importance_score": 0.7795,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9673,
+        "recency": 0.9493,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -419,12 +411,92 @@
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "开源就能拉下来试，长程智能体和多模态推理的基准可以自己跑一遍。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
+      }
+    },
+    {
+      "story_id": "story_e5e76630b687",
+      "title": "随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "primary_url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "source": "Ars Technica：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e76762fbdbcf898d8d6ff82f016be8922778c6d6",
+          "title": "随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "title_zh": "随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战",
+          "title_en": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "title_original": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T14:27:14Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Ars Technica：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "e76762fbdbcf898d8d6ff82f016be8922778c6d6",
+          "title": "随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "title_zh": "随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战",
+          "title_en": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "title_original": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T14:27:14Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7781,
+      "importance": 0.7781,
+      "importance_score": 0.7781,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9918,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-14T14:27:14Z",
+      "latest_at": "2026-08-14T14:27:14Z",
+      "primary_item": {
+        "id": "e76762fbdbcf898d8d6ff82f016be8922778c6d6",
+        "title": "随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+        "title_zh": "随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战",
+        "title_en": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+        "title_original": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+        "source": "Ars Technica：AI（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -442,7 +514,7 @@
           "title_en": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
           "title_original": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
           "summary": "Cursor 正式完成被 SpaceX 收购，团队加入 SpaceXAI，共同打造 Grok 为全球最实用的 AI。合作将聚焦软件工程，并扩展至知识工作领域，同时改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
-          "recommend_reason_zh": "SpaceXAI团队欢迎新成员，Cursor将帮助团队更快实现世界最有用的AI，先从软件工程入手再扩展至知识工作，值得关注。",
+          "recommend_reason_zh": null,
           "url": "https://x.com/SpaceXAI/status/2088250109188608289",
           "source": "X：SpaceXAI (@SpaceXAI)",
           "source_name": "AI HOT",
@@ -462,7 +534,7 @@
           "title_en": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
           "title_original": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
           "summary": "Cursor 正式完成被 SpaceX 收购，团队加入 SpaceXAI，共同打造 Grok 为全球最实用的 AI。合作将聚焦软件工程，并扩展至知识工作领域，同时改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
-          "recommend_reason_zh": "SpaceXAI团队欢迎新成员，Cursor将帮助团队更快实现世界最有用的AI，先从软件工程入手再扩展至知识工作，值得关注。",
+          "recommend_reason_zh": null,
           "url": "https://x.com/SpaceXAI/status/2088250109188608289",
           "source": "X：SpaceXAI (@SpaceXAI)",
           "source_name": "AI HOT",
@@ -472,15 +544,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7809,
-      "importance": 0.7809,
-      "importance_score": 0.7809,
+      "score": 0.7775,
+      "importance": 0.7775,
+      "importance_score": 0.7775,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9903,
+        "recency": 0.9719,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -497,41 +569,39 @@
         "title_en": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
         "title_original": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
         "summary": "Cursor 正式完成被 SpaceX 收购，团队加入 SpaceXAI，共同打造 Grok 为全球最实用的 AI。合作将聚焦软件工程，并扩展至知识工作领域，同时改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
-        "recommend_reason_zh": "SpaceXAI团队欢迎新成员，Cursor将帮助团队更快实现世界最有用的AI，先从软件工程入手再扩展至知识工作，值得关注。",
+        "recommend_reason_zh": null,
         "url": "https://x.com/SpaceXAI/status/2088250109188608289",
         "source": "X：SpaceXAI (@SpaceXAI)",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 50,
-      "persona_review": "公司变动对今天无直接影响，等功能或定价变化再动手。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
-      "story_id": "story_8bf1fc5309f6",
-      "title": "许可证数据质量提升 / License data quality improvements",
-      "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-      "primary_url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+      "story_id": "story_1495b257b86c",
+      "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
+      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+      "primary_url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "87dd2c8686ef4e741185768b45139d717de59f24",
-          "title": "许可证数据质量提升 / License data quality improvements",
-          "title_zh": "许可证数据质量提升",
-          "title_en": "License data quality improvements",
-          "title_original": "License data quality improvements",
+          "id": "60f355677cf4a09c3158662dda1f01d50413d142",
+          "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
+          "title_zh": "在个人仓库中屏蔽用户评论",
+          "title_en": "Block users from comments in personal repositories",
+          "title_original": "Block users from comments in personal repositories",
           "summary": null,
-          "recommend_reason_zh": "GitHub改用npmjs.org和PyPI确定依赖图许可证信息，缺失率从45%降至24%，并引用Grafana从Apache到AGPL的版本区间追踪实例，提升SBOM与合规功能的准确性。",
-          "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-13T19:14:12Z"
+          "published_at": "2026-08-13T19:02:46Z"
         }
       ],
       "source_count": 1,
@@ -540,31 +610,31 @@
       ],
       "items": [
         {
-          "id": "87dd2c8686ef4e741185768b45139d717de59f24",
-          "title": "许可证数据质量提升 / License data quality improvements",
-          "title_zh": "许可证数据质量提升",
-          "title_en": "License data quality improvements",
-          "title_original": "License data quality improvements",
+          "id": "60f355677cf4a09c3158662dda1f01d50413d142",
+          "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
+          "title_zh": "在个人仓库中屏蔽用户评论",
+          "title_en": "Block users from comments in personal repositories",
+          "title_original": "Block users from comments in personal repositories",
           "summary": null,
-          "recommend_reason_zh": "GitHub改用npmjs.org和PyPI确定依赖图许可证信息，缺失率从45%降至24%，并引用Grafana从Apache到AGPL的版本区间追踪实例，提升SBOM与合规功能的准确性。",
-          "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-13T19:14:12Z"
+          "published_at": "2026-08-13T19:02:46Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8018,
-      "importance": 0.8018,
-      "importance_score": 0.8018,
+      "score": 0.7989,
+      "importance": 0.7989,
+      "importance_score": 0.7989,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7657,
+        "recency": 0.7494,
         "story_heat": 0.0
       },
       "category": "official",
@@ -573,27 +643,107 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-13T19:14:12Z",
-      "latest_at": "2026-08-13T19:14:12Z",
+      "earliest_at": "2026-08-13T19:02:46Z",
+      "latest_at": "2026-08-13T19:02:46Z",
       "primary_item": {
-        "id": "87dd2c8686ef4e741185768b45139d717de59f24",
-        "title": "许可证数据质量提升 / License data quality improvements",
-        "title_zh": "许可证数据质量提升",
-        "title_en": "License data quality improvements",
-        "title_original": "License data quality improvements",
+        "id": "60f355677cf4a09c3158662dda1f01d50413d142",
+        "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
+        "title_zh": "在个人仓库中屏蔽用户评论",
+        "title_en": "Block users from comments in personal repositories",
+        "title_original": "Block users from comments in personal repositories",
         "summary": null,
-        "recommend_reason_zh": "GitHub改用npmjs.org和PyPI确定依赖图许可证信息，缺失率从45%降至24%，并引用Grafana从Apache到AGPL的版本区间追踪实例，提升SBOM与合规功能的准确性。",
-        "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "许可证识别更准了，依赖合规扫描少踩坑，升级依赖时留意。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
+      }
+    },
+    {
+      "story_id": "story_1bb392b9373f",
+      "title": "Cursor 正式加入 SpaceX，助力 Grok 生态 / Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+      "url": "https://x.com/mntruell/status/2088277505933488137",
+      "primary_url": "https://x.com/mntruell/status/2088277505933488137",
+      "source": "X：Michael Truell (@mntruell)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2cb4d9672f771b69cd08415a41874494606a0b7c",
+          "title": "Cursor 正式加入 SpaceX，助力 Grok 生态 / Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+          "title_zh": "Cursor 正式加入 SpaceX，助力 Grok 生态",
+          "title_en": "Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+          "title_original": "Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+          "summary": "Cursor 官方宣布正式加入 SpaceX，收购已正式完成。Cursor 团队将加入 SpaceXAI 团队，共同致力于让 Grok 成为全球最实用的 AI，并改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/mntruell/status/2088277505933488137",
+          "source": "X：Michael Truell (@mntruell)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T14:52:10Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Michael Truell (@mntruell)"
+      ],
+      "items": [
+        {
+          "id": "2cb4d9672f771b69cd08415a41874494606a0b7c",
+          "title": "Cursor 正式加入 SpaceX，助力 Grok 生态 / Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+          "title_zh": "Cursor 正式加入 SpaceX，助力 Grok 生态",
+          "title_en": "Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+          "title_original": "Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+          "summary": "Cursor 官方宣布正式加入 SpaceX，收购已正式完成。Cursor 团队将加入 SpaceXAI 团队，共同致力于让 Grok 成为全球最实用的 AI，并改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/mntruell/status/2088277505933488137",
+          "source": "X：Michael Truell (@mntruell)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T14:52:10Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7582,
+      "importance": 0.7582,
+      "importance_score": 0.7582,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9977,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-14T14:52:10Z",
+      "latest_at": "2026-08-14T14:52:10Z",
+      "primary_item": {
+        "id": "2cb4d9672f771b69cd08415a41874494606a0b7c",
+        "title": "Cursor 正式加入 SpaceX，助力 Grok 生态 / Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+        "title_zh": "Cursor 正式加入 SpaceX，助力 Grok 生态",
+        "title_en": "Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+        "title_original": "Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+        "summary": "Cursor 官方宣布正式加入 SpaceX，收购已正式完成。Cursor 团队将加入 SpaceXAI 团队，共同致力于让 Grok 成为全球最实用的 AI，并改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/mntruell/status/2088277505933488137",
+        "source": "X：Michael Truell (@mntruell)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -611,7 +761,7 @@
           "title_en": null,
           "title_original": "AI企业也能按Token融资：广东首推“Token贷”",
           "summary": null,
-          "recommend_reason_zh": "广东首推“Token Loan”，中国银行广州分行面向海珠区中小算力企业，按合同金额与Token消耗定额度，已试点放款累计2800万元。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30365",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -631,7 +781,7 @@
           "title_en": null,
           "title_original": "AI企业也能按Token融资：广东首推“Token贷”",
           "summary": null,
-          "recommend_reason_zh": "广东首推“Token Loan”，中国银行广州分行面向海珠区中小算力企业，按合同金额与Token消耗定额度，已试点放款累计2800万元。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30365",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -641,15 +791,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7589,
-      "importance": 0.7589,
-      "importance_score": 0.7589,
+      "score": 0.7557,
+      "importance": 0.7557,
+      "importance_score": 0.7557,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9515,
+        "recency": 0.9338,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -666,18 +816,16 @@
         "title_en": null,
         "title_original": "AI企业也能按Token融资：广东首推“Token贷”",
         "summary": null,
-        "recommend_reason_zh": "广东首推“Token Loan”，中国银行广州分行面向海珠区中小算力企业，按合同金额与Token消耗定额度，已试点放款累计2800万元。",
+        "recommend_reason_zh": null,
         "url": "https://www.aibase.com/news/30365",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
-      "persona_score": 52,
-      "persona_review": "融资渠道新花样，写代码的暂时用不上，看自家公司要不要碰。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -725,21 +873,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7505,
-      "importance": 0.7505,
-      "importance_score": 0.7505,
+      "score": 0.7475,
+      "importance": 0.7475,
+      "importance_score": 0.7475,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8882,
+        "recency": 0.8717,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-14T05:31:04Z",
       "latest_at": "2026-08-14T05:31:04Z",
@@ -756,97 +903,10 @@
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 92,
-      "persona_review": "开源模型能直接用，编程能力第一，本地部署撸代码的今天就能上手。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
-      }
-    },
-    {
-      "story_id": "story_1495b257b86c",
-      "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
-      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-      "primary_url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "60f355677cf4a09c3158662dda1f01d50413d142",
-          "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
-          "title_zh": "在个人仓库中屏蔽用户评论",
-          "title_en": "Block users from comments in personal repositories",
-          "title_original": "Block users from comments in personal repositories",
-          "summary": null,
-          "recommend_reason_zh": "GitHub 个人仓库的 pull request 和 issue 评论中现可直接屏蔽或取消屏蔽用户，维护者无需离开页面即可快速处理垃圾与 unwanted 活动，提升管理效率。",
-          "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T19:02:46Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "60f355677cf4a09c3158662dda1f01d50413d142",
-          "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
-          "title_zh": "在个人仓库中屏蔽用户评论",
-          "title_en": "Block users from comments in personal repositories",
-          "title_original": "Block users from comments in personal repositories",
-          "summary": null,
-          "recommend_reason_zh": "GitHub 个人仓库的 pull request 和 issue 评论中现可直接屏蔽或取消屏蔽用户，维护者无需离开页面即可快速处理垃圾与 unwanted 活动，提升管理效率。",
-          "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T19:02:46Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8014,
-      "importance": 0.8014,
-      "importance_score": 0.8014,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7636,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-13T19:02:46Z",
-      "latest_at": "2026-08-13T19:02:46Z",
-      "primary_item": {
-        "id": "60f355677cf4a09c3158662dda1f01d50413d142",
-        "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
-        "title_zh": "在个人仓库中屏蔽用户评论",
-        "title_en": "Block users from comments in personal repositories",
-        "title_original": "Block users from comments in personal repositories",
-        "summary": null,
-        "recommend_reason_zh": "GitHub 个人仓库的 pull request 和 issue 评论中现可直接屏蔽或取消屏蔽用户，维护者无需离开页面即可快速处理垃圾与 unwanted 活动，提升管理效率。",
-        "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "个人仓库能拉黑评论了，被骚扰的直接屏蔽，今天就能用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -864,7 +924,7 @@
           "title_en": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day mainten…",
           "title_original": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day mainten…",
           "summary": "Boris Cherny 尝试让 Claude 接管其应用的日常维护，通过 Slack 频道运行崩溃模糊测试、重复代码统一、死代码移除等日常任务。数周内自动开出 388 个 PR，其中 180 个经 Claude Code Review 和人工审核后合并。Claude 通常一次就能改对，出错时可通过调整例程次日改进。",
-          "recommend_reason_zh": "作者在Slack频道proj-claude-maintains-apps中让Claude接管应用日常维护，数周实验后看到早期可行迹象，这个实验对AI运维探索者来说值得一读。",
+          "recommend_reason_zh": null,
           "url": "https://x.com/bcherny/status/2088014489438621990",
           "source": "X：Boris Cherny (@bcherny)",
           "source_name": "AI HOT",
@@ -878,7 +938,7 @@
           "title_en": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible. The setup is straightforward: we have a Sla...",
           "title_original": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible. The setup is straightforward: we have a Sla...",
           "summary": null,
-          "recommend_reason_zh": "作者分享了一个古怪实验：让Claude接管应用的日常维护，通过名为proj-claude-maintains-apps的Slack频道操作，最近几周已看到早期可行迹象。",
+          "recommend_reason_zh": null,
           "url": "https://x.com/bcherny/status/2088014489438621990",
           "source": "Follow Builders · X · Boris Cherny",
           "source_name": "Follow Builders",
@@ -899,7 +959,7 @@
           "title_en": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day mainten…",
           "title_original": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day mainten…",
           "summary": "Boris Cherny 尝试让 Claude 接管其应用的日常维护，通过 Slack 频道运行崩溃模糊测试、重复代码统一、死代码移除等日常任务。数周内自动开出 388 个 PR，其中 180 个经 Claude Code Review 和人工审核后合并。Claude 通常一次就能改对，出错时可通过调整例程次日改进。",
-          "recommend_reason_zh": "作者在Slack频道proj-claude-maintains-apps中让Claude接管应用日常维护，数周实验后看到早期可行迹象，这个实验对AI运维探索者来说值得一读。",
+          "recommend_reason_zh": null,
           "url": "https://x.com/bcherny/status/2088014489438621990",
           "source": "X：Boris Cherny (@bcherny)",
           "source_name": "AI HOT",
@@ -913,7 +973,7 @@
           "title_en": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible. The setup is straightforward: we have a Sla...",
           "title_original": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible. The setup is straightforward: we have a Sla...",
           "summary": null,
-          "recommend_reason_zh": "作者分享了一个古怪实验：让Claude接管应用的日常维护，通过名为proj-claude-maintains-apps的Slack频道操作，最近几周已看到早期可行迹象。",
+          "recommend_reason_zh": null,
           "url": "https://x.com/bcherny/status/2088014489438621990",
           "source": "Follow Builders · X · Boris Cherny",
           "source_name": "Follow Builders",
@@ -923,15 +983,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7369,
-      "importance": 0.7369,
-      "importance_score": 0.7369,
+      "score": 0.7343,
+      "importance": 0.7343,
+      "importance_score": 0.7343,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7905,
+        "recency": 0.7758,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -948,18 +1008,16 @@
         "title_en": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day mainten…",
         "title_original": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day mainten…",
         "summary": "Boris Cherny 尝试让 Claude 接管其应用的日常维护，通过 Slack 频道运行崩溃模糊测试、重复代码统一、死代码移除等日常任务。数周内自动开出 388 个 PR，其中 180 个经 Claude Code Review 和人工审核后合并。Claude 通常一次就能改对，出错时可通过调整例程次日改进。",
-        "recommend_reason_zh": "作者在Slack频道proj-claude-maintains-apps中让Claude接管应用日常维护，数周实验后看到早期可行迹象，这个实验对AI运维探索者来说值得一读。",
+        "recommend_reason_zh": null,
         "url": "https://x.com/bcherny/status/2088014489438621990",
         "source": "X：Boris Cherny (@bcherny)",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "实践案例可借鉴，但非现成方案，动手前先看自己项目复杂度。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -977,7 +1035,7 @@
           "title_en": null,
           "title_original": "微软又弃一 AI 形象：Copilot 黄色小怪 Mico 退场，转岗学习平台",
           "summary": null,
-          "recommend_reason_zh": "微软将Copilot语音模式的黄色小怪Mico撤下，转岗至Learn Live学习平台，距其去年10月推出不到一年。报道回顾了微软弃用Clippy、Cortana等AI形象的历史，并引用Mustafa Suleiman提到的身份感初衷，值得一读。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30364",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -997,7 +1055,7 @@
           "title_en": null,
           "title_original": "微软又弃一 AI 形象：Copilot 黄色小怪 Mico 退场，转岗学习平台",
           "summary": null,
-          "recommend_reason_zh": "微软将Copilot语音模式的黄色小怪Mico撤下，转岗至Learn Live学习平台，距其去年10月推出不到一年。报道回顾了微软弃用Clippy、Cortana等AI形象的历史，并引用Mustafa Suleiman提到的身份感初衷，值得一读。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30364",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1007,15 +1065,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7589,
-      "importance": 0.7589,
-      "importance_score": 0.7589,
+      "score": 0.7557,
+      "importance": 0.7557,
+      "importance_score": 0.7557,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9515,
+        "recency": 0.9338,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1032,18 +1090,16 @@
         "title_en": null,
         "title_original": "微软又弃一 AI 形象：Copilot 黄色小怪 Mico 退场，转岗学习平台",
         "summary": null,
-        "recommend_reason_zh": "微软将Copilot语音模式的黄色小怪Mico撤下，转岗至Learn Live学习平台，距其去年10月推出不到一年。报道回顾了微软弃用Clippy、Cortana等AI形象的历史，并引用Mustafa Suleiman提到的身份感初衷，值得一读。",
+        "recommend_reason_zh": null,
         "url": "https://www.aibase.com/news/30364",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "换个吉祥物不写代码，开发工作零影响，不用管。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -1091,15 +1147,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7262,
-      "importance": 0.7262,
-      "importance_score": 0.7262,
+      "score": 0.7234,
+      "importance": 0.7234,
+      "importance_score": 0.7234,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8198,
+        "recency": 0.8046,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1121,12 +1177,10 @@
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 76,
-      "persona_review": "实操速通教程，跑 DeepSeek Harness 可直接照抄步骤，适合快速上手。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -1144,7 +1198,7 @@
           "title_en": "This time， it's official. DeepSeek V4 Pro just landed. 🚀 @deepseek_ai DeepSeek-V4-Pro-0813 is now l…",
           "title_original": "This time， it's official. DeepSeek V4 Pro just landed. 🚀 @deepseek_ai DeepSeek-V4-Pro-0813 is now l…",
           "summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。",
-          "recommend_reason_zh": "DeepSeek V4 Pro正式发布，DeepSeek-V4-Pro-0813已上线SiliconFlow并获Day-0支持，拥有1M上下文，提供低/高/最大三档推理，强化编码、工具调用和智能体工作流。",
+          "recommend_reason_zh": null,
           "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
           "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
           "source_name": "AI HOT",
@@ -1164,7 +1218,7 @@
           "title_en": "This time， it's official. DeepSeek V4 Pro just landed. 🚀 @deepseek_ai DeepSeek-V4-Pro-0813 is now l…",
           "title_original": "This time， it's official. DeepSeek V4 Pro just landed. 🚀 @deepseek_ai DeepSeek-V4-Pro-0813 is now l…",
           "summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。",
-          "recommend_reason_zh": "DeepSeek V4 Pro正式发布，DeepSeek-V4-Pro-0813已上线SiliconFlow并获Day-0支持，拥有1M上下文，提供低/高/最大三档推理，强化编码、工具调用和智能体工作流。",
+          "recommend_reason_zh": null,
           "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
           "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
           "source_name": "AI HOT",
@@ -1174,15 +1228,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7251,
-      "importance": 0.7251,
-      "importance_score": 0.7251,
+      "score": 0.7222,
+      "importance": 0.7222,
+      "importance_score": 0.7222,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8807,
+        "recency": 0.8644,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1198,18 +1252,16 @@
         "title_en": "This time， it's official. DeepSeek V4 Pro just landed. 🚀 @deepseek_ai DeepSeek-V4-Pro-0813 is now l…",
         "title_original": "This time， it's official. DeepSeek V4 Pro just landed. 🚀 @deepseek_ai DeepSeek-V4-Pro-0813 is now l…",
         "summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。",
-        "recommend_reason_zh": "DeepSeek V4 Pro正式发布，DeepSeek-V4-Pro-0813已上线SiliconFlow并获Day-0支持，拥有1M上下文，提供低/高/最大三档推理，强化编码、工具调用和智能体工作流。",
+        "recommend_reason_zh": null,
         "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
         "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 92,
-      "persona_review": "硅基流动已上线，1M上下文直接调API，长文本任务今天就能用。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -1227,7 +1279,7 @@
           "title_en": null,
           "title_original": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
           "summary": null,
-          "recommend_reason_zh": "DeepSeek V4 Pro 登陆 SiliconFlow，带来百万级上下文窗口与低/中/高三档推理强度，缓存命中每百万 token 仅 0.44 美元，为长文本 Agent 工作流的成本核算提供了明确锚点。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30358",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1247,7 +1299,7 @@
           "title_en": null,
           "title_original": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
           "summary": null,
-          "recommend_reason_zh": "DeepSeek V4 Pro 登陆 SiliconFlow，带来百万级上下文窗口与低/中/高三档推理强度，缓存命中每百万 token 仅 0.44 美元，为长文本 Agent 工作流的成本核算提供了明确锚点。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30358",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1257,15 +1309,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
+      "score": 0.7517,
+      "importance": 0.7517,
+      "importance_score": 0.7517,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.929,
+        "recency": 0.9118,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1282,18 +1334,16 @@
         "title_en": null,
         "title_original": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
         "summary": null,
-        "recommend_reason_zh": "DeepSeek V4 Pro 登陆 SiliconFlow，带来百万级上下文窗口与低/中/高三档推理强度，缓存命中每百万 token 仅 0.44 美元，为长文本 Agent 工作流的成本核算提供了明确锚点。",
+        "recommend_reason_zh": null,
         "url": "https://www.aibase.com/news/30358",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
-      "persona_score": 90,
-      "persona_review": "新模型已上线，百万上下文+缓存低价，长文本任务可直接上手。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -1311,7 +1361,7 @@
           "title_en": null,
           "title_original": "MiniMax 发布 Music3 音乐模型：给歌词和描述，可生成最长 5 分钟歌曲",
           "summary": null,
-          "recommend_reason_zh": "MiniMax发布Music3音乐模型，输入歌词和描述可生成最长5分钟歌曲，输出32kHz立体声WAV；其8B全局语言模型从Qwen3-8B初始化负责歌曲结构，0.6B局部模型补充声音细节。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30362",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1331,7 +1381,7 @@
           "title_en": null,
           "title_original": "MiniMax 发布 Music3 音乐模型：给歌词和描述，可生成最长 5 分钟歌曲",
           "summary": null,
-          "recommend_reason_zh": "MiniMax发布Music3音乐模型，输入歌词和描述可生成最长5分钟歌曲，输出32kHz立体声WAV；其8B全局语言模型从Qwen3-8B初始化负责歌曲结构，0.6B局部模型补充声音细节。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30362",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1341,15 +1391,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
+      "score": 0.7517,
+      "importance": 0.7517,
+      "importance_score": 0.7517,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.929,
+        "recency": 0.9118,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1366,18 +1416,16 @@
         "title_en": null,
         "title_original": "MiniMax 发布 Music3 音乐模型：给歌词和描述，可生成最长 5 分钟歌曲",
         "summary": null,
-        "recommend_reason_zh": "MiniMax发布Music3音乐模型，输入歌词和描述可生成最长5分钟歌曲，输出32kHz立体声WAV；其8B全局语言模型从Qwen3-8B初始化负责歌曲结构，0.6B局部模型补充声音细节。",
+        "recommend_reason_zh": null,
         "url": "https://www.aibase.com/news/30362",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "音乐生成新选择，做创作应用的可以试试，日常开发用不上。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -1395,7 +1443,7 @@
           "title_en": null,
           "title_original": "京东七鲜咖啡全球首发 24 小时无人店：机器人现制、AI 荐饮，落地北京银河 Soho",
           "summary": null,
-          "recommend_reason_zh": "JD.com旗下Qixian Coffee首家24小时智能无人咖啡店8月16日在北京Galaxy Soho地下B1层开业，开业当天尝试吉尼斯世界纪录，全流程机器人AI制作，支持1%-100%浓度个性化定制，值得一读。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30356",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1415,7 +1463,7 @@
           "title_en": null,
           "title_original": "京东七鲜咖啡全球首发 24 小时无人店：机器人现制、AI 荐饮，落地北京银河 Soho",
           "summary": null,
-          "recommend_reason_zh": "JD.com旗下Qixian Coffee首家24小时智能无人咖啡店8月16日在北京Galaxy Soho地下B1层开业，开业当天尝试吉尼斯世界纪录，全流程机器人AI制作，支持1%-100%浓度个性化定制，值得一读。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30356",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1425,15 +1473,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
+      "score": 0.7517,
+      "importance": 0.7517,
+      "importance_score": 0.7517,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.929,
+        "recency": 0.9118,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1450,18 +1498,16 @@
         "title_en": null,
         "title_original": "京东七鲜咖啡全球首发 24 小时无人店：机器人现制、AI 荐饮，落地北京银河 Soho",
         "summary": null,
-        "recommend_reason_zh": "JD.com旗下Qixian Coffee首家24小时智能无人咖啡店8月16日在北京Galaxy Soho地下B1层开业，开业当天尝试吉尼斯世界纪录，全流程机器人AI制作，支持1%-100%浓度个性化定制，值得一读。",
+        "recommend_reason_zh": null,
         "url": "https://www.aibase.com/news/30356",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
-      "persona_score": 50,
-      "persona_review": "新零售样板间，开发者没有可调用的接口，围观即可。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -1479,7 +1525,7 @@
           "title_en": null,
           "title_original": "告别单机模型“虚胖”：百灵团队联合AReno打通本地智能体强化学习闭环",
           "summary": null,
-          "recommend_reason_zh": "百灵团队联合AReno在DGX Spark单机环境跑通Agentic RL闭环，用Tic-Tac-Toe验证对Ling-3.0-tiny模型（7.9B总参数、1.3B激活参数）的后训练，告别本地模型“虚胖”。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30357",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1499,7 +1545,7 @@
           "title_en": null,
           "title_original": "告别单机模型“虚胖”：百灵团队联合AReno打通本地智能体强化学习闭环",
           "summary": null,
-          "recommend_reason_zh": "百灵团队联合AReno在DGX Spark单机环境跑通Agentic RL闭环，用Tic-Tac-Toe验证对Ling-3.0-tiny模型（7.9B总参数、1.3B激活参数）的后训练，告别本地模型“虚胖”。",
+          "recommend_reason_zh": null,
           "url": "https://www.aibase.com/news/30357",
           "source": "AIbase",
           "source_name": "AIbase",
@@ -1509,15 +1555,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
+      "score": 0.7517,
+      "importance": 0.7517,
+      "importance_score": 0.7517,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.929,
+        "recency": 0.9118,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1534,18 +1580,16 @@
         "title_en": null,
         "title_original": "告别单机模型“虚胖”：百灵团队联合AReno打通本地智能体强化学习闭环",
         "summary": null,
-        "recommend_reason_zh": "百灵团队联合AReno在DGX Spark单机环境跑通Agentic RL闭环，用Tic-Tac-Toe验证对Ling-3.0-tiny模型（7.9B总参数、1.3B激活参数）的后训练，告别本地模型“虚胖”。",
+        "recommend_reason_zh": null,
         "url": "https://www.aibase.com/news/30357",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "研究进展而已，没给能直接用的东西，等开源或方案落地再看。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     },
     {
@@ -1563,7 +1607,7 @@
           "title_en": "Apple trained its own AI model for China with help from Alibaba",
           "title_original": "Apple trained its own AI model for China with help from Alibaba",
           "summary": null,
-          "recommend_reason_zh": "Apple与Alibaba合作训练面向中国市场的定制大语言模型，放弃此前借用本土模型的策略，为其在中国推出的on-device生成式AI服务铺路。若属实，Apple将成为首个获准在华提供专有AI模型的美国公司。",
+          "recommend_reason_zh": null,
           "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
           "source": "The Verge",
           "source_name": "Curated Media",
@@ -1577,7 +1621,7 @@
           "title_en": "Apple Trained Own AI model for China Market With Help From Alibaba",
           "title_original": "Apple Trained Own AI model for China Market With Help From Alibaba",
           "summary": null,
-          "recommend_reason_zh": "据Reuters报道，Apple未用第三方模型，而是与Alibaba合作为中国训练自有LLM，成为首个获中国政府批准提供自有AI模型的外国公司，且弃用Qwen转用自研，Apple Intelligence数月内推出。",
+          "recommend_reason_zh": null,
           "url": "https://www.macrumors.com/2026/08/14/apple-trained-own-ai-model-for-china",
           "source": "Mac Rumors",
           "source_name": "TechURLs",
@@ -1598,7 +1642,7 @@
           "title_en": "Apple trained its own AI model for China with help from Alibaba",
           "title_original": "Apple trained its own AI model for China with help from Alibaba",
           "summary": null,
-          "recommend_reason_zh": "Apple与Alibaba合作训练面向中国市场的定制大语言模型，放弃此前借用本土模型的策略，为其在中国推出的on-device生成式AI服务铺路。若属实，Apple将成为首个获准在华提供专有AI模型的美国公司。",
+          "recommend_reason_zh": null,
           "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
           "source": "The Verge",
           "source_name": "Curated Media",
@@ -1612,7 +1656,7 @@
           "title_en": "Apple Trained Own AI model for China Market With Help From Alibaba",
           "title_original": "Apple Trained Own AI model for China Market With Help From Alibaba",
           "summary": null,
-          "recommend_reason_zh": "据Reuters报道，Apple未用第三方模型，而是与Alibaba合作为中国训练自有LLM，成为首个获中国政府批准提供自有AI模型的外国公司，且弃用Qwen转用自研，Apple Intelligence数月内推出。",
+          "recommend_reason_zh": null,
           "url": "https://www.macrumors.com/2026/08/14/apple-trained-own-ai-model-for-china",
           "source": "Mac Rumors",
           "source_name": "TechURLs",
@@ -1622,15 +1666,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6045,
-      "importance": 0.6045,
-      "importance_score": 0.6045,
+      "score": 0.6013,
+      "importance": 0.6013,
+      "importance_score": 0.6013,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.9388,
+        "recency": 0.9214,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1646,102 +1690,16 @@
         "title_en": "Apple trained its own AI model for China with help from Alibaba",
         "title_original": "Apple trained its own AI model for China with help from Alibaba",
         "summary": null,
-        "recommend_reason_zh": "Apple与Alibaba合作训练面向中国市场的定制大语言模型，放弃此前借用本土模型的策略，为其在中国推出的on-device生成式AI服务铺路。若属实，Apple将成为首个获准在华提供专有AI模型的美国公司。",
+        "recommend_reason_zh": null,
         "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
         "source": "The Verge",
         "source_name": "Curated Media"
       },
       "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "苹果中国区AI策略变动，开发者暂无直接可用的接口，观望即可。",
+      "persona_score": 1,
       "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
-      }
-    },
-    {
-      "story_id": "story_8d30d003a2da",
-      "title": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-      "url": "https://www.aibase.com/news/30355",
-      "primary_url": "https://www.aibase.com/news/30355",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "824a1fbb1544e879aebe6e9f9eb2b554b93b252c",
-          "title": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-          "title_zh": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-          "title_en": null,
-          "title_original": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-          "summary": null,
-          "recommend_reason_zh": "金山办公灵犀专业版于8月14日集成DeepSeek-V4-Pro正式版，原生支持百万token上下文、单次最高输出38.4万token，可调用文档表格等工具完成复杂办公任务。",
-          "url": "https://www.aibase.com/news/30355",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-14T08:37:45.150379Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "824a1fbb1544e879aebe6e9f9eb2b554b93b252c",
-          "title": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-          "title_zh": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-          "title_en": null,
-          "title_original": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-          "summary": null,
-          "recommend_reason_zh": "金山办公灵犀专业版于8月14日集成DeepSeek-V4-Pro正式版，原生支持百万token上下文、单次最高输出38.4万token，可调用文档表格等工具完成复杂办公任务。",
-          "url": "https://www.aibase.com/news/30355",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-14T08:37:45.150379Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.929,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-14T08:37:45.150379Z",
-      "latest_at": "2026-08-14T08:37:45.150379Z",
-      "primary_item": {
-        "id": "824a1fbb1544e879aebe6e9f9eb2b554b93b252c",
-        "title": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-        "title_zh": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-        "title_en": null,
-        "title_original": "百万上下文解锁复杂办公!金山办公灵犀全量上线 DeepSeek-V4正式版双模型",
-        "summary": null,
-        "recommend_reason_zh": "金山办公灵犀专业版于8月14日集成DeepSeek-V4-Pro正式版，原生支持百万token上下文、单次最高输出38.4万token，可调用文档表格等工具完成复杂办公任务。",
-        "url": "https://www.aibase.com/news/30355",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 78,
-      "persona_review": "办公场景直接能用，百万上下文处理长文档是刚需，可以上手试。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-v4-flash",
-        "scored_at": "2026-08-14T13:57:26.240431Z"
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-14T15:03:02.154095Z"
       }
     }
   ]
