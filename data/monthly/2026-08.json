@@ -1,9 +1,10 @@
 {
   "title": "2026-08 月报",
   "dates": [
+    "2026-08-18",
     "2026-08-17"
   ],
-  "total_items": 20,
+  "total_items": 21,
   "items": [
     {
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
@@ -16,6 +17,21 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "画布如何使代理工作流程可见、可操纵且经济高效",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -55,7 +71,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T05:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -110,6 +126,19 @@
       ],
       "reason": "",
       "label": "行业动态"
+    },
+    {
+      "title": "我们追踪了一批善本书籍。它在亚马逊人工智能培训设施结束",
+      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
+      "source": "Simon Willison",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-17T15:21:29+00:00",
+      "source_count": 4,
+      "score": 64,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议"
     },
     {
       "title": "Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元",
@@ -172,26 +201,13 @@
       "label": "值得关注"
     },
     {
-      "title": "我们追踪了一批善本书籍。它在亚马逊人工智能培训设施结束",
-      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-17T15:21:29+00:00",
-      "source_count": 3,
-      "score": 62,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
       "title": "DeepSeek AI 在开发者预览版中发布 DeepSeek Harness：一款 MIT 许可的代理工具，一切都是插件",
       "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-08-17T09:06:32+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "deepseek",
@@ -207,7 +223,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-16T16:53:51+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "anthropic"
@@ -232,6 +248,21 @@
       "label": "多源热议"
     },
     {
+      "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "source": "daringfireball.net",
+      "site_id": "buzzing",
+      "published_at": "2026-08-17T00:06:02.469000+00:00",
+      "source_count": 4,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "据报道 OpenAI 解散了其准备团队",
       "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
       "source": "The Verge",
@@ -242,21 +273,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "MathCode，数学编码代理",
-      "url": "https://math-ai-org.github.io/mathcode",
-      "source": "math-ai-org.github.io",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T11:33:59.048000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -278,19 +294,19 @@
       "label": "多源热议"
     },
     {
-      "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
-      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "source": "daringfireball.net",
+      "title": "MathCode，数学编码代理",
+      "url": "https://math-ai-org.github.io/mathcode",
+      "source": "math-ai-org.github.io",
       "site_id": "buzzing",
-      "published_at": "2026-08-17T00:06:02.469000+00:00",
-      "source_count": 3,
+      "published_at": "2026-08-17T11:33:59.048000+00:00",
+      "source_count": 2,
       "score": 53,
       "official": true,
       "topics": [
-        "anthropic"
+        "coding"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "值得关注"
     },
     {
       "title": "Anthropic首席执行官表示人工智能赢得公众的方式是治愈癌症",
@@ -308,6 +324,6 @@
       "label": "多源热议"
     }
   ],
-  "generated_at": "2026-08-17T15:37:46.133006+00:00",
+  "generated_at": "2026-08-17T16:46:08.305982+00:00",
   "period": "2026-08"
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T15:37:46.133006+00:00",
-  "today": "2026-08-17",
-  "lead": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window；Teaching Everyone to Fish for Tokens；与 Gemini 和 Pixel 一起近距离接触游戏",
+  "generated_at": "2026-08-17T16:46:08.305982+00:00",
+  "today": "2026-08-18",
+  "lead": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window；画布如何使代理工作流程可见、可操纵且经济高效；Teaching Everyone to Fish for Tokens",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -10,10 +10,27 @@
       "source": "Simon Willison",
       "site_id": "opmlrss",
       "published_at": "2026-08-17T15:21:29+00:00",
-      "source_count": 3,
-      "score": 62,
+      "source_count": 4,
+      "score": 64,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "由 AI 生成的 GitHub Copilot“自动修复”功能导致 Snowflake 的 Jira 系统遭到入侵",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "source": "www.wiz.io",
+      "site_id": "buzzing",
+      "published_at": "2026-08-17T16:38:11.073000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
       "reason": "",
       "label": "多源热议",
       "hot_score": 100
@@ -33,51 +50,35 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 99
     },
     {
-      "title": "AI 生成的 GitHub Copilot“Autofix”允许 Snowflake 的 Jira 受到损害",
-      "url": "https://news.ycombinator.com/item?id=49331423",
+      "title": "推出 HN：Speko (YC S26) – 用于语音 AI 的 OpenRouter",
+      "url": "https://news.ycombinator.com/item?id=49332751",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-08-17T14:42:12.184000+00:00",
+      "published_at": "2026-08-17T16:45:45.476000+00:00",
       "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 56
-    },
-    {
-      "title": "如何禁用或避免侵入性人工智能",
-      "url": "https://news.ycombinator.com/item?id=49331220",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-17T14:42:12.184000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 56
+      "hot_score": 60
     },
     {
-      "title": "显示 HN：推箱子 AI 求解器",
-      "url": "https://news.ycombinator.com/item?id=49330215",
+      "title": "法院规定，完全依靠人工智能维持秩序的法官享有司法豁免权",
+      "url": "https://news.ycombinator.com/item?id=49331625",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-08-17T13:40:22.397000+00:00",
+      "published_at": "2026-08-17T16:45:45.476000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 60
     }
   ],
   "topics": [
@@ -86,28 +87,28 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 24
+      "count": 28
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 22
+      "count": 23
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 15
+      "count": 14
     },
     {
       "slug": "qwen",
@@ -121,7 +122,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 17
     },
     {
       "slug": "coding",
@@ -167,6 +168,7 @@
     }
   ],
   "days": [
+    "2026-08-18",
     "2026-08-17"
   ],
   "week": "2026-W34",
