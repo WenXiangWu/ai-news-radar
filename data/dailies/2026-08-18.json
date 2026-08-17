@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T19:40:07.837822+00:00",
+  "generated_at": "2026-08-17T20:42:29.526398+00:00",
   "date": "2026-08-18",
   "timezone": "Asia/Shanghai",
-  "lead": "从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能；使用 NVIDIA 模型优化器通过 QAD 开发 Nemotron 3.5 Lightning NVFP4；OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
+  "lead": "相同的集群，利用率增加了 33 个点：改变的是顺序；从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能；OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -20,7 +20,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 18
+      "hot_score": 17
     },
     {
       "title": "Anthropic 解释了Claude的隐形文本水印的工作原理",
@@ -36,7 +36,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 29
+      "hot_score": 27
     },
     {
       "title": "GPT 5.6 Sol 是 OpenAI 有史以来发布的最优秀的“视觉”模型",
@@ -53,7 +53,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 78
+      "hot_score": 72
     },
     {
       "title": "Qwen3.8 27B 在人工分析中获得52分",
@@ -67,27 +67,25 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 57
-    },
-    {
-      "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-      "source": "www.reuters.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T01:58:00.413000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 27
+      "hot_score": 52
     }
   ],
   "items": [
+    {
+      "title": "相同的集群，利用率增加了 33 个点：改变的是顺序",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T19:46:21+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能",
       "url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry",
@@ -104,19 +102,6 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 NVIDIA 模型优化器通过 QAD 开发 Nemotron 3.5 Lightning NVFP4",
-      "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T18:12:48+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
       "url": "https://openai.com/index/the-defenders-window",
       "source": "OpenAI News",
@@ -128,6 +113,19 @@
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 NVIDIA 模型优化器通过 QAD 开发 Nemotron 3.5 Lightning NVFP4",
+      "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T18:12:48+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -212,7 +210,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-17T12:34:51+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "openai",
@@ -236,6 +234,23 @@
       ],
       "reason": "",
       "label": "行业动态"
+    },
+    {
+      "title": "v2.1.234",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T20:20:58+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元",
@@ -304,7 +319,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-17T09:06:32+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "deepseek",
@@ -354,37 +369,6 @@
       "score": 54,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-      "source": "www.reuters.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T01:58:00.413000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "OpenAI 宣布在俄亥俄州建立大型数据中心，Nvidia 提供 1050 亿美元担保",
-      "url": "https://news.slashdot.org/story/26/08/17/1831220/openai-announces-massive-data-center-in-ohio-with-105-billion-nvidia-guarantee",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-08-17T18:33:00+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "值得关注"
     }
