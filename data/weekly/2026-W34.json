@@ -9,7 +9,7 @@
     "2026-08-13",
     "2026-08-12"
   ],
-  "total_items": 26,
+  "total_items": 27,
   "items": [
     {
       "title": "相同的集群，利用率增加了 33 个点：改变的是顺序",
@@ -119,7 +119,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T05:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -169,11 +169,10 @@
       "score": 72,
       "official": true,
       "topics": [
-        "qwen",
-        "industry"
+        "qwen"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "v2.1.234",
@@ -182,7 +181,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-17T20:20:58+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic",
@@ -208,17 +207,15 @@
       "label": "值得关注"
     },
     {
-      "title": "Claude的作品带有人为水印，但批评者质疑这种权衡",
-      "url": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs",
-      "source": "The Decoder AI News",
+      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-08-17T11:43:19+00:00",
+      "published_at": "2026-08-17T21:27:05+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -251,13 +248,28 @@
       "label": "值得关注"
     },
     {
+      "title": "Claude的作品带有人为水印，但批评者质疑这种权衡",
+      "url": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T11:43:19+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 解释了Claude的隐形文本水印的工作原理",
       "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-08-17T10:57:13+00:00",
       "source_count": 2,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -297,13 +309,28 @@
       "label": "值得关注"
     },
     {
+      "title": "据报道 OpenAI 解散了其准备团队",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-08-16T21:32:56+00:00",
+      "source_count": 1,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "GPT 5.6 Sol 是 OpenAI 有史以来发布的最优秀的“视觉”模型",
       "url": "https://blog.roboflow.com/openai-gpt-5-6",
       "source": "blog.roboflow.com",
       "site_id": "buzzing",
       "published_at": "2026-08-17T14:29:55.280000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "openai",
@@ -311,21 +338,6 @@
       ],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "据报道 OpenAI 解散了其准备团队",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-08-16T21:32:56+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "Qwen3.8 27B 在人工分析中获得52分",
@@ -402,6 +414,6 @@
       "label": "多源热议"
     }
   ],
-  "generated_at": "2026-08-17T20:42:29.526398+00:00",
+  "generated_at": "2026-08-17T21:39:01.736812+00:00",
   "period": "2026-W34"
 }
