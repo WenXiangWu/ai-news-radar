@@ -4,8 +4,21 @@
     "2026-08-18",
     "2026-08-17"
   ],
-  "total_items": 23,
+  "total_items": 24,
   "items": [
+    {
+      "title": "使用 NVIDIA 模型优化器通过 QAD 开发 Nemotron 3.5 Lightning NVFP4",
+      "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T18:12:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
       "url": "https://openai.com/index/the-defenders-window",
@@ -43,7 +56,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T15:07:49+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -118,7 +131,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-16T22:00:39+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "qwen",
@@ -132,9 +145,9 @@
       "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
       "source": "Simon Willison",
       "site_id": "opmlrss",
-      "published_at": "2026-08-17T15:21:29+00:00",
-      "source_count": 4,
-      "score": 64,
+      "published_at": "2026-08-17T18:46:04.518000+00:00",
+      "source_count": 5,
+      "score": 66,
       "official": true,
       "topics": [],
       "reason": "",
@@ -156,21 +169,6 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 与 Nvidia 签订了创纪录的俄亥俄州数据中心租约，价值高达 1050 亿美元",
-      "url": "https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T14:13:26+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Claude的作品带有人为水印，但批评者质疑这种权衡",
       "url": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs",
       "source": "The Decoder AI News",
@@ -181,6 +179,21 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 与 Nvidia 签订了创纪录的俄亥俄州数据中心租约，价值高达 1050 亿美元",
+      "url": "https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T14:13:26+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -269,7 +282,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-17T11:33:59.048000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 54,
       "official": true,
       "topics": [
         "coding"
@@ -324,34 +337,34 @@
       "label": "多源热议"
     },
     {
-      "title": "杰夫·冈拉克 (Jeff Gundlach) 表示，让人工智能芯片成为一种资产类别看起来像是市场顶部",
-      "url": "https://thenextweb.com/news/gundlach-nvidia-compute-asset-class-warning",
-      "source": "The Next Web",
+      "title": "OpenAI 宣布在俄亥俄州建立大型数据中心，Nvidia 提供 1050 亿美元担保",
+      "url": "https://news.slashdot.org/story/26/08/17/1831220/openai-announces-massive-data-center-in-ohio-with-105-billion-nvidia-guarantee",
+      "source": "Slashdot",
       "site_id": "techurls",
-      "published_at": "2026-08-17T16:46:45+00:00",
+      "published_at": "2026-08-17T18:33:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Qwen3.8 27B 人工分析得分 52",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-08-17T17:25:17+00:00",
       "source_count": 1,
       "score": 52,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Anthropic首席执行官表示，人工智能的强烈反对“从根本上来说是一场信任危机”",
-      "url": "https://slashdot.org/story/26/08/17/1557213/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-08-17T16:00:00+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ],
-  "generated_at": "2026-08-17T17:45:22.318855+00:00",
+  "generated_at": "2026-08-17T18:56:41.465370+00:00",
   "period": "2026-08"
 }
