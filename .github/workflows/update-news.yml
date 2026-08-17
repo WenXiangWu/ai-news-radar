@@ -150,3 +150,17 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort || true; exit 1; }
           done
           git push
+
+      - name: Mirror to Gitee
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_REPO: ${{ vars.GITEE_REPO }}
+        run: |
+          if [ -z "$GITEE_TOKEN" ] || [ -z "$GITEE_REPO" ]; then
+            echo "Skip Gitee mirror: set secret GITEE_TOKEN and variable GITEE_REPO (owner/repo)"
+            exit 0
+          fi
+          git remote remove gitee 2>/dev/null || true
+          git remote add gitee "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git"
+          # Mirror current snapshot so the China-side clone stays in sync with GitHub.
+          git push gitee "HEAD:${GITHUB_REF_NAME}"
