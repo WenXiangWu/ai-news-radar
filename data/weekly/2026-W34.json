@@ -9,7 +9,7 @@
     "2026-08-13",
     "2026-08-12"
   ],
-  "total_items": 21,
+  "total_items": 23,
   "items": [
     {
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
@@ -161,21 +161,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Claude的作品带有人为水印，但批评者质疑这种权衡",
-      "url": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T11:43:19+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "OpenAI 与 Nvidia 签订了创纪录的俄亥俄州数据中心租约，价值高达 1050 亿美元",
       "url": "https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion",
       "source": "The Decoder AI News",
@@ -191,13 +176,28 @@
       "label": "值得关注"
     },
     {
+      "title": "Claude的作品带有人为水印，但批评者质疑这种权衡",
+      "url": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T11:43:19+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 解释了Claude的隐形文本水印的工作原理",
       "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-08-17T10:57:13+00:00",
       "source_count": 2,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
@@ -228,7 +228,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-16T16:53:51+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -243,26 +243,11 @@
       "site_id": "buzzing",
       "published_at": "2026-08-17T14:29:55.280000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai",
         "launch"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
-      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "source": "daringfireball.net",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T00:06:02.469000+00:00",
-      "source_count": 4,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "多源热议"
@@ -283,22 +268,6 @@
       "label": "值得关注"
     },
     {
-      "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-      "source": "www.reuters.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T01:58:00.413000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
       "title": "MathCode，数学编码代理",
       "url": "https://math-ai-org.github.io/mathcode",
       "source": "math-ai-org.github.io",
@@ -314,6 +283,37 @@
       "label": "值得关注"
     },
     {
+      "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+      "source": "www.reuters.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-17T01:58:00.413000+00:00",
+      "source_count": 3,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "source": "daringfireball.net",
+      "site_id": "buzzing",
+      "published_at": "2026-08-17T00:06:02.469000+00:00",
+      "source_count": 3,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "Anthropic首席执行官表示人工智能赢得公众的方式是治愈癌症",
       "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
       "source": "Hacker News · 24h最热",
@@ -327,8 +327,36 @@
       ],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "杰夫·冈拉克 (Jeff Gundlach) 表示，让人工智能芯片成为一种资产类别看起来像是市场顶部",
+      "url": "https://thenextweb.com/news/gundlach-nvidia-compute-asset-class-warning",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-08-17T16:46:45+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic首席执行官表示，人工智能的强烈反对“从根本上来说是一场信任危机”",
+      "url": "https://slashdot.org/story/26/08/17/1557213/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-08-17T16:00:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
     }
   ],
-  "generated_at": "2026-08-17T16:46:08.305982+00:00",
+  "generated_at": "2026-08-17T17:45:22.318855+00:00",
   "period": "2026-W34"
 }
