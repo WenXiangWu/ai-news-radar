@@ -118,6 +118,21 @@ OFFICIAL_AI_FEEDS: tuple[dict[str, str], ...] = (
         "html_url": "https://github.com/openai/skills",
         "include_keywords": "hatch,pet,migrate-to-codex",
     },
+    {
+        "title": "MCP Spec Releases",
+        "xml_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases.atom",
+        "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases",
+    },
+    {
+        "title": "LangGraph Releases",
+        "xml_url": "https://github.com/langchain-ai/langgraph/releases.atom",
+        "html_url": "https://github.com/langchain-ai/langgraph/releases",
+    },
+    {
+        "title": "Qwen Blog",
+        "xml_url": "https://qwenlm.github.io/blog/index.xml",
+        "html_url": "https://qwenlm.github.io/blog/",
+    },
 )
 OFFICIAL_AI_MAX_AGE_DAYS = 45
 CURATED_AI_MEDIA_MAX_AGE_DAYS = 30
@@ -6674,6 +6689,17 @@ def main() -> int:
     print(f"Wrote: {latest_path} ({len(latest_items)} items)")
     print(f"Wrote: {latest_all_path} ({len(latest_items_all_dedup)} all-mode items)")
     print(f"Wrote: {latest_all_raw_path} ({len(latest_items_all_raw_dedup)} raw items, dev-only)")
+    try:
+        import sys
+        scripts_dir = str(Path(__file__).resolve().parent)
+        if scripts_dir not in sys.path:
+            sys.path.insert(0, scripts_dir)
+        from build_editorial import build as build_editorial_pack
+        editorial_hub = build_editorial_pack(output_dir)
+        print(f"Wrote editorial pack for {editorial_hub.get('today')} ({editorial_hub.get('brief_count')} items)")
+    except Exception as exc:
+        print(f"Editorial pack skipped: {exc}")
+
     print(f"Wrote: {daily_brief_path} ({daily_brief_payload.get('total_items', 0)} brief items)")
     print(f"Wrote: {stories_merged_path} ({stories_merged_payload.get('total_stories', 0)} stories)")
     print(f"Wrote: {merge_log_path} ({len(merge_events)} merge events)")

@@ -170,9 +170,15 @@ jobs:
             "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" "$work"
           mkdir -p "$work/$dest"
           # Slim files only — skip archive / latest-24h-all to keep the learning repo small.
-          for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json; do
+          for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json; do
             if [ -f "data/$f" ]; then
               cp "data/$f" "$work/$dest/$f"
+            fi
+          done
+          for dir in dailies hot topics weekly monthly; do
+            if [ -d "data/$dir" ]; then
+              rm -rf "$work/$dest/$dir"
+              cp -R "data/$dir" "$work/$dest/$dir"
             fi
           done
           printf '%s\n' \
