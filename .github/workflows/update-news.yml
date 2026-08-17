@@ -151,16 +151,41 @@ jobs:
           done
           git push
 
-      - name: Mirror to Gitee
+      - name: Publish snapshot to way-to-agentic
         env:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
           GITEE_REPO: ${{ vars.GITEE_REPO }}
+          GITEE_BRANCH: ${{ vars.GITEE_BRANCH }}
+          GITEE_DATA_PATH: ${{ vars.GITEE_DATA_PATH }}
         run: |
           if [ -z "$GITEE_TOKEN" ] || [ -z "$GITEE_REPO" ]; then
-            echo "Skip Gitee mirror: set secret GITEE_TOKEN and variable GITEE_REPO (owner/repo)"
+            echo "Skip Gitee publish: set secret GITEE_TOKEN and variable GITEE_REPO (owner/repo)"
             exit 0
           fi
-          git remote remove gitee 2>/dev/null || true
-          git remote add gitee "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git"
-          # Mirror current snapshot so the China-side clone stays in sync with GitHub.
-          git push gitee "HEAD:${GITHUB_REF_NAME}"
+          branch="${GITEE_BRANCH:-master}"
+          dest="${GITEE_DATA_PATH:-frontend/frontier/radar-data}"
+          work=/tmp/way-to-agentic-mirror
+          rm -rf "$work"
+          git clone --depth 1 --branch "$branch" \
+            "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" "$work"
+          mkdir -p "$work/$dest"
+          # Slim files only — skip archive / latest-24h-all to keep the learning repo small.
+          for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json; do
+            if [ -f "data/$f" ]; then
+              cp "data/$f" "$work/$dest/$f"
+            fi
+          done
+          printf '%s\n' \
+            '# Radar snapshot (generated)' \
+            '' \
+            'Copied by GitHub Actions from ai-news-radar. Do not edit by hand.' \
+            > "$work/$dest/README.md"
+          git -C "$work" config user.name "github-actions[bot]"
+          git -C "$work" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$work" add "$dest"
+          if git -C "$work" diff --cached --quiet; then
+            echo "No radar snapshot changes for way-to-agentic"
+            exit 0
+          fi
+          git -C "$work" commit -m "chore: refresh radar snapshot"
+          git -C "$work" push origin "HEAD:$branch"
