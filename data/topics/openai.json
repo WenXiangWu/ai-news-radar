@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-08-17T05:49:11.360364+00:00",
+  "generated_at": "2026-08-17T07:15:07.959779+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 16,
+  "total_items": 18,
   "items": [
+    {
+      "title": "348 万澳元报告被 ChatGPT\"润色\"：澳大利亚社媒禁令技术依据遭假引用反噬",
+      "url": "https://www.aibase.com/news/30393",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-17T07:14:21.522320+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "Codex 中 GPT-5.6 Sol 百万上下文放开：ChatGPT 账号也能用",
       "url": "https://www.aibase.com/news/30389",
@@ -63,7 +79,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-17T01:53:18.299148+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -79,7 +95,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-17T01:53:18.299148+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -95,7 +111,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-17T01:53:18.299148+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -111,7 +127,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-17T01:53:18.299148+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -119,6 +135,23 @@
       ],
       "reason": "",
       "label": "行业动态"
+    },
+    {
+      "title": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. The same warning applies, there is a reason the current context length...",
+      "url": "https://x.com/thsottiaux/status/2089143488696705077",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-17T00:13:16+00:00",
+      "source_count": 1,
+      "score": 67,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "据报道 OpenAI 解散了其准备团队",
@@ -131,6 +164,23 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. Even though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here i...",
+      "url": "https://x.com/thsottiaux/status/2089082893804896524",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-16T20:12:29+00:00",
+      "source_count": 1,
+      "score": 66,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -159,7 +209,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-16T15:35:36+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai"
@@ -240,21 +290,6 @@
       "source_count": 1,
       "score": 59,
       "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "On tokens and prices per token. I said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like...",
-      "url": "https://x.com/thsottiaux/status/2088866513008873560",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-16T05:52:40+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
       "topics": [
         "openai"
       ],
