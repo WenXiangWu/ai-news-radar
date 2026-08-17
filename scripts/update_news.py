@@ -133,6 +133,85 @@ OFFICIAL_AI_FEEDS: tuple[dict[str, str], ...] = (
         "xml_url": "https://qwenlm.github.io/blog/index.xml",
         "html_url": "https://qwenlm.github.io/blog/",
     },
+    {
+        "title": "Google Research Blog",
+        "xml_url": "https://research.google/blog/rss/",
+        "html_url": "https://research.google/blog/",
+        "include_keywords": "ai,agent,gemini,llm,rag,language model,reasoning,multimodal",
+    },
+    {
+        "title": "Azure AI Foundry Blog",
+        "xml_url": "https://devblogs.microsoft.com/foundry/feed/",
+        "html_url": "https://devblogs.microsoft.com/foundry/",
+        "include_keywords": "agent,semantic kernel,autogen,azure,foundry,copilot,openai",
+    },
+    {
+        "title": "NVIDIA Developer Blog",
+        "xml_url": "https://developer.nvidia.com/blog/feed",
+        "html_url": "https://developer.nvidia.com/blog",
+        "include_keywords": "agent,nemo,nim,rag,llm,inference,cosmos",
+    },
+    {
+        "title": "Simon Willison",
+        "xml_url": "https://simonwillison.net/atom/everything/",
+        "html_url": "https://simonwillison.net/",
+        "include_keywords": "llm,agent,mcp,tool,eval,prompt,sqlite,claude,gpt,openai",
+    },
+    {
+        "title": "Hamel Husain",
+        "xml_url": "https://hamel.dev/index.xml",
+        "html_url": "https://hamel.dev/",
+    },
+    {
+        "title": "Lilian Weng",
+        "xml_url": "https://lilianweng.github.io/index.xml",
+        "html_url": "https://lilianweng.github.io/",
+    },
+    {
+        "title": "Chip Huyen",
+        "xml_url": "https://huyenchip.com/feed.xml",
+        "html_url": "https://huyenchip.com/",
+    },
+    {
+        "title": "Eugene Yan",
+        "xml_url": "https://eugeneyan.com/rss/",
+        "html_url": "https://eugeneyan.com/",
+    },
+    {
+        "title": "Jason Liu",
+        "xml_url": "https://jxnl.co/feed_rss_created.xml",
+        "html_url": "https://jxnl.co/",
+    },
+    {
+        "title": "Interconnects",
+        "xml_url": "https://www.interconnects.ai/feed",
+        "html_url": "https://www.interconnects.ai/",
+    },
+    {
+        "title": "Latent Space",
+        "xml_url": "https://www.latent.space/feed",
+        "html_url": "https://www.latent.space/",
+    },
+    {
+        "title": "Meta Llama Releases",
+        "xml_url": "https://github.com/meta-llama/llama-models/releases.atom",
+        "html_url": "https://github.com/meta-llama/llama-models/releases",
+    },
+    {
+        "title": "Mistral Releases",
+        "xml_url": "https://github.com/mistralai/mistral-inference/releases.atom",
+        "html_url": "https://github.com/mistralai/mistral-inference/releases",
+    },
+    {
+        "title": "vLLM Releases",
+        "xml_url": "https://github.com/vllm-project/vllm/releases.atom",
+        "html_url": "https://github.com/vllm-project/vllm/releases",
+    },
+    {
+        "title": "SGLang Releases",
+        "xml_url": "https://github.com/sgl-project/sglang/releases.atom",
+        "html_url": "https://github.com/sgl-project/sglang/releases",
+    },
 )
 OFFICIAL_AI_MAX_AGE_DAYS = 45
 CURATED_AI_MEDIA_MAX_AGE_DAYS = 30
@@ -4786,6 +4865,12 @@ def _get_translation_glossary() -> tuple[list[str], list[tuple[str, str, str | N
     return _GLOSSARY_CACHE
 
 
+def translate_use_deepseek() -> bool:
+    """DeepSeek 翻译默认关闭；设 TRANSLATE_USE_DEEPSEEK=1/true/on 才启用。"""
+    raw = str(os.environ.get("TRANSLATE_USE_DEEPSEEK") or "").strip().lower()
+    return raw in {"1", "true", "yes", "on"}
+
+
 def translate_to_zh_deepseek(text: str, timeout: int = 20) -> str | None:
     s = (text or "").strip()
     if not s:
@@ -5009,35 +5094,37 @@ def add_bilingual_fields(
 
         out["title_en"] = title
 
-        has_ds_key = bool(str(os.environ.get("DEEPSEEK_API_KEY") or "").strip())
+        use_ds = translate_use_deepseek() and bool(str(os.environ.get("DEEPSEEK_API_KEY") or "").strip())
         cache_hit_key: str | None = None
         zh_title = zh_by_url.get(url)
         if not zh_title:
             ds_key = ZH_CACHE_DS_PREFIX + title
             cached_ds = cache.get(ds_key)
-            if cached_ds and is_valid_zh_translation(title, cached_ds, strict=False):
+            cached_google = cache.get(title)
+            if use_ds and cached_ds and is_valid_zh_translation(title, cached_ds, strict=False):
                 zh_title = cached_ds
                 cache_hit_key = ds_key
-            elif not has_ds_key:
-                # 谷歌时代的裸 key 旧缓存只在 DeepSeek 不可用时兜底命中；
-                # 有 key 时视为 miss，触发 DeepSeek 重译逐步替换旧翻译。
-                cached_google = cache.get(title)
-                if cached_google and is_valid_zh_translation(title, cached_google, strict=False):
-                    zh_title = cached_google
-                    cache_hit_key = title
+            elif not use_ds and cached_google and is_valid_zh_translation(title, cached_google, strict=False):
+                zh_title = cached_google
+                cache_hit_key = title
+            elif not use_ds and cached_ds and is_valid_zh_translation(title, cached_ds, strict=False):
+                zh_title = cached_ds
+                cache_hit_key = ds_key
         if not zh_title and allow_translate:
             budget = max_new_translations if is_ai_pool else max_new_translations_all
             translated_now = translated_now_ai if is_ai_pool else translated_now_all
             if translated_now < budget:
-                tr = translate_to_zh_deepseek(title)
-                if tr and is_valid_zh_translation(title, tr):
-                    zh_title = repair_zh_title_translation(title, tr)
-                    cache[ZH_CACHE_DS_PREFIX + title] = zh_title
-                    if is_ai_pool:
-                        translated_now_ai += 1
-                    else:
-                        translated_now_all += 1
-                else:
+                tr = None
+                if use_ds:
+                    tr = translate_to_zh_deepseek(title)
+                    if tr and is_valid_zh_translation(title, tr):
+                        zh_title = repair_zh_title_translation(title, tr)
+                        cache[ZH_CACHE_DS_PREFIX + title] = zh_title
+                        if is_ai_pool:
+                            translated_now_ai += 1
+                        else:
+                            translated_now_all += 1
+                if not zh_title:
                     tr = translate_to_zh_cn(session, title)
                     if tr and is_valid_zh_translation(title, tr):
                         zh_title = repair_zh_title_translation(title, tr)

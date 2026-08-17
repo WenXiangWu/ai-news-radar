@@ -21,7 +21,7 @@ EN_TITLE = "OpenAI launches new Codex agent for developers"
 DS_ZH = "OpenAI 为开发者推出全新 Codex 智能体"
 GOOGLE_ZH = "OpenAI 为开发人员推出新的 Codex 代理"
 
-DS_ENV = {"DEEPSEEK_API_KEY": "sk-test"}
+DS_ENV = {"DEEPSEEK_API_KEY": "sk-test", "TRANSLATE_USE_DEEPSEEK": "1"}
 
 
 def make_item(title: str = EN_TITLE) -> dict:
@@ -85,6 +85,16 @@ class TestDeepSeekPriority(unittest.TestCase):
     def test_no_key_goes_straight_to_google(self):
         session = google_session()
         with patch.dict("os.environ", {}, clear=True), patch(
+            "scripts.update_news.requests.post"
+        ) as mock_post:
+            items, cache = run_enrich(session, {})
+        mock_post.assert_not_called()
+        session.get.assert_called_once()
+        self.assertEqual(items[0]["title_zh"], GOOGLE_ZH)
+
+    def test_key_without_switch_uses_google(self):
+        session = google_session()
+        with patch.dict("os.environ", {"DEEPSEEK_API_KEY": "sk-test"}, clear=True), patch(
             "scripts.update_news.requests.post"
         ) as mock_post:
             items, cache = run_enrich(session, {})

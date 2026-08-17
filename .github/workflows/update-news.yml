@@ -21,7 +21,7 @@ permissions:
 
 jobs:
   update:
-    timeout-minutes: 40
+    timeout-minutes: 55
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -101,6 +101,7 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
+          TRANSLATE_USE_DEEPSEEK: ${{ vars.TRANSLATE_USE_DEEPSEEK }}
           TITLE_ENHANCE_MAX_PER_RUN: ${{ vars.TITLE_ENHANCE_MAX_PER_RUN }}
         run: |
           if [ -f feeds/follow.opml ]; then
@@ -157,6 +158,13 @@ jobs:
           GITEE_REPO: ${{ vars.GITEE_REPO }}
           GITEE_BRANCH: ${{ vars.GITEE_BRANCH }}
           GITEE_DATA_PATH: ${{ vars.GITEE_DATA_PATH }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
+          TRANSLATE_USE_DEEPSEEK: ${{ vars.TRANSLATE_USE_DEEPSEEK }}
+          KNOWLEDGE_MAX_NEW: ${{ vars.KNOWLEDGE_MAX_NEW }}
+          KNOWLEDGE_MAX_NEW_TOTAL: ${{ vars.KNOWLEDGE_MAX_NEW_TOTAL }}
+          KNOWLEDGE_SOURCES: ${{ vars.KNOWLEDGE_SOURCES }}
         run: |
           if [ -z "$GITEE_TOKEN" ] || [ -z "$GITEE_REPO" ]; then
             echo "Skip Gitee publish: set secret GITEE_TOKEN and variable GITEE_REPO (owner/repo)"
@@ -168,9 +176,27 @@ jobs:
           rm -rf "$work"
           git clone --depth 1 --branch "$branch" \
             "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" "$work"
+          ks_report=/tmp/knowledge-job-report.json
+          rm -f "$ks_report"
+          if [ -d "$work/frontend/sources" ]; then
+            python scripts/sync_knowledge_sources.py \
+              --sources-root "$work/frontend/sources" \
+              --only "${KNOWLEDGE_SOURCES:-engineering,cookbook,openai_cookbook,langchain_blog}" \
+              --max-new "${KNOWLEDGE_MAX_NEW:-2}" \
+              --max-new-total "${KNOWLEDGE_MAX_NEW_TOTAL:-4}" \
+              --report-out "$ks_report" \
+              || echo "::warning::knowledge source sync failed; radar snapshot still publishes"
+          else
+            echo "Skip knowledge-source sync (frontend/sources missing)"
+          fi
+          if [ -f "$ks_report" ]; then
+            python scripts/write_job_report.py --data-dir data --knowledge-json "$ks_report" --out data/job-report.json
+          else
+            python scripts/write_job_report.py --data-dir data --out data/job-report.json
+          fi
           mkdir -p "$work/$dest"
           # Slim files only — skip archive / latest-24h-all to keep the learning repo small.
-          for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json; do
+          for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json job-report.json; do
             if [ -f "data/$f" ]; then
               cp "data/$f" "$work/$dest/$f"
             fi
@@ -189,9 +215,12 @@ jobs:
           git -C "$work" config user.name "github-actions[bot]"
           git -C "$work" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git -C "$work" add "$dest"
+          if [ -d "$work/frontend/sources" ]; then
+            git -C "$work" add frontend/sources
+          fi
           if git -C "$work" diff --cached --quiet; then
             echo "No radar snapshot changes for way-to-agentic"
             exit 0
           fi
-          git -C "$work" commit -m "chore: refresh radar snapshot"
+          git -C "$work" commit -m "chore: refresh radar snapshot and knowledge sources"
           git -C "$work" push origin "HEAD:$branch"
