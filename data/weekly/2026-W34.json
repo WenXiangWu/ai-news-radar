@@ -9,7 +9,7 @@
     "2026-08-13",
     "2026-08-12"
   ],
-  "total_items": 31,
+  "total_items": 32,
   "items": [
     {
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
@@ -37,6 +37,21 @@
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T08:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -135,24 +150,9 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T15:07:49+00:00",
       "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T08:00:00+00:00",
-      "source_count": 1,
       "score": 80,
       "official": true,
-      "topics": [
-        "google"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -163,7 +163,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-17T23:22:25.902000+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "agent"
@@ -226,22 +226,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-18T07:37:25+00:00",
       "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic的年化收入飙升至$65B",
-      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T23:56:26+00:00",
-      "source_count": 1,
-      "score": 62,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -263,6 +248,21 @@
       "label": "多源热议"
     },
     {
+      "title": "Anthropic的年化收入飙升至$65B",
+      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T23:56:26+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "v2.1.234",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "source": "Claude Code Releases",
@@ -275,21 +275,6 @@
         "anthropic",
         "agent",
         "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元",
-      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T15:16:24+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -308,11 +293,11 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 与 Nvidia 签订了创纪录的俄亥俄州数据中心租约，价值高达 1050 亿美元",
-      "url": "https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion",
-      "source": "The Decoder AI News",
+      "title": "Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元",
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-08-17T14:13:26+00:00",
+      "published_at": "2026-08-17T15:16:24+00:00",
       "source_count": 1,
       "score": 60,
       "official": true,
@@ -333,6 +318,21 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 与 Nvidia 签订了创纪录的俄亥俄州数据中心租约，价值高达 1050 亿美元",
+      "url": "https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T14:13:26+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -474,8 +474,21 @@
       ],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "Qwen3.8 27B 在人工分析中获得52分",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+      "source": "artificialanalysis.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-08-17T19:01:59.352000+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
     }
   ],
-  "generated_at": "2026-08-18T07:52:14.879361+00:00",
+  "generated_at": "2026-08-18T08:52:28.693485+00:00",
   "period": "2026-W34"
 }
