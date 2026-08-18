@@ -58,21 +58,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T00:00:00+00:00",
-      "source_count": 2,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
       "url": "https://openai.com/index/the-defenders-window",
       "source": "OpenAI News",
@@ -98,6 +83,21 @@
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T00:00:00+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -239,11 +239,11 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Stripe 以 7B 美元收购 OpenRouter",
-      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "source": "Latent Space",
+      "title": "使用 NVIDIA 模型优化器通过 QAD 开发 Nemotron 3.5 Lightning NVFP4",
+      "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-17T23:13:41+00:00",
+      "published_at": "2026-08-17T18:12:48+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
@@ -252,13 +252,13 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 NVIDIA 模型优化器通过 QAD 开发 Nemotron 3.5 Lightning NVFP4",
-      "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
-      "source": "NVIDIA Developer Blog",
+      "title": "[AINews] Stripe 以 7B 美元收购 OpenRouter",
+      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-08-17T18:12:48+00:00",
+      "published_at": "2026-08-17T23:13:41+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
@@ -352,11 +352,10 @@
       "score": 72,
       "official": true,
       "topics": [
-        "google",
-        "industry"
+        "google"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Hugging Face 泄露后 OpenAI 制定了新的保障措施",
@@ -404,6 +403,23 @@
       "label": "值得关注"
     },
     {
+      "title": "v2.1.235",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T20:38:54+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "OpenAI 表示，随着人工智能网络安全风险变得过于危险，它正在“调整模型开发”",
       "url": "https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous",
       "source": "The Decoder AI News",
@@ -424,36 +440,6 @@
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-08-18T13:50:30+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic CEO says AI centralizes by nature and open models just shift power to whoever owns the chips",
-      "url": "https://the-decoder.com/anthropic-ceo-says-ai-centralizes-by-nature-and-open-models-just-shift-power-to-whoever-owns-the-chips",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T13:07:57+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 推出专为青少年打造的 ChatGPT 版本",
-      "url": "https://the-decoder.com/openai-launches-a-chatgpt-version-built-for-teens",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T11:27:29+00:00",
       "source_count": 1,
       "score": 63,
       "official": true,
@@ -509,6 +495,36 @@
       "label": "值得关注"
     },
     {
+      "title": "Anthropic CEO says AI centralizes by nature and open models just shift power to whoever owns the chips",
+      "url": "https://the-decoder.com/anthropic-ceo-says-ai-centralizes-by-nature-and-open-models-just-shift-power-to-whoever-owns-the-chips",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T13:07:57+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 推出专为青少年打造的 ChatGPT 版本",
+      "url": "https://the-decoder.com/openai-launches-a-chatgpt-version-built-for-teens",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T11:27:29+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 的每个代币成本是 Vercel 平均成本的 4.4 倍，且开发者持续付费",
       "url": "https://the-decoder.com/anthropics-per-token-cost-runs-4-4-times-the-average-on-vercel-and-developers-keep-paying",
       "source": "The Decoder AI News",
@@ -550,21 +566,6 @@
       "topics": [],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "OpenAI 在其 AI 黑客入侵 Hugging Face 后推出了新的安全更改",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T19:28:30+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "Anthropic的年化收入飙升至$65B",
@@ -613,6 +614,6 @@
       "label": "值得关注"
     }
   ],
-  "generated_at": "2026-08-18T20:38:58.556351+00:00",
+  "generated_at": "2026-08-18T21:36:51.330344+00:00",
   "period": "2026-W34"
 }
