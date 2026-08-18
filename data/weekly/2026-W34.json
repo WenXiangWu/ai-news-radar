@@ -9,8 +9,23 @@
     "2026-08-13",
     "2026-08-12"
   ],
-  "total_items": 29,
+  "total_items": 31,
   "items": [
+    {
+      "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T05:30:00+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "相同的集群，利用率增加了 33 个点：改变的是顺序",
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
@@ -55,12 +70,12 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
-      "url": "https://openai.com/index/the-defenders-window",
+      "title": "OpenAI 加入 PORTS-Pike 项目",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-17T05:30:00+00:00",
-      "source_count": 2,
+      "published_at": "2026-08-17T05:00:00+00:00",
+      "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
@@ -133,25 +148,10 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T08:00:00+00:00",
       "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 加入 PORTS-Pike 项目",
-      "url": "https://openai.com/index/openai-joins-ports-pike-project",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T05:00:00+00:00",
-      "source_count": 1,
       "score": 80,
       "official": true,
       "topics": [
-        "openai"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -204,6 +204,21 @@
       "label": "行业动态"
     },
     {
+      "title": "inclusionAI 开源 ConceptEdit：基于概念缩放与密集监督的图像编辑数据生成管线",
+      "url": "https://github.com/inclusionAI/ConceptEdit",
+      "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+      "site_id": "aihot",
+      "published_at": "2026-08-17T07:22:08+00:00",
+      "source_count": 1,
+      "score": 69,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic的年化收入飙升至$65B",
       "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b",
       "source": "TechCrunch AI",
@@ -214,23 +229,6 @@
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.234",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T20:20:58+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -249,15 +247,19 @@
       "label": "多源热议"
     },
     {
-      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
-      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
-      "source": "TechCrunch AI",
+      "title": "v2.1.234",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
+      "source": "Claude Code Releases",
       "site_id": "curated_media",
-      "published_at": "2026-08-17T21:27:05+00:00",
+      "published_at": "2026-08-17T20:20:58+00:00",
       "source_count": 1,
       "score": 61,
       "official": true,
-      "topics": [],
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -288,6 +290,19 @@
       "topics": [
         "anthropic"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T21:27:05+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -343,7 +358,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-17T09:06:32+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "deepseek",
@@ -443,8 +458,21 @@
       ],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "Qwen3.8 27B 在人工分析中获得52分",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+      "source": "artificialanalysis.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-08-17T19:01:59.352000+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
     }
   ],
-  "generated_at": "2026-08-18T04:51:01.841126+00:00",
+  "generated_at": "2026-08-18T05:44:03.333620+00:00",
   "period": "2026-W34"
 }
