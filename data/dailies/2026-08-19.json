@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:41:16.683583+00:00",
+  "generated_at": "2026-08-18T23:34:34.291055+00:00",
   "date": "2026-08-19",
   "timezone": "Asia/Shanghai",
   "lead": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准；OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护；Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 41
+      "hot_score": 38
     },
     {
       "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
@@ -37,7 +37,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 23
+      "hot_score": 21
     },
     {
       "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
@@ -53,7 +53,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 9
+      "hot_score": 8
     }
   ],
   "items": [
@@ -213,7 +213,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-18T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -224,15 +224,17 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Stripe 以 7B 美元收购 OpenRouter",
-      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "source": "Latent Space",
+      "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识",
+      "url": "https://openai.com/index/nvidia/chatgpt-work",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-17T23:13:41+00:00",
+      "published_at": "2026-08-18T00:00:00+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -251,21 +253,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
-      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
-      "source": "Google Developers Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-17T23:22:25.902000+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
     },
     {
       "title": "OpenAI 暂缓前沿训练强化安全监控",
@@ -290,7 +277,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-18T07:00:00+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": true,
       "topics": [
         "google"
@@ -305,25 +292,10 @@
       "site_id": "curated_media",
       "published_at": "2026-08-18T22:14:25+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Hugging Face 泄露后 OpenAI 制定了新的保障措施",
-      "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T18:00:00+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -346,13 +318,43 @@
       "label": "值得关注"
     },
     {
+      "title": "Hugging Face 泄露后 OpenAI 制定了新的保障措施",
+      "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T18:00:00+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 为青少年推出了更安全的 ChatGPT——在青少年开始使用几年后",
+      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T13:50:30+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "OpenAI 表示，随着人工智能网络安全风险变得过于危险，它正在“调整模型开发”",
       "url": "https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-08-18T18:43:06+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
