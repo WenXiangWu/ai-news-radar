@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-08-18T18:55:10.854448+00:00",
+  "generated_at": "2026-08-18T19:39:07.863306+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 24,
+  "total_items": 22,
   "items": [
+    {
+      "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+      "url": "https://claude.com/blog/ai-ci-cd-on-call",
+      "source": "Claude：Blog（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-08-18T19:26:08.389000+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "Claude Code 2026 年 5 月至 8 月每周限量促销",
       "url": "https://news.ycombinator.com/item?id=49348751",
@@ -28,14 +44,14 @@
       "source": "status.claude.com",
       "site_id": "buzzing",
       "published_at": "2026-08-18T17:09:55.487000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "source_count": 3,
+      "score": 56,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
     },
     {
       "title": "显示 HN：Cronloop，按计划运行 Claude Code 或 Codex",
@@ -314,7 +330,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-17T20:20:58+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "anthropic",
@@ -330,52 +346,6 @@
       "source": "Techmeme",
       "site_id": "techurls",
       "published_at": "2026-08-17T20:00:55+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能",
-      "url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T19:20:07+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic对开源AI的战争",
-      "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
-      "source": "twitter.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T19:17:55.343000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "约翰·格鲁伯 (John Gruber) 称Claude的人工智能水印“明显具有攻击性”",
-      "url": "https://www.businessinsider.com/john-gruber-claude-watermark-perversion-offensive-ai-2026-8",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-08-17T19:09:55+00:00",
       "source_count": 1,
       "score": 47,
       "official": false,

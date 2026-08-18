@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-08-18T18:55:10.854448+00:00",
+  "generated_at": "2026-08-18T19:39:07.863306+00:00",
   "date": "2026-08-19",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护；您的代理实际需要多少内存？；带有句子变压器的多向量（后期交互）嵌入模型",
+  "lead": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准；OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护；Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T18:09:38+00:00",
+      "source_count": 2,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 53
+    },
     {
       "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
       "url": "https://openai.com/index/chatgpt-for-teens",
@@ -13,17 +30,17 @@
       "site_id": "official_ai",
       "published_at": "2026-08-18T11:00:00+00:00",
       "source_count": 2,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 31
+      "hot_score": 29
     },
     {
-      "title": "带有句子变压器的多向量（后期交互）嵌入模型",
+      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
@@ -41,13 +58,29 @@
   ],
   "items": [
     {
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T18:09:38+00:00",
+      "source_count": 2,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
       "url": "https://openai.com/index/chatgpt-for-teens",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-08-18T11:00:00+00:00",
       "source_count": 2,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
@@ -56,22 +89,7 @@
       "label": "官方更新"
     },
     {
-      "title": "您的代理实际需要多少内存？",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T18:09:38+00:00",
-      "source_count": 1,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "带有句子变压器的多向量（后期交互）嵌入模型",
+      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
@@ -176,21 +194,6 @@
       "label": "官方更新"
     },
     {
-      "title": "从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能",
-      "url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T19:20:07+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
       "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
       "source": "Google Developers Blog（RSS）",
@@ -244,7 +247,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-18T18:00:00+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "openai"
@@ -259,7 +262,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-18T18:43:06+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "openai"
@@ -273,21 +276,6 @@
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-08-18T13:50:30+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI总裁敦促企业加快AI安全防御",
-      "url": "https://www.artificialintelligence-news.com/news/openai-president-urges-enterprises-hasten-ai-security-defences",
-      "source": "Artificial Intelligence News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T14:58:27+00:00",
       "source_count": 1,
       "score": 63,
       "official": true,
@@ -328,6 +316,21 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI总裁敦促企业加快AI安全防御",
+      "url": "https://www.artificialintelligence-news.com/news/openai-president-urges-enterprises-hasten-ai-security-defences",
+      "source": "Artificial Intelligence News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T14:58:27+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 的每个代币成本是 Vercel 平均成本的 4.4 倍，且开发者持续付费",
       "url": "https://the-decoder.com/anthropics-per-token-cost-runs-4-4-times-the-average-on-vercel-and-developers-keep-paying",
       "source": "The Decoder AI News",
@@ -335,6 +338,21 @@
       "published_at": "2026-08-18T10:45:00+00:00",
       "source_count": 1,
       "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 收入增长七倍，年化增长率超过 650 亿美元",
+      "url": "https://the-decoder.com/anthropic-increases-revenue-sevenfold-hits-annualized-rate-above-65-billion",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T07:37:25+00:00",
+      "source_count": 1,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"

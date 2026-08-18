@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T18:55:10.854448+00:00",
+  "generated_at": "2026-08-18T19:39:07.863306+00:00",
   "today": "2026-08-19",
-  "lead": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护；您的代理实际需要多少内存？；带有句子变压器的多向量（后期交互）嵌入模型",
+  "lead": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准；OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护；Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -22,6 +22,22 @@
       "hot_score": 100
     },
     {
+      "title": "克劳德：多种模型的性能下降",
+      "url": "https://status.claude.com/incidents/q7txxvbsftgq",
+      "source": "status.claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-18T17:09:55.487000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 98
+    },
+    {
       "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能",
       "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
       "source": "www.theregister.com",
@@ -33,53 +49,38 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 68
+      "hot_score": 64
     },
     {
-      "title": "克劳德：多种模型的性能下降",
-      "url": "https://status.claude.com/incidents/q7txxvbsftgq",
-      "source": "status.claude.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-18T17:09:55.487000+00:00",
+      "title": "显示 HN：PantheonGPU – GPU 运行状况测试和 AI 工作负载基准测试",
+      "url": "https://news.ycombinator.com/item?id=49350637",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-18T19:11:40.225000+00:00",
       "source_count": 2,
       "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 52
-    },
-    {
-      "title": "NeoBrowser：一个 MCP 服务器，可通过您登录的会话驱动真正的 Chrome",
-      "url": "https://news.ycombinator.com/item?id=49345320",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-18T14:25:21.049000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 41
-    },
-    {
-      "title": "Show HN：我取消了我的 AI 代码审查器并编写了一个免费的本地代码审查器",
-      "url": "https://news.ycombinator.com/item?id=49345154",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-18T14:25:21.049000+00:00",
-      "source_count": 2,
-      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 41
+      "hot_score": 58
+    },
+    {
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T18:09:38+00:00",
+      "source_count": 2,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 53
     }
   ],
   "topics": [
@@ -88,14 +89,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 28
+      "count": 29
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 24
+      "count": 22
     },
     {
       "slug": "google",
@@ -123,7 +124,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "coding",
@@ -144,7 +145,7 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 8
+      "count": 7
     },
     {
       "slug": "launch",
