@@ -1,6 +1,7 @@
 {
   "title": "2026-08 月报",
   "dates": [
+    "2026-08-19",
     "2026-08-18",
     "2026-08-17"
   ],
@@ -28,7 +29,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-18T00:00:00+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource"
@@ -62,6 +63,23 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作",
+      "url": "https://openai.com/index/asana",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T07:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -126,19 +144,6 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Stripe 以 7B 美元收购 OpenRouter",
-      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T23:13:41+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "相同的集群，利用率增加了 33 个点：改变的是顺序",
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
       "source": "Hugging Face Blog",
@@ -154,13 +159,26 @@
       "label": "官方更新"
     },
     {
+      "title": "[AINews] Stripe 以 7B 美元收购 OpenRouter",
+      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T23:13:41+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能",
       "url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry",
       "source": "Azure AI Foundry Blog",
       "site_id": "official_ai",
       "published_at": "2026-08-17T19:20:07+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "anthropic"
@@ -335,6 +353,21 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI总裁敦促企业加快AI安全防御",
+      "url": "https://www.artificialintelligence-news.com/news/openai-president-urges-enterprises-hasten-ai-security-defences",
+      "source": "Artificial Intelligence News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T14:58:27+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 的每个代币成本是 Vercel 平均成本的 4.4 倍，且开发者持续付费",
       "url": "https://the-decoder.com/anthropics-per-token-cost-runs-4-4-times-the-average-on-vercel-and-developers-keep-paying",
       "source": "The Decoder AI News",
@@ -380,21 +413,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic 收入增长七倍，年化增长率超过 650 亿美元",
-      "url": "https://the-decoder.com/anthropic-increases-revenue-sevenfold-hits-annualized-rate-above-65-billion",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T07:37:25+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "我们追踪了一批善本书籍。它在亚马逊人工智能培训设施结束",
       "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
       "source": "Simon Willison",
@@ -406,6 +424,21 @@
       "topics": [],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "Anthropic 收入增长七倍，年化增长率超过 650 亿美元",
+      "url": "https://the-decoder.com/anthropic-increases-revenue-sevenfold-hits-annualized-rate-above-65-billion",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T07:37:25+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "Anthropic的年化收入飙升至$65B",
@@ -572,38 +605,8 @@
       ],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
-      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "source": "daringfireball.net",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T00:06:02.469000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Anthropic首席执行官表示人工智能赢得公众的方式是治愈癌症",
-      "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-08-16T22:50:38+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议"
     }
   ],
-  "generated_at": "2026-08-18T15:45:39.078074+00:00",
+  "generated_at": "2026-08-18T16:47:31.432277+00:00",
   "period": "2026-08"
 }
