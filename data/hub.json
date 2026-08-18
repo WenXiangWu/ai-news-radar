@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:02:30.922751+00:00",
+  "generated_at": "2026-08-18T07:52:14.879361+00:00",
   "today": "2026-08-18",
   "lead": "相同的集群，利用率增加了 33 个点：改变的是顺序；[AINews] Stripe 以 7B 美元收购 OpenRouter；从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能",
   "brief_count": 20,
@@ -11,7 +11,21 @@
       "site_id": "aihot",
       "published_at": "2026-08-17T18:46:04.518000+00:00",
       "source_count": 6,
-      "score": 84,
+      "score": 83,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "Launch HN: Speko（YC S26）——面向语音AI的OpenRouter",
+      "url": "https://speko.ai",
+      "source": "speko.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-08-18T07:02:07.067000+00:00",
+      "source_count": 3,
+      "score": 57,
       "official": false,
       "topics": [],
       "reason": "",
@@ -32,7 +46,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 86
+      "hot_score": 81
     },
     {
       "title": "以色列设立了一个虚假智库，此举很可能是为了欺骗AI聊天机器人",
@@ -48,7 +62,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 82
+      "hot_score": 77
     },
     {
       "title": "GPT-5.6 Sol 定价降低 50%",
@@ -64,21 +78,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 78
-    },
-    {
-      "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
-      "url": "https://www.librarian.net/notoai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-17T17:58:12.144000+00:00",
-      "source_count": 4,
-      "score": 81,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 61
+      "hot_score": 72
     }
   ],
   "topics": [
@@ -87,21 +87,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 28
+      "count": 29
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 21
+      "count": 23
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "deepseek",
@@ -122,14 +122,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 12
+      "count": 15
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 11
+      "count": 17
     },
     {
       "slug": "mcp",
@@ -150,21 +150,21 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 10
+      "count": 9
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 39
+      "count": 40
     }
   ],
   "days": [

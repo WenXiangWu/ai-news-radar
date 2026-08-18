@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:02:30.922751+00:00",
+  "generated_at": "2026-08-18T07:52:14.879361+00:00",
   "date": "2026-08-18",
   "timezone": "Asia/Shanghai",
   "lead": "相同的集群，利用率增加了 33 个点：改变的是顺序；[AINews] Stripe 以 7B 美元收购 OpenRouter；从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能",
@@ -13,14 +13,14 @@
       "site_id": "curated_media",
       "published_at": "2026-08-17T10:57:13+00:00",
       "source_count": 2,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 11
+      "hot_score": 10
     },
     {
       "title": "GPT 5.6 Sol 是 OpenAI 有史以来发布的最优秀的“视觉”模型",
@@ -37,21 +37,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 30
-    },
-    {
-      "title": "Qwen3.8 27B 在人工分析中获得52分",
-      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-      "source": "artificialanalysis.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T19:01:59.352000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 22
+      "hot_score": 28
     }
   ],
   "items": [
@@ -170,6 +156,22 @@
       "label": "官方更新"
     },
     {
+      "title": "设计 AI 评测：先求清晰，再谈可视化",
+      "url": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-08-18T07:00:00+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "google",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
       "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
       "source": "NVIDIA Blog（RSS）",
@@ -186,16 +188,16 @@
       "label": "行业动态"
     },
     {
-      "title": "inclusionAI 开源 ConceptEdit：基于概念缩放与密集监督的图像编辑数据生成管线",
-      "url": "https://github.com/inclusionAI/ConceptEdit",
-      "source": "蚂蚁 inclusionAI：GitHub 新仓库",
-      "site_id": "aihot",
-      "published_at": "2026-08-17T07:22:08+00:00",
+      "title": "Anthropic 收入增长七倍，年化增长率超过 650 亿美元",
+      "url": "https://the-decoder.com/anthropic-increases-revenue-sevenfold-hits-annualized-rate-above-65-billion",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T07:37:25+00:00",
       "source_count": 1,
-      "score": 69,
+      "score": 64,
       "official": true,
       "topics": [
-        "opensource"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -248,21 +250,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic 解释了Claude的隐形文本水印的工作原理",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T10:57:13+00:00",
-      "source_count": 2,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
       "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
       "source": "TechCrunch AI",
@@ -306,6 +293,21 @@
       "label": "值得关注"
     },
     {
+      "title": "Anthropic 解释了Claude的隐形文本水印的工作原理",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T10:57:13+00:00",
+      "source_count": 2,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "DeepSeek AI 在开发者预览版中发布 DeepSeek Harness：一款 MIT 许可的代理工具，一切都是插件",
       "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview",
       "source": "MarkTechPost Research",
@@ -336,19 +338,6 @@
       ],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "Qwen3.8 27B 在人工分析中获得52分",
-      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-      "source": "artificialanalysis.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T19:01:59.352000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
