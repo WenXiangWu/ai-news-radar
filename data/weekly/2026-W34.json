@@ -9,7 +9,7 @@
     "2026-08-13",
     "2026-08-12"
   ],
-  "total_items": 32,
+  "total_items": 33,
   "items": [
     {
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
@@ -100,19 +100,6 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 NVIDIA 模型优化器通过 QAD 开发 Nemotron 3.5 Lightning NVFP4",
-      "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T18:12:48+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "情报时代的新政策理念",
       "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
       "source": "OpenAI News",
@@ -129,13 +116,26 @@
       "label": "官方更新"
     },
     {
+      "title": "使用 NVIDIA 模型优化器通过 QAD 开发 Nemotron 3.5 Lightning NVFP4",
+      "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T18:12:48+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "画布如何使代理工作流程可见、可操纵且经济高效",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
       "source": "GitHub AI & ML",
       "site_id": "official_ai",
       "published_at": "2026-08-17T16:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "coding"
@@ -269,26 +269,13 @@
       "site_id": "curated_media",
       "published_at": "2026-08-17T20:20:58+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
         "launch"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
-      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T21:27:05+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -319,6 +306,35 @@
       "topics": [
         "anthropic"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek AI 在开发者预览版中发布 DeepSeek Harness：一款 MIT 许可的代理工具，一切都是插件",
+      "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T09:06:32+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T21:27:05+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -363,22 +379,6 @@
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DeepSeek AI 在开发者预览版中发布 DeepSeek Harness：一款 MIT 许可的代理工具，一切都是插件",
-      "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T09:06:32+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -476,6 +476,21 @@
       "label": "多源热议"
     },
     {
+      "title": "DeepSeek-V4-Pro 修复运行时推理控制后性能优于 Fable 5",
+      "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-08-18T04:30:11+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Qwen3.8 27B 在人工分析中获得52分",
       "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
       "source": "artificialanalysis.ai",
@@ -489,6 +504,6 @@
       "label": "值得关注"
     }
   ],
-  "generated_at": "2026-08-18T08:52:28.693485+00:00",
+  "generated_at": "2026-08-18T09:48:05.887927+00:00",
   "period": "2026-W34"
 }
