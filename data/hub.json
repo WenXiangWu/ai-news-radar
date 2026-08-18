@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T10:45:47.211201+00:00",
+  "generated_at": "2026-08-18T11:38:20.101983+00:00",
   "today": "2026-08-18",
-  "lead": "[AINews] Stripe 以 7B 美元收购 OpenRouter；相同的集群，利用率增加了 33 个点：改变的是顺序；从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能",
+  "lead": "推出面向青少年的 ChatGPT：专为学习而打造，以保护为后盾；与 CodeAI 合作，准备第一代 AI；相同的集群，利用率增加了 33 个点：改变的是顺序",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -16,7 +16,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 88
+      "hot_score": 82
     },
     {
       "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
@@ -30,7 +30,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 79
+      "hot_score": 74
     },
     {
       "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
@@ -46,7 +46,23 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 63
+      "hot_score": 59
+    },
+    {
+      "title": "推出面向青少年的 ChatGPT：专为学习而打造，以保护为后盾",
+      "url": "https://openai.com/index/introducing-chatgpt-for-teens",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T11:00:00+00:00",
+      "source_count": 2,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 57
     },
     {
       "title": "以色列设立了一个虚假智库，此举很可能是为了欺骗AI聊天机器人",
@@ -62,21 +78,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
-    },
-    {
-      "title": "谷歌在拍卖中购买了坠毁航空公司 Spirit 的数据，因为人工智能",
-      "url": "https://news.ycombinator.com/item?id=49343559",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-18T10:25:49.787000+00:00",
-      "source_count": 2,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 58
+      "hot_score": 56
     }
   ],
   "topics": [
@@ -85,7 +87,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 28
+      "count": 32
     },
     {
       "slug": "anthropic",
@@ -106,7 +108,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 6
+      "count": 5
     },
     {
       "slug": "qwen",
@@ -127,14 +129,14 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 17
+      "count": 16
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "opensource",
@@ -148,7 +150,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 9
+      "count": 11
     },
     {
       "slug": "paper",
