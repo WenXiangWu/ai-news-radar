@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-08-17T23:35:19.583049+00:00",
+  "generated_at": "2026-08-18T01:49:27.502053+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 17,
+  "total_items": 15,
   "items": [
+    {
+      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
+      "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-08-18T01:10:28+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
       "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
@@ -13,7 +28,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-17T23:22:25.902000+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "agent"
@@ -28,7 +43,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-17T21:18:09.073000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent"
@@ -43,7 +58,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-17T20:20:58+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -60,7 +75,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-17T16:38:11.073000+00:00",
       "source_count": 4,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "agent",
@@ -121,7 +136,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-17T09:55:48.250000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "deepseek",
@@ -153,7 +168,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-17T08:49:27.394000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -174,11 +189,10 @@
       "topics": [
         "openai",
         "agent",
-        "coding",
-        "industry"
+        "coding"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "DeepSeek Harness 上手实录：从启动 Web UI 到组装自己的 Agent",
@@ -187,7 +201,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-17T03:49:07.437000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "deepseek",
@@ -207,11 +221,10 @@
       "official": false,
       "topics": [
         "agent",
-        "coding",
-        "industry"
+        "coding"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "我如何设置这个东西以适用于所有应用程序而不仅仅是 Codex？ https://t.co/2N2odVoXix",
@@ -220,60 +233,11 @@
       "site_id": "followbuilders",
       "published_at": "2026-08-17T02:46:45+00:00",
       "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex ✅ 几乎 100% 可靠 ✅ 偶尔重置 ✅ 开源 ✅ （将有 Astra） https://t.co/DxNdAgpag5",
-      "url": "https://x.com/thsottiaux/status/2089149255382438340",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-17T00:36:11+00:00",
-      "source_count": 1,
       "score": 60,
       "official": false,
       "topics": [
         "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. The same warning applies, there is a reason the current context length...",
-      "url": "https://x.com/thsottiaux/status/2089143488696705077",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-17T00:13:16+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
-      "url": "https://openrouter.ai/blog/announcements/activity-dashboard",
-      "source": "OpenRouter：Announcements（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-17T00:00:00+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": false,
-      "topics": [
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"

@@ -4,23 +4,8 @@
     "2026-08-18",
     "2026-08-17"
   ],
-  "total_items": 28,
+  "total_items": 29,
   "items": [
-    {
-      "title": "相同的集群，利用率增加了 33 个点：改变的是顺序",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T19:46:21+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
     {
       "title": "[AINews] Stripe 以 7B 美元收购 OpenRouter",
       "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
@@ -31,6 +16,21 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "相同的集群，利用率增加了 33 个点：改变的是顺序",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-17T19:46:21+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -56,7 +56,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T18:12:48+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -69,7 +69,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T05:30:00+00:00",
       "source_count": 2,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -84,7 +84,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T16:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding"
@@ -112,25 +112,10 @@
       "site_id": "official_ai",
       "published_at": "2026-08-17T08:00:00+00:00",
       "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
-      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
-      "source": "Google Developers Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-17T23:22:25.902000+00:00",
-      "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "agent"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -151,13 +136,28 @@
       "label": "官方更新"
     },
     {
+      "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
+      "source": "Google Developers Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-08-17T23:22:25.902000+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "情报时代的新政策理念",
       "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-08-17T03:15:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "openai",
@@ -173,7 +173,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-17T12:34:51+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -199,32 +199,34 @@
       "label": "行业动态"
     },
     {
+      "title": "Anthropic的年化收入飙升至$65B",
+      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T23:56:26+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "v2.1.234",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "source": "Claude Code Releases",
       "site_id": "curated_media",
       "published_at": "2026-08-17T20:20:58+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
         "launch"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
-      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T21:27:05+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -268,6 +270,19 @@
       "topics": [
         "anthropic"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-17T21:27:05+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -317,13 +332,29 @@
       "label": "值得关注"
     },
     {
+      "title": "GPT 5.6 Sol 是 OpenAI 有史以来发布的最优秀的“视觉”模型",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6",
+      "source": "blog.roboflow.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-17T14:29:55.280000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "DeepSeek AI 在开发者预览版中发布 DeepSeek Harness：一款 MIT 许可的代理工具，一切都是插件",
       "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-08-17T09:06:32+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "deepseek",
@@ -346,22 +377,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "GPT 5.6 Sol 是 OpenAI 有史以来发布的最优秀的“视觉”模型",
-      "url": "https://blog.roboflow.com/openai-gpt-5-6",
-      "source": "blog.roboflow.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-17T14:29:55.280000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议"
     },
     {
       "title": "MathCode，数学编码代理",
@@ -425,6 +440,6 @@
       "label": "多源热议"
     }
   ],
-  "generated_at": "2026-08-17T23:35:19.583049+00:00",
+  "generated_at": "2026-08-18T01:49:27.502053+00:00",
   "period": "2026-08"
 }
