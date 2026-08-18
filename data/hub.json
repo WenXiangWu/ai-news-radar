@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:47:31.432277+00:00",
+  "generated_at": "2026-08-18T17:41:02.761865+00:00",
   "today": "2026-08-19",
   "lead": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护；带有句子变压器的多向量（后期交互）嵌入模型；与 CodeAI 合作，准备第一代 AI",
   "brief_count": 20,
@@ -16,7 +16,23 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 81
+      "hot_score": 75
+    },
+    {
+      "title": "克劳德：多种模型的性能下降",
+      "url": "https://status.claude.com/incidents/q7txxvbsftgq",
+      "source": "status.claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-18T17:09:55.487000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
     },
     {
       "title": "NeoBrowser：一个 MCP 服务器，可通过您登录的会话驱动真正的 Chrome",
@@ -32,7 +48,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 46
     },
     {
       "title": "Show HN：我取消了我的 AI 代码审查器并编写了一个免费的本地代码审查器",
@@ -46,7 +62,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 46
     },
     {
       "title": "Claude 为我专为 Windows 打造的不起眼的 HP 打印机编写 macOS 驱动程序",
@@ -55,30 +71,14 @@
       "site_id": "newsnow",
       "published_at": "2026-08-18T12:56:06.727000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 44
-    },
-    {
-      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
-      "url": "https://cursor.com/changelog/origin-code-hosting",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-17T22:14:00.748000+00:00",
-      "source_count": 4,
-      "score": 83,
-      "official": false,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 38
+      "hot_score": 40
     }
   ],
   "topics": [
@@ -87,14 +87,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 25
+      "count": 23
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "google",
@@ -122,7 +122,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "coding",
