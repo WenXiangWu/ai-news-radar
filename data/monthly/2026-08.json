@@ -1,6 +1,7 @@
 {
   "title": "2026-08 月报",
   "dates": [
+    "2026-08-20",
     "2026-08-19",
     "2026-08-18",
     "2026-08-17"
@@ -23,22 +24,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T13:48:49+00:00",
-      "source_count": 1,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "带有句子变压器的多向量（后期交互）嵌入模型",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "source": "Hugging Face Blog",
@@ -49,6 +34,35 @@
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T13:48:49+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -69,19 +83,6 @@
       "label": "官方更新"
     },
     {
-      "title": "跟踪组织代码质量趋势",
-      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T12:56:57+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
       "url": "https://openai.com/index/replit",
       "source": "OpenAI News",
@@ -92,22 +93,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T18:09:38+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -141,15 +126,31 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 内存价格12个月上涨500%",
-      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-      "source": "Latent Space",
+      "title": "跟踪组织代码质量趋势",
+      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-19T08:44:52+00:00",
+      "published_at": "2026-08-19T12:56:57+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T18:09:38+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -180,6 +181,19 @@
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] 内存价格12个月上涨500%",
+      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T08:44:52+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -225,21 +239,6 @@
       "official": true,
       "topics": [
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "加强国家安全民主监督",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T19:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -310,6 +309,21 @@
       "score": 80,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "加强国家安全民主监督",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T19:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -542,19 +556,6 @@
       "label": "值得关注"
     },
     {
-      "title": "中国允许英伟达的H200芯片进入大陆，以帮助其人工智能公司跟上美国的步伐",
-      "url": "https://the-decoder.com/china-lets-nvidias-h200-chips-trickle-onto-the-mainland-to-help-its-ai-firms-keep-pace-with-the-us",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T13:57:22+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Anthropic 表示任何实验室现在都可以让语言模型代理运行整个蛋白质设计堆栈",
       "url": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack",
       "source": "The Decoder AI News",
@@ -601,6 +602,6 @@
       "label": "值得关注"
     }
   ],
-  "generated_at": "2026-08-19T15:44:55.444164+00:00",
+  "generated_at": "2026-08-19T16:47:08.528779+00:00",
   "period": "2026-08"
 }
