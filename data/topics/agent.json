@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-18T23:34:34.291055+00:00",
+  "generated_at": "2026-08-19T01:52:09.141537+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 20,
+  "total_items": 17,
   "items": [
     {
       "title": "Claude Code 教 macOS 本机打印到 HP Laser 1008a",
@@ -29,7 +29,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-18T20:38:54+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -46,7 +46,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-18T18:54:53.250000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "anthropic",
@@ -62,7 +62,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-08-18T18:54:26.410242+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -110,7 +110,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-18T14:02:55+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic",
@@ -126,7 +126,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-18T13:42:55.106000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -141,7 +141,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-18T13:29:10+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -257,11 +257,10 @@
       "score": 72,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "字节跳动联合清华AIR推出CUDA Agent：大模型如何学会编写比编译器更快的GPU内核",
@@ -273,56 +272,7 @@
       "score": 72,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
-      "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T01:10:28+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex CLI 0.148.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?",
-      "url": "https://x.com/thsottiaux/status/2089500941842342287",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-17T23:53:40+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
