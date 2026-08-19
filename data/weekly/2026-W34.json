@@ -27,7 +27,7 @@
       "label": "官方更新"
     },
     {
-      "title": "LFM2.5 Q4\\_0 来自量化感知蒸馏的检查点",
+      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
       "url": "https://huggingface.co/blog/LiquidAI/qad",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
@@ -36,7 +36,8 @@
       "score": 86,
       "official": true,
       "topics": [
-        "opensource"
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -81,6 +82,21 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
+      "url": "https://openai.com/index/replit",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T07:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -218,32 +234,6 @@
       "label": "官方更新"
     },
     {
-      "title": "按令牌类型撤销凭证和取消授权",
-      "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T21:57:30+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "前沿模型成本和开放权重的流行正在推动模型路由的需求",
-      "url": "https://www.latent.space/p/glean-model-routing",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T21:41:10+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "加强国家安全民主监督",
       "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "source": "OpenAI News",
@@ -298,6 +288,32 @@
       "topics": [
         "anthropic"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "按令牌类型撤销凭证和取消授权",
+      "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T21:57:30+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "前沿模型成本和开放权重的流行正在推动模型路由的需求",
+      "url": "https://www.latent.space/p/glean-model-routing",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T21:41:10+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -445,7 +461,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-19T12:45:02+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "openai",
@@ -530,6 +546,19 @@
       "label": "值得关注"
     },
     {
+      "title": "中国允许英伟达的H200芯片进入大陆，以帮助其人工智能公司跟上美国的步伐",
+      "url": "https://the-decoder.com/china-lets-nvidias-h200-chips-trickle-onto-the-mainland-to-help-its-ai-firms-keep-pace-with-the-us",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T13:57:22+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 表示任何实验室现在都可以让语言模型代理运行整个蛋白质设计堆栈",
       "url": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack",
       "source": "The Decoder AI News",
@@ -574,38 +603,8 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 解释了Claude的隐形文本水印的工作原理",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-08-17T10:57:13+00:00",
-      "source_count": 2,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 收入增长七倍，年化增长率超过 650 亿美元",
-      "url": "https://the-decoder.com/anthropic-increases-revenue-sevenfold-hits-annualized-rate-above-65-billion",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T07:37:25+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ],
-  "generated_at": "2026-08-19T13:56:39.716730+00:00",
+  "generated_at": "2026-08-19T14:51:54.951156+00:00",
   "period": "2026-W34"
 }
