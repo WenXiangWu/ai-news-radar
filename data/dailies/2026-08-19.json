@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T11:37:36.780580+00:00",
+  "generated_at": "2026-08-19T13:07:47.778547+00:00",
   "date": "2026-08-19",
   "timezone": "Asia/Shanghai",
-  "lead": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准；[AINews] 内存价格12个月上涨500%；ChatGPT 广告扩展到整个欧洲",
+  "lead": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准；跟踪组织代码质量趋势；[AINews] 内存价格12个月上涨500%",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 14
+      "hot_score": 12
     }
   ],
   "items": [
@@ -42,11 +42,11 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 内存价格12个月上涨500%",
-      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-      "source": "Latent Space",
+      "title": "跟踪组织代码质量趋势",
+      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-19T08:44:52+00:00",
+      "published_at": "2026-08-19T12:56:57+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -55,17 +55,15 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 广告扩展到整个欧洲",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "OpenAI News",
+      "title": "[AINews] 内存价格12个月上涨500%",
+      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-08-18T22:00:00+00:00",
+      "published_at": "2026-08-19T08:44:52+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -80,6 +78,21 @@
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ChatGPT 广告扩展到整个欧洲",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T22:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -163,10 +176,26 @@
       "site_id": "aihot",
       "published_at": "2026-08-18T18:07:10+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 的收入首次超过 OpenAI",
+      "url": "https://the-decoder.com/anthropic-passes-openai-on-revenue-for-the-first-time",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T12:45:02+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -234,11 +263,11 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 表示，随着人工智能网络安全风险变得过于危险，它正在“调整模型开发”",
-      "url": "https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous",
-      "source": "The Decoder AI News",
+      "title": "OpenAI 为青少年推出了更安全的 ChatGPT——在青少年开始使用几年后",
+      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-08-18T18:43:06+00:00",
+      "published_at": "2026-08-18T13:50:30+00:00",
       "source_count": 1,
       "score": 60,
       "official": true,
@@ -249,13 +278,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 为青少年推出了更安全的 ChatGPT——在青少年开始使用几年后",
-      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it",
-      "source": "TechCrunch AI",
+      "title": "OpenAI 表示，随着人工智能网络安全风险变得过于危险，它正在“调整模型开发”",
+      "url": "https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-08-18T13:50:30+00:00",
+      "published_at": "2026-08-18T18:43:06+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -289,36 +318,6 @@
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 在其 AI 黑客入侵 Hugging Face 后推出了新的安全更改",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T19:28:30+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "NVIDIA 发布 TensorRT Model Connect 公共预览版：用两个命令将人脸检查点拥抱到原生 C++ 推理",
-      "url": "https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T21:49:04+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
