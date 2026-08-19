@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T16:47:08.528779+00:00",
+  "generated_at": "2026-08-19T17:38:30.513201+00:00",
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
-  "lead": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge；Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失；Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
+  "lead": "为前沿模型提供零数据保留；用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge；Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -21,10 +21,25 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 9
+      "hot_score": 8
     }
   ],
   "items": [
+    {
+      "title": "为前沿模型提供零数据保留",
+      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T17:37:48.253470+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
       "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
@@ -55,21 +70,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
-      "url": "https://openai.com/index/replit",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T07:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
       "source": "Hugging Face Blog",
@@ -95,6 +95,21 @@
       "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
+      "url": "https://openai.com/index/replit",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T07:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -220,7 +235,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-18T18:07:10+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": true,
       "topics": [
         "openai"
@@ -245,22 +260,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic 表示任何实验室现在都可以让语言模型代理运行整个蛋白质设计堆栈",
-      "url": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T13:07:56+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "中国允许英伟达的H200芯片进入大陆，以帮助其人工智能公司跟上美国的步伐",
       "url": "https://the-decoder.com/china-lets-nvidias-h200-chips-trickle-onto-the-mainland-to-help-its-ai-firms-keep-pace-with-the-us",
       "source": "The Decoder AI News",
@@ -270,6 +269,37 @@
       "score": 62,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 表示任何实验室现在都可以让语言模型代理运行整个蛋白质设计堆栈",
+      "url": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T13:07:56+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 踩了刹车。现在怎么办？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T17:10:09+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -284,38 +314,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cursor 利用 GitHub 的挫败感推出竞争对手托管平台",
-      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T22:14:25+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.235",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T20:38:54+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"

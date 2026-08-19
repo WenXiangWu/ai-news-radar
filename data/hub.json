@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T16:47:08.528779+00:00",
+  "generated_at": "2026-08-19T17:38:30.513201+00:00",
   "today": "2026-08-20",
-  "lead": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge；Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失；Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
+  "lead": "为前沿模型提供零数据保留；用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge；Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,14 +11,42 @@
       "site_id": "buzzing",
       "published_at": "2026-08-19T14:46:17.538000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 94
+    },
+    {
+      "title": "LLM时代的可扩展软件",
+      "url": "https://news.ycombinator.com/item?id=49363668",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-19T17:38:15.142000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 60
+    },
+    {
+      "title": "推出 HN：OneCLI (YC S26) – 适用于团队的 OSS 沙盒代理工具",
+      "url": "https://news.ycombinator.com/item?id=49363710",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-19T17:38:15.142000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 60
     },
     {
       "title": "软件团队中人工智能的使用模式",
@@ -27,12 +55,12 @@
       "site_id": "buzzing",
       "published_at": "2026-08-19T06:30:17.079000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 51
+      "hot_score": 47
     },
     {
       "title": "挪威应该收购OpenAI",
@@ -48,34 +76,6 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 22
-    },
-    {
-      "title": "GLM-5.3 人工分析基准测试",
-      "url": "https://artificialanalysis.ai/models/glm-5-3",
-      "source": "artificialanalysis.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-08-19T04:06:16.009000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 21
-    },
-    {
-      "title": "Cerebras CS-4",
-      "url": "https://www.cerebras.ai/cs4",
-      "source": "www.cerebras.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-08-19T03:18:04.486000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
       "hot_score": 20
     }
   ],
@@ -85,7 +85,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 23
+      "count": 25
     },
     {
       "slug": "anthropic",
@@ -155,14 +155,14 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 37
+      "count": 38
     }
   ],
   "days": [
