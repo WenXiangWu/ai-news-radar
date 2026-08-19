@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-08-19T17:38:30.513201+00:00",
+  "generated_at": "2026-08-19T18:52:27.159754+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 7,
+  "total_items": 8,
   "items": [
+    {
+      "title": "langgraph-sdk==0.4.3",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T18:05:32+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "GLM-5.3在开放型号排名中名列前茅，价格低于竞争对手，但发布时间被推迟",
       "url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed",
@@ -38,6 +53,22 @@
       "label": "官方更新"
     },
     {
+      "title": "Embabel智能体框架发布1.0版本",
+      "url": "https://www.infoq.cn/article/5LJARsierf0NbH3Rc6wc",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-19T11:14:23+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "PICO Space Pro头显定档9月2日发布，双芯架构与4000 PPI微型OLED强势来袭",
       "url": "https://www.aibase.com/news/30464",
       "source": "AIbase",
@@ -52,22 +83,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Embabel智能体框架发布1.0版本",
-      "url": "https://www.infoq.cn/article/5LJARsierf0NbH3Rc6wc",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-19T03:14:23+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "蚂蚁阿福发布医生端服务战略全景:从基层到三甲，做好医生的AI好帮手",

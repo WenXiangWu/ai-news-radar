@@ -1,41 +1,53 @@
 {
-  "generated_at": "2026-08-19T17:38:30.513201+00:00",
+  "generated_at": "2026-08-19T18:52:27.159754+00:00",
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
-  "lead": "为前沿模型提供零数据保留；用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge；Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+  "lead": "为前沿模型提供零数据保留；适合初学者的 GitHub Copilot 应用程序：管理您的工作；使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
   "total_items": 20,
   "selection": "official_first_then_crossing",
-  "hot": [
-    {
-      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T18:09:38+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 8
-    }
-  ],
+  "hot": [],
   "items": [
     {
       "title": "为前沿模型提供零数据保留",
       "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-19T17:37:48.253470+00:00",
+      "published_at": "2026-08-19T19:00:00+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T17:50:23+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
+      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
       ],
       "reason": "",
       "label": "官方更新"
@@ -70,17 +82,16 @@
       "label": "官方更新"
     },
     {
-      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face Blog",
+      "title": "langgraph-sdk==0.4.3",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-08-18T18:09:38+00:00",
-      "source_count": 2,
-      "score": 83,
+      "published_at": "2026-08-19T18:05:32+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
-        "agent",
-        "opensource"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -127,21 +138,6 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 广告扩展到整个欧洲",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T22:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "GitHub Copilot for JetBrains 中的企业托管设置",
       "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
       "source": "GitHub Changelog",
@@ -152,6 +148,21 @@
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ChatGPT 广告扩展到整个欧洲",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-18T22:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -198,19 +209,20 @@
       "label": "官方更新"
     },
     {
-      "title": "AI 编码代理如何使用 NVIDIA ALCHEMI 工具包解锁材料模拟",
-      "url": "https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T18:00:00+00:00",
+      "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
+      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "site_id": "aihot",
+      "published_at": "2026-08-19T17:56:13.817000+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 77,
       "official": true,
       "topics": [
-        "coding"
+        "deepseek",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "Claude 如何加速蛋白质设计与分析化学研究",
@@ -219,7 +231,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-18T22:27:16.191000+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "anthropic",
@@ -229,13 +241,30 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenAI 暂缓前沿训练强化安全监控",
-      "url": "https://x.com/merettm/status/2089776131255783823",
-      "source": "X：Jakub Pachocki（OpenAI 首席科学家，@merettm）",
-      "site_id": "aihot",
-      "published_at": "2026-08-18T18:07:10+00:00",
+      "title": "OpenAI修复了未经许可删除真实用户文件的Codex错误",
+      "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T18:18:34+00:00",
       "source_count": 1,
-      "score": 70,
+      "score": 65,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "研究人员抱怨 OpenAI 撤销了他们对有限网络程序的访问权限",
+      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T18:46:14+00:00",
+      "source_count": 1,
+      "score": 64,
       "official": true,
       "topics": [
         "openai"
@@ -250,7 +279,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-19T12:45:02+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "openai",
@@ -269,52 +298,6 @@
       "score": 62,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 表示任何实验室现在都可以让语言模型代理运行整个蛋白质设计堆栈",
-      "url": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T13:07:56+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 踩了刹车。现在怎么办？",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T17:10:09+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Hugging Face 泄露后 OpenAI 制定了新的保障措施",
-      "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-18T18:00:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "值得关注"
     }
