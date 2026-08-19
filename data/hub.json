@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:09:54.344196+00:00",
+  "generated_at": "2026-08-19T03:58:56.359508+00:00",
   "today": "2026-08-19",
   "lead": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准；OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护；GitHub Copilot for JetBrains 中的企业托管设置",
   "brief_count": 20,
@@ -18,7 +18,21 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 68
+      "hot_score": 64
+    },
+    {
+      "title": "Cerebras CS-4",
+      "url": "https://www.cerebras.ai/cs4",
+      "source": "www.cerebras.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-08-19T03:18:04.486000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
     },
     {
       "title": "Claude Code 2026 年 5 月至 8 月每周限量促销",
@@ -35,7 +49,23 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 56
+    },
+    {
+      "title": "克劳德：多种模型的性能下降",
+      "url": "https://status.claude.com/incidents/q7txxvbsftgq",
+      "source": "status.claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-18T17:09:55.487000+00:00",
+      "source_count": 3,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 49
     },
     {
       "title": "Show HN：任何 HuggingFace 模型的交互式动画架构",
@@ -51,37 +81,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 53
-    },
-    {
-      "title": "软件团队中的人工智能使用模式",
-      "url": "https://news.ycombinator.com/item?id=49353432",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-19T01:37:37.013000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 53
-    },
-    {
-      "title": "克劳德：多种模型的性能下降",
-      "url": "https://status.claude.com/incidents/q7txxvbsftgq",
-      "source": "status.claude.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-18T17:09:55.487000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 52
+      "hot_score": 49
     }
   ],
   "topics": [
@@ -90,7 +90,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 30
+      "count": 29
     },
     {
       "slug": "anthropic",
@@ -104,7 +104,7 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "deepseek",
@@ -146,14 +146,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "paper",
