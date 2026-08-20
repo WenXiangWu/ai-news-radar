@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:53:32.419243+00:00",
+  "generated_at": "2026-08-20T15:47:55.881673+00:00",
   "today": "2026-08-20",
-  "lead": "v0.28.0rc1；[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序",
+  "lead": "代码扫描添加了缓解警报解除原因；针对 GitHub 代码质量的单独 GitHub Actions 路径；在审核日志中跟踪 GitHub 代码质量启用更改",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -16,14 +16,14 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 76
+      "hot_score": 71
     },
     {
-      "title": "与 Claude 一起在 27 美元的智能手表上进行黑客攻击",
-      "url": "https://news.ycombinator.com/item?id=49374772",
+      "title": "用单独的LLM清理Claude 5 的代币呕吐物",
+      "url": "https://news.ycombinator.com/item?id=49375996",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-08-20T14:39:08.635000+00:00",
+      "published_at": "2026-08-20T15:47:36.489000+00:00",
       "source_count": 2,
       "score": 55,
       "official": false,
@@ -32,7 +32,23 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 59
+      "hot_score": 60
+    },
+    {
+      "title": "与 Claude 一起在 27 美元的智能手表上进行黑客攻击",
+      "url": "https://news.ycombinator.com/item?id=49374772",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-20T14:39:08.635000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 55
     },
     {
       "title": "大语言模型时代的可扩展软件",
@@ -46,23 +62,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 37
-    },
-    {
-      "title": "人工智能时代的数学",
-      "url": "https://arxiv.org/abs/2608.16753",
-      "source": "arxiv.org",
-      "site_id": "buzzing",
-      "published_at": "2026-08-19T23:01:56.839000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 16
+      "hot_score": 34
     },
     {
       "title": "Kubernetes 探针的工作原理",
@@ -76,7 +76,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 16
+      "hot_score": 15
     }
   ],
   "topics": [
@@ -85,14 +85,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 24
+      "count": 26
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "google",

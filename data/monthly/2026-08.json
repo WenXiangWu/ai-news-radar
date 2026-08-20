@@ -70,6 +70,45 @@
       "label": "官方更新"
     },
     {
+      "title": "代码扫描添加了缓解警报解除原因",
+      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T15:14:31+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "针对 GitHub 代码质量的单独 GitHub Actions 路径",
+      "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T14:29:27+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在审核日志中跟踪 GitHub 代码质量启用更改",
+      "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T14:28:41+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "跟踪组织代码质量趋势",
       "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
       "source": "GitHub Changelog",
@@ -213,6 +252,21 @@
       "label": "官方更新"
     },
     {
+      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场",
+      "url": "https://openai.com/index/stampli",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "ChatGPT 广告扩展到整个欧洲",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
       "source": "OpenAI News",
@@ -270,34 +324,6 @@
       "topics": [
         "openai"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
-      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -433,6 +459,34 @@
       "label": "官方更新"
     },
     {
+      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
+      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "按令牌类型撤销凭证和取消授权",
       "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
       "source": "GitHub Changelog",
@@ -531,73 +585,8 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-19T21:42:09.969000+00:00",
-      "source_count": 2,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Claude 如何加速蛋白质设计与分析化学研究",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "site_id": "aihot",
-      "published_at": "2026-08-18T22:27:16.191000+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "设计 AI 评测：先求清晰，再谈可视化",
-      "url": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
-      "source": "Google AI：DEV 作者专属（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-18T07:00:00+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "google",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
-      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-      "source": "Simon Willison 博客",
-      "site_id": "aihot",
-      "published_at": "2026-08-16T22:00:39+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "qwen",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ],
-  "generated_at": "2026-08-20T14:53:32.419243+00:00",
+  "generated_at": "2026-08-20T15:47:55.881673+00:00",
   "period": "2026-08"
 }

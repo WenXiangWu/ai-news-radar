@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T14:53:32.419243+00:00",
+  "generated_at": "2026-08-20T15:47:55.881673+00:00",
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
-  "lead": "v0.28.0rc1；[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序",
+  "lead": "代码扫描添加了缓解警报解除原因；针对 GitHub 代码质量的单独 GitHub Actions 路径；在审核日志中跟踪 GitHub 代码质量启用更改",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -22,10 +22,49 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 14
+      "hot_score": 13
     }
   ],
   "items": [
+    {
+      "title": "代码扫描添加了缓解警报解除原因",
+      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T15:14:31+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "针对 GitHub 代码质量的单独 GitHub Actions 路径",
+      "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T14:29:27+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在审核日志中跟踪 GitHub 代码质量启用更改",
+      "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T14:28:41+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "v0.28.0rc1",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc1",
@@ -51,6 +90,21 @@
       "score": 82,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场",
+      "url": "https://openai.com/index/stampli",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -81,34 +135,6 @@
       "topics": [
         "openai"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
-      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -167,6 +193,34 @@
       "topics": [
         "coding"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
+      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -250,82 +304,16 @@
       "label": "值得关注"
     },
     {
-      "title": "v2.1.237",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-20T00:54:41+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI修复了未经许可删除真实用户文件的Codex错误",
-      "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T18:18:34+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "欢迎来到数学领域的人工智能危机",
-      "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "title": "现在是 Greg Brockman 的 OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
       "source": "The Verge",
       "site_id": "curated_media",
-      "published_at": "2026-08-20T14:00:00+00:00",
+      "published_at": "2026-08-20T15:45:55+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "使用 TRL 和 LoRA 对 Anthropic HH-RLHF 进行直接偏好优化来审核偏好偏差并微调语言模型",
-      "url": "https://www.marktechpost.com/2026/08/20/auditing-preference-biases-and-fine-tuning-language-models-with-direct-preference-optimization-on-anthropic-hh-rlhf-using-trl-and-lora",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-20T08:51:38+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.236",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T20:02:05+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
