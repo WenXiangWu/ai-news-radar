@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T07:55:28.995177+00:00",
+  "generated_at": "2026-08-20T08:54:45.181063+00:00",
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
-  "lead": "[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序；CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
+  "lead": "v0.28.0rc1；[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -22,10 +22,25 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 26
+      "hot_score": 24
     }
   ],
   "items": [
+    {
+      "title": "v0.28.0rc1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T07:55:22+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则",
       "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
@@ -33,7 +48,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-20T05:17:12+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -46,7 +61,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-19T22:22:37+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding"
@@ -185,19 +200,6 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 内存价格12个月上涨500%",
-      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T08:44:52+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
@@ -231,17 +233,16 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic",
-      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
-      "source": "TechCrunch AI",
+      "title": "OpenAI 构建安全系统，可在不存储客户数据的情况下捕获滥用行为",
+      "url": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-08-19T22:10:46+00:00",
+      "published_at": "2026-08-20T08:01:18+00:00",
       "source_count": 1,
       "score": 63,
       "official": true,
       "topics": [
-        "openai",
-        "anthropic"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -264,18 +265,17 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI修复了未经许可删除真实用户文件的Codex错误",
-      "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission",
-      "source": "The Decoder AI News",
+      "title": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic",
+      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-08-19T18:18:34+00:00",
+      "published_at": "2026-08-19T22:10:46+00:00",
       "source_count": 1,
       "score": 62,
       "official": true,
       "topics": [
         "openai",
-        "agent",
-        "coding"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -298,31 +298,33 @@
       "label": "值得关注"
     },
     {
-      "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具",
-      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
-      "source": "TechCrunch AI",
+      "title": "OpenAI修复了未经许可删除真实用户文件的Codex错误",
+      "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-08-19T19:00:00+00:00",
+      "published_at": "2026-08-19T18:18:34+00:00",
       "source_count": 1,
       "score": 61,
       "official": true,
       "topics": [
-        "google"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "研究人员抱怨 OpenAI 撤销了他们对有限网络程序的访问权限",
-      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
-      "source": "TechCrunch AI",
+      "title": "使用 TRL 和 LoRA 对 Anthropic HH-RLHF 进行直接偏好优化来审核偏好偏差并微调语言模型",
+      "url": "https://www.marktechpost.com/2026/08/20/auditing-preference-biases-and-fine-tuning-language-models-with-direct-preference-optimization-on-anthropic-hh-rlhf-using-trl-and-lora",
+      "source": "MarkTechPost Research",
       "site_id": "curated_media",
-      "published_at": "2026-08-19T18:46:14+00:00",
+      "published_at": "2026-08-20T08:51:38+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
-        "openai"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"

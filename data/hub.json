@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T07:55:28.995177+00:00",
+  "generated_at": "2026-08-20T08:54:45.181063+00:00",
   "today": "2026-08-20",
-  "lead": "[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序；CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
+  "lead": "v0.28.0rc1；[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -16,7 +16,21 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 65
+      "hot_score": 60
+    },
+    {
+      "title": "Don't Paste the AI, please",
+      "url": "https://news.ycombinator.com/item?id=49371857",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-20T08:40:46.840000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 59
     },
     {
       "title": "人工智能时代的数学",
@@ -32,7 +46,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 29
+      "hot_score": 26
     },
     {
       "title": "Kubernetes 探针的工作原理",
@@ -46,7 +60,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 28
+      "hot_score": 26
     },
     {
       "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
@@ -64,21 +78,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 26
-    },
-    {
-      "title": "人工智能在谷歌新推出的 Pixel 11 中没有帮助",
-      "url": "https://news.ycombinator.com/item?id=49365383",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-19T19:36:38.886000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 22
+      "hot_score": 24
     }
   ],
   "topics": [
@@ -87,14 +87,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 24
+      "count": 27
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 12
+      "count": 13
     },
     {
       "slug": "google",
@@ -115,14 +115,14 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 11
+      "count": 14
     },
     {
       "slug": "coding",
@@ -150,7 +150,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 10
+      "count": 11
     },
     {
       "slug": "paper",
@@ -164,7 +164,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 34
+      "count": 35
     }
   ],
   "days": [
