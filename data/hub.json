@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T15:47:55.881673+00:00",
-  "today": "2026-08-20",
+  "generated_at": "2026-08-20T16:50:15.634215+00:00",
+  "today": "2026-08-21",
   "lead": "代码扫描添加了缓解警报解除原因；针对 GitHub 代码质量的单独 GitHub Actions 路径；在审核日志中跟踪 GitHub 代码质量启用更改",
   "brief_count": 20,
   "hot_preview": [
@@ -11,12 +11,26 @@
       "site_id": "buzzing",
       "published_at": "2026-08-20T09:26:10.003000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 71
+      "hot_score": 65
+    },
+    {
+      "title": "抗AI字体无用且有害",
+      "url": "https://news.ycombinator.com/item?id=49375719",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-20T15:47:36.489000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 55
     },
     {
       "title": "用单独的LLM清理Claude 5 的代币呕吐物",
@@ -25,14 +39,14 @@
       "site_id": "newsnow",
       "published_at": "2026-08-20T15:47:36.489000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 60
+      "hot_score": 55
     },
     {
       "title": "与 Claude 一起在 27 美元的智能手表上进行黑客攻击",
@@ -48,35 +62,25 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 55
+      "hot_score": 50
     },
     {
-      "title": "大语言模型时代的可扩展软件",
-      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms",
-      "source": "jeremymorrell.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-08-20T00:38:00.116000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 34
-    },
-    {
-      "title": "Kubernetes 探针的工作原理",
-      "url": "https://ngrok.com/blog/probes",
-      "source": "ngrok.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-19T22:45:53.740000+00:00",
+      "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-19T21:42:09.969000+00:00",
       "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
+      "score": 75,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 15
+      "label": "行业动态",
+      "hot_score": 12
     }
   ],
   "topics": [
@@ -85,7 +89,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 26
+      "count": 25
     },
     {
       "slug": "anthropic",
@@ -106,7 +110,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "qwen",
@@ -120,7 +124,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 19
+      "count": 17
     },
     {
       "slug": "coding",
@@ -162,10 +166,11 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 39
+      "count": 37
     }
   ],
   "days": [
+    "2026-08-21",
     "2026-08-20",
     "2026-08-19",
     "2026-08-18",
