@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T04:52:53.325013+00:00",
+  "generated_at": "2026-08-20T05:45:55.110606+00:00",
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
-  "lead": "使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序；CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模；为前沿模型提供零数据保留",
+  "lead": "[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序；为前沿模型提供零数据保留",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-19T21:42:09.969000+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -22,10 +22,23 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 33
+      "hot_score": 31
     }
   ],
   "items": [
+    {
+      "title": "[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则",
+      "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T05:17:12+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序",
       "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents",
@@ -38,19 +51,6 @@
       "topics": [
         "coding"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
-      "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T21:09:30+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -70,43 +70,13 @@
       "label": "官方更新"
     },
     {
-      "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
-      "source": "GitHub AI & ML",
+      "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
+      "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-19T17:50:23+00:00",
+      "published_at": "2026-08-19T21:09:30+00:00",
       "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
-      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -139,6 +109,49 @@
       "topics": [
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T17:50:23+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
+      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -206,7 +219,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-19T21:42:09.969000+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -233,23 +246,6 @@
       "label": "行业动态"
     },
     {
-      "title": "v2.1.237",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-20T00:54:41+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic",
       "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
       "source": "TechCrunch AI",
@@ -261,6 +257,23 @@
       "topics": [
         "openai",
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.237",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-20T00:54:41+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -310,21 +323,6 @@
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "研究人员抱怨 OpenAI 撤销了他们对有限网络程序的访问权限",
-      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T18:46:14+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
