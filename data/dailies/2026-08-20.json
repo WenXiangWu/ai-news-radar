@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:13:56.996432+00:00",
+  "generated_at": "2026-08-20T13:59:30.474063+00:00",
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
   "lead": "v0.28.0rc1；[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序",
@@ -13,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-19T21:42:09.969000+00:00",
       "source_count": 2,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -22,7 +22,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 16
+      "hot_score": 15
     }
   ],
   "items": [
@@ -61,7 +61,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-19T22:22:37+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "coding"
@@ -141,22 +141,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T13:48:49+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "通过搜索提升学习水平的 5 种新方法",
       "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools",
       "source": "Google AI Blog",
@@ -193,7 +177,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-19T21:42:09.969000+00:00",
       "source_count": 2,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -283,23 +267,6 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI修复了未经许可删除真实用户文件的Codex错误",
-      "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T18:18:34+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "v2.1.236",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
       "source": "Claude Code Releases",
@@ -317,6 +284,23 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI修复了未经许可删除真实用户文件的Codex错误",
+      "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T18:18:34+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "使用 TRL 和 LoRA 对 Anthropic HH-RLHF 进行直接偏好优化来审核偏好偏差并微调语言模型",
       "url": "https://www.marktechpost.com/2026/08/20/auditing-preference-biases-and-fine-tuning-language-models-with-direct-preference-optimization-on-anthropic-hh-rlhf-using-trl-and-lora",
       "source": "MarkTechPost Research",
@@ -327,6 +311,21 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T19:00:00+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
