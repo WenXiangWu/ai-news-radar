@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:44:39.577100+00:00",
+  "generated_at": "2026-08-20T20:45:10.105918+00:00",
   "date": "2026-08-21",
   "timezone": "Asia/Shanghai",
   "lead": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍；Windows 11 arm64 VS2026 镜像正式发布；代码扫描添加了缓解警报解除原因",
@@ -22,7 +22,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 10
+      "hot_score": 9
     }
   ],
   "items": [
@@ -97,23 +97,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Codex and ChatGPT updates",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "v0.28.0rc1",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc1",
       "source": "vLLM Releases",
@@ -129,16 +112,33 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场",
-      "url": "https://openai.com/index/stampli",
+      "title": "介绍人工智能期货",
+      "url": "https://openai.com/index/introducing-ai-futures",
       "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T07:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex and ChatGPT updates",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
       "published_at": "2026-08-20T00:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -153,6 +153,21 @@
       "score": 81,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场",
+      "url": "https://openai.com/index/stampli",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -208,7 +223,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-20T16:00:00+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "industry"
@@ -223,7 +238,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-20T17:56:58.396000+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "anthropic",
@@ -233,13 +248,30 @@
       "label": "行业动态"
     },
     {
+      "title": "v2.1.238",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-20T20:33:51+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Adobe Firefly 添加了 AI 音频工具和 Google 的 Gemini Omni Flash",
       "url": "https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-08-20T19:29:34+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "google"
@@ -283,37 +315,6 @@
       "published_at": "2026-08-20T08:01:18+00:00",
       "source_count": 1,
       "score": 61,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic",
-      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T22:10:46+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "现在是 Greg Brockman 的 OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-08-20T15:45:55+00:00",
-      "source_count": 1,
-      "score": 59,
       "official": true,
       "topics": [
         "openai"
