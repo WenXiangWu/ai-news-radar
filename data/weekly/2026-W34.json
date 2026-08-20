@@ -73,21 +73,6 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.28.0rc1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc1",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T07:55:22+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "跟踪组织代码质量趋势",
       "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
       "source": "GitHub Changelog",
@@ -156,6 +141,21 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.28.0rc1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T07:55:22+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -262,19 +262,6 @@
       "label": "官方更新"
     },
     {
-      "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
-      "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T21:09:30+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "为前沿模型提供零数据保留",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "source": "OpenAI News",
@@ -285,21 +272,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T17:50:23+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -406,6 +378,19 @@
       "label": "官方更新"
     },
     {
+      "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
+      "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T21:09:30+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "通过搜索提升学习水平的 5 种新方法",
       "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools",
       "source": "Google AI Blog",
@@ -431,6 +416,21 @@
       "official": true,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T17:50:23+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -553,22 +553,6 @@
       "label": "行业动态"
     },
     {
-      "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
-      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "site_id": "aihot",
-      "published_at": "2026-08-19T17:56:13.817000+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
       "title": "Claude 如何加速蛋白质设计与分析化学研究",
       "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
       "source": "Anthropic：Research（发表成果 · 网页）",
@@ -599,8 +583,24 @@
       ],
       "reason": "",
       "label": "行业动态"
+    },
+    {
+      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "source": "Simon Willison 博客",
+      "site_id": "aihot",
+      "published_at": "2026-08-16T22:00:39+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": true,
+      "topics": [
+        "qwen",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
     }
   ],
-  "generated_at": "2026-08-20T13:59:30.474063+00:00",
+  "generated_at": "2026-08-20T14:53:32.419243+00:00",
   "period": "2026-W34"
 }
