@@ -1,9 +1,39 @@
 {
-  "generated_at": "2026-08-20T17:44:12.635564+00:00",
+  "generated_at": "2026-08-20T18:59:09.209103+00:00",
   "today": "2026-08-21",
-  "lead": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍；代码扫描添加了缓解警报解除原因；针对 GitHub 代码质量的单独 GitHub Actions 路径",
+  "lead": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍；Windows 11 arm64 VS2026 镜像正式发布；代码扫描添加了缓解警报解除原因",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "使用另一个大型语言模型（LLM）清理克劳德5的代币呕吐物",
+      "url": "https://github.com/zachahn/vomit",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-20T18:30:20+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "DiffusionGemma 技术报告",
+      "url": "https://arxiv.org/abs/2608.00146",
+      "source": "arxiv.org",
+      "site_id": "buzzing",
+      "published_at": "2026-08-20T18:14:18.037000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
     {
       "title": "请不要粘贴AI生成的内容",
       "url": "https://dontpastetheai.com",
@@ -16,7 +46,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 54
     },
     {
       "title": "抗AI字体无用且有害",
@@ -30,23 +60,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "用单独的LLM清理Claude 5 的代币呕吐物",
-      "url": "https://news.ycombinator.com/item?id=49375996",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-20T15:47:36.489000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 46
     },
     {
       "title": "与 Claude 一起在 27 美元的智能手表上进行黑客攻击",
@@ -62,25 +76,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 46
-    },
-    {
-      "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-19T21:42:09.969000+00:00",
-      "source_count": 2,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 11
+      "hot_score": 42
     }
   ],
   "topics": [
@@ -89,7 +85,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 27
+      "count": 24
     },
     {
       "slug": "anthropic",
@@ -110,7 +106,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "qwen",
@@ -131,7 +127,7 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 9
+      "count": 7
     },
     {
       "slug": "mcp",
@@ -166,7 +162,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 38
+      "count": 39
     }
   ],
   "days": [

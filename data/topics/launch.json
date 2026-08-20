@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:44:12.635564+00:00",
+  "generated_at": "2026-08-20T18:59:09.209103+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
@@ -7,13 +7,28 @@
   "total_items": 12,
   "items": [
     {
+      "title": "Windows 11 arm64 VS2026 镜像正式发布",
+      "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T17:52:38+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "研究发现，自 ChatGPT 推出以来发布的网页中有三分之一显示出人工智能作者身份的迹象",
       "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-08-20T17:18:58+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": false,
       "topics": [
         "openai",
@@ -29,7 +44,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-20T16:52:57+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource",
@@ -185,21 +200,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "langgraph-sdk==0.4.3",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T18:05:32+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
