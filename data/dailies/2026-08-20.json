@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T05:45:55.110606+00:00",
+  "generated_at": "2026-08-20T07:05:04.839675+00:00",
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
-  "lead": "[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序；为前沿模型提供零数据保留",
+  "lead": "[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序；CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -22,7 +22,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 31
+      "hot_score": 27
     }
   ],
   "items": [
@@ -55,21 +55,6 @@
       "label": "官方更新"
     },
     {
-      "title": "为前沿模型提供零数据保留",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
       "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
       "source": "GitHub Changelog",
@@ -79,6 +64,21 @@
       "score": 82,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "为前沿模型提供零数据保留",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T19:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -93,21 +93,6 @@
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.3",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T18:05:32+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -172,30 +157,30 @@
       "label": "官方更新"
     },
     {
+      "title": "langgraph-sdk==0.4.3",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T18:05:32+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "跟踪组织代码质量趋势",
       "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-08-19T12:56:57+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
-      "url": "https://openai.com/index/replit",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T07:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -206,7 +191,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-19T08:44:52+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
@@ -323,6 +308,21 @@
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "研究人员抱怨 OpenAI 撤销了他们对有限网络程序的访问权限",
+      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-19T18:46:14+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
