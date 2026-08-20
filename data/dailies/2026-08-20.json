@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:49:37.500616+00:00",
+  "generated_at": "2026-08-20T10:45:58.123399+00:00",
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
   "lead": "v0.28.0rc1；[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则；使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序",
@@ -22,7 +22,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 22
+      "hot_score": 20
     }
   ],
   "items": [
@@ -33,7 +33,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-20T07:55:22+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "launch"
@@ -81,34 +81,6 @@
       "topics": [
         "openai"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
-      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -167,6 +139,34 @@
       "topics": [
         "coding"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 NVIDIA SkillEvaluator 评估 AI 代理技能表现",
+      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用于设备上机器人控制的训练后 NVIDIA Cosmos 3 Edge",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-19T16:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -231,6 +231,21 @@
       ],
       "reason": "",
       "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 最强大的模型，代号“模型 2”，仅供内部使用",
+      "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-20T10:04:45+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "OpenAI 构建安全系统，可在不存储客户数据的情况下捕获滥用行为",
@@ -308,23 +323,6 @@
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.236",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-19T20:02:05+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
