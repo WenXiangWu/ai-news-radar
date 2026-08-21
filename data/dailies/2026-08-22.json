@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T19:36:20.913597+00:00",
+  "generated_at": "2026-08-21T20:39:08.773616+00:00",
   "date": "2026-08-22",
   "timezone": "Asia/Shanghai",
-  "lead": "用于管理被阻止用户的更好工具；一种人工智能工具，用于根据可穿戴传感器数据对候选生物标记物进行优先级排序；Slack 中的全新 GitHub Copilot 体验",
+  "lead": "v0.5.18；用于管理被阻止用户的更好工具；Slack 中的全新 GitHub Copilot 体验",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -21,29 +21,31 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 63
+      "hot_score": 58
     }
   ],
   "items": [
+    {
+      "title": "v0.5.18",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
+      "source": "SGLang Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T19:50:19+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "用于管理被阻止用户的更好工具",
       "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-08-21T17:28:36+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "一种人工智能工具，用于根据可穿戴传感器数据对候选生物标记物进行优先级排序",
-      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T17:02:24+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -95,6 +97,19 @@
       "label": "官方更新"
     },
     {
+      "title": "一种人工智能工具，用于根据可穿戴传感器数据对候选生物标记物进行优先级排序",
+      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T17:02:24+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "安全在 AI 代理堆栈中的作用",
       "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack",
       "source": "NVIDIA Developer Blog",
@@ -116,7 +131,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-21T11:59:48+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google"
@@ -239,6 +254,21 @@
       "label": "多源热议"
     },
     {
+      "title": "Anthropic 将其最强大的模型 Claude Mythos 5 用于网络防御",
+      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T19:35:37+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Deepseek 发布实验性 Flash 视觉模型，在代理基准测试中可与 Opus 4.8 相媲美",
       "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks",
       "source": "The Decoder AI News",
@@ -257,6 +287,23 @@
       "label": "值得关注"
     },
     {
+      "title": "v2.1.239",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T19:54:23+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "随着 OpenAI 重新夺回 Anthropic 的地位，GPT-5.6 Sol 推动 OpenAI 收入激增",
       "url": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic",
       "source": "The Decoder AI News",
@@ -268,50 +315,6 @@
       "topics": [
         "openai",
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Waymo 为其机器人出租车打造自己的芯片，减少对 Nvidia 的依赖",
-      "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T11:04:09+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 的 GPT-Image-2 现在可以生成没有背景的图像",
-      "url": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T07:53:40+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "在企业抵制后，人为改变数据保留政策",
-      "url": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T09:59:51+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
       ],
       "reason": "",
       "label": "值得关注"
