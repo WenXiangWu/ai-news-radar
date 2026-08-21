@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T11:39:01.024134+00:00",
+  "generated_at": "2026-08-21T13:09:41.742932+00:00",
   "date": "2026-08-21",
   "timezone": "Asia/Shanghai",
-  "lead": "v0.28.0rc2：[规格解码] DFlash2：局部卷积+候选选择器（#52816）；[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud；ChatGPT 搜索现在大规模使用 site:operator",
+  "lead": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构；安全在 AI 代理堆栈中的作用；从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -11,9 +11,9 @@
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
       "source": "DeepSeek：API 更新日志",
       "site_id": "aihot",
-      "published_at": "2026-08-21T11:38:40.486000+00:00",
+      "published_at": "2026-08-21T11:49:31.581000+00:00",
       "source_count": 3,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "deepseek",
@@ -25,6 +25,49 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构",
+      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T13:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "安全在 AI 代理堆栈中的作用",
+      "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T13:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T11:59:48+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "v0.28.0rc2：[规格解码] DFlash2：局部卷积+候选选择器（#52816）",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc2",
@@ -47,7 +90,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-21T05:45:21+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -75,25 +118,9 @@
       "site_id": "official_ai",
       "published_at": "2026-08-20T23:29:34+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T16:52:57+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -111,20 +138,20 @@
       "label": "官方更新"
     },
     {
-      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "source": "DeepSeek：API 更新日志",
-      "site_id": "aihot",
-      "published_at": "2026-08-21T11:38:40.486000+00:00",
-      "source_count": 3,
-      "score": 80,
+      "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T16:52:57+00:00",
+      "source_count": 1,
+      "score": 81,
       "official": true,
       "topics": [
-        "deepseek",
+        "opensource",
         "launch"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "官方更新"
     },
     {
       "title": "Windows 11 arm64 VS2026 镜像正式发布",
@@ -155,13 +182,29 @@
       "label": "官方更新"
     },
     {
+      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "source": "DeepSeek：API 更新日志",
+      "site_id": "aihot",
+      "published_at": "2026-08-21T11:49:31.581000+00:00",
+      "source_count": 3,
+      "score": 79,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "针对 GitHub 代码质量的单独 GitHub Actions 路径",
       "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-08-20T14:29:27+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
@@ -174,7 +217,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-20T14:28:41+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
@@ -264,48 +307,6 @@
       "topics": [
         "anthropic",
         "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta斥资数亿购买微软AI服务",
-      "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T10:54:41+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia 斥资 60 亿美元收购 Poolside 的“模范工厂”和 109 名员工",
-      "url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T08:27:23+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "新数据表明，OpenAI 正在赢得商业用户的青睐",
-      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-20T22:36:37+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"

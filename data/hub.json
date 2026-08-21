@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T11:39:01.024134+00:00",
+  "generated_at": "2026-08-21T13:09:41.742932+00:00",
   "today": "2026-08-21",
-  "lead": "v0.28.0rc2：[规格解码] DFlash2：局部卷积+候选选择器（#52816）；[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud；ChatGPT 搜索现在大规模使用 site:operator",
+  "lead": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构；安全在 AI 代理堆栈中的作用；从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -9,9 +9,9 @@
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
       "source": "DeepSeek：API 更新日志",
       "site_id": "aihot",
-      "published_at": "2026-08-21T11:38:40.486000+00:00",
+      "published_at": "2026-08-21T11:49:31.581000+00:00",
       "source_count": 3,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "deepseek",
@@ -37,7 +37,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 82
+      "hot_score": 72
     },
     {
       "title": "呕吐：用单独的 LLM 清理 Claude 5 的代币输出",
@@ -46,14 +46,28 @@
       "site_id": "newsnow",
       "published_at": "2026-08-20T21:41:28.669000+00:00",
       "source_count": 5,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 75
+      "hot_score": 66
+    },
+    {
+      "title": "人工智能公司销毁实体书籍——让我们在为时已晚之前扫描善本书籍",
+      "url": "https://news.ycombinator.com/item?id=49385994",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-21T13:09:22.907000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 60
     },
     {
       "title": "人工智能公司正在摧毁实体书——趁还来得及，赶紧把珍本扫描下来吧",
@@ -67,21 +81,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 64
-    },
-    {
-      "title": "在欧盟，版权不保护由人工智能生成的内容",
-      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
-      "source": "mathstodon.xyz",
-      "site_id": "buzzing",
-      "published_at": "2026-08-21T02:13:46.266000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 55
+      "hot_score": 56
     }
   ],
   "topics": [
@@ -97,21 +97,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 24
+      "count": 26
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 8
+      "count": 10
     },
     {
       "slug": "qwen",
@@ -125,7 +125,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "coding",
@@ -153,14 +153,14 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 14
+      "count": 15
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "industry",
