@@ -1,19 +1,55 @@
 {
-  "generated_at": "2026-08-21T07:06:09.229029+00:00",
+  "generated_at": "2026-08-21T07:55:38.828965+00:00",
   "slug": "coding",
   "label": "AI 编码",
   "group": "tech",
   "blurb": "编码助手与开发工作流",
-  "total_items": 4,
+  "total_items": 6,
   "items": [
     {
-      "title": "Codex on AWS 基岩错误导致 10 倍费用",
-      "url": "https://news.ycombinator.com/item?id=49383326",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-21T03:46:38.493000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "title": "OpenAI全面开源Codex Harness，AI编程智能体底层能力进一步开放",
+      "url": "https://www.aibase.com/news/30531",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-21T07:54:48.942082+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Codex 在 AWS Bedrock 上存在一个导致费用增加 10 倍的漏洞",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-21T07:01:25.605000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent. What we did see is that when talking to affected users m...",
+      "url": "https://x.com/thsottiaux/status/2090675027670978569",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-21T05:39:04+00:00",
+      "source_count": 1,
+      "score": 65,
       "official": false,
       "topics": [
         "agent",

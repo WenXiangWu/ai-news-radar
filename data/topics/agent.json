@@ -1,19 +1,73 @@
 {
-  "generated_at": "2026-08-21T07:06:09.229029+00:00",
+  "generated_at": "2026-08-21T07:55:38.828965+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 12,
+  "total_items": 16,
   "items": [
     {
-      "title": "Codex on AWS 基岩错误导致 10 倍费用",
-      "url": "https://news.ycombinator.com/item?id=49383326",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-21T03:46:38.493000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "title": "OpenAI全面开源Codex Harness，AI编程智能体底层能力进一步开放",
+      "url": "https://www.aibase.com/news/30531",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-21T07:54:48.942082+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "阿里开源 Qwen-UI-Agent：真机多模态基座模型登场",
+      "url": "https://www.aibase.com/news/30530",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-21T07:54:48.942082+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "qwen",
+        "agent",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Codex 在 AWS Bedrock 上存在一个导致费用增加 10 倍的漏洞",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-21T07:01:25.605000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent. What we did see is that when talking to affected users m...",
+      "url": "https://x.com/thsottiaux/status/2090675027670978569",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-21T05:39:04+00:00",
+      "source_count": 1,
+      "score": 65,
       "official": false,
       "topics": [
         "agent",
@@ -39,6 +93,21 @@
       ],
       "reason": "",
       "label": "行业动态"
+    },
+    {
+      "title": "My gut is that alot of AI output can be improved just by building a loop where a manager agent negs the other worker agent with prompts like: \"Are you sure this is the best you can do?\" \"I think you can do better, try...",
+      "url": "https://x.com/petergyang/status/2090564541499498919",
+      "source": "Follow Builders · X · Peter Yang",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-20T22:20:02+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "v2.1.238",
@@ -79,7 +148,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-20T13:26:53.704000+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "anthropic",

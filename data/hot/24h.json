@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T07:06:09.229029+00:00",
+  "generated_at": "2026-08-21T07:55:38.828965+00:00",
   "window_hours": 24,
-  "total_items": 11,
+  "total_items": 12,
   "items": [
     {
       "title": "呕吐：用单独的 LLM 清理 Claude 5 的代币输出",
@@ -20,6 +20,24 @@
       "hot_score": 100
     },
     {
+      "title": "Codex 在 AWS Bedrock 上存在一个导致费用增加 10 倍的漏洞",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-21T07:01:25.605000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
       "title": "人工智能公司正在摧毁实体书——趁还来得及，赶紧把珍本扫描下来吧",
       "url": "https://annas-archive.gl/blog/physical-destruction.html",
       "source": "annas-archive.gl",
@@ -31,7 +49,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 93
+      "hot_score": 87
     },
     {
       "title": "在欧盟，版权不保护由人工智能生成的内容",
@@ -45,7 +63,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 80
+      "hot_score": 75
     },
     {
       "title": "反AI字体既无用又有害",
@@ -59,7 +77,35 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 67
+      "hot_score": 62
+    },
+    {
+      "title": "Show HN：Argentic – 用于 AI 抓取代理的 L402 闪电收费站",
+      "url": "https://news.ycombinator.com/item?id=49384477",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-21T07:55:16.741000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 60
+    },
+    {
+      "title": "Ox Alpha",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "source": "openrouter.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-08-21T07:01:25.601000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
     },
     {
       "title": "Show HN: 太棒了——一种利用人工智能进行编程的新方法",
@@ -73,24 +119,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 54
-    },
-    {
-      "title": "Codex on AWS 基岩错误导致 10 倍费用",
-      "url": "https://news.ycombinator.com/item?id=49383326",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-21T03:46:38.493000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 45
+      "hot_score": 50
     },
     {
       "title": "Artificial Intelligence Policy",
@@ -106,21 +135,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 38
-    },
-    {
-      "title": "Ox Alpha",
-      "url": "https://openrouter.ai/stealth/ox-alpha",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-08-20T23:56:35+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 33
+      "hot_score": 35
     },
     {
       "title": "DiffusionGemma 技术报告",
@@ -129,14 +144,14 @@
       "site_id": "buzzing",
       "published_at": "2026-08-20T18:14:18.037000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 21
+      "hot_score": 19
     },
     {
       "title": "请不要粘贴AI生成的内容",
@@ -150,7 +165,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 20
+      "hot_score": 18
     },
     {
       "title": "与 Claude 一起在 27 美元的智能手表上进行黑客攻击",
@@ -166,7 +181,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 15
+      "hot_score": 14
     }
   ]
 }
