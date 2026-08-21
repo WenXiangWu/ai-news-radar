@@ -1,11 +1,29 @@
 {
-  "generated_at": "2026-08-21T10:46:17.002936+00:00",
+  "generated_at": "2026-08-21T11:39:01.024134+00:00",
   "date": "2026-08-21",
   "timezone": "Asia/Shanghai",
   "lead": "v0.28.0rc2：[规格解码] DFlash2：局部卷积+候选选择器（#52816）；[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud；ChatGPT 搜索现在大规模使用 site:operator",
   "total_items": 20,
   "selection": "official_first_then_crossing",
-  "hot": [],
+  "hot": [
+    {
+      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "source": "DeepSeek：API 更新日志",
+      "site_id": "aihot",
+      "published_at": "2026-08-21T11:38:40.486000+00:00",
+      "source_count": 3,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    }
+  ],
   "items": [
     {
       "title": "v0.28.0rc2：[规格解码] DFlash2：局部卷积+候选选择器（#52816）",
@@ -42,7 +60,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-20T23:57:32+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -93,13 +111,29 @@
       "label": "官方更新"
     },
     {
+      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "source": "DeepSeek：API 更新日志",
+      "site_id": "aihot",
+      "published_at": "2026-08-21T11:38:40.486000+00:00",
+      "source_count": 3,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "Windows 11 arm64 VS2026 镜像正式发布",
       "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-08-20T17:52:38+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -147,23 +181,6 @@
       "label": "官方更新"
     },
     {
-      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "source": "DeepSeek：API 更新日志",
-      "site_id": "aihot",
-      "published_at": "2026-08-21T09:26:04.727000+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
       "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
       "url": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search",
       "source": "Google Cloud：Databases（RSS）",
@@ -198,12 +215,25 @@
       "site_id": "curated_media",
       "published_at": "2026-08-21T08:26:05+00:00",
       "source_count": 1,
-      "score": 66,
+      "score": 65,
       "official": true,
       "topics": [
         "openai",
         "anthropic"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Waymo 为其机器人出租车打造自己的芯片，减少对 Nvidia 的依赖",
+      "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T11:04:09+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -239,6 +269,19 @@
       "label": "值得关注"
     },
     {
+      "title": "Meta斥资数亿购买微软AI服务",
+      "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T10:54:41+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Nvidia 斥资 60 亿美元收购 Poolside 的“模范工厂”和 109 名员工",
       "url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion",
       "source": "The Decoder AI News",
@@ -263,38 +306,6 @@
       "topics": [
         "openai",
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.238",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-20T20:33:51+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Adobe Firefly 添加了 AI 音频工具和 Google 的 Gemini Omni Flash",
-      "url": "https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-20T19:29:34+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "google"
       ],
       "reason": "",
       "label": "值得关注"
