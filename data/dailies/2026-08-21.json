@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:57:23.111556+00:00",
+  "generated_at": "2026-08-21T14:57:47.177634+00:00",
   "date": "2026-08-21",
   "timezone": "Asia/Shanghai",
   "lead": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构；安全在 AI 代理堆栈中的作用；从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 92
     }
   ],
   "items": [
@@ -45,7 +45,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-21T13:00:00+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "agent"
@@ -97,7 +97,7 @@
       "label": "官方更新"
     },
     {
-      "title": "测量语音识别中的基准优化",
+      "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
       "url": "https://huggingface.co/blog/asr-benchmark-optimization",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
@@ -214,32 +214,6 @@
       "label": "官方更新"
     },
     {
-      "title": "针对 GitHub 代码质量的单独 GitHub Actions 路径",
-      "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T14:29:27+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在审核日志中跟踪 GitHub 代码质量启用更改",
-      "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T14:28:41+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
       "url": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search",
       "source": "Google Cloud：Databases（RSS）",
@@ -259,7 +233,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-20T17:56:58.396000+00:00",
       "source_count": 1,
-      "score": 69,
+      "score": 68,
       "official": true,
       "topics": [
         "anthropic"
@@ -274,7 +248,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-21T08:26:05+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "openai",
@@ -297,18 +271,46 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI 的 GPT-Image-2 现在可以生成没有背景的图像",
+      "url": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T07:53:40+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "在企业抵制后，人为改变数据保留政策",
       "url": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-08-21T09:59:51+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
         "industry"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Meta斥资数亿购买微软AI服务",
+      "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T10:54:41+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
