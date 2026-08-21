@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T17:43:07.619607+00:00",
+  "generated_at": "2026-08-21T18:54:33.123163+00:00",
   "date": "2026-08-22",
   "timezone": "Asia/Shanghai",
-  "lead": "Slack 中的全新 GitHub Copilot 体验；在 Microsoft Teams 中与 GitHub Copilot 共享代理工作；用于管理被阻止用户的更好工具",
+  "lead": "用于管理被阻止用户的更好工具；一种人工智能工具，用于根据可穿戴传感器数据对候选生物标记物进行优先级排序；Slack 中的全新 GitHub Copilot 体验",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -21,40 +21,10 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 73
+      "hot_score": 66
     }
   ],
   "items": [
-    {
-      "title": "Slack 中的全新 GitHub Copilot 体验",
-      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T16:07:15+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作",
-      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T16:03:36+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
     {
       "title": "用于管理被阻止用户的更好工具",
       "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
@@ -78,6 +48,36 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Slack 中的全新 GitHub Copilot 体验",
+      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:07:15+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作",
+      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:03:36+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -125,32 +125,29 @@
       "label": "官方更新"
     },
     {
+      "title": "移动性如何让语言模型更深入地理解地点",
+      "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T10:54:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "v0.28.0rc2：[规格解码] DFlash2：局部卷积+候选选择器（#52816）",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc2",
       "source": "vLLM Releases",
       "site_id": "official_ai",
       "published_at": "2026-08-21T06:47:39+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
-      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource",
-        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -165,6 +162,22 @@
       "score": 82,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource",
+        "paper"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -210,21 +223,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Windows 11 arm64 VS2026 镜像正式发布",
-      "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T17:52:38+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
       "source": "DeepSeek：API 更新日志",
@@ -239,21 +237,6 @@
       ],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "Anthropic 如何开展 AI 教学",
-      "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
-      "source": "Claude：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-08-20T17:56:58.396000+00:00",
-      "source_count": 1,
-      "score": 68,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "随着 OpenAI 重新夺回 Anthropic 的地位，GPT-5.6 Sol 推动 OpenAI 收入激增",
@@ -285,22 +268,6 @@
       "label": "值得关注"
     },
     {
-      "title": "在企业抵制后，人为改变数据保留政策",
-      "url": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T09:59:51+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "OpenAI 的 GPT-Image-2 现在可以生成没有背景的图像",
       "url": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background",
       "source": "The Decoder AI News",
@@ -312,6 +279,35 @@
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "在企业抵制后，人为改变数据保留政策",
+      "url": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T09:59:51+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Meta斥资数亿购买微软AI服务",
+      "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T10:54:41+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
