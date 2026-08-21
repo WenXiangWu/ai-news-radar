@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T15:47:25.909977+00:00",
-  "today": "2026-08-21",
-  "lead": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构；安全在 AI 代理堆栈中的作用；从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
+  "generated_at": "2026-08-21T16:51:49.233043+00:00",
+  "today": "2026-08-22",
+  "lead": "Slack 中的全新 GitHub Copilot 体验；在 Microsoft Teams 中与 GitHub Copilot 共享代理工作；NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,7 +11,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-21T11:49:31.581000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "deepseek",
@@ -19,7 +19,35 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 86
+      "hot_score": 79
+    },
+    {
+      "title": "我正在变得对人工智能视而不见",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "source": "cymerys.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-21T16:37:38.437000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 59
+    },
+    {
+      "title": "研究显示，人工智能将家庭作业成绩提高了 18%，但考试成绩却下降了 20%",
+      "url": "https://news.ycombinator.com/item?id=49389565",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-21T16:31:50.459000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 58
     },
     {
       "title": "Claude：让Claude停止像 BuzzFeed 文章一样说话",
@@ -28,14 +56,14 @@
       "site_id": "newsnow",
       "published_at": "2026-08-21T15:31:47.946000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 59
+      "hot_score": 54
     },
     {
       "title": "Codex 在 AWS Bedrock 上存在一个导致费用增加 10 倍的漏洞",
@@ -53,35 +81,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 58
-    },
-    {
-      "title": "人工智能公司销毁实体书籍——让我们在为时已晚之前扫描善本书籍",
-      "url": "https://news.ycombinator.com/item?id=49385994",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-21T13:09:22.907000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
-    },
-    {
-      "title": "人工智能公司正在摧毁实体书——趁还来得及，赶紧把珍本扫描下来吧",
-      "url": "https://annas-archive.gl/blog/physical-destruction.html",
-      "source": "annas-archive.gl",
-      "site_id": "buzzing",
-      "published_at": "2026-08-21T04:05:18.645000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 45
+      "hot_score": 53
     }
   ],
   "topics": [
@@ -90,21 +90,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 28
+      "count": 27
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 28
+      "count": 27
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "deepseek",
@@ -132,7 +132,7 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "mcp",
@@ -171,6 +171,7 @@
     }
   ],
   "days": [
+    "2026-08-22",
     "2026-08-21",
     "2026-08-20",
     "2026-08-19",

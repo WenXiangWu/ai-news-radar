@@ -1,6 +1,7 @@
 {
   "title": "2026-08 月报",
   "dates": [
+    "2026-08-22",
     "2026-08-21",
     "2026-08-20",
     "2026-08-19",
@@ -51,6 +52,36 @@
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Slack 中的全新 GitHub Copilot 体验",
+      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:07:15+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作",
+      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:03:36+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -240,19 +271,6 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T05:45:21+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
       "url": "https://huggingface.co/blog/asr-benchmark-optimization",
       "source": "Hugging Face Blog",
@@ -327,17 +345,15 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 搜索现在大规模使用 site:operator",
-      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale",
-      "source": "Simon Willison",
+      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-08-20T23:57:32+00:00",
+      "published_at": "2026-08-21T05:45:21+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -401,15 +417,17 @@
       "label": "官方更新"
     },
     {
-      "title": "将保存的视图固定到代码仓库问题侧边栏通常是可用的等等",
-      "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-      "source": "GitHub Changelog",
+      "title": "ChatGPT 搜索现在大规模使用 site:operator",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-08-20T23:29:34+00:00",
+      "published_at": "2026-08-20T23:57:32+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -533,6 +551,19 @@
       "label": "官方更新"
     },
     {
+      "title": "将保存的视图固定到代码仓库问题侧边栏通常是可用的等等",
+      "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T23:29:34+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "/wayfinder 技能：驾驭规划的“战争迷雾”",
       "url": "https://www.latent.space/p/wayfinder-skill",
       "source": "Latent Space",
@@ -542,21 +573,6 @@
       "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Windows 11 arm64 VS2026 镜像正式发布",
-      "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T17:52:38+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -572,23 +588,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "通过搜索提升学习水平的 5 种新方法",
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-21T15:47:25.909977+00:00",
+  "generated_at": "2026-08-21T16:51:49.233043+00:00",
   "period": "2026-08"
 }
