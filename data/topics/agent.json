@@ -1,11 +1,44 @@
 {
-  "generated_at": "2026-08-22T12:59:14.465156+00:00",
+  "generated_at": "2026-08-22T13:43:58.794152+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 16,
+  "total_items": 17,
   "items": [
+    {
+      "title": "openai /      codex",
+      "url": "https://github.com/openai/codex",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-08-22T13:43:41.028000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each",
+      "url": "https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-08-22T13:43:13+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Codex 怎么突然变慢了？一个需求跑几十分钟，我才发现它的工作方式已经变了",
       "url": "https://juejin.cn/post/7675676910077345798",
@@ -60,7 +93,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-08-22T07:15:00+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "agent"
@@ -248,21 +281,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "安全在 AI 代理堆栈中的作用",
-      "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T13:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
