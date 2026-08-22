@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T19:43:11.502775+00:00",
+  "generated_at": "2026-08-22T20:48:06.879591+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 21,
+  "total_items": 14,
   "items": [
     {
       "title": "Anthropic 似乎正在减少 Claude 代码中的 A/B 测试工作量",
@@ -28,7 +28,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-22T19:00:00+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "openai",
@@ -45,7 +45,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-22T17:05:00+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "openai",
@@ -109,7 +109,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-22T13:43:41.028000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -184,27 +184,10 @@
       "site_id": "curated_media",
       "published_at": "2026-08-21T21:15:53+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "快速印象：比 Claude 使用 Codex 多的一周",
-      "url": "https://news.ycombinator.com/item?id=49393051",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-21T20:38:47.522000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -225,109 +208,18 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic hires Amir Salek, who ran Google's TPU business until 2022, to join its compute team as part of a push to develop its own chips (Dina Bass/Bloomberg)",
-      "url": "https://www.techmeme.com/260821/p23",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-08-21T20:25:01+00:00",
+      "title": "快速印象：比 Claude 使用 Codex 多的一周",
+      "url": "https://news.ycombinator.com/item?id=49393051",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-21T20:38:47.522000+00:00",
       "source_count": 1,
       "score": 47,
       "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "No driver, no problem — devs use Claude AI to craft native macOS tool for an 'obscure' Windows-only printer",
-      "url": "https://www.techradar.com/pro/no-driver-no-problem-devs-use-claude-ai-to-craft-native-macos-tool-for-an-obscure-windows-only-printer",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-08-21T20:05:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic将为捍卫者提供其最强大的模型发现的内容，但不会提供模型本身",
-      "url": "https://thenextweb.com/news/anthropic-mythos-5-defenders-open-source-fund",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-08-21T20:00:34+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.239",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T19:54:23+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
       "topics": [
         "anthropic",
         "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 将其最强大的模型 Claude Mythos 5 用于网络防御",
-      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T19:35:37+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "debating whether we should make it an official plugin, but you can try installing it here to try with these commands: claude plugin marketplace add anthropics/claude-plugins-community claude plugin install eli5@claude...",
-      "url": "https://x.com/trq212/status/2090884855798407576",
-      "source": "Follow Builders · X · Thariq",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-21T19:32:51+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "a skill people at Anthropic have been using a lot recently: ELI5 /eli5 &lt;what you want explained&gt; \"explain like I'm someone who knows nothing about this topic, using a HTML artifact with big pictures and few word...",
-      "url": "https://x.com/trq212/status/2090884854590382515",
-      "source": "Follow Builders · X · Thariq",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-21T19:32:50+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "anthropic"
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
