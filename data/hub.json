@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T05:40:33.141934+00:00",
+  "generated_at": "2026-08-22T06:57:56.046124+00:00",
   "today": "2026-08-22",
-  "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；v0.5.18；用于管理被阻止用户的更好工具",
+  "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；v0.5.18；llm 0.32.1",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -16,7 +16,21 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 71
+      "hot_score": 64
+    },
+    {
+      "title": "GPT 5.6 Sol 20% price reduction",
+      "url": "https://news.ycombinator.com/item?id=49396590",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-22T06:43:59.267000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 59
     },
     {
       "title": "研究表明：人工智能使作业成绩提高了18%——随后考试成绩却下降了20%",
@@ -25,12 +39,12 @@
       "site_id": "buzzing",
       "published_at": "2026-08-21T17:25:45.772000+00:00",
       "source_count": 4,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 65
+      "hot_score": 58
     },
     {
       "title": "当 GPU 读取内存时会发生什么",
@@ -39,12 +53,12 @@
       "site_id": "buzzing",
       "published_at": "2026-08-22T01:41:21.550000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 43
+      "hot_score": 39
     },
     {
       "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
@@ -61,25 +75,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 28
-    },
-    {
-      "title": "快速印象：比 Claude 使用 Codex 多的一周",
-      "url": "https://news.ycombinator.com/item?id=49393051",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-21T20:38:47.522000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 28
+      "hot_score": 25
     }
   ],
   "topics": [
@@ -95,7 +91,7 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 22
+      "count": 28
     },
     {
       "slug": "google",
@@ -123,21 +119,21 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 12
+      "count": 17
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 10
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "opensource",
@@ -151,7 +147,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 9
+      "count": 7
     },
     {
       "slug": "paper",
@@ -165,7 +161,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 14
+      "count": 12
     }
   ],
   "days": [

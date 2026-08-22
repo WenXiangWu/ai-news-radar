@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T05:40:33.141934+00:00",
+  "generated_at": "2026-08-22T06:57:56.046124+00:00",
   "date": "2026-08-22",
   "timezone": "Asia/Shanghai",
-  "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；v0.5.18；用于管理被阻止用户的更好工具",
+  "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；v0.5.18；llm 0.32.1",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-21T11:49:31.581000+00:00",
       "source_count": 3,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "deepseek",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 27
+      "hot_score": 24
     }
   ],
   "items": [
@@ -50,19 +50,6 @@
       "topics": [
         "launch"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "用于管理被阻止用户的更好工具",
-      "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T17:28:36+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -123,13 +110,13 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构",
-      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents",
-      "source": "NVIDIA Developer Blog",
+      "title": "用于管理被阻止用户的更好工具",
+      "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-21T13:00:00+00:00",
+      "published_at": "2026-08-21T17:28:36+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -141,6 +128,19 @@
       "source": "Google Research Blog",
       "site_id": "official_ai",
       "published_at": "2026-08-21T17:02:24+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构",
+      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T13:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -192,41 +192,13 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.28.0rc2：[规格解码] DFlash2：局部卷积+候选选择器（#52816）",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc2",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T06:47:39+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T05:45:21+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
       "source": "DeepSeek：API 更新日志",
       "site_id": "aihot",
       "published_at": "2026-08-21T11:49:31.581000+00:00",
       "source_count": 3,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "deepseek",
@@ -234,24 +206,6 @@
       ],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "Deepseek 发布实验性 Flash 视觉模型，在代理基准测试中可与 Opus 4.8 相媲美",
-      "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T19:08:27+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "agent",
-        "launch",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "Anthropic 的 Opus 4.6 是一台色情机器",
@@ -284,6 +238,24 @@
       "label": "值得关注"
     },
     {
+      "title": "Deepseek 发布实验性 Flash 视觉模型，在代理基准测试中可与 Opus 4.8 相媲美",
+      "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T19:08:27+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "agent",
+        "launch",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Nvidia 与数据中心开发商 Cloverleaf 合作",
       "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf",
       "source": "TechCrunch AI",
@@ -310,6 +282,35 @@
         "agent",
         "launch"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "随着 OpenAI 重新夺回 Anthropic 的地位，GPT-5.6 Sol 推动 OpenAI 收入激增",
+      "url": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T08:26:05+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T19:43:39+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     }

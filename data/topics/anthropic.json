@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T05:40:33.141934+00:00",
+  "generated_at": "2026-08-22T06:57:56.046124+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 22,
+  "total_items": 28,
   "items": [
     {
       "title": "Sources: Anthropic's bankers said the company could raise $100B+ in its IPO, which could value it at $2T, in recent discussions with potential investors (New York Times)",
@@ -13,7 +13,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-22T00:36:16+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -28,7 +28,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-22T00:24:20+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -121,7 +121,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-21T20:05:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -136,7 +136,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-21T20:00:34+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic",
@@ -178,6 +178,52 @@
       "label": "值得关注"
     },
     {
+      "title": "debating whether we should make it an official plugin, but you can try installing it here to try with these commands: claude plugin marketplace add anthropics/claude-plugins-community claude plugin install eli5@claude...",
+      "url": "https://x.com/trq212/status/2090884855798407576",
+      "source": "Follow Builders · X · Thariq",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-21T19:32:51+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "a skill people at Anthropic have been using a lot recently: ELI5 /eli5 &lt;what you want explained&gt; \"explain like I'm someone who knows nothing about this topic, using a HTML artifact with big pictures and few word...",
+      "url": "https://x.com/trq212/status/2090884854590382515",
+      "source": "Follow Builders · X · Thariq",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-21T19:32:50+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "This is still SO underrated btw.. My daughter just started kindergarten. The daily meal is on a random website with weird unstructured data. Asked Claude Code to find the API through network requests, which turned out...",
+      "url": "https://x.com/nikunj/status/2090884422178627624",
+      "source": "Follow Builders · X · Nikunj Kothari",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-21T19:31:07+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic says Mythos 5 is now in public beta in Claude Security for Enterprise users, and it is working with providers to embed Mythos 5 in defensive tools (Claude)",
       "url": "https://www.techmeme.com/260821/p18",
       "source": "Techmeme",
@@ -209,6 +255,52 @@
       "label": "值得关注"
     },
     {
+      "title": "It's one of several steps to bring frontier capability to more defenders: we’re working with partners to integrate Mythos 5 into their security products and services, our new Defender Advantage Fund provides $35M in c...",
+      "url": "https://x.com/claudeai/status/2090852320128938319",
+      "source": "Follow Builders · X · Claude",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-21T17:23:33+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across files and reasoning about how components interact. Each finding comes back with a CWE category, confidence and severity r...",
+      "url": "https://x.com/claudeai/status/2090852316328902930",
+      "source": "Follow Builders · X · Claude",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-21T17:23:33+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Suggested patches open in Claude Code on the web, using the models your team already uses. These updates are part of our work to give defenders greater access to Mythos results without requiring direct access to the m...",
+      "url": "https://x.com/claudeai/status/2090852318527033804",
+      "source": "Follow Builders · X · Claude",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-21T17:23:33+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Claude：让Claude停止像 BuzzFeed 文章一样说话",
       "url": "https://news.ycombinator.com/item?id=49388752",
       "source": "hackernews",
@@ -230,7 +322,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-21T14:54:41+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -245,7 +337,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-21T14:28:27.351000+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
