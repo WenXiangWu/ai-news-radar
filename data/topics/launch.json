@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-08-22T14:36:33.886591+00:00",
+  "generated_at": "2026-08-22T15:35:24.021915+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 3,
+  "total_items": 5,
   "items": [
+    {
+      "title": "v2.1.240",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-22T14:45:30+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "v2.1.239",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
@@ -37,6 +54,22 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
+      "url": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-21T19:34:36+00:00",
+      "source_count": 1,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "Deepseek 发布实验性 Flash 视觉模型，在代理基准测试中可与 Opus 4.8 相媲美",
