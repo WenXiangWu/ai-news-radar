@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T04:48:15.944914+00:00",
+  "generated_at": "2026-08-22T05:40:33.141934+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 13,
+  "total_items": 12,
   "items": [
     {
       "title": "OpenAI says California should amend SB 53 to expand safeguards, including requiring monitoring of frontier models under training, following AI agent hacks (Chase DiFeliciantonio/Politico)",
@@ -13,7 +13,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-21T23:10:11+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -29,7 +29,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-21T20:38:47.522000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic",
@@ -81,7 +81,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-08-21T18:53:37.001978+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "agent"
@@ -166,11 +166,10 @@
         "openai",
         "agent",
         "coding",
-        "opensource",
-        "industry"
+        "opensource"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "阿里开源 Qwen-UI-Agent：真机多模态基座模型登场",
@@ -184,11 +183,10 @@
       "topics": [
         "qwen",
         "agent",
-        "opensource",
-        "industry"
+        "opensource"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Codex 在 AWS Bedrock 上存在一个导致费用增加 10 倍的漏洞",
@@ -201,22 +199,6 @@
       "official": true,
       "topics": [
         "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent. What we did see is that when talking to affected users m...",
-      "url": "https://x.com/thsottiaux/status/2090675027670978569",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-21T05:39:04+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
         "agent",
         "coding"
       ],

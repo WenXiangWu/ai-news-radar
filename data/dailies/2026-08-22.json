@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T04:48:15.944914+00:00",
+  "generated_at": "2026-08-22T05:40:33.141934+00:00",
   "date": "2026-08-22",
   "timezone": "Asia/Shanghai",
   "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；v0.5.18；用于管理被阻止用户的更好工具",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 29
+      "hot_score": 27
     }
   ],
   "items": [
@@ -72,19 +72,6 @@
       "source": "Simon Willison",
       "site_id": "official_ai",
       "published_at": "2026-08-21T17:16:13+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "一种人工智能工具，用于根据可穿戴传感器数据对候选生物标记物进行优先级排序",
-      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T17:02:24+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -149,6 +136,19 @@
       "label": "官方更新"
     },
     {
+      "title": "一种人工智能工具，用于根据可穿戴传感器数据对候选生物标记物进行优先级排序",
+      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T17:02:24+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "安全在 AI 代理堆栈中的作用",
       "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack",
       "source": "NVIDIA Developer Blog",
@@ -170,7 +170,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-21T11:59:48+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "google"
@@ -236,21 +236,6 @@
       "label": "多源热议"
     },
     {
-      "title": "Anthropic 将其最强大的模型 Claude Mythos 5 用于网络防御",
-      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T19:35:37+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Deepseek 发布实验性 Flash 视觉模型，在代理基准测试中可与 Opus 4.8 相媲美",
       "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks",
       "source": "The Decoder AI News",
@@ -284,30 +269,46 @@
       "label": "值得关注"
     },
     {
+      "title": "Anthropic 将其最强大的模型 Claude Mythos 5 用于网络防御",
+      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T19:35:37+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Nvidia 与数据中心开发商 Cloverleaf 合作",
       "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-08-21T22:37:38+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "随着 OpenAI 重新夺回 Anthropic 的地位，GPT-5.6 Sol 推动 OpenAI 收入激增",
-      "url": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic",
-      "source": "The Decoder AI News",
+      "title": "v2.1.239",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
+      "source": "Claude Code Releases",
       "site_id": "curated_media",
-      "published_at": "2026-08-21T08:26:05+00:00",
+      "published_at": "2026-08-21T19:54:23+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
-        "openai",
-        "anthropic"
+        "anthropic",
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
