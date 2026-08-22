@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T01:51:03.182565+00:00",
+  "generated_at": "2026-08-22T03:07:41.900711+00:00",
   "date": "2026-08-22",
   "timezone": "Asia/Shanghai",
   "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；v0.5.18；llm 0.32.1",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 37
+      "hot_score": 34
     }
   ],
   "items": [
@@ -110,19 +110,6 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构",
-      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T13:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "用于管理被阻止用户的更好工具",
       "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
       "source": "GitHub Changelog",
@@ -141,6 +128,19 @@
       "source": "Google Research Blog",
       "site_id": "official_ai",
       "published_at": "2026-08-21T17:02:24+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构",
+      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T13:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -236,24 +236,6 @@
       "label": "多源热议"
     },
     {
-      "title": "Deepseek 发布实验性 Flash 视觉模型，在代理基准测试中可与 Opus 4.8 相媲美",
-      "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T19:08:27+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "agent",
-        "launch",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Anthropic 的 Opus 4.6 是一台色情机器",
       "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
       "source": "TechCrunch AI",
@@ -279,6 +261,24 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Deepseek 发布实验性 Flash 视觉模型，在代理基准测试中可与 Opus 4.8 相媲美",
+      "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T19:08:27+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "agent",
+        "launch",
+        "paper"
       ],
       "reason": "",
       "label": "值得关注"
