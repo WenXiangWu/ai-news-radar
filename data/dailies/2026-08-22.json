@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T03:55:10.473891+00:00",
+  "generated_at": "2026-08-22T04:48:15.944914+00:00",
   "date": "2026-08-22",
   "timezone": "Asia/Shanghai",
-  "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；llm 0.32.1；llm-openrouter 0.7",
+  "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；v0.5.18；用于管理被阻止用户的更好工具",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 31
+      "hot_score": 29
     }
   ],
   "items": [
@@ -31,32 +31,6 @@
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-08-21T23:37:38+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm 0.32.1",
-      "url": "https://simonwillison.net/2026/Aug/21/llm",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T17:16:13+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm-openrouter 0.7",
-      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T16:58:19+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -93,11 +67,37 @@
       "label": "官方更新"
     },
     {
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T17:16:13+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "一种人工智能工具，用于根据可穿戴传感器数据对候选生物标记物进行优先级排序",
       "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data",
       "source": "Google Research Blog",
       "site_id": "official_ai",
       "published_at": "2026-08-21T17:02:24+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm-openrouter 0.7",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:58:19+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -155,7 +155,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-21T13:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "agent"
@@ -297,18 +297,17 @@
       "label": "值得关注"
     },
     {
-      "title": "v2.1.239",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
-      "source": "Claude Code Releases",
+      "title": "随着 OpenAI 重新夺回 Anthropic 的地位，GPT-5.6 Sol 推动 OpenAI 收入激增",
+      "url": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-08-21T19:54:23+00:00",
+      "published_at": "2026-08-21T08:26:05+00:00",
       "source_count": 1,
       "score": 62,
       "official": true,
       "topics": [
-        "anthropic",
-        "agent",
-        "launch"
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
