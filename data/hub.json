@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T23:36:41.130134+00:00",
+  "generated_at": "2026-08-22T01:51:03.182565+00:00",
   "today": "2026-08-22",
-  "lead": "llm 0.32.1；llm-openrouter 0.7；v0.5.18",
+  "lead": "模拟：新的缩放法则 — Joon Sung Park，Simile AI；v0.5.18；llm 0.32.1",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -16,7 +16,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 98
     },
     {
       "title": "研究表明：人工智能使作业成绩提高了18%——随后考试成绩却下降了20%",
@@ -30,7 +30,21 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 89
+    },
+    {
+      "title": "当 GPU 读取内存时会发生什么",
+      "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+      "source": "blog.doubleword.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-08-22T01:41:21.550000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 59
     },
     {
       "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
@@ -39,7 +53,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-21T20:38:47.522000+00:00",
       "source_count": 2,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -47,7 +61,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 47
+      "hot_score": 39
     },
     {
       "title": "快速印象：比 Claude 使用 Codex 多的一周",
@@ -56,7 +70,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-21T20:38:47.522000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "anthropic",
@@ -65,24 +79,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 47
-    },
-    {
-      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "source": "DeepSeek：API 更新日志",
-      "site_id": "aihot",
-      "published_at": "2026-08-21T11:49:31.581000+00:00",
-      "source_count": 3,
-      "score": 77,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 45
+      "hot_score": 39
     }
   ],
   "topics": [
@@ -98,7 +95,7 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 26
+      "count": 28
     },
     {
       "slug": "google",
@@ -147,7 +144,7 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 9
+      "count": 8
     },
     {
       "slug": "launch",
@@ -161,14 +158,14 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 28
+      "count": 23
     }
   ],
   "days": [
