@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T17:35:03.134838+00:00",
+  "generated_at": "2026-08-22T18:47:38.386329+00:00",
   "date": "2026-08-23",
   "timezone": "Asia/Shanghai",
-  "lead": "[AINews] 差 10%、便宜 100 倍、快 10000 倍：为什么模拟正在取代；特工安全带的演变；模拟：新的缩放法则 — Joon Sung Park，Simile AI",
+  "lead": "llm 0.33；[AINews] 差 10%、便宜 100 倍、快 10000 倍：为什么模拟正在取代；特工安全带的演变",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -12,18 +12,31 @@
       "source": "blog.modelcontextprotocol.io",
       "site_id": "buzzing",
       "published_at": "2026-08-22T17:09:20.269000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "source_count": 3,
+      "score": 57,
       "official": true,
       "topics": [
         "mcp"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 58
+      "label": "多源热议",
+      "hot_score": 100
     }
   ],
   "items": [
+    {
+      "title": "llm 0.33",
+      "url": "https://simonwillison.net/2026/Aug/22/llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-22T17:01:16+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "[AINews] 差 10%、便宜 100 倍、快 10000 倍：为什么模拟正在取代",
       "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
@@ -70,7 +83,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-21T19:50:19+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "launch"
@@ -189,17 +202,19 @@
       "label": "值得关注"
     },
     {
-      "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-21T19:43:39+00:00",
-      "source_count": 1,
-      "score": 58,
+      "title": "新的MCP路线图",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
+      "source": "blog.modelcontextprotocol.io",
+      "site_id": "buzzing",
+      "published_at": "2026-08-22T17:09:20.269000+00:00",
+      "source_count": 3,
+      "score": 57,
       "official": true,
-      "topics": [],
+      "topics": [
+        "mcp"
+      ],
       "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
     },
     {
       "title": "Anthropic 将 Claude Mythos 5 引入 Claude Security：企业团队无需直接访问模型即可进行前沿漏洞扫描",
@@ -217,17 +232,15 @@
       "label": "值得关注"
     },
     {
-      "title": "新的MCP路线图",
-      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
-      "source": "blog.modelcontextprotocol.io",
-      "site_id": "buzzing",
-      "published_at": "2026-08-22T17:09:20.269000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-21T19:43:39+00:00",
+      "source_count": 1,
+      "score": 57,
       "official": true,
-      "topics": [
-        "mcp"
-      ],
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -238,7 +251,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-22T16:00:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [],
       "reason": "",
@@ -296,25 +309,10 @@
       "site_id": "techurls",
       "published_at": "2026-08-22T12:00:10+00:00",
       "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 可能筹集 1000 亿美元，是欧洲数十年来最大上市规模的十倍",
-      "url": "https://thenextweb.com/news/anthropic-ipo-100-billion-two-trillion-valuation",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-08-22T10:10:57+00:00",
-      "source_count": 1,
       "score": 50,
       "official": true,
       "topics": [
-        "anthropic"
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
