@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T09:00:28.200351+00:00",
+  "generated_at": "2026-08-23T09:55:04.034431+00:00",
   "date": "2026-08-23",
   "timezone": "Asia/Shanghai",
   "lead": "llm 0.33；Memory shortage reportedly drives Nvidia AI server prices up about 15 percent；v2.1.241",
@@ -20,7 +20,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 32
+      "hot_score": 30
     }
   ],
   "items": [
@@ -31,7 +31,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-22T17:01:16+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -57,7 +57,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-23T00:52:16+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -74,7 +74,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-22T19:00:00+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai",
@@ -106,7 +106,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-22T14:45:30+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -293,22 +293,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conver...",
-      "url": "https://x.com/thsottiaux/status/2091407991736332689",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-23T06:11:36+00:00",
-      "source_count": 1,
-      "score": 65,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "AI diffusion is far more rate limited by having good evals than most realize. The kind of evals that you see for every model release are incredibly helpful, but only tell you the shape of general AI progress and the r...",
       "url": "https://x.com/levie/status/2091359223368315050",
       "source": "Follow Builders · X · Aaron Levie",
@@ -319,6 +303,22 @@
       "official": false,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conver...",
+      "url": "https://x.com/thsottiaux/status/2091407991736332689",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-23T06:11:36+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
