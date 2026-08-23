@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-08-22T23:46:39.556794+00:00",
+  "generated_at": "2026-08-23T02:10:34.439343+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 14,
+  "total_items": 13,
   "items": [
+    {
+      "title": "v2.1.241",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-23T00:52:16+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "使用Codex的时间比使用Claude的时间多了一周",
       "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
@@ -13,7 +30,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-22T23:17:38.258000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic",
@@ -30,7 +47,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-22T23:06:15.874000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic",
@@ -47,7 +64,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-22T21:09:21.713000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "anthropic",
@@ -70,21 +87,6 @@
         "google",
         "agent",
         "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
-      "url": "https://www.infoq.cn/article/IBYDTeu3rse9tH3549wf",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-22T15:15:00+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -113,7 +115,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-22T13:43:41.028000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -130,7 +132,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-22T13:43:13+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -146,7 +148,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-22T09:20:29.935000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
@@ -162,7 +164,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-22T09:01:02+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -187,6 +189,21 @@
       "label": "值得关注"
     },
     {
+      "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
+      "url": "https://www.infoq.cn/article/IBYDTeu3rse9tH3549wf",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-22T07:15:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those use...",
       "url": "https://x.com/thsottiaux/status/2091033630147854385",
       "source": "Follow Builders · X · Thibault Sottiaux",
@@ -196,39 +213,6 @@
       "score": 61,
       "official": false,
       "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "https://t.co/G0UyDr4xgg now supports your @Grok &amp; Codex subs Test it out on a sandbox. Instant to install: https://t.co/ogzI7TeKQ4 https://t.co/DzGu67GnJF",
-      "url": "https://x.com/rauchg/status/2090953806624489501",
-      "source": "Follow Builders · X · Guillermo Rauch",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-22T00:06:50+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "The banked reset will be there by 8pm PST. For all paid users of ChatGPT Work and Codex. Do with this information what you may.",
-      "url": "https://x.com/thsottiaux/status/2090947196107764189",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-21T23:40:34+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "openai",
         "agent",
         "coding"
       ],
