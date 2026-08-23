@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T07:12:04.011242+00:00",
+  "generated_at": "2026-08-23T07:59:47.340355+00:00",
   "date": "2026-08-23",
   "timezone": "Asia/Shanghai",
-  "lead": "llm 0.33；[AINews] 差 10%、便宜 100 倍、快 10000 倍：为什么模拟正在取代；特工安全带的演变",
+  "lead": "llm 0.33；v2.1.241；Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -20,7 +20,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 37
+      "hot_score": 35
     }
   ],
   "items": [
@@ -32,32 +32,6 @@
       "published_at": "2026-08-22T17:01:16+00:00",
       "source_count": 1,
       "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] 差 10%、便宜 100 倍、快 10000 倍：为什么模拟正在取代",
-      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-22T07:36:00+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "特工安全带的演变",
-      "url": "https://www.latent.space/p/attention-interface",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-22T07:30:52+00:00",
-      "source_count": 1,
-      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
@@ -179,7 +153,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-22T16:00:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [],
       "reason": "",
@@ -306,17 +280,46 @@
       "label": "值得关注"
     },
     {
+      "title": "Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conver...",
+      "url": "https://x.com/thsottiaux/status/2091407991736332689",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-23T06:11:36+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "AI diffusion is far more rate limited by having good evals than most realize. The kind of evals that you see for every model release are incredibly helpful, but only tell you the shape of general AI progress and the r...",
       "url": "https://x.com/levie/status/2091359223368315050",
       "source": "Follow Builders · X · Aaron Levie",
       "site_id": "followbuilders",
       "published_at": "2026-08-23T02:57:49+00:00",
       "source_count": 1,
-      "score": 66,
+      "score": 65,
       "official": false,
       "topics": [
         "launch"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "There’s a phenomenon where talented individuals can achieve 10x their potential thanks to AI when working on their own thing But when the same individual is put into a large organization, they at most increase their p...",
+      "url": "https://x.com/zarazhangrui/status/2091379220257603593",
+      "source": "Follow Builders · X · Zara Zhang",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-23T04:17:16+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
