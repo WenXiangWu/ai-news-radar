@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T23:57:10.370116+00:00",
+  "generated_at": "2026-08-24T02:19:09.568386+00:00",
   "date": "2026-08-24",
   "timezone": "Asia/Shanghai",
-  "lead": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive；Memory shortage reportedly drives Nvidia AI server prices up about 15 percent；v2.1.241",
+  "lead": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive；Codex CLI 0.149.1；Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -20,7 +20,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 89
+      "hot_score": 73
     }
   ],
   "items": [
@@ -40,32 +40,32 @@
       "label": "官方更新"
     },
     {
+      "title": "Codex CLI 0.149.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T00:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
       "url": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-08-23T08:15:28+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.241",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-23T00:52:16+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -76,7 +76,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-23T21:38:35+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai"
@@ -121,7 +121,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-23T14:37:10.257000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [],
       "reason": "",
@@ -207,7 +207,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-23T10:00:10+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "google"
@@ -222,27 +222,10 @@
       "site_id": "zeli",
       "published_at": "2026-08-23T04:03:46+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "If you care about your privacy: 1. Go to https://t.co/yICN6WAe9R in Chrome 2. Run this prompt in Codex or Claude Code and tell it there's an open tab in your browser 3. Then pick the ones you want to remove and tell A...",
-      "url": "https://x.com/petergyang/status/2091331251211059468",
-      "source": "Follow Builders · X · Peter Yang",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-23T01:06:40+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -300,6 +283,21 @@
       "topics": [
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Cloudflare WriteGuard 为 MCP 服务器提供了精细化的安全控制",
+      "url": "https://www.infoq.cn/article/1pa8asW4xOs6y2GYfl8T",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-24T01:03:00+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "mcp"
       ],
       "reason": "",
       "label": "值得关注"
