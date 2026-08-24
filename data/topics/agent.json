@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-08-24T07:44:40.653591+00:00",
+  "generated_at": "2026-08-24T09:29:12.310493+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 19,
+  "total_items": 13,
   "items": [
+    {
+      "title": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
+      "url": "https://www.infoq.cn/article/2IBWc7BuB2qoGao5tlQT",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-24T07:43:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Codex 开放 1M 上下文后，我折腾了一圈才发现：新版根本不是网上教的那样配置",
       "url": "https://juejin.cn/post/7676238032370597940",
@@ -29,7 +44,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-24T01:56:19.908000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -63,7 +78,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-24T00:00:00+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -80,7 +95,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-08-23T21:00:06+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": false,
       "topics": [
         "anthropic",
@@ -191,120 +206,8 @@
       "site_id": "newsnow",
       "published_at": "2026-08-23T11:16:45.227000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
-      "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-23T09:00:00+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Code ：如何最大化你的 Session 价值",
-      "url": "https://juejin.cn/post/7675926600998944831",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-23T08:33:24.608000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "EP-Harness：从个人 AI Coding 到团队级 Agent 工作流｜得物技术",
-      "url": "https://juejin.cn/post/7675676910077329414",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-23T08:33:24.608000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GitHub 本周热门开源项目：Agent Infra与端侧 AI｜8.17–8.23",
-      "url": "https://juejin.cn/post/7676110932394098731",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-23T08:33:24.608000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "一份Token Plan套餐接通 Claude Code 和 Codex：国产模型统一额度池实测指南",
-      "url": "https://juejin.cn/post/7676295909912215561",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-23T08:33:24.608000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "继DSH之后！Codex Harness 也开源了！Rust 核心、三层架构、人机协作",
-      "url": "https://juejin.cn/post/7676292385958297626",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-23T08:33:24.608000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
-      "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-23T07:37:14+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
       "topics": [
         "agent"
       ],
