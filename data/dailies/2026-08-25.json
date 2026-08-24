@@ -1,27 +1,11 @@
 {
-  "generated_at": "2026-08-24T19:34:42.488311+00:00",
+  "generated_at": "2026-08-24T20:17:59.500775+00:00",
   "date": "2026-08-25",
   "timezone": "Asia/Shanghai",
-  "lead": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt；NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories；Solving Agentic AI Fleet Challenges with NVIDIA Vera CPU",
+  "lead": "llm-anthropic 0.27；NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt；NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
-    {
-      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-23T20:24:52+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 9
-    },
     {
       "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
       "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
@@ -29,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-24T15:00:00+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -38,7 +22,21 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 41
+      "hot_score": 39
+    },
+    {
+      "title": "OCR It——从无法复制的文档中提取文本，供您的LLM使用",
+      "url": "https://github.com/thiagotigaz/ocr-it",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-24T19:01:59.960000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
     },
     {
       "title": "OpenAI：GPT 5.6 Sol 降价（至少持续至 11 月 21 日）",
@@ -58,6 +56,21 @@
     }
   ],
   "items": [
+    {
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T16:27:04+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
       "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
@@ -98,34 +111,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-23T20:24:52+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Your executable is a SQLite database",
-      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T11:38:15+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Codex MCP server command deprecated",
       "url": "https://developers.openai.com/codex/changelog",
       "source": "OpenAI Codex Changelog",
@@ -144,13 +129,41 @@
       "label": "官方更新"
     },
     {
+      "title": "Your executable is a SQLite database",
+      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T11:38:15+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-23T20:24:52+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
       "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
       "source": "TechCrunch：AI（RSS）",
       "site_id": "aihot",
       "published_at": "2026-08-24T15:00:00+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -232,6 +245,19 @@
       "label": "值得关注"
     },
     {
+      "title": "OCR It——从无法复制的文档中提取文本，供您的LLM使用",
+      "url": "https://github.com/thiagotigaz/ocr-it",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-24T19:01:59.960000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "OpenAI：GPT 5.6 Sol 降价（至少持续至 11 月 21 日）",
       "url": "https://developers.openai.com/api/docs/pricing",
       "source": "developers.openai.com",
@@ -253,7 +279,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-24T16:41:45+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "industry"
@@ -296,7 +322,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-24T13:00:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -315,34 +341,6 @@
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "乌克兰官员称，俄罗斯的部分人工智能无人机搭载了英伟达微型计算机 - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeXR6ZDdGV2VzZUpUYUJETEU3SzhrVW9Ucm1jeEE4UjRJSkt5R015LWFjS3lnS2dYWktwRTZQVU94cmdoLW5xSWxVTHlnTWd6aHVoYWF6aW93RF96bU1GbFg5NjRLRS1aWml0Z3BLMjNnUk5KS2JQcENZeTBlcDQ5djRjTmdYTnpmTW9RVmk5WXNoa3N3Mm93?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-24T12:05:16.409000+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AgriciDaniel /      claude-obsidian",
-      "url": "https://github.com/AgriciDaniel/claude-obsidian",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-08-24T11:25:10.067000+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
