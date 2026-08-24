@@ -1,31 +1,16 @@
 {
   "title": "2026-W35 周报",
   "dates": [
+    "2026-08-25",
     "2026-08-24",
     "2026-08-23",
     "2026-08-22",
     "2026-08-21",
     "2026-08-20",
-    "2026-08-19",
-    "2026-08-18"
+    "2026-08-19"
   ],
   "total_items": 40,
   "items": [
-    {
-      "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
-      "url": "https://openai.com/index/chatgpt-for-teens",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T11:00:00+00:00",
-      "source_count": 2,
-      "score": 87,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
     {
       "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
       "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
@@ -58,17 +43,41 @@
       "label": "官方更新"
     },
     {
-      "title": "带有句子变压器的多向量（后期交互）嵌入模型",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
+      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-18T00:00:00+00:00",
-      "source_count": 2,
-      "score": 86,
+      "published_at": "2026-08-24T15:00:05+00:00",
+      "source_count": 1,
+      "score": 85,
       "official": true,
-      "topics": [
-        "opensource"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
+      "url": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T15:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Solving Agentic AI Fleet Challenges with NVIDIA Vera CPU",
+      "url": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T15:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -80,19 +89,6 @@
       "published_at": "2026-08-21T13:00:00+00:00",
       "source_count": 1,
       "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Your executable is a SQLite database",
-      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T11:38:15+00:00",
-      "source_count": 1,
-      "score": 84,
       "official": true,
       "topics": [],
       "reason": "",
@@ -197,17 +193,15 @@
       "label": "官方更新"
     },
     {
-      "title": "与 CodeAI 合作，准备第一代 AI",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "source": "OpenAI News",
+      "title": "Your executable is a SQLite database",
+      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-08-18T11:00:00+00:00",
+      "published_at": "2026-08-24T11:38:15+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -502,49 +496,6 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Stripe 以 7B 美元收购 OpenRouter",
-      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T23:13:41+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "相同的集群，利用率增加了 33 个点：改变的是顺序",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T19:46:21+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "从单次呼叫到代理：Microsoft Foundry 现已提供五种新的 Claude 功能",
-      "url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-17T19:20:07+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "llm 0.33",
       "url": "https://simonwillison.net/2026/Aug/22/llm",
       "source": "Simon Willison",
@@ -584,8 +535,51 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "llm-openrouter 0.7",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:58:19+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Slack 中的全新 GitHub Copilot 体验",
+      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:07:15+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作",
+      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:03:36+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-24T15:32:31.690818+00:00",
+  "generated_at": "2026-08-24T16:29:44.394087+00:00",
   "period": "2026-W35"
 }
