@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-08-25T02:31:14.729790+00:00",
+  "generated_at": "2026-08-25T03:50:46.554691+00:00",
   "today": "2026-08-25",
-  "lead": "v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)；llm-anthropic 0.27；Advancing price-performance for developers with GPT‑5.6 in Kiro",
+  "lead": "[AINews] Andrew Ng gets into AI Engineering；v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)；llm-anthropic 0.27",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
+      "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "source": "boydkane.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-25T03:02:56.442000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "OCR It——从无法复制的文档中提取文本，供您的LLM使用",
       "url": "https://github.com/thiagotigaz/ocr-it",
@@ -16,7 +30,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 64
+      "hot_score": 58
     },
     {
       "title": "OpenAI：GPT 5.6 Sol 降价（至少持续至 11 月 21 日）",
@@ -32,7 +46,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 63
+      "hot_score": 56
     },
     {
       "title": "对人工智能的依赖将导致编程专业技能的崩溃",
@@ -46,37 +60,21 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 63
+      "hot_score": 56
     },
     {
-      "title": "What languages are agent skills written in?",
-      "url": "https://news.ycombinator.com/item?id=49427825",
+      "title": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
+      "url": "https://news.ycombinator.com/item?id=49423495",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-08-25T01:51:05.684000+00:00",
-      "source_count": 2,
+      "published_at": "2026-08-24T18:37:56.182000+00:00",
+      "source_count": 3,
       "score": 55,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 57
-    },
-    {
-      "title": "Vintage Artificial Intelligence: Before It Got Awkward",
-      "url": "https://news.ycombinator.com/item?id=49425800",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-24T21:42:49.217000+00:00",
-      "source_count": 2,
-      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 40
+      "label": "多源热议",
+      "hot_score": 56
     }
   ],
   "topics": [
@@ -85,14 +83,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 27
+      "count": 23
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 25
+      "count": 22
     },
     {
       "slug": "google",
@@ -106,28 +104,28 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 6
+      "count": 5
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 15
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "mcp",
@@ -141,7 +139,7 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 10
+      "count": 7
     },
     {
       "slug": "launch",
@@ -155,14 +153,14 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 34
+      "count": 33
     }
   ],
   "days": [
