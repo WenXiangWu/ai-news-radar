@@ -12,6 +12,21 @@
   "total_items": 40,
   "items": [
     {
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T11:39:24+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
       "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
       "source": "Simon Willison",
@@ -50,6 +65,19 @@
       "published_at": "2026-08-21T13:00:00+00:00",
       "source_count": 1,
       "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Your executable is a SQLite database",
+      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T11:38:15+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [],
       "reason": "",
@@ -164,36 +192,6 @@
       "official": true,
       "topics": [
         "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T23:42:42+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -316,6 +314,36 @@
       "label": "官方更新"
     },
     {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T23:42:42+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "llm-anthropic 0.27",
       "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
       "source": "Simon Willison",
@@ -326,21 +354,6 @@
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T12:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -430,41 +443,17 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
-      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
-      "source": "NVIDIA Developer Blog",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-24T15:00:05+00:00",
+      "published_at": "2026-08-24T12:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
-      "url": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T15:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Solving Agentic AI Fleet Challenges with NVIDIA Vera CPU",
-      "url": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T15:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -571,11 +560,24 @@
       "label": "官方更新"
     },
     {
-      "title": "llm 0.33",
-      "url": "https://simonwillison.net/2026/Aug/22/llm",
-      "source": "Simon Willison",
+      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-22T17:01:16+00:00",
+      "published_at": "2026-08-24T15:00:05+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
+      "url": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T15:00:00+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
@@ -584,6 +586,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-25T11:27:23.514097+00:00",
+  "generated_at": "2026-08-25T12:18:36.605012+00:00",
   "period": "2026-W35"
 }
