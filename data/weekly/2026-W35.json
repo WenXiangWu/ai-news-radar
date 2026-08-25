@@ -12,6 +12,32 @@
   "total_items": 40,
   "items": [
     {
+      "title": "How to evaluate LLMs before production",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T21:35:11+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
+      "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T20:57:54+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
       "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
       "source": "Simon Willison",
@@ -47,21 +73,6 @@
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-08-25T15:14:14+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Extremely Fast and Accurate Transcription with Granite Speech 5.0 Turbo CTC",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T15:01:00+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
@@ -113,15 +124,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Push rules in rulesets now support path exceptions",
-      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-      "source": "GitHub Changelog",
+      "title": "Extremely Fast and Accurate Transcription with Granite Speech 5.0 Turbo CTC",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-25T17:40:15+00:00",
+      "published_at": "2026-08-25T15:01:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [],
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -218,6 +231,19 @@
       "published_at": "2026-08-20T14:28:41+00:00",
       "source_count": 1,
       "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Push rules in rulesets now support path exceptions",
+      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T17:40:15+00:00",
+      "source_count": 1,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -446,21 +472,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "llm-anthropic 0.27",
       "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
       "source": "Simon Willison",
@@ -561,34 +572,21 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-      "source": "vLLM Releases",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-24T23:42:42+00:00",
+      "published_at": "2026-08-25T00:00:00+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
       "topics": [
-        "launch"
+        "openai"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm 0.33",
-      "url": "https://simonwillison.net/2026/Aug/22/llm",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-22T17:01:16+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-25T21:27:35.110107+00:00",
+  "generated_at": "2026-08-25T22:27:31.879633+00:00",
   "period": "2026-W35"
 }
