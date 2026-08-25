@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T00:14:14.305297+00:00",
+  "generated_at": "2026-08-25T02:31:14.729790+00:00",
   "date": "2026-08-25",
   "timezone": "Asia/Shanghai",
-  "lead": "llm-anthropic 0.27；Advancing price-performance for developers with GPT‑5.6 in Kiro；NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
+  "lead": "v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)；llm-anthropic 0.27；Advancing price-performance for developers with GPT‑5.6 in Kiro",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-24T15:00:00+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "openai",
@@ -22,7 +22,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 28
+      "hot_score": 23
     },
     {
       "title": "OCR It——从无法复制的文档中提取文本，供您的LLM使用",
@@ -31,12 +31,12 @@
       "site_id": "buzzing",
       "published_at": "2026-08-24T19:01:59.960000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 78
+      "hot_score": 64
     },
     {
       "title": "OpenAI：GPT 5.6 Sol 降价（至少持续至 11 月 21 日）",
@@ -45,17 +45,32 @@
       "site_id": "buzzing",
       "published_at": "2026-08-24T18:45:40.613000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 76
+      "hot_score": 63
     }
   ],
   "items": [
+    {
+      "title": "v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T23:42:42+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "llm-anthropic 0.27",
       "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
@@ -78,7 +93,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-24T12:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -93,7 +108,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-24T15:00:05+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -106,7 +121,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-24T15:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -119,7 +134,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-24T15:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -132,27 +147,9 @@
       "site_id": "official_ai",
       "published_at": "2026-08-24T11:38:15+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Codex MCP server command deprecated",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding",
-        "mcp"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -163,7 +160,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-24T15:00:00+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "openai",
@@ -180,10 +177,27 @@
       "site_id": "aihot",
       "published_at": "2026-08-24T15:00:19+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": true,
       "topics": [
         "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.243",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-24T23:40:26+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -211,7 +225,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-24T08:44:48+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [],
       "reason": "",
@@ -237,7 +251,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-24T13:56:59+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [],
       "reason": "",
@@ -250,7 +264,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-24T19:01:59.960000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
@@ -263,13 +277,52 @@
       "site_id": "buzzing",
       "published_at": "2026-08-24T18:45:40.613000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "英国与乌克兰签署涉及战场技术的AI防务合作协议 - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMk1vd2pFVnJwQWNUbVJRS1A0WDRCXzBuVVBMN0hlTFJtNDhSZDVnSkdaMmZTSXRhSWlOTjNvYTBSVU9KM1NSdE9OWTFIVXJKWEdEU0ZfaTBMbGV6WHlkWkdEWGdMNEE3WVFoNnRQdVZNamRlc3cxakRMbkxXd3JSYnFYMXlDVUJXZC1nOW9ONTVseXlCRGNxUExhOUhCb2E3aVpPWmRjYmpoUnFmNG5WMGRJV0lGelBQRjk3emF2MTdaSmF3eTE3UXZ3QQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-24T23:49:26.838000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Microsoft employees reveal how much cash they're burning on AI",
+      "url": "https://www.businessinsider.com/microsoft-employees-reveal-how-much-cash-theyre-burning-on-ai-2026-8",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-08-24T20:55:46+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Leaked Microsoft pay data shows how much hundreds of employees report making in AI, cloud, and other teams",
+      "url": "https://www.businessinsider.com/microsoft-staff-share-pay-in-internal-spreadsheet-see-the-numbers-2026-8",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-08-24T20:16:23+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "Alabama launches investigation into OpenAI’s hack of Hugging Face",
@@ -283,64 +336,6 @@
       "topics": [
         "openai"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI wants California to toughen the AI law it once fought",
-      "url": "https://thenextweb.com/news/openai-sb-53-california-ai-safety-law-amendments",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-08-24T19:02:32+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI loses a second sales leader in a week to Salesforce",
-      "url": "https://thenextweb.com/news/openai-kaylin-voss-resigns-salesforce-rajic-sales",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-08-24T18:47:27+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
-      "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china",
-      "source": "Ars Technica",
-      "site_id": "techurls",
-      "published_at": "2026-08-24T16:41:45+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "This Android banking trojan uses a fake VPN prompt to silence Google's defenses",
-      "url": "https://www.techradar.com/vpn/vpn-privacy-security/this-android-banking-trojan-uses-a-fake-vpn-prompt-to-silence-googles-defenses",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-08-24T15:27:41+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
