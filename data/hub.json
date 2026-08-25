@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-08-25T10:29:53.136511+00:00",
+  "generated_at": "2026-08-25T11:27:23.514097+00:00",
   "today": "2026-08-25",
-  "lead": "Wire It, Run It, Deploy It: AI Workflows in Gradio；[AINews] Andrew Ng gets into AI Engineering；Disrupting a new covert influence campaign from Russia",
+  "lead": "Wire It, Run It, Deploy It: AI Workflows in Gradio；Disrupting a new covert influence campaign from Russia；v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "复古人工智能：在变得尴尬之前",
+      "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
+      "source": "blog.archive.org",
+      "site_id": "buzzing",
+      "published_at": "2026-08-25T10:13:48.902000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
       "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
@@ -16,7 +30,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 65
+      "hot_score": 60
     },
     {
       "title": "OpenAI：GPT 5.6 Sol 降价（至少持续至 11 月 21 日）",
@@ -25,14 +39,14 @@
       "site_id": "buzzing",
       "published_at": "2026-08-24T18:45:40.613000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 32
+      "hot_score": 30
     },
     {
       "title": "对人工智能的依赖将导致编程专业技能的崩溃",
@@ -41,12 +55,12 @@
       "site_id": "buzzing",
       "published_at": "2026-08-24T18:45:40.784000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 32
+      "hot_score": 30
     },
     {
       "title": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
@@ -55,28 +69,12 @@
       "site_id": "newsnow",
       "published_at": "2026-08-24T18:37:56.182000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 32
-    },
-    {
-      "title": "What languages are agent skills written in?",
-      "url": "https://news.ycombinator.com/item?id=49427825",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-25T01:51:05.684000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 29
+      "hot_score": 30
     }
   ],
   "topics": [
@@ -85,7 +83,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 30
+      "count": 31
     },
     {
       "slug": "anthropic",
@@ -106,7 +104,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "qwen",
@@ -120,7 +118,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 21
+      "count": 23
     },
     {
       "slug": "coding",
@@ -148,7 +146,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 8
+      "count": 7
     },
     {
       "slug": "paper",
