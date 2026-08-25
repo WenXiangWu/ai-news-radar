@@ -1,16 +1,31 @@
 {
   "title": "2026-W35 周报",
   "dates": [
+    "2026-08-26",
     "2026-08-25",
     "2026-08-24",
     "2026-08-23",
     "2026-08-22",
     "2026-08-21",
-    "2026-08-20",
-    "2026-08-19"
+    "2026-08-20"
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T15:14:14+00:00",
+      "source_count": 1,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Extremely Fast and Accurate Transcription with Granite Speech 5.0 Turbo CTC",
       "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc",
@@ -37,22 +52,6 @@
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T13:48:49+00:00",
-      "source_count": 1,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -153,45 +152,16 @@
       "label": "官方更新"
     },
     {
-      "title": "跟踪组织代码质量趋势",
-      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T12:56:57+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
-      "url": "https://openai.com/index/replit",
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-19T07:00:00+00:00",
+      "published_at": "2026-08-25T07:05:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T18:09:38+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -304,19 +274,6 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 内存价格12个月上涨500%",
-      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T08:44:52+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "url": "https://huggingface.co/blog/gradio-workflow-guide",
       "source": "Hugging Face Blog",
@@ -327,36 +284,6 @@
       "official": true,
       "topics": [
         "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T23:42:42+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -431,21 +358,6 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 广告扩展到整个欧洲",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T22:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "[AINews] Andrew Ng gets into AI Engineering",
       "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
       "source": "Latent Space",
@@ -455,6 +367,36 @@
       "score": 81,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.28.0: [CI/Build] Pin Cython below 3.3 for arm64 tilelang sdist (#53358)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-24T23:42:42+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -546,36 +488,6 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot for JetBrains 中的企业托管设置",
-      "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T23:33:07+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "加强国家安全民主监督",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-18T19:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "llm 0.33",
       "url": "https://simonwillison.net/2026/Aug/22/llm",
       "source": "Simon Willison",
@@ -587,8 +499,92 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "v0.5.18",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
+      "source": "SGLang Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T19:50:19+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T17:16:13+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm-openrouter 0.7",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:58:19+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Slack 中的全新 GitHub Copilot 体验",
+      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:07:15+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作",
+      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T16:03:36+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "/wayfinder 技能：驾驭规划的“战争迷雾”",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-20T20:59:09+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-25T15:43:59.959811+00:00",
+  "generated_at": "2026-08-25T16:42:31.304888+00:00",
   "period": "2026-W35"
 }
