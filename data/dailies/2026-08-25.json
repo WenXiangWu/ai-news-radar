@@ -1,31 +1,44 @@
 {
-  "generated_at": "2026-08-25T14:42:31.658091+00:00",
+  "generated_at": "2026-08-25T15:43:59.959811+00:00",
   "date": "2026-08-25",
   "timezone": "Asia/Shanghai",
-  "lead": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original；Wire It, Run It, Deploy It: AI Workflows in Gradio；[AINews] Andrew Ng gets into AI Engineering",
+  "lead": "Extremely Fast and Accurate Transcription with Granite Speech 5.0 Turbo CTC；Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original；Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
     {
-      "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-24T15:00:00+00:00",
-      "source_count": 2,
-      "score": 74,
+      "title": "OpenAI：GPT 5.6 Sol 降价（至少持续至 11 月 21 日）",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "source": "developers.openai.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-24T18:45:40.613000+00:00",
+      "source_count": 3,
+      "score": 53,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
-        "industry"
+        "openai"
       ],
       "reason": "",
-      "label": "行业动态",
-      "hot_score": 8
+      "label": "多源热议",
+      "hot_score": 21
     }
   ],
   "items": [
+    {
+      "title": "Extremely Fast and Accurate Transcription with Granite Speech 5.0 Turbo CTC",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T15:01:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
@@ -42,30 +55,33 @@
       "label": "官方更新"
     },
     {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T07:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "url": "https://huggingface.co/blog/gradio-workflow-guide",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-08-25T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Andrew Ng gets into AI Engineering",
-      "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T02:50:57+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -100,6 +116,19 @@
       "label": "官方更新"
     },
     {
+      "title": "[AINews] Andrew Ng gets into AI Engineering",
+      "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T02:50:57+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "llm-anthropic 0.27",
       "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
       "source": "Simon Willison",
@@ -115,72 +144,17 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
-      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T15:00:05+00:00",
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-25T14:22:04+00:00",
       "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
-      "url": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T15:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Solving Agentic AI Fleet Challenges with NVIDIA Vera CPU",
-      "url": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T15:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-24T15:00:00+00:00",
-      "source_count": 2,
-      "score": 74,
+      "score": 65,
       "official": true,
       "topics": [
         "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents",
-      "source": "NVIDIA Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-24T15:00:19+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": true,
-      "topics": [
-        "agent"
+        "paper"
       ],
       "reason": "",
       "label": "值得关注"
@@ -201,22 +175,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems",
-      "url": "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-25T10:24:13+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated",
       "url": "https://the-decoder.com/nvidia-says-its-groq-3-lpx-is-four-times-faster-than-cerebras-but-the-math-is-more-complicated",
       "source": "The Decoder AI News",
@@ -226,6 +184,22 @@
       "score": 62,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems",
+      "url": "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-25T10:24:13+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -301,20 +275,52 @@
       "site_id": "opmlrss",
       "published_at": "2026-08-25T09:15:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "How NVIDIA Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context on NVIDIA Vera Rubin",
-      "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin",
-      "source": "NVIDIA Generative AI Blog",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-24T15:00:00+00:00",
+      "title": "OpenAI：GPT 5.6 Sol 降价（至少持续至 11 月 21 日）",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "source": "developers.openai.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-24T18:45:40.613000+00:00",
+      "source_count": 3,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
+      "url": "https://www.techradar.com/pro/security/some-mac-users-think-theyre-installing-openai-codex-but-its-actually-a-malware-that-can-steal-passwords-in-seconds",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-08-25T12:35:00+00:00",
       "source_count": 1,
-      "score": 54,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Shubhamsaboo /      awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-08-25T11:41:05.473000+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [],
       "reason": "",
