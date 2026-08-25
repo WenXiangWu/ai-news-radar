@@ -1,11 +1,87 @@
 {
-  "generated_at": "2026-08-25T18:26:32.026253+00:00",
+  "generated_at": "2026-08-25T19:36:58.259960+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 21,
+  "total_items": 24,
   "items": [
+    {
+      "title": "Anthropic 因安全团队可能罢工，要求员工居家办公",
+      "url": "https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
+      "source": "www.businessinsider.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-25T18:29:21.233000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑",
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "source": "Claude：Blog（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-08-25T18:02:04.743000+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Cowork finally remembers what you told the app in chat",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-25T17:50:33+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic merges the memory systems for Claude chat and Claude Cowork, making Claude chat history available to Cowork unless users opt out (David Gewirtz/ZDNET)",
+      "url": "https://www.techmeme.com/260825/p36",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-08-25T17:10:01+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude's memory now works across both chats and Cowork sessions",
+      "url": "https://www.engadget.com/2243753/claude-memory-now-works-across-both-chats-and-cowork-sessions",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-08-25T17:00:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Anthropic Sees over $30T in Potential Revenue",
       "url": "https://news.ycombinator.com/item?id=49436536",
@@ -14,6 +90,21 @@
       "published_at": "2026-08-25T16:42:40.637000+00:00",
       "source_count": 2,
       "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Sources: Anthropic is likely to tell IPO investors that its potential revenue opportunities are above $30T, topping SpaceX's $28.5T; Uber predicted $6T in 2019 (Corrie Driebusch/Wall Street Journal)",
+      "url": "https://www.techmeme.com/260825/p33",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-08-25T16:05:25+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
@@ -56,28 +147,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic tells staff to work from home due to possible security team strike",
-      "url": "https://news.ycombinator.com/item?id=49434291",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-25T15:03:02.716000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Scalable Capital connects €60bn of client assets to outside AI assistants",
       "url": "https://thenextweb.com/news/scalable-capital-chatgpt-claude-trading",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-08-25T12:06:31+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -93,7 +169,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-25T11:41:05.473000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -108,7 +184,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-25T11:41:05.473000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -154,7 +230,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-25T07:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -171,7 +247,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-25T05:13:24+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -305,37 +381,6 @@
       "official": true,
       "topics": [
         "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks. https://t.co/QZ89DvogmZ",
-      "url": "https://x.com/amasad/status/2091962601907638352",
-      "source": "Follow Builders · X · Amjad Masad",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-24T18:55:25+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "随着更便宜的工具蓬勃发展，Anthropic最优秀的人工智能模型却难以吸引用户",
-      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "source": "www.ft.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-24T18:45:35.972000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "anthropic"
       ],
       "reason": "",
