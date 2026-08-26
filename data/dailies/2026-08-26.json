@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T10:41:06.802949+00:00",
+  "generated_at": "2026-08-26T11:37:38.183115+00:00",
   "date": "2026-08-26",
   "timezone": "Asia/Shanghai",
-  "lead": "v0.28.0；How to evaluate LLMs before production；Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
+  "lead": "v0.28.0；How loveholidays is making everyone a builder with Codex；How to evaluate LLMs before production",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [],
@@ -18,6 +18,23 @@
       "official": true,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -49,21 +66,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Granite 4.2 LLMs: How They're Built",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T15:14:14+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "GitHub Copilot app Customize tab is generally available",
       "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
       "source": "GitHub Changelog",
@@ -74,6 +76,21 @@
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T15:14:14+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -135,19 +152,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Push rules in rulesets now support path exceptions",
-      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T17:40:15+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "source": "Hugging Face Blog",
@@ -159,6 +163,19 @@
       "topics": [
         "opensource"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Push rules in rulesets now support path exceptions",
+      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T17:40:15+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -207,17 +224,16 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI's first custom chip \"Jalapeño\" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks",
-      "url": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks",
+      "title": "Anthropic sees a market opportunity of more than $30 trillion ahead of its IPO",
+      "url": "https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-08-25T18:00:50+00:00",
+      "published_at": "2026-08-26T10:02:39+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 63,
       "official": true,
       "topics": [
-        "openai",
-        "paper"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -255,11 +271,11 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show",
-      "source": "TechCrunch AI",
+      "title": "OpenAI's first custom chip \"Jalapeño\" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks",
+      "url": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-08-25T14:22:04+00:00",
+      "published_at": "2026-08-25T18:00:50+00:00",
       "source_count": 1,
       "score": 61,
       "official": true,
@@ -271,31 +287,17 @@
       "label": "值得关注"
     },
     {
-      "title": "Google launches Gemini for legal work to automate contracts and research",
-      "url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-25T16:21:09+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
-      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux",
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-08-25T12:00:00+00:00",
+      "published_at": "2026-08-25T14:22:04+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 61,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "paper"
       ],
       "reason": "",
       "label": "值得关注"
