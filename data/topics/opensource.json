@@ -1,11 +1,45 @@
 {
-  "generated_at": "2026-08-26T12:29:17.307584+00:00",
+  "generated_at": "2026-08-26T14:54:26.847788+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 9,
+  "total_items": 12,
   "items": [
+    {
+      "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "source": "Qwen：Blog Retrieval（API）",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T12:52:12+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "qwen",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "The stealth model that beat DeepSeek belongs to Zhipu",
+      "url": "https://thenextweb.com/news/ox-alpha-zhipu-glm-open-weights-censorship-fingerprint",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-08-26T12:36:09+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
       "url": "https://news.ycombinator.com/item?id=49446422",
@@ -29,7 +63,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-26T09:41:48+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "opensource",
@@ -45,7 +79,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-08-26T08:26:00+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "deepseek",
@@ -62,7 +96,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-26T07:06:39.006092+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -88,6 +122,21 @@
       ],
       "reason": "",
       "label": "行业动态"
+    },
+    {
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
