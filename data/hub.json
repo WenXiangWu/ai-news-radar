@@ -1,9 +1,37 @@
 {
-  "generated_at": "2026-08-26T20:08:44.774234+00:00",
+  "generated_at": "2026-08-26T23:02:38.093486+00:00",
   "today": "2026-08-27",
-  "lead": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览；Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型；Experiment with Qwen3.8-Flash-Next 176B Model on NVIDIA GB300 NVL72 for Agentic Coding",
+  "lead": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览；Lovable CTO: The Future of SaaS Is Apps That Agents Can Use；GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "要完成一个并非自己构思、仅仅由人工智能提出的想法，真的太难了",
+      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai",
+      "source": "www.ssp.sh",
+      "site_id": "buzzing",
+      "published_at": "2026-08-26T19:49:21.476000+00:00",
+      "source_count": 4,
+      "score": 59,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "The turbulent AI era is here",
+      "url": "https://news.ycombinator.com/item?id=49451313",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-26T19:19:18.506000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 88
+    },
     {
       "title": "以色列资助的假美国智库试图利用AI进行宣传",
       "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
@@ -11,12 +39,12 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.706000+00:00",
       "source_count": 4,
-      "score": 86,
+      "score": 85,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 85
     },
     {
       "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
@@ -25,7 +53,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.714000+00:00",
       "source_count": 4,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "qwen",
@@ -33,7 +61,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 85
     },
     {
       "title": "Show HN: How much of Hacker News is AI?",
@@ -47,38 +75,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 87
-    },
-    {
-      "title": "比尔·盖茨：动荡的人工智能时代已经到来",
-      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
-      "source": "www.gatesnotes.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-26T14:38:00.864000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 76
-    },
-    {
-      "title": "Z.ai 证实 Ox Alpha 是 GLM 系列的新模型，并将发布其权重",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
-      "source": "www.bloomberg.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-26T14:05:28.583000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 72
+      "hot_score": 68
     }
   ],
   "topics": [
@@ -87,21 +84,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 37
+      "count": 39
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 23
+      "count": 22
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 12
+      "count": 15
     },
     {
       "slug": "deepseek",
@@ -122,7 +119,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 14
     },
     {
       "slug": "coding",
@@ -136,7 +133,7 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "opensource",
@@ -150,14 +147,14 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 14
+      "count": 16
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "industry",
