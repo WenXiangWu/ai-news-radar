@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-08-26T17:23:13.546571+00:00",
+  "generated_at": "2026-08-26T20:08:44.774234+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 20,
+  "total_items": 16,
   "items": [
+    {
+      "title": "Warp 如何在 Claude 上构建自我改进的智能体",
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "source": "Claude：Blog（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T17:02:40.777000+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
       "url": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei",
@@ -45,7 +62,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-08-26T14:21:28+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "agent"
@@ -90,7 +107,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-08-26T09:40:02+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -122,7 +139,7 @@
       "site_id": "zeli",
       "published_at": "2026-08-26T06:34:35+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -138,7 +155,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-08-26T06:02:53+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "agent",
@@ -171,7 +188,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-08-25T22:52:59+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "openai",
@@ -188,7 +205,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-25T22:31:52+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -205,7 +222,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-25T20:47:00+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -242,85 +259,6 @@
       "topics": [
         "anthropic",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T19:10:59+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Perplexity and Nvidia Launch Fully Local AI Agent With Zero Token Costs",
-      "url": "https://slashdot.org/story/26/08/25/1848204/perplexity-and-nvidia-launch-fully-local-ai-agent-with-zero-token-costs",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-08-25T19:00:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenWorker 新版发布，内置网络安全智能体",
-      "url": "https://x.com/AndrewYNg/status/2092315079576555806",
-      "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
-      "site_id": "aihot",
-      "published_at": "2026-08-25T18:16:02+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "excited to share more on how we’re making Claude Code more hackable soon https://t.co/liQ5rQG887",
-      "url": "https://x.com/trq212/status/2092303682616627311",
-      "source": "Follow Builders · X · Thariq",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-25T17:30:45+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 为 ChatGPT Plus 用户恢复了 Codex 和 Work 的 5 小时使用限制",
-      "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users",
-      "source": "9to5mac.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-25T17:26:26.150000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

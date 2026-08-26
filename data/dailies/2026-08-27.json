@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T17:23:13.546571+00:00",
+  "generated_at": "2026-08-26T20:08:44.774234+00:00",
   "date": "2026-08-27",
   "timezone": "Asia/Shanghai",
-  "lead": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览；The Future of SaaS Is Apps That Agents Can Use；🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+  "lead": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览；Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型；Experiment with Qwen3.8-Flash-Next 176B Model on NVIDIA GB300 NVL72 for Agentic Coding",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -12,8 +12,8 @@
       "source": "Qwen：Blog Retrieval（API）",
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.714000+00:00",
-      "source_count": 3,
-      "score": 84,
+      "source_count": 4,
+      "score": 86,
       "official": true,
       "topics": [
         "qwen",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 91
+      "hot_score": 100
     }
   ],
   "items": [
@@ -31,8 +31,8 @@
       "source": "Qwen：Blog Retrieval（API）",
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.714000+00:00",
-      "source_count": 3,
-      "score": 84,
+      "source_count": 4,
+      "score": 86,
       "official": true,
       "topics": [
         "qwen",
@@ -40,6 +40,35 @@
       ],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T17:01:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Experiment with Qwen3.8-Flash-Next 176B Model on NVIDIA GB300 NVL72 for Agentic Coding",
+      "url": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-176b-model-on-nvidia-gb300-nvl72-for-agentic-coding",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T17:07:12+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "The Future of SaaS Is Apps That Agents Can Use",
@@ -55,30 +84,30 @@
       "label": "官方更新"
     },
     {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T10:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
       "url": "https://www.latent.space/p/anima",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-08-26T15:15:39+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.28.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-08-26T09:48:34+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -96,13 +125,43 @@
       "label": "官方更新"
     },
     {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T10:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.28.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T09:48:34+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "用 Sentence Transformers 训练与微调多向量嵌入模型",
       "url": "https://huggingface.co/blog/train-multi-vector-encoder",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-08-26T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -160,7 +219,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-25T20:05:26+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "coding"
@@ -175,7 +234,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T15:32:46+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "qwen",
@@ -191,47 +250,6 @@
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-08-25T20:05:35+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T19:10:59+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Block users directly from security advisories",
-      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T18:38:57+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Push rules in rulesets now support path exceptions",
-      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T17:40:15+00:00",
       "source_count": 1,
       "score": 79,
       "official": true,
@@ -257,6 +275,22 @@
       "label": "行业动态"
     },
     {
+      "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+      "url": "https://www.anthropic.com/research/enabling-independent-research",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T17:30:30.074000+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
       "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
       "source": "LangChain：Blog（RSS）",
@@ -270,45 +304,18 @@
       "label": "值得关注"
     },
     {
-      "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
-      "url": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency",
-      "source": "The Decoder AI News",
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-08-26T14:40:09+00:00",
+      "published_at": "2026-08-26T19:05:22+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 65,
       "official": true,
       "topics": [
+        "openai",
         "launch"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic sees a market opportunity of more than $30 trillion ahead of its IPO",
-      "url": "https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T10:02:39+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Chinese Moonshot AI negotiates hosting deals with Microsoft, Amazon, and Google",
-      "url": "https://the-decoder.com/chinese-moonshot-ai-negotiates-hosting-deals-with-microsoft-amazon-and-google",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T11:54:17+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
