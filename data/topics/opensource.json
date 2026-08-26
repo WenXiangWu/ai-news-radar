@@ -1,19 +1,36 @@
 {
-  "generated_at": "2026-08-26T14:54:26.847788+00:00",
+  "generated_at": "2026-08-26T17:23:13.546571+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 12,
+  "total_items": 10,
   "items": [
     {
-      "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
-      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-      "source": "Qwen：Blog Retrieval（API）",
+      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "url": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-26T16:26:00+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Qwen3.8-Flash 开源，Qwen4 架构预览",
+      "url": "https://x.com/Alibaba_Qwen/status/2092636376990990503",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
       "site_id": "aihot",
-      "published_at": "2026-08-26T12:52:12+00:00",
-      "source_count": 2,
-      "score": 82,
+      "published_at": "2026-08-26T15:32:46+00:00",
+      "source_count": 1,
+      "score": 80,
       "official": true,
       "topics": [
         "qwen",
@@ -24,32 +41,48 @@
       "label": "行业动态"
     },
     {
+      "title": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c",
+      "source": "公众号：智谱（GLM）",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T14:11:33+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "source": "Qwen：Blog Retrieval（API）",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T14:05:28.714000+00:00",
+      "source_count": 3,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "qwen",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "The stealth model that beat DeepSeek belongs to Zhipu",
       "url": "https://thenextweb.com/news/ox-alpha-zhipu-glm-open-weights-censorship-fingerprint",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-08-26T12:36:09+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "deepseek",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
-      "url": "https://news.ycombinator.com/item?id=49446422",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-26T10:28:33.893000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
         "opensource",
         "launch"
       ],
@@ -63,28 +96,11 @@
       "site_id": "techurls",
       "published_at": "2026-08-26T09:41:48+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "opensource",
         "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
-      "url": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-26T08:26:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "agent",
-        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
@@ -96,7 +112,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-26T07:06:39.006092+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "opensource",
@@ -112,7 +128,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-26T01:56:41.585423+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -124,7 +140,7 @@
       "label": "行业动态"
     },
     {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "title": "用 Sentence Transformers 训练与微调多向量嵌入模型",
       "url": "https://huggingface.co/blog/train-multi-vector-encoder",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
@@ -145,7 +161,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-25T23:48:08+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "opensource",
@@ -153,52 +169,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "A detailed look at Jalapeño, OpenAI's ASIC developed with Broadcom in 16 months, which beat Nvidia, AMD, and Google chips on multiple top open-source models (SemiAnalysis)",
-      "url": "https://www.techmeme.com/260825/p31",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-08-25T15:15:02+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Granite 4.2 LLMs: How They're Built",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T15:14:14+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Extremely Fast and Accurate Transcription with Granite Speech 5.0 Turbo CTC",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T15:01:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }

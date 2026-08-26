@@ -1,13 +1,13 @@
 {
   "title": "2026-W35 周报",
   "dates": [
+    "2026-08-27",
     "2026-08-26",
     "2026-08-25",
     "2026-08-24",
     "2026-08-23",
     "2026-08-22",
-    "2026-08-21",
-    "2026-08-20"
+    "2026-08-21"
   ],
   "total_items": 40,
   "items": [
@@ -55,17 +55,46 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Apps can now access enterprise billing data",
-      "url": "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data",
-      "source": "GitHub Changelog",
+      "title": "The Future of SaaS Is Apps That Agents Can Use",
+      "url": "https://www.latent.space/p/lovable-future-of-saas",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-08-26T12:18:59+00:00",
+      "published_at": "2026-08-26T16:16:25+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+      "url": "https://www.latent.space/p/anima",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T15:15:39+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "source": "Qwen：Blog Retrieval（API）",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T14:05:28.714000+00:00",
+      "source_count": 3,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "qwen",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "多源热议"
     },
     {
       "title": "v0.28.0",
@@ -111,46 +140,20 @@
       "label": "官方更新"
     },
     {
-      "title": "代码扫描添加了缓解警报解除原因",
-      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "title": "GitHub Apps can now access enterprise billing data",
+      "url": "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-20T15:14:31+00:00",
+      "published_at": "2026-08-26T12:18:59+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "针对 GitHub 代码质量的单独 GitHub Actions 路径",
-      "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T14:29:27+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在审核日志中跟踪 GitHub 代码质量启用更改",
-      "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T14:28:41+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "title": "用 Sentence Transformers 训练与微调多向量嵌入模型",
       "url": "https://huggingface.co/blog/train-multi-vector-encoder",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
@@ -160,23 +163,6 @@
       "official": true,
       "topics": [
         "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "url": "https://openai.com/index/loveholidays",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -274,60 +260,19 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.28.0rc1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc1",
-      "source": "vLLM Releases",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-20T07:55:22+00:00",
+      "published_at": "2026-08-26T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
-      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-      "source": "Qwen：Blog Retrieval（API）",
-      "site_id": "aihot",
-      "published_at": "2026-08-26T12:52:12+00:00",
-      "source_count": 2,
       "score": 82,
       "official": true,
       "topics": [
-        "qwen",
-        "opensource",
-        "industry"
+        "openai",
+        "agent",
+        "coding"
       ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "How to evaluate LLMs before production",
-      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T21:35:11+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
-      "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T20:57:54+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -418,30 +363,28 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Params之死：Z.ai首席执行官唐杰谈GLM 5.3和新的训练后缩放法则",
-      "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
-      "source": "Latent Space",
+      "title": "How to evaluate LLMs before production",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+      "source": "GitHub AI & ML",
       "site_id": "official_ai",
-      "published_at": "2026-08-20T05:17:12+00:00",
+      "published_at": "2026-08-25T21:35:11+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场",
-      "url": "https://openai.com/index/stampli",
-      "source": "OpenAI News",
+      "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
+      "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-20T00:00:00+00:00",
+      "published_at": "2026-08-25T20:57:54+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -546,34 +489,21 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 CLI、技能和 AI 编码代理开发 NVIDIA Holoscan 应用程序",
-      "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T22:22:37+00:00",
+      "title": "Qwen3.8-Flash 开源，Qwen4 架构预览",
+      "url": "https://x.com/Alibaba_Qwen/status/2092636376990990503",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T15:32:46+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
-        "coding"
+        "qwen",
+        "opensource",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "为前沿模型提供零数据保留",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "Rule insights dashboard generally available",
@@ -587,8 +517,77 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T19:10:59+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Block users directly from security advisories",
+      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-25T18:38:57+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm 0.33",
+      "url": "https://simonwillison.net/2026/Aug/22/llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-22T17:01:16+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.5.18",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
+      "source": "SGLang Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T19:50:19+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-21T17:16:13+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-26T14:54:26.847788+00:00",
+  "generated_at": "2026-08-26T17:23:13.546571+00:00",
   "period": "2026-W35"
 }
