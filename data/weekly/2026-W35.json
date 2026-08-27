@@ -1,13 +1,13 @@
 {
   "title": "2026-W35 周报",
   "dates": [
+    "2026-08-28",
     "2026-08-27",
     "2026-08-26",
     "2026-08-25",
     "2026-08-24",
     "2026-08-23",
-    "2026-08-22",
-    "2026-08-21"
+    "2026-08-22"
   ],
   "total_items": 40,
   "items": [
@@ -27,16 +27,31 @@
       "label": "官方更新"
     },
     {
-      "title": "试行全球首次双盲人工智能评估",
-      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
-      "source": "Google DeepMind",
+      "title": "破解Claude代码 Opus 5 自动模式",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-08-27T12:59:16+00:00",
+      "published_at": "2026-08-27T22:50:25+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "google"
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 代码审查：解决原因和扩展功能",
+      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T22:46:04+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -57,15 +72,30 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA AVO 在 ARC-AGI-3 上达到 100%，展示了适用于长视野自主代理的前沿级通用架构",
-      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents",
-      "source": "NVIDIA Developer Blog",
+      "title": "操作保留将涵盖检查、工作流程运行和状态",
+      "url": "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-21T13:00:00+00:00",
+      "published_at": "2026-08-27T21:50:39+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.4",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T21:25:36+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -111,80 +141,73 @@
       "label": "官方更新"
     },
     {
-      "title": "安全在 AI 代理堆栈中的作用",
-      "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack",
-      "source": "NVIDIA Developer Blog",
+      "title": "行星预测引擎：通过地球人工智能自动化全球模型",
+      "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai",
+      "source": "Google Research Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-21T13:00:00+00:00",
+      "published_at": "2026-08-27T17:37:20+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
-      "topics": [
-        "agent"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "v0.28.1rc0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.1rc0",
-      "source": "vLLM Releases",
+      "title": "关闭由被阻止的用户创作的所有开放贡献",
+      "url": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-27T06:58:23+00:00",
+      "published_at": "2026-08-27T16:30:52+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T16:11:32+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
+        "google",
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] NVIDIA 以 13B 美元收购 HuggingFace，OpenAI 发布了他们的 HF 事件回顾",
-      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-      "source": "Latent Space",
+      "title": "试行全球首次双盲人工智能评估",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+      "source": "Google DeepMind",
       "site_id": "official_ai",
-      "published_at": "2026-08-27T01:50:54+00:00",
+      "published_at": "2026-08-27T12:59:16+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "openai",
-        "opensource",
-        "launch"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 热门芯片：OpenAI 的 Jalapeo、Cerebras CS-5、Groq 3 LPX、Apple M6",
-      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-      "source": "Latent Space",
+      "title": "更好的答案，更广阔的思维：学生从 ChatGPT 和批判性思维培训中获得什么",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-27T01:31:22+00:00",
+      "published_at": "2026-08-27T09:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Codex CLI 0.150.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -238,75 +261,29 @@
       "label": "官方更新"
     },
     {
-      "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T11:59:48+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.28.0rc2：[规格解码] DFlash2：局部卷积+候选选择器（#52816）",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc2",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T06:47:39+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T05:45:21+00:00",
-      "source_count": 1,
-      "score": 83,
+      "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
+      "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-27T22:29:33.124000+00:00",
+      "source_count": 3,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
-      "label": "官方更新"
+      "label": "多源热议"
     },
     {
-      "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
-      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "source": "Hugging Face Blog",
+      "title": "在搜索中计划和预订旅行的 3 种新方式",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-21T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource",
-        "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "扩大 OpenAI 在巴西的影响力",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T03:00:00+00:00",
+      "published_at": "2026-08-27T16:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "openai"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -439,13 +416,28 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 搜索现在大规模使用 site:operator",
-      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale",
-      "source": "Simon Willison",
+      "title": "v0.28.1rc0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.1rc0",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-08-20T23:57:32+00:00",
+      "published_at": "2026-08-27T06:58:23+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "扩大 OpenAI 在巴西的影响力",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T03:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -454,15 +446,51 @@
       "label": "官方更新"
     },
     {
-      "title": "企业管理的设置现在支持插件市场的自动更新",
-      "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-      "source": "GitHub Changelog",
+      "title": "[AINews] NVIDIA 以 13B 美元收购 HuggingFace，OpenAI 发布了他们的 HF 事件回顾",
+      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-08-27T01:52:19+00:00",
+      "published_at": "2026-08-27T01:50:54+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] 热门芯片：OpenAI 的 Jalapeo、Cerebras CS-5、Groq 3 LPX、Apple M6",
+      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T01:31:22+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.150.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T00:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -568,34 +596,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "模拟：新的缩放法则 — Joon Sung Park，Simile AI",
-      "url": "https://www.latent.space/p/simile",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-08-21T23:37:38+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "将保存的视图固定到代码仓库问题侧边栏通常是可用的等等",
-      "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-20T23:29:34+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-27T14:15:18.054535+00:00",
+  "generated_at": "2026-08-27T23:47:55.799942+00:00",
   "period": "2026-W35"
 }

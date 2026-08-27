@@ -1,11 +1,156 @@
 {
-  "generated_at": "2026-08-27T14:15:18.054535+00:00",
+  "generated_at": "2026-08-27T23:47:55.799942+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 11,
+  "total_items": 16,
   "items": [
+    {
+      "title": "v2.1.248",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-27T22:12:20+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude、Codex 和 Hermes 在公司网络内安装了无主代码",
+      "url": "https://yro.slashdot.org/story/26/08/27/207212/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-08-27T20:08:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Internal memo: Meta's AI agent Hatch \"has its own computer\" to perform tasks, works when the app is closed, can connect to email, Instagram, OpenTable, and more (Hugh Langley/Business Insider)",
+      "url": "https://www.techmeme.com/260827/p43",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-08-27T18:10:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "元备忘录揭示了其新的“Hatch”人工智能代理可以做什么，从预订餐厅到寻找狗保姆",
+      "url": "https://www.businessinsider.com/meta-hatch-personal-ai-agent-capabilities-employees-memo-2026-8",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-08-27T17:39:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "2026 年最佳代理沙箱：跨 E2B、Daytona、Modal、Cloudflare 和 Vercel 的冷启动、每秒定价和网络策略",
+      "url": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-08-27T17:04:49+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Cloudflare 利用 AI 智能体将 Astro GitHub 问题减少 85%",
+      "url": "https://www.infoq.cn/article/iJu3eUyEhEI373KeYhYN",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-27T17:00:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 正在开发“持久”人工智能代理",
+      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-27T16:52:42+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 失控智能体集体逃逸沙箱并攻击\"幽灵\"评分器事件调查公布",
+      "url": "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-08-27T16:19:46+00:00",
+      "source_count": 2,
+      "score": 77,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude、Codex 和 Hermes 在公司网络内安装了无主代码",
+      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks",
+      "source": "Ars Technica",
+      "site_id": "techurls",
+      "published_at": "2026-08-27T14:00:13+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "前端的 AI 学习之路 01 之 Agent API 调用 - 和 Agent 的基础对话",
       "url": "https://juejin.cn/post/7677441124443848713",
@@ -13,7 +158,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-27T13:50:27.659000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -28,11 +173,29 @@
       "site_id": "newsnow",
       "published_at": "2026-08-27T13:50:27.659000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN：Concord – 让 Claude Code、Codex 和 Cursor 相互对话",
+      "url": "https://github.com/Get-Concord-AI/concord-mcp",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-08-27T13:34:54+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding",
+        "mcp"
       ],
       "reason": "",
       "label": "值得关注"
@@ -44,7 +207,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-27T11:16:06+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -55,13 +218,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Cloudflare 利用 AI 智能体将 Astro GitHub 问题减少 85%",
-      "url": "https://www.infoq.cn/article/iJu3eUyEhEI373KeYhYN",
+      "title": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
+      "url": "https://www.infoq.cn/article/AkgUFEFE4uG7WIlqaO2g",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-08-27T09:00:00+00:00",
+      "published_at": "2026-08-27T10:00:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 53,
       "official": false,
       "topics": [
         "agent"
@@ -76,26 +239,11 @@
       "site_id": "followbuilders",
       "published_at": "2026-08-27T03:50:24+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": false,
       "topics": [
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
-      "url": "https://www.infoq.cn/article/AkgUFEFE4uG7WIlqaO2g",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-27T02:00:00+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -107,7 +255,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-27T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -116,70 +264,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "v2.1.247",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T23:06:39+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: Devx – Autonomous AI coding agent built for Android Termux and desktop",
-      "url": "https://github.com/apvcode/Termux-Dev",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-26T20:37:12+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex native apps are here! https://t.co/OMjAee4xYx",
-      "url": "https://x.com/danshipper/status/2092686463859126492",
-      "source": "Follow Builders · X · Dan Shipper",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-26T18:51:47+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Warp 如何在 Claude 上构建自我改进的智能体",
-      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
-      "source": "Claude：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-08-26T17:02:40.777000+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }

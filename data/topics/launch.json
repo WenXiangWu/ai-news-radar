@@ -1,11 +1,126 @@
 {
-  "generated_at": "2026-08-27T14:15:18.054535+00:00",
+  "generated_at": "2026-08-27T23:47:55.799942+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 16,
+  "total_items": 15,
   "items": [
+    {
+      "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-27T23:01:35.558000+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": true,
+      "topics": [
+        "google",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.248",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-27T22:12:20+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "langgraph-sdk==0.4.4",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T21:25:36+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Cohere 发布 Parse 5 (parse-v5.0)：将企业文档转变为 Markdown 的 2.3B 视觉语言模型",
+      "url": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-08-27T20:05:49+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic releases Model Hardware Standard, a framework to help AI agents use physical systems like microscopes, quantum computing hardware, and robot arms (Will Knight/Wired)",
+      "url": "https://www.techmeme.com/260827/p44",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-08-27T18:25:04+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T16:11:32+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
+      "url": "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-27T15:27:00+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "coding",
+        "mcp",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "通义千问发布Qwen3.8-Flash-Next，提前剧透Qwen4架构",
       "url": "https://www.aibase.com/news/30664",
@@ -13,7 +128,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-27T13:53:15.708114+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 74,
       "official": false,
       "topics": [
         "qwen",
@@ -30,7 +145,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-27T12:14:15.708114+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 74,
       "official": false,
       "topics": [
         "launch",
@@ -40,32 +155,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
-      "url": "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-27T07:27:00+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "coding",
-        "mcp",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "v0.28.1rc0",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.1rc0",
       "source": "vLLM Releases",
       "site_id": "official_ai",
       "published_at": "2026-08-27T06:58:23+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -80,7 +176,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-27T03:16:39.252061+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "google",
@@ -97,7 +193,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-27T03:16:39.252061+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -114,7 +210,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-27T03:16:39.252061+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -131,7 +227,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-27T03:16:39.252061+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "opensource",
@@ -148,7 +244,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-27T01:50:54+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -157,116 +253,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "v2.1.247",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T23:06:39+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI releases its official report on the Hugging Face breach",
-      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T23:00:00+00:00",
-      "source_count": 2,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Z.ai 发布 GLM-5.3-Flash：具有 1M 代币上下文的 320B-A18B 本机多模态 MoE",
-      "url": "https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T21:33:23+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-08-26T17:01:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture",
-      "url": "https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T15:20:00+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "qwen",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
-      "url": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T14:40:09+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Z.ai releases GLM-5.3-Flash, the first natively multimodal GLM-5 series model, with 320B parameters, saying it outperforms GLM-5.2 at \"one-tenth the price\" (Z.ai)",
-      "url": "https://www.techmeme.com/260826/p35",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-08-26T14:26:48+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
