@@ -1,27 +1,91 @@
 {
-  "generated_at": "2026-08-26T23:02:38.093486+00:00",
+  "generated_at": "2026-08-27T04:11:21.044466+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 10,
+  "total_items": 12,
   "items": [
     {
-      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
-      "url": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-26T16:26:00+00:00",
+      "title": "价格砍至四十分之一！智谱开源原生多模态大模型GLM-5.3-Flash",
+      "url": "https://www.aibase.com/news/30655",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-27T03:16:39.252061+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 77,
       "official": false,
       "topics": [
-        "deepseek",
-        "agent",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "千问开源Qwen3.8-Flash-Next架构，轻量化多模态大模型实现效能突破",
+      "url": "https://www.aibase.com/news/30654",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-27T03:16:39.252061+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "qwen",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "智谱确认开发Ox Alpha，开源模型权重即将发布并加入GLM系列",
+      "url": "https://www.aibase.com/news/30651",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-27T03:16:39.252061+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "url": "https://news.ycombinator.com/item?id=49458418",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-27T03:03:00.642000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "值得关注"
+    },
+    {
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T01:50:54+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "Qwen3.8-Flash 开源，Qwen4 架构预览",
@@ -30,7 +94,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T15:32:46+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "qwen",
@@ -47,7 +111,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T14:11:33+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "opensource",
@@ -63,7 +127,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.714000+00:00",
       "source_count": 4,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "qwen",
@@ -79,7 +143,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-26T12:36:09+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "deepseek",
@@ -96,11 +160,28 @@
       "site_id": "techurls",
       "published_at": "2026-08-26T09:41:48+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "opensource",
         "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "url": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-26T08:26:00+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "agent",
+        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
@@ -112,63 +193,14 @@
       "site_id": "aibase",
       "published_at": "2026-08-26T07:06:39.006092+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "英伟达联手Poolside加码开源AI 目标直指DeepSeek与OpenAI等前沿玩家",
-      "url": "https://www.aibase.com/news/30622",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-08-26T01:56:41.585423+00:00",
-      "source_count": 1,
       "score": 72,
       "official": false,
       "topics": [
-        "openai",
-        "deepseek",
         "opensource",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "用 Sentence Transformers 训练与微调多向量嵌入模型",
-      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
-      "url": "https://www.marktechpost.com/2026/08/25/liquid-ai-open-sources-pipette-a-reproducible-benchmarking-suite-that-measures-on-device-models-quantization-runtime-and-hardware-together",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-25T23:48:08+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "opensource",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }

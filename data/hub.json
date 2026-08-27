@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T23:02:38.093486+00:00",
+  "generated_at": "2026-08-27T04:11:21.044466+00:00",
   "today": "2026-08-27",
-  "lead": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览；Lovable CTO: The Future of SaaS Is Apps That Agents Can Use；GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+  "lead": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro；[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6；Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,12 +11,28 @@
       "site_id": "buzzing",
       "published_at": "2026-08-26T19:49:21.476000+00:00",
       "source_count": 4,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 90
+    },
+    {
+      "title": "Hugging Face事件及未来之路",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "source": "openai.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-26T22:13:13.889000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 73
     },
     {
       "title": "The turbulent AI era is here",
@@ -25,12 +41,12 @@
       "site_id": "newsnow",
       "published_at": "2026-08-26T19:19:18.506000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 88
+      "hot_score": 57
     },
     {
       "title": "以色列资助的假美国智库试图利用AI进行宣传",
@@ -39,12 +55,12 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.706000+00:00",
       "source_count": 4,
-      "score": 85,
+      "score": 84,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 85
+      "hot_score": 56
     },
     {
       "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
@@ -53,7 +69,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.714000+00:00",
       "source_count": 4,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "qwen",
@@ -61,21 +77,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 85
-    },
-    {
-      "title": "Show HN: How much of Hacker News is AI?",
-      "url": "https://news.ycombinator.com/item?id=49449648",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-26T16:13:41.018000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 68
+      "hot_score": 56
     }
   ],
   "topics": [
@@ -84,49 +86,49 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 39
+      "count": 38
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 22
+      "count": 20
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 15
+      "count": 18
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 10
+      "count": 9
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 14
+      "count": 11
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 2
     },
     {
       "slug": "mcp",
@@ -140,21 +142,21 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 10
+      "count": 12
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 16
+      "count": 18
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "industry",

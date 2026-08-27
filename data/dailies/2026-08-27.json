@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T23:02:38.093486+00:00",
+  "generated_at": "2026-08-27T04:11:21.044466+00:00",
   "date": "2026-08-27",
   "timezone": "Asia/Shanghai",
-  "lead": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览；Lovable CTO: The Future of SaaS Is Apps That Agents Can Use；GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+  "lead": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro；[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6；Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.714000+00:00",
       "source_count": 4,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "qwen",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 85
+      "hot_score": 56
     },
     {
       "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
@@ -30,15 +30,62 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T16:16:25+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 34
+      "hot_score": 22
+    },
+    {
+      "title": "亚马逊将英伟达芯片订单增至三倍，新增200万颗GPU",
+      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T23:47:18+00:00",
+      "source_count": 2,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 42
     }
   ],
   "items": [
+    {
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T01:50:54+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T01:31:22+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
       "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
@@ -46,7 +93,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T14:05:28.714000+00:00",
       "source_count": 4,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "qwen",
@@ -62,24 +109,22 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T16:16:25+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage",
-      "source": "GitHub AI & ML",
+      "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
+      "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-26T20:12:53+00:00",
+      "published_at": "2026-08-27T01:52:19+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
-      "topics": [
-        "coding"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -90,10 +135,40 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T20:05:06+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Global model policy generally available",
+      "url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T22:08:38+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-08-26T20:12:53+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -105,7 +180,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T17:07:12+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -118,7 +193,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T17:01:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "google",
@@ -134,7 +209,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T15:15:39+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -147,7 +222,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T10:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -162,7 +237,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T12:18:59+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -175,7 +250,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T10:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -190,7 +265,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-26T09:48:34+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -199,69 +274,19 @@
       "label": "官方更新"
     },
     {
-      "title": "用 Sentence Transformers 训练与微调多向量嵌入模型",
-      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
+      "title": "亚马逊将英伟达芯片订单增至三倍，新增200万颗GPU",
+      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-08-26T23:47:18+00:00",
+      "source_count": 2,
+      "score": 80,
       "official": true,
       "topics": [
-        "opensource"
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Codex CLI 0.150.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "url": "https://openai.com/index/loveholidays",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布 Hugging Face 事件技术报告：内部模型突破隔离并入侵第三方系统",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "Qwen3.8-Flash 开源，Qwen4 架构预览",
@@ -270,7 +295,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T15:32:46+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "qwen",
@@ -287,7 +312,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T20:10:19.416000+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [],
       "reason": "",
@@ -300,7 +325,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T12:34:01+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "qwen",
@@ -317,7 +342,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-26T17:30:30.074000+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": true,
       "topics": [
         "anthropic",
@@ -325,22 +350,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "OpenAI releases its official report on the Hugging Face breach",
-      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-26T19:05:22+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
