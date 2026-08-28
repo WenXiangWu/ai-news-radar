@@ -1,13 +1,13 @@
 {
   "title": "2026-W35 周报",
   "dates": [
+    "2026-08-29",
     "2026-08-28",
     "2026-08-27",
     "2026-08-26",
     "2026-08-25",
     "2026-08-24",
-    "2026-08-23",
-    "2026-08-22"
+    "2026-08-23"
   ],
   "total_items": 40,
   "items": [
@@ -22,6 +22,37 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-28T20:24:20+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — August 24",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-28T20:13:22+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -42,32 +73,15 @@
       "label": "官方更新"
     },
     {
-      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T08:36:31.021000+00:00",
-      "source_count": 4,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "[AINews] OpenAI 将于 2026 年底达到 AGI 标准",
-      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-      "source": "Latent Space",
+      "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+      "url": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-28T07:12:10+00:00",
+      "published_at": "2026-08-28T17:06:28+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -113,16 +127,16 @@
       "label": "官方更新"
     },
     {
-      "title": "支持泰国下一代人工智能初创公司",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "source": "OpenAI News",
+      "title": "Upcoming changes to GitHub Copilot policies and billing",
+      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-28T02:00:00+00:00",
+      "published_at": "2026-08-28T11:37:19+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "openai"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -240,44 +254,16 @@
       "label": "官方更新"
     },
     {
-      "title": "通常可以对问题进行更好的标签管理",
-      "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-      "source": "GitHub Changelog",
+      "title": "[AINews] OpenAI 将于 2026 年底达到 AGI 标准",
+      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-08-27T23:33:22+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "破解Claude代码 Opus 5 自动模式",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T22:50:25+00:00",
+      "published_at": "2026-08-28T07:12:10+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 代码审查：解决原因和扩展功能",
-      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T22:46:04+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -399,28 +385,32 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 差 10%、便宜 100 倍、快 10000 倍：为什么模拟正在取代",
-      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "source": "Latent Space",
+      "title": "支持泰国下一代人工智能初创公司",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-22T07:36:00+00:00",
+      "published_at": "2026-08-28T02:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "特工安全带的演变",
-      "url": "https://www.latent.space/p/attention-interface",
-      "source": "Latent Space",
+      "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-08-22T07:30:52+00:00",
+      "published_at": "2026-08-28T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -598,8 +588,23 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "破解Claude代码 Opus 5 自动模式",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T22:50:25+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-28T11:20:25.240163+00:00",
+  "generated_at": "2026-08-28T22:37:57.555255+00:00",
   "period": "2026-W35"
 }
