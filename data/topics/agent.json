@@ -1,11 +1,153 @@
 {
-  "generated_at": "2026-08-27T23:47:55.799942+00:00",
+  "generated_at": "2026-08-28T11:20:25.240163+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 16,
+  "total_items": 21,
   "items": [
+    {
+      "title": "阿里发布全新 Qoder:从 AI 编程工具升级为面向所有人的智能体工作台",
+      "url": "https://www.aibase.com/news/30691",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-28T11:19:34.105161+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "手写一个最小版 Claude Code：从任务拆解到 Agent Loop 转起来",
+      "url": "https://juejin.cn/post/7678208515275276315",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-08-28T11:03:01.367000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-28T08:36:31.021000+00:00",
+      "source_count": 4,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
+      "url": "https://www.infoq.cn/article/A0CMcU7UVsMQreKPcKOw",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-28T07:36:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
+      "url": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-28T06:00:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "开始在飞机上和咖啡馆看到越来越多的 Codex 用户。弱势能源成为主流。",
+      "url": "https://x.com/thsottiaux/status/2093207246977318928",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-28T05:21:12+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "你的 Agent 已经上线生产环境，下一步怎么办？ | 技术实践",
+      "url": "https://www.infoq.cn/article/mKFB15kPm6Uw8fNG4Y7e",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-28T03:53:03+00:00",
+      "source_count": 1,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.250",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T00:49:16+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Uber says weekly AI agent requests have grown 9.4x since February, but total AI spending has stayed stable since April, after using up its 2026 AI budget in Q1 (Madison Mills/Axios)",
+      "url": "https://www.techmeme.com/260827/p56",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-08-27T23:20:03+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "v2.1.248",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
@@ -13,12 +155,28 @@
       "site_id": "curated_media",
       "published_at": "2026-08-27T22:12:20+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
         "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 正在开发“持久”人工智能代理",
+      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-08-27T22:00:00+00:00",
+      "source_count": 2,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -30,7 +188,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-27T20:08:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -47,7 +205,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-27T18:10:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -62,7 +220,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-27T17:39:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -77,7 +235,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-27T17:04:49+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": false,
       "topics": [
         "agent",
@@ -93,25 +251,9 @@
       "site_id": "opmlrss",
       "published_at": "2026-08-27T17:00:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 正在开发“持久”人工智能代理",
-      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-27T16:52:42+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "openai",
         "agent"
       ],
       "reason": "",
@@ -124,7 +266,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-27T16:19:46+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -141,7 +283,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-27T14:00:13+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -158,7 +300,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-27T13:50:27.659000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -173,7 +315,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-27T13:50:27.659000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 47,
       "official": false,
       "topics": [
         "agent",
@@ -189,7 +331,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-27T13:34:54+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic",
@@ -199,71 +341,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Cursor、Claude Code 和 LLM 的独立人工智能编码社区",
-      "url": "https://promptcube3.com/en",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-27T11:16:06+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
-      "url": "https://www.infoq.cn/article/AkgUFEFE4uG7WIlqaO2g",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-27T10:00:00+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex 的可视化功能非常好。 https://t.co/Ik65LULsY2",
-      "url": "https://x.com/steipete/status/2092822007843061823",
-      "source": "Follow Builders · X · Peter Steinberger",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-27T03:50:24+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex CLI 0.150.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }

@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-08-27T23:47:55.799942+00:00",
+  "generated_at": "2026-08-28T11:20:25.240163+00:00",
   "today": "2026-08-28",
-  "lead": "破解Claude代码 Opus 5 自动模式；Copilot 代码审查：解决原因和扩展功能；操作保留将涵盖检查、工作流程运行和状态",
+  "lead": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具；[AINews] OpenAI 将于 2026 年底达到 AGI 标准；支持泰国下一代人工智能初创公司",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-28T08:36:31.021000+00:00",
+      "source_count": 4,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
       "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
@@ -11,12 +27,42 @@
       "site_id": "aihot",
       "published_at": "2026-08-27T22:29:33.124000+00:00",
       "source_count": 3,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 41
+    },
+    {
+      "title": "请别再用那些低质量的AI内容淹没我们的项目，只为了充实你的简历了",
+      "url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
+      "source": "neilalexander.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-08-28T06:13:49.548000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 39
+    },
+    {
+      "title": "《模型硬件标准》预览",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-28T05:10:00.745000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 36
     },
     {
       "title": "安德里亚·巴茨 (Andrea Bartz) 被《时代》杂志评为人工智能领域 100 名最具影响力人物之一",
@@ -25,56 +71,12 @@
       "site_id": "techurls",
       "published_at": "2026-08-27T12:02:38+00:00",
       "source_count": 5,
-      "score": 59,
+      "score": 57,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 90
-    },
-    {
-      "title": "澳大利亚禁止生成式人工智能进入官方音乐排行榜",
-      "url": "https://www.nytimes.com/2026/08/25/world/australia/australia-ai-music-chart-ban.html",
-      "source": "www.nytimes.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-27T17:25:43.091000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 71
-    },
-    {
-      "title": "AI 工程师笔记本 – Colab 上免费、无框架的 RAG/代理/评估",
-      "url": "https://news.ycombinator.com/item?id=49471714",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-27T23:21:41.077000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 58
-    },
-    {
-      "title": "Show HN：Claude的承重词汇",
-      "url": "https://news.ycombinator.com/item?id=49461817",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-27T23:21:41.077000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 58
+      "hot_score": 34
     }
   ],
   "topics": [
@@ -83,21 +85,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 34
+      "count": 33
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 35
+      "count": 40
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "deepseek",
@@ -111,21 +113,21 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 21
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 13
+      "count": 12
     },
     {
       "slug": "mcp",
@@ -139,21 +141,21 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 15
+      "count": 18
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "industry",
