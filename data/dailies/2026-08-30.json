@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-29T19:48:10.782322+00:00",
+  "generated_at": "2026-08-29T22:59:08.383880+00:00",
   "date": "2026-08-30",
   "timezone": "Asia/Shanghai",
-  "lead": "[AINews] OpenAI shuts off Cursor；Codex CLI 0.151.0；GitHub Copilot in Visual Studio — August update",
+  "lead": "[AINews] OpenAI shuts off Cursor；Codex CLI 0.151.0；在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,14 +13,14 @@
       "site_id": "buzzing",
       "published_at": "2026-08-29T10:12:23.295000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 54
+      "hot_score": 41
     }
   ],
   "items": [
@@ -31,7 +31,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-29T05:11:52+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
@@ -58,44 +58,13 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot in Visual Studio — August update",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-28T20:24:20+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — August 24",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-28T20:13:22+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
       "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
       "published_at": "2026-08-29T07:00:22.003000+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "qwen",
@@ -120,34 +89,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Nvidia’s AI advantage is moving beyond the GPU",
-      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-29T13:00:00+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
-      "url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-29T09:14:30+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
       "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts",
       "source": "The Decoder AI News",
@@ -164,13 +105,41 @@
       "label": "值得关注"
     },
     {
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-29T13:00:00+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
+      "url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-29T09:14:30+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
       "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-08-29T12:51:24+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [],
       "reason": "",
@@ -183,22 +152,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-29T18:19:53+00:00",
       "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-28T19:30:38+00:00",
-      "source_count": 1,
-      "score": 58,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -213,7 +167,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-29T10:12:23.295000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "opensource"
@@ -235,16 +189,76 @@
       "label": "值得关注"
     },
     {
+      "title": "Sony accuses Anthropic of 'brazen campaign' to train Claude on its music — and wants up to $150,000 a song",
+      "url": "https://www.businessinsider.com/anthropic-claude-training-copyright-music-lyrics-sony-lawsuit-2026-8",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-08-29T19:05:05+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion",
+      "url": "https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-08-29T18:58:08+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Sony and Warner sue Anthropic for 'blatant violation' of copyright law",
       "url": "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law",
       "source": "Engadget",
       "site_id": "techurls",
       "published_at": "2026-08-29T18:52:22+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN: AI Harness that lets a graph of Codex and Claude intercommunicate",
+      "url": "https://github.com/rysh-ai/rysh-cli-code",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-08-29T18:34:03+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "vLLM v0.28.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-08-29T18:22:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -271,7 +285,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-29T15:31:57+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -287,7 +301,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-29T14:58:40+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -303,27 +317,11 @@
       "site_id": "techurls",
       "published_at": "2026-08-29T10:15:44+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: Metis – An agent harness pushing DeepSeek to Opus-tier coding (82%)",
-      "url": "https://github.com/Wholiver/metis",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-29T02:36:07+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
