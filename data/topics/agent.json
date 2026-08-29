@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-08-29T11:30:48.888665+00:00",
+  "generated_at": "2026-08-29T16:01:17.019142+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 22,
+  "total_items": 16,
   "items": [
+    {
+      "title": "Claude Code can be tricked simply by asking it to summarize a website",
+      "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-08-29T11:46:15+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "给Claude Code装了70行规矩，生成的代码终于不用大改了",
       "url": "https://juejin.cn/post/7678167908111220746",
@@ -13,7 +29,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T10:34:32.100000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic",
@@ -29,7 +45,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-29T08:24:36+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -46,7 +62,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-29T07:32:16.981000+00:00",
       "source_count": 3,
-      "score": 81,
+      "score": 80,
       "official": false,
       "topics": [
         "agent",
@@ -62,7 +78,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-08-29T05:38:31+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": false,
       "topics": [
         "agent",
@@ -78,7 +94,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-29T04:31:21+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "agent",
@@ -95,7 +111,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T03:43:34.729000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -111,7 +127,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T03:43:34.729000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -126,7 +142,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-29T02:36:07+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "deepseek",
@@ -142,7 +158,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-29T00:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai",
@@ -159,7 +175,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-08-28T23:35:44+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -174,7 +190,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-08-28T22:15:41.928129+00:00",
       "source_count": 1,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "agent",
@@ -190,7 +206,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-28T20:41:23+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -205,7 +221,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T18:19:32+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -222,7 +238,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T17:28:47+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent",
@@ -242,115 +258,6 @@
       "official": false,
       "topics": [
         "openai",
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
-      "url": "https://x.com/Zai_org/status/2093354097122455713",
-      "source": "X：智谱 Z.ai (@Zai_org)",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T15:04:44+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "KHMS – a file-based long-term memory an LLM agent installs into itself",
-      "url": "https://github.com/kostey/khms-memory",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-28T13:28:24+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: Talos – An AI agent with a permission kernel between model and shell",
-      "url": "https://talos-agent.ch",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-28T12:25:39+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-      "url": "https://www.terminal-bench-science.ai/announcement",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T12:04:47.737000+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI Agent Has Root",
-      "url": "https://infernalcode.com/posts/your-ai-agent-has-root",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-08-28T12:03:09+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "阿里发布全新 Qoder:从 AI 编程工具升级为面向所有人的智能体工作台",
-      "url": "https://www.aibase.com/news/30691",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-08-28T11:19:34.105161+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "手写一个最小版 Claude Code：从任务拆解到 Agent Loop 转起来",
-      "url": "https://juejin.cn/post/7678208515275276315",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-28T11:03:01.367000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "anthropic",
         "agent"
       ],

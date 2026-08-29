@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-29T11:30:48.888665+00:00",
+  "generated_at": "2026-08-29T16:01:17.019142+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 13,
+  "total_items": 8,
   "items": [
     {
       "title": "StemDeck，一款免费、开源且本地化的AI茎叶分离器",
@@ -13,7 +13,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-29T10:12:23.295000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "opensource"
@@ -22,13 +22,28 @@
       "label": "多源热议"
     },
     {
+      "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+      "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-08-29T05:25:16+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
       "url": "https://www.ithome.com/0/995/896.htm",
       "source": "IT之家（RSS）",
       "site_id": "aihot",
       "published_at": "2026-08-29T04:31:21+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "agent",
@@ -45,7 +60,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T03:43:34.729000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -61,7 +76,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-28T23:20:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "opensource",
@@ -73,8 +88,8 @@
     {
       "title": "Show HN: Conduct, open-source guardrails for LLM and MCP tool calls",
       "url": "https://github.com/sseshachala/conductai",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
       "published_at": "2026-08-28T19:29:20+00:00",
       "source_count": 1,
       "score": 48,
@@ -93,7 +108,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T17:28:47+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent",
@@ -109,101 +124,8 @@
       "site_id": "techurls",
       "published_at": "2026-08-28T15:41:00+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GLM-5.3 is now open-weight",
-      "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-08-28T15:20:13+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
-      "url": "https://x.com/Zai_org/status/2093354097122455713",
-      "source": "X：智谱 Z.ai (@Zai_org)",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T15:04:44+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队",
-      "url": "https://www.aibase.com/news/30698",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-08-28T11:19:34.105161+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
-      "url": "https://www.aibase.com/news/30694",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-08-28T11:19:34.105161+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "腾讯混元大模型王炸升级:770B旗舰新版Hy4preview震撼开源，直奔开源第一梯队",
-      "url": "https://www.aibase.com/news/30697",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-08-28T11:19:34.105161+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "浏览器AI肯定离不开onnxruntime, 微软开源",
-      "url": "https://juejin.cn/post/7678231767486349364",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-28T11:03:01.367000+00:00",
-      "source_count": 1,
       "score": 47,
-      "official": false,
+      "official": true,
       "topics": [
         "opensource"
       ],
