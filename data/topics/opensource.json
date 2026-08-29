@@ -1,25 +1,42 @@
 {
-  "generated_at": "2026-08-29T04:07:38.255293+00:00",
+  "generated_at": "2026-08-29T11:30:48.888665+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 14,
+  "total_items": 13,
   "items": [
     {
-      "title": "StemDeck, a free, open-source and local AI stem separator",
-      "url": "https://news.ycombinator.com/item?id=49486081",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-29T03:43:34.729000+00:00",
-      "source_count": 2,
-      "score": 55,
-      "official": false,
+      "title": "StemDeck，一款免费、开源且本地化的AI茎叶分离器",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-29T10:12:23.295000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
+    },
+    {
+      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+      "url": "https://www.ithome.com/0/995/896.htm",
+      "source": "IT之家（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-08-29T04:31:21+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
     },
     {
       "title": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
@@ -28,7 +45,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T03:43:34.729000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
@@ -44,7 +61,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-28T23:20:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "opensource",
@@ -60,7 +77,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-28T19:29:20+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "mcp",
@@ -76,7 +93,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T17:28:47+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -92,7 +109,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-28T15:41:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "opensource"
@@ -107,7 +124,7 @@
       "site_id": "iris",
       "published_at": "2026-08-28T15:20:13+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "opensource"
@@ -122,26 +139,11 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T15:04:44+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 70,
       "official": false,
       "topics": [
         "agent",
         "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "url": "https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-28T14:20:17+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
         "opensource"
       ],
       "reason": "",
@@ -154,56 +156,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
-      "url": "https://www.aibase.com/news/30694",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-08-28T11:19:34.105161+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "腾讯混元大模型王炸升级:770B旗舰新版Hy4preview震撼开源，直奔开源第一梯队",
-      "url": "https://www.aibase.com/news/30697",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-08-28T11:19:34.105161+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "浏览器AI肯定离不开onnxruntime, 微软开源",
-      "url": "https://juejin.cn/post/7678231767486349364",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-28T11:03:01.367000+00:00",
-      "source_count": 1,
-      "score": 48,
+      "score": 72,
       "official": false,
       "topics": [
         "opensource"
@@ -212,21 +165,50 @@
       "label": "值得关注"
     },
     {
-      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
-      "source": "公众号：腾讯混元",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T06:03:48+00:00",
+      "title": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+      "url": "https://www.aibase.com/news/30694",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 72,
       "official": false,
       "topics": [
         "opensource",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
+    },
+    {
+      "title": "腾讯混元大模型王炸升级:770B旗舰新版Hy4preview震撼开源，直奔开源第一梯队",
+      "url": "https://www.aibase.com/news/30697",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-08-28T11:19:34.105161+00:00",
+      "source_count": 1,
+      "score": 72,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "浏览器AI肯定离不开onnxruntime, 微软开源",
+      "url": "https://juejin.cn/post/7678231767486349364",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-08-28T11:03:01.367000+00:00",
+      "source_count": 1,
+      "score": 47,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
     }
   ]
 }

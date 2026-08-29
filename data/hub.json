@@ -1,22 +1,71 @@
 {
-  "generated_at": "2026-08-29T04:07:38.255293+00:00",
+  "generated_at": "2026-08-29T11:30:48.888665+00:00",
   "today": "2026-08-29",
-  "lead": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险；GitHub Copilot in Visual Studio — August update；GitHub Copilot weekly releases — August 24",
+  "lead": "[AINews] OpenAI shuts off Cursor；Codex CLI 0.151.0；GitHub Copilot in Visual Studio — August update",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "I accidentally turned LLM memory into program analysis",
-      "url": "https://news.ycombinator.com/item?id=49485416",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-29T03:43:34.729000+00:00",
-      "source_count": 2,
-      "score": 55,
+      "title": "StemDeck，一款免费、开源且本地化的AI茎叶分离器",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-29T10:12:23.295000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "开放世界多智能体环境中的自主数学发现",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-29T07:32:16.981000+00:00",
+      "source_count": 3,
+      "score": 81,
+      "official": false,
+      "topics": [
+        "agent",
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 86
+    },
+    {
+      "title": "我不小心把LLM内存变成了程序分析",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis",
+      "source": "pwning.systems",
+      "site_id": "buzzing",
+      "published_at": "2026-08-29T06:44:16.846000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 58
+      "label": "多源热议",
+      "hot_score": 81
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://news.ycombinator.com/item?id=49486172",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-29T03:43:34.729000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 63
     },
     {
       "title": "Identifying fake cosmetics using AI",
@@ -25,61 +74,12 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T03:43:34.729000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 58
-    },
-    {
-      "title": "StemDeck, a free, open-source and local AI stem separator",
-      "url": "https://news.ycombinator.com/item?id=49486081",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-29T03:43:34.729000+00:00",
-      "source_count": 2,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 58
-    },
-    {
-      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-29T03:16:20.612000+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 56
-    },
-    {
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "url": "https://news.ycombinator.com/item?id=49481455",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-28T22:03:55.493000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 36
+      "hot_score": 31
     }
   ],
   "topics": [
@@ -95,63 +95,63 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 24
+      "count": 21
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 10
+      "count": 7
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 19
+      "count": 22
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 13
+      "count": 16
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 14
+      "count": 13
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 12
+      "count": 6
     },
     {
       "slug": "paper",
@@ -165,7 +165,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 31
+      "count": 9
     }
   ],
   "days": [

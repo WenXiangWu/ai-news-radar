@@ -1,11 +1,93 @@
 {
-  "generated_at": "2026-08-29T04:07:38.255293+00:00",
+  "generated_at": "2026-08-29T11:30:48.888665+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 19,
+  "total_items": 22,
   "items": [
+    {
+      "title": "给Claude Code装了70行规矩，生成的代码终于不用大改了",
+      "url": "https://juejin.cn/post/7678167908111220746",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-08-29T10:34:32.100000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Researcher Tricked Claude, Codex and Hermes into Running Malware",
+      "url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-08-29T08:24:36+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "开放世界多智能体环境中的自主数学发现",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-29T07:32:16.981000+00:00",
+      "source_count": 3,
+      "score": 81,
+      "official": false,
+      "topics": [
+        "agent",
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+      "url": "https://x.com/thsottiaux/status/2093573991965557198",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-29T05:38:31+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+      "url": "https://www.ithome.com/0/995/896.htm",
+      "source": "IT之家（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-08-29T04:31:21+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
       "url": "https://juejin.cn/post/7678239088522313780",
@@ -13,7 +95,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T03:43:34.729000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
@@ -29,7 +111,55 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T03:43:34.729000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN: Metis – An agent harness pushing DeepSeek to Opus-tier coding (82%)",
+      "url": "https://github.com/Wholiver/metis",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-08-29T02:36:07+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex CLI 0.151.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-29T00:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "I see the web evolving in two extremes: 1️⃣ ultra-fancy human experiences, in the service of delight, exploration, brand, entertainment. https://t.co/0nyTRPKDEJ / threejs / typegpu are enabling this 2️⃣ agent-centric...",
+      "url": "https://x.com/rauchg/status/2093482695838007318",
+      "source": "Follow Builders · X · Guillermo Rauch",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-28T23:35:44+00:00",
+      "source_count": 1,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -44,26 +174,11 @@
       "site_id": "waytoagi",
       "published_at": "2026-08-28T22:15:41.928129+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 54,
       "official": false,
       "topics": [
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "url": "https://news.ycombinator.com/item?id=49481455",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-28T22:03:55.493000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -75,7 +190,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-28T20:41:23+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -90,7 +205,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T18:19:32+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -107,7 +222,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T17:28:47+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -117,15 +232,17 @@
       "label": "值得关注"
     },
     {
-      "title": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
-      "url": "https://www.infoq.cn/article/A0CMcU7UVsMQreKPcKOw",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-28T15:36:00+00:00",
+      "title": "My hot take is that Claude Cowork and ChatGPT Work are partial solutions and that Grok Bot is the right end state for a capable AI agent product for non-technical people. Grok Bot I think people can easily \"grok\" that...",
+      "url": "https://x.com/petergyang/status/2093379695144530313",
+      "source": "Follow Builders · X · Peter Yang",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-28T16:46:27+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 64,
       "official": false,
       "topics": [
+        "openai",
+        "anthropic",
         "agent"
       ],
       "reason": "",
@@ -138,28 +255,12 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T15:04:44+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 70,
       "official": false,
       "topics": [
         "agent",
         "coding",
         "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "url": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-28T14:00:00+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -171,7 +272,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-28T13:28:24+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "agent"
@@ -186,7 +287,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-28T12:25:39+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -201,23 +302,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T12:04:47.737000+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "AI Agent Has Root",
-      "url": "https://infernalcode.com/posts/your-ai-agent-has-root",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-08-28T12:03:09+00:00",
-      "source_count": 1,
-      "score": 48,
+      "score": 72,
       "official": false,
       "topics": [
         "agent"
@@ -226,13 +311,13 @@
       "label": "值得关注"
     },
     {
-      "title": "你的 Agent 已经上线生产环境，下一步怎么办？ | 技术实践",
-      "url": "https://www.infoq.cn/article/mKFB15kPm6Uw8fNG4Y7e",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-28T11:53:03+00:00",
+      "title": "AI Agent Has Root",
+      "url": "https://infernalcode.com/posts/your-ai-agent-has-root",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-08-28T12:03:09+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -247,15 +332,14 @@
       "site_id": "aibase",
       "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "手写一个最小版 Claude Code：从任务拆解到 Agent Loop 转起来",
@@ -264,43 +348,11 @@
       "site_id": "newsnow",
       "published_at": "2026-08-28T11:03:01.367000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T08:36:31.021000+00:00",
-      "source_count": 2,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "开始在飞机上和咖啡馆看到越来越多的 Codex 用户。弱势能源成为主流。",
-      "url": "https://x.com/thsottiaux/status/2093207246977318928",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-28T05:21:12+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-29T04:07:38.255293+00:00",
+  "generated_at": "2026-08-29T11:30:48.888665+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 12,
+  "total_items": 6,
   "items": [
     {
       "title": "Z.ai releases GLM-5.3's weights under a new license requiring companies with $10B+ in revenue over 12 months to pass Z.ai's security review to host the model (Frederic Lardinois/The New Stack)",
@@ -13,7 +13,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-28T23:20:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "opensource",
@@ -29,7 +29,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-28T20:13:22+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding",
@@ -45,26 +45,10 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T18:19:32+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "url": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-08-28T14:00:00+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
         "agent",
         "launch"
       ],
@@ -78,15 +62,14 @@
       "site_id": "aibase",
       "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
@@ -95,15 +78,14 @@
       "site_id": "aibase",
       "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "opensource",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "阿里发布全新 Qoder:从 AI 编程工具升级为面向所有人的智能体工作台",
@@ -112,90 +94,10 @@
       "site_id": "aibase",
       "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "量子技术与AI迎来深度融合！国内首个“玄幂”量子增强大模型正式发布",
-      "url": "https://www.aibase.com/news/30688",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-08-28T10:19:34.105161+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Tencent releases Hy4 Preview, a 770B-parameter foundational model with a 1M context window that it says outperforms Z.AI and Moonshot models in internal tests (Bloomberg)",
-      "url": "https://www.techmeme.com/260828/p3",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-08-28T09:40:07+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "X 声称发现一家中国机器人农场发布反人工智能数据中心情绪",
-      "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-08-28T06:21:43+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
-      "source": "公众号：腾讯混元",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T06:03:48+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
-      "url": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-28T05:00:38+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "google",
         "launch"
       ],
       "reason": "",

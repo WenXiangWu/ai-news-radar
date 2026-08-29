@@ -1,21 +1,70 @@
 {
-  "generated_at": "2026-08-29T04:07:38.255293+00:00",
+  "generated_at": "2026-08-29T11:30:48.888665+00:00",
   "window_hours": 168,
-  "total_items": 11,
+  "total_items": 9,
   "items": [
     {
-      "title": "I accidentally turned LLM memory into program analysis",
-      "url": "https://news.ycombinator.com/item?id=49485416",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-29T03:43:34.729000+00:00",
-      "source_count": 2,
-      "score": 55,
+      "title": "StemDeck，一款免费、开源且本地化的AI茎叶分离器",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-29T10:12:23.295000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "开放世界多智能体环境中的自主数学发现",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-29T07:32:16.981000+00:00",
+      "source_count": 3,
+      "score": 81,
+      "official": false,
+      "topics": [
+        "agent",
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 86
+    },
+    {
+      "title": "我不小心把LLM内存变成了程序分析",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis",
+      "source": "pwning.systems",
+      "site_id": "buzzing",
+      "published_at": "2026-08-29T06:44:16.846000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 58
+      "label": "多源热议",
+      "hot_score": 81
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://news.ycombinator.com/item?id=49486172",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-29T03:43:34.729000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 63
     },
     {
       "title": "Identifying fake cosmetics using AI",
@@ -24,61 +73,30 @@
       "site_id": "newsnow",
       "published_at": "2026-08-29T03:43:34.729000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 58
+      "hot_score": 31
     },
     {
-      "title": "StemDeck, a free, open-source and local AI stem separator",
-      "url": "https://news.ycombinator.com/item?id=49486081",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-29T03:43:34.729000+00:00",
+      "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "source": "X：Tibo (@thsottiaux)",
+      "site_id": "aihot",
+      "published_at": "2026-08-29T01:47:44+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 76,
       "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 58
-    },
-    {
-      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-29T03:16:20.612000+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
       "topics": [
         "openai",
-        "coding"
+        "coding",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新",
-      "hot_score": 56
-    },
-    {
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "url": "https://news.ycombinator.com/item?id=49481455",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-28T22:03:55.493000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 36
+      "label": "行业动态",
+      "hot_score": 27
     },
     {
       "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
@@ -87,26 +105,12 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T16:22:16+00:00",
       "source_count": 2,
-      "score": 59,
+      "score": 57,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 23
-    },
-    {
-      "title": "《Luanti》因一则毫无根据的AI版权通知被移除出Google Play",
-      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
-      "source": "blog.luanti.org",
-      "site_id": "buzzing",
-      "published_at": "2026-08-28T13:24:34.136000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 18
+      "hot_score": 12
     },
     {
       "title": "美国法官裁定，五角大楼将Anthropic列入黑名单的行为违法",
@@ -115,14 +119,14 @@
       "site_id": "buzzing",
       "published_at": "2026-08-28T13:24:34.450000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 18
+      "hot_score": 10
     },
     {
       "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
@@ -131,45 +135,14 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T12:46:12+00:00",
       "source_count": 2,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
-    },
-    {
-      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T08:36:31.021000+00:00",
-      "source_count": 2,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 12
-    },
-    {
-      "title": "请别再用那些低质量的AI内容淹没我们的项目，只为了充实你的简历了",
-      "url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
-      "source": "neilalexander.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-08-28T06:13:49.548000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
+      "hot_score": 9
     }
   ]
 }
