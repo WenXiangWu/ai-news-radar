@@ -1,11 +1,58 @@
 {
-  "generated_at": "2026-08-28T22:37:57.555255+00:00",
+  "generated_at": "2026-08-29T04:07:38.255293+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 13,
+  "total_items": 14,
   "items": [
+    {
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://news.ycombinator.com/item?id=49486081",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-29T03:43:34.729000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
+      "url": "https://juejin.cn/post/7678239088522313780",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-08-29T03:43:34.729000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Z.ai releases GLM-5.3's weights under a new license requiring companies with $10B+ in revenue over 12 months to pass Z.ai's security review to host the model (Frederic Lardinois/The New Stack)",
+      "url": "https://www.techmeme.com/260828/p25",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-08-28T23:20:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Show HN: Conduct, open-source guardrails for LLM and MCP tool calls",
       "url": "https://github.com/sseshachala/conductai",
@@ -13,7 +60,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-28T19:29:20+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "mcp",
@@ -29,7 +76,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T17:28:47+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": false,
       "topics": [
         "agent",
@@ -45,7 +92,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-28T15:41:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "opensource"
@@ -60,7 +107,7 @@
       "site_id": "iris",
       "published_at": "2026-08-28T15:20:13+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "opensource"
@@ -75,16 +122,15 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T15:04:44+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
         "coding",
-        "opensource",
-        "industry"
+        "opensource"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
@@ -93,7 +139,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-08-28T14:20:17+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "opensource"
@@ -108,7 +154,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "opensource",
@@ -124,7 +170,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "opensource",
@@ -141,7 +187,7 @@
       "site_id": "aibase",
       "published_at": "2026-08-28T11:19:34.105161+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "opensource",
@@ -157,7 +203,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-28T11:03:01.367000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "opensource"
@@ -172,7 +218,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T06:03:48+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -181,36 +227,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Show HN: 我们开发了开源的 OpenRouter，它将使用情况转化为更完善的模型",
-      "url": "https://github.com/experientiallabs/experiential",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-28T01:41:19.996000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-28T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }

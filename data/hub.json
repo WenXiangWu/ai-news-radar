@@ -1,9 +1,70 @@
 {
-  "generated_at": "2026-08-28T22:37:57.555255+00:00",
+  "generated_at": "2026-08-29T04:07:38.255293+00:00",
   "today": "2026-08-29",
-  "lead": "GitHub Copilot in Visual Studio — August update；GitHub Copilot weekly releases — August 24；Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+  "lead": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险；GitHub Copilot in Visual Studio — August update；GitHub Copilot weekly releases — August 24",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "I accidentally turned LLM memory into program analysis",
+      "url": "https://news.ycombinator.com/item?id=49485416",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-29T03:43:34.729000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 58
+    },
+    {
+      "title": "Identifying fake cosmetics using AI",
+      "url": "https://news.ycombinator.com/item?id=49484925",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-29T03:43:34.729000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 58
+    },
+    {
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://news.ycombinator.com/item?id=49486081",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-29T03:43:34.729000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 58
+    },
+    {
+      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-29T03:16:20.612000+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 56
+    },
     {
       "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
       "url": "https://news.ycombinator.com/item?id=49481455",
@@ -11,74 +72,14 @@
       "site_id": "newsnow",
       "published_at": "2026-08-28T22:03:55.493000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 57
-    },
-    {
-      "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
-      "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-08-28T16:22:16+00:00",
-      "source_count": 2,
-      "score": 60,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
       "hot_score": 36
-    },
-    {
-      "title": "《Luanti》因一则毫无根据的AI版权通知被移除出Google Play",
-      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
-      "source": "blog.luanti.org",
-      "site_id": "buzzing",
-      "published_at": "2026-08-28T13:24:34.136000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 28
-    },
-    {
-      "title": "美国法官裁定，五角大楼将Anthropic列入黑名单的行为违法",
-      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28",
-      "source": "www.reuters.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-28T13:24:34.450000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 28
-    },
-    {
-      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-28T12:46:12+00:00",
-      "source_count": 2,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 26
     }
   ],
   "topics": [
@@ -94,14 +95,14 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 33
+      "count": 24
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 13
+      "count": 10
     },
     {
       "slug": "deepseek",
@@ -122,14 +123,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 10
+      "count": 13
     },
     {
       "slug": "mcp",
@@ -143,14 +144,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 13
+      "count": 12
     },
     {
       "slug": "paper",
@@ -164,7 +165,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 33
+      "count": 31
     }
   ],
   "days": [

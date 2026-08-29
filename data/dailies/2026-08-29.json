@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-08-28T22:37:57.555255+00:00",
+  "generated_at": "2026-08-29T04:07:38.255293+00:00",
   "date": "2026-08-29",
   "timezone": "Asia/Shanghai",
-  "lead": "GitHub Copilot in Visual Studio — August update；GitHub Copilot weekly releases — August 24；Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+  "lead": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险；GitHub Copilot in Visual Studio — August update；GitHub Copilot weekly releases — August 24",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-29T03:16:20.612000+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 56
+    },
     {
       "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
       "url": "https://github.com/calmrocks/ai-engineer-notebooks",
@@ -13,7 +30,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T08:36:31.021000+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "agent",
@@ -21,23 +38,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 19
-    },
-    {
-      "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-      "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-27T22:29:33.124000+00:00",
-      "source_count": 2,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 8
+      "hot_score": 12
     },
     {
       "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
@@ -46,17 +47,47 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T12:46:12+00:00",
       "source_count": 2,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 26
+      "hot_score": 17
+    },
+    {
+      "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+      "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T16:22:16+00:00",
+      "source_count": 2,
+      "score": 59,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 23
     }
   ],
   "items": [
+    {
+      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-08-29T03:16:20.612000+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "GitHub Copilot in Visual Studio — August update",
       "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
@@ -64,7 +95,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-28T20:24:20+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
@@ -79,7 +110,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-28T20:13:22+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "coding",
@@ -95,7 +126,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-28T17:06:28+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -108,7 +139,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-28T11:37:19+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "coding"
@@ -123,97 +154,11 @@
       "site_id": "official_ai",
       "published_at": "2026-08-28T07:12:10+00:00",
       "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "支持泰国下一代人工智能初创公司",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-28T02:00:00+00:00",
-      "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
         "openai"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-28T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "破解Claude代码 Opus 5 自动模式",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T22:50:25+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 代码审查：解决原因和扩展功能",
-      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T22:46:04+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "通常可以对问题进行更好的标签管理",
-      "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T23:33:22+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Classroom deprecated",
-      "url": "https://github.blog/changelog/2026-08-27-github-classroom-deprecated",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T22:42:40+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -224,7 +169,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T08:36:31.021000+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "agent",
@@ -240,25 +185,10 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T17:25:56.912000+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-      "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-27T22:29:33.124000+00:00",
-      "source_count": 2,
-      "score": 75,
-      "official": true,
-      "topics": [
         "industry"
       ],
       "reason": "",
@@ -271,7 +201,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T18:07:55+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "anthropic",
@@ -287,7 +217,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T13:34:29+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "google",
@@ -303,27 +233,10 @@
       "site_id": "aihot",
       "published_at": "2026-08-28T18:24:05+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-27T23:01:35.558000+00:00",
-      "source_count": 1,
       "score": 72,
       "official": true,
       "topics": [
-        "google",
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -335,7 +248,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T12:46:12+00:00",
       "source_count": 2,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -350,10 +263,116 @@
       "site_id": "curated_media",
       "published_at": "2026-08-28T19:30:38+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.251",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T18:19:32+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google Deepmind's AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
+      "url": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T18:46:27+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "google",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "AI benchmarks have a trust problem and Google wants to fix it",
+      "url": "https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T13:15:10+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+      "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T12:21:06+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "U.S. court rules Pentagon's blacklisting of Anthropic was unlawful",
+      "url": "https://the-decoder.com/u-s-court-rules-pentagons-blacklisting-of-anthropic-was-unlawful",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T11:43:41+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+      "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T16:22:16+00:00",
+      "source_count": 2,
+      "score": 59,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "始终在线且自启动的人工智能代理可能是 OpenAI 的下一个重头戏",
+      "url": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-28T08:03:22+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
