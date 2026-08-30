@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-08-30T06:57:15.444223+00:00",
+  "generated_at": "2026-08-30T13:09:32.652990+00:00",
   "slug": "industry",
   "label": "行业动态",
   "group": "form",
   "blurb": "融资、监管与公司",
-  "total_items": 7,
+  "total_items": 5,
   "items": [
+    {
+      "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+      "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-08-30T08:50:20+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business generates ~$10B in annual revenue (Raffaele Huang/Wall Street Journal)",
       "url": "https://www.techmeme.com/260830/p2",
@@ -13,7 +29,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-30T05:15:02+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "industry"
@@ -28,7 +44,7 @@
       "site_id": "aihubtoday",
       "published_at": "2026-08-30T04:21:04+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -44,27 +60,10 @@
       "site_id": "aihot",
       "published_at": "2026-08-30T00:54:08+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
-      "url": "https://www.dwarkesh.com/p/openai-huggingface",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-29T22:47:53+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "openai",
-        "opensource",
         "industry"
       ],
       "reason": "",
@@ -77,46 +76,13 @@
       "site_id": "curated_media",
       "published_at": "2026-08-29T13:25:56+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "industry"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "开放世界多智能体环境中的自主数学发现",
-      "url": "https://arxiv.org/abs/2608.23691",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-29T07:32:16.981000+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "paper",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
-      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-29T07:00:22.003000+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": true,
-      "topics": [
-        "qwen",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }

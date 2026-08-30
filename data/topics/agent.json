@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-08-30T06:57:15.444223+00:00",
+  "generated_at": "2026-08-30T13:09:32.652990+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 11,
+  "total_items": 7,
   "items": [
+    {
+      "title": "Anthropic's Claude Code limit change is a raise on paper but a cut in practice",
+      "url": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-30T09:05:19+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
       "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
@@ -13,7 +30,7 @@
       "site_id": "aihubtoday",
       "published_at": "2026-08-30T04:21:04+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -29,7 +46,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-30T00:54:08+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -45,7 +62,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-29T18:34:03+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -62,7 +79,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-29T18:05:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -78,7 +95,7 @@
       "site_id": "hackernews",
       "published_at": "2026-08-29T17:43:13+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -94,22 +111,6 @@
       "site_id": "zeli",
       "published_at": "2026-08-29T17:27:31+00:00",
       "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Code can be tricked simply by asking it to summarize a website",
-      "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-29T11:46:15+00:00",
-      "source_count": 1,
       "score": 48,
       "official": false,
       "topics": [
@@ -118,73 +119,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "给Claude Code装了70行规矩，生成的代码终于不用大改了",
-      "url": "https://juejin.cn/post/7678167908111220746",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-08-29T10:34:32.100000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Researcher Tricked Claude, Codex and Hermes into Running Malware",
-      "url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-29T08:24:36+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: Itsuki – shared memory for Claude Code, Cursor and 24 other AI tools",
-      "url": "https://itsuki.app",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-29T07:50:32+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "开放世界多智能体环境中的自主数学发现",
-      "url": "https://arxiv.org/abs/2608.23691",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-29T07:32:16.981000+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "paper",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }
