@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T21:15:55.805681+00:00",
+  "generated_at": "2026-08-30T23:43:08.833783+00:00",
   "date": "2026-08-31",
   "timezone": "Asia/Shanghai",
-  "lead": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude；AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除；Anthropic's Claude Code limit change is a raise on paper but a cut in practice",
+  "lead": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude；Anthropic's Claude Code limit change is a raise on paper but a cut in practice；Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-30T19:31:43.820000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "opensource",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 85
     }
   ],
   "items": [
@@ -40,22 +40,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
-      "url": "https://www.dwarkesh.com/p/openai-huggingface",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-08-29T22:47:53+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": true,
-      "topics": [
-        "openai",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "Anthropic's Claude Code limit change is a raise on paper but a cut in practice",
@@ -81,7 +65,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-30T20:23:46+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "google",
@@ -97,7 +81,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-30T19:31:43.820000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "opensource",
@@ -113,10 +97,26 @@
       "site_id": "curated_media",
       "published_at": "2026-08-30T06:12:21+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI ends it partnership with Cursor",
+      "url": "https://twitter.com/OpenAI/status/2093515564786540695",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-08-30T22:50:36+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -128,7 +128,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-30T14:51:33+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -143,7 +143,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-30T12:36:05.962000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [],
       "reason": "",
@@ -156,7 +156,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-30T12:36:05.962000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "mcp"
@@ -228,42 +228,10 @@
       "site_id": "buzzing",
       "published_at": "2026-08-30T02:13:06.490000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic Sued By Sony, Warner For Allegedly Stealing Tens of Thousands of Songs, Torrenting Copyrighted Works",
-      "url": "https://yro.slashdot.org/story/26/08/29/2149242/anthropic-sued-by-sony-warner-for-allegedly-stealing-tens-of-thousands-of-songs-torrenting-copyrighted-works",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-08-29T23:00:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Will it be Anthropic or X AI after Cursor getting no access to OpenAI?",
-      "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-29T21:03:16+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -288,7 +256,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-30T15:00:00+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [],
       "reason": "",
@@ -308,13 +276,39 @@
       "label": "值得关注"
     },
     {
+      "title": "Never had so many AI products looked so similar Even though the number of products is exploding, there aren't that many radical new ideas and everything blurs into each other Every time I open this app it feels like h...",
+      "url": "https://x.com/zarazhangrui/status/2093944988262371465",
+      "source": "Follow Builders · X · Zara Zhang",
+      "site_id": "followbuilders",
+      "published_at": "2026-08-30T06:12:43+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "AI agents have no sense of time and are not aware of it",
       "url": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-08-30T10:41:36+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "The skills that earn top grades are the ones AI can fake best",
+      "url": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-08-30T10:34:09+00:00",
+      "source_count": 1,
+      "score": 59,
       "official": false,
       "topics": [],
       "reason": "",
