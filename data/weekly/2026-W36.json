@@ -1,16 +1,31 @@
 {
   "title": "2026-W36 周报",
   "dates": [
+    "2026-09-01",
     "2026-08-31",
     "2026-08-30",
     "2026-08-29",
     "2026-08-28",
     "2026-08-27",
-    "2026-08-26",
-    "2026-08-25"
+    "2026-08-26"
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
+      "url": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-31T16:30:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "[AINews] OpenAI shuts off Cursor",
       "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
@@ -23,36 +38,6 @@
       "topics": [
         "openai",
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T11:39:24+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
-      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-31T05:07:13.656000+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -114,6 +99,21 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-08-31T05:07:13.656000+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -212,17 +212,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI News",
+      "title": "GitHub Copilot in VS Code, August 2026 releases",
+      "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-25T07:00:00+00:00",
+      "published_at": "2026-08-31T08:39:54+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
-        "openai",
-        "industry"
+        "coding",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -388,28 +388,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-08-25T00:00:00+00:00",
+      "published_at": "2026-08-31T04:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -578,34 +563,47 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Andrew Ng gets into AI Engineering",
-      "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
-      "source": "Latent Space",
+      "title": "Upcoming changes to GitHub Copilot policies and billing",
+      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-25T02:50:57+00:00",
+      "published_at": "2026-08-28T11:37:19+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-24T16:27:04+00:00",
-      "source_count": 1,
-      "score": 81,
+      "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
+      "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-08-27T22:29:33.124000+00:00",
+      "source_count": 3,
+      "score": 80,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "行星预测引擎：通过地球人工智能自动化全球模型",
+      "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-08-27T17:37:20+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-08-31T14:05:30.819116+00:00",
+  "generated_at": "2026-08-31T20:33:01.888244+00:00",
   "period": "2026-W36"
 }

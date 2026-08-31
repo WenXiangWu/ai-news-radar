@@ -1,9 +1,67 @@
 {
-  "generated_at": "2026-08-31T14:05:30.819116+00:00",
-  "today": "2026-08-31",
-  "lead": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同；OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents；如何构建扩散式语言模型",
+  "generated_at": "2026-08-31T20:33:01.888244+00:00",
+  "today": "2026-09-01",
+  "lead": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science；理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同；GitHub Copilot in VS Code, August 2026 releases",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "ChatGPT Work Tool and Skill Reference",
+      "url": "https://news.ycombinator.com/item?id=49510000",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-31T19:49:07.264000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "Mac Mini 和 Mac Studio 的人工智能需求让苹果措手不及",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand",
+      "source": "www.macrumors.com",
+      "site_id": "buzzing",
+      "published_at": "2026-08-31T18:41:20.531000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
+      "url": "https://news.ycombinator.com/item?id=49511007",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-31T19:49:07.264000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
+      "url": "https://news.ycombinator.com/item?id=49510632",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-31T19:49:07.264000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
     {
       "title": "如何构建扩散式语言模型",
       "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model",
@@ -11,70 +69,12 @@
       "site_id": "buzzing",
       "published_at": "2026-08-31T10:43:39.380000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 91
-    },
-    {
-      "title": "连续扩散语言模型（CDLM）",
-      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
-      "source": "sander.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-08-31T08:51:38.607000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 78
-    },
-    {
-      "title": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
-      "url": "https://news.ycombinator.com/item?id=49508982",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-31T13:19:03.076000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 56
-    },
-    {
-      "title": "What I Learned About AI Trust from Reconciling over 100B Transactions",
-      "url": "https://news.ycombinator.com/item?id=49508443",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-31T13:19:03.076000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 56
-    },
-    {
-      "title": "破解Claude代码 Opus 5 自动模式",
-      "url": "https://news.ycombinator.com/item?id=49506819",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-31T13:19:03.076000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 56
+      "hot_score": 53
     }
   ],
   "topics": [
@@ -83,14 +83,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 18
+      "count": 28
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 20
+      "count": 18
     },
     {
       "slug": "google",
@@ -118,14 +118,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 18
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "mcp",
@@ -139,31 +139,32 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 7
+      "count": 5
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 6
+      "count": 9
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 32
+      "count": 36
     }
   ],
   "days": [
+    "2026-09-01",
     "2026-08-31",
     "2026-08-30",
     "2026-08-29",
@@ -176,9 +177,8 @@
     "2026-08-22",
     "2026-08-21",
     "2026-08-20",
-    "2026-08-19",
-    "2026-08-18"
+    "2026-08-19"
   ],
   "week": "2026-W36",
-  "month": "2026-08"
+  "month": "2026-09"
 }
