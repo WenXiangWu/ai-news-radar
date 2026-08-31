@@ -1,21 +1,93 @@
 {
-  "generated_at": "2026-08-31T05:45:41.870309+00:00",
+  "generated_at": "2026-08-31T14:05:30.819116+00:00",
   "window_hours": 168,
-  "total_items": 9,
+  "total_items": 10,
   "items": [
     {
-      "title": "How to build a diffusion language model",
-      "url": "https://news.ycombinator.com/item?id=49503956",
+      "title": "如何构建扩散式语言模型",
+      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model",
+      "source": "kuleshov-group.github.io",
+      "site_id": "buzzing",
+      "published_at": "2026-08-31T10:43:39.380000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 91
+    },
+    {
+      "title": "连续扩散语言模型（CDLM）",
+      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+      "source": "sander.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-08-31T08:51:38.607000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 78
+    },
+    {
+      "title": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
+      "url": "https://news.ycombinator.com/item?id=49508982",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-08-31T05:28:54.929000+00:00",
+      "published_at": "2026-08-31T13:19:03.076000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 59
+      "hot_score": 56
+    },
+    {
+      "title": "What I Learned About AI Trust from Reconciling over 100B Transactions",
+      "url": "https://news.ycombinator.com/item?id=49508443",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-31T13:19:03.076000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "破解Claude代码 Opus 5 自动模式",
+      "url": "https://news.ycombinator.com/item?id=49506819",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-31T13:19:03.076000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "OpenClaw 2.0，意外之作",
+      "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
+      "source": "openclaw.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-08-31T10:27:50.895000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 44
     },
     {
       "title": "The EU has begun enforcing the AI Act: first RFIs to model providers",
@@ -24,12 +96,12 @@
       "site_id": "newsnow",
       "published_at": "2026-08-31T05:28:54.929000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 59
+      "hot_score": 29
     },
     {
       "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
@@ -38,14 +110,14 @@
       "site_id": "official_ai",
       "published_at": "2026-08-31T05:07:13.656000+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 57
+      "hot_score": 28
     },
     {
       "title": "METR 和 Redwood 发布了关于 HuggingFace 黑客事件的详细复盘报告",
@@ -54,7 +126,7 @@
       "site_id": "buzzing",
       "published_at": "2026-08-30T19:31:43.820000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 53,
       "official": true,
       "topics": [
         "opensource",
@@ -62,37 +134,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 51
-    },
-    {
-      "title": "Claude Session URL appended to commit messages and PR descriptions by default",
-      "url": "https://news.ycombinator.com/item?id=49498201",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-30T17:26:53.215000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 43
-    },
-    {
-      "title": "Continuous Diffusion Language Models (CDLM's)",
-      "url": "https://news.ycombinator.com/item?id=49502611",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-30T23:28:08.801000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 36
+      "hot_score": 26
     },
     {
       "title": "Show HN: Academa – Long-form STEM lecture videos generated by LLMs",
@@ -101,40 +143,12 @@
       "site_id": "newsnow",
       "published_at": "2026-08-30T23:28:08.801000+00:00",
       "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 36
-    },
-    {
-      "title": "“无AI星期五”",
-      "url": "https://noaifridays.com",
-      "source": "noaifridays.com",
-      "site_id": "buzzing",
-      "published_at": "2026-08-30T15:15:25.717000+00:00",
-      "source_count": 2,
       "score": 51,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
       "hot_score": 18
-    },
-    {
-      "title": "Fair Work Commission condemns 'plain wrong' AI legal advice",
-      "url": "https://news.ycombinator.com/item?id=49497357",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-30T12:39:31.214000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 14
     }
   ]
 }
