@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-09-01T19:00:50.202370+00:00",
+  "generated_at": "2026-09-01T22:23:59.816101+00:00",
   "date": "2026-09-02",
   "timezone": "Asia/Shanghai",
-  "lead": "Google Workspace 推出图像创作编辑工具 Google Pics；Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理；Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+  "lead": "BenchMIRT: What are LLM benchmarks actually measuring?；OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布；Google Workspace 推出图像创作编辑工具 Google Pics",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T13:00:00+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 27
+    },
     {
       "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
@@ -13,14 +30,14 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T16:00:00+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "google"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 47
+      "hot_score": 35
     },
     {
       "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
@@ -29,7 +46,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T00:00:00+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "opensource",
@@ -37,10 +54,42 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 12
+      "hot_score": 9
     }
   ],
   "items": [
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T21:39:07+00:00",
+      "source_count": 1,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "opensource",
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T13:00:00+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
@@ -48,10 +97,25 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T16:00:00+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot code review can now approve pull requests",
+      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T19:25:57+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -63,12 +127,40 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T00:00:00+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "opensource",
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T20:45:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Set an expiration date for individual user budgets",
+      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T20:23:13+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -79,7 +171,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T17:08:51+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "google"
@@ -94,7 +186,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T17:00:04+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [],
       "reason": "",
@@ -107,7 +199,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T17:00:00+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
@@ -122,37 +214,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T15:00:00+00:00",
       "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Block users from discussion comments in personal repositories",
-      "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T16:30:01+00:00",
-      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-      "url": "https://www.latent.space/p/pr-not-welcome",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T16:17:15+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -173,7 +237,48 @@
       "label": "官方更新"
     },
     {
-      "title": "Codex CLI 0.152.0",
+      "title": "Block users from discussion comments in personal repositories",
+      "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T16:30:01+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "url": "https://www.latent.space/p/pr-not-welcome",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T16:17:15+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub CLI: Media in issues, pull requests, and comments",
+      "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T12:35:59+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ChatGPT for iOS 1.2026.237",
       "url": "https://developers.openai.com/codex/changelog",
       "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
@@ -196,7 +301,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T04:36:54+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -209,7 +314,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-31T21:58:46+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "coding"
@@ -224,7 +329,7 @@
       "site_id": "aihot",
       "published_at": "2026-08-31T23:00:05.386000+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "anthropic"
@@ -239,7 +344,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-01T00:07:51+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "anthropic",
@@ -247,92 +352,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "v2.1.257",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T17:53:52+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
-      "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T17:35:37+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google Deepmind's new chief says frontier AI leadership is the only thing that matters",
-      "url": "https://the-decoder.com/google-deepminds-new-chief-says-frontier-ai-leadership-is-the-only-thing-that-matters",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T16:49:11+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google's election AI Overviews are opaque, rely on few sources, and sometimes take sides",
-      "url": "https://the-decoder.com/googles-election-ai-overviews-are-opaque-rely-on-few-sources-and-sometimes-take-sides",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T13:03:17+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google's AI search dropped its emergency-call advice over nationalities but still flags people from Facebook",
-      "url": "https://the-decoder.com/googles-ai-search-dropped-its-emergency-call-advice-over-nationalities-but-still-flags-people-from-facebook",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T12:44:11+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Apple accuses OpenAI of destroying evidence",
-      "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T18:19:26+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }

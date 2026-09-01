@@ -1,9 +1,43 @@
 {
-  "generated_at": "2026-09-01T19:00:50.202370+00:00",
+  "generated_at": "2026-09-01T22:23:59.816101+00:00",
   "today": "2026-09-02",
-  "lead": "Google Workspace 推出图像创作编辑工具 Google Pics；Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理；Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+  "lead": "BenchMIRT: What are LLM benchmarks actually measuring?；OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布；Google Workspace 推出图像创作编辑工具 Google Pics",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "ChatGPT/Codex 应用程序捆绑了 LibreOffice 的完整版本",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice",
+      "source": "Simon Willison",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-01T21:37:23.427000+00:00",
+      "source_count": 3,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "《矮人要塞》的创作者表示，游戏行业因人工智能问题而陷入混乱",
+      "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis",
+      "source": "www.pcgamer.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-01T18:57:40.737000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 90
+    },
     {
       "title": "EFF to Courts: Don't Rewrite Copyright over AI Hype",
       "url": "https://news.ycombinator.com/item?id=49521315",
@@ -11,72 +45,42 @@
       "site_id": "newsnow",
       "published_at": "2026-09-01T14:51:44.456000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 85
+      "hot_score": 64
     },
     {
-      "title": "Dwarf Fortress' creator says the industry's in shambles over AI",
-      "url": "https://news.ycombinator.com/item?id=49523720",
+      "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "url": "https://news.ycombinator.com/item?id=49527573",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-09-01T18:13:00.568000+00:00",
+      "published_at": "2026-09-01T21:45:17.423000+00:00",
       "source_count": 2,
       "score": 55,
       "official": false,
       "topics": [
-        "industry"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 56
+      "hot_score": 57
     },
     {
-      "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
-      "url": "https://news.ycombinator.com/item?id=49525153",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-01T18:13:00.568000+00:00",
-      "source_count": 2,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 56
-    },
-    {
-      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T16:00:00+00:00",
-      "source_count": 2,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 47
-    },
-    {
-      "title": "人工智能也能让你更快变差",
-      "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
-      "source": "www.hermit-tech.com",
+      "title": "埃德·齐特龙对人工智能持怀疑态度的预测有多准确？",
+      "url": "https://danluu.com/zitron",
+      "source": "danluu.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-01T11:45:30.411000+00:00",
+      "published_at": "2026-09-01T20:33:16.435000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 33
+      "hot_score": 51
     }
   ],
   "topics": [
@@ -85,14 +89,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 31
+      "count": 37
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 26
+      "count": 38
     },
     {
       "slug": "google",
@@ -127,7 +131,7 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 9
     },
     {
       "slug": "mcp",
@@ -141,28 +145,28 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 13
+      "count": 15
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 12
+      "count": 17
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 37
+      "count": 40
     }
   ],
   "days": [
