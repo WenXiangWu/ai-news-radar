@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T15:15:02.424052+00:00",
-  "today": "2026-09-01",
-  "lead": "Codex CLI 0.152.0；[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier；Copilot model access update for GitHub Team plans",
+  "generated_at": "2026-09-01T19:00:50.202370+00:00",
+  "today": "2026-09-02",
+  "lead": "Google Workspace 推出图像创作编辑工具 Google Pics；Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理；Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,12 +11,58 @@
       "site_id": "newsnow",
       "published_at": "2026-09-01T14:51:44.456000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 85
+    },
+    {
+      "title": "Dwarf Fortress' creator says the industry's in shambles over AI",
+      "url": "https://news.ycombinator.com/item?id=49523720",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-01T18:13:00.568000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
+      "url": "https://news.ycombinator.com/item?id=49525153",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-01T18:13:00.568000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T16:00:00+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 47
     },
     {
       "title": "人工智能也能让你更快变差",
@@ -25,54 +71,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-01T11:45:30.411000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 45
-    },
-    {
-      "title": "在人工智能时代，最安全的职业可能是写作",
-      "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
-      "source": "muratbuffalo.blogspot.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-01T01:21:40.999000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 38
-    },
-    {
-      "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
-      "url": "https://news.ycombinator.com/item?id=49511007",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-31T19:49:07.264000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
-      "url": "https://news.ycombinator.com/item?id=49510632",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-08-31T19:49:07.264000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
+      "hot_score": 33
     }
   ],
   "topics": [
@@ -81,21 +85,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 29
+      "count": 31
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 18
+      "count": 26
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 1
+      "count": 7
     },
     {
       "slug": "deepseek",
@@ -116,14 +120,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 15
+      "count": 16
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 5
     },
     {
       "slug": "mcp",
@@ -137,31 +141,32 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 11
+      "count": 13
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 34
+      "count": 37
     }
   ],
   "days": [
+    "2026-09-02",
     "2026-09-01",
     "2026-08-31",
     "2026-08-30",
@@ -174,8 +179,7 @@
     "2026-08-23",
     "2026-08-22",
     "2026-08-21",
-    "2026-08-20",
-    "2026-08-19"
+    "2026-08-20"
   ],
   "week": "2026-W36",
   "month": "2026-09"

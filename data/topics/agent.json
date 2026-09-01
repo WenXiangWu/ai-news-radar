@@ -1,11 +1,77 @@
 {
-  "generated_at": "2026-09-01T15:15:02.424052+00:00",
+  "generated_at": "2026-09-01T19:00:50.202370+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 15,
+  "total_items": 16,
   "items": [
+    {
+      "title": "每位 AI 工程师都应了解的关于智能体沙箱的 5 件事",
+      "url": "https://waytoagi.feishu.cn/wiki/Xe2Xw27puiJFsTkPZdzcpxGendc?from=from_copylink",
+      "source": "社区更新 · 2026-09-01",
+      "site_id": "waytoagi",
+      "published_at": "2026-09-01T18:27:38.712024+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 发布 Claude Fable 5.1：Agent 基准大幅提升，缓存读取降价 75%",
+      "url": "https://x.com/kimmonismus/status/2094852023673872701",
+      "source": "X：Kim (@kimmonismus)",
+      "site_id": "aihot",
+      "published_at": "2026-09-01T18:16:57+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.257",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-01T17:53:52+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "A researcher hijacked Claude Code by asking it to summarise a web page",
+      "url": "https://thenextweb.com/news/claude-code-prompt-injection-summarise-website-auto-mode",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-01T16:14:01+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了",
       "url": "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB",
@@ -13,7 +79,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-01T11:57:24+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "agent",
@@ -45,7 +111,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-01T10:03:19.334832+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -63,7 +129,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-01T10:03:19.334832+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "deepseek",
@@ -97,7 +163,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-01T00:49:05+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "agent",
@@ -113,7 +179,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-01T00:02:53+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -130,7 +196,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
@@ -147,7 +213,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-08-31T23:00:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -162,7 +228,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-31T20:22:40+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -178,7 +244,7 @@
       "site_id": "newsnow",
       "published_at": "2026-08-31T20:04:45.172000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -198,55 +264,6 @@
       "official": true,
       "topics": [
         "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT 工作工具与技能参考",
-      "url": "https://codex-tool-reference.simonw.chatgpt.site",
-      "source": "codex-tool-reference.simonw.chatgpt.site",
-      "site_id": "buzzing",
-      "published_at": "2026-08-31T17:21:15.952000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "I just made some new GBrain evals that help prove that my retrieval-for-AI-agent open source layer is SOTA for reading memory back without LLM-in-loop And I've also added evals for memory-save from agent transcript, w...",
-      "url": "https://x.com/garrytan/status/2094462971598754010",
-      "source": "Follow Builders · X · Garry Tan",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-31T16:31:00+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenClaw 2.0 is here: A Crowdsourced update to the AI agent is now live",
-      "url": "https://mashable.com/tech/openclaw-2-0-released-agentic-ai",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-08-31T16:15:49+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "agent",
         "launch"
       ],

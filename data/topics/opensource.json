@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-09-01T15:15:02.424052+00:00",
+  "generated_at": "2026-09-01T19:00:50.202370+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 11,
+  "total_items": 13,
   "items": [
+    {
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "url": "https://www.latent.space/p/pr-not-welcome",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T16:17:15+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "开放模型状况：2026 年夏季观察",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-01T14:55:50+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了",
       "url": "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB",
@@ -13,7 +43,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-01T11:57:24+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "agent",
@@ -29,7 +59,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-01T10:03:19.334832+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -47,7 +77,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-01T10:03:19.334832+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "deepseek",
@@ -65,7 +95,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-01T10:03:19.334832+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -81,7 +111,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-01T10:03:19.334832+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -97,7 +127,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-01T05:06:23.299000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "opensource"
@@ -145,7 +175,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-01T04:58:08+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "opensource",
@@ -153,6 +183,22 @@
       ],
       "reason": "",
       "label": "值得关注"
+    },
+    {
+      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
@@ -166,22 +212,6 @@
       "topics": [
         "opensource",
         "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "I just made some new GBrain evals that help prove that my retrieval-for-AI-agent open source layer is SOTA for reading memory back without LLM-in-loop And I've also added evals for memory-save from agent transcript, w...",
-      "url": "https://x.com/garrytan/status/2094462971598754010",
-      "source": "Follow Builders · X · Garry Tan",
-      "site_id": "followbuilders",
-      "published_at": "2026-08-31T16:31:00+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
       ],
       "reason": "",
       "label": "值得关注"

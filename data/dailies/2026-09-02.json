@@ -1,10 +1,45 @@
 {
-  "title": "2026-09 月报",
-  "dates": [
-    "2026-09-02",
-    "2026-09-01"
+  "generated_at": "2026-09-01T19:00:50.202370+00:00",
+  "date": "2026-09-02",
+  "timezone": "Asia/Shanghai",
+  "lead": "Google Workspace 推出图像创作编辑工具 Google Pics；Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理；Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+  "total_items": 20,
+  "selection": "official_first_then_crossing",
+  "hot": [
+    {
+      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T16:00:00+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 47
+    },
+    {
+      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 12
+    }
   ],
-  "total_items": 33,
   "items": [
     {
       "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
@@ -17,6 +52,22 @@
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -74,22 +125,6 @@
       "score": 85,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
-      "url": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T00:00:00+00:00",
-      "source_count": 2,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -178,21 +213,6 @@
       "official": true,
       "topics": [
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
-      "url": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-31T16:30:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -313,187 +333,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T00:13:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI says its ChatGPT ad business hits a $1 billion annual run rate",
-      "url": "https://the-decoder.com/openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-08-31T15:24:59+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.252",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-31T19:46:55+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-31T15:15:25+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
-      "url": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-31T21:20:16+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Gitlawb /      openclaude",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-09-01T14:22:39.027000+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic's Tom Blomfield says his new coworkers are a 'hyper-earnest group of meganerds' with a 'lack of ego'",
-      "url": "https://www.businessinsider.com/tom-blomfield-anthropic-culture-hyper-earnest-meganerds-monzo-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-01T13:33:47+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic has resumed the tests in which its models attacked real companies",
-      "url": "https://thenextweb.com/news/anthropic-resumes-external-cyber-testing",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-01T09:00:49+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI tells the court Apple’s trade-secret case is “a mess of Apple’s own making”",
-      "url": "https://thenextweb.com/news/openai-apple-trade-secret-filing-response",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-01T07:51:45+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic has signed a $35bn cloud deal with Nvidia-backed Lambda",
-      "url": "https://thenextweb.com/news/anthropic-lambda-35bn-cloud-deal",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-01T07:33:28+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "防务预算计划显示，日本将借助无人机、人工智能和导弹加强国防 - apnews.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUm5rMVNka0xwb3dBWjAtMG5jcHhHTXRiLVFMcWx2amRhZmY0ZDJmUGlrUllpdXRKSElib0FsdEViaTk2VmdsQ0pwTmhoSVZKSm4zYm5HMWpZZFVkV2VNdmQ0cWhGRWM1dmpDMklfNzlvX2p2RkRUM09iZG01TVJpUF9LTEtwZkh2cUt6a2JBcDdnNUx2?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-01T06:57:29.991000+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Is MCP Good Yet?",
-      "url": "https://ismcpgoodyet.com",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-01T02:56:15+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
-  ],
-  "generated_at": "2026-09-01T19:00:50.202370+00:00",
-  "period": "2026-09"
+  ]
 }

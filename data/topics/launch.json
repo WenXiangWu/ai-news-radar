@@ -1,11 +1,46 @@
 {
-  "generated_at": "2026-09-01T15:15:02.424052+00:00",
+  "generated_at": "2026-09-01T19:00:50.202370+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 11,
+  "total_items": 12,
   "items": [
+    {
+      "title": "Anthropic 发布 Claude Fable 5.1：Agent 基准大幅提升，缓存读取降价 75%",
+      "url": "https://x.com/kimmonismus/status/2094852023673872701",
+      "source": "X：Kim (@kimmonismus)",
+      "site_id": "aihot",
+      "published_at": "2026-09-01T18:16:57+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.257",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-01T17:53:52+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
       "url": "https://www.aibase.com/news/30756",
@@ -13,7 +48,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-01T10:03:19.334832+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -29,7 +64,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-01T10:03:19.334832+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -93,7 +128,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-01T04:58:08+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "opensource",
@@ -118,13 +153,29 @@
       "label": "值得关注"
     },
     {
+      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
       "url": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-08-31T21:20:16+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "google",
@@ -144,37 +195,6 @@
       "official": true,
       "topics": [
         "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
-      "url": "https://runwayml.com/news/research/introducing-solaris",
-      "source": "Runway：News（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-08-31T17:03:47.031000+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenClaw 2.0 is here: A Crowdsourced update to the AI agent is now live",
-      "url": "https://mashable.com/tech/openclaw-2-0-released-agentic-ai",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-08-31T16:15:49+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "agent",
         "launch"
       ],
