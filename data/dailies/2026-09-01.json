@@ -1,41 +1,39 @@
 {
-  "generated_at": "2026-09-01T00:23:12.484767+00:00",
+  "generated_at": "2026-09-01T05:35:24.293594+00:00",
   "date": "2026-09-01",
   "timezone": "Asia/Shanghai",
-  "lead": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施；Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science；理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
+  "lead": "Codex CLI 0.152.0；[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier；Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
   "total_items": 20,
   "selection": "official_first_then_crossing",
-  "hot": [
-    {
-      "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
-      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-31T05:07:13.656000+00:00",
-      "source_count": 2,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 12
-    }
-  ],
+  "hot": [],
   "items": [
     {
-      "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-08-31T23:00:05.386000+00:00",
+      "title": "Codex CLI 0.152.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T04:36:54+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -46,7 +44,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-31T16:30:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "anthropic"
@@ -55,16 +53,16 @@
       "label": "官方更新"
     },
     {
-      "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
-      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-31T05:07:13.656000+00:00",
-      "source_count": 2,
+      "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-08-31T23:00:05.386000+00:00",
+      "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "openai"
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -76,7 +74,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-31T08:39:54+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "coding",
@@ -92,7 +90,7 @@
       "site_id": "official_ai",
       "published_at": "2026-08-31T07:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "openai"
@@ -101,33 +99,32 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-31T04:00:00+00:00",
+      "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+      "url": "https://x.com/AnthropicAI/status/2094577944056430865",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "site_id": "aihot",
+      "published_at": "2026-09-01T00:07:51+00:00",
       "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v2.1.252",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-08-31T19:46:55+00:00",
-      "source_count": 1,
-      "score": 63,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
-        "agent",
-        "launch"
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-01T00:13:00+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -139,10 +136,27 @@
       "site_id": "curated_media",
       "published_at": "2026-08-31T15:24:59+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.252",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-08-31T19:46:55+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -154,7 +168,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-31T15:15:25+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [],
       "reason": "",
@@ -167,7 +181,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-31T14:28:14+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -182,7 +196,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-31T08:55:12+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -197,7 +211,7 @@
       "site_id": "curated_media",
       "published_at": "2026-08-31T21:20:16+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "google",
@@ -213,7 +227,37 @@
       "site_id": "curated_media",
       "published_at": "2026-08-31T13:27:36+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic tightens security on its training environment after Claude agents went rogue 3 times",
+      "url": "https://www.businessinsider.com/anthropic-tightens-training-security-after-claude-agents-went-rogue-2026-8",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-01T02:05:31+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Apple Says OpenAI Is Destroying Evidence in Trade Secrets Case",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/apple-says-openai-is-destroying-evidence-in-trade-secrets-case",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-01T00:07:08+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [
         "openai"
@@ -228,7 +272,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-31T22:34:52+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -243,7 +287,7 @@
       "site_id": "techurls",
       "published_at": "2026-08-31T20:22:40+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -259,70 +303,11 @@
       "site_id": "techurls",
       "published_at": "2026-08-31T18:10:45+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic",
         "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Apple Is Suddenly an AI Infra Stock as OpenAI Buys 10k+ Macs",
-      "url": "https://247wallst.com/investing/2026/08/31/apple-is-suddenly-an-ai-infrastructure-stock-as-openai-buys-macs-by-the-tens-of-thousands",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-08-31T16:44:15+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI,Anthropic etc. 100 companies call for action to defend against rogue AI",
-      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-08-31T13:05:18+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "如何构建扩散式语言模型",
-      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model",
-      "source": "kuleshov-group.github.io",
-      "site_id": "buzzing",
-      "published_at": "2026-08-31T10:43:39.380000+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI has started letting some customers pay only when the AI works",
-      "url": "https://thenextweb.com/news/openai-outcome-based-pricing-enterprise",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-08-31T08:55:58+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
