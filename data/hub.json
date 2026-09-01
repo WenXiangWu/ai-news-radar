@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T20:33:01.888244+00:00",
+  "generated_at": "2026-09-01T00:23:12.484767+00:00",
   "today": "2026-09-01",
-  "lead": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science；理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同；GitHub Copilot in VS Code, August 2026 releases",
+  "lead": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施；Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science；理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,14 +11,14 @@
       "site_id": "newsnow",
       "published_at": "2026-08-31T19:49:07.264000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 82
     },
     {
       "title": "Mac Mini 和 Mac Studio 的人工智能需求让苹果措手不及",
@@ -27,12 +27,26 @@
       "site_id": "buzzing",
       "published_at": "2026-08-31T18:41:20.531000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 75
+    },
+    {
+      "title": "The safest job from AI may be writing",
+      "url": "https://news.ycombinator.com/item?id=49512856",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-08-31T23:52:53.798000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 58
     },
     {
       "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
@@ -41,12 +55,12 @@
       "site_id": "newsnow",
       "published_at": "2026-08-31T19:49:07.264000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 56
+      "hot_score": 41
     },
     {
       "title": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
@@ -55,26 +69,12 @@
       "site_id": "newsnow",
       "published_at": "2026-08-31T19:49:07.264000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 56
-    },
-    {
-      "title": "如何构建扩散式语言模型",
-      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model",
-      "source": "kuleshov-group.github.io",
-      "site_id": "buzzing",
-      "published_at": "2026-08-31T10:43:39.380000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 53
+      "hot_score": 41
     }
   ],
   "topics": [
@@ -83,14 +83,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 28
+      "count": 33
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "google",
@@ -118,14 +118,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 6
     },
     {
       "slug": "mcp",
@@ -146,7 +146,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "paper",
@@ -160,7 +160,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 36
+      "count": 37
     }
   ],
   "days": [
