@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:34:33.437852Z",
+  "generated_at": "2026-09-02T14:26:57.867331Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -106,15 +106,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.896,
-      "importance": 0.896,
-      "importance_score": 0.896,
+      "score": 0.8848,
+      "importance": 0.8848,
+      "importance_score": 0.8848,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.87,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9168,
+        "recency": 0.8545,
         "story_heat": 0.5
       },
       "category": "official",
@@ -141,254 +141,82 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
-      "story_id": "story_0ce11be79fc0",
-      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra: critical capabilities and frontier safeguards",
-      "url": "https://openai.com/index/path-to-astra",
-      "primary_url": "https://openai.com/index/path-to-astra",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "ea4f64c9f4b8d986df58ae876ff49af581f9f771",
-          "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra: critical capabilities and frontier safeguards",
-          "title_zh": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-          "title_en": "Path to Astra: critical capabilities and frontier safeguards",
-          "title_original": "Path to Astra: critical capabilities and frontier safeguards",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/path-to-astra",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T13:00:00Z"
-        },
-        {
-          "id": "d9f84a2ae027b4c6cfed4ef871b0f815d18800e8",
-          "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra： critical capabilities and frontier safeguards",
-          "title_zh": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-          "title_en": "Path to Astra： critical capabilities and frontier safeguards",
-          "title_original": "Path to Astra： critical capabilities and frontier safeguards",
-          "summary": "OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链。",
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/path-to-astra",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-01T13:00:00Z"
-        },
-        {
-          "id": "6290b3b635810208b5588f6fe8f8b81610a01adf",
-          "title": "通往“阿斯特拉”之路：关键能力与前沿保障措施",
-          "title_zh": "通往“阿斯特拉”之路：关键能力与前沿保障措施",
-          "title_en": null,
-          "title_original": "通往“阿斯特拉”之路：关键能力与前沿保障措施",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/path-to-astra",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-02T03:13:14.351000Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "openai.com"
-      ],
-      "items": [
-        {
-          "id": "ea4f64c9f4b8d986df58ae876ff49af581f9f771",
-          "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra: critical capabilities and frontier safeguards",
-          "title_zh": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-          "title_en": "Path to Astra: critical capabilities and frontier safeguards",
-          "title_original": "Path to Astra: critical capabilities and frontier safeguards",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/path-to-astra",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T13:00:00Z"
-        },
-        {
-          "id": "d9f84a2ae027b4c6cfed4ef871b0f815d18800e8",
-          "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra： critical capabilities and frontier safeguards",
-          "title_zh": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-          "title_en": "Path to Astra： critical capabilities and frontier safeguards",
-          "title_original": "Path to Astra： critical capabilities and frontier safeguards",
-          "summary": "OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链。",
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/path-to-astra",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-01T13:00:00Z"
-        },
-        {
-          "id": "6290b3b635810208b5588f6fe8f8b81610a01adf",
-          "title": "通往“阿斯特拉”之路：关键能力与前沿保障措施",
-          "title_zh": "通往“阿斯特拉”之路：关键能力与前沿保障措施",
-          "title_en": null,
-          "title_original": "通往“阿斯特拉”之路：关键能力与前沿保障措施",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/path-to-astra",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-02T03:13:14.351000Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8557,
-      "importance": 0.8557,
-      "importance_score": 0.8557,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7429,
-        "story_heat": 0.5
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T13:00:00Z",
-      "latest_at": "2026-09-02T03:13:14.351000Z",
-      "primary_item": {
-        "id": "ea4f64c9f4b8d986df58ae876ff49af581f9f771",
-        "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra: critical capabilities and frontier safeguards",
-        "title_zh": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-        "title_en": "Path to Astra: critical capabilities and frontier safeguards",
-        "title_original": "Path to Astra: critical capabilities and frontier safeguards",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/path-to-astra",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
-      }
-    },
-    {
-      "story_id": "story_fcd18d4270a0",
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
-      "primary_url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+      "story_id": "story_d6e687d195b7",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
+      "primary_url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
       "source": "Simon Willison",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "1c383c224eb01e8fb0caed22755500225b29649c",
-          "title": "Claude Fable 5.1 made me a really nice animated pelican",
+          "id": "5c53498b476f62eff3848d18df891457907ee7ab",
+          "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
           "title_zh": null,
-          "title_en": "Claude Fable 5.1 made me a really nice animated pelican",
-          "title_original": "Claude Fable 5.1 made me a really nice animated pelican",
+          "title_en": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+          "title_original": "Claude's new system prompt really doesn't want to reproduce song lyrics",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+          "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
           "source": "Simon Willison",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-01T23:57:28Z"
-        },
-        {
-          "id": "75bc049856cbd0c98f3a10c1a849b0a2e40e9837",
-          "title": "Claude Fable 5.1 made me a nice animated pelican",
-          "title_zh": null,
-          "title_en": "Claude Fable 5.1 made me a nice animated pelican",
-          "title_original": "Claude Fable 5.1 made me a nice animated pelican",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-02T01:05:52Z"
+          "published_at": "2026-09-02T14:16:42Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hacker News",
         "Simon Willison"
       ],
       "items": [
         {
-          "id": "1c383c224eb01e8fb0caed22755500225b29649c",
-          "title": "Claude Fable 5.1 made me a really nice animated pelican",
+          "id": "5c53498b476f62eff3848d18df891457907ee7ab",
+          "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
           "title_zh": null,
-          "title_en": "Claude Fable 5.1 made me a really nice animated pelican",
-          "title_original": "Claude Fable 5.1 made me a really nice animated pelican",
+          "title_en": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+          "title_original": "Claude's new system prompt really doesn't want to reproduce song lyrics",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+          "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
           "source": "Simon Willison",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-01T23:57:28Z"
-        },
-        {
-          "id": "75bc049856cbd0c98f3a10c1a849b0a2e40e9837",
-          "title": "Claude Fable 5.1 made me a nice animated pelican",
-          "title_zh": null,
-          "title_en": "Claude Fable 5.1 made me a nice animated pelican",
-          "title_original": "Claude Fable 5.1 made me a nice animated pelican",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-02T01:05:52Z"
+          "published_at": "2026-09-02T14:16:42Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8537,
-      "importance": 0.8537,
-      "importance_score": 0.8537,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8596,
+      "importance": 0.8596,
+      "importance_score": 0.8596,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8703,
-        "story_heat": 0.25
+        "ai_relevance": 0.95,
+        "recency": 0.9975,
+        "story_heat": 0.0
       },
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T23:57:28Z",
-      "latest_at": "2026-09-02T01:05:52Z",
+      "earliest_at": "2026-09-02T14:16:42Z",
+      "latest_at": "2026-09-02T14:16:42Z",
       "primary_item": {
-        "id": "1c383c224eb01e8fb0caed22755500225b29649c",
-        "title": "Claude Fable 5.1 made me a really nice animated pelican",
+        "id": "5c53498b476f62eff3848d18df891457907ee7ab",
+        "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
         "title_zh": null,
-        "title_en": "Claude Fable 5.1 made me a really nice animated pelican",
-        "title_original": "Claude Fable 5.1 made me a really nice animated pelican",
+        "title_en": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+        "title_original": "Claude's new system prompt really doesn't want to reproduce song lyrics",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+        "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
         "source": "Simon Willison",
         "source_name": "Official AI Updates"
       },
@@ -396,7 +224,90 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
+      }
+    },
+    {
+      "story_id": "story_e664187f9e97",
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "primary_url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "dbd72b06e20d827c12dbf3f4d6c6dfc0a628acf2",
+          "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+          "title_zh": null,
+          "title_en": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+          "title_original": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-02T13:49:14Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "dbd72b06e20d827c12dbf3f4d6c6dfc0a628acf2",
+          "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+          "title_zh": null,
+          "title_en": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+          "title_original": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-02T13:49:14Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8584,
+      "importance": 0.8584,
+      "importance_score": 0.8584,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.991,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-02T13:49:14Z",
+      "latest_at": "2026-09-02T13:49:14Z",
+      "primary_item": {
+        "id": "dbd72b06e20d827c12dbf3f4d6c6dfc0a628acf2",
+        "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+        "title_zh": null,
+        "title_en": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+        "title_original": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
@@ -444,15 +355,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8474,
-      "importance": 0.8474,
-      "importance_score": 0.8474,
+      "score": 0.8354,
+      "importance": 0.8354,
+      "importance_score": 0.8354,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9742,
+        "recency": 0.908,
         "story_heat": 0.0
       },
       "category": "official",
@@ -479,90 +390,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
-      }
-    },
-    {
-      "story_id": "story_94cad6318b8f",
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "primary_url": "https://huggingface.co/blog/allenai/benchmirt",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "5809e369bec3fc7f3e3b41703ff07040bdd5bbe0",
-          "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-          "title_zh": null,
-          "title_en": "BenchMIRT: What are LLM benchmarks actually measuring?",
-          "title_original": "BenchMIRT: What are LLM benchmarks actually measuring?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/allenai/benchmirt",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T21:39:07Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "5809e369bec3fc7f3e3b41703ff07040bdd5bbe0",
-          "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-          "title_zh": null,
-          "title_en": "BenchMIRT: What are LLM benchmarks actually measuring?",
-          "title_original": "BenchMIRT: What are LLM benchmarks actually measuring?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/allenai/benchmirt",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T21:39:07Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8415,
-      "importance": 0.8415,
-      "importance_score": 0.8415,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.8418,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T21:39:07Z",
-      "latest_at": "2026-09-01T21:39:07Z",
-      "primary_item": {
-        "id": "5809e369bec3fc7f3e3b41703ff07040bdd5bbe0",
-        "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-        "title_zh": null,
-        "title_en": "BenchMIRT: What are LLM benchmarks actually measuring?",
-        "title_original": "BenchMIRT: What are LLM benchmarks actually measuring?",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://huggingface.co/blog/allenai/benchmirt",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
@@ -610,15 +438,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8338,
-      "importance": 0.8338,
-      "importance_score": 0.8338,
+      "score": 0.8228,
+      "importance": 0.8228,
+      "importance_score": 0.8228,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8989,
+        "recency": 0.8378,
         "story_heat": 0.0
       },
       "category": "official",
@@ -645,7 +473,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
@@ -722,15 +550,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8287,
-      "importance": 0.8287,
-      "importance_score": 0.8287,
+      "score": 0.8192,
+      "importance": 0.8192,
+      "importance_score": 0.8192,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7758,
+        "recency": 0.7231,
         "story_heat": 0.25
       },
       "category": "official",
@@ -758,7 +586,120 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
+      }
+    },
+    {
+      "story_id": "story_fcd18d4270a0",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+      "primary_url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+      "source": "Simon Willison",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "1c383c224eb01e8fb0caed22755500225b29649c",
+          "title": "Claude Fable 5.1 made me a really nice animated pelican",
+          "title_zh": null,
+          "title_en": "Claude Fable 5.1 made me a really nice animated pelican",
+          "title_original": "Claude Fable 5.1 made me a really nice animated pelican",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+          "source": "Simon Willison",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T23:57:28Z"
+        },
+        {
+          "id": "75bc049856cbd0c98f3a10c1a849b0a2e40e9837",
+          "title": "Claude Fable 5.1 made me a nice animated pelican",
+          "title_zh": null,
+          "title_en": "Claude Fable 5.1 made me a nice animated pelican",
+          "title_original": "Claude Fable 5.1 made me a nice animated pelican",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-02T01:05:52Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "Simon Willison"
+      ],
+      "items": [
+        {
+          "id": "1c383c224eb01e8fb0caed22755500225b29649c",
+          "title": "Claude Fable 5.1 made me a really nice animated pelican",
+          "title_zh": null,
+          "title_en": "Claude Fable 5.1 made me a really nice animated pelican",
+          "title_original": "Claude Fable 5.1 made me a really nice animated pelican",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+          "source": "Simon Willison",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T23:57:28Z"
+        },
+        {
+          "id": "75bc049856cbd0c98f3a10c1a849b0a2e40e9837",
+          "title": "Claude Fable 5.1 made me a nice animated pelican",
+          "title_zh": null,
+          "title_en": "Claude Fable 5.1 made me a nice animated pelican",
+          "title_original": "Claude Fable 5.1 made me a nice animated pelican",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-02T01:05:52Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.843,
+      "importance": 0.843,
+      "importance_score": 0.843,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8112,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T23:57:28Z",
+      "latest_at": "2026-09-02T01:05:52Z",
+      "primary_item": {
+        "id": "1c383c224eb01e8fb0caed22755500225b29649c",
+        "title": "Claude Fable 5.1 made me a really nice animated pelican",
+        "title_zh": null,
+        "title_en": "Claude Fable 5.1 made me a really nice animated pelican",
+        "title_original": "Claude Fable 5.1 made me a really nice animated pelican",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+        "source": "Simon Willison",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
@@ -806,15 +747,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8187,
-      "importance": 0.8187,
-      "importance_score": 0.8187,
+      "score": 0.8088,
+      "importance": 0.8088,
+      "importance_score": 0.8088,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8153,
+        "recency": 0.7599,
         "story_heat": 0.0
       },
       "category": "official",
@@ -841,7 +782,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
@@ -889,15 +830,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.814,
-      "importance": 0.814,
-      "importance_score": 0.814,
+      "score": 0.8043,
+      "importance": 0.8043,
+      "importance_score": 0.8043,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7888,
+        "recency": 0.7352,
         "story_heat": 0.0
       },
       "category": "official",
@@ -924,7 +865,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
@@ -972,15 +913,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8136,
-      "importance": 0.8136,
-      "importance_score": 0.8136,
+      "score": 0.8043,
+      "importance": 0.8043,
+      "importance_score": 0.8043,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.93,
-        "recency": 0.7647,
+        "recency": 0.7128,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1007,173 +948,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
-      }
-    },
-    {
-      "story_id": "story_842216100d96",
-      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "d4b637ff3e090a5f1708d7d65d68680df846162b",
-          "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-          "title_zh": null,
-          "title_en": "Enterprise Live Migrations from GHES to ghe.com generally available",
-          "title_original": "Enterprise Live Migrations from GHES to ghe.com generally available",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T22:24:27Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "d4b637ff3e090a5f1708d7d65d68680df846162b",
-          "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-          "title_zh": null,
-          "title_en": "Enterprise Live Migrations from GHES to ghe.com generally available",
-          "title_original": "Enterprise Live Migrations from GHES to ghe.com generally available",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T22:24:27Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8172,
-      "importance": 0.8172,
-      "importance_score": 0.8172,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8511,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T22:24:27Z",
-      "latest_at": "2026-09-01T22:24:27Z",
-      "primary_item": {
-        "id": "d4b637ff3e090a5f1708d7d65d68680df846162b",
-        "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-        "title_zh": null,
-        "title_en": "Enterprise Live Migrations from GHES to ghe.com generally available",
-        "title_original": "Enterprise Live Migrations from GHES to ghe.com generally available",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
-      }
-    },
-    {
-      "story_id": "story_1f1d3baf363f",
-      "title": "datasette-mcp 0.2",
-      "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
-      "primary_url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
-      "source": "Simon Willison",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
-          "title": "datasette-mcp 0.2",
-          "title_zh": null,
-          "title_en": "datasette-mcp 0.2",
-          "title_original": "datasette-mcp 0.2",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
-          "source": "Simon Willison",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T15:30:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Simon Willison"
-      ],
-      "items": [
-        {
-          "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
-          "title": "datasette-mcp 0.2",
-          "title_zh": null,
-          "title_en": "datasette-mcp 0.2",
-          "title_original": "datasette-mcp 0.2",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
-          "source": "Simon Willison",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T15:30:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8167,
-      "importance": 0.8167,
-      "importance_score": 0.8167,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.94,
-        "recency": 0.7703,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T15:30:12Z",
-      "latest_at": "2026-09-01T15:30:12Z",
-      "primary_item": {
-        "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
-        "title": "datasette-mcp 0.2",
-        "title_zh": null,
-        "title_en": "datasette-mcp 0.2",
-        "title_original": "datasette-mcp 0.2",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
-        "source": "Simon Willison",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
@@ -1221,15 +996,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8137,
-      "importance": 0.8137,
-      "importance_score": 0.8137,
+      "score": 0.8041,
+      "importance": 0.8041,
+      "importance_score": 0.8041,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7871,
+        "recency": 0.7336,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1256,311 +1031,63 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
-      "story_id": "story_8fd24e2f72d6",
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-      "primary_url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-      "source": "Google AI Blog",
+      "story_id": "story_94cad6318b8f",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "primary_url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
-          "title": "The latest AI news we announced in August 2026",
+          "id": "5809e369bec3fc7f3e3b41703ff07040bdd5bbe0",
+          "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
           "title_zh": null,
-          "title_en": "The latest AI news we announced in August 2026",
-          "title_original": "The latest AI news we announced in August 2026",
+          "title_en": "BenchMIRT: What are LLM benchmarks actually measuring?",
+          "title_original": "BenchMIRT: What are LLM benchmarks actually measuring?",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-          "source": "Google AI Blog",
+          "url": "https://huggingface.co/blog/allenai/benchmirt",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-01T20:45:00Z"
+          "published_at": "2026-09-01T21:39:07Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Google AI Blog"
+        "Hugging Face Blog"
       ],
       "items": [
         {
-          "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
-          "title": "The latest AI news we announced in August 2026",
+          "id": "5809e369bec3fc7f3e3b41703ff07040bdd5bbe0",
+          "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
           "title_zh": null,
-          "title_en": "The latest AI news we announced in August 2026",
-          "title_original": "The latest AI news we announced in August 2026",
+          "title_en": "BenchMIRT: What are LLM benchmarks actually measuring?",
+          "title_original": "BenchMIRT: What are LLM benchmarks actually measuring?",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-          "source": "Google AI Blog",
+          "url": "https://huggingface.co/blog/allenai/benchmirt",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-01T20:45:00Z"
+          "published_at": "2026-09-01T21:39:07Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8136,
-      "importance": 0.8136,
-      "importance_score": 0.8136,
+      "score": 0.8312,
+      "importance": 0.8312,
+      "importance_score": 0.8312,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8309,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T20:45:00Z",
-      "latest_at": "2026-09-01T20:45:00Z",
-      "primary_item": {
-        "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
-        "title": "The latest AI news we announced in August 2026",
-        "title_zh": null,
-        "title_en": "The latest AI news we announced in August 2026",
-        "title_original": "The latest AI news we announced in August 2026",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-        "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
-      }
-    },
-    {
-      "story_id": "story_8f32926c4820",
-      "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-      "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-      "primary_url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-      "source": "NVIDIA Developer Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e1f03eac7af911f3029eb07fd9038a2534c99bf0",
-          "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-          "title_zh": null,
-          "title_en": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-          "title_original": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-          "source": "NVIDIA Developer Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T17:00:04Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "NVIDIA Developer Blog"
-      ],
-      "items": [
-        {
-          "id": "e1f03eac7af911f3029eb07fd9038a2534c99bf0",
-          "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-          "title_zh": null,
-          "title_en": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-          "title_original": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-          "source": "NVIDIA Developer Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T17:00:04Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8117,
-      "importance": 0.8117,
-      "importance_score": 0.8117,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.9,
-        "recency": 0.7871,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T17:00:04Z",
-      "latest_at": "2026-09-01T17:00:04Z",
-      "primary_item": {
-        "id": "e1f03eac7af911f3029eb07fd9038a2534c99bf0",
-        "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-        "title_zh": null,
-        "title_en": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-        "title_original": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-        "source": "NVIDIA Developer Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
-      }
-    },
-    {
-      "story_id": "story_d86cdd886cee",
-      "title": "Nvidia 接近以 129 亿美元收购 Hugging Face / Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-      "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "51993ab8eed7967ab126592d4b53090b364c16cf",
-          "title": "Nvidia 接近以 129 亿美元收购 Hugging Face / Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-          "title_zh": "Nvidia 接近以 129 亿美元收购 Hugging Face",
-          "title_en": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-          "title_original": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-          "summary": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-02T02:26:22Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "items": [
-        {
-          "id": "51993ab8eed7967ab126592d4b53090b364c16cf",
-          "title": "Nvidia 接近以 129 亿美元收购 Hugging Face / Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-          "title_zh": "Nvidia 接近以 129 亿美元收购 Hugging Face",
-          "title_en": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-          "title_original": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-          "summary": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-02T02:26:22Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.78,
-      "importance": 0.78,
-      "importance_score": 0.78,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9021,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-02T02:26:22Z",
-      "latest_at": "2026-09-02T02:26:22Z",
-      "primary_item": {
-        "id": "51993ab8eed7967ab126592d4b53090b364c16cf",
-        "title": "Nvidia 接近以 129 亿美元收购 Hugging Face / Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-        "title_zh": "Nvidia 接近以 129 亿美元收购 Hugging Face",
-        "title_en": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-        "title_original": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
-        "summary": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
-      }
-    },
-    {
-      "story_id": "story_f16937c84c3d",
-      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-      "url": "https://www.latent.space/p/pr-not-welcome",
-      "primary_url": "https://www.latent.space/p/pr-not-welcome",
-      "source": "Latent Space",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
-          "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "title_zh": null,
-          "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/pr-not-welcome",
-          "source": "Latent Space",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T16:17:15Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Latent Space"
-      ],
-      "items": [
-        {
-          "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
-          "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "title_zh": null,
-          "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/pr-not-welcome",
-          "source": "Latent Space",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T16:17:15Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8042,
-      "importance": 0.8042,
-      "importance_score": 0.8042,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7791,
+        "recency": 0.7846,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1569,107 +1096,25 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T16:17:15Z",
-      "latest_at": "2026-09-01T16:17:15Z",
+      "earliest_at": "2026-09-01T21:39:07Z",
+      "latest_at": "2026-09-01T21:39:07Z",
       "primary_item": {
-        "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
-        "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "id": "5809e369bec3fc7f3e3b41703ff07040bdd5bbe0",
+        "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
         "title_zh": null,
-        "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-        "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "title_en": "BenchMIRT: What are LLM benchmarks actually measuring?",
+        "title_original": "BenchMIRT: What are LLM benchmarks actually measuring?",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.latent.space/p/pr-not-welcome",
-        "source": "Latent Space",
+        "url": "https://huggingface.co/blog/allenai/benchmirt",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
-      }
-    },
-    {
-      "story_id": "story_6fd44e495457",
-      "title": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-      "url": "https://www.aibase.com/news/30779",
-      "primary_url": "https://www.aibase.com/news/30779",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "1090d2832b72c2b67de772821ba4f0d94b119380",
-          "title": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-          "title_zh": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-          "title_en": null,
-          "title_original": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30779",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-02T09:34:33.437852Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "1090d2832b72c2b67de772821ba4f0d94b119380",
-          "title": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-          "title_zh": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-          "title_en": null,
-          "title_original": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30779",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-02T09:34:33.437852Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-02T09:34:33.437852Z",
-      "latest_at": "2026-09-02T09:34:33.437852Z",
-      "primary_item": {
-        "id": "1090d2832b72c2b67de772821ba4f0d94b119380",
-        "title": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-        "title_zh": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-        "title_en": null,
-        "title_original": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30779",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
@@ -1717,15 +1162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8166,
-      "importance": 0.8166,
-      "importance_score": 0.8166,
+      "score": 0.8074,
+      "importance": 0.8074,
+      "importance_score": 0.8074,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7591,
+        "recency": 0.7075,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1752,63 +1197,229 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     },
     {
-      "story_id": "story_392cc5c32bd1",
-      "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20% / Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-      "url": "https://x.com/ArtificialAnlys/status/2094881171066978525",
-      "primary_url": "https://x.com/ArtificialAnlys/status/2094881171066978525",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "source_name": "AI HOT",
+      "story_id": "story_8fd24e2f72d6",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+      "primary_url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "209ff39986b35842ffbee982c003f215f2da4ae3",
-          "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20% / Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-          "title_zh": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
-          "title_en": "Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-          "title_original": "Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-          "summary": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
+          "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
+          "title": "The latest AI news we announced in August 2026",
+          "title_zh": null,
+          "title_en": "The latest AI news we announced in August 2026",
+          "title_original": "The latest AI news we announced in August 2026",
+          "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://x.com/ArtificialAnlys/status/2094881171066978525",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-01T20:12:46Z"
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T20:45:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Artificial Analysis (@ArtificialAnlys)"
+        "Google AI Blog"
       ],
       "items": [
         {
-          "id": "209ff39986b35842ffbee982c003f215f2da4ae3",
-          "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20% / Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-          "title_zh": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
-          "title_en": "Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-          "title_original": "Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-          "summary": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
+          "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
+          "title": "The latest AI news we announced in August 2026",
+          "title_zh": null,
+          "title_en": "The latest AI news we announced in August 2026",
+          "title_original": "The latest AI news we announced in August 2026",
+          "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://x.com/ArtificialAnlys/status/2094881171066978525",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-01T20:12:46Z"
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T20:45:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.754,
-      "importance": 0.754,
-      "importance_score": 0.754,
+      "score": 0.8034,
+      "importance": 0.8034,
+      "importance_score": 0.8034,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7745,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T20:45:00Z",
+      "latest_at": "2026-09-01T20:45:00Z",
+      "primary_item": {
+        "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
+        "title": "The latest AI news we announced in August 2026",
+        "title_zh": null,
+        "title_en": "The latest AI news we announced in August 2026",
+        "title_original": "The latest AI news we announced in August 2026",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T15:20:29.841557Z"
+      }
+    },
+    {
+      "story_id": "story_8f32926c4820",
+      "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+      "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
+      "primary_url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
+      "source": "NVIDIA Developer Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e1f03eac7af911f3029eb07fd9038a2534c99bf0",
+          "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+          "title_zh": null,
+          "title_en": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+          "title_original": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
+          "source": "NVIDIA Developer Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T17:00:04Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Developer Blog"
+      ],
+      "items": [
+        {
+          "id": "e1f03eac7af911f3029eb07fd9038a2534c99bf0",
+          "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+          "title_zh": null,
+          "title_en": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+          "title_original": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
+          "source": "NVIDIA Developer Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T17:00:04Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8021,
+      "importance": 0.8021,
+      "importance_score": 0.8021,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.9,
+        "recency": 0.7336,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T17:00:04Z",
+      "latest_at": "2026-09-01T17:00:04Z",
+      "primary_item": {
+        "id": "e1f03eac7af911f3029eb07fd9038a2534c99bf0",
+        "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+        "title_zh": null,
+        "title_en": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+        "title_original": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
+        "source": "NVIDIA Developer Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T15:20:29.841557Z"
+      }
+    },
+    {
+      "story_id": "story_d86cdd886cee",
+      "title": "Nvidia 接近以 129 亿美元收购 Hugging Face / Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+      "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "51993ab8eed7967ab126592d4b53090b364c16cf",
+          "title": "Nvidia 接近以 129 亿美元收购 Hugging Face / Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+          "title_zh": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+          "title_en": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+          "title_original": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+          "summary": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-02T02:26:22Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "51993ab8eed7967ab126592d4b53090b364c16cf",
+          "title": "Nvidia 接近以 129 亿美元收购 Hugging Face / Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+          "title_zh": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+          "title_en": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+          "title_original": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+          "summary": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-02T02:26:22Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7689,
+      "importance": 0.7689,
+      "importance_score": 0.7689,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.78,
+        "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8245,
+        "recency": 0.8408,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1816,25 +1427,356 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T20:12:46Z",
-      "latest_at": "2026-09-01T20:12:46Z",
+      "earliest_at": "2026-09-02T02:26:22Z",
+      "latest_at": "2026-09-02T02:26:22Z",
       "primary_item": {
-        "id": "209ff39986b35842ffbee982c003f215f2da4ae3",
-        "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20% / Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-        "title_zh": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
-        "title_en": "Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-        "title_original": "Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fa…",
-        "summary": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
+        "id": "51993ab8eed7967ab126592d4b53090b364c16cf",
+        "title": "Nvidia 接近以 129 亿美元收购 Hugging Face / Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+        "title_zh": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+        "title_en": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+        "title_original": "Bloomberg： Nvidia is nearing a $12.9B Hugging Face acquisition. At this price， its about 2.9x Hugg…",
+        "summary": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
         "recommend_reason_zh": null,
-        "url": "https://x.com/ArtificialAnlys/status/2094881171066978525",
-        "source": "X：Artificial Analysis (@ArtificialAnlys)",
+        "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T10:20:19.385209Z"
+        "scored_at": "2026-09-02T15:20:29.841557Z"
+      }
+    },
+    {
+      "story_id": "story_9154b7af34e8",
+      "title": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+      "url": "https://www.aibase.com/news/30783",
+      "primary_url": "https://www.aibase.com/news/30783",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "60ef2462f83ed2207b2905df16768b5646e8a18c",
+          "title": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+          "title_zh": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+          "title_en": null,
+          "title_original": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30783",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-02T14:26:57.867331Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "60ef2462f83ed2207b2905df16768b5646e8a18c",
+          "title": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+          "title_zh": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+          "title_en": null,
+          "title_original": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30783",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-02T14:26:57.867331Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-02T14:26:57.867331Z",
+      "latest_at": "2026-09-02T14:26:57.867331Z",
+      "primary_item": {
+        "id": "60ef2462f83ed2207b2905df16768b5646e8a18c",
+        "title": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+        "title_zh": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+        "title_en": null,
+        "title_original": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30783",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T15:20:29.841557Z"
+      }
+    },
+    {
+      "story_id": "story_f16937c84c3d",
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "url": "https://www.latent.space/p/pr-not-welcome",
+      "primary_url": "https://www.latent.space/p/pr-not-welcome",
+      "source": "Latent Space",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
+          "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "title_zh": null,
+          "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/pr-not-welcome",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T16:17:15Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Latent Space"
+      ],
+      "items": [
+        {
+          "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
+          "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "title_zh": null,
+          "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/pr-not-welcome",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T16:17:15Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7947,
+      "importance": 0.7947,
+      "importance_score": 0.7947,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7261,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T16:17:15Z",
+      "latest_at": "2026-09-01T16:17:15Z",
+      "primary_item": {
+        "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
+        "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "title_zh": null,
+        "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.latent.space/p/pr-not-welcome",
+        "source": "Latent Space",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T15:20:29.841557Z"
+      }
+    },
+    {
+      "story_id": "story_1f1d3baf363f",
+      "title": "datasette-mcp 0.2",
+      "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+      "primary_url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+      "source": "Simon Willison",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
+          "title": "datasette-mcp 0.2",
+          "title_zh": null,
+          "title_en": "datasette-mcp 0.2",
+          "title_original": "datasette-mcp 0.2",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+          "source": "Simon Willison",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T15:30:12Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Simon Willison"
+      ],
+      "items": [
+        {
+          "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
+          "title": "datasette-mcp 0.2",
+          "title_zh": null,
+          "title_en": "datasette-mcp 0.2",
+          "title_original": "datasette-mcp 0.2",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+          "source": "Simon Willison",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T15:30:12Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8072,
+      "importance": 0.8072,
+      "importance_score": 0.8072,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.94,
+        "recency": 0.718,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T15:30:12Z",
+      "latest_at": "2026-09-01T15:30:12Z",
+      "primary_item": {
+        "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
+        "title": "datasette-mcp 0.2",
+        "title_zh": null,
+        "title_en": "datasette-mcp 0.2",
+        "title_original": "datasette-mcp 0.2",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+        "source": "Simon Willison",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T15:20:29.841557Z"
+      }
+    },
+    {
+      "story_id": "story_842216100d96",
+      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d4b637ff3e090a5f1708d7d65d68680df846162b",
+          "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+          "title_zh": null,
+          "title_en": "Enterprise Live Migrations from GHES to ghe.com generally available",
+          "title_original": "Enterprise Live Migrations from GHES to ghe.com generally available",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T22:24:27Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "d4b637ff3e090a5f1708d7d65d68680df846162b",
+          "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+          "title_zh": null,
+          "title_en": "Enterprise Live Migrations from GHES to ghe.com generally available",
+          "title_original": "Enterprise Live Migrations from GHES to ghe.com generally available",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T22:24:27Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8068,
+      "importance": 0.8068,
+      "importance_score": 0.8068,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7932,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T22:24:27Z",
+      "latest_at": "2026-09-01T22:24:27Z",
+      "primary_item": {
+        "id": "d4b637ff3e090a5f1708d7d65d68680df846162b",
+        "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+        "title_zh": null,
+        "title_en": "Enterprise Live Migrations from GHES to ghe.com generally available",
+        "title_original": "Enterprise Live Migrations from GHES to ghe.com generally available",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T15:20:29.841557Z"
       }
     }
   ]
