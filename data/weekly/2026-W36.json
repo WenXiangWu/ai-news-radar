@@ -18,7 +18,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T03:33:48.237000+00:00",
       "source_count": 3,
-      "score": 91,
+      "score": 90,
       "official": true,
       "topics": [
         "anthropic",
@@ -34,11 +34,26 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T03:13:14.351000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai",
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T07:46:08+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -50,41 +65,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T01:05:52+00:00",
       "source_count": 2,
-      "score": 87,
+      "score": 85,
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T02:11:30+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T21:39:07+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource",
-        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -106,16 +90,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
-      "source": "Google AI Blog",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T16:00:00+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-01T21:39:07+00:00",
+      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "google"
+        "opensource",
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -166,45 +151,31 @@
       "label": "官方更新"
     },
     {
-      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-      "source": "GitHub Changelog",
+      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T22:24:27+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot code review can now approve pull requests",
-      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T19:25:57+00:00",
+      "published_at": "2026-09-02T02:11:30+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "coding"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
-      "source": "GitHub Changelog",
+      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T14:29:23+00:00",
-      "source_count": 1,
+      "published_at": "2026-09-01T16:00:00+00:00",
+      "source_count": 2,
       "score": 83,
       "official": true,
       "topics": [
-        "anthropic",
-        "coding"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -289,26 +260,11 @@
       "label": "官方更新"
     },
     {
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T20:45:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Set an expiration date for individual user budgets",
-      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T20:23:13+00:00",
+      "published_at": "2026-09-01T22:24:27+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -317,102 +273,61 @@
       "label": "官方更新"
     },
     {
-      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
-      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:08:51+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-      "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:00:04+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How AI-native companies turn workflows into operating capability",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Block users from discussion comments in personal repositories",
-      "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
+      "title": "Copilot code review can now approve pull requests",
+      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T16:30:01+00:00",
+      "published_at": "2026-09-01T19:25:57+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-      "url": "https://www.latent.space/p/pr-not-welcome",
+      "title": "datasette-mcp 0.2",
+      "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T15:30:12+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "mcp"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T14:29:23+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
       "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T16:17:15+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
-      "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T15:00:00+00:00",
+      "published_at": "2026-09-01T04:36:54+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T12:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -519,15 +434,102 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub CLI: Media in issues, pull requests, and comments",
-      "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T20:45:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Set an expiration date for individual user budgets",
+      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T12:35:59+00:00",
+      "published_at": "2026-09-01T20:23:13+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T17:08:51+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+      "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T17:00:04+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T17:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
+      "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T15:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T12:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -603,6 +605,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-02T05:09:18.194872+00:00",
+  "generated_at": "2026-09-02T10:20:18.975525+00:00",
   "period": "2026-W36"
 }

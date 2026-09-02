@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:27:46.597829Z",
+  "generated_at": "2026-09-02T09:34:33.437852Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -106,15 +106,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.9087,
-      "importance": 0.9087,
-      "importance_score": 0.9087,
+      "score": 0.896,
+      "importance": 0.896,
+      "importance_score": 0.896,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.87,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9871,
+        "recency": 0.9168,
         "story_heat": 0.5
       },
       "category": "official",
@@ -141,7 +141,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -247,15 +247,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.866,
-      "importance": 0.866,
-      "importance_score": 0.866,
+      "score": 0.8557,
+      "importance": 0.8557,
+      "importance_score": 0.8557,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7999,
+        "recency": 0.7429,
         "story_heat": 0.5
       },
       "category": "official",
@@ -283,7 +283,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -360,15 +360,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8657,
-      "importance": 0.8657,
-      "importance_score": 0.8657,
+      "score": 0.8537,
+      "importance": 0.8537,
+      "importance_score": 0.8537,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.937,
+        "recency": 0.8703,
         "story_heat": 0.25
       },
       "category": "official",
@@ -396,7 +396,90 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
+      }
+    },
+    {
+      "story_id": "story_8413ea549cf1",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "primary_url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "source": "Latent Space",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "a94d718f752fddb950de5f54a14ff79d9376a54d",
+          "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+          "title_zh": null,
+          "title_en": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+          "title_original": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-02T07:46:08Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Latent Space"
+      ],
+      "items": [
+        {
+          "id": "a94d718f752fddb950de5f54a14ff79d9376a54d",
+          "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+          "title_zh": null,
+          "title_en": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+          "title_original": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-02T07:46:08Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8474,
+      "importance": 0.8474,
+      "importance_score": 0.8474,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9742,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-02T07:46:08Z",
+      "latest_at": "2026-09-02T07:46:08Z",
+      "primary_item": {
+        "id": "a94d718f752fddb950de5f54a14ff79d9376a54d",
+        "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+        "title_zh": null,
+        "title_en": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+        "title_original": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+        "source": "Latent Space",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -444,15 +527,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8531,
-      "importance": 0.8531,
-      "importance_score": 0.8531,
+      "score": 0.8415,
+      "importance": 0.8415,
+      "importance_score": 0.8415,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9063,
+        "recency": 0.8418,
         "story_heat": 0.0
       },
       "category": "official",
@@ -479,7 +562,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -527,15 +610,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8462,
-      "importance": 0.8462,
-      "importance_score": 0.8462,
+      "score": 0.8338,
+      "importance": 0.8338,
+      "importance_score": 0.8338,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9677,
+        "recency": 0.8989,
         "story_heat": 0.0
       },
       "category": "official",
@@ -562,7 +645,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -639,15 +722,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8394,
-      "importance": 0.8394,
-      "importance_score": 0.8394,
+      "score": 0.8287,
+      "importance": 0.8287,
+      "importance_score": 0.8287,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8353,
+        "recency": 0.7758,
         "story_heat": 0.25
       },
       "category": "official",
@@ -675,7 +758,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -723,15 +806,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.83,
-      "importance": 0.83,
-      "importance_score": 0.83,
+      "score": 0.8187,
+      "importance": 0.8187,
+      "importance_score": 0.8187,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8777,
+        "recency": 0.8153,
         "story_heat": 0.0
       },
       "category": "official",
@@ -758,7 +841,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -806,15 +889,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8249,
-      "importance": 0.8249,
-      "importance_score": 0.8249,
+      "score": 0.814,
+      "importance": 0.814,
+      "importance_score": 0.814,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8493,
+        "recency": 0.7888,
         "story_heat": 0.0
       },
       "category": "official",
@@ -841,7 +924,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -889,15 +972,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8242,
-      "importance": 0.8242,
-      "importance_score": 0.8242,
+      "score": 0.8136,
+      "importance": 0.8136,
+      "importance_score": 0.8136,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.93,
-        "recency": 0.8233,
+        "recency": 0.7647,
         "story_heat": 0.0
       },
       "category": "official",
@@ -924,90 +1007,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
-      }
-    },
-    {
-      "story_id": "story_f16937c84c3d",
-      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-      "url": "https://www.latent.space/p/pr-not-welcome",
-      "primary_url": "https://www.latent.space/p/pr-not-welcome",
-      "source": "Latent Space",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
-          "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "title_zh": null,
-          "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/pr-not-welcome",
-          "source": "Latent Space",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T16:17:15Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Latent Space"
-      ],
-      "items": [
-        {
-          "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
-          "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "title_zh": null,
-          "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/pr-not-welcome",
-          "source": "Latent Space",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T16:17:15Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.815,
-      "importance": 0.815,
-      "importance_score": 0.815,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8388,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T16:17:15Z",
-      "latest_at": "2026-09-01T16:17:15Z",
-      "primary_item": {
-        "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
-        "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-        "title_zh": null,
-        "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-        "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.latent.space/p/pr-not-welcome",
-        "source": "Latent Space",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -1055,15 +1055,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8289,
-      "importance": 0.8289,
-      "importance_score": 0.8289,
+      "score": 0.8172,
+      "importance": 0.8172,
+      "importance_score": 0.8172,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9163,
+        "recency": 0.8511,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1090,63 +1090,63 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
-      "story_id": "story_8fd24e2f72d6",
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-      "primary_url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-      "source": "Google AI Blog",
+      "story_id": "story_1f1d3baf363f",
+      "title": "datasette-mcp 0.2",
+      "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+      "primary_url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+      "source": "Simon Willison",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
-          "title": "The latest AI news we announced in August 2026",
+          "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
+          "title": "datasette-mcp 0.2",
           "title_zh": null,
-          "title_en": "The latest AI news we announced in August 2026",
-          "title_original": "The latest AI news we announced in August 2026",
+          "title_en": "datasette-mcp 0.2",
+          "title_original": "datasette-mcp 0.2",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-          "source": "Google AI Blog",
+          "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+          "source": "Simon Willison",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-01T20:45:00Z"
+          "published_at": "2026-09-01T15:30:12Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Google AI Blog"
+        "Simon Willison"
       ],
       "items": [
         {
-          "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
-          "title": "The latest AI news we announced in August 2026",
+          "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
+          "title": "datasette-mcp 0.2",
           "title_zh": null,
-          "title_en": "The latest AI news we announced in August 2026",
-          "title_original": "The latest AI news we announced in August 2026",
+          "title_en": "datasette-mcp 0.2",
+          "title_original": "datasette-mcp 0.2",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-          "source": "Google AI Blog",
+          "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+          "source": "Simon Willison",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-01T20:45:00Z"
+          "published_at": "2026-09-01T15:30:12Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.825,
-      "importance": 0.825,
-      "importance_score": 0.825,
+      "score": 0.8167,
+      "importance": 0.8167,
+      "importance_score": 0.8167,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8946,
+        "ai_relevance": 0.94,
+        "recency": 0.7703,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1155,25 +1155,25 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T20:45:00Z",
-      "latest_at": "2026-09-01T20:45:00Z",
+      "earliest_at": "2026-09-01T15:30:12Z",
+      "latest_at": "2026-09-01T15:30:12Z",
       "primary_item": {
-        "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
-        "title": "The latest AI news we announced in August 2026",
+        "id": "5cfa9685d448f20082b9b45d311a58eaf39af735",
+        "title": "datasette-mcp 0.2",
         "title_zh": null,
-        "title_en": "The latest AI news we announced in August 2026",
-        "title_original": "The latest AI news we announced in August 2026",
+        "title_en": "datasette-mcp 0.2",
+        "title_original": "datasette-mcp 0.2",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-        "source": "Google AI Blog",
+        "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
+        "source": "Simon Willison",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -1221,15 +1221,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8245,
-      "importance": 0.8245,
-      "importance_score": 0.8245,
+      "score": 0.8137,
+      "importance": 0.8137,
+      "importance_score": 0.8137,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8474,
+        "recency": 0.7871,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1256,7 +1256,90 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
+      }
+    },
+    {
+      "story_id": "story_8fd24e2f72d6",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+      "primary_url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
+          "title": "The latest AI news we announced in August 2026",
+          "title_zh": null,
+          "title_en": "The latest AI news we announced in August 2026",
+          "title_original": "The latest AI news we announced in August 2026",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T20:45:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
+          "title": "The latest AI news we announced in August 2026",
+          "title_zh": null,
+          "title_en": "The latest AI news we announced in August 2026",
+          "title_original": "The latest AI news we announced in August 2026",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T20:45:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8136,
+      "importance": 0.8136,
+      "importance_score": 0.8136,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8309,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T20:45:00Z",
+      "latest_at": "2026-09-01T20:45:00Z",
+      "primary_item": {
+        "id": "8c3ae7bc3606eddee7d89d3e842175c6be7981c1",
+        "title": "The latest AI news we announced in August 2026",
+        "title_zh": null,
+        "title_en": "The latest AI news we announced in August 2026",
+        "title_original": "The latest AI news we announced in August 2026",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -1304,15 +1387,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8225,
-      "importance": 0.8225,
-      "importance_score": 0.8225,
+      "score": 0.8117,
+      "importance": 0.8117,
+      "importance_score": 0.8117,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 0.8475,
+        "recency": 0.7871,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1339,7 +1422,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -1387,15 +1470,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7924,
-      "importance": 0.7924,
-      "importance_score": 0.7924,
+      "score": 0.78,
+      "importance": 0.78,
+      "importance_score": 0.78,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9712,
+        "recency": 0.9021,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1421,30 +1504,113 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
-      "story_id": "story_9235b0b9bda1",
-      "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
-      "url": "https://www.aibase.com/news/30767",
-      "primary_url": "https://www.aibase.com/news/30767",
+      "story_id": "story_f16937c84c3d",
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "url": "https://www.latent.space/p/pr-not-welcome",
+      "primary_url": "https://www.latent.space/p/pr-not-welcome",
+      "source": "Latent Space",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
+          "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "title_zh": null,
+          "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/pr-not-welcome",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T16:17:15Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Latent Space"
+      ],
+      "items": [
+        {
+          "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
+          "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "title_zh": null,
+          "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/pr-not-welcome",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-01T16:17:15Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8042,
+      "importance": 0.8042,
+      "importance_score": 0.8042,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7791,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T16:17:15Z",
+      "latest_at": "2026-09-01T16:17:15Z",
+      "primary_item": {
+        "id": "457c4b1312bd975452ee1a6259896c3b497bc8b6",
+        "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "title_zh": null,
+        "title_en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "title_original": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.latent.space/p/pr-not-welcome",
+        "source": "Latent Space",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-02T10:20:19.385209Z"
+      }
+    },
+    {
+      "story_id": "story_6fd44e495457",
+      "title": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
+      "url": "https://www.aibase.com/news/30779",
+      "primary_url": "https://www.aibase.com/news/30779",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "cfeb69d1071fa4c018fd94fe73ca802dafb80a87",
-          "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
-          "title_zh": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+          "id": "1090d2832b72c2b67de772821ba4f0d94b119380",
+          "title": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
+          "title_zh": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
           "title_en": null,
-          "title_original": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+          "title_original": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30767",
+          "url": "https://www.aibase.com/news/30779",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-02T04:27:46.597829Z"
+          "published_at": "2026-09-02T09:34:33.437852Z"
         }
       ],
       "source_count": 1,
@@ -1453,18 +1619,18 @@
       ],
       "items": [
         {
-          "id": "cfeb69d1071fa4c018fd94fe73ca802dafb80a87",
-          "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
-          "title_zh": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+          "id": "1090d2832b72c2b67de772821ba4f0d94b119380",
+          "title": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
+          "title_zh": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
           "title_en": null,
-          "title_original": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+          "title_original": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30767",
+          "url": "https://www.aibase.com/news/30779",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-02T04:27:46.597829Z"
+          "published_at": "2026-09-02T09:34:33.437852Z"
         }
       ],
       "item_count": 1,
@@ -1485,17 +1651,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-02T04:27:46.597829Z",
-      "latest_at": "2026-09-02T04:27:46.597829Z",
+      "earliest_at": "2026-09-02T09:34:33.437852Z",
+      "latest_at": "2026-09-02T09:34:33.437852Z",
       "primary_item": {
-        "id": "cfeb69d1071fa4c018fd94fe73ca802dafb80a87",
-        "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
-        "title_zh": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+        "id": "1090d2832b72c2b67de772821ba4f0d94b119380",
+        "title": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
+        "title_zh": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
         "title_en": null,
-        "title_original": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+        "title_original": "南向资金彻底疯狂：Minimax吸金能力逆天，买入规模超越阿里腾讯",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30767",
+        "url": "https://www.aibase.com/news/30779",
         "source": "AIbase",
         "source_name": "AIbase"
       },
@@ -1503,7 +1669,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -1551,15 +1717,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8271,
-      "importance": 0.8271,
-      "importance_score": 0.8271,
+      "score": 0.8166,
+      "importance": 0.8166,
+      "importance_score": 0.8166,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8173,
+        "recency": 0.7591,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1586,7 +1752,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     },
     {
@@ -1634,15 +1800,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7654,
-      "importance": 0.7654,
-      "importance_score": 0.7654,
+      "score": 0.754,
+      "importance": 0.754,
+      "importance_score": 0.754,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8877,
+        "recency": 0.8245,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1668,173 +1834,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
-      }
-    },
-    {
-      "story_id": "story_d048fe91383f",
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "primary_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "7a67f17ba50439bcdd9c0e031cdf68e41a427274",
-          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "title_zh": null,
-          "title_en": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "title_original": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T12:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "7a67f17ba50439bcdd9c0e031cdf68e41a427274",
-          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "title_zh": null,
-          "title_en": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "title_original": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T12:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8219,
-      "importance": 0.8219,
-      "importance_score": 0.8219,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7884,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T12:00:00Z",
-      "latest_at": "2026-09-01T12:00:00Z",
-      "primary_item": {
-        "id": "7a67f17ba50439bcdd9c0e031cdf68e41a427274",
-        "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-        "title_zh": null,
-        "title_en": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-        "title_original": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
-      }
-    },
-    {
-      "story_id": "story_e445824ddc85",
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-      "primary_url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-      "source": "Latent Space",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "98ee79624ebd25ce70398528aa484908c1763c01",
-          "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-          "title_zh": null,
-          "title_en": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-          "title_original": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-          "source": "Latent Space",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T04:36:54Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Latent Space"
-      ],
-      "items": [
-        {
-          "id": "98ee79624ebd25ce70398528aa484908c1763c01",
-          "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-          "title_zh": null,
-          "title_en": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-          "title_original": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-          "source": "Latent Space",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-01T04:36:54Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7916,
-      "importance": 0.7916,
-      "importance_score": 0.7916,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7087,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T04:36:54Z",
-      "latest_at": "2026-09-01T04:36:54Z",
-      "primary_item": {
-        "id": "98ee79624ebd25ce70398528aa484908c1763c01",
-        "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-        "title_zh": null,
-        "title_en": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-        "title_original": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-        "source": "Latent Space",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-02T05:09:18.689255Z"
+        "scored_at": "2026-09-02T10:20:19.385209Z"
       }
     }
   ]
