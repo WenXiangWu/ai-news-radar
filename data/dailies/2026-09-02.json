@@ -1,28 +1,11 @@
 {
-  "generated_at": "2026-09-01T22:23:59.816101+00:00",
+  "generated_at": "2026-09-02T00:49:44.294784+00:00",
   "date": "2026-09-02",
   "timezone": "Asia/Shanghai",
-  "lead": "BenchMIRT: What are LLM benchmarks actually measuring?；OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布；Google Workspace 推出图像创作编辑工具 Google Pics",
+  "lead": "BenchMIRT: What are LLM benchmarks actually measuring?；Google Workspace 推出图像创作编辑工具 Google Pics；OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
-    {
-      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-      "url": "https://openai.com/index/path-to-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T13:00:00+00:00",
-      "source_count": 2,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 27
-    },
     {
       "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
@@ -37,24 +20,41 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 35
+      "hot_score": 29
     },
     {
-      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
-      "url": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog",
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T00:00:00+00:00",
+      "published_at": "2026-09-01T13:00:00+00:00",
       "source_count": 2,
-      "score": 84,
+      "score": 85,
       "official": true,
       "topics": [
-        "opensource",
+        "openai",
         "launch"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 9
+      "hot_score": 22
+    },
+    {
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-01T23:07:08+00:00",
+      "source_count": 2,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
     }
   ],
   "items": [
@@ -65,27 +65,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T21:39:07+00:00",
       "source_count": 1,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "opensource",
         "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-      "url": "https://openai.com/index/path-to-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T13:00:00+00:00",
-      "source_count": 2,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -106,33 +90,46 @@
       "label": "官方更新"
     },
     {
-      "title": "Copilot code review can now approve pull requests",
-      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-      "source": "GitHub Changelog",
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T19:25:57+00:00",
-      "source_count": 1,
+      "published_at": "2026-09-01T13:00:00+00:00",
+      "source_count": 2,
       "score": 85,
       "official": true,
       "topics": [
-        "coding"
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
-      "url": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T00:00:00+00:00",
-      "source_count": 2,
-      "score": 84,
+      "published_at": "2026-09-01T23:57:28+00:00",
+      "source_count": 1,
+      "score": 85,
       "official": true,
       "topics": [
-        "opensource",
-        "launch"
+        "anthropic"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T22:24:27+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -152,13 +149,28 @@
       "label": "官方更新"
     },
     {
+      "title": "Copilot code review can now approve pull requests",
+      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T19:25:57+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Set an expiration date for individual user budgets",
       "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-09-01T20:23:13+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -171,7 +183,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T17:08:51+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "google"
@@ -186,7 +198,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T17:00:04+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -199,39 +211,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T17:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
-      "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T15:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T12:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
       ],
       "reason": "",
       "label": "官方更新"
@@ -250,13 +233,42 @@
       "label": "官方更新"
     },
     {
+      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
+      "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T15:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
       "url": "https://www.latent.space/p/pr-not-welcome",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-09-01T16:17:15+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -278,23 +290,6 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT for iOS 1.2026.237",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
       "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
       "source": "Latent Space",
@@ -308,50 +303,50 @@
       "label": "官方更新"
     },
     {
-      "title": "Copilot model access update for GitHub Team plans",
-      "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-31T21:58:46+00:00",
+      "title": "Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others",
+      "url": "https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-01T20:40:36+00:00",
       "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-08-31T23:00:05.386000+00:00",
-      "source_count": 1,
-      "score": 79,
+      "score": 64,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "值得关注"
     },
     {
-      "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
-      "url": "https://x.com/AnthropicAI/status/2094577944056430865",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "site_id": "aihot",
-      "published_at": "2026-09-01T00:07:51+00:00",
+      "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-01T20:32:55+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 64,
       "official": true,
       "topics": [
-        "anthropic",
-        "industry"
+        "anthropic"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-01T23:07:08+00:00",
+      "source_count": 2,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
     }
   ]
 }

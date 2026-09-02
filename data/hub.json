@@ -1,9 +1,53 @@
 {
-  "generated_at": "2026-09-01T22:23:59.816101+00:00",
+  "generated_at": "2026-09-02T00:49:44.294784+00:00",
   "today": "2026-09-02",
-  "lead": "BenchMIRT: What are LLM benchmarks actually measuring?；OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布；Google Workspace 推出图像创作编辑工具 Google Pics",
+  "lead": "BenchMIRT: What are LLM benchmarks actually measuring?；Google Workspace 推出图像创作编辑工具 Google Pics；OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://news.ycombinator.com/item?id=49526069",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-01T23:43:55.159000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "Launch HN: Nori Robotics（YC S26）——一款用于开发的低成本类人机器人",
+      "url": "https://www.norirobotics.com",
+      "source": "www.norirobotics.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-01T22:57:16.086000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "苹果在针对OpenAI的诉讼中披露了从前员工MacBook中获取的“令人震惊的证据”",
+      "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence",
+      "source": "9to5mac.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-01T22:25:23.381000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 98
+    },
     {
       "title": "ChatGPT/Codex 应用程序捆绑了 LibreOffice 的完整版本",
       "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice",
@@ -11,7 +55,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-01T21:37:23.427000+00:00",
       "source_count": 3,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
@@ -20,7 +64,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 92
     },
     {
       "title": "《矮人要塞》的创作者表示，游戏行业因人工智能问题而陷入混乱",
@@ -36,51 +80,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 90
-    },
-    {
-      "title": "EFF to Courts: Don't Rewrite Copyright over AI Hype",
-      "url": "https://news.ycombinator.com/item?id=49521315",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-01T14:51:44.456000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 64
-    },
-    {
-      "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
-      "url": "https://news.ycombinator.com/item?id=49527573",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-01T21:45:17.423000+00:00",
-      "source_count": 2,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 57
-    },
-    {
-      "title": "埃德·齐特龙对人工智能持怀疑态度的预测有多准确？",
-      "url": "https://danluu.com/zitron",
-      "source": "danluu.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-01T20:33:16.435000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 74
     }
   ],
   "topics": [
@@ -89,21 +89,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 37
+      "count": 36
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 38
+      "count": 37
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 7
+      "count": 9
     },
     {
       "slug": "deepseek",
@@ -124,14 +124,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 14
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 9
+      "count": 5
     },
     {
       "slug": "mcp",
@@ -145,28 +145,28 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 15
+      "count": 13
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 40
+      "count": 37
     }
   ],
   "days": [
