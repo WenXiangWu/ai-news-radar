@@ -1,80 +1,83 @@
 {
-  "generated_at": "2026-09-02T15:20:29.311043+00:00",
-  "today": "2026-09-02",
-  "lead": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1；Claude's new system prompt really doesn't want to reproduce song lyrics；Real-Time Intelligence with IBM Time Series Models on Confluent",
+  "generated_at": "2026-09-02T19:29:12.198897+00:00",
+  "today": "2026-09-03",
+  "lead": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1；llm-gemini 0.34；Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "大型语言模型（LLM）推理的有效边界",
-      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference",
-      "source": "www.baseten.co",
+      "title": "三个网站共制作了215,128个关于人工智能的“最佳软件”页面。Perplexity引用了这些内容",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations",
+      "source": "trellner.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-02T07:29:52.321000+00:00",
-      "source_count": 3,
-      "score": 55,
+      "published_at": "2026-09-02T15:29:36.290000+00:00",
+      "source_count": 4,
+      "score": 59,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 62
+      "hot_score": 100
     },
     {
-      "title": "Show HN: Weedout——一款可隐藏 YouTube 上带有 AI 标签视频的 Safari 扩展程序",
-      "url": "https://masteranza.github.io/weedout",
-      "source": "masteranza.github.io",
-      "site_id": "buzzing",
-      "published_at": "2026-09-02T06:41:43.659000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 58
-    },
-    {
-      "title": "Check if a file was made with Claude",
-      "url": "https://news.ycombinator.com/item?id=49535201",
+      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "url": "https://news.ycombinator.com/item?id=49536114",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-09-02T14:04:49.362000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "published_at": "2026-09-02T18:39:52.098000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "检查文件是否由Claude生成",
+      "url": "https://claude.com/check-content",
+      "source": "claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-02T17:53:19.500000+00:00",
+      "source_count": 3,
+      "score": 57,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 54
+      "label": "多源热议",
+      "hot_score": 100
     },
     {
-      "title": "LLMs: Intelligence vs. Cost",
-      "url": "https://news.ycombinator.com/item?id=49535586",
+      "title": "Quasar 438B：欧洲领先的人工智能模型",
+      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+      "source": "multiversecomputing.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-02T15:29:36.286000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 86
+    },
+    {
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "url": "https://news.ycombinator.com/item?id=49536411",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-09-02T14:04:49.362000+00:00",
+      "published_at": "2026-09-02T18:39:52.098000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 54
-    },
-    {
-      "title": "Quasar 438B: Europe's Leading AI Model",
-      "url": "https://news.ycombinator.com/item?id=49534132",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-02T14:04:49.362000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 54
+      "hot_score": 56
     }
   ],
   "topics": [
@@ -97,14 +100,14 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 11
+      "count": 21
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "qwen",
@@ -125,28 +128,28 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 9
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 3
+      "count": 1
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 7
+      "count": 6
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 19
+      "count": 22
     },
     {
       "slug": "paper",
@@ -160,10 +163,11 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 37
+      "count": 40
     }
   ],
   "days": [
+    "2026-09-03",
     "2026-09-02",
     "2026-09-01",
     "2026-08-31",
@@ -176,8 +180,7 @@
     "2026-08-24",
     "2026-08-23",
     "2026-08-22",
-    "2026-08-21",
-    "2026-08-20"
+    "2026-08-21"
   ],
   "week": "2026-W36",
   "month": "2026-09"

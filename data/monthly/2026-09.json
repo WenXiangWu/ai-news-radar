@@ -1,24 +1,53 @@
 {
   "title": "2026-09 月报",
   "dates": [
+    "2026-09-03",
     "2026-09-02",
     "2026-09-01"
   ],
   "total_items": 40,
   "items": [
     {
-      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T03:33:48.237000+00:00",
-      "source_count": 3,
-      "score": 88,
+      "title": "llm-gemini 0.34",
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T16:39:38+00:00",
+      "source_count": 1,
+      "score": 85,
       "official": true,
       "topics": [
-        "anthropic",
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T16:18:31+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "google",
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+      "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T16:04:19+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -29,7 +58,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T14:16:42+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "anthropic"
@@ -44,10 +73,56 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T13:49:14+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T03:33:48.237000+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T18:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T15:40:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -59,7 +134,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T07:46:08+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "anthropic"
@@ -74,26 +149,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T01:05:52+00:00",
       "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T21:39:07+00:00",
-      "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "opensource",
-        "paper"
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -116,16 +175,17 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
-      "source": "vLLM Releases",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T02:11:30+00:00",
+      "published_at": "2026-09-01T21:39:07+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "launch"
+        "opensource",
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -159,29 +219,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-      "source": "GitHub Changelog",
+      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T22:24:27+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot code review can now approve pull requests",
-      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T19:25:57+00:00",
+      "published_at": "2026-09-02T02:11:30+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "coding"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -248,6 +295,35 @@
       "label": "官方更新"
     },
     {
+      "title": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T14:35:03+00:00",
+      "source_count": 2,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T22:24:27+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "The latest AI news we announced in August 2026",
       "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
       "source": "Google AI Blog",
@@ -263,15 +339,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Set an expiration date for individual user budgets",
-      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "title": "Copilot code review can now approve pull requests",
+      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T20:23:13+00:00",
+      "published_at": "2026-09-01T19:25:57+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -360,6 +438,19 @@
       "label": "官方更新"
     },
     {
+      "title": "Set an expiration date for individual user budgets",
+      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T20:23:13+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
       "url": "https://www.latent.space/p/pr-not-welcome",
       "source": "Latent Space",
@@ -373,6 +464,52 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Google 总结 AI Agents Challenge 中最强提交背后的 4 个工程模式",
+      "url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions",
+      "source": "Google Developers Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T16:29:43.634000+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
+      "url": "https://dev.to/googleai/what-is-harness-engineering-and-why-should-i-care-8n0",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T15:28:05+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "google",
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Google AI 团队分享如何为 LLM-as-a-Judge 评测编写可靠的评分标准",
+      "url": "https://dev.to/googleai/how-to-write-reliable-rubrics-for-llm-as-a-judge-evaluations-ndp",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T16:35:00+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": true,
+      "topics": [
+        "google",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
     },
     {
       "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
@@ -462,140 +599,8 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-08-31T15:15:25+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
-      "url": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-08-31T21:20:16+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Gitlawb /      openclaude",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-09-01T14:22:39.027000+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic's Tom Blomfield says his new coworkers are a 'hyper-earnest group of meganerds' with a 'lack of ego'",
-      "url": "https://www.businessinsider.com/tom-blomfield-anthropic-culture-hyper-earnest-meganerds-monzo-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-01T13:33:47+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic has resumed the tests in which its models attacked real companies",
-      "url": "https://thenextweb.com/news/anthropic-resumes-external-cyber-testing",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-01T09:00:49+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI tells the court Apple’s trade-secret case is “a mess of Apple’s own making”",
-      "url": "https://thenextweb.com/news/openai-apple-trade-secret-filing-response",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-01T07:51:45+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic has signed a $35bn cloud deal with Nvidia-backed Lambda",
-      "url": "https://thenextweb.com/news/anthropic-lambda-35bn-cloud-deal",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-01T07:33:28+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "防务预算计划显示，日本将借助无人机、人工智能和导弹加强国防 - apnews.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUm5rMVNka0xwb3dBWjAtMG5jcHhHTXRiLVFMcWx2amRhZmY0ZDJmUGlrUllpdXRKSElib0FsdEViaTk2VmdsQ0pwTmhoSVZKSm4zYm5HMWpZZFVkV2VNdmQ0cWhGRWM1dmpDMklfNzlvX2p2RkRUM09iZG01TVJpUF9LTEtwZkh2cUt6a2JBcDdnNUx2?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-01T06:57:29.991000+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Is MCP Good Yet?",
-      "url": "https://ismcpgoodyet.com",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-01T02:56:15+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ],
-  "generated_at": "2026-09-02T15:20:29.311043+00:00",
+  "generated_at": "2026-09-02T19:29:12.198897+00:00",
   "period": "2026-09"
 }
