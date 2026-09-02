@@ -1,9 +1,43 @@
 {
-  "generated_at": "2026-09-02T00:49:44.294784+00:00",
+  "generated_at": "2026-09-02T05:09:18.194872+00:00",
   "today": "2026-09-02",
-  "lead": "BenchMIRT: What are LLM benchmarks actually measuring?；Google Workspace 推出图像创作编辑工具 Google Pics；OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+  "lead": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1；OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布；Claude Fable 5.1 made me a really nice animated pelican",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T03:33:48.237000+00:00",
+      "source_count": 3,
+      "score": 91,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 100
+    },
+    {
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T03:13:14.351000+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 100
+    },
     {
       "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
       "url": "https://news.ycombinator.com/item?id=49526069",
@@ -11,12 +45,12 @@
       "site_id": "newsnow",
       "published_at": "2026-09-01T23:43:55.159000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 76
     },
     {
       "title": "Launch HN: Nori Robotics（YC S26）——一款用于开发的低成本类人机器人",
@@ -25,12 +59,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-01T22:57:16.086000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 72
     },
     {
       "title": "苹果在针对OpenAI的诉讼中披露了从前员工MacBook中获取的“令人震惊的证据”",
@@ -39,48 +73,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-01T22:25:23.381000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 98
-    },
-    {
-      "title": "ChatGPT/Codex 应用程序捆绑了 LibreOffice 的完整版本",
-      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-01T21:37:23.427000+00:00",
-      "source_count": 3,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 92
-    },
-    {
-      "title": "《矮人要塞》的创作者表示，游戏行业因人工智能问题而陷入混乱",
-      "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis",
-      "source": "www.pcgamer.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-01T18:57:40.737000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 74
+      "hot_score": 68
     }
   ],
   "topics": [
@@ -89,42 +89,42 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 36
+      "count": 40
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 37
+      "count": 40
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 14
+      "count": 15
     },
     {
       "slug": "coding",
@@ -138,7 +138,7 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "opensource",
@@ -152,14 +152,14 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 18
+      "count": 22
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "industry",

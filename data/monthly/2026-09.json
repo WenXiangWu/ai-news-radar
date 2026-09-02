@@ -7,17 +7,33 @@
   "total_items": 39,
   "items": [
     {
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T21:39:07+00:00",
-      "source_count": 1,
-      "score": 86,
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T03:33:48.237000+00:00",
+      "source_count": 3,
+      "score": 91,
       "official": true,
       "topics": [
-        "opensource",
-        "paper"
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T03:13:14.351000+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -27,12 +43,43 @@
       "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
       "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T23:57:28+00:00",
+      "published_at": "2026-09-02T01:05:52+00:00",
+      "source_count": 2,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T02:11:30+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "anthropic"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T21:39:07+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource",
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -44,26 +91,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T16:00:00+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-      "url": "https://openai.com/index/path-to-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T13:00:00+00:00",
-      "source_count": 2,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -75,24 +106,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T22:24:27+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T20:45:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "google"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -103,7 +119,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-01T19:25:57+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
@@ -112,99 +128,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Set an expiration date for individual user budgets",
-      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T20:23:13+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
-      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:08:51+00:00",
+      "published_at": "2026-09-01T14:29:23+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-      "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:00:04+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How AI-native companies turn workflows into operating capability",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Block users from discussion comments in personal repositories",
-      "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T16:30:01+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
-      "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T15:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T12:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
+        "anthropic",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -227,6 +161,90 @@
       "label": "官方更新"
     },
     {
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T20:45:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Set an expiration date for individual user budgets",
+      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T20:23:13+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T17:08:51+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+      "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T17:00:04+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T17:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Block users from discussion comments in personal repositories",
+      "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T16:30:01+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
       "url": "https://www.latent.space/p/pr-not-welcome",
       "source": "Latent Space",
@@ -242,13 +260,42 @@
       "label": "官方更新"
     },
     {
+      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
+      "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T15:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T12:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "GitHub CLI: Media in issues, pull requests, and comments",
       "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-09-01T12:35:59+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -285,19 +332,6 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T04:36:54+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
       "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
       "source": "Anthropic：Newsroom（网页）",
@@ -309,6 +343,19 @@
       "topics": [
         "anthropic"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T04:36:54+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -327,52 +374,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others",
-      "url": "https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T20:40:36+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
-      "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T20:32:55+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T23:07:08+00:00",
-      "source_count": 2,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "Google's election AI Overviews are opaque, rely on few sources, and sometimes take sides",
@@ -580,6 +581,6 @@
       "label": "值得关注"
     }
   ],
-  "generated_at": "2026-09-02T00:49:44.294784+00:00",
+  "generated_at": "2026-09-02T05:09:18.194872+00:00",
   "period": "2026-09"
 }

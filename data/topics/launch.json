@@ -1,11 +1,108 @@
 {
-  "generated_at": "2026-09-02T00:49:44.294784+00:00",
+  "generated_at": "2026-09-02T05:09:18.194872+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 18,
+  "total_items": 22,
   "items": [
+    {
+      "title": "地球最强大模型打起价格战！Anthropic发布Fable 5.1：性能狂飙且成本骤降四成",
+      "url": "https://www.aibase.com/news/30763",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-02T04:27:46.597829+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Fable 5.1 正式发布：性能翻倍、Agent成本下降45%，Anthropic 把顶级模型送进真实世界",
+      "url": "https://www.infoq.cn/article/K8OwgoWM1gHNi2i4yLkU",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-02T04:00:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T03:33:48.237000+00:00",
+      "source_count": 3,
+      "score": 91,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T03:13:14.351000+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
+      "url": "https://rdi.berkeley.edu/blog/vero",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T02:28:38.186000+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T02:11:30+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
       "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
@@ -13,7 +110,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-01T23:07:08+00:00",
       "source_count": 2,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
@@ -29,7 +126,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-01T22:33:20+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -46,7 +143,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-01T21:40:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "google",
@@ -62,7 +159,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-01T21:08:06+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -78,7 +175,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-01T20:14:18+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -94,7 +191,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-01T20:07:32+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -110,7 +207,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-01T20:00:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai",
@@ -126,7 +223,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-01T19:39:22+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -160,7 +257,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-01T17:53:52+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -169,22 +266,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-      "url": "https://openai.com/index/path-to-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T13:00:00+00:00",
-      "source_count": 2,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     },
     {
       "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
@@ -228,11 +309,10 @@
       "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "总投资6000万！环天智慧重磅发布卫星遥感大模型中试基地招标公告",
@@ -244,11 +324,10 @@
       "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "智谱下一代AI锚定大基座路线，力求发布首日即迎满载调用",
@@ -260,11 +339,10 @@
       "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Now that the base open weights AI models are getting far better, and post training infra is becoming more mature and commercialized, there are going to be all new plays for companies that have large amounts of data to...",
@@ -273,25 +351,10 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-01T04:58:08+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
-      "url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T03:39:05+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
         "launch"
       ],
       "reason": "",

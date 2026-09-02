@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-09-02T00:49:44.294784+00:00",
+  "generated_at": "2026-09-02T05:09:18.194872+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 14,
+  "total_items": 15,
   "items": [
+    {
+      "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
+      "url": "https://rdi.berkeley.edu/blog/vero",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T02:28:38.186000+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "AI Coding Agent Skills for Real Engineers",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-01T22:48:47+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "v2.1.258",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
@@ -13,7 +45,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-01T22:33:20+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -30,7 +62,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-01T21:45:17.423000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -47,7 +79,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-01T21:37:23.427000+00:00",
       "source_count": 3,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai",
@@ -58,45 +90,13 @@
       "label": "多源热议"
     },
     {
-      "title": "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了",
-      "url": "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-01T19:57:24+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-      "url": "https://www.infoq.cn/article/s8dvlxO3lh3CEDgcsUEi",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-01T19:54:21+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "每位 AI 工程师都应了解的关于智能体沙箱的 5 件事",
       "url": "https://waytoagi.feishu.cn/wiki/Xe2Xw27puiJFsTkPZdzcpxGendc?from=from_copylink",
       "source": "社区更新 · 2026-09-01",
       "site_id": "waytoagi",
       "published_at": "2026-09-01T18:27:38.712024+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -129,7 +129,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-01T17:53:52+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -146,10 +146,42 @@
       "site_id": "techurls",
       "published_at": "2026-09-01T16:14:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了",
+      "url": "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-01T11:57:24+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
+      "url": "https://www.infoq.cn/article/s8dvlxO3lh3CEDgcsUEi",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-01T11:54:21+00:00",
+      "source_count": 1,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "openai",
         "agent"
       ],
       "reason": "",
@@ -198,7 +230,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-01T07:00:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -216,24 +248,7 @@
       "score": 72,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
-      "url": "https://x.com/thsottiaux/status/2094588317245509959",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-01T00:49:05+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
