@@ -8,21 +8,6 @@
   "total_items": 40,
   "items": [
     {
-      "title": "llm-gemini 0.34",
-      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T16:39:38+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
       "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
       "source": "GitHub AI & ML",
@@ -36,30 +21,31 @@
       "label": "官方更新"
     },
     {
-      "title": "Enterprise-managed settings support any default model",
-      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+      "title": "Content exclusions generally available in Copilot app and CLI",
+      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T18:51:12+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T16:18:31+00:00",
+      "published_at": "2026-09-02T18:14:23+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "google",
-        "launch"
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm-gemini 0.34",
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T16:39:38+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -93,17 +79,30 @@
       "label": "官方更新"
     },
     {
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "source": "Hugging Face Blog",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T13:49:14+00:00",
-      "source_count": 1,
+      "published_at": "2026-09-02T01:05:52+00:00",
+      "source_count": 2,
       "score": 84,
       "official": true,
       "topics": [
-        "opensource"
+        "anthropic"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Enterprise-managed settings support any default model",
+      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T18:51:12+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -123,31 +122,47 @@
       "label": "官方更新"
     },
     {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program",
-      "source": "Google AI Blog",
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "source": "Google DeepMind",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T15:40:00+00:00",
+      "published_at": "2026-09-02T16:18:31+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "google"
+        "google",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
-      "source": "Simon Willison",
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T01:05:52+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-02T13:49:14+00:00",
+      "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "anthropic"
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "url": "https://openai.com/index/atv-big-air-tour",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -186,32 +201,16 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "source": "Latent Space",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T07:46:08+00:00",
+      "published_at": "2026-09-02T15:40:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T03:33:48.237000+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -245,17 +244,46 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
-      "source": "vLLM Releases",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T02:11:30+00:00",
+      "published_at": "2026-09-02T07:46:08+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T03:33:48.237000+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic",
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T22:24:27+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -331,6 +359,21 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T02:11:30+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -448,35 +491,6 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
-      "source": "The Verge：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T14:35:03+00:00",
-      "source_count": 2,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T22:24:27+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
       "url": "https://www.latent.space/p/pr-not-welcome",
       "source": "Latent Space",
@@ -492,13 +506,29 @@
       "label": "官方更新"
     },
     {
+      "title": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-02T14:35:03+00:00",
+      "source_count": 2,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "Google 总结 AI Agents Challenge 中最强提交背后的 4 个工程模式",
       "url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions",
       "source": "Google Developers Blog（RSS）",
       "site_id": "aihot",
       "published_at": "2026-09-02T16:29:43.634000+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [],
       "reason": "",
@@ -567,36 +597,8 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-02T17:09:06+00:00",
-      "source_count": 2,
-      "score": 66,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google's election AI Overviews are opaque, rely on few sources, and sometimes take sides",
-      "url": "https://the-decoder.com/googles-election-ai-overviews-are-opaque-rely-on-few-sources-and-sometimes-take-sides",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-01T13:03:17+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
     }
   ],
-  "generated_at": "2026-09-02T22:32:13.494180+00:00",
+  "generated_at": "2026-09-03T00:57:55.759854+00:00",
   "period": "2026-09"
 }
