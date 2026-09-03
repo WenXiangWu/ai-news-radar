@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-03T05:03:57.230918+00:00",
+  "generated_at": "2026-09-03T10:29:48.975569+00:00",
   "slug": "coding",
   "label": "AI 编码",
   "group": "tech",
   "blurb": "编码助手与开发工作流",
-  "total_items": 12,
+  "total_items": 13,
   "items": [
+    {
+      "title": "别让 Codex 一口气写完整个前端：5 组 Skills，把页面、逻辑、测试和构建拆清楚",
+      "url": "https://juejin.cn/post/7680500716225871910",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T09:44:56.374000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Anthropic 发布 Claude Fable5.1:具备更强 Agent 编码能力，最高降本45%",
       "url": "https://www.aibase.com/news/30801",
@@ -13,7 +29,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -32,7 +48,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -50,7 +66,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T01:10:22+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -68,7 +84,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T01:09:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "agent",
@@ -84,12 +100,28 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -101,7 +133,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T19:20:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -117,7 +149,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T18:14:23+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding"
@@ -132,7 +164,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T18:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "coding"
@@ -147,7 +179,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-02T16:28:46+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "coding",
@@ -163,15 +195,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T15:28:05+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "google",
-        "coding",
-        "industry"
+        "coding"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
@@ -180,26 +211,9 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T12:00:00+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "A Single Flaw Lets Untrusted Repos Run Code in Claude Code, Codex, Cursor, Grok",
-      "url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-02T08:14:34+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "anthropic",
         "agent",
         "coding"
       ],

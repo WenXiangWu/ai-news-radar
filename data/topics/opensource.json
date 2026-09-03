@@ -1,11 +1,58 @@
 {
-  "generated_at": "2026-09-03T05:03:57.230918+00:00",
+  "generated_at": "2026-09-03T10:29:48.975569+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 5,
+  "total_items": 7,
   "items": [
+    {
+      "title": "Perplexity Open Sources Lily: A Rust + Metal Inference Engine for Qwen3.6-35B-A3B on Apple Silicon",
+      "url": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-09-03T06:57:07+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Qwen Developers Open-Sources zg (zvec-grep): A Local-First Search Layer Unifying ripgrep, BM25, and Vector Search",
+      "url": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-09-02T23:48:47+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "qwen",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Meta’s new AI model edges closer to OpenAI and Anthropic, its AI Chief says",
       "url": "https://thenextweb.com/news/meta-muse-spark-1-3-undecided-weights-eu-ai-act-article-53-open-source-exemption-systemic-risk",
@@ -13,11 +60,27 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T23:19:09+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
         "anthropic",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "This week is absolutely nuts for AI releases, and now a major new model update from Muse. We appear to be reaching escape velocity in capability progress. If this thing gets released as open weights it completely chan...",
+      "url": "https://x.com/levie/status/2095234253613359200",
+      "source": "Follow Builders · X · Aaron Levie",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-02T19:35:48+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
         "opensource",
         "launch"
       ],
@@ -31,7 +94,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T17:01:34.540000+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "anthropic",
@@ -49,44 +112,13 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T13:49:14+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding and exploiting vulnerabilities. Frontier models are ahead, but we’re already seeing that open weights is not far behind....",
-      "url": "https://x.com/levie/status/2095024699441119612",
-      "source": "Follow Builders · X · Aaron Levie",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-02T05:43:06+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cloudflare OS：Cloudflare 基于能力模型构建的开源企业级 AI 平台",
-      "url": "https://www.infoq.cn/article/ztbou1CqjAdzrT6GNSKV",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-02T05:00:00+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }

@@ -1,11 +1,29 @@
 {
-  "generated_at": "2026-09-03T05:03:57.230918+00:00",
+  "generated_at": "2026-09-03T10:29:48.975569+00:00",
   "date": "2026-09-03",
   "timezone": "Asia/Shanghai",
-  "lead": "Codex CLI 0.153.0；Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!；Content exclusions generally available in Copilot app and CLI",
+  "lead": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告；v0.29.0rc2；[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T04:49:35.840000+00:00",
+      "source_count": 3,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 75
+    },
     {
       "title": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
       "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
@@ -13,7 +31,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T14:35:03+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 76,
       "official": true,
       "topics": [
         "openai",
@@ -21,26 +39,57 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 18
+      "hot_score": 11
+    }
+  ],
+  "items": [
+    {
+      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T04:49:35.840000+00:00",
+      "source_count": 3,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
     },
     {
-      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-03T00:54:01+00:00",
-      "source_count": 3,
-      "score": 67,
+      "title": "v0.29.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T09:41:12+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T04:38:33+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 85
-    }
-  ],
-  "items": [
+      "label": "官方更新"
+    },
     {
       "title": "Codex CLI 0.153.0",
       "url": "https://developers.openai.com/codex/changelog",
@@ -48,7 +97,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -59,15 +108,18 @@
       "label": "官方更新"
     },
     {
-      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
-      "source": "GitHub AI & ML",
+      "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T21:00:00+00:00",
+      "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 84,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding",
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -78,7 +130,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T18:14:23+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding"
@@ -93,7 +145,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T16:39:38+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google"
@@ -108,7 +160,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T16:04:19+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -121,7 +173,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T14:16:42+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "anthropic"
@@ -136,11 +188,24 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T13:49:14+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T21:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -151,7 +216,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T18:51:12+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -164,7 +229,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T18:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "coding"
@@ -179,7 +244,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T16:18:31+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "google",
@@ -195,7 +260,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T12:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -210,25 +275,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T15:40:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T07:46:08+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -240,7 +290,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T14:35:03+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 76,
       "official": true,
       "topics": [
         "openai",
@@ -256,7 +306,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T16:29:43.634000+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [],
       "reason": "",
@@ -269,15 +319,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T15:28:05+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "google",
-        "coding",
-        "industry"
+        "coding"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Google AI 团队分享如何为 LLM-as-a-Judge 评测编写可靠的评分标准",
@@ -286,56 +335,11 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T16:35:00+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": true,
       "topics": [
         "google"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-03T00:54:01+00:00",
-      "source_count": 3,
-      "score": 67,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "v2.1.259",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-02T22:33:51+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
-      "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-02T22:24:09+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     }

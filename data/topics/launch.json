@@ -1,11 +1,91 @@
 {
-  "generated_at": "2026-09-03T05:03:57.230918+00:00",
+  "generated_at": "2026-09-03T10:29:48.975569+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 19,
+  "total_items": 21,
   "items": [
+    {
+      "title": "OpenAI宣布自研人形机器人 首款由乔纳森主导的AI终端拟于2027年发布",
+      "url": "https://www.aibase.com/news/30811",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-03T09:44:29.823651+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v0.29.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T09:41:12+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "李飞飞首个多模态世界模型 Atlas 正式发布：从零开始预训练，几张图就能构建世界",
+      "url": "https://www.infoq.cn/article/9YiEhb3hAFtUlxOpMdGC",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-03T08:49:43+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Diagrid Catalyst 2.0 发布，为 AI 智能体新增持久化、可验证的执行能力",
+      "url": "https://www.infoq.cn/article/ofYabQL5uvxdaIY7B31f",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-03T06:05:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T04:49:35.840000+00:00",
+      "source_count": 3,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
     {
       "title": "Anthropic 发布 Claude Fable5.1:具备更强 Agent 编码能力，最高降本45%",
       "url": "https://www.aibase.com/news/30801",
@@ -13,7 +93,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -32,7 +112,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "google",
@@ -49,7 +129,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -67,7 +147,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -83,7 +163,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T23:19:09+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -101,7 +181,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-02T22:33:51+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -118,7 +198,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T21:39:44+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "openai",
@@ -136,7 +216,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T20:37:12+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "agent",
@@ -153,10 +233,26 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T20:33:02+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "This week is absolutely nuts for AI releases, and now a major new model update from Muse. We appear to be reaching escape velocity in capability progress. If this thing gets released as open weights it completely chan...",
+      "url": "https://x.com/levie/status/2095234253613359200",
+      "source": "Follow Builders · X · Aaron Levie",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-02T19:35:48+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "opensource",
         "launch"
       ],
       "reason": "",
@@ -169,7 +265,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T18:13:54+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "google",
@@ -185,7 +281,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-02T18:05:52+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai",
@@ -202,7 +298,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-02T17:20:24+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": true,
       "topics": [
         "google",
@@ -218,7 +314,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T17:01:34.540000+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "anthropic",
@@ -236,7 +332,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-02T16:40:50+00:00",
       "source_count": 2,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai",
@@ -252,7 +348,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T16:18:31+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "google",
@@ -260,68 +356,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding and exploiting vulnerabilities. Frontier models are ahead, but we’re already seeing that open weights is not far behind....",
-      "url": "https://x.com/levie/status/2095024699441119612",
-      "source": "Follow Builders · X · Aaron Levie",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-02T05:43:06+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta Superintelligence Labs Releases Muse Voice Transcribe: One Real-Time Model for Streaming ASR, Diarization, and Endpointing",
-      "url": "https://www.marktechpost.com/2026/09/01/meta-superintelligence-labs-releases-muse-voice-transcribe-one-real-time-model-for-streaming-asr-diarization-and-endpointing",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-09-02T05:37:12+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device",
-      "url": "https://www.marktechpost.com/2026/09/01/perplexity-releases-hybrid-compute-on-mac-cloud-agents-orchestrate-down-to-a-local-model-gated-on-device",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-09-02T05:12:00+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "地球最强大模型打起价格战！Anthropic发布Fable 5.1：性能狂飙且成本骤降四成",
-      "url": "https://www.aibase.com/news/30763",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-02T04:27:46.597829+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
