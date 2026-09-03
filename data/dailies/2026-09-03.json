@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T00:57:55.759854+00:00",
+  "generated_at": "2026-09-03T05:03:57.230918+00:00",
   "date": "2026-09-03",
   "timezone": "Asia/Shanghai",
-  "lead": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!；Content exclusions generally available in Copilot app and CLI；llm-gemini 0.34",
+  "lead": "Codex CLI 0.153.0；Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!；Content exclusions generally available in Copilot app and CLI",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -21,26 +21,43 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 25
+      "hot_score": 18
     },
     {
       "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
       "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-09-02T17:09:06+00:00",
-      "source_count": 2,
-      "score": 66,
+      "published_at": "2026-09-03T00:54:01+00:00",
+      "source_count": 3,
+      "score": 67,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 31
+      "label": "多源热议",
+      "hot_score": 85
     }
   ],
   "items": [
+    {
+      "title": "Codex CLI 0.153.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
       "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
@@ -48,7 +65,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T21:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -61,7 +78,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T18:14:23+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
@@ -76,7 +93,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T16:39:38+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "google"
@@ -91,7 +108,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T16:04:19+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -104,54 +121,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T14:16:42+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Enterprise-managed settings support any default model",
-      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T18:51:12+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T18:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T16:18:31+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -172,13 +145,57 @@
       "label": "官方更新"
     },
     {
+      "title": "Enterprise-managed settings support any default model",
+      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T18:51:12+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T18:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T16:18:31+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
       "url": "https://openai.com/index/atv-big-air-tour",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-09-02T12:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -193,7 +210,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T15:40:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "google"
@@ -212,37 +229,6 @@
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T03:33:48.237000+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T02:11:30+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -270,7 +256,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T16:29:43.634000+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [],
       "reason": "",
@@ -283,7 +269,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T15:28:05+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "google",
@@ -300,26 +286,10 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T16:35:00+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
-        "google",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
-      "url": "https://x.com/Alibaba_Qwen/status/2094982928371794077",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T02:57:07+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": true,
-      "topics": [
-        "qwen"
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
@@ -329,13 +299,43 @@
       "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-09-02T17:09:06+00:00",
-      "source_count": 2,
-      "score": 66,
+      "published_at": "2026-09-03T00:54:01+00:00",
+      "source_count": 3,
+      "score": 67,
       "official": true,
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "v2.1.259",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-02T22:33:51+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+      "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-02T22:24:09+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     }

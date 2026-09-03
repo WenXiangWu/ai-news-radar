@@ -1,11 +1,127 @@
 {
-  "generated_at": "2026-09-03T00:57:55.759854+00:00",
+  "generated_at": "2026-09-03T05:03:57.230918+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 15,
+  "total_items": 21,
   "items": [
+    {
+      "title": "Anthropic 发布 Claude Fable5.1:具备更强 Agent 编码能力，最高降本45%",
+      "url": "https://www.aibase.com/news/30801",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-03T04:19:20.695050+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "原来 Claude Code 最厉害的工具，一行代码都不写",
+      "url": "https://juejin.cn/post/7680360072334655515",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T03:56:59.232000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Sources: Meta adjusts employee review language around \"AI-driven impact\" and token usage, easing off on tokenmaxxing, while promoting the use of AI agent Hatch (Wired)",
+      "url": "https://www.techmeme.com/260902/p49",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T02:40:01+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
+      "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-03T01:32:02+00:00",
+      "source_count": 1,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Meta Muse Spark 1.3 在 Artificial Analysis 编码智能体指数中与 Claude 组合对比评测结果公布",
+      "url": "https://x.com/alexandr_wang/status/2095318449602138577",
+      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T01:10:22+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Cursor 推出 Origin：面向智能体的 GitHub 替代方案",
+      "url": "https://www.infoq.cn/article/labxcNbT15HapoWw69lq",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-03T01:09:00+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex CLI 0.153.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "v2.1.259",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
@@ -13,7 +129,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-02T22:33:51+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -30,7 +146,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T20:37:12+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -47,7 +163,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T19:20:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
@@ -63,7 +179,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T19:06:19+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -80,7 +196,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-02T18:01:29+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -96,17 +212,16 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T17:01:34.540000+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
         "anthropic",
         "agent",
         "opensource",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Show HN: Kit. Claude Code but Concise",
@@ -115,7 +230,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-02T15:30:37+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic",
@@ -131,7 +246,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-02T14:26:57.867331+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -147,7 +262,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T13:30:49+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -162,15 +277,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T12:00:00+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
         "agent",
-        "coding",
-        "industry"
+        "coding"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "豆包手机 9 月开售：命名努比亚 NaviX Ultra，号称全球首款 AI 智能体旗舰",
@@ -179,7 +293,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-02T09:34:33.437852+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
@@ -195,7 +309,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-02T08:21:38+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "google",
@@ -211,7 +325,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-02T08:14:34+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -233,22 +347,6 @@
       "topics": [
         "anthropic",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
-      "url": "https://rdi.berkeley.edu/blog/vero",
-      "source": "Berkeley RDI：Blog（AI 安全与评测）",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T02:28:38.186000+00:00",
-      "source_count": 1,
-      "score": 68,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"

@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-09-03T00:57:55.759854+00:00",
+  "generated_at": "2026-09-03T05:03:57.230918+00:00",
   "today": "2026-09-03",
-  "lead": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!；Content exclusions generally available in Copilot app and CLI；llm-gemini 0.34",
+  "lead": "Codex CLI 0.153.0；Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!；Content exclusions generally available in Copilot app and CLI",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-03T00:54:01+00:00",
+      "source_count": 3,
+      "score": 67,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 85
+    },
     {
       "title": "曼达尼在纽约市学校禁止使用人工智能",
       "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
@@ -11,12 +27,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-02T22:57:21.026000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 72
     },
     {
       "title": "三个网站共制作了215,128个关于人工智能的“最佳软件”页面。Perplexity引用了这些内容",
@@ -30,7 +46,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 82
+      "hot_score": 58
     },
     {
       "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
@@ -39,7 +55,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-02T18:39:52.098000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "openai",
@@ -47,7 +63,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 71
+      "hot_score": 50
     },
     {
       "title": "检查文件是否由Claude生成",
@@ -56,28 +72,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-02T17:53:19.500000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 67
-    },
-    {
-      "title": "Quasar 438B：欧洲领先的人工智能模型",
-      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
-      "source": "multiversecomputing.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-02T15:29:36.286000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
+      "hot_score": 47
     }
   ],
   "topics": [
@@ -93,42 +95,42 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 30
+      "count": 28
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 21
+      "count": 22
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 15
+      "count": 21
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 8
+      "count": 12
     },
     {
       "slug": "mcp",
