@@ -1,17 +1,33 @@
 {
-  "generated_at": "2026-09-03T10:29:48.975569+00:00",
+  "generated_at": "2026-09-03T14:32:56.527946+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 7,
+  "total_items": 11,
   "items": [
     {
-      "title": "Perplexity Open Sources Lily: A Rust + Metal Inference Engine for Qwen3.6-35B-A3B on Apple Silicon",
-      "url": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-09-03T06:57:07+00:00",
+      "title": "NeoMME：高效的多模态本地多语言编码器",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T13:13:48+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Nvidia 斥资 129 亿美元收购 Hugging Face 开源 AI",
+      "url": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-03T12:43:09+00:00",
       "source_count": 1,
       "score": 58,
       "official": true,
@@ -22,13 +38,61 @@
       "label": "值得关注"
     },
     {
+      "title": "Perplexity 将为 Apple Silicon 开源其更快的 Lily AI 引擎",
+      "url": "https://entertainment.slashdot.org/story/26/09/02/2235237/perplexity-will-open-source-its-faster-lily-ai-engine-for-apple-silicon",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T11:00:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Perplexity 开源 Lily：Apple Silicon 上用于 Qwen3.6-35B-A3B 的 Rust + Metal 推理引擎",
+      "url": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-09-03T06:57:07+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+      "url": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现",
       "url": "https://huggingface.co/blog/train-to-paint-with-code",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding",
@@ -38,13 +102,28 @@
       "label": "官方更新"
     },
     {
-      "title": "Qwen Developers Open-Sources zg (zvec-grep): A Local-First Search Layer Unifying ripgrep, BM25, and Vector Search",
+      "title": "通过 100 个 GRPO 步骤微调 350M 模型以获得更好的结构化输出",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Qwen 开发人员开源 zg (zvec-grep)：统一 ripgrep、BM25 和矢量搜索的本地优先搜索层",
       "url": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-09-02T23:48:47+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "qwen",
@@ -54,13 +133,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Meta’s new AI model edges closer to OpenAI and Anthropic, its AI Chief says",
+      "title": "Meta 的人工智能负责人表示，Meta 的新人工智能模型更接近 OpenAI 和 Anthropic",
       "url": "https://thenextweb.com/news/meta-muse-spark-1-3-undecided-weights-eu-ai-act-article-53-open-source-exemption-systemic-risk",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-09-02T23:19:09+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -78,7 +157,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-02T19:35:48+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "opensource",
@@ -94,7 +173,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T17:01:34.540000+00:00",
       "source_count": 1,
-      "score": 70,
+      "score": 69,
       "official": false,
       "topics": [
         "anthropic",
@@ -104,21 +183,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T13:49:14+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }

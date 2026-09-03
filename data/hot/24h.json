@@ -1,21 +1,37 @@
 {
-  "generated_at": "2026-09-03T10:29:48.975569+00:00",
+  "generated_at": "2026-09-03T14:32:56.527946+00:00",
   "window_hours": 24,
-  "total_items": 13,
+  "total_items": 9,
   "items": [
     {
-      "title": "WebLLM：高性能的浏览器内大型语言模型推理引擎",
-      "url": "https://github.com/mlc-ai/web-llm",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-03T05:21:23.808000+00:00",
-      "source_count": 3,
-      "score": 56,
+      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+      "source": "NVIDIA Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T14:32:21.658000+00:00",
+      "source_count": 2,
+      "score": 84,
       "official": true,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 60
+    },
+    {
+      "title": "中国人工智能竞赛黑马：StartLux",
+      "url": "https://news.ycombinator.com/item?id=49548530",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T14:32:21.658000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
       "topics": [],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 78
+      "label": "值得关注",
+      "hot_score": 60
     },
     {
       "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
@@ -24,7 +40,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T04:49:35.840000+00:00",
       "source_count": 3,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -33,7 +49,21 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 75
+      "hot_score": 53
+    },
+    {
+      "title": "机器人技术为何如此困难",
+      "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+      "source": "secondthoughts.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-09-03T10:41:16.699000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 43
     },
     {
       "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
@@ -42,14 +72,14 @@
       "site_id": "curated_media",
       "published_at": "2026-09-03T00:54:01+00:00",
       "source_count": 3,
-      "score": 66,
+      "score": 65,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 54
+      "hot_score": 38
     },
     {
       "title": "曼达尼在纽约市学校禁止使用人工智能",
@@ -58,73 +88,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-02T22:57:21.026000+00:00",
       "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 46
-    },
-    {
-      "title": "三个网站共制作了215,128个关于人工智能的“最佳软件”页面。Perplexity引用了这些内容",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations",
-      "source": "trellner.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-02T15:29:36.290000+00:00",
-      "source_count": 4,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 37
-    },
-    {
-      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
-      "url": "https://news.ycombinator.com/item?id=49536114",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-02T18:39:52.098000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 32
-    },
-    {
-      "title": "检查文件是否由Claude生成",
-      "url": "https://claude.com/check-content",
-      "source": "claude.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-02T17:53:19.500000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 30
-    },
-    {
-      "title": "Quasar 438B：欧洲领先的人工智能模型",
-      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
-      "source": "multiversecomputing.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-02T15:29:36.286000+00:00",
-      "source_count": 3,
       "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 25
+      "hot_score": 33
     },
     {
       "title": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑",
@@ -133,7 +102,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T19:06:19+00:00",
       "source_count": 2,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -142,7 +111,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 17
+      "hot_score": 12
     },
     {
       "title": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
@@ -151,7 +120,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-02T16:40:50+00:00",
       "source_count": 2,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "openai",
@@ -159,21 +128,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 14
-    },
-    {
-      "title": "除企业版外，Mistral 默认会根据用户输入进行训练",
-      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-      "source": "help.mistral.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-09-02T15:13:35.067000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
+      "hot_score": 10
     },
     {
       "title": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
@@ -190,21 +145,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 11
-    },
-    {
-      "title": "LLMs: Intelligence vs. Cost",
-      "url": "https://news.ycombinator.com/item?id=49535586",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-02T14:04:49.362000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 11
+      "hot_score": 8
     }
   ]
 }

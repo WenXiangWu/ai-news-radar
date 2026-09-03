@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-03T10:29:48.975569+00:00",
+  "generated_at": "2026-09-03T14:32:56.527946+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 21,
+  "total_items": 20,
   "items": [
+    {
+      "title": "Claude Code 整体架构与设计",
+      "url": "https://juejin.cn/post/7680119725196820480",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T14:32:21.658000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "别让 Codex 一口气写完整个前端：5 组 Skills，把页面、逻辑、测试和构建拆清楚",
       "url": "https://juejin.cn/post/7680500716225871910",
@@ -13,7 +29,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-03T09:44:56.374000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent",
@@ -29,7 +45,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T06:05:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -45,7 +61,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T04:49:35.840000+00:00",
       "source_count": 3,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -62,7 +78,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-03T04:25:36+00:00",
       "source_count": 1,
-      "score": 66,
+      "score": 65,
       "official": false,
       "topics": [
         "anthropic",
@@ -78,7 +94,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -97,7 +113,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-03T03:56:59.232000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -113,7 +129,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T02:40:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -122,13 +138,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
+      "title": "Meta 向员工推出新的人工智能代理，但放松了对 Tokenmaxxing 的支持",
       "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing",
       "source": "Wired AI",
       "site_id": "opmlrss",
       "published_at": "2026-09-03T01:32:02+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "agent"
@@ -143,7 +159,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T01:10:22+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -161,7 +177,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T01:09:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "agent",
@@ -177,12 +193,30 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai",
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+      "url": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding",
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -194,7 +228,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-02T22:33:51+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -211,7 +245,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T20:37:12+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -222,13 +256,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Coder launches Agent Relay with SpaceXAI, running Cursor’s cloud agents on customer infrastructure",
+      "title": "Coder 与 SpaceXAI 合作推出 Agent Relay，在客户基础设施上运行 Cursor 的云代理",
       "url": "https://thenextweb.com/news/coder-agent-relay-cursor-cloud-agents-self-hosted-dora-article-30",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-09-02T19:20:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
@@ -244,7 +278,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T19:06:19+00:00",
       "source_count": 2,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -261,7 +295,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-02T18:01:29+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -277,7 +311,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T17:01:34.540000+00:00",
       "source_count": 1,
-      "score": 70,
+      "score": 69,
       "official": false,
       "topics": [
         "anthropic",
@@ -295,58 +329,11 @@
       "site_id": "hackernews",
       "published_at": "2026-09-02T15:30:37+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "腾讯上线公益行业版WorkBuddy，15个智能体协同覆盖42条公益场景能力",
-      "url": "https://www.aibase.com/news/30784",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-02T14:26:57.867331+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Walnut Launches Enterprise AI Agent Platform to Personalize the B2B Buyer Experience",
-      "url": "https://thenextweb.com/news/walnut-launches-enterprise-ai-agent-platform",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-02T13:30:49+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
-      "url": "https://cursor.com/blog/self-hosted-machines",
-      "source": "Cursor Blog",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T12:00:00+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-03T10:29:48.975569+00:00",
+  "generated_at": "2026-09-03T14:32:56.527946+00:00",
   "slug": "coding",
   "label": "AI 编码",
   "group": "tech",
   "blurb": "编码助手与开发工作流",
-  "total_items": 13,
+  "total_items": 14,
   "items": [
+    {
+      "title": "NeoMME：高效的多模态本地多语言编码器",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T13:13:48+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "别让 Codex 一口气写完整个前端：5 组 Skills，把页面、逻辑、测试和构建拆清楚",
       "url": "https://juejin.cn/post/7680500716225871910",
@@ -13,7 +29,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-03T09:44:56.374000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent",
@@ -29,7 +45,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -48,7 +64,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -66,7 +82,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T01:10:22+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -84,7 +100,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T01:09:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "agent",
@@ -100,12 +116,30 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai",
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+      "url": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding",
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -117,7 +151,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding",
@@ -127,13 +161,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Coder launches Agent Relay with SpaceXAI, running Cursor’s cloud agents on customer infrastructure",
+      "title": "Coder 与 SpaceXAI 合作推出 Agent Relay，在客户基础设施上运行 Cursor 的云代理",
       "url": "https://thenextweb.com/news/coder-agent-relay-cursor-cloud-agents-self-hosted-dora-article-30",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-09-02T19:20:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
@@ -149,7 +183,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T18:14:23+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "coding"
@@ -164,7 +198,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-02T18:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "coding"
@@ -179,7 +213,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-02T16:28:46+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "coding",
@@ -195,26 +229,10 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T15:28:05+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": true,
       "topics": [
         "google",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
-      "url": "https://cursor.com/blog/self-hosted-machines",
-      "source": "Cursor Blog",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T12:00:00+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "agent",
         "coding"
       ],
       "reason": "",
