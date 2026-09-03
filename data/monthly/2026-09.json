@@ -1,12 +1,28 @@
 {
   "title": "2026-09 月报",
   "dates": [
+    "2026-09-04",
     "2026-09-03",
     "2026-09-02",
     "2026-09-01"
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+      "source": "NVIDIA Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T14:57:29.191000+00:00",
+      "source_count": 4,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
     {
       "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
@@ -24,17 +40,17 @@
       "label": "官方更新"
     },
     {
-      "title": "NeoMME：高效的多模态本地多语言编码器",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "source": "Hugging Face Blog",
+      "title": "Google DeepMind 发布 WeatherNext 3 全球天气 AI 模型， hourly 更新且分辨率较上一代提升约 5 倍",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "source": "Google DeepMind",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T13:13:48+00:00",
-      "source_count": 1,
+      "published_at": "2026-09-03T15:02:08+00:00",
+      "source_count": 2,
       "score": 86,
       "official": true,
       "topics": [
-        "coding",
-        "opensource"
+        "google",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -70,26 +86,42 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-      "source": "NVIDIA Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T14:32:21.658000+00:00",
-      "source_count": 2,
-      "score": 84,
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T16:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
       "official": true,
       "topics": [
-        "industry"
+        "coding"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "官方更新"
     },
     {
-      "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测",
-      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "source": "GitHub Changelog",
+      "title": "NeoMME：高效的多模态本地多语言编码器",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T14:04:59+00:00",
+      "published_at": "2026-09-03T13:13:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+      "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T16:00:03+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -98,36 +130,62 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.29.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
-      "source": "vLLM Releases",
+      "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+      "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T09:41:12+00:00",
+      "published_at": "2026-09-03T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Reopening Copilot Business and Enterprise signups",
+      "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T14:40:43+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "launch"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T04:49:35.840000+00:00",
-      "source_count": 3,
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T12:00:00+00:00",
+      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
-        "launch"
+        "openai"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "官方更新"
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T12:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
@@ -160,13 +218,91 @@
       "label": "官方更新"
     },
     {
+      "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测",
+      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T14:04:59+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.29.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T09:41:12+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T04:49:35.840000+00:00",
+      "source_count": 3,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-01T21:39:07+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource",
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 发布新模型 Astra，主打计算机与浏览器操作但因 opaque recurrence 引发争议",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T18:01:45+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90%",
       "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-09-03T04:38:33+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -179,7 +315,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
@@ -196,7 +332,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "agent",
@@ -214,7 +350,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding",
@@ -230,26 +366,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T21:39:07+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource",
-        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -443,19 +563,6 @@
       "label": "官方更新"
     },
     {
-      "title": "企业管理的设置支持任何默认模型",
-      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T18:51:12+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality",
       "source": "GitHub AI & ML",
@@ -500,105 +607,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Set an expiration date for individual user budgets",
-      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T20:23:13+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
-      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:08:51+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-      "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:00:04+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How AI-native companies turn workflows into operating capability",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T17:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Block users from discussion comments in personal repositories",
-      "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T16:30:01+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
-      "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T15:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-08-31T23:00:05.386000+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-03T14:32:56.527946+00:00",
+  "generated_at": "2026-09-03T19:02:03.740744+00:00",
   "period": "2026-09"
 }

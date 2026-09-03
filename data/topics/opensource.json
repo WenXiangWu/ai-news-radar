@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-09-03T14:32:56.527946+00:00",
+  "generated_at": "2026-09-03T19:02:03.740744+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 11,
+  "total_items": 12,
   "items": [
+    {
+      "title": "NVIDIA 宣布收购 Hugging Face，Sundar Pichai 祝贺并称将强化开源模型生态",
+      "url": "https://x.com/sundarpichai/status/2095569375373984139",
+      "source": "X：Sundar Pichai (@sundarpichai)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T17:47:27+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": false,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期",
+      "url": "https://ifm.ai/blog/k2",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T17:35:09.004000+00:00",
+      "source_count": 4,
+      "score": 86,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
     {
       "title": "NeoMME：高效的多模态本地多语言编码器",
       "url": "https://huggingface.co/blog/Hcompany/neomme",
@@ -13,7 +45,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T13:13:48+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "coding",
@@ -29,7 +61,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T12:43:09+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "opensource"
@@ -44,7 +76,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T11:00:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "opensource"
@@ -59,7 +91,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-03T06:57:07+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "opensource"
@@ -74,7 +106,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "agent",
@@ -92,7 +124,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding",
@@ -108,7 +140,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -139,7 +171,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T23:19:09+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -160,24 +192,6 @@
       "score": 59,
       "official": false,
       "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现",
-      "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
-      "source": "Claude：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T17:01:34.540000+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
         "opensource",
         "launch"
       ],

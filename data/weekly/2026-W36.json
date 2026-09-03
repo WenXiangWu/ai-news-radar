@@ -1,16 +1,31 @@
 {
   "title": "2026-W36 周报",
   "dates": [
+    "2026-09-04",
     "2026-09-03",
     "2026-09-02",
     "2026-09-01",
     "2026-08-31",
     "2026-08-30",
-    "2026-08-29",
-    "2026-08-28"
+    "2026-08-29"
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+      "source": "NVIDIA Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T14:57:29.191000+00:00",
+      "source_count": 4,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
     {
       "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
@@ -28,17 +43,17 @@
       "label": "官方更新"
     },
     {
-      "title": "NeoMME：高效的多模态本地多语言编码器",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "source": "Hugging Face Blog",
+      "title": "Google DeepMind 发布 WeatherNext 3 全球天气 AI 模型， hourly 更新且分辨率较上一代提升约 5 倍",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "source": "Google DeepMind",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T13:13:48+00:00",
-      "source_count": 1,
+      "published_at": "2026-09-03T15:02:08+00:00",
+      "source_count": 2,
       "score": 86,
       "official": true,
       "topics": [
-        "coding",
-        "opensource"
+        "google",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -74,6 +89,37 @@
       "label": "官方更新"
     },
     {
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T16:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NeoMME：高效的多模态本地多语言编码器",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T13:13:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "[AINews] OpenAI shuts off Cursor",
       "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
       "source": "Latent Space",
@@ -90,26 +136,11 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-      "source": "NVIDIA Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T14:32:21.658000+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测",
-      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "source": "GitHub Changelog",
+      "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+      "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain",
+      "source": "Google Research Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T14:04:59+00:00",
+      "published_at": "2026-09-03T16:00:03+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -118,36 +149,62 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.29.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
-      "source": "vLLM Releases",
+      "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+      "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T09:41:12+00:00",
+      "published_at": "2026-09-03T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Reopening Copilot Business and Enterprise signups",
+      "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T14:40:43+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "launch"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T04:49:35.840000+00:00",
-      "source_count": 3,
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T12:00:00+00:00",
+      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
-        "launch"
+        "openai"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "官方更新"
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T12:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
@@ -195,41 +252,11 @@
       "label": "官方更新"
     },
     {
-      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-08-28T08:36:31.021000+00:00",
-      "source_count": 4,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "[AINews] OpenAI 将于 2026 年底达到 AGI 标准",
-      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-      "source": "Latent Space",
+      "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测",
+      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-08-28T07:12:10+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90%",
-      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T04:38:33+00:00",
+      "published_at": "2026-09-03T14:04:59+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -238,70 +265,36 @@
       "label": "官方更新"
     },
     {
-      "title": "Codex CLI 0.153.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
+      "title": "v0.29.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T00:00:00+00:00",
+      "published_at": "2026-09-03T09:41:12+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
-      "url": "https://huggingface.co/blog/funes",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding",
-        "opensource",
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现",
-      "url": "https://huggingface.co/blog/train-to-paint-with-code",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T00:00:00+00:00",
-      "source_count": 1,
+      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T04:49:35.840000+00:00",
+      "source_count": 3,
       "score": 83,
       "official": true,
       "topics": [
-        "coding",
-        "opensource"
+        "openai",
+        "agent",
+        "launch"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "通过 100 个 GRPO 步骤微调 350M 模型以获得更好的结构化输出",
-      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "多源热议"
     },
     {
       "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
@@ -320,16 +313,97 @@
       "label": "官方更新"
     },
     {
-      "title": "支持泰国下一代人工智能初创公司",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-08-28T02:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
+      "title": "OpenAI 发布新模型 Astra，主打计算机与浏览器操作但因 opaque recurrence 引发争议",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T18:01:45+00:00",
+      "source_count": 2,
+      "score": 82,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90%",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T04:38:33+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.153.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+      "url": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "通过 100 个 GRPO 步骤微调 350M 模型以获得更好的结构化输出",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -404,49 +478,6 @@
       "topics": [
         "coding",
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "通常可以对问题进行更好的标签管理",
-      "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T23:33:22+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "破解Claude代码 Opus 5 自动模式",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T22:50:25+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 代码审查：解决原因和扩展功能",
-      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T22:46:04+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -582,34 +613,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
-      "url": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-28T17:06:28+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "操作保留将涵盖检查、工作流程运行和状态",
-      "url": "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-08-27T21:50:39+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-03T14:32:56.527946+00:00",
+  "generated_at": "2026-09-03T19:02:03.740744+00:00",
   "period": "2026-W36"
 }

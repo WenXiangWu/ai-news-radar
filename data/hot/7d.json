@@ -1,23 +1,214 @@
 {
-  "generated_at": "2026-09-03T14:32:56.527946+00:00",
+  "generated_at": "2026-09-03T19:02:03.740744+00:00",
   "window_hours": 168,
-  "total_items": 9,
+  "total_items": 18,
   "items": [
     {
       "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
       "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
       "source": "NVIDIA Blog（RSS）",
       "site_id": "aihot",
-      "published_at": "2026-09-03T14:32:21.658000+00:00",
-      "source_count": 2,
-      "score": 84,
+      "published_at": "2026-09-03T14:57:29.191000+00:00",
+      "source_count": 4,
+      "score": 88,
       "official": true,
       "topics": [
         "industry"
       ],
       "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期",
+      "url": "https://ifm.ai/blog/k2",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T17:35:09.004000+00:00",
+      "source_count": 4,
+      "score": 86,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "Ask HN: 为什么OpenAI、Claude和Grok会同时出现故障？是巧合吗？",
+      "url": "https://news.ycombinator.com/item?id=49551096",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T18:13:59.155000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "多种模型的错误率升高",
+      "url": "https://status.claude.com/incidents/461yvfrzpwtt",
+      "source": "status.claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-03T14:57:29.194000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 85
+    },
+    {
+      "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+      "url": "https://news.ycombinator.com/item?id=49552616",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T18:13:59.155000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "url": "https://news.ycombinator.com/item?id=49550375",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T18:13:59.155000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "Sanders introduces bill to ban artificial superintelligence and pause AI",
+      "url": "https://news.ycombinator.com/item?id=49553463",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T18:13:59.155000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "OpenAI 发布新模型 Astra，主打计算机与浏览器操作但因 opaque recurrence 引发争议",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T18:01:45+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
       "label": "行业动态",
-      "hot_score": 60
+      "hot_score": 55
+    },
+    {
+      "title": "Codex 服务中断",
+      "url": "https://github.com/openai/codex/issues/28756",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-03T16:47:58.260000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "Grok 服务中断",
+      "url": "https://status.x.ai",
+      "source": "status.x.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-09-03T16:17:01.087000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
+    },
+    {
+      "title": "OpenAI 的新推理技术给人工智能安全专家敲响了警钟",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-03T16:11:24+00:00",
+      "source_count": 2,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
+    },
+    {
+      "title": "ChatGPT 报 404 错误",
+      "url": "https://chatgpt.com",
+      "source": "chatgpt.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-03T15:13:38.706000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 44
+    },
+    {
+      "title": "Google DeepMind 发布 WeatherNext 3 全球天气 AI 模型， hourly 更新且分辨率较上一代提升约 5 倍",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T15:02:08+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 43
     },
     {
       "title": "中国人工智能竞赛黑马：StartLux",
@@ -26,12 +217,12 @@
       "site_id": "newsnow",
       "published_at": "2026-09-03T14:32:21.658000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 60
+      "hot_score": 41
     },
     {
       "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
@@ -40,7 +231,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T04:49:35.840000+00:00",
       "source_count": 3,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai",
@@ -49,7 +240,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 53
+      "hot_score": 37
     },
     {
       "title": "机器人技术为何如此困难",
@@ -58,28 +249,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-03T10:41:16.699000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 43
-    },
-    {
-      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-03T00:54:01+00:00",
-      "source_count": 3,
-      "score": 65,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 38
+      "hot_score": 30
     },
     {
       "title": "曼达尼在纽约市学校禁止使用人工智能",
@@ -93,7 +268,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 33
+      "hot_score": 23
     },
     {
       "title": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑",
@@ -102,45 +277,11 @@
       "site_id": "aihot",
       "published_at": "2026-09-02T19:06:19+00:00",
       "source_count": 2,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
         "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 12
-    },
-    {
-      "title": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-02T16:40:50+00:00",
-      "source_count": 2,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
-    },
-    {
-      "title": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
-      "source": "The Verge：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T14:35:03+00:00",
-      "source_count": 2,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "openai",
         "industry"
       ],
       "reason": "",
