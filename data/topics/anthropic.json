@@ -1,17 +1,34 @@
 {
-  "generated_at": "2026-09-03T19:02:03.740744+00:00",
+  "generated_at": "2026-09-03T22:17:17.834651+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 31,
+  "total_items": 33,
   "items": [
+    {
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-03T21:20:34+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Ask HN: 为什么OpenAI、Claude和Grok会同时出现故障？是巧合吗？",
       "url": "https://news.ycombinator.com/item?id=49551096",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-09-03T18:13:59.155000+00:00",
+      "published_at": "2026-09-03T21:14:37.698000+00:00",
       "source_count": 3,
       "score": 57,
       "official": false,
@@ -23,13 +40,94 @@
       "label": "多源热议"
     },
     {
+      "title": "GPT-6 Astra scores 62.7% on ARC-AGI-3 with the standard harness and 99.9% with a new provider adapter harness; Claude Opus 5 scored 30.2%, and GPT-5.6 Sol 7.8% (Greg Kamradt/ARC Prize)",
+      "url": "https://www.techmeme.com/260903/p40",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T20:05:01+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
+      "url": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-09-03T19:46:59+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DOD's Emil Michael says Anthropic is still a designated supply chain risk, a day after Howard Lutnick said it resolved its issues with the Trump administration (Maggie Eastland/Bloomberg)",
+      "url": "https://www.techmeme.com/260903/p39",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T19:30:13+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1",
+      "url": "https://x.com/kimmonismus/status/2095589174686400914",
+      "source": "X：Kim (@kimmonismus)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T19:06:08+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI prices GPT-6 Astra at $10/1M input tokens and $50/1M output tokens, matching Anthropic's pricing for Claude Fable 5.1 (The Deep View)",
+      "url": "https://www.techmeme.com/260903/p34",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T18:15:01+00:00",
+      "source_count": 1,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "The Double Matthew Walker Knot by Fable 5.1",
       "url": "https://claude.ai/public/artifacts/06fd26a5-403c-47c8-af49-dcf6c35ec55c",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-09-03T18:09:37+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
@@ -44,7 +142,7 @@
       "site_id": "iris",
       "published_at": "2026-09-03T18:02:40+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -60,7 +158,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T16:39:18+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
@@ -75,7 +173,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T16:28:31+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
@@ -136,13 +234,28 @@
       "label": "值得关注"
     },
     {
+      "title": "Inside Google’s $200bn Wall Street finance machine for Anthropic",
+      "url": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-03T15:26:27+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "多种模型的错误率升高",
       "url": "https://status.claude.com/incidents/461yvfrzpwtt",
       "source": "status.claude.com",
       "site_id": "buzzing",
       "published_at": "2026-09-03T14:57:29.194000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "anthropic"
@@ -157,7 +270,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-03T14:32:21.658000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -173,7 +286,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T14:30:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -189,7 +302,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-03T14:15:28+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "anthropic"
@@ -204,7 +317,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T10:22:09+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -220,7 +333,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T09:44:29.823651+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -237,7 +350,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-03T09:37:55+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -252,7 +365,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T09:02:50+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -282,7 +395,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T08:19:35+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -298,7 +411,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-03T04:25:36+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": false,
       "topics": [
         "anthropic",
@@ -349,7 +462,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-03T03:56:59.232000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -365,7 +478,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T01:10:22+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
         "anthropic",
@@ -382,7 +495,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-02T23:19:09+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",
@@ -417,88 +530,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-02T22:22:13+00:00",
       "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta 发布 Muse Spark 1.3，Intelligence Index 得 61-62 分逼近 Claude 与 GPT-5.6",
-      "url": "https://x.com/kimmonismus/status/2095265444999410146",
-      "source": "X：Kim (@kimmonismus)",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T21:39:44+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑",
-      "url": "https://x.com/claudeai/status/2095226833293685100",
-      "source": "X：Claude (@claudeai)",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T19:06:19+00:00",
-      "source_count": 2,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Available in beta on Pro and Max plans, in the desktop app on macOS. If you're new to computer use, turn it on in Settings → General → Computer use. How it works, and how to use it safely: https://t.co/WTNqd5F0BG",
-      "url": "https://x.com/claudeai/status/2095226835743158320",
-      "source": "Follow Builders · X · Claude",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-02T19:06:19+00:00",
-      "source_count": 1,
       "score": 60,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 和 Anthropic 归零后的 6 个curl CVE",
-      "url": "https://news.ycombinator.com/item?id=49536114",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-02T18:39:52.098000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "实测Claude Fable5.1，我愿称长时间Agent任务和浏览器自动化上稳压GPT5.6",
-      "url": "https://waytoagi.feishu.cn/wiki/JM9owje6hi98hFktHUXcu3yxn1g?from=from_copylink",
-      "source": "社区更新 · 2026-09-02",
-      "site_id": "waytoagi",
-      "published_at": "2026-09-02T18:39:21.557359+00:00",
-      "source_count": 1,
-      "score": 52,
       "official": false,
       "topics": [
         "anthropic"

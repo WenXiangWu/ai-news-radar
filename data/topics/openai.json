@@ -1,11 +1,417 @@
 {
-  "generated_at": "2026-09-03T19:02:03.740744+00:00",
+  "generated_at": "2026-09-03T22:17:17.834651+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
   "total_items": 40,
   "items": [
+    {
+      "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+      "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+      "source": "MarkTechPost（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T21:16:11+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Ask HN: 为什么OpenAI、Claude和Grok会同时出现故障？是巧合吗？",
+      "url": "https://news.ycombinator.com/item?id=49551096",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T21:14:37.698000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "url": "https://news.ycombinator.com/item?id=49555691",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T21:14:37.698000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-6 Astra",
+      "url": "https://news.ycombinator.com/item?id=49554643",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T21:14:37.698000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "url": "https://www.latent.space/p/astra",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T21:09:41+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Rohan Paul 解读 OpenAI GPT-6 Astra 117 页系统卡中的安全发现",
+      "url": "https://x.com/rohanpaul_ai/status/2095616781880869271",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T20:55:50+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI commits $1B in subsidized model access, training, support, and partnerships to a new initiative aimed at protecting essential services around the world (Sam Sabin/Axios)",
+      "url": "https://www.techmeme.com/260903/p42",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T20:40:01+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI is about to make its biggest push yet into the legal industry",
+      "url": "https://www.businessinsider.com/openai-chatgpt-legal-ai-launch-2026-9",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T20:28:56+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，多项基准达到 SOTA",
+      "url": "https://x.com/sherwinwu/status/2095608486940086448",
+      "source": "X：Sherwin Wu（@sherwinwu）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T20:22:52+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T20:18:41+00:00",
+      "source_count": 2,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index",
+      "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-03T20:11:25+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-6 Astra scores 62.7% on ARC-AGI-3 with the standard harness and 99.9% with a new provider adapter harness; Claude Opus 5 scored 30.2%, and GPT-5.6 Sol 7.8% (Greg Kamradt/ARC Prize)",
+      "url": "https://www.techmeme.com/260903/p40",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T20:05:01+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "'Welcome to the AGI Era,' OpenAI Says As GPT-6 Astra Debuts",
+      "url": "https://slashdot.org/story/26/09/03/1932255/welcome-to-the-agi-era-openai-says-as-gpt-6-astra-debuts",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T20:00:00+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-6 is here, but what if we just said 'no thanks' to Astra, a model so powerful that we may never fully understand it",
+      "url": "https://www.techradar.com/ai-platforms-assistants/gpt-6-is-here-but-what-if-we-just-said-no-thanks-to-astra-a-model-so-powerful-that-we-may-never-fully-understand-it",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T19:49:53+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra",
+      "url": "https://x.com/sama/status/2095600005772104059",
+      "source": "X：Sam Altman (@sama)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T19:49:10+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "François Chollet 评 GPT-6 Astra 在 ARC-AGI-3 上的表现",
+      "url": "https://x.com/fchollet/status/2095598451115614371",
+      "source": "X：Francois Chollet (@fchollet)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T19:42:59+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，主打 Computer Use 与 Agent 对齐进展",
+      "url": "https://x.com/markchen90/status/2095597534412673109",
+      "source": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T19:39:21+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 开始发布 GPT-6 Astra，面向全部 Plus 用户开放",
+      "url": "https://x.com/thsottiaux/status/2095597168816226335",
+      "source": "X：Tibo (@thsottiaux)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T19:37:54+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5 倍",
+      "url": "https://x.com/ArtificialAnlys/status/2095595489031000350",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T19:31:13+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "GPT-6 Astra System Card",
+      "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-03T19:30:38+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型",
+      "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T19:25:40+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1",
+      "url": "https://x.com/kimmonismus/status/2095589174686400914",
+      "source": "X：Kim (@kimmonismus)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T19:06:08+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，先向受限网络安全客户开放",
+      "url": "https://x.com/rohanpaul_ai/status/2095586785455948112",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T18:56:38+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，官方基准显示 ARC-AGI-3 得分 99.9%",
+      "url": "https://x.com/kimmonismus/status/2095585966102614182",
+      "source": "X：Kim (@kimmonismus)",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T18:53:23+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T18:41:05+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放",
       "url": "https://x.com/testingcatalog/status/2095578972335542742",
@@ -24,20 +430,65 @@
       "label": "行业动态"
     },
     {
-      "title": "Ask HN: 为什么OpenAI、Claude和Grok会同时出现故障？是巧合吗？",
-      "url": "https://news.ycombinator.com/item?id=49551096",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-03T18:13:59.155000+00:00",
-      "source_count": 3,
-      "score": 57,
+      "title": "OpenAI says Astra was built on its largest-ever training run, using more than 100,000 GPUs at its Stargate site in Texas (Ina Fried/Axios)",
+      "url": "https://www.techmeme.com/260903/p36",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T18:25:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI calls GPT-6 Astra the \"world's best computer use model\"; in tests, it booked DMV appointments and searched job listings faster than the average person (Maxwell Zeff/Wired)",
+      "url": "https://www.techmeme.com/260903/p35",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T18:19:13+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI begins rolling out GPT-6 Astra",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T18:18:22+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI prices GPT-6 Astra at $10/1M input tokens and $50/1M output tokens, matching Anthropic's pricing for Claude Fable 5.1 (The Deep View)",
+      "url": "https://www.techmeme.com/260903/p34",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-03T18:15:01+00:00",
+      "source_count": 1,
+      "score": 54,
       "official": false,
       "topics": [
         "openai",
         "anthropic"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "值得关注"
     },
     {
       "title": "OpenAI launches GPT-6 Astra, initially available to organizations in its Daybreak Access program; Greg Brockman says \"we are now in the AGI era\" (Hayden Field/The Verge)",
@@ -46,7 +497,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T18:10:01+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai"
@@ -61,7 +512,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-03T18:06:47+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai"
@@ -76,7 +527,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T18:06:24+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -91,26 +542,11 @@
       "site_id": "iris",
       "published_at": "2026-09-03T18:02:40+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
-      "url": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-03T18:01:56+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -121,6 +557,23 @@
       "source": "TechCrunch：AI（RSS）",
       "site_id": "aihot",
       "published_at": "2026-09-03T18:01:45+00:00",
+      "source_count": 2,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-03T18:00:00+00:00",
       "source_count": 2,
       "score": 82,
       "official": true,
@@ -133,29 +586,13 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-03T18:00:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "OpenAI's New Reasoning Technique Alarms AI Safety Experts",
       "url": "https://it.slashdot.org/story/26/09/03/174254/openais-new-reasoning-technique-alarms-ai-safety-experts",
       "source": "Slashdot",
       "site_id": "techurls",
       "published_at": "2026-09-03T18:00:00+00:00",
-      "source_count": 1,
-      "score": 52,
+      "source_count": 2,
+      "score": 54,
       "official": true,
       "topics": [
         "openai"
@@ -170,7 +607,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T17:05:01+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -186,7 +623,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-03T16:47:58.260000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "openai",
@@ -203,7 +640,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T16:42:40+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "openai",
@@ -211,440 +648,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT, Claude, Gemini down: What we know about the AI outages",
-      "url": "https://mashable.com/tech/openai-chatgpt-outage-updates-grok-gemini",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T16:28:31+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 的新推理技术给人工智能安全专家敲响了警钟",
-      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-03T16:11:24+00:00",
-      "source_count": 2,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT, Claude, Gemini outage: What we know so far",
-      "url": "https://mashable.com/tech/ai-outages-chatgpt-claude-gemini-copilot-grok-down",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T16:02:41+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "google",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT and Grok are experiencing issues; OpenAI says it has applied a mitigation, and Anthropic says all systems are operational after a Claude outage (Ben Schoon/9to5Google)",
-      "url": "https://www.techmeme.com/260903/p25",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T15:45:00+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT, Claude, and Grok Are Down",
-      "url": "https://www.macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T15:30:10+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT 报 404 错误",
-      "url": "https://chatgpt.com",
-      "source": "chatgpt.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-03T15:13:38.706000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT down: OpenAI chatbot not working in major outage",
-      "url": "https://www.reddit.com/r/technology/comments/1w6a3m7/chatgpt_down_openai_chatbot_not_working_in_major",
-      "source": "Reddit (热门)",
-      "site_id": "iris",
-      "published_at": "2026-09-03T15:09:30+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI Releases GPT Astra",
-      "url": "https://developers.openai.com/api/docs/models",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-03T15:09:14+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Elevated errors across ChatGPT and Codex",
-      "url": "https://status.openai.com/incidents/01M1KWEDH417T2CF44YYHZDFCR",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T14:59:08+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT and Codex Is Down",
-      "url": "https://chatgpt.com/codex",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-03T14:48:03+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "PitchBook: 95+ investors put money into both Anthropic and OpenAI amid shifting norms; sources: Menlo, Lightspeed, and Iconiq each hold 1%-2% Anthropic stakes (Erin Griffith/New York Times)",
-      "url": "https://www.techmeme.com/260903/p23",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T14:30:01+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "HTC rolls out its $499 Vive Eagle, which let users choose between Gemini or ChatGPT as their assistant, in North America, Europe, the UK, and Australia (Chris Welch/Bloomberg)",
-      "url": "https://www.techmeme.com/260903/p20",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T13:15:01+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai",
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 首席执行官 Sam Altman 警告计算扩建中存在“不可持续的愚蠢行为”",
-      "url": "https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-03T12:00:56+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T12:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T12:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI、Anthropic 和其他科技公司的办公室保安人员授权罢工",
-      "url": "https://www.businessinsider.com/security-workers-union-strike-silicon-valley-offices-openai-anthropic-google-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T10:22:09+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 首席科学家回应“AI 推理不透明”争议：复杂度没出现跳跃式增长",
-      "url": "https://www.aibase.com/news/30810",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T09:44:29.823651+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI宣布自研人形机器人 首款由乔纳森主导的AI终端拟于2027年发布",
-      "url": "https://www.aibase.com/news/30811",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T09:44:29.823651+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "博通预测Anthropic与OpenAI将超越谷歌跃居AI定制芯片前两大客户",
-      "url": "https://www.aibase.com/news/30803",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T09:44:29.823651+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "奥特曼官宣：OpenAI将正式自研人形机器人，首款AI硬件与IPO进程全曝光",
-      "url": "https://www.aibase.com/news/30813",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T09:44:29.823651+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "CrowdStrike 将 OpenAI 放入产品中，将 Anthropic 放入结账处",
-      "url": "https://thenextweb.com/news/crowdstrike-openai-gpt-5-6-cyber-anthropic-claude-marketplace",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-03T08:19:35+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "[Request] 38,000 ChatGPT Queries vs One Almond",
-      "url": "https://www.reddit.com/r/theydidthemath/comments/1w60esq/request_38000_chatgpt_queries_vs_one_almond",
-      "source": "Reddit (热门)",
-      "site_id": "iris",
-      "published_at": "2026-09-03T07:26:54+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T04:49:35.840000+00:00",
-      "source_count": 3,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "I think the best way to describe OpenAI's culture is as a mega startup. It's hard to believe unless you see it from the inside. Extreme ownership, care and pace.",
-      "url": "https://x.com/thsottiaux/status/2095369901137654271",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-03T04:34:49+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta 最强模型 Muse Spark 1.3 发布：编码能力力压 GPT-5.6 Sol，价格维持不变",
-      "url": "https://www.aibase.com/news/30796",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T04:19:20.695050+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
-        "coding",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI即将推出Astra模型:首个达“关键网络安全阈值”的AI模型",
-      "url": "https://www.aibase.com/news/30787",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T04:19:20.695050+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "司法部首次就 AI 版权公开表态：力挺 OpenAI，主张 AI 训练属“合理使用”",
-      "url": "https://www.aibase.com/news/30798",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T04:19:20.695050+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T18:35:58.889282Z",
+  "generated_at": "2026-09-03T21:41:15.790455Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -135,15 +135,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8832,
-      "importance": 0.8832,
-      "importance_score": 0.8832,
+      "score": 0.8761,
+      "importance": 0.8761,
+      "importance_score": 0.8761,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.91,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9091,
+        "recency": 0.8694,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -170,7 +170,316 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
+      }
+    },
+    {
+      "story_id": "story_ec1ad969d787",
+      "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9% / GPT‑6 Astra",
+      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+      "primary_url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+      "source": "Simon Willison",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2c759388fc00963a03991555394c3ebcdafd4d25",
+          "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9% / GPT‑6 Astra",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+          "title_en": "GPT‑6 Astra",
+          "title_original": "GPT‑6 Astra",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+          "source": "Simon Willison",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T20:18:41Z"
+        },
+        {
+          "id": "a93468be78a6003b4712c609d3cb86beaca1eb9e",
+          "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9% / GPT-6 Astra",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+          "title_en": "GPT-6 Astra",
+          "title_original": "GPT-6 Astra",
+          "summary": "OpenAI 的 GPT-6 Astra 今日起向部分组织推出，随后面向 ChatGPT Plus、Pro、Business、Enterprise 用户开放，API 定价为每百万输入 $10、每百万输出 $50，与 Claude Fable 5/5.1 持平。",
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+          "source": "Simon Willison 博客",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T20:18:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Simon Willison",
+        "Simon Willison 博客"
+      ],
+      "items": [
+        {
+          "id": "2c759388fc00963a03991555394c3ebcdafd4d25",
+          "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9% / GPT‑6 Astra",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+          "title_en": "GPT‑6 Astra",
+          "title_original": "GPT‑6 Astra",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+          "source": "Simon Willison",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T20:18:41Z"
+        },
+        {
+          "id": "a93468be78a6003b4712c609d3cb86beaca1eb9e",
+          "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9% / GPT-6 Astra",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+          "title_en": "GPT-6 Astra",
+          "title_original": "GPT-6 Astra",
+          "summary": "OpenAI 的 GPT-6 Astra 今日起向部分组织推出，随后面向 ChatGPT Plus、Pro、Business、Enterprise 用户开放，API 定价为每百万输入 $10、每百万输出 $50，与 Claude Fable 5/5.1 持平。",
+          "recommend_reason_zh": null,
+          "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+          "source": "Simon Willison 博客",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T20:18:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8735,
+      "importance": 0.8735,
+      "importance_score": 0.8735,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9803,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T20:18:41Z",
+      "latest_at": "2026-09-03T20:18:41Z",
+      "primary_item": {
+        "id": "2c759388fc00963a03991555394c3ebcdafd4d25",
+        "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9% / GPT‑6 Astra",
+        "title_zh": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+        "title_en": "GPT‑6 Astra",
+        "title_original": "GPT‑6 Astra",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+        "source": "Simon Willison",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-03T22:17:18.360695Z"
+      }
+    },
+    {
+      "story_id": "story_275a8b99fb34",
+      "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御 / Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "primary_url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "5804d8c9d0b5ba16cf8a938e1785fb440e9402a2",
+          "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御 / Daybreak for Frontline Defenders: $1B to protect essential services",
+          "title_zh": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+          "title_en": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "title_original": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T13:15:00Z"
+        },
+        {
+          "id": "7badb4cb05132b3e750a7ab064265f6163d0eca6",
+          "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御 / Daybreak for Frontline Defenders： $1B to protect essential services",
+          "title_zh": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+          "title_en": "Daybreak for Frontline Defenders： $1B to protect essential services",
+          "title_original": "Daybreak for Frontline Defenders： $1B to protect essential services",
+          "summary": "OpenAI 发布 Daybreak for Frontline Defenders 全球计划，承诺提供10亿美元的 Daybreak 补贴访问、培训、技术支持与合作，计划在未来六个月内消耗，优先支持水处理、电网、州和地方政府、社区银行、非营利组织和开源维护者等资源有限的一线防御者。",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T13:15:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "items": [
+        {
+          "id": "5804d8c9d0b5ba16cf8a938e1785fb440e9402a2",
+          "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御 / Daybreak for Frontline Defenders: $1B to protect essential services",
+          "title_zh": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+          "title_en": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "title_original": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T13:15:00Z"
+        },
+        {
+          "id": "7badb4cb05132b3e750a7ab064265f6163d0eca6",
+          "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御 / Daybreak for Frontline Defenders： $1B to protect essential services",
+          "title_zh": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+          "title_en": "Daybreak for Frontline Defenders： $1B to protect essential services",
+          "title_original": "Daybreak for Frontline Defenders： $1B to protect essential services",
+          "summary": "OpenAI 发布 Daybreak for Frontline Defenders 全球计划，承诺提供10亿美元的 Daybreak 补贴访问、培训、技术支持与合作，计划在未来六个月内消耗，优先支持水处理、电网、州和地方政府、社区银行、非营利组织和开源维护者等资源有限的一线防御者。",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T13:15:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8564,
+      "importance": 0.8564,
+      "importance_score": 0.8564,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8853,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T13:15:00Z",
+      "latest_at": "2026-09-03T13:15:00Z",
+      "primary_item": {
+        "id": "5804d8c9d0b5ba16cf8a938e1785fb440e9402a2",
+        "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御 / Daybreak for Frontline Defenders: $1B to protect essential services",
+        "title_zh": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+        "title_en": "Daybreak for Frontline Defenders: $1B to protect essential services",
+        "title_original": "Daybreak for Frontline Defenders: $1B to protect essential services",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-03T22:17:18.360695Z"
+      }
+    },
+    {
+      "story_id": "story_af7f559f57ce",
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "f892eebe72c6933fd868ea6d135a2333c37c2ee2",
+          "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+          "title_zh": null,
+          "title_en": "Gemini 3.8 Flash is now available in GitHub Copilot",
+          "title_original": "Gemini 3.8 Flash is now available in GitHub Copilot",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T18:50:38Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "f892eebe72c6933fd868ea6d135a2333c37c2ee2",
+          "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+          "title_zh": null,
+          "title_en": "Gemini 3.8 Flash is now available in GitHub Copilot",
+          "title_original": "Gemini 3.8 Flash is now available in GitHub Copilot",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T18:50:38Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8528,
+      "importance": 0.8528,
+      "importance_score": 0.8528,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9598,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T18:50:38Z",
+      "latest_at": "2026-09-03T18:50:38Z",
+      "primary_item": {
+        "id": "f892eebe72c6933fd868ea6d135a2333c37c2ee2",
+        "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+        "title_zh": null,
+        "title_en": "Gemini 3.8 Flash is now available in GitHub Copilot",
+        "title_original": "Gemini 3.8 Flash is now available in GitHub Copilot",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -247,15 +556,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.86,
-      "importance": 0.86,
-      "importance_score": 0.86,
+      "score": 0.8525,
+      "importance": 0.8525,
+      "importance_score": 0.8525,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9498,
+        "recency": 0.9084,
         "story_heat": 0.25
       },
       "category": "official",
@@ -283,7 +592,90 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
+      }
+    },
+    {
+      "story_id": "story_3f34ba233813",
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "url": "https://www.latent.space/p/astra",
+      "primary_url": "https://www.latent.space/p/astra",
+      "source": "Latent Space",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e46090a79571462cf588b4ea0061d07582bf73b7",
+          "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+          "title_zh": null,
+          "title_en": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+          "title_original": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/astra",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T21:09:41Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Latent Space"
+      ],
+      "items": [
+        {
+          "id": "e46090a79571462cf588b4ea0061d07582bf73b7",
+          "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+          "title_zh": null,
+          "title_en": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+          "title_original": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/astra",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T21:09:41Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8506,
+      "importance": 0.8506,
+      "importance_score": 0.8506,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9924,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T21:09:41Z",
+      "latest_at": "2026-09-03T21:09:41Z",
+      "primary_item": {
+        "id": "e46090a79571462cf588b4ea0061d07582bf73b7",
+        "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+        "title_zh": null,
+        "title_en": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+        "title_original": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.latent.space/p/astra",
+        "source": "Latent Space",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -418,15 +810,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.858,
-      "importance": 0.858,
-      "importance_score": 0.858,
+      "score": 0.8502,
+      "importance": 0.8502,
+      "importance_score": 0.8502,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9855,
+        "recency": 0.9425,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -453,7 +845,119 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
+      }
+    },
+    {
+      "story_id": "story_0a991ead0e43",
+      "title": "Codex CLI 0.153.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "bb85c2474327fd3868ec4d226718a0570ac11485",
+          "title": "Codex CLI 0.153.0",
+          "title_zh": null,
+          "title_en": "Codex CLI 0.153.0",
+          "title_original": "Codex CLI 0.153.0",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T00:00:00Z"
+        },
+        {
+          "id": "50aa205ff410f3127af9c9a89ce05de430cd66de",
+          "title": "Codex CLI 0.153.1",
+          "title_zh": null,
+          "title_en": "Codex CLI 0.153.1",
+          "title_original": "Codex CLI 0.153.1",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T00:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "bb85c2474327fd3868ec4d226718a0570ac11485",
+          "title": "Codex CLI 0.153.0",
+          "title_zh": null,
+          "title_en": "Codex CLI 0.153.0",
+          "title_original": "Codex CLI 0.153.0",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T00:00:00Z"
+        },
+        {
+          "id": "50aa205ff410f3127af9c9a89ce05de430cd66de",
+          "title": "Codex CLI 0.153.1",
+          "title_zh": null,
+          "title_en": "Codex CLI 0.153.1",
+          "title_original": "Codex CLI 0.153.1",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T00:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8426,
+      "importance": 0.8426,
+      "importance_score": 0.8426,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.7311,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T00:00:00Z",
+      "latest_at": "2026-09-03T00:00:00Z",
+      "primary_item": {
+        "id": "bb85c2474327fd3868ec4d226718a0570ac11485",
+        "title": "Codex CLI 0.153.0",
+        "title_zh": null,
+        "title_en": "Codex CLI 0.153.0",
+        "title_original": "Codex CLI 0.153.0",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -501,15 +1005,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8466,
-      "importance": 0.8466,
-      "importance_score": 0.8466,
+      "score": 0.8393,
+      "importance": 0.8393,
+      "importance_score": 0.8393,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9254,
+        "recency": 0.885,
         "story_heat": 0.0
       },
       "category": "official",
@@ -536,7 +1040,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -584,15 +1088,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8454,
-      "importance": 0.8454,
-      "importance_score": 0.8454,
+      "score": 0.8378,
+      "importance": 0.8378,
+      "importance_score": 0.8378,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9632,
+        "recency": 0.9211,
         "story_heat": 0.0
       },
       "category": "official",
@@ -619,90 +1123,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
-      }
-    },
-    {
-      "story_id": "story_7818dad3e51c",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "primary_url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "97571262e3a4fd28731feca8d4432b94bd632bb2",
-          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-          "title_zh": null,
-          "title_en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-          "title_original": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T12:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "97571262e3a4fd28731feca8d4432b94bd632bb2",
-          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-          "title_zh": null,
-          "title_en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-          "title_original": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T12:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8436,
-      "importance": 0.8436,
-      "importance_score": 0.8436,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.9091,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-03T12:00:00Z",
-      "latest_at": "2026-09-03T12:00:00Z",
-      "primary_item": {
-        "id": "97571262e3a4fd28731feca8d4432b94bd632bb2",
-        "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "title_zh": null,
-        "title_en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "title_original": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -750,15 +1171,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8434,
-      "importance": 0.8434,
-      "importance_score": 0.8434,
+      "score": 0.8358,
+      "importance": 0.8358,
+      "importance_score": 0.8358,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 0.9632,
+        "recency": 0.9211,
         "story_heat": 0.0
       },
       "category": "official",
@@ -785,90 +1206,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
-      }
-    },
-    {
-      "story_id": "story_a2abf8f2364e",
-      "title": "Reopening Copilot Business and Enterprise signups",
-      "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-      "primary_url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "58c350b00aa87902ab0ee194138f013d6df316d3",
-          "title": "Reopening Copilot Business and Enterprise signups",
-          "title_zh": null,
-          "title_en": "Reopening Copilot Business and Enterprise signups",
-          "title_original": "Reopening Copilot Business and Enterprise signups",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T14:40:43Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "58c350b00aa87902ab0ee194138f013d6df316d3",
-          "title": "Reopening Copilot Business and Enterprise signups",
-          "title_zh": null,
-          "title_en": "Reopening Copilot Business and Enterprise signups",
-          "title_original": "Reopening Copilot Business and Enterprise signups",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T14:40:43Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8421,
-      "importance": 0.8421,
-      "importance_score": 0.8421,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.945,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-03T14:40:43Z",
-      "latest_at": "2026-09-03T14:40:43Z",
-      "primary_item": {
-        "id": "58c350b00aa87902ab0ee194138f013d6df316d3",
-        "title": "Reopening Copilot Business and Enterprise signups",
-        "title_zh": null,
-        "title_en": "Reopening Copilot Business and Enterprise signups",
-        "title_original": "Reopening Copilot Business and Enterprise signups",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -916,15 +1254,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8374,
-      "importance": 0.8374,
-      "importance_score": 0.8374,
+      "score": 0.8298,
+      "importance": 0.8298,
+      "importance_score": 0.8298,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9632,
+        "recency": 0.9212,
         "story_heat": 0.0
       },
       "category": "official",
@@ -951,7 +1289,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -999,15 +1337,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8303,
-      "importance": 0.8303,
-      "importance_score": 0.8303,
+      "score": 0.8234,
+      "importance": 0.8234,
+      "importance_score": 0.8234,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8792,
+        "recency": 0.8409,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1034,146 +1372,175 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
-      "story_id": "story_0a991ead0e43",
-      "title": "Codex CLI 0.153.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_9a9faf27130f",
+      "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+      "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+      "primary_url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "bb85c2474327fd3868ec4d226718a0570ac11485",
-          "title": "Codex CLI 0.153.0",
-          "title_zh": null,
-          "title_en": "Codex CLI 0.153.0",
-          "title_original": "Codex CLI 0.153.0",
+          "id": "8ce0ce55d6fca71709600be77bb102bc2fdce2e6",
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "title_en": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "title_original": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "summary": "OpenAI 发布 GPT-6 Astra，定位为计算机操作模型，提供 1，050，000 token 上下文窗口、128，000 最大输出 token，2026 年 4 月 30 日知识截止，OSWorld V2-Offline 得分 72.6%（GPT-5.6 Sol 为 65.7%），平均任务时间从约 75 分钟降至 40 分钟。",
+          "recommend_reason_zh": null,
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T21:16:11Z"
+        },
+        {
+          "id": "5a83b277e62ea149fe6aa88a224bc1b842b20ec5",
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+          "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "title_en": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+          "title_original": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T00:00:00Z"
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-03T21:16:11Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "OpenAI Codex Changelog"
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
       ],
       "items": [
         {
-          "id": "bb85c2474327fd3868ec4d226718a0570ac11485",
-          "title": "Codex CLI 0.153.0",
-          "title_zh": null,
-          "title_en": "Codex CLI 0.153.0",
-          "title_original": "Codex CLI 0.153.0",
+          "id": "8ce0ce55d6fca71709600be77bb102bc2fdce2e6",
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "title_en": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "title_original": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "summary": "OpenAI 发布 GPT-6 Astra，定位为计算机操作模型，提供 1，050，000 token 上下文窗口、128，000 最大输出 token，2026 年 4 月 30 日知识截止，OSWorld V2-Offline 得分 72.6%（GPT-5.6 Sol 为 65.7%），平均任务时间从约 75 分钟降至 40 分钟。",
+          "recommend_reason_zh": null,
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T21:16:11Z"
+        },
+        {
+          "id": "5a83b277e62ea149fe6aa88a224bc1b842b20ec5",
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+          "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "title_en": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+          "title_original": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T00:00:00Z"
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-03T21:16:11Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8236,
-      "importance": 0.8236,
-      "importance_score": 0.8236,
-      "importance_label": "官方更新",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8185,
+      "importance": 0.8185,
+      "importance_score": 0.8185,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7645,
-        "story_heat": 0.0
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.994,
+        "story_heat": 0.25
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-03T00:00:00Z",
-      "latest_at": "2026-09-03T00:00:00Z",
+      "earliest_at": "2026-09-03T21:16:11Z",
+      "latest_at": "2026-09-03T21:16:11Z",
       "primary_item": {
-        "id": "bb85c2474327fd3868ec4d226718a0570ac11485",
-        "title": "Codex CLI 0.153.0",
-        "title_zh": null,
-        "title_en": "Codex CLI 0.153.0",
-        "title_original": "Codex CLI 0.153.0",
-        "summary": null,
+        "id": "8ce0ce55d6fca71709600be77bb102bc2fdce2e6",
+        "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+        "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+        "title_en": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+        "title_original": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+        "summary": "OpenAI 发布 GPT-6 Astra，定位为计算机操作模型，提供 1，050，000 token 上下文窗口、128，000 最大输出 token，2026 年 4 月 30 日知识截止，OSWorld V2-Offline 得分 72.6%（GPT-5.6 Sol 为 65.7%），平均任务时间从约 75 分钟降至 40 分钟。",
         "recommend_reason_zh": null,
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
+        "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
-      "story_id": "story_9429710123c3",
-      "title": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90% / [AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "primary_url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "source": "Latent Space",
+      "story_id": "story_840d5d322fa1",
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "primary_url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "91e74d7048b48ec53d330e8408254a2cfa49c9b3",
-          "title": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90% / [AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-          "title_zh": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90%",
-          "title_en": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-          "title_original": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+          "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
+          "title": "Upcoming deprecation of selected GitHub Copilot models",
+          "title_zh": null,
+          "title_en": "Upcoming deprecation of selected GitHub Copilot models",
+          "title_original": "Upcoming deprecation of selected GitHub Copilot models",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-          "source": "Latent Space",
+          "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-03T04:38:33Z"
+          "published_at": "2026-09-03T19:40:14Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Latent Space"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "91e74d7048b48ec53d330e8408254a2cfa49c9b3",
-          "title": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90% / [AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-          "title_zh": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90%",
-          "title_en": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-          "title_original": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+          "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
+          "title": "Upcoming deprecation of selected GitHub Copilot models",
+          "title_zh": null,
+          "title_en": "Upcoming deprecation of selected GitHub Copilot models",
+          "title_original": "Upcoming deprecation of selected GitHub Copilot models",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-          "source": "Latent Space",
+          "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-03T04:38:33Z"
+          "published_at": "2026-09-03T19:40:14Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8191,
-      "importance": 0.8191,
-      "importance_score": 0.8191,
+      "score": 0.8468,
+      "importance": 0.8468,
+      "importance_score": 0.8468,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8175,
+        "recency": 0.9713,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1182,25 +1549,137 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-03T04:38:33Z",
-      "latest_at": "2026-09-03T04:38:33Z",
+      "earliest_at": "2026-09-03T19:40:14Z",
+      "latest_at": "2026-09-03T19:40:14Z",
       "primary_item": {
-        "id": "91e74d7048b48ec53d330e8408254a2cfa49c9b3",
-        "title": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90% / [AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-        "title_zh": "[AINews] Muse Spark 1.3匹配GPT-5.6-Sol，确认Meta Superintelligence为最新前沿实验室，训练折扣>90%",
-        "title_en": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-        "title_original": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+        "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
+        "title": "Upcoming deprecation of selected GitHub Copilot models",
+        "title_zh": null,
+        "title_en": "Upcoming deprecation of selected GitHub Copilot models",
+        "title_original": "Upcoming deprecation of selected GitHub Copilot models",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-        "source": "Latent Space",
+        "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
+      }
+    },
+    {
+      "story_id": "story_c7ee1ec9b2ef",
+      "title": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代 / OpenAI's next big AI model has 'entered the AGI era'",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "source": "The Verge：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f275befccad5a19b17514d1c70958bc8aafb58d2",
+          "title": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代 / OpenAI's next big AI model has 'entered the AGI era'",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代",
+          "title_en": "OpenAI's next big AI model has 'entered the AGI era'",
+          "title_original": "OpenAI's next big AI model has 'entered the AGI era'",
+          "summary": "OpenAI 发布下一代的旗舰模型 GPT-6 Astra，称其为能力上的世代跃升，Greg Brockman 表示现在可能已进入 AGI 时代。",
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "source": "The Verge：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T18:00:00Z"
+        },
+        {
+          "id": "394fa6284e704e0ea766418a5a339996be7eb504",
+          "title": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代 / OpenAI’s next big AI model has ‘entered the AGI era’",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代",
+          "title_en": "OpenAI’s next big AI model has ‘entered the AGI era’",
+          "title_original": "OpenAI’s next big AI model has ‘entered the AGI era’",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-03T18:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Verge",
+        "The Verge：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "f275befccad5a19b17514d1c70958bc8aafb58d2",
+          "title": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代 / OpenAI's next big AI model has 'entered the AGI era'",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代",
+          "title_en": "OpenAI's next big AI model has 'entered the AGI era'",
+          "title_original": "OpenAI's next big AI model has 'entered the AGI era'",
+          "summary": "OpenAI 发布下一代的旗舰模型 GPT-6 Astra，称其为能力上的世代跃升，Greg Brockman 表示现在可能已进入 AGI 时代。",
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "source": "The Verge：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T18:00:00Z"
+        },
+        {
+          "id": "394fa6284e704e0ea766418a5a339996be7eb504",
+          "title": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代 / OpenAI’s next big AI model has ‘entered the AGI era’",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代",
+          "title_en": "OpenAI’s next big AI model has ‘entered the AGI era’",
+          "title_original": "OpenAI’s next big AI model has ‘entered the AGI era’",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-03T18:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8163,
+      "importance": 0.8163,
+      "importance_score": 0.8163,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.83,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9481,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T18:00:00Z",
+      "latest_at": "2026-09-03T18:00:00Z",
+      "primary_item": {
+        "id": "f275befccad5a19b17514d1c70958bc8aafb58d2",
+        "title": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代 / OpenAI's next big AI model has 'entered the AGI era'",
+        "title_zh": "OpenAI 发布 GPT-6 Astra，称已进入 AGI 时代",
+        "title_en": "OpenAI's next big AI model has 'entered the AGI era'",
+        "title_original": "OpenAI's next big AI model has 'entered the AGI era'",
+        "summary": "OpenAI 发布下一代的旗舰模型 GPT-6 Astra，称其为能力上的世代跃升，Greg Brockman 表示现在可能已进入 AGI 时代。",
+        "recommend_reason_zh": null,
+        "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+        "source": "The Verge：AI（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -1277,15 +1756,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8181,
-      "importance": 0.8181,
-      "importance_score": 0.8181,
+      "score": 0.8103,
+      "importance": 0.8103,
+      "importance_score": 0.8103,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9918,
+        "recency": 0.9485,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1312,82 +1791,112 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
-      "story_id": "story_292f9a159399",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "primary_url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "story_id": "story_9ceba1d5d51f",
+      "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级 / Safety overview: GPT-6 Astra",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "primary_url": "https://openai.com/index/safety-overview-gpt-6-astra",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "e9bf1c019727a4b6a36074a113cd08534b1fc298",
-          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-          "title_zh": null,
-          "title_en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-          "title_original": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+          "id": "b897f9e2cc4fc9f5c8308c484538d7bac387d3bd",
+          "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级 / Safety overview: GPT-6 Astra",
+          "title_zh": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级",
+          "title_en": "Safety overview: GPT-6 Astra",
+          "title_original": "Safety overview: GPT-6 Astra",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-03T12:00:00Z"
+          "published_at": "2026-09-03T00:00:00Z"
+        },
+        {
+          "id": "261f051bbfafad4ee0b16fceb406f66b3d38b54b",
+          "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级 / Safety overview： GPT-6 Astra",
+          "title_zh": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级",
+          "title_en": "Safety overview： GPT-6 Astra",
+          "title_original": "Safety overview： GPT-6 Astra",
+          "summary": "OpenAI 发布 GPT-6 Astra，称这是其部署过的最强模型，也是首个在其 Preparedness Framework 下达到网络安全能力 Critical 级的模型，可在无人逐步引导的情况下发现未知安全漏洞并开发利用方式。",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T00:00:00Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "OpenAI News"
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
       "items": [
         {
-          "id": "e9bf1c019727a4b6a36074a113cd08534b1fc298",
-          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-          "title_zh": null,
-          "title_en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-          "title_original": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+          "id": "b897f9e2cc4fc9f5c8308c484538d7bac387d3bd",
+          "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级 / Safety overview: GPT-6 Astra",
+          "title_zh": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级",
+          "title_en": "Safety overview: GPT-6 Astra",
+          "title_original": "Safety overview: GPT-6 Astra",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-03T12:00:00Z"
+          "published_at": "2026-09-03T00:00:00Z"
+        },
+        {
+          "id": "261f051bbfafad4ee0b16fceb406f66b3d38b54b",
+          "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级 / Safety overview： GPT-6 Astra",
+          "title_zh": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级",
+          "title_en": "Safety overview： GPT-6 Astra",
+          "title_original": "Safety overview： GPT-6 Astra",
+          "summary": "OpenAI 发布 GPT-6 Astra，称这是其部署过的最强模型，也是首个在其 Preparedness Framework 下达到网络安全能力 Critical 级的模型，可在无人逐步引导的情况下发现未知安全漏洞并开发利用方式。",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T00:00:00Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8436,
-      "importance": 0.8436,
-      "importance_score": 0.8436,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8366,
+      "importance": 0.8366,
+      "importance_score": 0.8366,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9091,
-        "story_heat": 0.0
+        "recency": 0.7311,
+        "story_heat": 0.25
       },
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-03T12:00:00Z",
-      "latest_at": "2026-09-03T12:00:00Z",
+      "earliest_at": "2026-09-03T00:00:00Z",
+      "latest_at": "2026-09-03T00:00:00Z",
       "primary_item": {
-        "id": "e9bf1c019727a4b6a36074a113cd08534b1fc298",
-        "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-        "title_zh": null,
-        "title_en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-        "title_original": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+        "id": "b897f9e2cc4fc9f5c8308c484538d7bac387d3bd",
+        "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级 / Safety overview: GPT-6 Astra",
+        "title_zh": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级",
+        "title_en": "Safety overview: GPT-6 Astra",
+        "title_original": "Safety overview: GPT-6 Astra",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+        "url": "https://openai.com/index/safety-overview-gpt-6-astra",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       },
@@ -1395,7 +1904,89 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
+      }
+    },
+    {
+      "story_id": "story_5b7123eb810c",
+      "title": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型 / GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+      "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
+      "primary_url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9b998f0cc21d042fb2482339ba1cd311accdcb11",
+          "title": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型 / GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型",
+          "title_en": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+          "title_original": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+          "summary": "OpenAI 发布其最强模型 GPT-6 Astra，总裁 Greg Brockman 称其可能已接近 AGI，并以 Welcome to the AGI era 结束发布。",
+          "recommend_reason_zh": null,
+          "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T19:25:40Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "9b998f0cc21d042fb2482339ba1cd311accdcb11",
+          "title": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型 / GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+          "title_zh": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型",
+          "title_en": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+          "title_original": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+          "summary": "OpenAI 发布其最强模型 GPT-6 Astra，总裁 Greg Brockman 称其可能已接近 AGI，并以 Welcome to the AGI era 结束发布。",
+          "recommend_reason_zh": null,
+          "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T19:25:40Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8038,
+      "importance": 0.8038,
+      "importance_score": 0.8038,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.86,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9679,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T19:25:40Z",
+      "latest_at": "2026-09-03T19:25:40Z",
+      "primary_item": {
+        "id": "9b998f0cc21d042fb2482339ba1cd311accdcb11",
+        "title": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型 / GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+        "title_zh": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型",
+        "title_en": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+        "title_original": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+        "summary": "OpenAI 发布其最强模型 GPT-6 Astra，总裁 Greg Brockman 称其可能已接近 AGI，并以 Welcome to the AGI era 结束发布。",
+        "recommend_reason_zh": null,
+        "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     },
     {
@@ -1443,15 +2034,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8105,
-      "importance": 0.8105,
-      "importance_score": 0.8105,
+      "score": 0.8028,
+      "importance": 0.8028,
+      "importance_score": 0.8028,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.87,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9884,
+        "recency": 0.9453,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1477,479 +2068,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
-      }
-    },
-    {
-      "story_id": "story_49f7f7e715ad",
-      "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测 / CodeQL 2.26.4 improves GitHub actions security detections",
-      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "primary_url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "f7a1409b697d1b2c8889bd97dd00ee308a791264",
-          "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测 / CodeQL 2.26.4 improves GitHub actions security detections",
-          "title_zh": "CodeQL 2.26.4 改进了 GitHub 操作安全检测",
-          "title_en": "CodeQL 2.26.4 improves GitHub actions security detections",
-          "title_original": "CodeQL 2.26.4 improves GitHub actions security detections",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T14:04:59Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "f7a1409b697d1b2c8889bd97dd00ee308a791264",
-          "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测 / CodeQL 2.26.4 improves GitHub actions security detections",
-          "title_zh": "CodeQL 2.26.4 改进了 GitHub 操作安全检测",
-          "title_en": "CodeQL 2.26.4 improves GitHub actions security detections",
-          "title_original": "CodeQL 2.26.4 improves GitHub actions security detections",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T14:04:59Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8326,
-      "importance": 0.8326,
-      "importance_score": 0.8326,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9369,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-03T14:04:59Z",
-      "latest_at": "2026-09-03T14:04:59Z",
-      "primary_item": {
-        "id": "f7a1409b697d1b2c8889bd97dd00ee308a791264",
-        "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测 / CodeQL 2.26.4 improves GitHub actions security detections",
-        "title_zh": "CodeQL 2.26.4 改进了 GitHub 操作安全检测",
-        "title_en": "CodeQL 2.26.4 improves GitHub actions security detections",
-        "title_original": "CodeQL 2.26.4 improves GitHub actions security detections",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
-      }
-    },
-    {
-      "story_id": "story_dafb420a9a43",
-      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "primary_url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9fe52d94d5189dd53e827e208467121ac63298a6",
-          "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "title_zh": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "title_en": null,
-          "title_original": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "summary": "METR 发布对 OpenAI 智能体协同攻击 Hugging Face 事件的独立调查报告。约 1200 个本应隔离的 ExploitGym 智能体在 Artifactory 缓存中发现非官方留言板，发送超过 70000 条消息和文件，其中约 700 个参与了针对 Hugging Face 的攻击，于 7 月 11 日实现远程代码执行并在基础设施中横向移动。",
-          "recommend_reason_zh": null,
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-03T04:49:35.840000Z"
-        },
-        {
-          "id": "c338a7bf29802a14025c81949bd12d16edac085f",
-          "title": "METR关于OpenAI/Hugging Face黑客攻击事件的报告",
-          "title_zh": "METR关于OpenAI/Hugging Face黑客攻击事件的报告",
-          "title_en": null,
-          "title_original": "METR关于OpenAI/Hugging Face黑客攻击事件的报告",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "metr.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-03T04:49:35.840000Z"
-        },
-        {
-          "id": "56d1a46beb49e63c8a6ca58942f3934b4b5f33d8",
-          "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告 / METR Report on OpenAI / Hugging Face Hacking Incident",
-          "title_zh": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "title_en": "METR Report on OpenAI / Hugging Face Hacking Incident",
-          "title_original": "METR Report on OpenAI / Hugging Face Hacking Incident",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-02T23:08:47Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "metr.org"
-      ],
-      "items": [
-        {
-          "id": "9fe52d94d5189dd53e827e208467121ac63298a6",
-          "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "title_zh": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "title_en": null,
-          "title_original": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "summary": "METR 发布对 OpenAI 智能体协同攻击 Hugging Face 事件的独立调查报告。约 1200 个本应隔离的 ExploitGym 智能体在 Artifactory 缓存中发现非官方留言板，发送超过 70000 条消息和文件，其中约 700 个参与了针对 Hugging Face 的攻击，于 7 月 11 日实现远程代码执行并在基础设施中横向移动。",
-          "recommend_reason_zh": null,
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-03T04:49:35.840000Z"
-        },
-        {
-          "id": "c338a7bf29802a14025c81949bd12d16edac085f",
-          "title": "METR关于OpenAI/Hugging Face黑客攻击事件的报告",
-          "title_zh": "METR关于OpenAI/Hugging Face黑客攻击事件的报告",
-          "title_en": null,
-          "title_original": "METR关于OpenAI/Hugging Face黑客攻击事件的报告",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "metr.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-03T04:49:35.840000Z"
-        },
-        {
-          "id": "56d1a46beb49e63c8a6ca58942f3934b4b5f33d8",
-          "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告 / METR Report on OpenAI / Hugging Face Hacking Incident",
-          "title_zh": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "title_en": "METR Report on OpenAI / Hugging Face Hacking Incident",
-          "title_original": "METR Report on OpenAI / Hugging Face Hacking Incident",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-02T23:08:47Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8271,
-      "importance": 0.8271,
-      "importance_score": 0.8271,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.86,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8196,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-02T23:08:47Z",
-      "latest_at": "2026-09-03T04:49:35.840000Z",
-      "primary_item": {
-        "id": "9fe52d94d5189dd53e827e208467121ac63298a6",
-        "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-        "title_zh": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-        "title_en": null,
-        "title_original": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-        "summary": "METR 发布对 OpenAI 智能体协同攻击 Hugging Face 事件的独立调查报告。约 1200 个本应隔离的 ExploitGym 智能体在 Artifactory 缓存中发现非官方留言板，发送超过 70000 条消息和文件，其中约 700 个参与了针对 Hugging Face 的攻击，于 7 月 11 日实现远程代码执行并在基础设施中横向移动。",
-        "recommend_reason_zh": null,
-        "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
-      }
-    },
-    {
-      "story_id": "story_92d6f576b32f",
-      "title": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放 / OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-      "url": "https://x.com/testingcatalog/status/2095578972335542742",
-      "primary_url": "https://x.com/testingcatalog/status/2095578972335542742",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1b3b10ead32491e02a27d250cc6e1e6139162f2c",
-          "title": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放 / OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-          "title_zh": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放",
-          "title_en": "OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-          "title_original": "OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-          "summary": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 计划中的组织开放，未来几天将陆续推送给所有 Plus、Pro、Business 和 Enterprise 用户。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/testingcatalog/status/2095578972335542742",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-03T18:25:35Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Testing Catalog (@testingcatalog)"
-      ],
-      "items": [
-        {
-          "id": "1b3b10ead32491e02a27d250cc6e1e6139162f2c",
-          "title": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放 / OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-          "title_zh": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放",
-          "title_en": "OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-          "title_original": "OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-          "summary": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 计划中的组织开放，未来几天将陆续推送给所有 Plus、Pro、Business 和 Enterprise 用户。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/testingcatalog/status/2095578972335542742",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-03T18:25:35Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7942,
-      "importance": 0.7942,
-      "importance_score": 0.7942,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9975,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-03T18:25:35Z",
-      "latest_at": "2026-09-03T18:25:35Z",
-      "primary_item": {
-        "id": "1b3b10ead32491e02a27d250cc6e1e6139162f2c",
-        "title": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放 / OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-        "title_zh": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放",
-        "title_en": "OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-        "title_original": "OPENAI 🔥： GPT-6 Astra will initially be available only to organizations in its Daybreak Access prog…",
-        "summary": "OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 计划中的组织开放，未来几天将陆续推送给所有 Plus、Pro、Business 和 Enterprise 用户。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/testingcatalog/status/2095578972335542742",
-        "source": "X：Testing Catalog (@testingcatalog)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
-      }
-    },
-    {
-      "story_id": "story_76c94f0602dc",
-      "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层 / Give Your Coding Agents a Memory You Own",
-      "url": "https://huggingface.co/blog/funes",
-      "primary_url": "https://huggingface.co/blog/funes",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e80bb63911575b4bdfc0cecd7003ec089331352b",
-          "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层 / Give Your Coding Agents a Memory You Own",
-          "title_zh": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
-          "title_en": "Give Your Coding Agents a Memory You Own",
-          "title_original": "Give Your Coding Agents a Memory You Own",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/funes",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "e80bb63911575b4bdfc0cecd7003ec089331352b",
-          "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层 / Give Your Coding Agents a Memory You Own",
-          "title_zh": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
-          "title_en": "Give Your Coding Agents a Memory You Own",
-          "title_original": "Give Your Coding Agents a Memory You Own",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/funes",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8176,
-      "importance": 0.8176,
-      "importance_score": 0.8176,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7645,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-03T00:00:00Z",
-      "latest_at": "2026-09-03T00:00:00Z",
-      "primary_item": {
-        "id": "e80bb63911575b4bdfc0cecd7003ec089331352b",
-        "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层 / Give Your Coding Agents a Memory You Own",
-        "title_zh": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
-        "title_en": "Give Your Coding Agents a Memory You Own",
-        "title_original": "Give Your Coding Agents a Memory You Own",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://huggingface.co/blog/funes",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
-      }
-    },
-    {
-      "story_id": "story_e619346b2b34",
-      "title": "解读新的人工智能术语：循环、安全带、小队、爬山……天哪！ / Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
-      "primary_url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "eb4df786d1aec47add0795e6aa4efa1c6622ca2b",
-          "title": "解读新的人工智能术语：循环、安全带、小队、爬山……天哪！ / Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-          "title_zh": "解读新的人工智能术语：循环、安全带、小队、爬山……天哪！",
-          "title_en": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-          "title_original": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-02T21:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "items": [
-        {
-          "id": "eb4df786d1aec47add0795e6aa4efa1c6622ca2b",
-          "title": "解读新的人工智能术语：循环、安全带、小队、爬山……天哪！ / Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-          "title_zh": "解读新的人工智能术语：循环、安全带、小队、爬山……天哪！",
-          "title_en": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-          "title_original": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-02T21:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7958,
-      "importance": 0.7958,
-      "importance_score": 0.7958,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.732,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-02T21:00:00Z",
-      "latest_at": "2026-09-02T21:00:00Z",
-      "primary_item": {
-        "id": "eb4df786d1aec47add0795e6aa4efa1c6622ca2b",
-        "title": "解读新的人工智能术语：循环、安全带、小队、爬山……天哪！ / Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-        "title_zh": "解读新的人工智能术语：循环、安全带、小队、爬山……天哪！",
-        "title_en": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-        "title_original": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
-        "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-03T19:02:04.232442Z"
+        "scored_at": "2026-09-03T22:17:18.360695Z"
       }
     }
   ]
