@@ -1,19 +1,51 @@
 {
-  "generated_at": "2026-09-03T22:17:17.834651+00:00",
+  "generated_at": "2026-09-04T00:43:07.583989+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 25,
+  "total_items": 23,
   "items": [
     {
-      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
-      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-03T21:20:34+00:00",
+      "title": "一、《从零手撸 Agent》 我用 10 行代码跑通了第一次大模型调用（顺便踩了 4 个坑）",
+      "url": "https://juejin.cn/post/7680471403955191814",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-04T00:03:53.811000+00:00",
       "source_count": 1,
       "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.260",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-03T23:48:12+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "url": "https://news.ycombinator.com/item?id=49557206",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-03T23:45:01.271000+00:00",
+      "source_count": 2,
+      "score": 55,
       "official": false,
       "topics": [
         "anthropic",
@@ -30,7 +62,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-03T20:11:25+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -47,7 +79,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T19:39:21+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -65,7 +97,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T19:31:13+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": false,
       "topics": [
         "openai",
@@ -131,7 +163,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T15:54:57+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "google",
@@ -198,7 +230,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T14:05:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -245,16 +277,17 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
       "published_at": "2026-09-03T04:49:35.840000+00:00",
-      "source_count": 3,
-      "score": 82,
+      "source_count": 2,
+      "score": 79,
       "official": true,
       "topics": [
         "openai",
         "agent",
-        "launch"
+        "launch",
+        "industry"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "行业动态"
     },
     {
       "title": "Ah apologies, effort levels not breaking the prompt cache is live on API but not yet on Claude Code. Should be live within a day or so, will QT when it’s ready. Was OOO and did not realize this didn’t go out with the...",
@@ -279,7 +312,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T04:19:20.695050+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -314,7 +347,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T02:40:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -344,79 +377,12 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T01:10:22+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "anthropic",
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex CLI 0.153.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T00:00:00+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
-      "url": "https://huggingface.co/blog/funes",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "xAI 设计 Grok Bot：为持久化智能体重构交互界面",
-      "url": "https://x.ai/news/designing-grok-bot",
-      "source": "xAI：News（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T00:00:00+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.259",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-02T22:33:51+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
