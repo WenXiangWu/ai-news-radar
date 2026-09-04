@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T19:03:41.778268+00:00",
+  "generated_at": "2026-09-04T22:02:47.117737+00:00",
   "today": "2026-09-05",
-  "lead": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本；Building a Memory-Driven Agent with NVIDIA NemoClaw；OpenAI's rogue agents were caught communicating via public wikis",
+  "lead": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本；GPT-6 Astra is generally available in GitHub Copilot；v0.5.19",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,7 +11,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-04T18:10:02.888000+00:00",
       "source_count": 4,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "opensource"
@@ -21,18 +21,35 @@
       "hot_score": 100
     },
     {
+      "title": "没人解释OpenAI和Anthropic为何出现服务中断",
+      "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-04T18:55:26.092000+00:00",
+      "source_count": 3,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 93
+    },
+    {
       "title": "谷歌AI模式显示的同类商品价格比传统搜索结果高出21.6%",
       "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
       "source": "productrise.app",
       "site_id": "buzzing",
       "published_at": "2026-09-04T14:55:31.836000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 85
+      "hot_score": 66
     },
     {
       "title": "Discovery of a new OpenAI agent message board",
@@ -41,7 +58,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-04T13:53:42.734000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "openai",
@@ -49,40 +66,21 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 78
+      "hot_score": 61
     },
     {
-      "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
-      "url": "https://news.ycombinator.com/item?id=49567357",
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://news.ycombinator.com/item?id=49569366",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-09-04T18:10:02.888000+00:00",
+      "published_at": "2026-09-04T21:10:24.087000+00:00",
       "source_count": 2,
       "score": 55,
       "official": false,
-      "topics": [
-        "opensource"
-      ],
+      "topics": [],
       "reason": "",
       "label": "值得关注",
       "hot_score": 56
-    },
-    {
-      "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
-      "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-04T17:29:22+00:00",
-      "source_count": 2,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 53
     }
   ],
   "topics": [
@@ -105,7 +103,7 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 15
+      "count": 13
     },
     {
       "slug": "deepseek",
@@ -126,7 +124,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 27
+      "count": 24
     },
     {
       "slug": "coding",
@@ -154,14 +152,14 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 34
+      "count": 23
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "industry",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:03:41.778268+00:00",
+  "generated_at": "2026-09-04T22:02:47.117737+00:00",
   "window_hours": 24,
   "total_items": 15,
   "items": [
@@ -10,7 +10,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-04T18:10:02.888000+00:00",
       "source_count": 4,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "opensource"
@@ -20,18 +20,35 @@
       "hot_score": 100
     },
     {
+      "title": "没人解释OpenAI和Anthropic为何出现服务中断",
+      "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-04T18:55:26.092000+00:00",
+      "source_count": 3,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 93
+    },
+    {
       "title": "谷歌AI模式显示的同类商品价格比传统搜索结果高出21.6%",
       "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
       "source": "productrise.app",
       "site_id": "buzzing",
       "published_at": "2026-09-04T14:55:31.836000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 85
+      "hot_score": 66
     },
     {
       "title": "Discovery of a new OpenAI agent message board",
@@ -40,7 +57,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-04T13:53:42.734000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "openai",
@@ -48,7 +65,54 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 78
+      "hot_score": 61
+    },
+    {
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://news.ycombinator.com/item?id=49569366",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-04T21:10:24.087000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "Fermat's Last Theorem: Anthropic has beaten me to it",
+      "url": "https://news.ycombinator.com/item?id=49570133",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-04T21:10:24.087000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-04T19:43:18.339000+00:00",
+      "source_count": 2,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 49
     },
     {
       "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
@@ -57,31 +121,28 @@
       "site_id": "newsnow",
       "published_at": "2026-09-04T18:10:02.888000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 56
+      "hot_score": 43
     },
     {
-      "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
-      "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-04T17:29:22+00:00",
+      "title": "\"Next-token predictor\" is the wrong mental model for LLMs",
+      "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-04T17:09:24+00:00",
       "source_count": 2,
-      "score": 58,
+      "score": 54,
       "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 53
+      "hot_score": 40
     },
     {
       "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
@@ -98,23 +159,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 47
-    },
-    {
-      "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
-      "url": "https://arcprize.org/blog/astra",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-04T00:07:48.532000+00:00",
-      "source_count": 4,
-      "score": 82,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 37
+      "hot_score": 36
     },
     {
       "title": "Ask HN: 有哪些人在生产环境中使用 MCP？",
@@ -130,7 +175,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 36
+      "hot_score": 28
     },
     {
       "title": "GPT-6 Astra 基准表现分歧，ARC-AGI-3 效率超人类令 Chollet 提前 AGI 预测",
@@ -148,24 +193,24 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 31
+      "hot_score": 24
     },
     {
-      "title": "克劳德、Codex 和 Cursor 会选择哪些工具？我们分析了 1.7 万次运行结果来找出答案",
-      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
-      "source": "armature.tech",
-      "site_id": "buzzing",
-      "published_at": "2026-09-04T02:23:17.343000+00:00",
-      "source_count": 3,
-      "score": 53,
+      "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
+      "url": "https://arcprize.org/blog/astra",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-04T00:07:48.532000+00:00",
+      "source_count": 2,
+      "score": 76,
       "official": false,
       "topics": [
-        "agent",
-        "coding"
+        "openai",
+        "industry"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 30
+      "label": "行业动态",
+      "hot_score": 10
     },
     {
       "title": "开发者用 Claude Fable 5 在 Claude Code 中将 1993 年 Amiga 游戏 Babylonian Twins 移植到 Godot",
@@ -174,7 +219,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-04T00:07:47.851000+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "anthropic",
@@ -183,23 +228,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 12
-    },
-    {
-      "title": "Cerebras 平台上提供 Qwen 3.8 27B 版本，价格为 1500 个代币/秒",
-      "url": "https://inference-docs.cerebras.ai/models/overview",
-      "source": "inference-docs.cerebras.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-09-04T00:07:48.309000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "qwen"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
+      "hot_score": 10
     },
     {
       "title": "Protecting Engineers' Skills in the AI Era",
@@ -213,41 +242,6 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
-      "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
-      "source": "MarkTechPost（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T21:16:11+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 10
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
-      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T20:18:41+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新",
       "hot_score": 9
     }
   ]
