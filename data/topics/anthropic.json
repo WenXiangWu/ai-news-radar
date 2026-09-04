@@ -1,11 +1,77 @@
 {
-  "generated_at": "2026-09-04T00:43:07.583989+00:00",
+  "generated_at": "2026-09-04T05:05:01.538771+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 32,
+  "total_items": 30,
   "items": [
+    {
+      "title": "Fable 5.1 来了，智能体任务成本降 45%——Anthropic 这次为何降价这么狠",
+      "url": "https://juejin.cn/post/7680484947149438982",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-04T04:27:41.565000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "全球三大AI集体“大罢工”：ChatGPT、Claude与Grok突发大规模宕机现已全部恢复",
+      "url": "https://www.aibase.com/news/30819",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-04T04:26:54.095255+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
+      "url": "https://www.infoq.cn/article/6Jc130IN2OaXqsPDIzmJ",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-04T02:22:50+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "deepseek",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "开发者用 Claude Fable 5 在 Claude Code 中将 1993 年 Amiga 游戏 Babylonian Twins 移植到 Godot",
+      "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-04T00:07:47.851000+00:00",
+      "source_count": 4,
+      "score": 85,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
     {
       "title": "v2.1.260",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
@@ -13,29 +79,12 @@
       "site_id": "curated_media",
       "published_at": "2026-09-03T23:48:12+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
         "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
-      "url": "https://news.ycombinator.com/item?id=49557206",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-03T23:45:01.271000+00:00",
-      "source_count": 2,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -47,7 +96,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-03T21:56:21+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai",
@@ -63,7 +112,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-03T21:14:37.698000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "openai",
@@ -79,7 +128,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T20:05:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -95,7 +144,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-03T19:46:59+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -111,7 +160,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T19:30:13+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -126,7 +175,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-03T19:06:08+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "openai",
@@ -144,7 +193,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T18:15:01+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "openai",
@@ -160,7 +209,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T18:09:37+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -175,7 +224,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-03T18:02:40+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -191,7 +240,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T16:39:18+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -206,7 +255,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T16:28:31+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -223,7 +272,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T16:02:41+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -241,7 +290,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T15:45:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -257,7 +306,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-03T15:30:10+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -273,7 +322,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-03T15:26:27+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -288,7 +337,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-03T14:57:29.194000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic"
@@ -303,7 +352,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-03T14:32:21.658000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -319,7 +368,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T14:30:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -335,7 +384,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-03T14:15:28+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "anthropic"
@@ -350,7 +399,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T10:22:09+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -366,7 +415,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-03T09:44:29.823651+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -383,7 +432,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-03T09:37:55+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic"
@@ -398,7 +447,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-03T09:02:50+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -413,7 +462,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-03T08:22:02+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
@@ -433,90 +482,6 @@
       "topics": [
         "openai",
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ah apologies, effort levels not breaking the prompt cache is live on API but not yet on Claude Code. Should be live within a day or so, will QT when it’s ready. Was OOO and did not realize this didn’t go out with the...",
-      "url": "https://x.com/trq212/status/2095367584489038044",
-      "source": "Follow Builders · X · Thariq",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-03T04:25:36+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI算力大爆发催生超级巨单：Nscale斩获Anthropic 450亿美元大单，合同总收入跃升突破1000亿美元大关",
-      "url": "https://www.aibase.com/news/30799",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T04:19:20.695050+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic 发布 Claude Fable5.1:具备更强 Agent 编码能力，最高降本45%",
-      "url": "https://www.aibase.com/news/30801",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-03T04:19:20.695050+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "原来 Claude Code 最厉害的工具，一行代码都不写",
-      "url": "https://juejin.cn/post/7680360072334655515",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-03T03:56:59.232000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta Muse Spark 1.3 在 Artificial Analysis 编码智能体指数中与 Claude 组合对比评测结果公布",
-      "url": "https://x.com/alexandr_wang/status/2095318449602138577",
-      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T01:10:22+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
