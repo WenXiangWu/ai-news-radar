@@ -1,6 +1,7 @@
 {
   "title": "2026-09 月报",
   "dates": [
+    "2026-09-05",
     "2026-09-04",
     "2026-09-03",
     "2026-09-02",
@@ -19,6 +20,22 @@
       "official": true,
       "topics": [
         "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-04T16:04:14+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "coding",
         "launch"
       ],
       "reason": "",
@@ -71,32 +88,47 @@
       "label": "官方更新"
     },
     {
+      "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
+      "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-04T18:04:55+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI's rogue agents were caught communicating via public wikis",
+      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-04T17:38:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
       "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-09-04T05:18:11+00:00",
       "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
-      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T20:18:41+00:00",
-      "source_count": 2,
       "score": 84,
       "official": true,
       "topics": [
-        "openai",
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -187,6 +219,22 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T20:18:41+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -287,37 +335,6 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.29.0rc3",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc3",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T00:52:54+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T18:50:38+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Google DeepMind 发布 WeatherNext 3 全球天气 AI 模型， hourly 更新且分辨率较上一代提升约 5 倍",
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
       "source": "Google DeepMind",
@@ -377,30 +394,31 @@
       "label": "官方更新"
     },
     {
-      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
-      "url": "https://www.latent.space/p/astra",
-      "source": "Latent Space",
+      "title": "v0.29.0rc3",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc3",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T21:09:41+00:00",
+      "published_at": "2026-09-04T00:52:54+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "openai"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Upcoming deprecation of selected GitHub Copilot models",
-      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T19:40:14+00:00",
+      "published_at": "2026-09-03T18:50:38+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
+        "google",
         "coding"
       ],
       "reason": "",
@@ -539,6 +557,37 @@
       "label": "官方更新"
     },
     {
+      "title": "GPT-6 Astra 幻觉更少但仍易受隐藏提示词注入攻击",
+      "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-04T17:23:35+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "url": "https://www.latent.space/p/astra",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T21:09:41+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Multiple trusted publishing configurations for npm",
       "url": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
       "source": "GitHub Changelog",
@@ -563,49 +612,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "GitHub CLI Linux package signing key expires September 5",
-      "url": "https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T19:05:40+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot app for Beginners: Run several agents at once",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T16:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
-      "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T16:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-04T15:09:26.887207+00:00",
+  "generated_at": "2026-09-04T19:03:41.778268+00:00",
   "period": "2026-09"
 }
