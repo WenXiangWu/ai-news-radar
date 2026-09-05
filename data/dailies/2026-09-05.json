@@ -1,11 +1,29 @@
 {
-  "generated_at": "2026-09-05T09:36:01.514369+00:00",
+  "generated_at": "2026-09-05T13:11:11.611889+00:00",
   "date": "2026-09-05",
   "timezone": "Asia/Shanghai",
-  "lead": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本；v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill；GPT-6 Astra is generally available in GitHub Copilot",
+  "lead": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制；GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本；v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-05T11:15:55+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 51
+    },
     {
       "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
       "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
@@ -13,7 +31,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T16:04:14+00:00",
       "source_count": 2,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding",
@@ -21,7 +39,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 14
+      "hot_score": 10
     },
     {
       "title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
@@ -30,7 +48,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-04T20:33:56+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "openai",
@@ -39,7 +57,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 20
+      "hot_score": 15
     },
     {
       "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
@@ -48,7 +66,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-04T19:43:18.339000+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "anthropic",
@@ -56,24 +74,27 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 19
-    },
-    {
-      "title": "“下一个令牌预测器”是针对大型语言模型（LLMs）的一种错误的思维模型",
-      "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
-      "source": "gmcgoldr.github.io",
-      "site_id": "buzzing",
-      "published_at": "2026-09-05T06:06:08.624000+00:00",
-      "source_count": 4,
-      "score": 59,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 14
     }
   ],
   "items": [
+    {
+      "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-05T11:15:55+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
       "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
@@ -81,7 +102,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T16:04:14+00:00",
       "source_count": 2,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding",
@@ -97,26 +118,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T22:58:29+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6 Astra is generally available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T18:59:51+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -138,13 +143,29 @@
       "label": "官方更新"
     },
     {
+      "title": "GPT-6 Astra is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-04T18:59:51+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
       "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw",
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
       "published_at": "2026-09-04T18:04:55+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "agent"
@@ -159,7 +180,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T17:38:48+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -175,7 +196,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T19:40:33+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -190,11 +211,27 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T16:43:56+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，消息额度约为 GPT-5.6 Sol 的一半",
+      "url": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-05T07:41:03+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
     },
     {
       "title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
@@ -203,7 +240,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-04T20:33:56+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "openai",
@@ -220,7 +257,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-04T19:43:18.339000+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "anthropic",
@@ -236,28 +273,12 @@
       "site_id": "aihot",
       "published_at": "2026-09-05T07:56:50.597000+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "anthropic",
         "opensource",
         "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，消息额度约为 GPT-5.6 Sol 的一半",
-      "url": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol",
-      "source": "The Decoder：AI News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-05T07:41:03+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "openai",
         "industry"
       ],
       "reason": "",
@@ -286,7 +307,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-05T07:09:06+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "openai",
@@ -296,13 +317,43 @@
       "label": "行业动态"
     },
     {
+      "title": "OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
+      "url": "https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-05T10:57:51+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
+      "url": "https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-05T10:22:38+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
       "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-09-04T23:15:11+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -317,7 +368,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-04T19:58:10+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -334,56 +385,13 @@
       "site_id": "curated_media",
       "published_at": "2026-09-04T16:21:11+00:00",
       "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
-      "url": "https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-04T14:19:14+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
-      "url": "https://the-decoder.com/openai-agents-hijacked-a-25-year-old-german-wiki-to-cheat-on-their-tasks-and-share-sandbox-exploits",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-04T13:24:24+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "“下一个令牌预测器”是针对大型语言模型（LLMs）的一种错误的思维模型",
-      "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
-      "source": "gmcgoldr.github.io",
-      "site_id": "buzzing",
-      "published_at": "2026-09-05T06:06:08.624000+00:00",
-      "source_count": 4,
       "score": 59,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
-      "label": "多源热议"
+      "label": "值得关注"
     }
   ]
 }
