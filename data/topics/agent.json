@@ -1,11 +1,44 @@
 {
-  "generated_at": "2026-09-05T18:37:48.158598+00:00",
+  "generated_at": "2026-09-05T20:42:53.653783+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 11,
+  "total_items": 10,
   "items": [
+    {
+      "title": "OpenAI agent swarm posted two FBI database API keys, and hit two universities",
+      "url": "https://twitter.com/kennethrdegraff/status/2096028829890625978",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-05T19:07:25+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
+      "url": "https://x.com/rohanpaul_ai/status/2096303922378088854",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "site_id": "aihot",
+      "published_at": "2026-09-05T18:26:17+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "OpenAI says it will change how it informs the public when its AI agents go off the rails",
       "url": "https://www.businessinsider.com/openai-ai-agent-rogue-reporting-german-wiki-hugging-face-2026-9",
@@ -13,7 +46,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-05T16:09:59+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
@@ -29,7 +62,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-05T12:16:16+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "deepseek",
@@ -45,7 +78,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-05T11:43:16+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -95,7 +128,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-05T04:03:41+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": false,
       "topics": [
         "openai",
@@ -112,7 +145,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-04T22:52:14+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic",
@@ -122,63 +155,16 @@
       "label": "值得关注"
     },
     {
-      "title": "v2.1.261",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-04T19:58:10+00:00",
+      "title": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API. We will start rollout to Plus and Business users next. Thank you for the patience.",
+      "url": "https://x.com/sama/status/2095973658867171733",
+      "source": "Follow Builders · X · Sam Altman",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-04T20:33:56+00:00",
       "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "More Targets of the OpenAI Agent Swarm",
-      "url": "https://fi-le.net/vanderbilt",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-04T19:31:04+00:00",
-      "source_count": 1,
-      "score": 47,
+      "score": 62,
       "official": false,
       "topics": [
         "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GStack now uses @AsideAI browser as it's preferred remote session browser Does your AI agent need access to web and credentials as you? Aside is now the #1 absolute best way to do it I've found out of all AI agent too...",
-      "url": "https://x.com/garrytan/status/2095948689823121872",
-      "source": "Follow Builders · X · Garry Tan",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-04T18:54:43+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI 工程技能图谱：使用编码智能体",
-      "url": "https://waytoagi.feishu.cn/wiki/Xq2gwgBaOixKZWkQQYCcs0q1nif?from=from_copylink",
-      "source": "社区更新 · 2026-09-04",
-      "site_id": "waytoagi",
-      "published_at": "2026-09-04T18:21:48.538115+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
         "agent",
         "coding"
       ],

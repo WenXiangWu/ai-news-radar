@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T18:37:48.158598+00:00",
+  "generated_at": "2026-09-05T20:42:53.653783+00:00",
   "window_hours": 168,
-  "total_items": 12,
+  "total_items": 10,
   "items": [
     {
       "title": "AI 处理事件，工程师与系统失去联系",
@@ -15,7 +15,24 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 50
+    },
+    {
+      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-05T18:05:27+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 48
     },
     {
       "title": "Spotify的Portal将我的Claude Code代币使用量减少了90%",
@@ -32,7 +49,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 47
+      "hot_score": 40
     },
     {
       "title": "Claude's new system prompt doesn't want to reproduce song lyrics",
@@ -41,14 +58,14 @@
       "site_id": "newsnow",
       "published_at": "2026-09-05T15:33:45.195000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 46
+      "hot_score": 39
     },
     {
       "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
@@ -66,7 +83,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 32
+      "hot_score": 27
     },
     {
       "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
@@ -82,21 +99,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
-    },
-    {
-      "title": "人工智能现在能设计电路板了吗？",
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet",
-      "source": "eebench.org",
-      "site_id": "buzzing",
-      "published_at": "2026-09-04T23:59:17.240000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 25
+      "hot_score": 23
     },
     {
       "title": "人工智能分析指数 v4.2",
@@ -105,12 +108,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-05T06:37:51.877000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 22
+      "hot_score": 19
     },
     {
       "title": "Show HN: Moadim.io – A scheduler for agents",
@@ -124,7 +127,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 18
+      "hot_score": 15
     },
     {
       "title": "OpenRouter 上的 GPT-6 Astra",
@@ -133,32 +136,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-05T00:47:17.607000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 14
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
-      "url": "https://x.com/OpenAI/status/2095968413646737608",
-      "source": "X：OpenAI (@OpenAI)",
-      "site_id": "aihot",
-      "published_at": "2026-09-04T20:33:56+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 10
+      "hot_score": 11
     },
     {
       "title": "Fermat's Last Theorem: Anthropic has beaten me to it",
@@ -167,31 +152,14 @@
       "site_id": "newsnow",
       "published_at": "2026-09-04T21:10:24.087000+00:00",
       "source_count": 2,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 10
-    },
-    {
-      "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-04T19:43:18.339000+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 9
+      "hot_score": 8
     }
   ]
 }
