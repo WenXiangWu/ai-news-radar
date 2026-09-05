@@ -1,11 +1,44 @@
 {
-  "generated_at": "2026-09-05T20:42:53.653783+00:00",
+  "generated_at": "2026-09-05T23:13:15.412103+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 17,
+  "total_items": 14,
   "items": [
+    {
+      "title": "OpenAI GPT-6 Astra 登顶 Code Arena WebDev 榜首，领先 Claude Fable 5.1 达 35 分",
+      "url": "https://x.com/testingcatalog/status/2096350628054176240",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "site_id": "aihot",
+      "published_at": "2026-09-05T21:31:52+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Show HN: Claude Skill – Interns must review (your agent's design choices)",
+      "url": "https://github.com/alpbahadur/interns-review-plugin",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-05T19:27:47+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Claude's new system prompt doesn't want to reproduce song lyrics",
       "url": "https://news.ycombinator.com/item?id=49575143",
@@ -28,7 +61,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-05T15:04:50+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -90,7 +123,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-05T07:56:50.597000+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "anthropic",
@@ -108,7 +141,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-05T07:26:09.234000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "anthropic",
@@ -124,7 +157,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-05T04:39:31+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "anthropic"
@@ -139,7 +172,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-05T01:17:37+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -186,7 +219,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-04T22:52:38+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -194,83 +227,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Claude Code skills for advanced context engineering techniques and patterns",
-      "url": "https://github.com/NeoLabHQ/context-engineering-kit",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-04T22:52:14+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude 完成 Fermat 大定理的首个全机器校验形式化证明",
-      "url": "https://x.com/kimmonismus/status/2096007967749349844",
-      "source": "X：Kim (@kimmonismus)",
-      "site_id": "aihot",
-      "published_at": "2026-09-04T22:50:16+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Fermat's Last Theorem: Anthropic has beaten me to it",
-      "url": "https://news.ycombinator.com/item?id=49570133",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-04T21:10:24.087000+00:00",
-      "source_count": 2,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic's Claude is Coming to CarPlay",
-      "url": "https://www.macrumors.com/2026/09/04/anthropics-claude-is-coming-to-carplay",
-      "source": "Mac Rumors",
-      "site_id": "techurls",
-      "published_at": "2026-09-04T20:43:40+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic says Claude worked \"largely autonomously\" over 11 days to formalize the proof of Fermat's Last Theorem in the Lean programming language (Anthropic)",
-      "url": "https://www.techmeme.com/260904/p28",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-04T20:35:10+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
