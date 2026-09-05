@@ -1,11 +1,60 @@
 {
-  "generated_at": "2026-09-05T00:36:32.988523+00:00",
+  "generated_at": "2026-09-05T04:55:50.891218+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 22,
+  "total_items": 18,
   "items": [
+    {
+      "title": "GPT-6 发布当晚，三大 AI 集体宕机 4 小时——我扒完时间线，发现最该慌的不是宕机",
+      "url": "https://juejin.cn/post/7681475476906950691",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-05T04:22:29.019000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes",
+      "url": "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-09-05T03:52:23+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出",
+      "url": "https://www.ithome.com/0/998/661.htm",
+      "source": "IT之家（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-05T00:42:24+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
@@ -13,7 +62,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T22:58:29+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "launch"
@@ -28,7 +77,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T21:05:01+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding",
@@ -44,7 +93,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-04T20:13:05+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -61,7 +110,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-04T19:58:10+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -78,7 +127,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T19:40:33+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -93,7 +142,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-04T18:22:21.135000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -109,7 +158,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-04T18:10:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -125,7 +174,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-04T16:04:14+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding",
@@ -141,7 +190,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-04T09:35:53.260163+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "google",
@@ -158,7 +207,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-04T09:35:53.260163+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "google",
@@ -175,7 +224,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-04T09:35:53.260163+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "launch",
@@ -183,22 +232,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "谷歌云发布 AI 智能体，简化数据库生命周期管理",
-      "url": "https://www.infoq.cn/article/iV0rsPyO5XZDJ7797hLJ",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-04T09:21:00+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "OpenAI发布GPT-6Astra:行业迈入AGI时代，性能多维跃升并重塑安全边界",
@@ -211,11 +244,10 @@
       "official": false,
       "topics": [
         "openai",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "OpenAI正式发布GPT-6 Astra：迈向通用人工智能的里程碑之作",
@@ -228,11 +260,10 @@
       "official": false,
       "topics": [
         "openai",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Qira 落地可穿戴：摩托罗拉发布 moto watch ultra，抬腕就能问 AI",
@@ -244,11 +275,10 @@
       "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "微软发布MAI-Transcribe-2语音识别模型，每小时仅0.10美元",
@@ -260,110 +290,10 @@
       "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，主打桌面自动化与网络安全 Critical 档位",
-      "url": "https://x.com/AYi_AInotes/status/2095700816980222311",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "site_id": "aihot",
-      "published_at": "2026-09-04T02:29:45+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作与对齐能力",
-      "url": "https://x.com/AYi_AInotes/status/2095698966684049433",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "site_id": "aihot",
-      "published_at": "2026-09-04T02:22:24+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI Soft-Releases GPT‑6 Astra",
-      "url": "https://daringfireball.net/linked/2026/09/03/gpt-6-astra",
-      "source": "Daring Fireball",
-      "site_id": "techurls",
-      "published_at": "2026-09-04T01:35:24+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
         "launch"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作并触发网络安全 Critical 红线",
-      "url": "https://x.com/frxiaobei/status/2095682473745363068",
-      "source": "X：小北 (@frxiaobei)",
-      "site_id": "aihot",
-      "published_at": "2026-09-04T01:16:52+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "v0.29.0rc3",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc3",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T00:52:54+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录并强化网络安全能力",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-04T00:07:48.515000+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }

@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-09-05T00:36:32.988523+00:00",
+  "generated_at": "2026-09-05T04:55:50.891218+00:00",
   "today": "2026-09-05",
   "lead": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本；v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill；GPT-6 Astra is generally available in GitHub Copilot",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "人工智能现在能设计电路板了吗？",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet",
+      "source": "eebench.org",
+      "site_id": "buzzing",
+      "published_at": "2026-09-04T23:59:17.240000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 79
+    },
     {
       "title": "Corporate America is getting hooked on open-source AI",
       "url": "https://news.ycombinator.com/item?id=49566137",
@@ -11,76 +25,59 @@
       "site_id": "newsnow",
       "published_at": "2026-09-04T18:10:02.888000+00:00",
       "source_count": 4,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 73
     },
     {
-      "title": "没人解释OpenAI和Anthropic为何出现服务中断",
-      "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today",
-      "source": "www.wired.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-04T18:55:26.092000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 75
-    },
-    {
-      "title": "谷歌AI模式显示的同类商品价格比传统搜索结果高出21.6%",
-      "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
-      "source": "productrise.app",
-      "site_id": "buzzing",
-      "published_at": "2026-09-04T14:55:31.836000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
-    },
-    {
-      "title": "Discovery of a new OpenAI agent message board",
-      "url": "https://news.ycombinator.com/item?id=49563355",
+      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+      "url": "https://news.ycombinator.com/item?id=49571465",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-09-04T13:53:42.734000+00:00",
-      "source_count": 3,
+      "published_at": "2026-09-05T04:22:29.019000+00:00",
+      "source_count": 2,
       "score": 55,
       "official": false,
       "topics": [
-        "openai",
+        "anthropic",
         "agent"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 49
+      "label": "值得关注",
+      "hot_score": 57
     },
     {
-      "title": "Can AI design circuit boards yet?",
-      "url": "https://news.ycombinator.com/item?id=49569366",
+      "title": "Show HN: Moadim.io – A scheduler for agents",
+      "url": "https://news.ycombinator.com/item?id=49571537",
       "source": "hackernews",
       "site_id": "newsnow",
-      "published_at": "2026-09-04T21:10:24.087000+00:00",
+      "published_at": "2026-09-05T04:22:29.019000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 45
+      "hot_score": 57
+    },
+    {
+      "title": "Show HN: TERMy——一款不使用大型语言模型（LLM）的高速终端助手",
+      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-05T03:57:57.842000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 55
     }
   ],
   "topics": [
@@ -96,35 +93,35 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 13
+      "count": 12
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 6
+      "count": 5
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 19
+      "count": 17
     },
     {
       "slug": "coding",
@@ -152,7 +149,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 22
+      "count": 18
     },
     {
       "slug": "paper",
@@ -166,7 +163,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 40
+      "count": 27
     }
   ],
   "days": [
