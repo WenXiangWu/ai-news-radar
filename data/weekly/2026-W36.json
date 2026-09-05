@@ -74,19 +74,6 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
-      "url": "https://www.latent.space/p/grok-bot",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-05T15:01:02+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
       "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
       "source": "Latent Space",
@@ -107,6 +94,19 @@
       "source": "Simon Willison",
       "site_id": "official_ai",
       "published_at": "2026-09-05T15:51:09+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "url": "https://www.latent.space/p/grok-bot",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-05T15:01:02+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -331,23 +331,6 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "source": "The Verge：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-05T11:15:55+00:00",
-      "source_count": 2,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
       "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
       "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
       "source": "GitHub AI & ML",
@@ -454,6 +437,23 @@
       "label": "官方更新"
     },
     {
+      "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-05T11:15:55+00:00",
+      "source_count": 2,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
       "source": "vLLM Releases",
@@ -463,22 +463,6 @@
       "score": 81,
       "official": true,
       "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — August 31",
-      "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T21:05:01+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding",
         "launch"
       ],
       "reason": "",
@@ -496,6 +480,37 @@
       "topics": [
         "openai",
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
+      "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-04T18:04:55+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
+      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-04T17:38:48+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
       ],
       "reason": "",
       "label": "官方更新"
@@ -600,23 +615,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "datasette-mcp 0.2",
-      "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T15:30:12+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "mcp"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-05T16:30:32.177347+00:00",
+  "generated_at": "2026-09-05T18:37:48.158598+00:00",
   "period": "2026-W36"
 }
