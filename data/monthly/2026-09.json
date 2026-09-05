@@ -1,6 +1,7 @@
 {
   "title": "2026-09 月报",
   "dates": [
+    "2026-09-06",
     "2026-09-05",
     "2026-09-04",
     "2026-09-03",
@@ -72,6 +73,19 @@
       "label": "官方更新"
     },
     {
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "url": "https://www.latent.space/p/grok-bot",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-05T15:01:02+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
       "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
       "source": "Latent Space",
@@ -83,6 +97,19 @@
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Using Blender with coding agents on macOS",
+      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-05T15:51:09+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -305,53 +332,6 @@
       "label": "行业动态"
     },
     {
-      "title": "v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T22:58:29+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — August 31",
-      "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T21:05:01+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6 Astra is generally available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T18:59:51+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
       "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
       "source": "GitHub AI & ML",
@@ -458,32 +438,48 @@
       "label": "官方更新"
     },
     {
-      "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
-      "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw",
-      "source": "NVIDIA Developer Blog",
+      "title": "v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-04T18:04:55+00:00",
+      "published_at": "2026-09-04T22:58:29+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "agent"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
-      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
-      "source": "Simon Willison",
+      "title": "GitHub Copilot weekly releases — August 31",
+      "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-04T17:38:48+00:00",
+      "published_at": "2026-09-04T21:05:01+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6 Astra is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-04T18:59:51+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
         "openai",
-        "agent"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -621,6 +617,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-05T13:11:11.611889+00:00",
+  "generated_at": "2026-09-05T16:30:32.177347+00:00",
   "period": "2026-09"
 }
