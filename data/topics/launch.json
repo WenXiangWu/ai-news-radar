@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-05T23:13:15.412103+00:00",
+  "generated_at": "2026-09-06T01:14:04.845819+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 6,
+  "total_items": 4,
   "items": [
     {
       "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
@@ -48,7 +48,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-05T04:22:29.019000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",
@@ -64,7 +64,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-05T03:52:23+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "opensource",
@@ -72,38 +72,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出",
-      "url": "https://www.ithome.com/0/998/661.htm",
-      "source": "IT之家（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-05T00:42:24+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T22:58:29+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }

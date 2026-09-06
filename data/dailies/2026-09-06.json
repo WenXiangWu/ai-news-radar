@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T23:13:15.412103+00:00",
+  "generated_at": "2026-09-06T01:14:04.845819+00:00",
   "date": "2026-09-06",
   "timezone": "Asia/Shanghai",
-  "lead": "Using Blender with coding agents on macOS；OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot；OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
+  "lead": "Introducing GPT-6 Astra for developers；OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot；Using Blender with coding agents on macOS",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 39
+      "hot_score": 33
     },
     {
       "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
@@ -39,20 +39,22 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 22
+      "hot_score": 19
     }
   ],
   "items": [
     {
-      "title": "Using Blender with coding agents on macOS",
-      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos",
+      "title": "Introducing GPT-6 Astra for developers",
+      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers",
       "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-05T15:51:09+00:00",
+      "published_at": "2026-09-05T23:27:48+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 85,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -64,6 +66,19 @@
       "published_at": "2026-09-05T15:01:02+00:00",
       "source_count": 1,
       "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Using Blender with coding agents on macOS",
+      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-05T15:51:09+00:00",
+      "source_count": 1,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -101,21 +116,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T22:58:29+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     },
     {
       "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
@@ -190,7 +190,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-05T22:49:55+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "openai"
@@ -205,7 +205,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-05T19:35:24+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "google"
@@ -220,7 +220,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-05T10:57:51+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -259,36 +259,6 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-04T23:15:11+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI Agents Hacked Another Website",
-      "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-05T10:30:00+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%",
       "url": "https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models",
       "source": "MarkTechPost Research",
@@ -304,13 +274,28 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI Agents Hacked Another Website",
+      "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-05T10:30:00+00:00",
+      "source_count": 1,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes",
       "url": "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-09-05T03:52:23+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "opensource",
@@ -326,7 +311,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-05T21:17:18+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai"
@@ -345,6 +330,22 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN: Claude Skill – Interns must review (your agent's design choices)",
+      "url": "https://github.com/alpbahadur/interns-review-plugin",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-05T19:27:47+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
