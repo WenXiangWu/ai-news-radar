@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T17:18:00.621022+00:00",
+  "generated_at": "2026-09-06T19:25:47.800340+00:00",
   "today": "2026-09-07",
-  "lead": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员；An Alien Mind；Introducing GPT-6 Astra for developers",
+  "lead": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱；OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员；Introducing GPT-6 Astra for developers",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,12 +11,44 @@
       "site_id": "buzzing",
       "published_at": "2026-09-06T16:12:11.446000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 92
+    },
+    {
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-06T18:33:46.745000+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 56
+    },
+    {
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-06T16:37:55+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
     },
     {
       "title": "人工智能关机——保持人性",
@@ -30,21 +62,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "人工智能、工具与转型",
-      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-      "source": "www.ben-evans.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-06T14:22:15.057000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 47
+      "hot_score": 43
     },
     {
       "title": "GPT-6 Astra on robot arms",
@@ -60,24 +78,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 46
-    },
-    {
-      "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-06T08:00:00+00:00",
-      "source_count": 2,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 28
+      "hot_score": 39
     }
   ],
   "topics": [
@@ -86,14 +87,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 28
+      "count": 25
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 6
+      "count": 8
     },
     {
       "slug": "google",
@@ -121,14 +122,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 7
+      "count": 9
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "mcp",
@@ -156,14 +157,14 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 7
+      "count": 6
     }
   ],
   "days": [

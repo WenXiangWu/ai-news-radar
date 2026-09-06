@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T17:18:00.621022+00:00",
+  "generated_at": "2026-09-06T19:25:47.800340+00:00",
   "window_hours": 24,
-  "total_items": 9,
+  "total_items": 10,
   "items": [
     {
       "title": "我对人工智能的看法",
@@ -10,12 +10,44 @@
       "site_id": "buzzing",
       "published_at": "2026-09-06T16:12:11.446000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 92
+    },
+    {
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-06T18:33:46.745000+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 56
+    },
+    {
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-06T16:37:55+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
     },
     {
       "title": "人工智能关机——保持人性",
@@ -29,21 +61,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "人工智能、工具与转型",
-      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-      "source": "www.ben-evans.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-06T14:22:15.057000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 47
+      "hot_score": 43
     },
     {
       "title": "GPT-6 Astra on robot arms",
@@ -59,7 +77,21 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 46
+      "hot_score": 39
+    },
+    {
+      "title": "人工智能、工具与转型",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "source": "www.ben-evans.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-06T14:22:15.057000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 39
     },
     {
       "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
@@ -68,7 +100,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-06T08:00:00+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "openai",
@@ -76,7 +108,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 28
+      "hot_score": 23
     },
     {
       "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
@@ -85,14 +117,14 @@
       "site_id": "newsnow",
       "published_at": "2026-09-06T00:26:45.201000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 15
+      "hot_score": 12
     },
     {
       "title": "America's two largest school districts impose AI moratoriums",
@@ -106,7 +138,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 12
+      "hot_score": 10
     },
     {
       "title": "大语言模型作为认知病毒",
@@ -122,24 +154,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-05T18:05:27+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 9
+      "hot_score": 10
     }
   ]
 }

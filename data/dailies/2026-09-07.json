@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-06T17:18:00.621022+00:00",
+  "generated_at": "2026-09-06T19:25:47.800340+00:00",
   "date": "2026-09-07",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员；An Alien Mind；Introducing GPT-6 Astra for developers",
+  "lead": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱；OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员；Introducing GPT-6 Astra for developers",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-06T18:33:46.745000+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 56
+    },
     {
       "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -13,7 +29,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-06T08:00:00+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "openai",
@@ -21,27 +37,41 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 28
+      "hot_score": 23
     },
     {
-      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-05T18:05:27+00:00",
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-06T16:37:55+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 54,
       "official": true,
       "topics": [
-        "openai",
-        "industry"
+        "openai"
       ],
       "reason": "",
-      "label": "行业动态",
-      "hot_score": 9
+      "label": "值得关注",
+      "hot_score": 48
     }
   ],
   "items": [
+    {
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-06T18:33:46.745000+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -49,26 +79,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-06T08:00:00+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "openai",
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "An Alien Mind",
-      "url": "https://openai.com/index/an-alien-mind",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-06T09:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -80,7 +95,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-05T23:27:48+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -89,29 +104,13 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-05T18:05:27+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
       "title": "OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months",
       "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-06T10:15:17+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -126,7 +125,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T09:56:24+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "google"
@@ -141,7 +140,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T10:36:35+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [],
       "reason": "",
@@ -186,7 +185,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-05T19:35:24+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "google"
@@ -201,10 +200,41 @@
       "site_id": "curated_media",
       "published_at": "2026-09-05T19:40:11+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-06T16:37:55+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "AI agents keep finding ways to bend the rules. Here are some of the wildest.",
+      "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-06T17:05:25+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -216,7 +246,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T15:37:52+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
@@ -290,7 +320,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T12:23:49+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -306,7 +336,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-05T21:17:18+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
@@ -325,22 +355,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: Claude Skill – Interns must review (your agent's design choices)",
-      "url": "https://github.com/alpbahadur/interns-review-plugin",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-05T19:27:47+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
