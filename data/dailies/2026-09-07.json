@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T21:35:25.497888+00:00",
+  "generated_at": "2026-09-07T00:07:23.515513+00:00",
   "date": "2026-09-07",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱；OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员；Introducing GPT-6 Astra for developers",
+  "lead": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱；OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员；Authors push back as publishers and agents make claims on Anthropic settlement",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,14 +13,14 @@
       "site_id": "official_ai",
       "published_at": "2026-09-06T18:33:46.745000+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 47
+      "hot_score": 38
     },
     {
       "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
@@ -29,7 +29,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-06T08:00:00+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -37,13 +37,13 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 19
+      "hot_score": 16
     },
     {
       "title": "How we monitor internal coding agents for misalignment",
       "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-06T16:37:55+00:00",
       "source_count": 2,
       "score": 53,
@@ -53,7 +53,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 40
+      "hot_score": 32
     }
   ],
   "items": [
@@ -64,7 +64,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-06T18:33:46.745000+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
@@ -79,26 +79,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-06T08:00:00+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Introducing GPT-6 Astra for developers",
-      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-05T23:27:48+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -125,7 +110,22 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T10:15:17+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-06T23:36:04+00:00",
+      "source_count": 1,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -140,7 +140,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T09:56:24+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "google"
@@ -155,7 +155,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T10:36:35+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [],
       "reason": "",
@@ -179,25 +179,10 @@
       "label": "值得关注"
     },
     {
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-05T22:49:55+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "How we monitor internal coding agents for misalignment",
       "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-06T16:37:55+00:00",
       "source_count": 2,
       "score": 53,
@@ -209,13 +194,71 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI’s chief scientist says no lab should keep scaling at maximum speed",
+      "url": "https://thenextweb.com/news/openai-slowdown-pachocki-alien-mind-research-intern-compute",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-06T22:14:05+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "An AI hacking trick is now being used to split the word ‘funding’ in spam",
+      "url": "https://thenextweb.com/news/ascii-smuggling-phishing-microsoft-unicode-tag-characters",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-06T21:54:26+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic will reportedly list days before the US midterm elections",
+      "url": "https://thenextweb.com/news/anthropic-ipo-mid-october-midterms-15bn-credit-facility",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-06T21:42:16+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Authors say publishers want a cut of Anthropic’s payout, the NYT reports",
+      "url": "https://thenextweb.com/news/anthropic-settlement-authors-publishers-payout-split",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-06T20:20:06+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "OpenAI says it reached its goal of creating an automated research intern",
       "url": "https://www.engadget.com/2251859/openai-says-it-reached-its-goal-of-creating-an-automated-research-intern",
       "source": "Engadget",
       "site_id": "techurls",
       "published_at": "2026-09-06T19:26:52+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai"
@@ -230,7 +273,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T19:26:04+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai"
@@ -245,7 +288,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T17:05:25+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -261,7 +304,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T15:37:52+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -310,50 +353,6 @@
       "topics": [
         "openai"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "The man paid to prove Fermat by hand says Claude did it in 11 days",
-      "url": "https://thenextweb.com/news/anthropic-claude-fermat-last-theorem-lean-buzzard",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-06T13:33:20+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI’s AGI number came from a harness, not the model",
-      "url": "https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-06T12:23:49+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-06T16:45:00+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
