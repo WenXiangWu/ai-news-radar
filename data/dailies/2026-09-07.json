@@ -1,35 +1,19 @@
 {
-  "generated_at": "2026-09-07T00:07:23.515513+00:00",
+  "generated_at": "2026-09-07T04:53:14.249099+00:00",
   "date": "2026-09-07",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱；OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员；Authors push back as publishers and agents make claims on Anthropic settlement",
+  "lead": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员；Research acceleration: The view inside OpenAI；OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
-    {
-      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
-      "url": "https://openai.com/index/an-alien-mind",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-06T18:33:46.745000+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 38
-    },
     {
       "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-06T08:00:00+00:00",
-      "source_count": 2,
-      "score": 84,
+      "published_at": "2026-09-07T00:17:54.906000+00:00",
+      "source_count": 3,
+      "score": 86,
       "official": true,
       "topics": [
         "openai",
@@ -37,7 +21,23 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 16
+      "hot_score": 82
+    },
+    {
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-06T18:33:46.745000+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 25
     },
     {
       "title": "How we monitor internal coding agents for misalignment",
@@ -46,24 +46,40 @@
       "site_id": "zeli",
       "published_at": "2026-09-06T16:37:55+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 22
     }
   ],
   "items": [
     {
-      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
-      "url": "https://openai.com/index/an-alien-mind",
+      "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-06T18:33:46.745000+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-07T00:17:54.906000+00:00",
+      "source_count": 3,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-06T23:57:40+00:00",
+      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
@@ -73,17 +89,16 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+      "url": "https://openai.com/index/an-alien-mind",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-06T08:00:00+00:00",
+      "published_at": "2026-09-06T18:33:46.745000+00:00",
       "source_count": 2,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
-        "openai",
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -95,7 +110,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T20:47:37+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
@@ -110,7 +125,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T10:15:17+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -125,7 +140,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T23:36:04+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -140,7 +155,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T09:56:24+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "google"
@@ -155,26 +170,9 @@
       "site_id": "curated_media",
       "published_at": "2026-09-06T10:36:35+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.263",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-06T02:54:20+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -185,7 +183,37 @@
       "site_id": "zeli",
       "published_at": "2026-09-06T16:37:55+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+      "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-06T22:59:32+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3 Scored 99.95% with Provider Adapter Harness",
+      "url": "https://arcprize.org/results/openai-gpt-6-astra",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-06T22:55:10+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [
         "openai"
@@ -200,7 +228,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T22:14:05+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai"
@@ -215,7 +243,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T21:54:26+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [],
       "reason": "",
@@ -228,7 +256,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T21:42:16+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -243,7 +271,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T20:20:06+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -258,7 +286,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T19:26:52+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -273,7 +301,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T19:26:04+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -288,7 +316,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T17:05:25+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -304,7 +332,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T15:37:52+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -320,38 +348,10 @@
       "site_id": "newsnow",
       "published_at": "2026-09-06T14:09:14.971000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "MCPHub",
-      "url": "https://www.producthunt.com/products/mcphub-3",
-      "source": "producthunt",
-      "site_id": "newsnow",
-      "published_at": "2026-09-06T14:09:14.971000+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "开放/技能",
-      "url": "https://github.com/openai/skills",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-09-06T14:09:14.971000+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
