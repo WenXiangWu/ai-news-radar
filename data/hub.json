@@ -1,9 +1,53 @@
 {
-  "generated_at": "2026-09-07T16:15:41.196353+00:00",
+  "generated_at": "2026-09-07T20:22:30.534064+00:00",
   "today": "2026-09-08",
-  "lead": "Supporting independent journalism in Ukraine；Research acceleration: The view inside OpenAI；OpenAI reports AI \"research interns\" and warns about its own pace at the same time",
+  "lead": "Supporting independent journalism in Ukraine；Research acceleration: The view inside OpenAI；Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "Tell HN: OpenAI 重新对 Plus 和 Business Standard 用户实施了 5 小时的使用限制",
+      "url": "https://news.ycombinator.com/item?id=49600233",
+      "source": "news.ycombinator.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-07T18:58:53.306000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 53
+    },
+    {
+      "title": "基于AMD GPU的vLLM中的推测性解码",
+      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+      "source": "vllm.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-09-07T17:40:59.747000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
+    },
+    {
+      "title": "Initial effects of AI technology on employment look positive",
+      "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-07T10:38:32+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 27
+    },
     {
       "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
       "url": "https://news.ycombinator.com/item?id=49594008",
@@ -11,12 +55,12 @@
       "site_id": "newsnow",
       "published_at": "2026-09-07T09:53:12.571000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 35
+      "hot_score": 25
     },
     {
       "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
@@ -25,60 +69,14 @@
       "site_id": "newsnow",
       "published_at": "2026-09-07T04:34:27.906000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "mcp"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 23
-    },
-    {
-      "title": "Show HN: Agentic OS: one Rust Linux binary, one SQLite and sandbox per entity",
-      "url": "https://news.ycombinator.com/item?id=49590351",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-06T21:18:54.474000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "《外星人的思维》",
-      "url": "https://openai.com/index/an-alien-mind",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-06T18:33:46.745000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
-    },
-    {
-      "title": "How we monitor internal coding agents for misalignment",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-06T16:37:55+00:00",
-      "source_count": 2,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 8
+      "hot_score": 16
     }
   ],
   "topics": [
@@ -101,7 +99,7 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 4
+      "count": 6
     },
     {
       "slug": "deepseek",
@@ -122,49 +120,49 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 18
+      "count": 15
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 12
+      "count": 11
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 37
+      "count": 36
     }
   ],
   "days": [
