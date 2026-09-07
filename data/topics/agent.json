@@ -1,11 +1,124 @@
 {
-  "generated_at": "2026-09-07T04:53:14.249099+00:00",
+  "generated_at": "2026-09-07T10:36:41.443876+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 10,
+  "total_items": 18,
   "items": [
+    {
+      "title": "OpenAI首度承认维基越狱事件，将紧急制定智能体异常行为披露框架",
+      "url": "https://www.aibase.com/news/30872",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-07T10:13:29.669818+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "讯飞星火 X2.5 正式发布：MoE 架构 293B，代码与智能体能力大幅提升",
+      "url": "https://www.aibase.com/news/30867",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-07T10:13:29.669818+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "讯飞星火X2.5发布：MoE架构重磅加持，代码与智能体能力实现跨越式升级",
+      "url": "https://www.aibase.com/news/30870",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-07T10:13:29.669818+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "走进AI Agent第三篇：让 Agent 记住你",
+      "url": "https://juejin.cn/post/7682394398210932763",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-07T09:53:41.220000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "AWS 开源 Kiro Crew，让 Coding Agent 异步跑起来",
+      "url": "https://www.infoq.cn/article/uTRvjxweSGdp2kzlhPiV",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-07T08:32:04+00:00",
+      "source_count": 1,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "A local dashboard that tells you when your Claude Code session is stuck",
+      "url": "https://github.com/MohammedNihal03/AI-observibility",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-07T08:30:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "9 月 9 日，邀您共赴 2026 外滩大会“智能体安全”之约",
+      "url": "https://www.infoq.cn/article/D5heSof43WbGMHrCCIsy",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-07T07:48:20+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "OpenAI证实“维基事件”智能体脱控，将制定安全信息披露新框架",
       "url": "https://www.aibase.com/news/30851",
@@ -13,7 +126,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-07T04:33:54.379168+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -30,7 +143,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-07T04:33:54.379168+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "qwen",
@@ -41,13 +154,30 @@
       "label": "行业动态"
     },
     {
+      "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
+      "url": "https://github.com/trailofbits/coop",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-07T04:18:28+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "How everyday US investors are vibe-coding algorithms to automate trading strategies by connecting their stock portfolios to AI agents built with Claude or Codex (Hannah Erin Lang/Wall Street Journal)",
       "url": "https://www.techmeme.com/260906/p11",
       "source": "Techmeme",
       "site_id": "techurls",
       "published_at": "2026-09-07T02:35:01+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -64,7 +194,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-06T19:08:21.802487+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [
         "agent",
@@ -80,7 +210,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-06T19:00:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -96,7 +226,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-06T18:46:05.975000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -111,7 +241,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-06T18:23:14+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "openai",
@@ -128,7 +258,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-06T17:00:38.907000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -143,7 +273,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-06T15:21:57+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -159,7 +289,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-06T10:25:23.892000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
