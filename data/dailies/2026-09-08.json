@@ -1,12 +1,25 @@
 {
-  "generated_at": "2026-09-07T23:14:18.230748+00:00",
+  "generated_at": "2026-09-08T01:35:39.369641+00:00",
   "date": "2026-09-08",
   "timezone": "Asia/Shanghai",
-  "lead": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)；Supporting independent journalism in Ukraine；Research acceleration: The view inside OpenAI",
+  "lead": "llm 0.35；The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)；Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [],
   "items": [
+    {
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-07T23:54:54+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
       "url": "https://www.latent.space/p/aeo",
@@ -14,39 +27,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-07T21:32:37+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-07T00:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-06T23:57:40+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -57,7 +40,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-07T18:12:41+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -88,7 +71,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-07T12:15:54+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "qwen"
@@ -97,16 +80,44 @@
       "label": "值得关注"
     },
     {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-06T23:36:04+00:00",
+      "title": "Cathay Pacific tests Google AI that dramatically cuts airplane contrails — tiny altitude shifts slash environmental impact by 40% in early trials",
+      "url": "https://www.techradar.com/ai-platforms-assistants/cathay-pacific-tests-google-ai-that-dramatically-cuts-airplane-contrails-tiny-altitude-shifts-slash-environmental-impact-by-40-percent-in-early-trials",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-09-08T00:00:00+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 52,
       "official": true,
       "topics": [
-        "openai"
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Secure temporary file sharing for AI agents and humans",
+      "url": "https://github.com/aispace-sh/aispace-client",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-07T23:59:58+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Matt Clifford quits as ARIA chair over his Anthropic job",
+      "url": "https://thenextweb.com/news/matt-clifford-quits-aria-chair-anthropic-conflict-of-interest",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-07T23:56:57+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -118,7 +129,20 @@
       "site_id": "techurls",
       "published_at": "2026-09-07T22:20:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "El Yayster – a resident LLM that inhabits Emacs",
+      "url": "https://github.com/yayster/yayster.el",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-07T19:50:21+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [],
       "reason": "",
@@ -177,7 +201,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-07T14:23:57+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
@@ -235,7 +259,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-07T08:30:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -251,7 +275,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-07T07:44:32+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -271,36 +295,6 @@
       "score": 48,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 2025 financials $38.5B loss ahead of IPO",
-      "url": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-07T05:41:13+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
-      "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-07T05:23:31+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "值得关注"
     }
