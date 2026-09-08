@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-09-08T19:07:50.736813+00:00",
+  "generated_at": "2026-09-08T22:26:12.903928+00:00",
   "today": "2026-09-09",
-  "lead": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答；Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic；自动 Dependabot 访问 GitHub 托管的注册表",
+  "lead": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认；OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答；OpenAI 发布 ChatGPT Images 2.5 图像模型",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-08T21:38:06.785000+00:00",
+      "source_count": 4,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
       "url": "https://openai.com/index/navier-stokes-solution",
@@ -11,14 +27,45 @@
       "site_id": "official_ai",
       "published_at": "2026-09-08T17:37:53.153000+00:00",
       "source_count": 3,
-      "score": 88,
+      "score": 87,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 100
+      "hot_score": 80
+    },
+    {
+      "title": "Muse：Meta的个人AI助手，功能与特性",
+      "url": "https://ai.meta.com/muse",
+      "source": "ai.meta.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-08T20:33:44.476000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
+    },
+    {
+      "title": "Muse, Meta’s New Personal AI Agent, Needs You to Trust It",
+      "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-08T20:12:51+00:00",
+      "source_count": 2,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
     },
     {
       "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
@@ -27,61 +74,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-08T06:48:43.523000+00:00",
       "source_count": 4,
-      "score": 86,
+      "score": 85,
       "official": false,
       "topics": [
         "industry"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 64
-    },
-    {
-      "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
-      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-08T17:32:15+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 53
-    },
-    {
-      "title": "我们必须回到办公室，才能亲自使用人工智能",
-      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-      "source": "www.mcsweeneys.net",
-      "site_id": "buzzing",
-      "published_at": "2026-09-08T15:14:46.168000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 43
-    },
-    {
-      "title": "多智能体大型语言模型金融交易框架",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-08T14:59:10.036000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 42
+      "hot_score": 49
     }
   ],
   "topics": [
@@ -97,14 +97,14 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 20
+      "count": 24
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "deepseek",
@@ -125,14 +125,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 17
+      "count": 27
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 9
     },
     {
       "slug": "mcp",
@@ -153,21 +153,21 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 11
+      "count": 13
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 38
+      "count": 39
     }
   ],
   "days": [
