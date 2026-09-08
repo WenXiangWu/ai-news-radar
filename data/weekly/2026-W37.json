@@ -1,43 +1,27 @@
 {
   "title": "2026-W37 周报",
   "dates": [
+    "2026-09-09",
     "2026-09-08",
     "2026-09-07",
     "2026-09-06",
     "2026-09-05",
     "2026-09-04",
-    "2026-09-03",
-    "2026-09-02"
+    "2026-09-03"
   ],
   "total_items": 40,
   "items": [
     {
-      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-02T03:33:48.237000+00:00",
+      "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-08T17:37:53.153000+00:00",
       "source_count": 3,
       "score": 88,
       "official": true,
       "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T14:23:07+00:00",
-      "source_count": 1,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "opensource"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -59,46 +43,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T14:16:42+00:00",
-      "source_count": 1,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T13:49:14+00:00",
-      "source_count": 1,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T13:00:00+00:00",
+      "published_at": "2026-09-08T14:23:07+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "openai"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -119,11 +73,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "source": "Interconnects",
+      "title": "自动 Dependabot 访问 GitHub 托管的注册表",
+      "url": "https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-08T14:15:25+00:00",
+      "published_at": "2026-09-08T16:46:05+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -132,46 +86,16 @@
       "label": "官方更新"
     },
     {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-      "source": "Google DeepMind",
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-08T14:00:15+00:00",
+      "published_at": "2026-09-08T13:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc6",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T08:34:20+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc5",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T08:20:33+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -253,31 +177,90 @@
       "label": "多源热议"
     },
     {
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T07:46:08+00:00",
-      "source_count": 1,
-      "score": 84,
+      "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-08T17:32:15+00:00",
+      "source_count": 2,
+      "score": 83,
       "official": true,
       "topics": [
-        "anthropic"
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-09-08T14:15:25+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-08T14:00:15+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
-      "source": "Simon Willison",
+      "title": "Funding grants for new research into AI and teen development",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T01:05:52+00:00",
-      "source_count": 2,
-      "score": 84,
+      "published_at": "2026-09-08T09:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
       "official": true,
       "topics": [
-        "anthropic"
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.29.0rc6",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-08T08:34:20+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.29.0rc5",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-08T08:20:33+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -388,50 +371,6 @@
       "topics": [
         "opensource"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-01T21:39:07+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource",
-        "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-07T23:54:54+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -578,32 +517,30 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1",
-      "source": "vLLM Releases",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-02T02:11:30+00:00",
+      "published_at": "2026-09-08T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
-      "source": "Google AI Blog",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-01T16:00:00+00:00",
-      "source_count": 2,
-      "score": 82,
+      "published_at": "2026-09-07T23:54:54+00:00",
+      "source_count": 1,
+      "score": 81,
       "official": true,
-      "topics": [
-        "google"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -621,8 +558,69 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
+      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-04T17:38:48+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "url": "https://www.latent.space/p/astra",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T21:09:41+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-03T19:40:14+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Content exclusions generally available in Copilot app and CLI",
+      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-02T18:14:23+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-08T15:32:56.943133+00:00",
+  "generated_at": "2026-09-08T19:07:50.736813+00:00",
   "period": "2026-W37"
 }
