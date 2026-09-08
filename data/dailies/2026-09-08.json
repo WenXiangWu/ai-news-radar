@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T06:19:15.490515+00:00",
+  "generated_at": "2026-09-08T11:39:29.231685+00:00",
   "date": "2026-09-08",
   "timezone": "Asia/Shanghai",
-  "lead": "llm 0.35；The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)；Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+  "lead": "v0.29.0rc6；v0.29.0rc5；llm 0.35",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,15 +13,45 @@
       "site_id": "buzzing",
       "published_at": "2026-09-08T02:51:51.808000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 45
+      "hot_score": 29
     }
   ],
   "items": [
+    {
+      "title": "v0.29.0rc6",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-08T08:34:20+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.29.0rc5",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-08T08:20:33+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "llm 0.35",
       "url": "https://simonwillison.net/2026/Sep/7/llm",
@@ -29,7 +59,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-07T23:54:54+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -42,7 +72,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-07T21:32:37+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -55,7 +85,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-07T18:12:41+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "anthropic",
@@ -65,13 +95,41 @@
       "label": "行业动态"
     },
     {
+      "title": "AI weather forecasting enters the energy market as Google targets grid operators with WeatherNext 3",
+      "url": "https://www.artificialintelligence-news.com/news/ai-weather-forecasting-google-weathernext-3-energy",
+      "source": "Artificial Intelligence News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-08T09:00:00+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "YouTube Appears in 53% of Google AI Overviews for Vitamin and Supplement Searches",
+      "url": "https://www.artificialintelligence-news.com/news/youtube-appears-in-53-of-google-ai-overviews-for-vitamin-and-supplement-searches",
+      "source": "Artificial Intelligence News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-08T08:50:39+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "OpenAI reports AI \"research interns\" and warns about its own pace at the same time",
       "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-07T13:05:22+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -86,7 +144,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-07T12:15:54+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "qwen"
@@ -101,7 +159,81 @@
       "site_id": "buzzing",
       "published_at": "2026-09-08T02:51:51.808000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "openai /      plugins",
+      "url": "https://github.com/openai/plugins",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-09-08T11:13:30.330000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we know it",
+      "url": "https://www.techradar.com/pro/microsoft-engineer-claims-typing-code-is-absolutely-over-with-ai-and-github-copilot-set-to-transform-coding-as-we-know-it",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-09-08T10:05:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic has walked away from its $6bn Decart deal, Bloomberg reports",
+      "url": "https://thenextweb.com/news/anthropic-walks-away-decart-6bn-acquisition",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-08T06:51:06+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek/Qwen are surprisingly well at generating code for DSCI pipelines",
+      "url": "https://chat.deepseek.com/share/jg3hcnatoliqs1ct5i",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-08T06:14:32+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "qwen"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Multi-Agents LLM Financial Trading Framework",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-08T05:20:23+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [],
       "reason": "",
@@ -114,7 +246,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-08T04:36:26+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic",
@@ -130,7 +262,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-08T00:00:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "google"
@@ -141,11 +273,11 @@
     {
       "title": "Secure temporary file sharing for AI agents and humans",
       "url": "https://github.com/aispace-sh/aispace-client",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News",
+      "site_id": "techurls",
       "published_at": "2026-09-07T23:59:58+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [],
       "reason": "",
@@ -158,7 +290,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-07T23:56:57+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -173,139 +305,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-07T22:20:00+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "El Yayster – a resident LLM that inhabits Emacs",
-      "url": "https://github.com/yayster/yayster.el",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-07T19:50:21+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI blocked its agents from posting. They found a wiki that posts on GET",
-      "url": "https://thenextweb.com/news/openai-agents-get-requests-usemod-wiki-sandbox-escape",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-07T16:16:04+00:00",
-      "source_count": 1,
       "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI hid AI agent hijacking of German wiki forum for weeks — because its model did the exact same thing in the Hugging Face attack",
-      "url": "https://www.techradar.com/pro/security/openai-hid-ai-agent-hijacking-of-german-wiki-forum-for-weeks-because-its-model-did-the-exact-same-thing-in-the-hugging-face-attack",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-07T15:19:25+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Jensen Huang once again declares that ‘AGI has arrived’ — but his GPT-6 celebration feels like he’s just trying to sell next-gen Nvidia GPUs",
-      "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/jensen-huang-once-again-declares-that-agi-has-arrived-but-his-gpt-6-celebration-feels-like-hes-just-trying-to-sell-next-gen-nvidia-gpus",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-07T14:56:22+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT Was Built on Concealed 'Mass Piracy', Authors Tell Court",
-      "url": "https://torrentfreak.com/openais-chatgpt-was-built-on-concealed-mass-piracy-authors-tell-court",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-07T14:31:27+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI is figuring out how to tell people when its agents go rogue",
-      "url": "https://mashable.com/tech/openai-framework-for-misalignment-incidents-of-rogue-agents",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-09-07T14:23:57+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI has filed an EU incident report on the hijacked German wiki, the Commission says",
-      "url": "https://thenextweb.com/news/openai-eu-incident-report-german-wiki",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-07T11:48:53+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI reveals how much its researchers are spending on AI coding",
-      "url": "https://www.businessinsider.com/openai-token-spend-ai-coding-researchers-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-07T11:32:34+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cathay Pacific and Google partner on AI contrail avoidance for ultra-long-haul flights",
-      "url": "https://thenextweb.com/news/google-cathay-pacific-contrail-avoidance-asia-pacific",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-07T10:11:25+00:00",
-      "source_count": 1,
-      "score": 48,
       "official": true,
       "topics": [],
       "reason": "",
