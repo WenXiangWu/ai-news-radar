@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T00:47:31.485387+00:00",
+  "generated_at": "2026-09-09T05:10:55.691026+00:00",
   "today": "2026-09-09",
   "lead": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认；OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答；OpenAI 发布 ChatGPT Images 2.5 图像模型",
   "brief_count": 20,
@@ -11,14 +11,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-08T21:38:06.785000+00:00",
       "source_count": 4,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 96
     },
     {
       "title": "Muse：Meta的个人AI助手，功能与特性",
@@ -27,12 +27,42 @@
       "site_id": "buzzing",
       "published_at": "2026-09-08T20:33:44.476000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 84
+      "hot_score": 59
+    },
+    {
+      "title": "Tao：AI正在以不可再生的方式“开采”未解数学难题",
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "source": "mathstodon.xyz",
+      "site_id": "buzzing",
+      "published_at": "2026-09-09T02:09:20.839000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
+    },
+    {
+      "title": "我今天从Anthropic辞职了",
+      "url": "https://twitter.com/hilbertspaess/status/2097476196791709843",
+      "source": "twitter.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-09T02:09:21.272000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
     },
     {
       "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
@@ -41,45 +71,14 @@
       "site_id": "official_ai",
       "published_at": "2026-09-08T17:37:53.153000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 66
-    },
-    {
-      "title": "Show HN: LLM 注意力可视化",
-      "url": "https://ishamf.dev/p/llm-attention-visualizer",
-      "source": "ishamf.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-09-08T22:55:57.243000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "Muse, Meta’s New Personal AI Agent, Needs You to Trust It",
-      "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-08T20:12:51+00:00",
-      "source_count": 2,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 41
+      "hot_score": 46
     }
   ],
   "topics": [
@@ -95,28 +94,28 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 24
+      "count": 29
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 8
+      "count": 7
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 5
+      "count": 7
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "agent",
@@ -130,7 +129,7 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 9
+      "count": 11
     },
     {
       "slug": "mcp",
@@ -144,14 +143,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 16
+      "count": 19
     },
     {
       "slug": "paper",
@@ -165,7 +164,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 40
+      "count": 37
     }
   ],
   "days": [

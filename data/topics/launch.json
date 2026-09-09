@@ -1,11 +1,63 @@
 {
-  "generated_at": "2026-09-09T00:47:31.485387+00:00",
+  "generated_at": "2026-09-09T05:10:55.691026+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 16,
+  "total_items": 19,
   "items": [
+    {
+      "title": "抢单“物理外挂”判赔 300 万：最高法发布 9 件反不正当竞争典型案例，AI 与直播电商成重点",
+      "url": "https://www.aibase.com/news/30923",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-09T04:36:42.667383+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "科大讯飞星火 X2.5 正式发布，总参数达 2930 亿并迎来多维升级",
+      "url": "https://www.aibase.com/news/30918",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-09T04:36:42.667383+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "达芬奇 DaVinci Resolve 21.1 发布：接入 Claude Code 与 ChatGPT Codex",
+      "url": "https://www.aibase.com/news/30920",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-09T04:36:42.667383+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "agent",
+        "coding",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "v2.1.266",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
@@ -13,7 +65,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-08T23:55:14+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -24,13 +76,30 @@
       "label": "值得关注"
     },
     {
+      "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+      "source": "Simon Willison 博客",
+      "site_id": "aihot",
+      "published_at": "2026-09-08T23:55:12+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
       "url": "https://runwayml.com/news/company-news/runway-for-adobe",
       "source": "Runway：News（网页）",
       "site_id": "aihot",
       "published_at": "2026-09-08T21:58:07.884000+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "launch",
@@ -46,26 +115,10 @@
       "site_id": "curated_media",
       "published_at": "2026-09-08T20:37:31+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Arm 发布 Neoverse CSS N4：单裸片最高128核，押注智能体时代 CPU 需求",
-      "url": "https://www.infoq.cn/article/IR6XdUEok3aY1YSDOvat",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-08T20:35:10+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
         "agent",
         "launch"
       ],
@@ -79,7 +132,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-08T20:12:51+00:00",
       "source_count": 2,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "agent",
@@ -111,7 +164,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-08T18:02:46+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -122,15 +175,16 @@
       "label": "行业动态"
     },
     {
-      "title": "Cohere 发布 Parse 5，可以从复杂的文档中高效地提取多模态信息",
-      "url": "https://www.infoq.cn/article/C8WbrpalJEjLfSh2xJJj",
+      "title": "Arm 发布 Neoverse CSS N4：单裸片最高128核，押注智能体时代 CPU 需求",
+      "url": "https://www.infoq.cn/article/IR6XdUEok3aY1YSDOvat",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-09-08T17:06:00+00:00",
+      "published_at": "2026-09-08T12:35:10+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
+        "agent",
         "launch"
       ],
       "reason": "",
@@ -143,7 +197,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-08T11:12:55.445304+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "launch",
@@ -153,20 +207,34 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenClaw 2.0 发布：简化配置，支持智能体协作",
-      "url": "https://www.infoq.cn/article/hOJ5r8sQvQsGvm0KNHTd",
+      "title": "Cohere 发布 Parse 5，可以从复杂的文档中高效地提取多模态信息",
+      "url": "https://www.infoq.cn/article/C8WbrpalJEjLfSh2xJJj",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-09-08T09:11:00+00:00",
+      "published_at": "2026-09-08T09:06:00+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
-        "agent",
         "launch"
       ],
       "reason": "",
       "label": "值得关注"
+    },
+    {
+      "title": "v0.29.0: [Bugfix][Core] Remove misleading Mamba prefix cache warning (#55863)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-08T08:50:34+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "v0.29.0",
@@ -175,7 +243,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-08T08:34:20+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -190,7 +258,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-08T08:34:20+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -205,7 +273,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-08T08:20:33+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -220,14 +288,13 @@
       "site_id": "aibase",
       "published_at": "2026-09-08T05:56:02.635671+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "AI新经济如何抵达每个人?2026外滩大会发布“AI科技人文十问”",
@@ -236,23 +303,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-08T05:56:02.635671+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
-      "url": "https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-09-08T03:07:15+00:00",
-      "source_count": 1,
-      "score": 54,
+      "score": 72,
       "official": false,
       "topics": [
         "launch"
