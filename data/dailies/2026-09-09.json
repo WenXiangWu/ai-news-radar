@@ -1,35 +1,19 @@
 {
-  "generated_at": "2026-09-09T09:41:58.630490+00:00",
+  "generated_at": "2026-09-09T14:57:33.903439+00:00",
   "date": "2026-09-09",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答；GPT-5.6 Sol 如何帮助运行量子计算实验；NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+  "lead": "GPT‑5.6 Sol 如何助力开展量子计算实验；Remediate Code Quality findings with agentic autofix；When will average people feel AI’s impact?",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
     {
-      "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T17:37:53.153000+00:00",
-      "source_count": 3,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 31
-    },
-    {
-      "title": "GPT-5.6 Sol 如何帮助运行量子计算实验",
+      "title": "GPT‑5.6 Sol 如何助力开展量子计算实验",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-09T07:22:46+00:00",
-      "source_count": 2,
-      "score": 85,
+      "published_at": "2026-09-09T13:29:27.051000+00:00",
+      "source_count": 3,
+      "score": 86,
       "official": true,
       "topics": [
         "openai",
@@ -38,7 +22,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 49
+      "hot_score": 100
     },
     {
       "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
@@ -47,57 +31,59 @@
       "site_id": "aihot",
       "published_at": "2026-09-08T21:38:06.785000+00:00",
       "source_count": 4,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 66
+      "hot_score": 42
     },
     {
-      "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T19:14:22.077000+00:00",
+      "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-09T13:38:23+00:00",
       "source_count": 2,
-      "score": 84,
+      "score": 76,
       "official": true,
       "topics": [
-        "openai",
-        "launch"
+        "anthropic",
+        "launch",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新",
-      "hot_score": 18
+      "label": "行业动态",
+      "hot_score": 54
+    },
+    {
+      "title": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-09T09:56:28+00:00",
+      "source_count": 2,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 39
     }
   ],
   "items": [
     {
-      "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T17:37:53.153000+00:00",
-      "source_count": 3,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-5.6 Sol 如何帮助运行量子计算实验",
+      "title": "GPT‑5.6 Sol 如何助力开展量子计算实验",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-09T07:22:46+00:00",
-      "source_count": 2,
-      "score": 85,
+      "published_at": "2026-09-09T13:29:27.051000+00:00",
+      "source_count": 3,
+      "score": 86,
       "official": true,
       "topics": [
         "openai",
@@ -108,13 +94,39 @@
       "label": "官方更新"
     },
     {
+      "title": "Remediate Code Quality findings with agentic autofix",
+      "url": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-09T12:21:01+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "When will average people feel AI’s impact?",
+      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-09-09T11:01:23+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
       "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
       "source": "TechCrunch：AI（RSS）",
       "site_id": "aihot",
       "published_at": "2026-09-08T21:38:06.785000+00:00",
       "source_count": 4,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -123,29 +135,13 @@
       "label": "多源热议"
     },
     {
-      "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T19:14:22.077000+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
       "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-09-09T05:04:51+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -160,7 +156,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-09T02:43:38+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
@@ -175,7 +171,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-08T22:46:33+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -190,25 +186,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-08T21:52:42+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "为了谁的安全？拒绝主题的正确子集，而不是整个主题",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T14:23:07+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -220,24 +201,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-08T18:00:10+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T13:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -255,32 +221,37 @@
       "label": "官方更新"
     },
     {
-      "title": "最新开放工件 (#24)：Motif-3、GLM-5.3、Hy4 预览和开放模型许可证",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T14:15:25+00:00",
+      "title": "OpenAI 纳维-斯托克斯方程证明争议：Buckmaster 指控不当行为，各方回应引出开放科学之问",
+      "url": "https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-09T10:27:37+00:00",
       "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "AlphaGenome Atlas：人类基因组中每个可能的 DNA 字母变化的预测图",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T14:00:15+00:00",
-      "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
-        "google"
+        "openai",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-09T13:38:23+00:00",
+      "source_count": 2,
+      "score": 76,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
     },
     {
       "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
@@ -289,7 +260,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-08T23:55:12+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "openai",
@@ -306,7 +277,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-08T17:23:27+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "openai",
@@ -323,10 +294,55 @@
       "site_id": "aihot",
       "published_at": "2026-09-08T21:06:10+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
+      "url": "https://the-decoder.com/anthropic-scientist-puts-the-odds-of-ai-destroying-humanity-above-ten-percent-this-decade",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-09T12:48:41+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-09T09:56:28+00:00",
+      "source_count": 2,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Deepmind's AlphaGenome Atlas maps every possible DNA change in the human genome",
+      "url": "https://the-decoder.com/deepminds-alphagenome-atlas-maps-every-possible-dna-change-in-the-human-genome",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-09T13:40:40+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
@@ -338,7 +354,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-08T23:55:14+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -355,29 +371,12 @@
       "site_id": "curated_media",
       "published_at": "2026-09-08T20:37:31+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
         "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 研究人员涉嫌向数学家施压，要求其将 Anthropic 的合著者从数学突破性论文中剔除",
-      "url": "https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-08T17:51:04+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "paper"
       ],
       "reason": "",
       "label": "值得关注"
