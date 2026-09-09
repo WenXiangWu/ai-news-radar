@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T19:09:50.549762+00:00",
+  "generated_at": "2026-09-09T22:22:33.628202+00:00",
   "today": "2026-09-10",
-  "lead": "Paul Christiano joins OpenAI Foundation Board；IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license；GitHub Advanced Security expands trial availability",
+  "lead": "Enterprise managed permissions for GitHub Copilot agent operations；Paul Christiano joins OpenAI Foundation Board；IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,7 +11,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-09T17:08:36.065000+00:00",
       "source_count": 3,
-      "score": 83,
+      "score": 82,
       "official": false,
       "topics": [
         "openai",
@@ -19,7 +19,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 78
     },
     {
       "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
@@ -28,7 +28,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-09T16:05:40.926000+00:00",
       "source_count": 3,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "anthropic",
@@ -36,7 +36,24 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 93
+      "hot_score": 71
+    },
+    {
+      "title": "Qwen 3.8 遵循 GPT-5.5 Pro 的推理预填充机制",
+      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+      "source": "gist.github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-09T20:46:59.030000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "qwen"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 53
     },
     {
       "title": "Anthropic 正在构建一套预测性监控系统，用于监控活动人士",
@@ -45,14 +62,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-09T16:52:18.399000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
+      "hot_score": 38
     },
     {
       "title": "GPT‑5.6 Sol 如何助力开展量子计算实验",
@@ -70,23 +87,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 37
-    },
-    {
-      "title": "DeepSeek 推出 v4.1 闪存版，价格更低且性能更强，优于 v4 Pro 版",
-      "url": "https://news.ycombinator.com/item?id=49624603",
-      "source": "news.ycombinator.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-09T13:13:24.203000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 37
+      "hot_score": 29
     }
   ],
   "topics": [
@@ -130,7 +131,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 29
+      "count": 25
     },
     {
       "slug": "coding",
@@ -158,7 +159,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 20
+      "count": 24
     },
     {
       "slug": "paper",

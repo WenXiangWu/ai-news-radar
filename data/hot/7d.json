@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T19:09:50.549762+00:00",
+  "generated_at": "2026-09-09T22:22:33.628202+00:00",
   "window_hours": 168,
-  "total_items": 13,
+  "total_items": 10,
   "items": [
     {
       "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
@@ -10,7 +10,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-09T17:08:36.065000+00:00",
       "source_count": 3,
-      "score": 83,
+      "score": 82,
       "official": false,
       "topics": [
         "openai",
@@ -18,7 +18,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 78
     },
     {
       "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
@@ -27,7 +27,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-09T16:05:40.926000+00:00",
       "source_count": 3,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "anthropic",
@@ -35,7 +35,24 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 93
+      "hot_score": 71
+    },
+    {
+      "title": "Qwen 3.8 遵循 GPT-5.5 Pro 的推理预填充机制",
+      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+      "source": "gist.github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-09T20:46:59.030000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "qwen"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 53
     },
     {
       "title": "Anthropic 正在构建一套预测性监控系统，用于监控活动人士",
@@ -44,14 +61,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-09T16:52:18.399000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
+      "hot_score": 38
     },
     {
       "title": "GPT‑5.6 Sol 如何助力开展量子计算实验",
@@ -69,7 +86,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 37
+      "hot_score": 29
     },
     {
       "title": "DeepSeek 推出 v4.1 闪存版，价格更低且性能更强，优于 v4 Pro 版",
@@ -85,7 +102,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 37
+      "hot_score": 28
     },
     {
       "title": "一项人工智能数学领域的突破如何引发争议",
@@ -94,28 +111,28 @@
       "site_id": "buzzing",
       "published_at": "2026-09-09T12:10:19.037000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 34
+      "hot_score": 26
     },
     {
       "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
       "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-09T10:37:16+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 29
+      "hot_score": 23
     },
     {
       "title": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
@@ -124,42 +141,14 @@
       "site_id": "curated_media",
       "published_at": "2026-09-09T09:56:28+00:00",
       "source_count": 2,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 28
-    },
-    {
-      "title": "Muse：Meta的个人AI助手，功能与特性",
-      "url": "https://ai.meta.com/muse",
-      "source": "ai.meta.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-08T20:33:44.476000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 18
-    },
-    {
-      "title": "Tao：AI正在以不可再生的方式“开采”未解数学难题",
-      "url": "https://mathstodon.xyz/@tao/117237320796901560",
-      "source": "mathstodon.xyz",
-      "site_id": "buzzing",
-      "published_at": "2026-09-09T02:09:20.839000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 15
+      "hot_score": 21
     },
     {
       "title": "我今天从Anthropic辞职了",
@@ -168,47 +157,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-09T02:09:21.272000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 15
-    },
-    {
-      "title": "OpenAI在一道可能决定职业生涯的数学题上使出下作手段",
-      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
-      "source": "techcrunch.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-08T21:38:06.785000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
-    },
-    {
-      "title": "Meta 的新个人人工智能代理 Muse 需要您的信任",
-      "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-08T20:12:51+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 11
     }
   ]
 }
