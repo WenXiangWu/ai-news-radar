@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-09-09T14:57:33.903439+00:00",
-  "today": "2026-09-09",
-  "lead": "GPT‑5.6 Sol 如何助力开展量子计算实验；Remediate Code Quality findings with agentic autofix；When will average people feel AI’s impact?",
+  "generated_at": "2026-09-09T19:09:50.549762+00:00",
+  "today": "2026-09-10",
+  "lead": "Paul Christiano joins OpenAI Foundation Board；IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license；GitHub Advanced Security expands trial availability",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "GPT‑5.6 Sol 如何助力开展量子计算实验",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-09T13:29:27.051000+00:00",
+      "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-09T17:08:36.065000+00:00",
       "source_count": 3,
-      "score": 86,
-      "official": true,
+      "score": 83,
+      "official": false,
       "topics": [
         "openai",
-        "agent",
-        "coding"
+        "launch"
       ],
       "reason": "",
-      "label": "官方更新",
+      "label": "多源热议",
       "hot_score": 100
     },
     {
@@ -27,18 +26,51 @@
       "url": "https://www.anthropic.com/institute/econ-scenarios",
       "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
       "site_id": "aihot",
-      "published_at": "2026-09-09T13:38:23+00:00",
-      "source_count": 2,
-      "score": 76,
+      "published_at": "2026-09-09T16:05:40.926000+00:00",
+      "source_count": 3,
+      "score": 78,
       "official": true,
       "topics": [
         "anthropic",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态",
-      "hot_score": 54
+      "label": "多源热议",
+      "hot_score": 93
+    },
+    {
+      "title": "Anthropic 正在构建一套预测性监控系统，用于监控活动人士",
+      "url": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists",
+      "source": "prospect.org",
+      "site_id": "buzzing",
+      "published_at": "2026-09-09T16:52:18.399000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "GPT‑5.6 Sol 如何助力开展量子计算实验",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "source": "openai.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-09T13:29:27.051000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 37
     },
     {
       "title": "DeepSeek 推出 v4.1 闪存版，价格更低且性能更强，优于 v4 Pro 版",
@@ -47,44 +79,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-09T13:13:24.203000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
-    },
-    {
-      "title": "一项人工智能数学领域的突破如何引发争议",
-      "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
-      "source": "www.science.org",
-      "site_id": "buzzing",
-      "published_at": "2026-09-09T12:10:19.037000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
-    },
-    {
-      "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
-      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-08T21:38:06.785000+00:00",
-      "source_count": 4,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 42
+      "hot_score": 37
     }
   ],
   "topics": [
@@ -107,35 +109,35 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 31
+      "count": 29
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 10
+      "count": 9
     },
     {
       "slug": "mcp",
@@ -149,14 +151,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 17
+      "count": 20
     },
     {
       "slug": "paper",
@@ -174,6 +176,7 @@
     }
   ],
   "days": [
+    "2026-09-10",
     "2026-09-09",
     "2026-09-08",
     "2026-09-07",
@@ -186,8 +189,7 @@
     "2026-08-31",
     "2026-08-30",
     "2026-08-29",
-    "2026-08-28",
-    "2026-08-27"
+    "2026-08-28"
   ],
   "week": "2026-W37",
   "month": "2026-09"
