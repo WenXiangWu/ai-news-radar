@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T15:11:55.685896+00:00",
-  "today": "2026-09-10",
-  "lead": "From Wafer-Out to First Token: Codifying Supply Chain Expertise with Nemotron and Palantir Foundry；Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能；[AINews] not much happened today",
+  "generated_at": "2026-09-10T19:07:53.474387+00:00",
+  "today": "2026-09-11",
+  "lead": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules；Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization；How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,76 +11,77 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T13:13:37.370000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 73
     },
     {
-      "title": "另一位研究人员表示，OpenAI 通过对话数据进行了训练，随后宣称取得了突破性进展",
-      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
-      "source": "bsky.app",
+      "title": "Cognition推出新款SWE-2模型，可与Fable 5.1和GPT-Astra一较高下",
+      "url": "https://cognition.com/blog/swe-2",
+      "source": "cognition.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-10T14:17:31.971000+00:00",
+      "published_at": "2026-09-10T17:27:36.339000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
+    },
+    {
+      "title": "关于研究人员能否将未发表的数学成果托付给OpenAI，仍有更多疑问",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "source": "mathstodon.xyz",
+      "site_id": "buzzing",
+      "published_at": "2026-09-10T16:55:27.117000+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 56
+      "hot_score": 50
     },
     {
-      "title": "Mathematicians want proof OpenAI didn’t use their work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-10T11:18:58+00:00",
+      "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+      "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-10T16:33:44+00:00",
       "source_count": 2,
-      "score": 62,
+      "score": 81,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "anthropic",
+        "agent",
+        "industry"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 43
+      "label": "行业动态",
+      "hot_score": 48
     },
     {
-      "title": "DeepSeek v4.1 闪电版",
-      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "source": "twitter.com",
+      "title": "Tell HN: OpenAI 不断重新启用“允许训练”设置",
+      "url": "https://news.ycombinator.com/item?id=49643556",
+      "source": "news.ycombinator.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-10T07:39:52.730000+00:00",
+      "published_at": "2026-09-10T14:32:55.029000+00:00",
       "source_count": 2,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 32
-    },
-    {
-      "title": "OpenAI 可能又剽窃了一项重要证明",
-      "url": "https://twitter.com/ValerioCapraro/status/2097791836269977996",
-      "source": "twitter.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-10T06:51:55.810000+00:00",
-      "source_count": 2,
-      "score": 53,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 30
+      "hot_score": 41
     }
   ],
   "topics": [
@@ -96,21 +97,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 37
+      "count": 40
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 15
+      "count": 20
     },
     {
       "slug": "qwen",
@@ -131,7 +132,7 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 5
     },
     {
       "slug": "mcp",
@@ -152,14 +153,14 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 24
+      "count": 22
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "industry",
@@ -170,6 +171,7 @@
     }
   ],
   "days": [
+    "2026-09-11",
     "2026-09-10",
     "2026-09-09",
     "2026-09-08",
@@ -182,8 +184,7 @@
     "2026-09-01",
     "2026-08-31",
     "2026-08-30",
-    "2026-08-29",
-    "2026-08-28"
+    "2026-08-29"
   ],
   "week": "2026-W37",
   "month": "2026-09"

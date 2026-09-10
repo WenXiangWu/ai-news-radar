@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T15:11:55.685896+00:00",
+  "generated_at": "2026-09-10T19:07:53.474387+00:00",
   "window_hours": 24,
   "total_items": 13,
   "items": [
@@ -10,12 +10,77 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T13:13:37.370000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 73
+    },
+    {
+      "title": "Cognition推出新款SWE-2模型，可与Fable 5.1和GPT-Astra一较高下",
+      "url": "https://cognition.com/blog/swe-2",
+      "source": "cognition.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-10T17:27:36.339000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
+    },
+    {
+      "title": "关于研究人员能否将未发表的数学成果托付给OpenAI，仍有更多疑问",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "source": "mathstodon.xyz",
+      "site_id": "buzzing",
+      "published_at": "2026-09-10T16:55:27.117000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+      "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-10T16:33:44+00:00",
+      "source_count": 2,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 48
+    },
+    {
+      "title": "Tell HN: OpenAI 不断重新启用“允许训练”设置",
+      "url": "https://news.ycombinator.com/item?id=49643556",
+      "source": "news.ycombinator.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-10T14:32:55.029000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 41
     },
     {
       "title": "另一位研究人员表示，OpenAI 通过对话数据进行了训练，随后宣称取得了突破性进展",
@@ -24,14 +89,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T14:17:31.971000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 56
+      "hot_score": 40
     },
     {
       "title": "Mathematicians want proof OpenAI didn’t use their work",
@@ -40,14 +105,14 @@
       "site_id": "curated_media",
       "published_at": "2026-09-10T11:18:58+00:00",
       "source_count": 2,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 43
+      "hot_score": 31
     },
     {
       "title": "DeepSeek v4.1 闪电版",
@@ -56,14 +121,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T07:39:52.730000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 23
     },
     {
       "title": "OpenAI 可能又剽窃了一项重要证明",
@@ -72,14 +137,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T06:51:55.810000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 30
+      "hot_score": 22
     },
     {
       "title": "诺奖得主阿吉翁:AI时代，比以往任何时候都更需要重视手工劳动和软技能",
@@ -88,31 +153,14 @@
       "site_id": "aibase",
       "published_at": "2026-09-10T04:36:48.442282+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "industry"
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 25
-    },
-    {
-      "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-09T17:08:36.065000+00:00",
-      "source_count": 3,
-      "score": 79,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 19
+      "hot_score": 18
     },
     {
       "title": "乐队“Muse”的社交媒体账号被Meta的新AI助手“Muse”夺走了",
@@ -128,7 +176,23 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 18
+      "hot_score": 13
+    },
+    {
+      "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 12
     },
     {
       "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
@@ -137,77 +201,12 @@
       "site_id": "curated_media",
       "published_at": "2026-09-09T22:00:00+00:00",
       "source_count": 2,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 14
-    },
-    {
-      "title": "Anthropic Researcher Believes More Than 10% Chance AI 'Could Kill All Humans'",
-      "url": "https://slashdot.org/story/26/09/09/1943258/anthropic-researcher-believes-more-than-10-chance-ai-could-kill-all-humans",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-09-09T21:00:00+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 13
-    },
-    {
-      "title": "Qwen 3.8 遵循 GPT-5.5 Pro 的推理预填充机制",
-      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-      "source": "gist.github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-09T20:46:59.030000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai",
-        "qwen"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 13
-    },
-    {
-      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
-      "url": "https://arxiv.org/abs/2609.09153",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-09T17:13:52+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注",
       "hot_score": 10
-    },
-    {
-      "title": "Anthropic 正在构建一套预测性监控系统，用于监控活动人士",
-      "url": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists",
-      "source": "prospect.org",
-      "site_id": "buzzing",
-      "published_at": "2026-09-09T16:52:18.399000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
     }
   ]
 }

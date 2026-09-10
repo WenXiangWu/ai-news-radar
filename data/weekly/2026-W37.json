@@ -1,16 +1,33 @@
 {
   "title": "2026-W37 周报",
   "dates": [
+    "2026-09-11",
     "2026-09-10",
     "2026-09-09",
     "2026-09-08",
     "2026-09-07",
     "2026-09-06",
-    "2026-09-05",
-    "2026-09-04"
+    "2026-09-05"
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T16:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "GPT‑5.6 Sol 如何助力开展量子计算实验",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
@@ -44,6 +61,32 @@
       "label": "官方更新"
     },
     {
+      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
+      "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T18:08:42+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
+      "url": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T16:55:32+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "The Work Now Within Reach",
       "url": "https://openai.com/index/the-work-now-within-reach",
       "source": "OpenAI News",
@@ -59,30 +102,113 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-      "source": "Latent Space",
+      "title": "Control GitHub Actions cache access with cache-mode",
+      "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-04T05:18:11+00:00",
+      "published_at": "2026-09-10T17:26:59+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "MAI-Code-1-Flash deprecated",
+      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T16:54:01+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "3 ways to prep for your next big race with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "From Wafer-Out to First Token: Codifying Supply Chain Expertise with Nemotron and Palantir Foundry",
-      "url": "https://developer.nvidia.com/blog/from-wafer-out-to-first-token-codifying-supply-chain-expertise-with-nemotron-and-palantir-foundry",
-      "source": "NVIDIA Developer Blog",
+      "title": "One resignation turned the embers of AI fear into a wildfire",
+      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+      "source": "Interconnects",
       "site_id": "official_ai",
-      "published_at": "2026-09-10T09:00:00+00:00",
+      "published_at": "2026-09-10T15:28:52+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Xcode 27 runner image now runs on macOS 27",
+      "url": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T15:15:36+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+      "url": "https://openai.com/index/put-data-to-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T15:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "High-Throughput Structure Prediction with BioNeMo Inference Runtime",
+      "url": "https://developer.nvidia.com/blog/high-throughput-structure-prediction-with-bionemo-inference-runtime",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T15:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -171,33 +297,15 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
-      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
-      "source": "Simon Willison",
+      "title": "From Wafer-Out to First Token: Codifying Supply Chain Expertise with Nemotron and Palantir Foundry",
+      "url": "https://developer.nvidia.com/blog/from-wafer-out-to-first-token-codifying-supply-chain-expertise-with-nemotron-and-palantir-foundry",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-03T20:18:41+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
-      "url": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T00:00:00+00:00",
+      "published_at": "2026-09-10T09:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [
-        "opensource"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -277,15 +385,32 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
-      "source": "Latent Space",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-10T03:33:12+00:00",
+      "published_at": "2026-09-10T07:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -428,91 +553,33 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.29.0rc3",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc3",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T00:52:54+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T18:50:38+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google DeepMind 发布 WeatherNext 3 全球天气 AI 模型， hourly 更新且分辨率较上一代提升约 5 倍",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T15:02:08+00:00",
+      "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+      "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-10T16:33:44+00:00",
       "source_count": 2,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "What’s new in Microsoft Foundry | July and August 2026",
-      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-09T23:00:39+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "CodeQL 2.27.0 adds support for Linux ARM64",
-      "url": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-09T21:45:06+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Enterprise managed permissions for GitHub Copilot agent operations",
-      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-09T20:08:14+00:00",
-      "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
+        "openai",
+        "anthropic",
         "agent",
-        "coding"
+        "industry"
       ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T03:33:12+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -531,84 +598,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "GitHub Enterprise Server 3.22 现已全面发布",
-      "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T21:52:42+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
-      "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T18:04:55+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
-      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-04T17:38:48+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
-      "url": "https://www.latent.space/p/astra",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T21:09:41+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Upcoming deprecation of selected GitHub Copilot models",
-      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T19:40:14+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-10T15:11:55.685896+00:00",
+  "generated_at": "2026-09-10T19:07:53.474387+00:00",
   "period": "2026-W37"
 }
