@@ -1,11 +1,158 @@
 {
-  "generated_at": "2026-09-10T05:25:04.573134+00:00",
+  "generated_at": "2026-09-10T10:33:03.340831+00:00",
   "slug": "deepseek",
   "label": "DeepSeek",
   "group": "vendor",
   "blurb": "开源权重与技术报告",
-  "total_items": 8,
+  "total_items": 14,
   "items": [
+    {
+      "title": "DeepSeek V4.1 Flash 正式发布：552B MoE 新架构，全面超越 V4 Pro",
+      "url": "https://www.aibase.com/news/30957",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-10T09:40:16.624923+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash发布：原生多模态视觉理解全面超越Pro版",
+      "url": "https://www.aibase.com/news/30955",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-10T09:40:16.624923+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 来了，明天中午 Flash 降价 60%",
+      "url": "https://juejin.cn/post/7683375934587502643",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-10T09:28:36.252000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache",
+      "url": "https://www.infoq.cn/article/sbaJrAa8VTIRKIPCpKlo",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-10T09:06:25+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
+      "url": "https://x.com/kimmonismus/status/2097970735591366804",
+      "source": "X：Kim (@kimmonismus)",
+      "site_id": "aihot",
+      "published_at": "2026-09-10T08:49:36+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
+      "url": "https://x.com/kimmonismus/status/2097962333767102665",
+      "source": "X：Kim (@kimmonismus)",
+      "site_id": "aihot",
+      "published_at": "2026-09-10T08:16:13+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "DeepSeek v4.1 闪电版",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "source": "twitter.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-10T07:39:52.730000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+      "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
+      "source": "MarkTechPost（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-10T07:31:01+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "source": "DeepSeek：API 更新日志",
+      "site_id": "aihot",
+      "published_at": "2026-09-10T05:58:04.695000+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "DeepSeek 三种模式合一：V4.1 Flash 最快今日发布，V4 Pro 将下线",
       "url": "https://www.aibase.com/news/30949",
@@ -13,7 +160,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-10T04:36:48.442282+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "deepseek",
@@ -30,7 +177,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-10T04:22:52.770000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "deepseek"
@@ -45,7 +192,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-09T15:05:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "deepseek"
@@ -60,7 +207,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-09T13:13:24.203000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "deepseek"
@@ -75,62 +222,13 @@
       "site_id": "aibase",
       "published_at": "2026-09-09T09:41:03.252104+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
-        "deepseek",
-        "industry"
+        "deepseek"
       ],
       "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
-      "url": "https://x.com/thexpin/status/2097615997616406833",
-      "source": "X：X.PIN (@thexpin)",
-      "site_id": "aihot",
-      "published_at": "2026-09-09T09:20:00+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
-      "url": "https://x.com/rohanpaul_ai/status/2097605329123147987",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "site_id": "aihot",
-      "published_at": "2026-09-09T08:37:36+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
-      "url": "https://www.ithome.com/1/000/188.htm",
-      "source": "IT之家（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-09T06:41:51+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     }
   ]
 }
