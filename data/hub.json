@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T22:22:33.628202+00:00",
+  "generated_at": "2026-09-10T00:57:05.107109+00:00",
   "today": "2026-09-10",
-  "lead": "Enterprise managed permissions for GitHub Copilot agent operations；Paul Christiano joins OpenAI Foundation Board；IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+  "lead": "OpenAI 发布 GPT-6 Astra，面向专业工作场景；What’s new in Microsoft Foundry | July and August 2026；CodeQL 2.27.0 adds support for Linux ARM64",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -19,7 +19,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 78
+      "hot_score": 63
     },
     {
       "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
@@ -28,7 +28,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-09T16:05:40.926000+00:00",
       "source_count": 3,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -36,7 +36,21 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 71
+      "hot_score": 57
+    },
+    {
+      "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
+      "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-09T22:00:00+00:00",
+      "source_count": 2,
+      "score": 60,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
     },
     {
       "title": "Qwen 3.8 遵循 GPT-5.5 Pro 的推理预填充机制",
@@ -53,7 +67,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 53
+      "hot_score": 42
     },
     {
       "title": "Anthropic 正在构建一套预测性监控系统，用于监控活动人士",
@@ -69,25 +83,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 38
-    },
-    {
-      "title": "GPT‑5.6 Sol 如何助力开展量子计算实验",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-09T13:29:27.051000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 29
+      "hot_score": 31
     }
   ],
   "topics": [
@@ -110,7 +106,7 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "deepseek",
@@ -131,7 +127,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 25
+      "count": 24
     },
     {
       "slug": "coding",
@@ -152,14 +148,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 24
+      "count": 22
     },
     {
       "slug": "paper",

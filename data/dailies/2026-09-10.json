@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-09-09T22:22:33.628202+00:00",
+  "generated_at": "2026-09-10T00:57:05.107109+00:00",
   "date": "2026-09-10",
   "timezone": "Asia/Shanghai",
-  "lead": "Enterprise managed permissions for GitHub Copilot agent operations；Paul Christiano joins OpenAI Foundation Board；IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+  "lead": "OpenAI 发布 GPT-6 Astra，面向专业工作场景；What’s new in Microsoft Foundry | July and August 2026；CodeQL 2.27.0 adds support for Linux ARM64",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-09T11:00:00+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 19
+    },
     {
       "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
       "url": "https://www.anthropic.com/institute/econ-scenarios",
@@ -13,7 +30,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-09T16:05:40.926000+00:00",
       "source_count": 3,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -21,10 +38,52 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 71
+      "hot_score": 57
     }
   ],
   "items": [
+    {
+      "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-09T11:00:00+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | July and August 2026",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-09T23:00:39+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "CodeQL 2.27.0 adds support for Linux ARM64",
+      "url": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-09T21:45:06+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Enterprise managed permissions for GitHub Copilot agent operations",
       "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
@@ -32,26 +91,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-09T20:08:14+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-09T17:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -99,13 +143,44 @@
       "label": "官方更新"
     },
     {
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-09T17:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 呼吁抓住 AI 政策窗口期，支持强制性国家安全监管与四项加州法案",
+      "url": "https://openai.com/index/ai-policy-window",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-09T13:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Get ready for the game with new football features in Search",
       "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search",
       "source": "Google AI Blog",
       "site_id": "official_ai",
       "published_at": "2026-09-09T16:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google"
@@ -120,7 +195,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-09T16:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google"
@@ -148,7 +223,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-09T11:01:23+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -185,53 +260,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Introducing ChatGPT Images 2.5",
-      "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T22:46:33+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Enterprise Server 3.22 现已全面发布",
-      "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T21:52:42+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
-      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-09T19:28:17.117000+00:00",
-      "source_count": 1,
-      "score": 78,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
       "title": "Anthropic 发布 Claude 模型越权访问事件的对齐评估，METR 将独立调查",
       "url": "https://x.com/AnthropicAI/status/2097762642958135398",
       "source": "X：Anthropic (@AnthropicAI)",
@@ -249,20 +277,21 @@
       "label": "行业动态"
     },
     {
-      "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
-      "url": "https://www.anthropic.com/institute/econ-scenarios",
-      "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+      "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "source": "Anthropic：Research（发表成果 · 网页）",
       "site_id": "aihot",
-      "published_at": "2026-09-09T16:05:40.926000+00:00",
-      "source_count": 3,
+      "published_at": "2026-09-09T19:28:17.117000+00:00",
+      "source_count": 1,
       "score": 77,
       "official": true,
       "topics": [
         "anthropic",
-        "launch"
+        "launch",
+        "industry"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "行业动态"
     },
     {
       "title": "OpenAI 纳维-斯托克斯方程证明争议：Buckmaster 指控不当行为，各方回应引出开放科学之问",
@@ -281,50 +310,32 @@
       "label": "行业动态"
     },
     {
-      "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
-      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
-      "source": "Simon Willison 博客",
+      "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
       "site_id": "aihot",
-      "published_at": "2026-09-08T23:55:12+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "v2.1.267",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-09T19:58:14+00:00",
-      "source_count": 1,
-      "score": 63,
+      "published_at": "2026-09-09T16:05:40.926000+00:00",
+      "source_count": 3,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
-        "agent",
         "launch"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
     },
     {
-      "title": "Anthropic built an economic model that frames its CEO's bleakest job forecasts as an outlier scenario",
-      "url": "https://the-decoder.com/anthropic-built-an-economic-model-that-frames-its-ceos-bleakest-job-forecasts-as-an-outlier-scenario",
-      "source": "The Decoder AI News",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-09-09T19:39:27+00:00",
+      "published_at": "2026-09-09T22:25:22+00:00",
       "source_count": 1,
       "score": 63,
       "official": true,
       "topics": [
-        "anthropic"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
