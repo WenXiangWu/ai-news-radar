@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:07:53.474387+00:00",
+  "generated_at": "2026-09-10T22:20:26.704666+00:00",
   "window_hours": 24,
   "total_items": 13,
   "items": [
@@ -10,12 +10,30 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T13:13:37.370000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 73
+      "hot_score": 56
+    },
+    {
+      "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-10T20:57:30+00:00",
+      "source_count": 2,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "deepseek",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 53
     },
     {
       "title": "Cognition推出新款SWE-2模型，可与Fable 5.1和GPT-Astra一较高下",
@@ -29,7 +47,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
+      "hot_score": 40
     },
     {
       "title": "关于研究人员能否将未发表的数学成果托付给OpenAI，仍有更多疑问",
@@ -38,14 +56,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T16:55:27.117000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
+      "hot_score": 38
     },
     {
       "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
@@ -54,7 +72,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-10T16:33:44+00:00",
       "source_count": 2,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "openai",
@@ -64,7 +82,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 48
+      "hot_score": 37
     },
     {
       "title": "Tell HN: OpenAI 不断重新启用“允许训练”设置",
@@ -73,40 +91,8 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T14:32:55.029000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 41
-    },
-    {
-      "title": "另一位研究人员表示，OpenAI 通过对话数据进行了训练，随后宣称取得了突破性进展",
-      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
-      "source": "bsky.app",
-      "site_id": "buzzing",
-      "published_at": "2026-09-10T14:17:31.971000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 40
-    },
-    {
-      "title": "Mathematicians want proof OpenAI didn’t use their work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-10T11:18:58+00:00",
-      "source_count": 2,
-      "score": 61,
-      "official": true,
       "topics": [
         "openai"
       ],
@@ -115,20 +101,66 @@
       "hot_score": 31
     },
     {
+      "title": "另一位研究人员表示，OpenAI 通过对话数据进行了训练，随后宣称取得了突破性进展",
+      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "source": "bsky.app",
+      "site_id": "buzzing",
+      "published_at": "2026-09-10T14:17:31.971000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 31
+    },
+    {
+      "title": "14岁上清华、普林斯顿最年轻终身教授王梦迪：AI 尚未发现新的基础科学｜附完整演讲",
+      "url": "https://www.infoq.cn/article/d0NzJlH20aPXVmsZHdjW",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-10T12:46:57+00:00",
+      "source_count": 2,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 27
+    },
+    {
+      "title": "Mathematicians want proof OpenAI didn’t use their work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-10T11:18:58+00:00",
+      "source_count": 2,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 24
+    },
+    {
       "title": "DeepSeek v4.1 闪电版",
       "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
       "source": "twitter.com",
       "site_id": "buzzing",
       "published_at": "2026-09-10T07:39:52.730000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 23
+      "hot_score": 18
     },
     {
       "title": "OpenAI 可能又剽窃了一项重要证明",
@@ -137,30 +169,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T06:51:55.810000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 22
-    },
-    {
-      "title": "诺奖得主阿吉翁:AI时代，比以往任何时候都更需要重视手工劳动和软技能",
-      "url": "https://www.aibase.com/news/30954",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-10T04:36:48.442282+00:00",
-      "source_count": 2,
-      "score": 76,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 18
+      "hot_score": 17
     },
     {
       "title": "乐队“Muse”的社交媒体账号被Meta的新AI助手“Muse”夺走了",
@@ -169,14 +185,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-10T01:00:14.760000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 13
+      "hot_score": 10
     },
     {
       "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
@@ -192,21 +208,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 12
-    },
-    {
-      "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
-      "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-09T22:00:00+00:00",
-      "source_count": 2,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
+      "hot_score": 9
     }
   ]
 }
