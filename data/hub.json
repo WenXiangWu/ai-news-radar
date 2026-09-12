@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-09-12T19:18:51.789919+00:00",
+  "generated_at": "2026-09-12T22:25:44.118953+00:00",
   "today": "2026-09-13",
-  "lead": "Perplexity 信任 GPT-6 Astra 的端到端系统；OpenAI 发布 GPT-6 Astra 并展示社区构建案例；前沿部署工程师的崛起——以及如何正确完成工作",
+  "lead": "Perplexity 信任 GPT-6 Astra 的端到端系统；v0.29.1rc0；OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-12T20:28:29+00:00",
+      "source_count": 2,
+      "score": 66,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
+    },
     {
       "title": "人类老板 Dario Amodei 呼吁放慢人工智能发展速度",
       "url": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
@@ -11,12 +27,12 @@
       "site_id": "zeli",
       "published_at": "2026-09-12T16:56:52+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 38
     },
     {
       "title": "英伟达是人工智能领域的“中央银行”",
@@ -25,12 +41,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-12T16:37:21.932000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 48
+      "hot_score": 37
     },
     {
       "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
@@ -46,7 +62,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 38
+      "hot_score": 30
     },
     {
       "title": "最糟糕的垃圾邮件：iLands 的 AI Agent Hustle 内部",
@@ -55,31 +71,14 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T11:13:38+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 31
-    },
-    {
-      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-      "url": "https://www.rubyhack.ai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-12T00:24:20.561000+00:00",
-      "source_count": 3,
-      "score": 80,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 25
+      "hot_score": 24
     }
   ],
   "topics": [
@@ -88,14 +87,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 27
+      "count": 30
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 29
+      "count": 30
     },
     {
       "slug": "google",
@@ -109,7 +108,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "qwen",
@@ -123,14 +122,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 13
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 3
     },
     {
       "slug": "mcp",
@@ -144,7 +143,7 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "launch",
@@ -158,14 +157,14 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 6
+      "count": 7
     }
   ],
   "days": [

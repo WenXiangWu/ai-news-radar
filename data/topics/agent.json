@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-09-12T19:18:51.789919+00:00",
+  "generated_at": "2026-09-12T22:25:44.118953+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 16,
+  "total_items": 13,
   "items": [
+    {
+      "title": "v2.1.270",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-12T19:45:44+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "万字长文 | Agent 工程解析（一）：上下文管理",
       "url": "https://waytoagi.feishu.cn/wiki/O3VAwaZmnihXt6k9Fdjc4WKFnoh?from=from_copylink",
@@ -13,7 +30,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-12T19:17:50.217507+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -28,7 +45,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-12T19:17:50.217507+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -43,7 +60,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T15:01:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -59,7 +76,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T14:00:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -90,7 +107,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T11:13:38+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "agent"
@@ -105,7 +122,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T11:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -120,7 +137,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-12T10:00:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -135,7 +152,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T09:47:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -151,7 +168,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-12T05:08:20+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "openai",
@@ -167,7 +184,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-12T03:27:39+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": false,
       "topics": [
         "agent",
@@ -191,72 +208,6 @@
       ],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
-      "url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
-      "source": "Baseten 工程博客（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-11T22:01:37+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize",
-      "url": "https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T22:01:08+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "将 VS Code Agent 添加到 Copilot 使用指标",
-      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T21:30:30+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v2.1.269",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T19:17:55+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
