@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T05:10:45.370946+00:00",
+  "generated_at": "2026-09-12T09:50:35.997176+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 9,
+  "total_items": 6,
   "items": [
     {
       "title": "Sources: US Senate negotiators are debating a bill to impose a \"duty of care\" for AI companies and let the government block the release of models deemed unsafe (Courtney Rozen/Reuters)",
@@ -13,9 +13,25 @@
       "site_id": "techurls",
       "published_at": "2026-09-11T22:15:42+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "we heard feedback that it's hard to know if your skills are still working with new model releases plugin evals are here to help run `claude plugin eval init` in your plugin folder https://t.co/Q0I1ZnugDs",
+      "url": "https://x.com/trq212/status/2098531560643539440",
+      "source": "Follow Builders · X · Thariq",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-11T21:58:07+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "anthropic",
         "launch"
       ],
       "reason": "",
@@ -28,7 +44,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-11T19:17:55+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -45,7 +61,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-11T10:50:02+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "launch"
@@ -65,11 +81,10 @@
       "topics": [
         "agent",
         "coding",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "金融领域首个智能体安全标准发布",
@@ -82,68 +97,6 @@
       "official": false,
       "topics": [
         "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "proto-v0.1.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.1.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T08:30:05+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
-      "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T06:57:22+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation",
-      "url": "https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T06:01:25+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI发布金融服务版ChatGPT：集成GPT-6 Astra重构投行核心业务",
-      "url": "https://www.aibase.com/news/30983",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-11T04:34:35.501478+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "openai",
         "launch"
       ],
       "reason": "",
