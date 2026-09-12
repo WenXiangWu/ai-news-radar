@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T00:53:42.016314+00:00",
+  "generated_at": "2026-09-12T05:10:45.370946+00:00",
   "date": "2026-09-12",
   "timezone": "Asia/Shanghai",
-  "lead": "Perplexity trusts GPT-6 Astra with end-to-end systems；GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化；Add VS Code Agents to Copilot usage metrics",
+  "lead": "Perplexity trusts GPT-6 Astra with end-to-end systems；GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化；OpenAI agents attacked RubyGems back in May",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,14 +13,31 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T18:26:10+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 35
+      "hot_score": 25
+    },
+    {
+      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+      "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-12T02:39:39+00:00",
+      "source_count": 2,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 49
     },
     {
       "title": "Feeling sad about AI",
@@ -29,12 +46,12 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-11T17:48:00.960000+00:00",
       "source_count": 3,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 66
+      "hot_score": 46
     }
   ],
   "items": [
@@ -43,7 +60,7 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-12T00:15:00.438960+00:00",
+      "published_at": "2026-09-12T04:33:51.793444+00:00",
       "source_count": 1,
       "score": 86,
       "official": true,
@@ -60,10 +77,25 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T18:26:10+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI agents attacked RubyGems back in May",
+      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-12T00:42:25+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -75,7 +107,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T21:30:30+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
@@ -90,7 +122,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T20:00:07+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
@@ -105,7 +137,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T16:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -120,7 +152,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T10:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -135,7 +167,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T12:36:25+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -150,7 +182,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T08:30:05+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -159,17 +191,20 @@
       "label": "官方更新"
     },
     {
-      "title": "github-to-sqlite 2.9.1",
-      "url": "https://simonwillison.net/2026/Sep/11/github-to-sqlite",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T00:28:39+00:00",
-      "source_count": 1,
-      "score": 79,
+      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+      "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-12T02:39:39+00:00",
+      "source_count": 2,
+      "score": 80,
       "official": true,
-      "topics": [],
+      "topics": [
+        "opensource",
+        "industry"
+      ],
       "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "OpenAI’s feud with mathematicians is only escalating",
@@ -178,7 +213,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-11T20:57:36+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -193,7 +228,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-11T08:11:46+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
@@ -210,7 +245,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-11T19:17:55+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -227,7 +262,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-11T18:41:49+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -241,36 +276,6 @@
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-09-11T16:46:25+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
-      "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T17:57:42+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T11:59:19+00:00",
       "source_count": 1,
       "score": 61,
       "official": true,
@@ -296,32 +301,47 @@
       "label": "值得关注"
     },
     {
+      "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
+      "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-11T17:57:42+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
+      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-11T11:59:19+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Feeling sad about AI",
       "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai",
       "source": "Simon Willison",
       "site_id": "opmlrss",
       "published_at": "2026-09-11T17:48:00.960000+00:00",
       "source_count": 3,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid",
-      "url": "https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T08:40:01+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
