@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T16:49:25.563686+00:00",
+  "generated_at": "2026-09-12T19:18:51.789919+00:00",
   "slug": "coding",
   "label": "AI 编码",
   "group": "tech",
   "blurb": "编码助手与开发工作流",
-  "total_items": 5,
+  "total_items": 6,
   "items": [
     {
       "title": "用 Node.js 复刻 Codex Astra 的终端星光",
@@ -13,7 +13,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-12T12:53:03.555000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
@@ -21,6 +21,22 @@
       ],
       "reason": "",
       "label": "值得关注"
+    },
+    {
+      "title": "【AINews】DeepSeek v4.1-Flash：763B-P8B-D16B新颖的视觉因果编码器-解码器架构标志着鲸鱼的回归",
+      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-12T05:56:05+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "I have decided to do this after much deliberation: All local scheduled tasks live in Codex. All cloud tasks I’m porting over to Grok Bot. Makes it a clean split.",
@@ -39,43 +55,47 @@
       "label": "值得关注"
     },
     {
-      "title": "Add VS Code Agents to Copilot usage metrics",
+      "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
+      "url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
+      "source": "Baseten 工程博客（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-11T22:01:37+00:00",
+      "source_count": 1,
+      "score": 71,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "agent",
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "将 VS Code Agent 添加到 Copilot 使用指标",
       "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-09-11T21:30:30+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
+        "agent",
         "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "title": "Copilot 代码审查中的自动解析和分析更新",
       "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-09-11T20:00:07+00:00",
       "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
-      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T18:26:10+00:00",
-      "source_count": 2,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "coding"

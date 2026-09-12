@@ -1,9 +1,37 @@
 {
-  "generated_at": "2026-09-12T16:49:25.563686+00:00",
+  "generated_at": "2026-09-12T19:18:51.789919+00:00",
   "today": "2026-09-13",
-  "lead": "Perplexity trusts GPT-6 Astra with end-to-end systems；The Rise of the Forward Deployed Engineer — and How To Do the Job Right；[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+  "lead": "Perplexity 信任 GPT-6 Astra 的端到端系统；OpenAI 发布 GPT-6 Astra 并展示社区构建案例；前沿部署工程师的崛起——以及如何正确完成工作",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "人类老板 Dario Amodei 呼吁放慢人工智能发展速度",
+      "url": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-12T16:56:52+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 49
+    },
+    {
+      "title": "英伟达是人工智能领域的“中央银行”",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "source": "www.economist.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-12T16:37:21.932000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
+    },
     {
       "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
       "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
@@ -11,14 +39,30 @@
       "site_id": "aihot",
       "published_at": "2026-09-12T05:37:39.339000+00:00",
       "source_count": 3,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 47
+      "hot_score": 38
+    },
+    {
+      "title": "最糟糕的垃圾邮件：iLands 的 AI Agent Hustle 内部",
+      "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-12T11:13:38+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 31
     },
     {
       "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
@@ -27,7 +71,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-12T00:24:20.561000+00:00",
       "source_count": 3,
-      "score": 81,
+      "score": 80,
       "official": false,
       "topics": [
         "openai",
@@ -35,51 +79,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 31
-    },
-    {
-      "title": "Beren Millidge、John Schulman、Charlie O'Neill 对谈递归自我改进离我们还有多远",
-      "url": "https://www.dwarkesh.com/p/john-beren-charlie",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-12T08:31:36.686000+00:00",
-      "source_count": 2,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 30
-    },
-    {
-      "title": "Litelm：精简版 LiteLLM，摒弃冗余",
-      "url": "https://github.com/kennethwolters/litelm",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-12T02:45:28.057000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 19
-    },
-    {
-      "title": "Feeling sad about AI",
-      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-11T17:48:00.960000+00:00",
-      "source_count": 3,
-      "score": 57,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 18
+      "hot_score": 25
     }
   ],
   "topics": [
@@ -102,14 +102,14 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 4
+      "count": 2
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "qwen",
@@ -123,14 +123,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 13
+      "count": 16
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "mcp",
@@ -151,21 +151,21 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 4
+      "count": 6
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 5
+      "count": 6
     }
   ],
   "days": [
