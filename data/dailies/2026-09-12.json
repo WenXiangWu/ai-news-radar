@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T22:20:39.615306+00:00",
+  "generated_at": "2026-09-12T00:53:42.016314+00:00",
   "date": "2026-09-12",
   "timezone": "Asia/Shanghai",
-  "lead": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化；Auto-resolution and analysis updates in Copilot code review；OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇）",
+  "lead": "Perplexity trusts GPT-6 Astra with end-to-end systems；GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化；Add VS Code Agents to Copilot usage metrics",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,17 +13,46 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T18:26:10+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "coding"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 43
+      "hot_score": 35
+    },
+    {
+      "title": "Feeling sad about AI",
+      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai",
+      "source": "Simon Willison",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-11T17:48:00.960000+00:00",
+      "source_count": 3,
+      "score": 60,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 66
     }
   ],
   "items": [
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-12T00:15:00.438960+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
       "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
@@ -31,7 +60,22 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T18:26:10+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-11T21:30:30+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
         "coding"
@@ -46,10 +90,25 @@
       "site_id": "official_ai",
       "published_at": "2026-09-11T20:00:07+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-11T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -100,54 +159,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Quick chats with Pets and Appshots on Windows 26.908",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
+      "title": "github-to-sqlite 2.9.1",
+      "url": "https://simonwillison.net/2026/Sep/11/github-to-sqlite",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-11T00:00:00+00:00",
+      "published_at": "2026-09-11T00:28:39+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 79,
       "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — September 7",
-      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T22:55:07+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
-      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T08:11:46+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "OpenAI’s feud with mathematicians is only escalating",
@@ -165,13 +187,30 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
+      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-11T08:11:46+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "v2.1.269",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
       "source": "Claude Code Releases",
       "site_id": "curated_media",
       "published_at": "2026-09-11T19:17:55+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -188,7 +227,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-11T18:41:49+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
@@ -207,21 +246,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers",
-      "url": "https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T09:45:58+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -257,13 +281,41 @@
       "label": "值得关注"
     },
     {
+      "title": "Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers",
+      "url": "https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-11T09:45:58+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Feeling sad about AI",
+      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai",
+      "source": "Simon Willison",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-11T17:48:00.960000+00:00",
+      "source_count": 3,
+      "score": 60,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid",
       "url": "https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-11T08:40:01+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
@@ -278,50 +330,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-11T12:00:18+00:00",
       "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic spent this week in hot water over cybersecurity",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-11T16:09:14+00:00",
-      "source_count": 1,
       "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Quoting huggingface.co/security.txt",
-      "url": "https://simonwillison.net/2026/Sep/11/hugging-face-security",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-11T16:04:53+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-10T21:51:59+00:00",
-      "source_count": 1,
-      "score": 57,
       "official": true,
       "topics": [],
       "reason": "",
