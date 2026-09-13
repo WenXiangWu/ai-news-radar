@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-09-13T00:11:21.912394+00:00",
+  "generated_at": "2026-09-13T04:42:37.939596+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 13,
+  "total_items": 10,
   "items": [
+    {
+      "title": "Codex、Claude Code、WorkBuddy + Tabbit CLI：让 AI 操控浏览器发文章",
+      "url": "https://juejin.cn/post/7683738599201685538",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-13T04:42:20.829000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "v2.1.270",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
@@ -13,7 +30,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-12T19:45:44+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -30,7 +47,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-12T19:17:50.217507+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -45,7 +62,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-12T19:17:50.217507+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -60,7 +77,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T15:01:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -76,7 +93,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T14:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -91,26 +108,11 @@
       "site_id": "newsnow",
       "published_at": "2026-09-12T12:53:03.555000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "最糟糕的垃圾邮件：iLands 的 AI Agent Hustle 内部",
-      "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-12T11:13:38+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -122,22 +124,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T11:00:00+00:00",
       "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
-      "url": "https://www.infoq.cn/article/hk3WB50fAOMDg55YVaaW",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-12T10:00:00+00:00",
-      "source_count": 1,
-      "score": 55,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -152,7 +139,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-12T09:47:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -168,7 +155,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-12T05:08:20+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "openai",
@@ -176,39 +163,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "I have decided to do this after much deliberation: All local scheduled tasks live in Codex. All cloud tasks I’m porting over to Grok Bot. Makes it a clean split.",
-      "url": "https://x.com/petergyang/status/2098614492066435228",
-      "source": "Follow Builders · X · Peter Yang",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-12T03:27:39+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-      "url": "https://www.rubyhack.ai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-12T00:24:20.561000+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }
