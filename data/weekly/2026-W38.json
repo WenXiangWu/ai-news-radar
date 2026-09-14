@@ -1,13 +1,13 @@
 {
   "title": "2026-W38 周报",
   "dates": [
+    "2026-09-15",
     "2026-09-14",
     "2026-09-13",
     "2026-09-12",
     "2026-09-11",
     "2026-09-10",
-    "2026-09-09",
-    "2026-09-08"
+    "2026-09-09"
   ],
   "total_items": 40,
   "items": [
@@ -29,31 +29,44 @@
       "label": "官方更新"
     },
     {
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "source": "Hugging Face Blog",
+      "title": "Configure cost and quality in Copilot auto model selection",
+      "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-08T14:23:07+00:00",
+      "published_at": "2026-09-14T16:05:27+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
-        "opensource"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "source": "OpenAI News",
+      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+      "url": "https://www.latent.space/p/recursive",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-08T13:00:00+00:00",
+      "published_at": "2026-09-14T16:04:16+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-14T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -143,79 +156,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T14:15:25+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T14:00:15+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc6",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T08:34:20+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc5",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T08:20:33+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Perplexity 信任 GPT-6 Astra 的端到端系统",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-14T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
       "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
       "source": "GitHub AI & ML",
@@ -289,6 +229,21 @@
       ],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "Perplexity 信任 GPT-6 Astra 的端到端系统",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-14T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "使用 GPT-6 Astra 和 ChatGPT Work 生成跑步路线",
@@ -377,34 +332,6 @@
       "topics": [
         "openai"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-07T23:54:54+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -597,8 +524,76 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "AI Scan for pull request APIs in public preview",
+      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T20:20:58+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Control GitHub Actions cache access with cache-mode",
+      "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T17:26:59+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
+      "url": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T16:55:32+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "MAI-Code-1-Flash deprecated",
+      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T16:54:01+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+      "url": "https://openai.com/index/put-data-to-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-10T15:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-14T13:15:50.239622+00:00",
+  "generated_at": "2026-09-14T19:15:36.640326+00:00",
   "period": "2026-W38"
 }
