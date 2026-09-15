@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-09-15T18:47:34.951466+00:00",
+  "generated_at": "2026-09-15T21:54:48.627201+00:00",
   "slug": "coding",
   "label": "AI 编码",
   "group": "tech",
   "blurb": "编码助手与开发工作流",
-  "total_items": 6,
+  "total_items": 5,
   "items": [
+    {
+      "title": "GitHub Copilot suggests custom properties definitions",
+      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T19:07:47+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI故意欠技术债，等Codex来还：仅2名工程师，把核心存储从Python重写成Rust",
+      "url": "https://www.infoq.cn/article/QtIy65SxjN0Q4riY7tCo",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-15T16:09:20+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
       "url": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
@@ -13,7 +45,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-15T15:41:25+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -31,26 +63,9 @@
       "site_id": "buzzing",
       "published_at": "2026-09-15T10:28:46.002000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI故意欠技术债，等Codex来还：仅2名工程师，把核心存储从Python重写成Rust",
-      "url": "https://www.infoq.cn/article/QtIy65SxjN0Q4riY7tCo",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-15T08:09:20+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
         "coding"
       ],
       "reason": "",
@@ -66,39 +81,6 @@
       "score": 49,
       "official": false,
       "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
-      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
-      "source": "Claude：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-14T19:15:56.861000+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "This is so useful. pushing to add this to codex as well. https://t.co/Pqs53SlKM7",
-      "url": "https://x.com/steipete/status/2099571935495827761",
-      "source": "Follow Builders · X · Peter Steinberger",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-14T18:52:12+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "agent",
         "coding"
       ],
       "reason": "",
