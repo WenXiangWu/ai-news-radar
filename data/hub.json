@@ -1,9 +1,41 @@
 {
-  "generated_at": "2026-09-15T08:23:42.490292+00:00",
+  "generated_at": "2026-09-15T14:12:18.736546+00:00",
   "today": "2026-09-15",
-  "lead": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign；Configure cost and quality in Copilot auto model selection；Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+  "lead": "New insights from Google’s AI & Economy ATLAS；[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign；Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-15T12:01:31+00:00",
+      "source_count": 2,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "反向传播的替代方案：增强拉格朗日预测编码",
+      "url": "https://pub.sakana.ai/pc-alm",
+      "source": "pub.sakana.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-09-15T10:28:46.002000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 44
+    },
     {
       "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
       "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
@@ -11,14 +43,28 @@
       "site_id": "aihot",
       "published_at": "2026-09-15T00:57:33.124000+00:00",
       "source_count": 3,
-      "score": 80,
+      "score": 79,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 65
+      "hot_score": 40
+    },
+    {
+      "title": "利用备忘录法（非AI生成）将eBPF的CPU开销降低约90%",
+      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90",
+      "source": "nathannaveen.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-09-15T08:19:22.645000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 37
     },
     {
       "title": "OpenAI、Anthropic和Meta的黑客事件背后，竟是一家公司所为",
@@ -27,54 +73,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-15T06:29:10.367000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "openai",
         "anthropic"
       ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "对抗式时尚对AI全景监视体系发出强烈呼吁",
-      "url": "https://spectrum.ieee.org/adversarial-fashion",
-      "source": "spectrum.ieee.org",
-      "site_id": "buzzing",
-      "published_at": "2026-09-15T05:27:28.301000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 47
-    },
-    {
-      "title": "前联邦贸易委员会（FTC）主席汗：援引1934年的先例，给AI公司CEO们戴上手铐",
-      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
-      "source": "www.theregister.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-15T05:11:18.876000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 46
-    },
-    {
-      "title": "为什么机器学习研究中的代理不会出现过拟合？",
-      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-      "source": "www.amazon.science",
-      "site_id": "buzzing",
-      "published_at": "2026-09-15T00:57:33.120000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
       "reason": "",
       "label": "值得关注",
       "hot_score": 32
@@ -100,49 +104,49 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 6
+      "count": 10
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 7
+      "count": 4
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 21
+      "count": 18
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 8
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 9
+      "count": 6
     },
     {
       "slug": "launch",
@@ -156,7 +160,7 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "industry",

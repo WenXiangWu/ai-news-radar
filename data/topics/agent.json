@@ -1,11 +1,77 @@
 {
-  "generated_at": "2026-09-15T08:23:42.490292+00:00",
+  "generated_at": "2026-09-15T14:12:18.736546+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 21,
+  "total_items": 18,
   "items": [
+    {
+      "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+      "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading",
+      "source": "Trail of Bits：AI安全研究",
+      "site_id": "aihot",
+      "published_at": "2026-09-15T11:00:00+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "paper",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Show HN: Control Claude Code from your Tesla's screen",
+      "url": "https://teslacode.dev",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-15T08:27:35+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI故意欠技术债，等Codex来还：仅2名工程师，把核心存储从Python重写成Rust",
+      "url": "https://www.infoq.cn/article/QtIy65SxjN0Q4riY7tCo",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-15T08:09:20+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Jack & Jill raises $40M to put an AI agent on both sides of the hiring table",
+      "url": "https://thenextweb.com/news/jack-and-jill-40m-series-a",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-15T07:16:57+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "We probably need to all update our sense of what’s coming in terms of agentic workloads with the combination of agent swarms, better computer use, the next wave of APIs and MCPs coming online, and new form factors lik...",
       "url": "https://x.com/levie/status/2099739019517235618",
@@ -13,7 +79,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-15T05:56:08+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 63,
       "official": false,
       "topics": [
         "agent"
@@ -28,7 +94,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-15T03:21:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -43,7 +109,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-15T01:25:13.952404+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -60,7 +126,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-15T00:42:25+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -77,7 +143,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-14T22:45:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -92,7 +158,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-14T22:12:54+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -109,7 +175,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-14T19:15:56.861000+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": true,
       "topics": [
         "anthropic",
@@ -126,7 +192,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-14T18:52:12+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "agent",
@@ -142,7 +208,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-14T17:55:23+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -160,7 +226,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-14T17:29:34+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "anthropic",
@@ -176,7 +242,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-14T17:21:29+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 70,
       "official": false,
       "topics": [
         "deepseek",
@@ -189,11 +255,11 @@
     {
       "title": "Pion, an agent designed to run any company autonomously",
       "url": "https://andonlabs.com/blog/why-we-built-pion",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
       "published_at": "2026-09-14T17:16:06+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -208,28 +274,13 @@
       "site_id": "hackernews",
       "published_at": "2026-09-14T16:51:42+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "恶意 AI 智能体攻击 RubyGems.org：YARD 执行任意代码与 Fastly 缓存密钥利用分析",
-      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-14T16:02:42.072000+00:00",
-      "source_count": 3,
-      "score": 81,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
     },
     {
       "title": "ProGantt: Gantt charts your AI agent can read and write via MCP",
@@ -238,104 +289,11 @@
       "site_id": "hackernews",
       "published_at": "2026-09-14T15:48:32+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent",
         "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Naoma AI Demo Agent V2",
-      "url": "https://www.producthunt.com/products/naoma",
-      "source": "producthunt",
-      "site_id": "newsnow",
-      "published_at": "2026-09-14T12:44:50.652000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
-      "url": "https://www.aibase.com/news/31027",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-14T12:44:15.149994+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Worktrunk: 面向并行 AI Agent 工作流的 Git Worktree 管理 CLI",
-      "url": "https://juejin.cn/post/7684507874422751283",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-14T12:24:29.985000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: A skill that makes people think you're using Claude Code",
-      "url": "https://github.com/Juwan-Hwang/claude-mimic",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-14T12:08:06+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "I tried Meta’s new Muse AI agent — it’s incredibly useful, but handing it my digital life felt deeply uncomfortable",
-      "url": "https://www.techradar.com/ai-platforms-assistants/i-tried-metas-new-muse-ai-agent-its-incredibly-useful-but-handing-it-my-digital-life-felt-deeply-uncomfortable",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-14T11:48:04+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448",
-      "source": "公众号：小红书技术（dots.llm）",
-      "site_id": "aihot",
-      "published_at": "2026-09-14T09:59:00+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
