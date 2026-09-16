@@ -1,9 +1,57 @@
 {
-  "generated_at": "2026-09-16T15:40:36.335750+00:00",
-  "today": "2026-09-16",
-  "lead": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking；OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify；Code scanning AI Scan no longer requires CodeQL default setup",
+  "generated_at": "2026-09-16T18:53:33.414943+00:00",
+  "today": "2026-09-17",
+  "lead": "Claude 协作和聊天现已合而为一 Claude；OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify；使用 Agentic AI 将 CUDA Tile 操作从 Python 转换为 Rust",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "Claude 协作和聊天现已合而为一 Claude",
+      "url": "https://simonwillison.net/2026/Sep/16/one-claude",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T18:28:45.023000+00:00",
+      "source_count": 4,
+      "score": 93,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 100
+    },
+    {
+      "title": "DeepSeek v4.1 Flash 现已成为我们最优秀的黑客模型",
+      "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+      "source": "enclave.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-09-16T16:53:38.011000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T16:06:24.581000+00:00",
+      "source_count": 3,
+      "score": 89,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 95
+    },
     {
       "title": "在大语言模型时代学习编程",
       "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms",
@@ -11,12 +59,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T12:57:28.012000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 96
+      "hot_score": 73
     },
     {
       "title": "Mistral X Mozilla：私密、多语言的 AI 浏览体验",
@@ -25,56 +73,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T11:55:14.283000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 88
-    },
-    {
-      "title": "通过永不言弃，学习在强化学习中解决大型语言模型面临的难题",
-      "url": "https://mnoukhov.github.io/posts/ngu",
-      "source": "mnoukhov.github.io",
-      "site_id": "buzzing",
-      "published_at": "2026-09-16T11:24:28.187000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 84
-    },
-    {
-      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T13:51:15+00:00",
-      "source_count": 2,
-      "score": 87,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 52
-    },
-    {
-      "title": "ImpactGate: A merge gate that scores the structural decay AI adds",
-      "url": "https://github.com/officefloor/ImpactGate",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-16T13:01:09+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
+      "hot_score": 67
     }
   ],
   "topics": [
@@ -83,21 +87,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 35
+      "count": 31
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 27
+      "count": 30
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 13
+      "count": 10
     },
     {
       "slug": "deepseek",
@@ -118,35 +122,35 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 15
+      "count": 14
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 5
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 17
+      "count": 14
     },
     {
       "slug": "paper",
@@ -164,6 +168,7 @@
     }
   ],
   "days": [
+    "2026-09-17",
     "2026-09-16",
     "2026-09-15",
     "2026-09-14",
@@ -176,8 +181,7 @@
     "2026-09-07",
     "2026-09-06",
     "2026-09-05",
-    "2026-09-04",
-    "2026-09-03"
+    "2026-09-04"
   ],
   "week": "2026-W38",
   "month": "2026-09"
