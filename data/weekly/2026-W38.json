@@ -18,7 +18,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 93,
+      "score": 92,
       "official": true,
       "topics": [
         "anthropic"
@@ -33,7 +33,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 89,
+      "score": 88,
       "official": true,
       "topics": [
         "openai"
@@ -58,24 +58,82 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 Agentic AI 将 CUDA Tile 操作从 Python 转换为 Rust",
-      "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T16:28:59+00:00",
+      "published_at": "2026-09-16T20:37:07+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot budget increase requests are generally available",
+      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:17:18+00:00",
       "source_count": 1,
       "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Automate SSO authorization for classic PATs and SSH keys",
+      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:20:16+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "承保超级情报：您可以起诉的支持代理 — Rune Kvist，AIUC",
-      "url": "https://www.latent.space/p/aiuc",
-      "source": "Latent Space",
+      "title": "SCIM user responses now include a profileUrl attribute",
+      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T18:07:45+00:00",
+      "published_at": "2026-09-16T20:19:58+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 Agentic AI 将 CUDA Tile 操作从 Python 转换为 Rust",
+      "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T16:28:59+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -175,15 +233,30 @@
       "label": "官方更新"
     },
     {
-      "title": "代码扫描 AI Scan 不再需要 CodeQL 默认设置",
-      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "source": "GitHub Changelog",
+      "title": "承保超级情报：您可以起诉的支持代理 — Rune Kvist，AIUC",
+      "url": "https://www.latent.space/p/aiuc",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T13:26:06+00:00",
+      "published_at": "2026-09-16T18:07:45+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -197,36 +270,6 @@
       "score": 83,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "工人如何开启新的工作方式",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T09:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "proto-v0.2.0: vllm-proto 0.2.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T08:32:41+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -256,6 +299,49 @@
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "代码扫描 AI Scan 不再需要 CodeQL 默认设置",
+      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T13:26:06+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "工人如何开启新的工作方式",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T09:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "proto-v0.2.0: vllm-proto 0.2.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T08:32:41+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -317,6 +403,21 @@
       "topics": [
         "openai",
         "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot suggests custom properties definitions",
+      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T19:07:47+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
         "coding"
       ],
       "reason": "",
@@ -428,17 +529,54 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot suggests custom properties definitions",
-      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-      "source": "GitHub Changelog",
+      "title": "Can Skills Learned in Games Transfer to Real-World Work?",
+      "url": "https://www.latent.space/p/good-start-labs",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-15T19:07:47+00:00",
+      "published_at": "2026-09-15T20:11:54+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
-      "topics": [
-        "coding"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+      "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T20:00:35+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Enforce GitHub Advanced Security configurations",
+      "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T19:31:58+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
+      "url": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T19:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -454,146 +592,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-14T19:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Configure cost and quality in Copilot auto model selection",
-      "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-14T16:05:27+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
-      "url": "https://www.latent.space/p/recursive",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-14T16:04:16+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-14T16:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
-      "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-12T05:37:39.339000+00:00",
-      "source_count": 3,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Refreshed repository pull requests page in public preview",
-      "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T21:27:17+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "AI Scan for pull request APIs in public preview",
-      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T20:20:58+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Control GitHub Actions cache access with cache-mode",
-      "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T17:26:59+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
-      "url": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T16:55:32+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "MAI-Code-1-Flash deprecated",
-      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T16:54:01+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-16T18:53:33.414943+00:00",
+  "generated_at": "2026-09-16T22:26:44.823460+00:00",
   "period": "2026-W38"
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T18:53:33.414943+00:00",
+  "generated_at": "2026-09-16T22:26:44.823460+00:00",
   "date": "2026-09-17",
   "timezone": "Asia/Shanghai",
-  "lead": "Claude 协作和聊天现已合而为一 Claude；OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify；使用 Agentic AI 将 CUDA Tile 操作从 Python 转换为 Rust",
+  "lead": "Claude 协作和聊天现已合而为一 Claude；OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify；TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 93,
+      "score": 92,
       "official": true,
       "topics": [
         "anthropic"
@@ -29,14 +29,14 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 89,
+      "score": 88,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 95
+      "hot_score": 71
     }
   ],
   "items": [
@@ -47,7 +47,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 93,
+      "score": 92,
       "official": true,
       "topics": [
         "anthropic"
@@ -62,7 +62,78 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 89,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:37:07+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot budget increase requests are generally available",
+      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:17:18+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Automate SSO authorization for classic PATs and SSH keys",
+      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:20:16+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "SCIM user responses now include a profileUrl attribute",
+      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:19:58+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
@@ -76,19 +147,6 @@
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:28:59+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "承保超级情报：您可以起诉的支持代理 — Rune Kvist，AIUC",
-      "url": "https://www.latent.space/p/aiuc",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T18:07:45+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -112,15 +170,30 @@
       "label": "官方更新"
     },
     {
-      "title": "代码扫描 AI Scan 不再需要 CodeQL 默认设置",
-      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "source": "GitHub Changelog",
+      "title": "承保超级情报：您可以起诉的支持代理 — Rune Kvist，AIUC",
+      "url": "https://www.latent.space/p/aiuc",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T13:26:06+00:00",
+      "published_at": "2026-09-16T18:07:45+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -138,13 +211,26 @@
       "label": "官方更新"
     },
     {
+      "title": "代码扫描 AI Scan 不再需要 CodeQL 默认设置",
+      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T13:26:06+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "工人如何开启新的工作方式",
       "url": "https://openai.com/index/unlocking-new-ways-of-working",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-09-16T09:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -159,78 +245,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T08:32:41+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot suggests custom properties definitions",
-      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-15T19:07:47+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Can Skills Learned in Games Transfer to Real-World Work?",
-      "url": "https://www.latent.space/p/good-start-labs",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-15T20:11:54+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
-      "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-15T20:00:35+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Enforce GitHub Advanced Security configurations",
-      "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-15T19:31:58+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
-      "url": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-15T19:00:00+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -250,13 +269,29 @@
       "label": "行业动态"
     },
     {
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-16T21:07:24+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 将 Claude Chat、Cowork 等合并为一个产品",
       "url": "https://the-decoder.com/anthropic-merges-claude-chat-cowork-and-more-into-a-single-product",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-16T16:31:41+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -271,25 +306,10 @@
       "site_id": "curated_media",
       "published_at": "2026-09-16T16:30:00+00:00",
       "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "前 OpenAI 研究员构建了一个 AI 模型，可以判断选项而不是编写文本",
-      "url": "https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-16T15:19:19+00:00",
-      "source_count": 1,
       "score": 63,
       "official": true,
       "topics": [
-        "openai"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -305,21 +325,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌 Deepmind 成立跨学科研究所来解决有关 AGI 的重大问题",
-      "url": "https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-16T17:00:28+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "google"
       ],
       "reason": "",
       "label": "值得关注"

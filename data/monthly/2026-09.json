@@ -28,7 +28,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 93,
+      "score": 92,
       "official": true,
       "topics": [
         "anthropic"
@@ -43,7 +43,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 89,
+      "score": 88,
       "official": true,
       "topics": [
         "openai"
@@ -79,6 +79,21 @@
       "topics": [
         "anthropic",
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:37:07+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -162,15 +177,17 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 Agentic AI 将 CUDA Tile 操作从 Python 转换为 Rust",
-      "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
-      "source": "NVIDIA Developer Blog",
+      "title": "Copilot budget increase requests are generally available",
+      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T16:28:59+00:00",
+      "published_at": "2026-09-16T20:17:18+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -205,11 +222,52 @@
       "label": "官方更新"
     },
     {
-      "title": "承保超级情报：您可以起诉的支持代理 — Rune Kvist，AIUC",
-      "url": "https://www.latent.space/p/aiuc",
-      "source": "Latent Space",
+      "title": "Automate SSO authorization for classic PATs and SSH keys",
+      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T18:07:45+00:00",
+      "published_at": "2026-09-16T20:20:16+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "SCIM user responses now include a profileUrl attribute",
+      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:19:58+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 Agentic AI 将 CUDA Tile 操作从 Python 转换为 Rust",
+      "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T16:28:59+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -512,15 +570,30 @@
       "label": "官方更新"
     },
     {
-      "title": "代码扫描 AI Scan 不再需要 CodeQL 默认设置",
-      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "source": "GitHub Changelog",
+      "title": "承保超级情报：您可以起诉的支持代理 — Rune Kvist，AIUC",
+      "url": "https://www.latent.space/p/aiuc",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T13:26:06+00:00",
+      "published_at": "2026-09-16T18:07:45+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -536,83 +609,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "工人如何开启新的工作方式",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T09:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "proto-v0.2.0: vllm-proto 0.2.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T08:32:41+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Perplexity 信任 GPT-6 Astra 的端到端系统",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-14T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
-      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T18:26:10+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
-      "url": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-16T18:53:33.414943+00:00",
+  "generated_at": "2026-09-16T22:26:44.823460+00:00",
   "period": "2026-09"
 }
