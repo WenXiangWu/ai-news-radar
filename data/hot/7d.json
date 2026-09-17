@@ -1,22 +1,20 @@
 {
-  "generated_at": "2026-09-17T00:48:57.942957+00:00",
+  "generated_at": "2026-09-17T06:32:21.775586+00:00",
   "window_hours": 168,
-  "total_items": 13,
+  "total_items": 15,
   "items": [
     {
-      "title": "Claude 协作和聊天现已合而为一 Claude",
-      "url": "https://simonwillison.net/2026/Sep/16/one-claude",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T18:28:45.023000+00:00",
-      "source_count": 4,
-      "score": 91,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "title": "OpenSpec——一个轻量级且可配置的 AI 规范框架",
+      "url": "https://openspec.dev",
+      "source": "openspec.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-09-17T04:41:15.797000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
       "reason": "",
-      "label": "官方更新",
+      "label": "多源热议",
       "hot_score": 100
     },
     {
@@ -26,14 +24,46 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T23:43:23.228000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 68
+    },
+    {
+      "title": "Claude 协作和聊天现已合而为一 Claude",
+      "url": "https://simonwillison.net/2026/Sep/16/one-claude",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T18:28:45.023000+00:00",
+      "source_count": 4,
+      "score": 90,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 66
+    },
+    {
+      "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-17T01:39:47+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 40
     },
     {
       "title": "DeepSeek v4.1 Flash 现已成为我们最优秀的黑客模型",
@@ -42,14 +72,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T16:53:38.011000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 62
+      "hot_score": 38
     },
     {
       "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
@@ -58,28 +88,45 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 58
+      "hot_score": 36
     },
     {
-      "title": "OpenSpec – A lightweight and configurable AI spec framework",
-      "url": "https://openspec.dev",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-16T23:06:39+00:00",
+      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T00:26:43+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 36
+    },
+    {
+      "title": "Al Gore says the real AI risk isn’t data centers",
+      "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-16T23:43:09+00:00",
+      "source_count": 2,
+      "score": 63,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
+      "hot_score": 34
     },
     {
       "title": "在大语言模型时代学习编程",
@@ -88,12 +135,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T12:57:28.012000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 45
+      "hot_score": 28
     },
     {
       "title": "Mistral X Mozilla：私密、多语言的 AI 浏览体验",
@@ -102,12 +149,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T11:55:14.283000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 41
+      "hot_score": 25
     },
     {
       "title": "关于“模特福利”的警告",
@@ -116,12 +163,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T19:00:46.319000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 37
+      "hot_score": 23
     },
     {
       "title": "PS5 Linux项目负责人离职：称“一群新手在滥用大语言模型（LLMs）”，而“他们根本不懂”",
@@ -130,14 +177,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T15:19:20.606000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 17
     },
     {
       "title": "微软称人工智能竞争对手 Anthropic 可能对人类产生“灾难性影响”",
@@ -146,14 +193,14 @@
       "site_id": "zeli",
       "published_at": "2026-09-16T14:32:15+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 25
+      "hot_score": 16
     },
     {
       "title": "ImpactGate：人工智能添加的对结构衰退进行评分的合并门",
@@ -162,12 +209,12 @@
       "site_id": "zeli",
       "published_at": "2026-09-16T13:01:09+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 22
+      "hot_score": 14
     },
     {
       "title": "Show HN：你的人工智能有多陈旧？ 20 名模特的发布年龄和训练截止时间",
@@ -176,28 +223,14 @@
       "site_id": "zeli",
       "published_at": "2026-09-16T13:01:52+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 22
-    },
-    {
-      "title": "Cloudflare：在搜索中保持可发现性，同时禁止人工智能训练",
-      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-16T02:25:18+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 19
+      "hot_score": 14
     }
   ]
 }

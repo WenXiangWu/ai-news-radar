@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T00:48:57.942957+00:00",
+  "generated_at": "2026-09-17T06:32:21.775586+00:00",
   "date": "2026-09-17",
   "timezone": "Asia/Shanghai",
-  "lead": "Claude 协作和聊天现已合而为一 Claude；OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify；Migrating the GitHub Copilot runtime to Rust, using Copilot",
+  "lead": "Claude 协作和聊天现已合而为一 Claude；OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify；GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,14 +13,14 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 90,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 100
+      "hot_score": 66
     },
     {
       "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
@@ -29,14 +29,31 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 58
+      "hot_score": 36
+    },
+    {
+      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T00:26:43+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 36
     }
   ],
   "items": [
@@ -47,7 +64,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 90,
       "official": true,
       "topics": [
         "anthropic"
@@ -62,7 +79,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
@@ -71,16 +88,47 @@
       "label": "官方更新"
     },
     {
-      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
       "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
       "source": "GitHub AI & ML",
       "site_id": "official_ai",
       "published_at": "2026-09-17T00:26:43+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "proto-v0.3.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T03:47:02+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "coding"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:37:07+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -92,24 +140,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T23:20:33+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
-      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:37:07+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "paper"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -120,24 +153,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T20:17:18+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 Agentic AI 将 CUDA Tile 操作从 Python 转换为 Rust",
-      "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T16:28:59+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -148,7 +168,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T20:20:16+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -161,7 +181,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T20:19:58+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -174,7 +194,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:07:45+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -187,12 +207,25 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T17:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 Agentic AI 将 CUDA Tile 操作从 Python 转换为 Rust",
+      "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T16:28:59+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -203,7 +236,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -218,7 +251,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T13:26:06+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -231,7 +264,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T12:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -246,7 +279,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T11:09:53+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -259,7 +292,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T09:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "openai"
@@ -274,7 +307,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T08:32:41+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -289,13 +322,11 @@
       "site_id": "aihot",
       "published_at": "2026-09-16T14:01:39+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
-      "topics": [
-        "industry"
-      ],
+      "topics": [],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
@@ -304,28 +335,11 @@
       "site_id": "curated_media",
       "published_at": "2026-09-16T21:07:24+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "openai",
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.274",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T00:12:02+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
