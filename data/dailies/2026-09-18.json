@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T17:38:50.232685+00:00",
+  "generated_at": "2026-09-17T21:03:00.246034+00:00",
   "date": "2026-09-18",
   "timezone": "Asia/Shanghai",
-  "lead": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust；Ubuntu 26 generally available and latest migration；v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)",
+  "lead": "Making global data easier to explore；GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust；Ubuntu 26 generally available and latest migration",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T00:26:43+00:00",
       "source_count": 2,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "agent",
@@ -21,24 +21,24 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 14
+      "hot_score": 11
     },
     {
-      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T07:21:19+00:00",
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T19:46:08+00:00",
       "source_count": 2,
       "score": 82,
       "official": true,
       "topics": [
         "openai",
-        "launch"
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新",
-      "hot_score": 25
+      "label": "行业动态",
+      "hot_score": 54
     },
     {
       "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
@@ -47,17 +47,32 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T13:38:33+00:00",
       "source_count": 2,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 43
+      "hot_score": 32
     }
   ],
   "items": [
+    {
+      "title": "Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T20:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
       "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
@@ -65,7 +80,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T00:26:43+00:00",
       "source_count": 2,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "agent",
@@ -81,7 +96,20 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T16:27:16+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Workflow execution protections in GitHub Actions generally available",
+      "url": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T15:45:26+00:00",
+      "source_count": 1,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -94,7 +122,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T10:37:53+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "launch"
@@ -103,20 +131,20 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T07:21:19+00:00",
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T19:46:08+00:00",
       "source_count": 2,
       "score": 82,
       "official": true,
       "topics": [
         "openai",
-        "launch"
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
@@ -125,7 +153,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T07:28:25+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -138,10 +166,25 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T03:47:02+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T00:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -153,7 +196,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T20:37:07+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "paper"
@@ -168,24 +211,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T23:20:33+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot budget increase requests are generally available",
-      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:17:18+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -196,7 +224,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T20:20:16+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
@@ -209,39 +237,79 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T20:19:58+00:00",
       "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude 协作和聊天现已合而为一 Claude",
-      "url": "https://simonwillison.net/2026/Sep/16/one-claude",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T18:09:49+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "承保超级情报：您可以起诉的支持代理 — Rune Kvist，AIUC",
-      "url": "https://www.latent.space/p/aiuc",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T18:07:45+00:00",
-      "source_count": 1,
       "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "The Verge 汇总 AI 超级智能放缓争论：Amodei 倡议放缓，Altman、Musk 附议，Meta 反对",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T19:28:24+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "source": "Qwen：Blog Retrieval（API）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T17:18:08.568000+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "qwen",
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
+      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T19:49:41.095000+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows",
+      "url": "https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-17T18:35:01+00:00",
+      "source_count": 1,
+      "score": 67,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
@@ -250,10 +318,25 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T13:38:33+00:00",
       "source_count": 2,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI reportedly closes in on solving the Hodge conjecture, its second Millennium Prize Problem",
+      "url": "https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-17T19:05:56+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -265,86 +348,10 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T13:37:55+00:00",
       "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
-      "url": "https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T11:03:32+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI's GPT-6 Astra decrypts a Nazi radio message in ten hours that went unsolved for 83 years",
-      "url": "https://the-decoder.com/openais-gpt-6-astra-decrypts-a-nazi-radio-message-in-ten-hours-that-went-unsolved-for-83-years",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T09:45:55+00:00",
-      "source_count": 1,
       "score": 63,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
-      "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T14:06:14+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
-      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-16T21:07:24+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
-      "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T14:00:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"

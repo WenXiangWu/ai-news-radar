@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:38:50.232685+00:00",
+  "generated_at": "2026-09-17T21:03:00.246034+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
@@ -7,13 +7,63 @@
   "total_items": 14,
   "items": [
     {
+      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "source": "Qwen：Blog Retrieval（API）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T17:18:08.568000+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "qwen",
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-17T16:55:14+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "阶跃发布全新语音大模型 StepAudio 3系列：覆盖语音识别、生成、实时交互与音乐创作",
+      "url": "https://www.infoq.cn/article/paoGkkFVHV3gbhG3GEdC",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-17T15:50:57+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Unsloth 发布 Docker 镜像与 Unsloth Desktop，本地训练运行 500+ 模型",
       "url": "https://x.com/UnslothAI/status/2100601458458804381",
       "source": "X：Unsloth (@UnslothAI)",
       "site_id": "aihot",
       "published_at": "2026-09-17T15:03:09+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "launch",
@@ -45,40 +95,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T10:37:53+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "阶跃发布全新语音大模型 StepAudio 3系列：覆盖语音识别、生成、实时交互与音乐创作",
-      "url": "https://www.infoq.cn/article/paoGkkFVHV3gbhG3GEdC",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-17T07:50:57+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T07:21:19+00:00",
-      "source_count": 2,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
         "launch"
       ],
       "reason": "",
@@ -91,7 +110,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-17T06:07:13.051146+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -125,7 +144,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T03:47:02+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -140,7 +159,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-17T03:30:48+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -156,7 +175,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T00:12:02+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -173,7 +192,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-16T22:58:50+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -214,22 +233,6 @@
         "openai",
         "launch",
         "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌现在将允许任何人工智能代理运行你的智能家居",
-      "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-16T17:00:00+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "mcp",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
