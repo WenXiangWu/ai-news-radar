@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T22:26:44.823460+00:00",
+  "generated_at": "2026-09-17T00:48:57.942957+00:00",
   "date": "2026-09-17",
   "timezone": "Asia/Shanghai",
-  "lead": "Claude 协作和聊天现已合而为一 Claude；OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify；TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+  "lead": "Claude 协作和聊天现已合而为一 Claude；OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify；Migrating the GitHub Copilot runtime to Rust, using Copilot",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 92,
+      "score": 91,
       "official": true,
       "topics": [
         "anthropic"
@@ -29,14 +29,14 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 88,
+      "score": 87,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 71
+      "hot_score": 58
     }
   ],
   "items": [
@@ -47,7 +47,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 92,
+      "score": 91,
       "official": true,
       "topics": [
         "anthropic"
@@ -62,11 +62,39 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 88,
+      "score": 87,
       "official": true,
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T00:26:43+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T23:20:33+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -77,7 +105,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T20:37:07+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "paper"
@@ -92,51 +120,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T20:17:18+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Automate SSO authorization for classic PATs and SSH keys",
-      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:20:16+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "SCIM user responses now include a profileUrl attribute",
-      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:19:58+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Our framework for reporting model misalignment",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T17:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -155,17 +142,28 @@
       "label": "官方更新"
     },
     {
-      "title": "帮助老年人在日常生活中使用人工智能",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "source": "OpenAI News",
+      "title": "Automate SSO authorization for classic PATs and SSH keys",
+      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T16:00:00+00:00",
+      "published_at": "2026-09-16T20:20:16+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "SCIM user responses now include a profileUrl attribute",
+      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:19:58+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -183,13 +181,57 @@
       "label": "官方更新"
     },
     {
+      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "帮助老年人在日常生活中使用人工智能",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T16:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "代码扫描 AI Scan 不再需要 CodeQL 默认设置",
+      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T13:26:06+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "How to connect AI usage to business value",
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-09-16T12:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -203,19 +245,6 @@
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-09-16T11:09:53+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "代码扫描 AI Scan 不再需要 CodeQL 默认设置",
-      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T13:26:06+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -260,7 +289,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-16T14:01:39+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "industry"
@@ -285,46 +314,18 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic 将 Claude Chat、Cowork 等合并为一个产品",
-      "url": "https://the-decoder.com/anthropic-merges-claude-chat-cowork-and-more-into-a-single-product",
-      "source": "The Decoder AI News",
+      "title": "v2.1.274",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+      "source": "Claude Code Releases",
       "site_id": "curated_media",
-      "published_at": "2026-09-16T16:31:41+00:00",
+      "published_at": "2026-09-17T00:12:02+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 64,
       "official": true,
       "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 将 Claude 聊天和 Cowork 合并在一个界面中",
-      "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-16T16:30:00+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "机器人正在等待 ChatGPT 时刻：Nvidia 的 Les Karpas 在 TechCrunch Disrupt 2026 上解释了原因",
-      "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-16T15:00:00+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai"
+        "anthropic",
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"

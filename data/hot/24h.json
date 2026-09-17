@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T22:26:44.823460+00:00",
+  "generated_at": "2026-09-17T00:48:57.942957+00:00",
   "window_hours": 24,
-  "total_items": 11,
+  "total_items": 13,
   "items": [
     {
       "title": "Claude 协作和聊天现已合而为一 Claude",
@@ -10,7 +10,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T18:28:45.023000+00:00",
       "source_count": 4,
-      "score": 92,
+      "score": 91,
       "official": true,
       "topics": [
         "anthropic"
@@ -20,20 +20,36 @@
       "hot_score": 100
     },
     {
+      "title": "三元大语言模型突破1.58比特障碍",
+      "url": "https://arxiv.org/abs/2609.16338",
+      "source": "arxiv.org",
+      "site_id": "buzzing",
+      "published_at": "2026-09-16T23:43:23.228000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
       "title": "DeepSeek v4.1 Flash 现已成为我们最优秀的黑客模型",
       "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
       "source": "enclave.ai",
       "site_id": "buzzing",
       "published_at": "2026-09-16T16:53:38.011000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 76
+      "hot_score": 62
     },
     {
       "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
@@ -42,14 +58,28 @@
       "site_id": "official_ai",
       "published_at": "2026-09-16T16:06:24.581000+00:00",
       "source_count": 3,
-      "score": 88,
+      "score": 87,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 71
+      "hot_score": 58
+    },
+    {
+      "title": "OpenSpec – A lightweight and configurable AI spec framework",
+      "url": "https://openspec.dev",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-16T23:06:39+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
     },
     {
       "title": "在大语言模型时代学习编程",
@@ -58,28 +88,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T12:57:28.012000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 54
-    },
-    {
-      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
-      "url": "https://arxiv.org/abs/2609.16338",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-16T20:59:24+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 53
+      "hot_score": 45
     },
     {
       "title": "Mistral X Mozilla：私密、多语言的 AI 浏览体验",
@@ -88,12 +102,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T11:55:14.283000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 50
+      "hot_score": 41
     },
     {
       "title": "关于“模特福利”的警告",
@@ -102,12 +116,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T19:00:46.319000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 45
+      "hot_score": 37
     },
     {
       "title": "PS5 Linux项目负责人离职：称“一群新手在滥用大语言模型（LLMs）”，而“他们根本不懂”",
@@ -116,14 +130,30 @@
       "site_id": "buzzing",
       "published_at": "2026-09-16T15:19:20.606000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 33
+      "hot_score": 27
+    },
+    {
+      "title": "微软称人工智能竞争对手 Anthropic 可能对人类产生“灾难性影响”",
+      "url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-16T14:32:15+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 25
     },
     {
       "title": "ImpactGate：人工智能添加的对结构衰退进行评分的合并门",
@@ -137,13 +167,13 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 22
     },
     {
       "title": "Show HN：你的人工智能有多陈旧？ 20 名模特的发布年龄和训练截止时间",
       "url": "https://stale.jock.pl",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-16T13:01:52+00:00",
       "source_count": 2,
       "score": 52,
@@ -153,7 +183,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 22
     },
     {
       "title": "Cloudflare：在搜索中保持可发现性，同时禁止人工智能训练",
@@ -162,12 +192,12 @@
       "site_id": "techurls",
       "published_at": "2026-09-16T02:25:18+00:00",
       "source_count": 3,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 23
+      "hot_score": 19
     }
   ]
 }
