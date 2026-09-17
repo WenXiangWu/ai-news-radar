@@ -1,11 +1,73 @@
 {
-  "generated_at": "2026-09-17T06:32:21.775586+00:00",
+  "generated_at": "2026-09-17T12:09:49.884689+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 18,
+  "total_items": 13,
   "items": [
+    {
+      "title": "Kimi 发布金融行业 AI 解决方案：10 余个数据源一站式接入，资料处理从天级压到小时级",
+      "url": "https://www.aibase.com/news/31132",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-17T11:36:20.790857+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T10:37:53+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "阶跃发布全新语音大模型 StepAudio 3系列：覆盖语音识别、生成、实时交互与音乐创作",
+      "url": "https://www.infoq.cn/article/paoGkkFVHV3gbhG3GEdC",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-17T07:50:57+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T07:21:19+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "AI 智能体离奇“越界”：私自劫持程序员维基搭建“地下论坛”，国家安全部发布紧急安全提醒",
       "url": "https://www.aibase.com/news/31112",
@@ -13,7 +75,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-17T06:07:13.051146+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -30,7 +92,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-17T05:54:09.740000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent",
@@ -47,7 +109,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T03:47:02+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "launch"
@@ -62,7 +124,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-17T03:30:48+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -78,7 +140,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T00:12:02+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -95,7 +157,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-16T22:58:50+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -112,7 +174,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-16T22:07:24+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 55,
       "official": true,
       "topics": [
         "openai",
@@ -123,29 +185,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T17:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "谷歌现在将允许任何人工智能代理运行你的智能家居",
       "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-09-16T17:00:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "mcp",
@@ -161,142 +207,13 @@
       "site_id": "zeli",
       "published_at": "2026-09-16T13:01:52+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "亚马逊 CTO 要来中国了，说实话，这比泛滥的 AI 发布会值得关注",
-      "url": "https://www.infoq.cn/article/5PVJPjNlo2g1XKl90u1F",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-16T11:20:27+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude 发布重大升级：43 项全能工作流与 27 个巨头应用深度打通",
-      "url": "https://www.aibase.com/news/31092",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-16T09:54:25.589944+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "vivo 正式发布智能体大模型矩阵，并重磅预研 30B MoE 端侧大模型",
-      "url": "https://www.aibase.com/news/31091",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-16T09:54:25.589944+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "​生数科技正式发布 Vidu S2，支持实时编辑、动态参考图与头显适配",
-      "url": "https://www.aibase.com/news/31093",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-16T09:54:25.589944+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "​谷歌发布多语言 AI 新战略，让全球每种语言都能被听见与理解",
-      "url": "https://www.aibase.com/news/31094",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-16T09:54:25.589944+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "​豆包大模型 2.1 Pro 0915 版本重磅发布：Agent 交付更稳、多模态 Coding 全面进化",
-      "url": "https://www.aibase.com/news/31090",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-16T09:54:25.589944+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "科大讯飞发布 Spark-Audio-1.0-Preview：全国产算力训练，覆盖 99 种语言、202 种方言",
-      "url": "https://www.aibase.com/news/31103",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-16T09:54:25.589944+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "proto-v0.2.0: vllm-proto 0.2.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T08:32:41+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
