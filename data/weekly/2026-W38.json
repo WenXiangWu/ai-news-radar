@@ -1,31 +1,16 @@
 {
   "title": "2026-W38 周报",
   "dates": [
+    "2026-09-18",
     "2026-09-17",
     "2026-09-16",
     "2026-09-15",
     "2026-09-14",
     "2026-09-13",
-    "2026-09-12",
-    "2026-09-11"
+    "2026-09-12"
   ],
   "total_items": 40,
   "items": [
-    {
-      "title": "Claude 协作和聊天现已合而为一 Claude",
-      "url": "https://simonwillison.net/2026/Sep/16/one-claude",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T18:28:45.023000+00:00",
-      "source_count": 4,
-      "score": 89,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
     {
       "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
@@ -43,13 +28,41 @@
       "label": "官方更新"
     },
     {
+      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T16:06:24.581000+00:00",
+      "source_count": 3,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Ubuntu 26 generally available and latest migration",
+      "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T16:27:16+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc1",
       "source": "vLLM Releases",
       "site_id": "official_ai",
       "published_at": "2026-09-17T10:37:53+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "launch"
@@ -64,26 +77,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T00:26:43+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T16:06:24.581000+00:00",
-      "source_count": 3,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -163,95 +161,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Open-Source AI & Open Models Reading List",
-      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T12:36:25+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "proto-v0.1.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.1.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T08:30:05+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
-      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T07:28:25+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T07:21:19+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "proto-v0.3.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T03:47:02+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
-      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:37:07+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Perplexity 信任 GPT-6 Astra 的端到端系统",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "OpenAI News",
@@ -282,11 +191,11 @@
       "label": "官方更新"
     },
     {
-      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
-      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation",
-      "source": "NVIDIA Developer Blog",
+      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T23:20:33+00:00",
+      "published_at": "2026-09-17T07:28:25+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -295,16 +204,47 @@
       "label": "官方更新"
     },
     {
-      "title": "Copilot budget increase requests are generally available",
-      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
-      "source": "GitHub Changelog",
+      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-16T20:17:18+00:00",
+      "published_at": "2026-09-17T07:21:19+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "proto-v0.3.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T03:47:02+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "coding"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:37:07+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -355,45 +295,30 @@
       "label": "官方更新"
     },
     {
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "source": "OpenAI News",
+      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-10T16:00:00+00:00",
+      "published_at": "2026-09-16T23:20:33+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot budget increase requests are generally available",
+      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:17:18+00:00",
+      "source_count": 1,
+      "score": 81,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
         "coding"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Automate SSO authorization for classic PATs and SSH keys",
-      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:20:16+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "SCIM user responses now include a profileUrl attribute",
-      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:19:58+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -518,43 +443,43 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
-      "source": "GitHub AI & ML",
+      "title": "Automate SSO authorization for classic PATs and SSH keys",
+      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-10T21:31:19+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
-      "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-10T18:08:42+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "承保超级情报：您可以起诉的支持代理 — Rune Kvist，AIUC",
-      "url": "https://www.latent.space/p/aiuc",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T18:07:45+00:00",
+      "published_at": "2026-09-16T20:20:16+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "SCIM user responses now include a profileUrl attribute",
+      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T20:19:58+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude 协作和聊天现已合而为一 Claude",
+      "url": "https://simonwillison.net/2026/Sep/16/one-claude",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-16T18:09:49+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -598,8 +523,77 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Enforce GitHub Advanced Security configurations",
+      "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T19:31:58+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
+      "url": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T19:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T16:55:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-14T19:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Configure cost and quality in Copilot auto model selection",
+      "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-14T16:05:27+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-17T12:09:49.884689+00:00",
+  "generated_at": "2026-09-17T17:38:50.232685+00:00",
   "period": "2026-W38"
 }
