@@ -1,11 +1,58 @@
 {
-  "generated_at": "2026-09-18T14:29:41.961099+00:00",
+  "generated_at": "2026-09-18T18:26:28.525141+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 13,
+  "total_items": 14,
   "items": [
+    {
+      "title": "v2.1.277",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-18T18:06:32+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "加州州长加文·纽森 (Gavin Newsom) 发布人工智能问题安全行政命令",
+      "url": "https://www.nytimes.com/2026/09/18/technology/ai-safety-california-gavin-newsom.html",
+      "source": "New York Times",
+      "site_id": "techurls",
+      "published_at": "2026-09-18T17:27:15+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Source: Beijing-based Naive AI, which plans to release its first AI model as early as this month, is now valued at $1.4B after raising $400M in three rounds (Juro Osawa/The Information)",
+      "url": "https://www.techmeme.com/260918/p15",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-18T13:55:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速",
       "url": "https://www.aibase.com/news/31160",
@@ -13,7 +60,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-18T09:42:30.636630+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -29,9 +76,26 @@
       "site_id": "aibase",
       "published_at": "2026-09-18T09:42:30.636630+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
+      "url": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+      "source": "Qwen：Blog Retrieval（API）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T09:30:00+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": true,
+      "topics": [
+        "qwen",
         "launch",
         "industry"
       ],
@@ -45,7 +109,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T08:02:22+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -54,17 +118,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+      "title": "阿里巴巴发布Qwen 3.8 Omni Flash",
       "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-      "source": "Qwen：Blog Retrieval（API）",
-      "site_id": "aihot",
+      "source": "qwen.ai",
+      "site_id": "buzzing",
       "published_at": "2026-09-18T04:45:46.234000+00:00",
-      "source_count": 4,
-      "score": 81,
+      "source_count": 3,
+      "score": 54,
       "official": true,
       "topics": [
         "qwen",
-        "agent",
         "launch"
       ],
       "reason": "",
@@ -93,7 +156,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-18T02:12:26+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -110,7 +173,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T00:08:00+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
         "launch"
@@ -125,7 +188,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T22:33:21+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "agent",
@@ -141,7 +204,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T22:33:17+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -158,57 +221,10 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T20:49:01.866000+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "A project builds over time. Every thread adds to and draws from its shared memory, so Claude can remember that the release moved to Friday, or who to ask before touching the billing service. The project's library keep...",
-      "url": "https://x.com/claudeai/status/2100632684074549309",
-      "source": "Follow Builders · X · Claude",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-17T17:07:14+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ubuntu 26 正式发布和最新迁移",
-      "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T16:27:16+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Unsloth 发布 Docker 镜像与 Unsloth Desktop，本地训练运行 500+ 模型",
-      "url": "https://x.com/UnslothAI/status/2100601458458804381",
-      "source": "X：Unsloth (@UnslothAI)",
-      "site_id": "aihot",
-      "published_at": "2026-09-17T15:03:09+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
         "launch"
       ],
       "reason": "",

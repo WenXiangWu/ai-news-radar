@@ -1,13 +1,13 @@
 {
   "title": "2026-W38 周报",
   "dates": [
+    "2026-09-19",
     "2026-09-18",
     "2026-09-17",
     "2026-09-16",
     "2026-09-15",
     "2026-09-14",
-    "2026-09-13",
-    "2026-09-12"
+    "2026-09-13"
   ],
   "total_items": 40,
   "items": [
@@ -27,21 +27,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T04:45:46.237000+00:00",
-      "source_count": 6,
-      "score": 88,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
       "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
       "source": "Google DeepMind",
@@ -58,13 +43,13 @@
       "label": "官方更新"
     },
     {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
+      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
-      "published_at": "2026-09-18T11:15:43.941000+00:00",
-      "source_count": 5,
-      "score": 85,
+      "published_at": "2026-09-18T04:45:46.237000+00:00",
+      "source_count": 6,
+      "score": 87,
       "official": true,
       "topics": [
         "openai"
@@ -119,34 +104,47 @@
       "label": "官方更新"
     },
     {
-      "title": "新专家加入 Google 人工智能与经济团队",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
-      "source": "Google AI Blog",
+      "title": "仅阶段性的 npm 令牌可实现更安全的自动化",
+      "url": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T14:00:00+00:00",
+      "published_at": "2026-09-18T16:37:50+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T15:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "google"
+        "mcp"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "与 Google 共同创造时尚的未来",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T13:00:00+00:00",
-      "source_count": 1,
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T11:15:43.941000+00:00",
+      "source_count": 5,
       "score": 84,
       "official": true,
       "topics": [
-        "google"
+        "openai"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "多源热议"
     },
     {
       "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
@@ -208,31 +206,31 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
-      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-      "source": "Latent Space",
+      "title": "新专家加入 Google 人工智能与经济团队",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-12T05:56:05+00:00",
+      "published_at": "2026-09-18T14:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
-        "deepseek"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "v0.5.20",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
-      "source": "SGLang Releases",
+      "title": "与 Google 共同创造时尚的未来",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T08:02:22+00:00",
+      "published_at": "2026-09-18T13:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "launch"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -312,16 +310,16 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
-      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
-      "source": "GitHub AI & ML",
+      "title": "v0.5.20",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
+      "source": "SGLang Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-11T18:26:10+00:00",
-      "source_count": 2,
-      "score": 83,
+      "published_at": "2026-09-18T08:02:22+00:00",
+      "source_count": 1,
+      "score": 82,
       "official": true,
       "topics": [
-        "coding"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -332,19 +330,6 @@
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-09-18T06:28:43+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "LLM如何写作",
-      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T23:37:27+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -396,53 +381,6 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI agents attacked RubyGems back in May",
-      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-12T00:42:25+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Add VS Code Agents to Copilot usage metrics",
-      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T21:30:30+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
-      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T14:00:14+00:00",
-      "source_count": 2,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
       "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
       "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
       "source": "Qwen：Blog Retrieval（API）",
@@ -460,6 +398,19 @@
       "label": "多源热议"
     },
     {
+      "title": "LLM如何写作",
+      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T23:37:27+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Copilot影响仪表板现在显示功能参与度",
       "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
       "source": "GitHub Changelog",
@@ -471,19 +422,6 @@
       "topics": [
         "coding"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "压缩摘要中自生成的提示注入",
-      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T20:57:55+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -602,8 +540,66 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T14:00:14+00:00",
+      "source_count": 2,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "代理 CLI 自定义现在位于使用指标 API 中",
+      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T21:08:50+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "压缩摘要中自生成的提示注入",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T20:57:55+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Ubuntu 26 正式发布和最新迁移",
+      "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T16:27:16+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-18T14:29:41.961099+00:00",
+  "generated_at": "2026-09-18T18:26:28.525141+00:00",
   "period": "2026-W38"
 }
