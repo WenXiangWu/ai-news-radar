@@ -23,21 +23,6 @@
   "total_items": 40,
   "items": [
     {
-      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T04:45:46.237000+00:00",
-      "source_count": 6,
-      "score": 89,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
       "title": "Claude 协作和聊天现已合而为一 Claude",
       "url": "https://simonwillison.net/2026/Sep/16/one-claude",
       "source": "Simon Willison",
@@ -51,6 +36,21 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T04:45:46.237000+00:00",
+      "source_count": 6,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
     },
     {
       "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
@@ -163,6 +163,36 @@
       "label": "官方更新"
     },
     {
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T11:15:43.941000+00:00",
+      "source_count": 5,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T10:37:53+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
       "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
       "source": "GitHub AI & ML",
@@ -224,30 +254,32 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.5.20",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
-      "source": "SGLang Releases",
+      "title": "新专家加入 Google 人工智能与经济团队",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T08:02:22+00:00",
+      "published_at": "2026-09-18T14:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "launch"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 今天没什么事发生",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
-      "source": "Latent Space",
+      "title": "与 Google 共同创造时尚的未来",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T06:28:43+00:00",
+      "published_at": "2026-09-18T13:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [],
+      "topics": [
+        "google"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -559,15 +591,17 @@
       "label": "官方更新"
     },
     {
-      "title": "LLM如何写作",
-      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm",
-      "source": "Simon Willison",
+      "title": "v0.5.20",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
+      "source": "SGLang Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-17T23:37:27+00:00",
+      "published_at": "2026-09-18T08:02:22+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -583,39 +617,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T07:21:19+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "proto-v0.3.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T03:47:02+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-18T09:43:29.242728+00:00",
+  "generated_at": "2026-09-18T14:29:41.961099+00:00",
   "period": "2026-09"
 }

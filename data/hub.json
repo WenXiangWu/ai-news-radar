@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T09:43:29.242728+00:00",
+  "generated_at": "2026-09-18T14:29:41.961099+00:00",
   "today": "2026-09-18",
-  "lead": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号；v0.5.20；[AINews] 今天没什么事发生",
+  "lead": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号；纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取；新专家加入 Google 人工智能与经济团队",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,11 +11,41 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.237000+00:00",
       "source_count": 6,
-      "score": 89,
+      "score": 88,
       "official": true,
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T11:15:43.941000+00:00",
+      "source_count": 5,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T12:33:41.989000+00:00",
+      "source_count": 3,
+      "score": 85,
+      "official": false,
+      "topics": [],
       "reason": "",
       "label": "多源热议",
       "hot_score": 100
@@ -27,7 +57,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.234000+00:00",
       "source_count": 4,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "qwen",
@@ -36,7 +66,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 80
     },
     {
       "title": "LLM 分类就是特征工程",
@@ -45,44 +75,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T08:08:34.519000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
-    },
-    {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T00:07:08+00:00",
-      "source_count": 3,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
-    },
-    {
-      "title": "无限参数大型语言模型：基于实时数据生成和调整权重",
-      "url": "https://arxiv.org/abs/2609.18842",
-      "source": "arxiv.org",
-      "site_id": "buzzing",
-      "published_at": "2026-09-18T00:02:35.693000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
+      "hot_score": 71
     }
   ],
   "topics": [
@@ -112,14 +110,14 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "agent",
@@ -133,28 +131,28 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 7
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 3
+      "count": 5
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 15
+      "count": 13
     },
     {
       "slug": "paper",

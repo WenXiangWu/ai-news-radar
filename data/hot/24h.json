@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T09:43:29.242728+00:00",
+  "generated_at": "2026-09-18T14:29:41.961099+00:00",
   "window_hours": 24,
-  "total_items": 20,
+  "total_items": 18,
   "items": [
     {
       "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
@@ -10,11 +10,41 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.237000+00:00",
       "source_count": 6,
-      "score": 89,
+      "score": 88,
       "official": true,
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T11:15:43.941000+00:00",
+      "source_count": 5,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T12:33:41.989000+00:00",
+      "source_count": 3,
+      "score": 85,
+      "official": false,
+      "topics": [],
       "reason": "",
       "label": "多源热议",
       "hot_score": 100
@@ -26,7 +56,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.234000+00:00",
       "source_count": 4,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "qwen",
@@ -35,7 +65,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 80
     },
     {
       "title": "LLM 分类就是特征工程",
@@ -44,28 +74,30 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T08:08:34.519000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 71
     },
     {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "title": "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
       "source": "TechCrunch：AI（RSS）",
       "site_id": "aihot",
-      "published_at": "2026-09-18T00:07:08+00:00",
-      "source_count": 3,
+      "published_at": "2026-09-18T14:00:14+00:00",
+      "source_count": 2,
       "score": 81,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "anthropic",
+        "industry"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
+      "label": "行业动态",
+      "hot_score": 58
     },
     {
       "title": "无限参数大型语言模型：基于实时数据生成和调整权重",
@@ -74,14 +106,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T00:02:35.693000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 54
+      "hot_score": 36
     },
     {
       "title": "美国联邦航空管理局 (FAA) 计划修复空中交通？价值 8.75 亿美元的人工智能",
@@ -90,12 +122,12 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T23:49:35+00:00",
       "source_count": 3,
-      "score": 65,
+      "score": 64,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 53
+      "hot_score": 35
     },
     {
       "title": "如何利用大型语言模型（LLM）进行写作",
@@ -104,12 +136,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T06:35:43.730000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 46
+      "hot_score": 31
     },
     {
       "title": "如今，人工智能的表现已超越部分顶尖的人类预测专家",
@@ -118,26 +150,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-17T20:37:38.107000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 40
-    },
-    {
-      "title": "Show HN: 分享您的 AI 配置，向他人学习",
-      "url": "https://mysetup.ai",
-      "source": "mysetup.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-09-17T18:48:33.172000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 35
+      "hot_score": 27
     },
     {
       "title": "Claude项目的开源版本，为您提供上下文 Ownerhp",
@@ -146,7 +164,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-18T02:14:21+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "anthropic",
@@ -154,7 +172,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 22
     },
     {
       "title": "性、人工智能与世界末日",
@@ -163,12 +181,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T00:02:35.697000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 18
     },
     {
       "title": "Bend – 一种在 CPU 和 GPU 上通过证明阻止 AI 错误的语言",
@@ -177,12 +195,12 @@
       "site_id": "iris",
       "published_at": "2026-09-17T20:36:13+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 20
+      "hot_score": 14
     },
     {
       "title": "微软、OpenAI 在隐藏内部文档方面失败，承认抓取数据是盗窃行为",
@@ -191,7 +209,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-17T20:16:52+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -199,7 +217,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 20
+      "hot_score": 13
     },
     {
       "title": "AI 放缓的争论让 Salesforce 的派对崩溃了",
@@ -208,12 +226,12 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-17T18:42:25+00:00",
       "source_count": 2,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
+      "hot_score": 12
     },
     {
       "title": "显示 HN：由人工策划的 Craigslist 代理技能",
@@ -222,12 +240,12 @@
       "site_id": "zeli",
       "published_at": "2026-09-17T16:53:51+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 15
+      "hot_score": 10
     },
     {
       "title": "推出 HN：Skillsync (YC W26) – 跨客服人员可移植的 AI 聊天会话",
@@ -236,26 +254,12 @@
       "site_id": "newsnow",
       "published_at": "2026-09-17T16:22:15+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 14
-    },
-    {
-      "title": "我不喜欢大型语言模型",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-17T16:11:41.424000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 14
+      "hot_score": 9
     },
     {
       "title": "OpenAI 的错位框架：抢占全球人工智能治理的战术",
@@ -264,44 +268,14 @@
       "site_id": "zeli",
       "published_at": "2026-09-17T15:26:23+00:00",
       "source_count": 2,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 13
-    },
-    {
-      "title": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plug-ins",
-      "url": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T14:00:00+00:00",
-      "source_count": 2,
-      "score": 57,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
-      "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T13:38:33+00:00",
-      "source_count": 2,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 11
+      "hot_score": 9
     }
   ]
 }

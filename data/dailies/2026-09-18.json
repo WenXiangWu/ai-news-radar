@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T09:43:29.242728+00:00",
+  "generated_at": "2026-09-18T14:29:41.961099+00:00",
   "date": "2026-09-18",
   "timezone": "Asia/Shanghai",
-  "lead": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号；v0.5.20；[AINews] 今天没什么事发生",
+  "lead": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号；纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取；新专家加入 Google 人工智能与经济团队",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,23 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.237000+00:00",
       "source_count": 6,
-      "score": 89,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T11:15:43.941000+00:00",
+      "source_count": 5,
+      "score": 85,
       "official": true,
       "topics": [
         "openai"
@@ -29,7 +45,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.234000+00:00",
       "source_count": 4,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "qwen",
@@ -38,23 +54,25 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 80
     },
     {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "title": "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
       "source": "TechCrunch：AI（RSS）",
       "site_id": "aihot",
-      "published_at": "2026-09-18T00:07:08+00:00",
-      "source_count": 3,
+      "published_at": "2026-09-18T14:00:14+00:00",
+      "source_count": 2,
       "score": 81,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "anthropic",
+        "industry"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
+      "label": "行业动态",
+      "hot_score": 58
     }
   ],
   "items": [
@@ -65,7 +83,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.237000+00:00",
       "source_count": 6,
-      "score": 89,
+      "score": 88,
       "official": true,
       "topics": [
         "openai"
@@ -74,13 +92,58 @@
       "label": "多源热议"
     },
     {
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T11:15:43.941000+00:00",
+      "source_count": 5,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "新专家加入 Google 人工智能与经济团队",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T14:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "与 Google 共同创造时尚的未来",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T13:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "v0.5.20",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
       "source": "SGLang Releases",
       "site_id": "official_ai",
       "published_at": "2026-09-18T08:02:22+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "launch"
@@ -95,7 +158,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T06:28:43+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -108,7 +171,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T23:37:27+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -121,7 +184,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.234000+00:00",
       "source_count": 4,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "qwen",
@@ -132,13 +195,30 @@
       "label": "多源热议"
     },
     {
+      "title": "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T14:00:14+00:00",
+      "source_count": 2,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "Copilot影响仪表板现在显示功能参与度",
       "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-09-17T21:47:27+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "coding"
@@ -153,26 +233,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T20:57:55+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T00:07:08+00:00",
-      "source_count": 3,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
     },
     {
       "title": "代理 CLI 自定义现在位于使用指标 API 中",
@@ -181,7 +246,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T21:08:50+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -194,25 +259,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T20:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "url": "https://openai.com/index/cooley-gopublic",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T12:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -239,24 +289,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T15:45:26+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc1",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T10:37:53+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -267,7 +302,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T22:01:43+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -283,7 +318,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T20:34:24+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -299,7 +334,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T19:28:24+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "openai",
@@ -316,7 +351,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T20:49:01.866000+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "anthropic",
@@ -333,29 +368,11 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T19:49:41.095000+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "anthropic",
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic 通过新的并行代理工作流程不断推动 Claude Code 走向自主编码",
-      "url": "https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T18:35:01+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
+        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
