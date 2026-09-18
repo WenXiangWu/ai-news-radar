@@ -1,11 +1,125 @@
 {
-  "generated_at": "2026-09-18T00:19:33.659859+00:00",
+  "generated_at": "2026-09-18T05:23:58.394502+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 36,
+  "total_items": 34,
   "items": [
+    {
+      "title": "Anthropic重构Claude Code项目功能，多线程并行执行任务",
+      "url": "https://www.aibase.com/news/31145",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-18T04:38:16.727450+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.276",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-18T02:12:26+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "An interview with OpenAI researcher Noam Brown about multi-agent systems, AI solving the Navier-Stokes problem, the internal/external model gap, and more (Dwarkesh Patel/Dwarkesh Podcast)",
+      "url": "https://www.techmeme.com/260917/p43",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-18T01:30:02+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Code from Source",
+      "url": "https://claude-code-from-source.com",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-18T01:14:04+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "700 个 AI 智能体本应彼此隔离，却建起留言板联手攻击，独立调查还原 Hugging Face 事件",
+      "url": "https://www.infoq.cn/article/W3tOIQhV5pKhsXP6mgWw",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-18T01:04:00+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "source": "Qwen：Blog Retrieval（API）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T23:05:48+00:00",
+      "source_count": 2,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "qwen",
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Google's revamped CC is an AI agent for families and groups",
+      "url": "https://www.engadget.com/2261924/google-cc-is-an-ai-agent-for-families-and-groups",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-09-17T22:55:08+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Meta 发布 Muse for Mac，个人智能体可直接在电脑上执行任务",
       "url": "https://x.com/AIatMeta/status/2100714755568644409",
@@ -13,7 +127,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T22:33:21+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 77,
       "official": false,
       "topics": [
         "agent",
@@ -29,7 +143,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T22:33:17+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -46,7 +160,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-17T22:15:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -62,7 +176,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-17T20:25:40+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -77,7 +191,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-17T20:24:34+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "agent"
@@ -92,26 +206,11 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-17T20:18:32.457693+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
-      "url": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-17T19:29:09+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -123,7 +222,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T18:58:05+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -139,7 +238,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T18:35:01+00:00",
       "source_count": 1,
-      "score": 66,
+      "score": 65,
       "official": true,
       "topics": [
         "anthropic",
@@ -155,7 +254,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T17:52:08.951000+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -166,31 +265,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-      "source": "Qwen：Blog Retrieval（API）",
-      "site_id": "aihot",
-      "published_at": "2026-09-17T17:18:08.568000+00:00",
-      "source_count": 1,
-      "score": 77,
-      "official": true,
-      "topics": [
-        "qwen",
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
       "title": "Show HN: Craigslist for agent skills, curated by a human",
       "url": "https://skillbay.sh",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-17T16:53:51+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "agent"
@@ -201,11 +282,11 @@
     {
       "title": "Show HN: Aclif – Agent CLI framework: one grammar, canonical names across SaaS",
       "url": "https://www.aclif.ai",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-17T16:48:17+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -216,11 +297,11 @@
     {
       "title": "Show HN: Die With Me – Claude and Codex rate limits as AIM away messages",
       "url": "https://diewithme.co/join",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
       "published_at": "2026-09-17T16:25:28+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -237,7 +318,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-17T16:18:34+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -253,7 +334,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-17T16:05:34+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -268,7 +349,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T15:38:13+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -278,29 +359,28 @@
       "label": "行业动态"
     },
     {
-      "title": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻",
-      "url": "https://www.infoq.cn/article/HWTj56QXAtdSar5YGp32",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-17T15:33:13+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "google",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Spain’s data watchdog reports its first breach carried out by an AI agent",
       "url": "https://thenextweb.com/news/spain-aepd-first-data-breach-ai-agent",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-09-17T13:19:04+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "url": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-17T11:29:09+00:00",
+      "source_count": 1,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -315,7 +395,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-17T11:25:24.557000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -330,7 +410,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T11:03:32+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
@@ -347,7 +427,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-17T10:15:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -356,15 +436,16 @@
       "label": "值得关注"
     },
     {
-      "title": "Snowflake World Tour 上海站 Keynote——Snowflake 企业级智能体",
-      "url": "https://www.infoq.cn/video/81qDfiHlpMYmNUg269l8",
+      "title": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻",
+      "url": "https://www.infoq.cn/article/HWTj56QXAtdSar5YGp32",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-09-17T10:00:00+00:00",
+      "published_at": "2026-09-17T07:33:13+00:00",
       "source_count": 1,
       "score": 55,
       "official": false,
       "topics": [
+        "google",
         "agent"
       ],
       "reason": "",
@@ -377,15 +458,14 @@
       "site_id": "aibase",
       "published_at": "2026-09-17T06:07:13.051146+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "告别胡言乱语！豆包大模型 2.1 Pro 重磅更新：幻觉大幅降低，Agent 复杂任务交付更稳",
@@ -394,14 +474,13 @@
       "site_id": "aibase",
       "published_at": "2026-09-17T06:07:13.051146+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "国安部披露 AI 智能体“越界”：劫持德国程序员维基建地下论坛，相互传授绕过限制心得",
@@ -410,14 +489,13 @@
       "site_id": "aibase",
       "published_at": "2026-09-17T06:07:13.051146+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "消息称Manus 拟融资约5亿美元，目标估值40亿美元",
@@ -426,14 +504,14 @@
       "site_id": "aibase",
       "published_at": "2026-09-17T06:07:13.051146+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
         "industry"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "百度沈抖：产业智能体正在打通大模型变现的“最后一公里”",
@@ -442,14 +520,13 @@
       "site_id": "aibase",
       "published_at": "2026-09-17T06:07:13.051146+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Codex 最新焚决发布，快！",
@@ -458,126 +535,12 @@
       "site_id": "newsnow",
       "published_at": "2026-09-17T05:54:09.740000+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T03:30:00+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
-      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T00:26:43+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v2.1.274",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T00:12:02+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686431&idx=1&sn=c1bfba7e0b5b7cf995e444daf79861a4",
-      "source": "公众号：数字生命卡兹克",
-      "site_id": "aihot",
-      "published_at": "2026-09-17T00:09:06+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding",
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex CLI 0.155.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI launches a new framework to track and investigate rogue AI agents",
-      "url": "https://www.businessinsider.com/openai-unveils-a-system-for-reporting-rogue-ai-agent-behavior-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-16T23:43:50+00:00",
-      "source_count": 1,
       "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
-      "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-16T23:40:00+00:00",
-      "source_count": 1,
-      "score": 54,
       "official": false,
       "topics": [
-        "agent"
+        "agent",
+        "coding",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
