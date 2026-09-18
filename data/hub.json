@@ -1,9 +1,73 @@
 {
-  "generated_at": "2026-09-18T05:23:58.394502+00:00",
+  "generated_at": "2026-09-18T09:43:29.242728+00:00",
   "today": "2026-09-18",
-  "lead": "How To Write With An LLM；Copilot impact dashboard now shows feature engagement；Agentic CLI customizations now in the usage metrics API",
+  "lead": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号；v0.5.20；[AINews] 今天没什么事发生",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T04:45:46.237000+00:00",
+      "source_count": 6,
+      "score": 89,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "source": "Qwen：Blog Retrieval（API）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T04:45:46.234000+00:00",
+      "source_count": 4,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "qwen",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "LLM 分类就是特征工程",
+      "url": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction",
+      "source": "minimallysufficient.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-18T08:08:34.519000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T00:07:08+00:00",
+      "source_count": 3,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 54
+    },
     {
       "title": "无限参数大型语言模型：基于实时数据生成和调整权重",
       "url": "https://arxiv.org/abs/2609.18842",
@@ -11,72 +75,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T00:02:35.693000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 77
-    },
-    {
-      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
-      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T23:49:35+00:00",
-      "source_count": 3,
-      "score": 66,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 75
-    },
-    {
-      "title": "如今，人工智能的表现已超越部分顶尖的人类预测专家",
-      "url": "https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters",
-      "source": "www.economist.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-17T20:37:38.107000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 58
-    },
-    {
-      "title": "我们用于报告模型错配的框架",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-17T20:06:46.741000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 55
-    },
-    {
-      "title": "Show HN: 分享您的 AI 配置，向他人学习",
-      "url": "https://mysetup.ai",
-      "source": "mysetup.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-09-17T18:48:33.172000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 50
+      "hot_score": 54
     }
   ],
   "topics": [
@@ -92,35 +98,35 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 39
+      "count": 40
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 11
+      "count": 9
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 3
+      "count": 1
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 34
+      "count": 31
     },
     {
       "slug": "coding",
@@ -134,28 +140,28 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 0
+      "count": 3
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 5
+      "count": 3
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 13
+      "count": 15
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "industry",
