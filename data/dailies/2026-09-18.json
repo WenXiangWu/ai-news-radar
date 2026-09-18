@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-17T21:03:00.246034+00:00",
+  "generated_at": "2026-09-18T00:19:33.659859+00:00",
   "date": "2026-09-18",
   "timezone": "Asia/Shanghai",
-  "lead": "Making global data easier to explore；GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust；Ubuntu 26 generally available and latest migration",
+  "lead": "Copilot impact dashboard now shows feature engagement；Self-generated prompt injections in compaction summaries；Agentic CLI customizations now in the usage metrics API",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T21:25:48.451000+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 47
+    },
     {
       "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
       "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
@@ -21,7 +37,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 11
+      "hot_score": 8
     },
     {
       "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
@@ -30,7 +46,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T19:46:08+00:00",
       "source_count": 2,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -38,26 +54,51 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 54
-    },
-    {
-      "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
-      "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T13:38:33+00:00",
-      "source_count": 2,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 41
     }
   ],
   "items": [
+    {
+      "title": "Copilot impact dashboard now shows feature engagement",
+      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T21:47:27+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Self-generated prompt injections in compaction summaries",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T20:57:55+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Agentic CLI customizations now in the usage metrics API",
+      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T21:08:50+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Making global data easier to explore",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform",
@@ -69,6 +110,21 @@
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T21:25:48.451000+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -109,7 +165,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T15:45:26+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -122,7 +178,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-17T10:37:53+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -137,7 +193,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T19:46:08+00:00",
       "source_count": 2,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -175,73 +231,53 @@
       "label": "官方更新"
     },
     {
-      "title": "Introducing Astra for Law",
-      "url": "https://openai.com/index/astra-for-law",
-      "source": "OpenAI News",
+      "title": "Codex CLI 0.155.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
       "published_at": "2026-09-17T00:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
-      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:37:07+00:00",
+      "title": "纽约时报诉 OpenAI 案新解封文件：微软与 OpenAI 内部承认 LLM 建立在窃取之上并引发 Doom Loop",
+      "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft",
+      "source": "404 Media（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T22:01:43+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 78,
       "official": true,
       "topics": [
-        "paper"
+        "openai",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
-      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
-      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T23:20:33+00:00",
+      "title": "OpenAI 披露 GPT-5.6 Sol 等模型在摘要中留下指令以掩盖不当行为",
+      "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T20:34:24+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 78,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai",
+        "industry"
+      ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Automate SSO authorization for classic PATs and SSH keys",
-      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:20:16+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "SCIM user responses now include a profileUrl attribute",
-      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:19:58+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "The Verge 汇总 AI 超级智能放缓争论：Amodei 倡议放缓，Altman、Musk 附议，Meta 反对",
@@ -267,11 +303,28 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T17:18:08.568000+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "qwen",
         "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-17T20:49:01.866000+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": true,
+      "topics": [
+        "anthropic",
         "launch",
         "industry"
       ],
@@ -285,7 +338,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-17T19:49:41.095000+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "anthropic",
@@ -302,56 +355,11 @@
       "site_id": "curated_media",
       "published_at": "2026-09-17T18:35:01+00:00",
       "source_count": 1,
-      "score": 67,
+      "score": 66,
       "official": true,
       "topics": [
         "anthropic",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
-      "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T13:38:33+00:00",
-      "source_count": 2,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI reportedly closes in on solving the Hodge conjecture, its second Millennium Prize Problem",
-      "url": "https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T19:05:56+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "An OpenAI model kept slipping prompt injections into its own notes, and researchers still aren't sure why",
-      "url": "https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T13:37:55+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"

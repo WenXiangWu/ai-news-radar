@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-17T21:03:00.246034+00:00",
+  "generated_at": "2026-09-18T00:19:33.659859+00:00",
   "slug": "paper",
   "label": "论文研究",
   "group": "form",
   "blurb": "论文、基准与评测",
-  "total_items": 4,
+  "total_items": 3,
   "items": [
     {
       "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
@@ -13,7 +13,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-17T16:55:14+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "opensource",
@@ -30,7 +30,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-17T05:13:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "opensource",
@@ -45,29 +45,14 @@
       "source": "arxiv.org",
       "site_id": "buzzing",
       "published_at": "2026-09-16T23:43:23.228000+00:00",
-      "source_count": 3,
-      "score": 52,
+      "source_count": 1,
+      "score": 47,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
-      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T20:37:07+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "值得关注"
     }
   ]
 }

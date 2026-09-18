@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-09-17T21:03:00.246034+00:00",
+  "generated_at": "2026-09-18T00:19:33.659859+00:00",
   "today": "2026-09-18",
-  "lead": "Making global data easier to explore；GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust；Ubuntu 26 generally available and latest migration",
+  "lead": "Copilot impact dashboard now shows feature engagement；Self-generated prompt injections in compaction summaries；Agentic CLI customizations now in the usage metrics API",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "如今，人工智能的表现已超越部分顶尖的人类预测专家",
+      "url": "https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters",
+      "source": "www.economist.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-17T20:37:38.107000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 88
+    },
     {
       "title": "我们用于报告模型错配的框架",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
@@ -11,14 +25,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-17T20:06:46.741000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 84
     },
     {
       "title": "Show HN: 分享您的 AI 配置，向他人学习",
@@ -27,61 +41,42 @@
       "site_id": "buzzing",
       "published_at": "2026-09-17T18:48:33.172000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 76
     },
     {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-17T19:46:08+00:00",
+      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-17T22:14:59+00:00",
       "source_count": 2,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 54
-    },
-    {
-      "title": "The AI Slowdown Debate Crashed Salesforce’s Party",
-      "url": "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-17T18:42:25+00:00",
-      "source_count": 2,
-      "score": 59,
+      "score": 65,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 50
     },
     {
-      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
-      "url": "https://arxiv.org/abs/2609.18842",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-17T16:55:14+00:00",
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-17T21:25:48.451000+00:00",
       "source_count": 2,
-      "score": 54,
-      "official": false,
+      "score": 83,
+      "official": true,
       "topics": [
-        "opensource",
-        "launch",
-        "paper"
+        "openai"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 43
+      "label": "官方更新",
+      "hot_score": 47
     }
   ],
   "topics": [
@@ -97,7 +92,7 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 30
+      "count": 31
     },
     {
       "slug": "google",
@@ -125,14 +120,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 32
+      "count": 36
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 8
     },
     {
       "slug": "mcp",
@@ -160,7 +155,7 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "industry",
