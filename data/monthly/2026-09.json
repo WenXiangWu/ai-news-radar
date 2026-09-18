@@ -71,13 +71,28 @@
       "label": "官方更新"
     },
     {
+      "title": "使用 AIPerf 对 LLM 推理进行大规模基准测试",
+      "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T19:04:41+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
       "url": "https://www.hacktron.ai/blog/hacking-openai",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
       "published_at": "2026-09-18T04:45:46.237000+00:00",
       "source_count": 6,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
@@ -164,6 +179,82 @@
       "label": "官方更新"
     },
     {
+      "title": "v0.30.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc2",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T21:15:44+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 代码审查：改进的审查体验",
+      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T20:17:22+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 每周发布 — 9 月 14 日",
+      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T19:21:22+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "即将于 10 月中旬弃用选定的 GitHub Copilot 模型",
+      "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T19:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T11:15:43.941000+00:00",
+      "source_count": 5,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc1",
       "source": "vLLM Releases",
@@ -240,11 +331,11 @@
       "label": "官方更新"
     },
     {
-      "title": "仅阶段性的 npm 令牌可实现更安全的自动化",
-      "url": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation",
+      "title": "使用 REST API 管理代码覆盖率规则集条件",
+      "url": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T16:37:50+00:00",
+      "published_at": "2026-09-18T19:23:49+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -266,21 +357,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T11:15:43.941000+00:00",
-      "source_count": 5,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
     },
     {
       "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
@@ -541,85 +617,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T04:49:35.840000+00:00",
-      "source_count": 3,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T07:46:08+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T01:05:52+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "新专家加入 Google 人工智能与经济团队",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T14:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "与 Google 共同创造时尚的未来",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T13:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-18T18:26:28.525141+00:00",
+  "generated_at": "2026-09-18T21:39:59.253555+00:00",
   "period": "2026-09"
 }
