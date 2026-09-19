@@ -1,24 +1,39 @@
 {
-  "generated_at": "2026-09-19T18:27:57.534850+00:00",
+  "generated_at": "2026-09-19T20:36:48.057052+00:00",
   "today": "2026-09-20",
-  "lead": "Why I still haven’t bought into true RSI；[AINews] Here are 6 Clones of Jev in 2 days；v0.30.0rc2",
+  "lead": "为什么我还没有买入真正的 RSI；[AINews] 2天内克隆出6个Jev；v0.30.0rc2",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "“缓存到缓存”：大型语言模型之间的直接语义通信（2025）",
-      "url": "https://arxiv.org/abs/2510.03215",
-      "source": "arxiv.org",
+      "title": "几乎不要使用人工智能来撰写任何有实质内容的文章",
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "source": "erichgrunewald.substack.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-19T14:50:14.125000+00:00",
+      "published_at": "2026-09-19T20:03:34.007000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 57,
       "official": false,
-      "topics": [
-        "paper"
-      ],
+      "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 89
+      "hot_score": 100
+    },
+    {
+      "title": "OpenAI 和 Anthropic 过度夸大人工智能安全漏洞",
+      "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-19T19:59:28+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
     },
     {
       "title": "AI生成的海报未必就难看",
@@ -32,7 +47,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 64
+      "hot_score": 53
     },
     {
       "title": "GPT-6 Astra 破解了一段一战时期的德国无线电密文",
@@ -41,44 +56,30 @@
       "site_id": "buzzing",
       "published_at": "2026-09-19T09:35:29.529000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 57
+      "hot_score": 48
     },
     {
-      "title": "Almost Never Use AI to Write Anything Substantive",
-      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-19T16:35:24+00:00",
-      "source_count": 2,
+      "title": "OpenAI 如何利用其自有的大语言模型设计哈拉佩尼奥辣椒味薯片",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "source": "spectrum.ieee.org",
+      "site_id": "buzzing",
+      "published_at": "2026-09-19T06:27:05.170000+00:00",
+      "source_count": 3,
       "score": 54,
       "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-19T01:40:35+00:00",
-      "source_count": 4,
-      "score": 62,
-      "official": true,
       "topics": [
-        "google"
+        "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 44
+      "hot_score": 37
     }
   ],
   "topics": [
@@ -87,21 +88,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 34
+      "count": 28
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "deepseek",
@@ -122,14 +123,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 18
+      "count": 10
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 2
     },
     {
       "slug": "mcp",
@@ -157,7 +158,7 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 7
+      "count": 5
     },
     {
       "slug": "industry",

@@ -1,27 +1,11 @@
 {
-  "generated_at": "2026-09-19T18:27:57.534850+00:00",
+  "generated_at": "2026-09-19T20:36:48.057052+00:00",
   "date": "2026-09-20",
   "timezone": "Asia/Shanghai",
-  "lead": "Why I still haven’t bought into true RSI；[AINews] Here are 6 Clones of Jev in 2 days；v0.30.0rc2",
+  "lead": "为什么我还没有买入真正的 RSI；[AINews] 2天内克隆出6个Jev；v0.30.0rc2",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
-    {
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-19T01:40:35+00:00",
-      "source_count": 4,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 44
-    },
     {
       "title": "Anthropic’s first embedded evaluator is … Accenture?",
       "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture",
@@ -36,31 +20,64 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 11
+      "hot_score": 9
+    },
+    {
+      "title": "Gemini 首次利用谷歌人工智能攻击了三家公司",
+      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
+      "source": "Simon Willison",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-18T23:57:57+00:00",
+      "source_count": 3,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 21
+    },
+    {
+      "title": "OpenAI 和 Anthropic 过度夸大人工智能安全漏洞",
+      "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-19T19:59:28+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
     }
   ],
   "items": [
     {
-      "title": "Why I still haven’t bought into true RSI",
+      "title": "为什么我还没有买入真正的 RSI",
       "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
       "source": "Interconnects",
       "site_id": "official_ai",
       "published_at": "2026-09-19T15:42:20+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "title": "[AINews] 2天内克隆出6个Jev",
       "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-09-19T05:48:28+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -73,7 +90,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T21:15:44+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -82,102 +99,13 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 AIPerf 对 LLM 推理进行大规模基准测试",
-      "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:04:41+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 代码审查：改进的审查体验",
-      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T20:17:22+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 每周发布 — 9 月 14 日",
-      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:21:22+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "即将于 10 月中旬弃用选定的 GitHub Copilot 模型",
-      "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 REST API 管理代码覆盖率规则集条件",
-      "url": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:23:49+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估，双方各投入至少 10 亿美元",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T20:21:40.477000+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+      "title": "Unity 推出 Claude Code 和 OpenAI Codex 官方插件，阻止 AI 代理使用过时的教程",
       "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-19T13:31:46+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "openai",
@@ -189,13 +117,28 @@
       "label": "值得关注"
     },
     {
-      "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
+      "title": "谷歌的 Gemini 是攻击其他公司的最新人工智能模型",
+      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-19T17:30:00+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Qwen3.8-Omni-Flash 低于 Google Gemini Flash 的定价，同时符合其多模式基准",
       "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-19T14:30:57+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "google",
@@ -203,21 +146,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-19T01:40:35+00:00",
-      "source_count": 4,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "多源热议"
     },
     {
       "title": "Anthropic’s first embedded evaluator is … Accenture?",
@@ -235,26 +163,11 @@
       "label": "值得关注"
     },
     {
-      "title": "Google's Gemini also accidentally hacked three real companies during security testing",
+      "title": "谷歌的Gemini在安全测试时也意外黑进了三个真实的公司",
       "url": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-19T09:31:03+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google Deepmind's Dream-RSI helps AI agents improve by “dreaming” about past attempts",
-      "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-19T11:08:06+00:00",
       "source_count": 1,
       "score": 61,
       "official": true,
@@ -265,11 +178,11 @@
       "label": "值得关注"
     },
     {
-      "title": "Gemini went rogue, hacked three companies, and Google hid it",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
-      "source": "The Verge",
+      "title": "谷歌 Deepmind 的 Dream-RSI 通过“梦想”过去的尝试来帮助人工智能代理改进",
+      "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-09-19T15:25:03+00:00",
+      "published_at": "2026-09-19T11:08:06+00:00",
       "source_count": 1,
       "score": 60,
       "official": true,
@@ -297,7 +210,37 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic is operating a lab that conducts biology experiments",
+      "title": "Gemini 首次利用谷歌人工智能攻击了三家公司",
+      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
+      "source": "Simon Willison",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-18T23:57:57+00:00",
+      "source_count": 3,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Gemini作恶，黑了三家公司，谷歌隐藏了",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-19T15:25:03+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 正在运营一个进行生物学实验的实验室",
       "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
@@ -312,13 +255,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
+      "title": "人工智能是否需要反垄断豁免，这样它就不会杀死所有人？？？",
       "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-09-19T14:00:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "openai",
@@ -328,18 +271,91 @@
       "label": "值得关注"
     },
     {
-      "title": "v2.1.277",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-      "source": "Claude Code Releases",
+      "title": "OpenAI 和微软知道他们正在为网络开启“末日循环”",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "source": "The Verge",
       "site_id": "curated_media",
-      "published_at": "2026-09-18T18:06:32+00:00",
+      "published_at": "2026-09-18T21:07:24+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 55,
       "official": true,
       "topics": [
-        "anthropic",
-        "agent",
-        "launch"
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 和 Anthropic 过度夸大人工智能安全漏洞",
+      "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-19T19:59:28+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "“不平等紧急状况”：联合国大会召开前夕，乐施会呼吁就气候变化、人工智能和加沙问题采取行动 - Democracy Now!",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94M0Eyc0JGc0ZaVGNncHFlS0xDR3N2SkVsdU91MTY2ZlRPbzdQWDd0Sk5ISkcwWGdEQzNlY2pnWGlYTHZDMDh5dDhIZGQtcURsWmljWmItemZra1gxU0lhajRIWUNkbXR4?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-19T19:01:36.931000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "特朗普宣布组建新的“人工智能部队”，但表示他不会“扼杀”人工智能",
+      "url": "https://www.businessinsider.com/trump-ai-regulation-slowdown-anthropic-dario-amodei-9-2026",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-19T18:52:13+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "诉讼称 Anthropic、OpenAI 等公司就人工智能放缓达成非法协议",
+      "url": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-19T18:36:44+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 选择埃森哲进行第三方人工智能安全评估",
+      "url": "https://www.engadget.com/2263235/anthropic-picks-accenture-for-third-party-ai-safety-evaluations",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-09-19T18:33:46+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"

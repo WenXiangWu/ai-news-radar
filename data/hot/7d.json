@@ -1,23 +1,38 @@
 {
-  "generated_at": "2026-09-19T18:27:57.534850+00:00",
+  "generated_at": "2026-09-19T20:36:48.057052+00:00",
   "window_hours": 168,
-  "total_items": 12,
+  "total_items": 11,
   "items": [
     {
-      "title": "“缓存到缓存”：大型语言模型之间的直接语义通信（2025）",
-      "url": "https://arxiv.org/abs/2510.03215",
-      "source": "arxiv.org",
+      "title": "几乎不要使用人工智能来撰写任何有实质内容的文章",
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "source": "erichgrunewald.substack.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-19T14:50:14.125000+00:00",
+      "published_at": "2026-09-19T20:03:34.007000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 57,
       "official": false,
-      "topics": [
-        "paper"
-      ],
+      "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 89
+      "hot_score": 100
+    },
+    {
+      "title": "OpenAI 和 Anthropic 过度夸大人工智能安全漏洞",
+      "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-19T19:59:28+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
     },
     {
       "title": "AI生成的海报未必就难看",
@@ -31,7 +46,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 64
+      "hot_score": 53
     },
     {
       "title": "GPT-6 Astra 破解了一段一战时期的德国无线电密文",
@@ -40,44 +55,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-19T09:35:29.529000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 57
-    },
-    {
-      "title": "Almost Never Use AI to Write Anything Substantive",
-      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-19T16:35:24+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-19T01:40:35+00:00",
-      "source_count": 4,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 44
+      "hot_score": 48
     },
     {
       "title": "OpenAI 如何利用其自有的大语言模型设计哈拉佩尼奥辣椒味薯片",
@@ -93,7 +78,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 44
+      "hot_score": 37
     },
     {
       "title": "阿里巴巴开源了一款能够检测癌症及近150种疾病的AI模型",
@@ -109,23 +94,23 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 44
+      "hot_score": 37
     },
     {
-      "title": "Google's Gemini AI hacked three companies in security test",
-      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-19T06:09:23+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
+      "title": "Gemini 首次利用谷歌人工智能攻击了三家公司",
+      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
+      "source": "Simon Willison",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-18T23:57:57+00:00",
+      "source_count": 3,
+      "score": 59,
+      "official": true,
       "topics": [
         "google"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 22
+      "label": "多源热议",
+      "hot_score": 21
     },
     {
       "title": "如果没有 Claude.md 文件，Claude Code 现在会读取 AGENTS.md 文件",
@@ -134,7 +119,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T21:43:30.451000+00:00",
       "source_count": 3,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic",
@@ -142,13 +127,29 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 21
+      "hot_score": 18
     },
     {
-      "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
+      "title": "谷歌Gemini AI在安全测试中入侵了三家公司",
+      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-19T06:09:23+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 18
+    },
+    {
+      "title": "NASA-IBM 月球基金会开源地理空间 AI 模型",
       "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News",
+      "site_id": "techurls",
       "published_at": "2026-09-19T04:44:35+00:00",
       "source_count": 2,
       "score": 51,
@@ -158,7 +159,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 19
+      "hot_score": 16
     },
     {
       "title": "Anthropic’s first embedded evaluator is … Accenture?",
@@ -174,23 +175,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 11
-    },
-    {
-      "title": "语言不清对LLM安全的影响",
-      "url": "https://arxiv.org/abs/2609.02852",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-18T19:00:06+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 8
+      "hot_score": 9
     }
   ]
 }

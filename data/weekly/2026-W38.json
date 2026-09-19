@@ -119,19 +119,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Why I still haven’t bought into true RSI",
-      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-09-19T15:42:20+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "新专家加入 Google 人工智能与经济团队",
       "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
       "source": "Google AI Blog",
@@ -217,6 +204,19 @@
         "openai",
         "anthropic"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "为什么我还没有买入真正的 RSI",
+      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-09-19T15:42:20+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -310,15 +310,17 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
-      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
-      "source": "Latent Space",
+      "title": "使用 AIPerf 对 LLM 推理进行大规模基准测试",
+      "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-19T05:48:28+00:00",
+      "published_at": "2026-09-18T19:04:41+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "paper"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -377,31 +379,60 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.30.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc2",
-      "source": "vLLM Releases",
+      "title": "[AINews] 2天内克隆出6个Jev",
+      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T21:15:44+00:00",
+      "published_at": "2026-09-19T05:48:28+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 代码审查：改进的审查体验",
+      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T20:17:22+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 每周发布 — 9 月 14 日",
+      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T19:21:22+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "使用 AIPerf 对 LLM 推理进行大规模基准测试",
-      "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
-      "source": "NVIDIA Developer Blog",
+      "title": "即将于 10 月中旬弃用选定的 GitHub Copilot 模型",
+      "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T19:04:41+00:00",
+      "published_at": "2026-09-18T19:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "paper"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -568,39 +599,8 @@
       ],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "Copilot 代码审查：改进的审查体验",
-      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T20:17:22+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 每周发布 — 9 月 14 日",
-      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:21:22+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-19T18:27:57.534850+00:00",
+  "generated_at": "2026-09-19T20:36:48.057052+00:00",
   "period": "2026-W38"
 }
