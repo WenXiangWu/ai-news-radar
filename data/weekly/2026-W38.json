@@ -27,6 +27,21 @@
       "label": "官方更新"
     },
     {
+      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-18T04:45:46.237000+00:00",
+      "source_count": 6,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
       "source": "Google DeepMind",
@@ -38,36 +53,6 @@
       "topics": [
         "google",
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T04:45:46.237000+00:00",
-      "source_count": 6,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "使用 AIPerf 对 LLM 推理进行大规模基准测试",
-      "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:04:41+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -134,62 +119,16 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.30.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc2",
-      "source": "vLLM Releases",
+      "title": "使用 AIPerf 对 LLM 推理进行大规模基准测试",
+      "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T21:15:44+00:00",
+      "published_at": "2026-09-18T19:04:41+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 代码审查：改进的审查体验",
-      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T20:17:22+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 每周发布 — 9 月 14 日",
-      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:21:22+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "即将于 10 月中旬弃用选定的 GitHub Copilot 模型",
-      "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "coding"
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -254,42 +193,62 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 REST API 管理代码覆盖率规则集条件",
-      "url": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
-      "source": "GitHub Changelog",
+      "title": "v0.30.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc2",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T19:23:49+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "仅阶段性的 npm 令牌可实现更安全的自动化",
-      "url": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T16:37:50+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？",
-      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T15:00:00+00:00",
+      "published_at": "2026-09-18T21:15:44+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "mcp"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 代码审查：改进的审查体验",
+      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T20:17:22+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 每周发布 — 9 月 14 日",
+      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T19:21:22+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "即将于 10 月中旬弃用选定的 GitHub Copilot 模型",
+      "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T19:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -369,31 +328,29 @@
       "label": "官方更新"
     },
     {
-      "title": "新专家加入 Google 人工智能与经济团队",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
-      "source": "Google AI Blog",
+      "title": "使用 REST API 管理代码覆盖率规则集条件",
+      "url": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T14:00:00+00:00",
+      "published_at": "2026-09-18T19:23:49+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "google"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "与 Google 共同创造时尚的未来",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
-      "source": "Google AI Blog",
+      "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
+      "source": "GitHub AI & ML",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T13:00:00+00:00",
+      "published_at": "2026-09-18T15:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "google"
+        "mcp"
       ],
       "reason": "",
       "label": "官方更新"
@@ -455,30 +412,60 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.5.20",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
-      "source": "SGLang Releases",
+      "title": "仅阶段性的 npm 令牌可实现更安全的自动化",
+      "url": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T08:02:22+00:00",
+      "published_at": "2026-09-18T16:37:50+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "新专家加入 Google 人工智能与经济团队",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T14:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "launch"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "AI Evals: Everything You Need to Know",
-      "url": "https://hamel.dev/blog/posts/evals-faq",
-      "source": "Hamel Husain",
+      "title": "与 Google 共同创造时尚的未来",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T07:00:00+00:00",
+      "published_at": "2026-09-18T13:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T12:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -595,8 +582,24 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-15T16:00:44+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-19T00:33:01.840877+00:00",
+  "generated_at": "2026-09-19T06:06:49.096784+00:00",
   "period": "2026-W38"
 }

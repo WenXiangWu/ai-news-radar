@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-09-19T00:33:01.840877+00:00",
+  "generated_at": "2026-09-19T06:06:49.096784+00:00",
   "today": "2026-09-19",
-  "lead": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号；使用 AIPerf 对 LLM 推理进行大规模基准测试；v0.30.0rc2",
+  "lead": "使用 AIPerf 对 LLM 推理进行大规模基准测试；v0.30.0rc2；Copilot 代码审查：改进的审查体验",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
+      "source": "Simon Willison",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-19T01:40:35+00:00",
+      "source_count": 4,
+      "score": 65,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "如果没有 Claude.md 文件，Claude Code 现在会读取 AGENTS.md 文件",
       "url": "https://code.claude.com/docs/en/changelog",
@@ -11,7 +27,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T21:43:30.451000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "anthropic",
@@ -19,7 +35,23 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 95
+      "hot_score": 60
+    },
+    {
+      "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
+      "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-19T04:44:35+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 54
     },
     {
       "title": "美军因 AI 幻觉情报报告险些拦截中国船只",
@@ -28,12 +60,12 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T18:48:49.722000+00:00",
       "source_count": 3,
-      "score": 84,
+      "score": 83,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 74
+      "hot_score": 47
     },
     {
       "title": "微软高管称 OpenAI 的网络抓取是“人类历史上最大的劳动力盗窃”",
@@ -42,46 +74,14 @@
       "site_id": "techurls",
       "published_at": "2026-09-18T11:22:31+00:00",
       "source_count": 4,
-      "score": 57,
+      "score": 55,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
-    },
-    {
-      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T04:45:46.237000+00:00",
-      "source_count": 6,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 58
-    },
-    {
-      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-      "url": "https://spectrum.ieee.org/llms-for-chip-design",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-18T23:04:17+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 53
+      "hot_score": 38
     }
   ],
   "topics": [
@@ -90,14 +90,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 38
+      "count": 33
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 40
+      "count": 38
     },
     {
       "slug": "google",
@@ -118,14 +118,14 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 4
+      "count": 2
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 23
+      "count": 22
     },
     {
       "slug": "coding",
@@ -146,14 +146,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 12
+      "count": 11
     },
     {
       "slug": "paper",
@@ -167,7 +167,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 40
+      "count": 30
     }
   ],
   "days": [
