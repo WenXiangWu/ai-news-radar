@@ -1,8 +1,25 @@
 {
-  "generated_at": "2026-09-18T21:39:59.253555+00:00",
+  "generated_at": "2026-09-19T00:33:01.840877+00:00",
   "window_hours": 168,
-  "total_items": 16,
+  "total_items": 14,
   "items": [
+    {
+      "title": "如果没有 Claude.md 文件，Claude Code 现在会读取 AGENTS.md 文件",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "source": "code.claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-18T21:43:30.451000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 95
+    },
     {
       "title": "美军因 AI 幻觉情报报告险些拦截中国船只",
       "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
@@ -10,12 +27,28 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T18:48:49.722000+00:00",
       "source_count": 3,
-      "score": 85,
+      "score": 84,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 95
+      "hot_score": 74
+    },
+    {
+      "title": "微软高管称 OpenAI 的网络抓取是“人类历史上最大的劳动力盗窃”",
+      "url": "https://www.engadget.com/2262055/microsoft-openai-internet-scraping-largest-theft-of-labor",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-09-18T11:22:31+00:00",
+      "source_count": 4,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 60
     },
     {
       "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
@@ -31,23 +64,39 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 73
+      "hot_score": 58
     },
     {
-      "title": "如果没有 Claude.md，Claude 代码现在会读取 AGENTS.md",
-      "url": "https://code.claude.com/docs/en/changelog",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-18T21:00:32+00:00",
+      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-18T23:04:17+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 53
+    },
+    {
+      "title": "Anthropic’s first embedded evaluator is … Accenture?",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-18T21:44:33+00:00",
+      "source_count": 2,
+      "score": 66,
+      "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 57
+      "hot_score": 47
     },
     {
       "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
@@ -61,21 +110,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 56
-    },
-    {
-      "title": "微软高管称人工智能数据抓取是“人类历史上规模最大的劳动力盗窃行为”",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "techcrunch.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-18T11:15:43.941000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 50
+      "hot_score": 44
     },
     {
       "title": "语言不清对LLM安全的影响",
@@ -84,14 +119,14 @@
       "site_id": "techurls",
       "published_at": "2026-09-18T19:00:06+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 48
+      "hot_score": 38
     },
     {
       "title": "缓存到缓存：LLM 之间的直接语义通信 (2025)",
@@ -100,14 +135,14 @@
       "site_id": "iris",
       "published_at": "2026-09-18T18:55:35+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 48
+      "hot_score": 38
     },
     {
       "title": "人工智能正掀起一股精英犯罪浪潮",
@@ -116,26 +151,26 @@
       "site_id": "buzzing",
       "published_at": "2026-09-18T18:01:27.187000+00:00",
       "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 44
-    },
-    {
-      "title": "GrassLobster：参数化几何工作流程的人工智能代理生成",
-      "url": "https://www.miro.vision/index.php/2026/09/17/grasslobbster",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-18T15:04:54+00:00",
-      "source_count": 2,
       "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
       "hot_score": 35
+    },
+    {
+      "title": "GrassLobster：参数化几何工作流程的人工智能代理生成",
+      "url": "https://www.miro.vision/index.php/2026/09/17/grasslobbster",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-18T15:04:54+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 27
     },
     {
       "title": "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
@@ -153,68 +188,21 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 32
-    },
-    {
-      "title": "阿里巴巴发布Qwen 3.8 Omni Flash",
-      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-      "source": "qwen.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-09-18T04:45:46.234000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "qwen",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 29
-    },
-    {
-      "title": "微软高管称 OpenAI 的网络抓取是“人类历史上最大的劳动力盗窃”",
-      "url": "https://www.engadget.com/2262055/microsoft-openai-internet-scraping-largest-theft-of-labor",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-09-18T11:22:31+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
       "hot_score": 25
     },
     {
-      "title": "美国联邦航空管理局 (FAA) 计划修复空中交通？价值 8.75 亿美元的人工智能",
-      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-17T23:49:35+00:00",
-      "source_count": 3,
-      "score": 62,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 19
-    },
-    {
-      "title": "如何利用大型语言模型（LLM）进行写作",
-      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm",
-      "source": "sockpuppet.org",
-      "site_id": "buzzing",
-      "published_at": "2026-09-18T06:35:43.730000+00:00",
+      "title": "人工智能聊天机器人正在成为改变人们想法的专家",
+      "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-18T13:39:27+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
+      "hot_score": 24
     },
     {
       "title": "Claude项目的开源版本，为您提供上下文 Ownerhp",
@@ -231,23 +219,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "Show HN：Cactus Needle 3：8-29MB自动化模型可匹配DeepSeek V4 Flash",
-      "url": "https://cactuscompute.com/needle",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-18T00:11:44+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
+      "hot_score": 9
     }
   ]
 }

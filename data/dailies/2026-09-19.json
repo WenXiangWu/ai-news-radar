@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T21:39:59.253555+00:00",
+  "generated_at": "2026-09-19T00:33:01.840877+00:00",
   "date": "2026-09-19",
   "timezone": "Asia/Shanghai",
   "lead": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号；使用 AIPerf 对 LLM 推理进行大规模基准测试；v0.30.0rc2",
@@ -20,7 +20,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 73
+      "hot_score": 58
     },
     {
       "title": "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
@@ -38,7 +38,23 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 32
+      "hot_score": 25
+    },
+    {
+      "title": "Anthropic’s first embedded evaluator is … Accenture?",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-18T21:44:33+00:00",
+      "source_count": 2,
+      "score": 66,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
     }
   ],
   "items": [
@@ -64,7 +80,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T19:04:41+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "paper"
@@ -79,7 +95,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T21:15:44+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "launch"
@@ -94,7 +110,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T20:17:22+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding"
@@ -109,7 +125,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T19:21:22+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding",
@@ -125,7 +141,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T19:00:00+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding"
@@ -140,24 +156,9 @@
       "site_id": "official_ai",
       "published_at": "2026-09-18T19:23:49+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？",
-      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T15:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "mcp"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -175,13 +176,28 @@
       "label": "官方更新"
     },
     {
+      "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T15:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "mcp"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "新专家加入 Google 人工智能与经济团队",
       "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
       "source": "Google AI Blog",
       "site_id": "official_ai",
       "published_at": "2026-09-18T14:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google"
@@ -205,23 +221,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Codex CLI 0.155.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "v0.5.20",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
       "source": "SGLang Releases",
@@ -237,11 +236,11 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 今天没什么事发生",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
-      "source": "Latent Space",
+      "title": "AI Evals: Everything You Need to Know",
+      "url": "https://hamel.dev/blog/posts/evals-faq",
+      "source": "Hamel Husain",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T06:28:43+00:00",
+      "published_at": "2026-09-18T07:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -250,30 +249,15 @@
       "label": "官方更新"
     },
     {
-      "title": "LLM如何写作",
-      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm",
-      "source": "Simon Willison",
+      "title": "[AINews] 今天没什么事发生",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-17T23:37:27+00:00",
+      "published_at": "2026-09-18T06:28:43+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot影响仪表板现在显示功能参与度",
-      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-17T21:47:27+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -301,7 +285,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T20:21:40.477000+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "anthropic"
@@ -316,7 +300,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-18T09:30:00+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "qwen",
@@ -327,20 +311,50 @@
       "label": "行业动态"
     },
     {
-      "title": "纽约时报诉 OpenAI 案新解封文件：微软与 OpenAI 内部承认 LLM 建立在窃取之上并引发 Doom Loop",
-      "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft",
-      "source": "404 Media（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-17T22:01:43+00:00",
+      "title": "Anthropic’s first embedded evaluator is … Accenture?",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-18T21:44:33+00:00",
+      "source_count": 2,
+      "score": 66,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "安全研究人员利用 Anthropic 的 Claude 在 72 小时内破解了 OpenAI 的内部系统",
+      "url": "https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-18T17:20:30+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 64,
       "official": true,
       "topics": [
         "openai",
-        "industry"
+        "anthropic"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic is operating a lab that conducts biology experiments",
+      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-18T23:13:31+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
     }
   ]
 }
