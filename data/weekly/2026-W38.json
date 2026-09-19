@@ -1,13 +1,13 @@
 {
   "title": "2026-W38 周报",
   "dates": [
+    "2026-09-20",
     "2026-09-19",
     "2026-09-18",
     "2026-09-17",
     "2026-09-16",
     "2026-09-15",
-    "2026-09-14",
-    "2026-09-13"
+    "2026-09-14"
   ],
   "total_items": 40,
   "items": [
@@ -115,6 +115,19 @@
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Why I still haven’t bought into true RSI",
+      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-09-19T15:42:20+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -310,21 +323,6 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 AIPerf 对 LLM 推理进行大规模基准测试",
-      "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:04:41+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "[AINews] 今天没什么事发生",
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
       "source": "Latent Space",
@@ -379,21 +377,6 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 GPT-6 Astra 和 ChatGPT Work 生成跑步路线",
-      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-12T23:56:42+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "v0.30.0rc2",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc2",
       "source": "vLLM Releases",
@@ -409,47 +392,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Copilot 代码审查：改进的审查体验",
-      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-      "source": "GitHub Changelog",
+      "title": "使用 AIPerf 对 LLM 推理进行大规模基准测试",
+      "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T20:17:22+00:00",
+      "published_at": "2026-09-18T19:04:41+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 每周发布 — 9 月 14 日",
-      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:21:22+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "即将于 10 月中旬弃用选定的 GitHub Copilot 模型",
-      "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T19:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -600,8 +552,55 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-14T11:00:31.508000+00:00",
+      "source_count": 3,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Copilot 代码审查：改进的审查体验",
+      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T20:17:22+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 每周发布 — 9 月 14 日",
+      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-18T19:21:22+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-19T14:48:19.494601+00:00",
+  "generated_at": "2026-09-19T18:27:57.534850+00:00",
   "period": "2026-W38"
 }

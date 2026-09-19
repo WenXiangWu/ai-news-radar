@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-09-19T14:48:19.494601+00:00",
-  "today": "2026-09-19",
-  "lead": "[AINews] Here are 6 Clones of Jev in 2 days；使用 AIPerf 对 LLM 推理进行大规模基准测试；v0.30.0rc2",
+  "generated_at": "2026-09-19T18:27:57.534850+00:00",
+  "today": "2026-09-20",
+  "lead": "Why I still haven’t bought into true RSI；[AINews] Here are 6 Clones of Jev in 2 days；v0.30.0rc2",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "“缓存到缓存”：大型语言模型之间的直接语义通信（2025）",
+      "url": "https://arxiv.org/abs/2510.03215",
+      "source": "arxiv.org",
+      "site_id": "buzzing",
+      "published_at": "2026-09-19T14:50:14.125000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 89
+    },
     {
       "title": "AI生成的海报未必就难看",
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
@@ -11,12 +27,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-19T10:53:16.305000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 87
+      "hot_score": 64
     },
     {
       "title": "GPT-6 Astra 破解了一段一战时期的德国无线电密文",
@@ -25,14 +41,28 @@
       "site_id": "buzzing",
       "published_at": "2026-09-19T09:35:29.529000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 78
+      "hot_score": 57
+    },
+    {
+      "title": "Almost Never Use AI to Write Anything Substantive",
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-19T16:35:24+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
     },
     {
       "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
@@ -41,46 +71,14 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-19T01:40:35+00:00",
       "source_count": 4,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "google"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
-    },
-    {
-      "title": "OpenAI 如何利用其自有的大语言模型设计哈拉佩尼奥辣椒味薯片",
-      "url": "https://spectrum.ieee.org/llms-for-chip-design",
-      "source": "spectrum.ieee.org",
-      "site_id": "buzzing",
-      "published_at": "2026-09-19T06:27:05.170000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 60
-    },
-    {
-      "title": "阿里巴巴开源了一款能够检测癌症及近150种疾病的AI模型",
-      "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
-      "source": "www.scmp.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-19T06:27:05.174000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 44
     }
   ],
   "topics": [
@@ -89,21 +87,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 27
+      "count": 25
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 36
+      "count": 34
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 15
+      "count": 18
     },
     {
       "slug": "deepseek",
@@ -124,7 +122,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 21
+      "count": 18
     },
     {
       "slug": "coding",
@@ -138,7 +136,7 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "opensource",
@@ -152,24 +150,25 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 6
+      "count": 5
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 13
+      "count": 7
     }
   ],
   "days": [
+    "2026-09-20",
     "2026-09-19",
     "2026-09-18",
     "2026-09-17",
@@ -182,8 +181,7 @@
     "2026-09-10",
     "2026-09-09",
     "2026-09-08",
-    "2026-09-07",
-    "2026-09-06"
+    "2026-09-07"
   ],
   "week": "2026-W38",
   "month": "2026-09"
