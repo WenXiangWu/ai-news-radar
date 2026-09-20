@@ -1,26 +1,43 @@
 {
-  "generated_at": "2026-09-19T23:00:19.220837+00:00",
+  "generated_at": "2026-09-20T01:05:43.674795+00:00",
   "date": "2026-09-20",
   "timezone": "Asia/Shanghai",
-  "lead": "为什么我还没有买入真正的 RSI；[AINews] 2天内克隆出6个Jev；Unity 推出 Claude Code 和 OpenAI Codex 官方插件，阻止 AI 代理使用过时的教程",
+  "lead": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用；为什么我还没有买入真正的 RSI；[AINews] 2天内克隆出6个Jev",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
     {
-      "title": "Gemini 首次利用谷歌人工智能攻击了三家公司",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-19T01:40:35+00:00",
-      "source_count": 3,
-      "score": 58,
+      "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-19T23:58:19.151000+00:00",
+      "source_count": 4,
+      "score": 85,
       "official": true,
       "topics": [
-        "google"
+        "openai",
+        "industry"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 20
+      "hot_score": 100
+    },
+    {
+      "title": "Show HN：我创建了一个开源的本地可用的成熟人工智能平台",
+      "url": "https://github.com/theguysudo/ENZO",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-19T23:47:35+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 54
     },
     {
       "title": "OpenAI 和 Anthropic 过度夸大人工智能安全漏洞",
@@ -29,7 +46,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-19T19:59:28+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "openai",
@@ -37,27 +54,26 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 47
-    },
+      "hot_score": 39
+    }
+  ],
+  "items": [
     {
-      "title": "微软总监：人工智能铲除“人类历史上最大的劳动力盗窃案”",
+      "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-19T18:21:30+00:00",
-      "source_count": 2,
-      "score": 53,
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-19T23:58:19.151000+00:00",
+      "source_count": 4,
+      "score": 85,
       "official": true,
       "topics": [
         "openai",
         "industry"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 41
-    }
-  ],
-  "items": [
+      "label": "多源热议"
+    },
     {
       "title": "为什么我还没有买入真正的 RSI",
       "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
@@ -65,7 +81,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-19T15:42:20+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -91,7 +107,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-19T13:31:46+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "openai",
@@ -134,11 +150,11 @@
       "label": "值得关注"
     },
     {
-      "title": "谷歌 Deepmind 的 Dream-RSI 通过“梦想”过去的尝试来帮助人工智能代理改进",
-      "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts",
+      "title": "谷歌的Gemini在安全测试时也意外黑进了三个真实的公司",
+      "url": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-09-19T11:08:06+00:00",
+      "published_at": "2026-09-19T09:31:03+00:00",
       "source_count": 1,
       "score": 60,
       "official": true,
@@ -149,13 +165,13 @@
       "label": "值得关注"
     },
     {
-      "title": "谷歌的Gemini在安全测试时也意外黑进了三个真实的公司",
-      "url": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing",
+      "title": "谷歌 Deepmind 的 Dream-RSI 通过“梦想”过去的尝试来帮助人工智能代理改进",
+      "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-09-19T09:31:03+00:00",
+      "published_at": "2026-09-19T11:08:06+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "google"
@@ -181,21 +197,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Gemini 首次利用谷歌人工智能攻击了三家公司",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
-      "source": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-19T01:40:35+00:00",
-      "source_count": 3,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
       "title": "Gemini作恶，黑了三家公司，谷歌隐藏了",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
       "source": "The Verge",
@@ -211,32 +212,32 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic 正在运营一个进行生物学实验的实验室",
-      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-18T23:13:31+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "人工智能是否需要反垄断豁免，这样它就不会杀死所有人？？？",
       "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-09-19T14:00:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai",
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN：我创建了一个开源的本地可用的成熟人工智能平台",
+      "url": "https://github.com/theguysudo/ENZO",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-19T23:47:35+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
@@ -248,27 +249,11 @@
       "site_id": "hackernews",
       "published_at": "2026-09-19T19:59:28+00:00",
       "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软总监：人工智能铲除“人类历史上最大的劳动力盗窃案”",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-19T18:21:30+00:00",
-      "source_count": 2,
       "score": 53,
       "official": true,
       "topics": [
         "openai",
-        "industry"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -308,7 +293,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-19T18:36:44+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -324,7 +309,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-19T18:33:46+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -339,7 +324,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-19T16:51:41+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -360,6 +345,19 @@
       "topics": [
         "anthropic"
       ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "三星的人工智能隐私开关并不能阻止谷歌收集你的数据",
+      "url": "https://www.androidpolice.com/samsungs-ai-privacy-switch-doesnt-stop-google-collecting-your-data",
+      "source": "Android Police",
+      "site_id": "techurls",
+      "published_at": "2026-09-19T15:00:10+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
