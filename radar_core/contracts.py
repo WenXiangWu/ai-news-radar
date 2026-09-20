@@ -257,6 +257,12 @@ def _validate_way_index(document: Dict[str, Any]) -> List[str]:
                 errors.append(f"contracts.{contract_key} is required")
             else:
                 _validate_path(errors, contracts[contract_key], f"contracts.{contract_key}")
+    if document.get("knowledge_registry") is not None:
+        _validate_path(
+            errors,
+            document["knowledge_registry"],
+            "knowledge_registry",
+        )
     modules = document.get("modules", [])
     if not isinstance(modules, list):
         errors.append("modules must be a list")

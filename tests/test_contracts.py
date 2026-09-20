@@ -127,6 +127,17 @@ def test_loader_rejects_explicit_module_manifest_symlink_escape(tmp_path: Path):
         load_registry_document(target)
 
 
+def test_loader_rejects_unsafe_knowledge_registry_path(tmp_path: Path):
+    target = copy_fixture(tmp_path, ACTUAL_WAY_FIXTURE_ROOT)
+    index_path = target / "radar/registry/index.json"
+    index = json.loads(index_path.read_text(encoding="utf-8"))
+    index["knowledge_registry"] = "../knowledge.json"
+    write_json(index_path, index)
+
+    with pytest.raises(ValueError, match="unsafe|knowledge_registry"):
+        load_registry_document(target)
+
+
 def test_loader_validates_referenced_manifest_contents(tmp_path: Path):
     target = copy_fixture(tmp_path)
     manifest_path = target / "radar/registry/modules/source.example.json"
