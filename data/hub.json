@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T18:46:04.262362+00:00",
+  "generated_at": "2026-09-20T21:40:13.361717+00:00",
   "today": "2026-09-21",
-  "lead": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像；纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用；Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+  "lead": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像；Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故；纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -27,7 +27,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-20T14:40:14.401000+00:00",
       "source_count": 4,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "qwen",
@@ -44,12 +44,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-20T17:03:10.347000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 82
     },
     {
       "title": "你能分辨出哪些图片是AI生成的吗？",
@@ -63,18 +63,20 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 93
+      "hot_score": 73
     },
     {
-      "title": "自托管推理编排器比较：LocalAI、exo、GPUStack、vLLM",
-      "url": "https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-20T17:43:35+00:00",
+      "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
+      "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-20T20:32:43+00:00",
       "source_count": 2,
       "score": 54,
-      "official": false,
-      "topics": [],
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "值得关注",
       "hot_score": 55
@@ -86,21 +88,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 22
+      "count": 27
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 16
+      "count": 20
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 6
+      "count": 8
     },
     {
       "slug": "deepseek",
@@ -121,21 +123,21 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 8
+      "count": 10
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "opensource",
@@ -163,7 +165,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 38
+      "count": 40
     }
   ],
   "days": [

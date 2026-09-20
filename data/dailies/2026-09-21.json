@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T18:46:04.262362+00:00",
+  "generated_at": "2026-09-20T21:40:13.361717+00:00",
   "date": "2026-09-21",
   "timezone": "Asia/Shanghai",
-  "lead": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像；纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用；Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+  "lead": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像；Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故；纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-20T14:40:14.401000+00:00",
       "source_count": 4,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "qwen",
@@ -38,13 +38,43 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 13
+      "hot_score": 10
+    },
+    {
+      "title": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-20T18:50:18+00:00",
+      "source_count": 2,
+      "score": 61,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
+    },
+    {
+      "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
+      "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-20T20:32:43+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 55
     },
     {
       "title": "微软以 12 万美元的价格代理将 Copilot 运行时移植到 Rust",
       "url": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-20T09:08:52+00:00",
       "source_count": 2,
       "score": 52,
@@ -54,7 +84,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 21
     },
     {
       "title": "Show HN：我创建了一个开源的本地可用的成熟人工智能平台",
@@ -70,24 +100,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "OpenAI 和 Anthropic 过度夸大人工智能安全漏洞",
-      "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-19T19:59:28+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 10
     }
   ],
   "items": [
@@ -98,7 +111,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-20T14:40:14.401000+00:00",
       "source_count": 4,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "qwen",
@@ -106,6 +119,24 @@
       ],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
+      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+      "source": "MarkTechPost（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-20T20:20:56+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "google",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
     },
     {
       "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
@@ -130,7 +161,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-20T13:52:24+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "qwen",
@@ -139,21 +170,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "阿里巴巴的开放权重 Qwen-Image-2.1 声称仅用 70 亿个参数就能在图像生成方面击败封闭模型",
-      "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-20T16:10:52+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "qwen"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "据报道，继 OpenAI 之后，Anthropic 也推迟了 IPO",
@@ -172,10 +188,53 @@
       "label": "值得关注"
     },
     {
-      "title": "微软以 12 万美元的价格代理将 Copilot 运行时移植到 Rust",
-      "url": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
+      "title": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-20T18:50:18+00:00",
+      "source_count": 2,
+      "score": 61,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "阿里巴巴的开放权重 Qwen-Image-2.1 声称仅用 70 亿个参数就能在图像生成方面击败封闭模型",
+      "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-20T16:10:52+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "qwen"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
+      "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18",
       "source": "Hacker News",
       "site_id": "techurls",
+      "published_at": "2026-09-20T20:32:43+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "微软以 12 万美元的价格代理将 Copilot 运行时移植到 Rust",
+      "url": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-20T09:08:52+00:00",
       "source_count": 2,
       "score": 52,
@@ -187,13 +246,123 @@
       "label": "值得关注"
     },
     {
+      "title": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
+      "url": "https://github.com/marciob/openmsg",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-20T20:10:39+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Why MCP Was Always a Bad Idea",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-20T19:44:40+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Nvidia's Jensen Huang says AI CEOs have 'ulterior reasons' for warning about doomsday",
+      "url": "https://www.businessinsider.com/nvidia-jensen-huang-ai-regulation-anthropic-amodei-openai-altman-trump-2026-9",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-20T19:17:13+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-20T18:40:25+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google Gemini allegedly hacked three companies on its own",
+      "url": "https://mashable.com/tech/google-gemini-hacks-three-companies",
+      "source": "Mashable",
+      "site_id": "techurls",
+      "published_at": "2026-09-20T18:26:55+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Trump's tech advisor has advice for AI companies worried they're building unsafe models: 'Just stop'",
+      "url": "https://www.businessinsider.com/trump-tech-advisor-ai-slow-down-anthropic-openai-2026-9",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-20T17:47:57+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Autonomous strike drone uses Nvidia Jetson Orin Nano to pick and bomb targets",
+      "url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-20T17:07:08+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "忘记 Google Keep 和 OneNote：Gemini Notebooks 改变了我收集和使用信息的方式",
       "url": "https://www.androidpolice.com/forget-google-keep-onenote-gemini-notebooks-changed-how-i-collect-use-information",
       "source": "Android Police",
       "site_id": "techurls",
       "published_at": "2026-09-20T17:00:10+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "google"
@@ -207,22 +376,6 @@
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-09-20T16:49:53+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "诉讼：Anthropic、OpenAI、SpaceXAI 和谷歌达成非法减速协议",
-      "url": "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-20T13:43:27+00:00",
       "source_count": 1,
       "score": 51,
       "official": true,
@@ -249,151 +402,17 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 和 Anthropic 过度夸大人工智能安全漏洞",
-      "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders",
+      "title": "诉讼：Anthropic、OpenAI、SpaceXAI 和谷歌达成非法减速协议",
+      "url": "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
-      "published_at": "2026-09-19T19:59:28+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-20T13:43:27+00:00",
+      "source_count": 1,
       "score": 50,
       "official": true,
       "topics": [
         "openai",
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Winrar 比 openai 更赚钱",
-      "url": "https://www.reddit.com/r/pcmasterrace/comments/1wleaky/winrar_is_more_profitable_than_openai",
-      "source": "Reddit (热门)",
-      "site_id": "iris",
-      "published_at": "2026-09-20T11:11:46+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "人类学/金融服务",
-      "url": "https://github.com/anthropics/financial-services",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-09-20T11:00:35.172000+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Stock compensation gives Big Tech workers a powerful reason to stay. Layoffs and the AI boom are changing the equation.",
-      "url": "https://www.businessinsider.com/big-tech-stock-compensation-golden-handcuffs-equity-google-apple-microsoft-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T10:30:01+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 和微软知道他们正在为网络开启“末日循环”",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-20T08:07:08+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "只需 30 美元即可为您的编码工作流程进行人工智能驱动的升级",
-      "url": "https://mashable.com/tech/sept-20-microsoft-visual-studio-professional-2026",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T06:00:00+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google AI Studio 伪造数据删除。 VRP 在 60 年代因为举报而自动禁止了我",
-      "url": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-20T04:39:12+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "“不平等紧急状况”：联合国大会召开前夕，乐施会呼吁就气候变化、人工智能和加沙问题采取行动 - Democracy Now!",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94M0Eyc0JGc0ZaVGNncHFlS0xDR3N2SkVsdU91MTY2ZlRPbzdQWDd0Sk5ISkcwWGdEQzNlY2pnWGlYTHZDMDh5dDhIZGQtcURsWmljWmItemZra1gxU0lhajRIWUNkbXR4?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-19T19:01:36.931000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "特朗普宣布组建新的“人工智能部队”，但表示他不会“扼杀”人工智能",
-      "url": "https://www.businessinsider.com/trump-ai-regulation-slowdown-anthropic-dario-amodei-9-2026",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-19T18:52:13+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "After seeing the rush of announcements by Gemini (Google), OpenAi and Anthropic about even more agent intrusions......I take it for 100% granted that a number of of major companies have been penetrated by nation state...",
-      "url": "https://x.com/adityaag/status/2101426570850451914",
-      "source": "Follow Builders · X · Aditya Agarwal",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-19T21:41:51+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "google",
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
