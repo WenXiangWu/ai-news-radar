@@ -111,6 +111,42 @@ def test_load_registry_normalizes_explicit_and_legacy_tasks(tmp_path: Path):
     assert tasks["task.framework.legacy.translation"]["adapter"] == "markdown_google"
 
 
+def test_load_registry_normalizes_multiple_output_paths(tmp_path: Path):
+    target = make_target(tmp_path)
+    write_json(
+        target / "radar/registry/modules/framework.demo.json",
+        {
+            "id": "framework.demo",
+            "kind": "framework",
+            "enabled": True,
+            "display": {"name": "Demo", "target_path": "frontend/path/frameworks/demo"},
+            "tasks": [
+                {
+                    "id": "task.framework.demo.catalog",
+                    "kind": "index_sync",
+                    "adapter": "coding_tools_catalog",
+                    "output": {
+                        "paths": [
+                            "frontend/sources/demo",
+                            "frontend/path/frameworks/demo",
+                        ]
+                    },
+                    "schedule": {"enabled": True, "cron": "17 3 * * *"},
+                }
+            ],
+        },
+    )
+
+    registry = load_registry(target)
+    output = registry["modules"][0]["tasks"][0]["output"]
+
+    assert output["paths"] == [
+        "frontend/sources/demo",
+        "frontend/path/frameworks/demo",
+    ]
+    assert not validate_registry(registry)
+
+
 def test_validate_registry_rejects_duplicate_task_ids(tmp_path: Path):
     registry = load_registry(make_target(tmp_path))
     registry["modules"][0]["tasks"].append(dict(registry["modules"][0]["tasks"][0]))

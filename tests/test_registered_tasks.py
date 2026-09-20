@@ -87,6 +87,42 @@ def test_unknown_adapter_is_blocked_and_explained(tmp_path: Path):
     assert "not-installed" in report["jobs"][0]["summary"]
 
 
+def test_manual_editorial_adapter_reports_explicit_ownership(tmp_path: Path):
+    registered = {
+        "modules": [
+            {
+                "id": "framework.editorial",
+                "kind": "framework",
+                "enabled": True,
+                "tasks": [
+                    {
+                        "id": "task.framework.editorial.ownership",
+                        "module_id": "framework.editorial",
+                        "kind": "index_sync",
+                        "adapter": "manual_editorial",
+                        "schedule": {
+                            "enabled": True,
+                            "timezone": "Asia/Shanghai",
+                            "cron": "17 * * * *",
+                        },
+                        "output": {"path": "frontend/path/frameworks/editorial"},
+                    }
+                ],
+            }
+        ]
+    }
+
+    report = run_registered_tasks(
+        tmp_path,
+        registered,
+        tmp_path / "state.json",
+        now=datetime(2026, 9, 20, 3, 17, tzinfo=TZ),
+    )
+
+    assert report["jobs"][0]["status"] == "skipped"
+    assert "人工维护" in report["jobs"][0]["summary"]
+
+
 def test_registered_translation_only_processes_stale_pages_and_preserves_code(
     tmp_path: Path, monkeypatch
 ):

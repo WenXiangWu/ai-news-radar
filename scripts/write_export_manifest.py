@@ -32,6 +32,8 @@ def build_export_manifest(registry: dict[str, Any]) -> dict[str, Any]:
             output = task.get("output") if isinstance(task.get("output"), dict) else {}
             if output.get("path"):
                 paths.add(_safe_path(str(output["path"])))
+            for path in output.get("paths") or []:
+                paths.add(_safe_path(str(path)))
     return {
         "schema": "radar-export-manifest/v1",
         "updated_at": datetime.now(timezone.utc).isoformat(),

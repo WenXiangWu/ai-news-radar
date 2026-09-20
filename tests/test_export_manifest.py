@@ -12,6 +12,14 @@ def test_export_manifest_contains_declared_generated_paths():
                 "display": {"target_path": "frontend/path/frameworks/demo"},
                 "tasks": [
                     {"output": {"path": "frontend/sources/demo/articles"}},
+                    {
+                        "output": {
+                            "paths": [
+                                "frontend/sources/demo/catalog",
+                                "frontend/path/coding-tools",
+                            ]
+                        }
+                    },
                     {"output": {"path": "frontend/path/frameworks/hubs.json"}},
                 ],
             }
@@ -23,6 +31,8 @@ def test_export_manifest_contains_declared_generated_paths():
     assert manifest["schema"] == "radar-export-manifest/v1"
     assert "frontend/frontier/radar-data" in manifest["paths"]
     assert "frontend/sources/demo/articles" in manifest["paths"]
+    assert "frontend/sources/demo/catalog" in manifest["paths"]
+    assert "frontend/path/coding-tools" in manifest["paths"]
     assert "frontend/path/frameworks/hubs.json" in manifest["paths"]
 
 

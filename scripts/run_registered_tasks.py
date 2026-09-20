@@ -175,6 +175,29 @@ def _default_executor(task: dict[str, Any], module: dict[str, Any], target_root:
             from translate_registered_markdown import translate_task
 
         return translate_task(task, target_root)
+    if adapter == "manual_editorial":
+        return {
+            "ok": True,
+            "status": "skipped",
+            "summary": "人工维护导读，已登记所有权，未配置自动抓取",
+        }
+    if adapter in {"coding_tools_catalog", "qdrant_editorial_catalog"}:
+        script = (
+            "scripts/build_coding_tools_catalogs.py"
+            if adapter == "coding_tools_catalog"
+            else "scripts/build_qdrant_editorial_catalog.py"
+        )
+        proc = subprocess.run(
+            [sys.executable, script],
+            cwd=str(target_root),
+            capture_output=True,
+            text=True,
+            timeout=int((task.get("schedule") or {}).get("max_runtime_minutes") or 30) * 60,
+            check=False,
+        )
+        if proc.returncode:
+            raise RuntimeError((proc.stderr or proc.stdout or f"{adapter} failed")[:500])
+        return {"ok": True, "summary": (proc.stdout or f"{adapter} 完成").strip()[-500:]}
     if adapter == "framework_hubs":
         proc = subprocess.run(
             [sys.executable, "scripts/wiki_sync.py", "patch-hubs"],

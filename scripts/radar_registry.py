@@ -71,6 +71,14 @@ def _normalize_task(
         output = dict(output)
     if output.get("path"):
         output["path"] = _safe_relative(str(output["path"]), label=f"{out['id']}.output.path")
+    if output.get("paths"):
+        raw_paths = output.get("paths")
+        if not isinstance(raw_paths, list):
+            raise ValueError(f"{out['id']}.output.paths must be a list")
+        output["paths"] = [
+            _safe_relative(str(path), label=f"{out['id']}.output.paths")
+            for path in raw_paths
+        ]
     out["output"] = output
     depends_on = out.get("depends_on")
     out["depends_on"] = [str(x) for x in depends_on] if isinstance(depends_on, list) else []
@@ -349,11 +357,23 @@ def validate_registry(registry: dict[str, Any]) -> list[str]:
             if len(cron) != 5:
                 errors.append(f"{task_id} cron must contain five fields")
             output = task.get("output") or {}
+            if not isinstance(output, dict):
+                output = {}
             if output.get("path"):
                 try:
                     _safe_relative(str(output["path"]), label=f"{task_id}.output.path")
                 except ValueError as exc:
                     errors.append(str(exc))
+            raw_paths = output.get("paths")
+            if raw_paths is not None:
+                if not isinstance(raw_paths, list):
+                    errors.append(f"{task_id}.output.paths must be a list")
+                else:
+                    for path in raw_paths:
+                        try:
+                            _safe_relative(str(path), label=f"{task_id}.output.paths")
+                        except ValueError as exc:
+                            errors.append(str(exc))
         display = module.get("display") or {}
         if display.get("target_path"):
             try:
@@ -386,8 +406,12 @@ def _module_output_paths(module: dict[str, Any]) -> list[str]:
         paths.append(str(display["target_path"]))
     for task in module.get("tasks") or []:
         output = task.get("output") if isinstance(task, dict) else None
-        if isinstance(output, dict) and output.get("path"):
+        if not isinstance(output, dict):
+            continue
+        if output.get("path"):
             paths.append(str(output["path"]))
+        if isinstance(output.get("paths"), list):
+            paths.extend(str(path) for path in output["paths"] if path)
     return list(dict.fromkeys(paths))
 
 
