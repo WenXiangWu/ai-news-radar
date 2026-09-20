@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Example RSS</title>
+    <link>https://news.example.test/</link>
+    <lastBuildDate>Tue, 15 Sep 2026 10:00:00 GMT</lastBuildDate>
+    <item>
+      <title>First article</title>
+      <guid isPermaLink="false">article-one</guid>
+      <link>https://news.example.test/articles/one</link>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 GMT</pubDate>
+      <description>First article summary.</description>
+    </item>
+    <item>
+      <title>Second article</title>
+      <guid isPermaLink="false">article-two</guid>
+      <link>https://news.example.test/articles/two</link>
+      <pubDate>Tue, 15 Sep 2026 08:00:00 GMT</pubDate>
+      <description>Second article summary.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,528 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Any
+
+import pytest
+
+from radar_core.connectors.base import (
+    ConnectorError,
+    ConnectorFactory,
+    Cursor,
+    DiscoveredItem,
+    DiscoveryPage,
+    HttpResponse,
+    RawDocument,
+    UnsupportedConnectorError,
+)
+
+
+FIXTURE_ROOT = Path(__file__).parent / "fixtures" / "source-documents"
+ADAPTER_MATRIX = json.loads(
+    (FIXTURE_ROOT / "adapter-matrix.json").read_text(encoding="utf-8")
+)
+REGISTERED_ADAPTERS = tuple(
+    entry["adapter"] for entry in ADAPTER_MATRIX["adapters"]
+)
+NON_FETCHING_ADAPTERS = tuple(
+    entry["adapter"]
+    for entry in ADAPTER_MATRIX["adapters"]
+    if entry["mode"] == "unsupported"
+)
+
+
+def fixture_text(name: str) -> str:
+    return (FIXTURE_ROOT / name).read_text(encoding="utf-8")
+
+
+def fixture_bytes(name: str) -> bytes:
+    return (FIXTURE_ROOT / name).read_bytes()
+
+
+class FixtureTransport:
+    def __init__(self, routes: dict[str, HttpResponse | str | bytes]):
+        self.routes = routes
+        self.calls: list[dict[str, Any]] = []
+
+    def request(
+        self,
+        method: str,
+        url: str,
+        *,
+        headers: dict[str, str],
+        timeout: float,
+    ) -> HttpResponse:
+        self.calls.append(
+            {
+                "method": method,
+                "url": url,
+                "headers": dict(headers),
+                "timeout": timeout,
+            }
+        )
+        response = self.routes[url]
+        if isinstance(response, HttpResponse):
+            return response
+        return HttpResponse(
+            status_code=200,
+            headers={"Content-Type": "text/plain; charset=utf-8"},
+            body=response,
+        )
+
+
+class SequenceTransport(FixtureTransport):
+    def __init__(self, responses: list[HttpResponse]):
+        super().__init__({})
+        self.responses = responses
+
+    def request(
+        self,
+        method: str,
+        url: str,
+        *,
+        headers: dict[str, str],
+        timeout: float,
+    ) -> HttpResponse:
+        self.calls.append(
+            {
+                "method": method,
+                "url": url,
+                "headers": dict(headers),
+                "timeout": timeout,
+            }
+        )
+        return self.responses.pop(0)
+
+
+def assert_discovered_item(item: DiscoveredItem, source_id: str) -> None:
+    assert isinstance(item, DiscoveredItem)
+    assert item.source_id == source_id
+    assert item.native_id
+    assert item.url
+    assert item.title
+    assert isinstance(item.metadata, dict)
+
+
+def assert_raw_document(document: RawDocument, source_id: str) -> None:
+    assert isinstance(document, RawDocument)
+    assert document.source_id == source_id
+    assert document.native_id
+    assert document.canonical_url
+    assert document.title
+    assert document.body
+    assert document.content_type
+    assert isinstance(document.metadata, dict)
+
+
+def test_rss_article_discovers_and_fetches_fixture_articles_with_validators():
+    feed_url = "https://news.example.test/feed.xml"
+    article_url = "https://news.example.test/articles/one"
+    transport = FixtureTransport(
+        {
+            feed_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "application/rss+xml",
+                    "ETag": '"feed-v1"',
+                    "Last-Modified": "Tue, 15 Sep 2026 10:00:00 GMT",
+                },
+                body=fixture_bytes("rss.xml"),
+            ),
+            article_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/html; charset=utf-8"},
+                body=fixture_bytes("rss-article-one.html"),
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "rss_article",
+        {
+            "source_id": "source.rss.example",
+            "feed_url": feed_url,
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert isinstance(page, DiscoveryPage)
+    assert [item.native_id for item in page.items] == ["article-one", "article-two"]
+    assert page.cursor.etag == '"feed-v1"'
+    assert page.cursor.last_modified == "Tue, 15 Sep 2026 10:00:00 GMT"
+    assert page.cursor.token == "feed-v1"
+    assert page.items[0].url == article_url
+    assert_discovered_item(page.items[0], "source.rss.example")
+
+    document = connector.fetch(page.items[0])
+
+    assert_raw_document(document, "source.rss.example")
+    assert document.body.startswith("<article>")
+    assert document.native_id == "article-one"
+    assert document.content_type == "text/html"
+
+
+def test_rss_alias_has_the_same_fixture_behavior_as_rss_article():
+    feed_url = "https://news.example.test/feed.xml"
+    transport = FixtureTransport(
+        {
+            feed_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "application/rss+xml"},
+                body=fixture_bytes("rss.xml"),
+            )
+        }
+    )
+
+    connector = ConnectorFactory.create(
+        "rss",
+        {"source_id": "source.rss.alias", "feed_url": feed_url, "transport": transport},
+    )
+
+    page = connector.discover(Cursor())
+
+    assert [item.native_id for item in page.items] == ["article-one", "article-two"]
+
+
+def test_rss_discovery_sends_conditional_request_headers_and_handles_not_modified():
+    feed_url = "https://news.example.test/feed.xml"
+    transport = SequenceTransport(
+        [
+            HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "application/rss+xml",
+                    "ETag": '"feed-v1"',
+                    "Last-Modified": "Tue, 15 Sep 2026 10:00:00 GMT",
+                },
+                body=fixture_bytes("rss.xml"),
+            ),
+            HttpResponse(
+                status_code=304,
+                headers={
+                    "ETag": '"feed-v1"',
+                    "Last-Modified": "Tue, 15 Sep 2026 10:00:00 GMT",
+                },
+                body=b"",
+            ),
+        ]
+    )
+    connector = ConnectorFactory.create(
+        "rss_article",
+        {"source_id": "source.rss.conditional", "feed_url": feed_url, "transport": transport},
+    )
+
+    first_page = connector.discover(Cursor())
+    second_page = connector.discover(first_page.cursor)
+
+    assert len(second_page.items) == 0
+    assert second_page.metadata["not_modified"] is True
+    assert transport.calls[1]["headers"]["If-None-Match"] == '"feed-v1"'
+    assert (
+        transport.calls[1]["headers"]["If-Modified-Since"]
+        == "Tue, 15 Sep 2026 10:00:00 GMT"
+    )
+
+
+def test_llms_txt_discovers_markdown_links_and_fetches_one():
+    llms_url = "https://docs.example.test/llms.txt"
+    guide_url = "https://docs.example.test/guide/getting-started.md"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "text/plain; charset=utf-8",
+                    "ETag": '"llms-v1"',
+                },
+                body=fixture_bytes("llms.txt"),
+            ),
+            guide_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/markdown; charset=utf-8"},
+                body=fixture_bytes("llms-getting-started.md"),
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {"source_id": "source.llms.example", "url": llms_url, "transport": transport},
+    )
+
+    page = connector.discover(Cursor())
+    document = connector.fetch(page.items[0])
+
+    assert [item.title for item in page.items] == ["Getting started", "API reference"]
+    assert page.cursor.etag == '"llms-v1"'
+    assert_discovered_item(page.items[0], "source.llms.example")
+    assert_raw_document(document, "source.llms.example")
+    assert document.content_type == "text/markdown"
+    assert "install the example package" in document.body
+
+
+def test_github_tree_discovers_markdown_blobs_and_fetches_raw_content():
+    tree_url = "https://api.github.test/repos/example/docs/git/trees/main?recursive=1"
+    raw_url = "https://raw.github.test/example/docs/main/README.md"
+    transport = FixtureTransport(
+        {
+            tree_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "application/json",
+                    "ETag": '"tree-v1"',
+                    "Last-Modified": "Tue, 15 Sep 2026 11:00:00 GMT",
+                },
+                body=fixture_text("github-tree.json"),
+            ),
+            raw_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/markdown"},
+                body=fixture_bytes("github-readme.md"),
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "github_tree",
+        {
+            "source_id": "source.github.example",
+            "tree_url": tree_url,
+            "repo": "example/docs",
+            "ref": "main",
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+    document = connector.fetch(page.items[0])
+
+    assert [item.native_id for item in page.items] == ["blob-readme-v1", "blob-guide-v1"]
+    assert page.cursor.token == "tree-sha-v1"
+    assert page.cursor.etag == '"tree-v1"'
+    assert page.cursor.last_modified == "Tue, 15 Sep 2026 11:00:00 GMT"
+    assert page.items[0].url == raw_url
+    assert_raw_document(document, "source.github.example")
+    assert document.native_id == "blob-readme-v1"
+    assert "Example project" in document.body
+
+
+def test_deepwiki_discovers_linked_pages_and_fetches_page_text():
+    root_url = "https://deepwiki.example.test/example/project"
+    page_url = "https://deepwiki.example.test/example/project/wiki/Overview"
+    transport = FixtureTransport(
+        {
+            root_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "text/plain; charset=utf-8",
+                    "ETag": '"wiki-v1"',
+                },
+                body=fixture_bytes("deepwiki-response.txt"),
+            ),
+            page_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/markdown"},
+                body=fixture_bytes("deepwiki-overview.md"),
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "deepwiki",
+        {"source_id": "source.deepwiki.example", "url": root_url, "transport": transport},
+    )
+
+    page = connector.discover(Cursor())
+    document = connector.fetch(page.items[0])
+
+    assert [item.title for item in page.items] == ["Overview", "Architecture"]
+    assert page.cursor.etag == '"wiki-v1"'
+    assert_discovered_item(page.items[0], "source.deepwiki.example")
+    assert_raw_document(document, "source.deepwiki.example")
+    assert document.content_type == "text/markdown"
+    assert "wiki overview" in document.body
+
+
+def test_local_import_discovers_fixture_files_with_stable_manifest_cursor():
+    root = FIXTURE_ROOT / "local-import"
+    connector = ConnectorFactory.create(
+        "local_import",
+        {"source_id": "source.local.example", "root": root},
+    )
+
+    first_page = connector.discover(Cursor())
+    second_page = connector.discover(first_page.cursor)
+    document = connector.fetch(first_page.items[0])
+
+    assert [item.native_id for item in first_page.items] == ["guide.md", "notes.txt"]
+    assert first_page.cursor.token
+    assert second_page.items == []
+    assert second_page.metadata["unchanged"] is True
+    assert_raw_document(document, "source.local.example")
+    assert document.url == "local://source.local.example/guide.md"
+    assert document.content_type == "text/markdown"
+
+
+def test_knowledge_source_alias_uses_local_import_without_network():
+    connector = ConnectorFactory.create(
+        "knowledge_source",
+        {
+            "source_id": "source.knowledge.example",
+            "root": FIXTURE_ROOT / "local-import",
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert [item.native_id for item in page.items] == ["guide.md", "notes.txt"]
+    assert connector.healthcheck().network is False
+
+
+def test_knowledge_source_alias_infers_llms_from_generic_url():
+    llms_url = "https://docs.example.test/llms.txt"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/plain"},
+                body=fixture_bytes("llms.txt"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "knowledge_source",
+        {
+            "source_id": "source.knowledge.llms",
+            "url": llms_url,
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert [item.title for item in page.items] == ["Getting started", "API reference"]
+
+
+@pytest.mark.parametrize("adapter", REGISTERED_ADAPTERS)
+def test_factory_explicitly_covers_every_registered_source_adapter(adapter: str):
+    assert adapter in ConnectorFactory.supported_adapters()
+    config: dict[str, Any] = {"source_id": f"source.{adapter}"}
+    if adapter in {"rss", "rss_article"}:
+        config["feed_url"] = "https://news.example.test/feed.xml"
+    elif adapter == "llms_txt":
+        config["url"] = "https://docs.example.test/llms.txt"
+    elif adapter == "github_tree":
+        config["tree_url"] = (
+            "https://api.github.test/repos/example/docs/git/trees/main?recursive=1"
+        )
+    elif adapter == "deepwiki":
+        config["url"] = "https://deepwiki.example.test/example/project"
+    elif adapter in {"local_import", "knowledge_source"}:
+        config["root"] = FIXTURE_ROOT / "local-import"
+    connector = ConnectorFactory.create(adapter, config)
+    assert connector.adapter_name == adapter
+
+
+@pytest.mark.parametrize("adapter", NON_FETCHING_ADAPTERS)
+def test_non_fetching_aliases_are_explicit_non_network_connectors(adapter: str):
+    connector = ConnectorFactory.create(
+        adapter,
+        {"source_id": f"source.{adapter}"},
+    )
+
+    health = connector.healthcheck()
+
+    assert health.status == "unsupported"
+    assert health.network is False
+    assert adapter in health.message
+    with pytest.raises(UnsupportedConnectorError, match=adapter):
+        connector.discover(Cursor())
+
+
+def test_connector_http_behavior_is_bounded_and_retries_retry_after_fixture_response():
+    llms_url = "https://docs.example.test/llms.txt"
+    sleeps: list[float] = []
+    transport = SequenceTransport(
+        [
+            HttpResponse(
+                status_code=429,
+                headers={"Retry-After": "0"},
+                body=b"rate limited",
+            ),
+            HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/plain"},
+                body=fixture_bytes("llms.txt"),
+            ),
+        ]
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "source.llms.retry",
+            "url": llms_url,
+            "transport": transport,
+            "max_retries": 1,
+            "sleep": sleeps.append,
+            "max_response_bytes": 4096,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert len(page.items) == 2
+    assert sleeps == [0.0]
+    assert len(transport.calls) == 2
+    assert transport.calls[0]["timeout"] > 0
+
+
+def test_connector_rejects_oversized_fixture_response_and_bad_content_type():
+    llms_url = "https://docs.example.test/llms.txt"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "application/octet-stream"},
+                body=fixture_bytes("llms.txt"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "source.llms.safety",
+            "url": llms_url,
+            "transport": transport,
+            "max_response_bytes": 8,
+        },
+    )
+
+    with pytest.raises(ValueError, match="content type|response size"):
+        connector.discover(Cursor())
+
+
+def test_http_errors_redact_query_values_from_fixture_failure_messages():
+    secret_url = "https://docs.example.test/llms.txt?access_token=fixture-secret"
+    transport = FixtureTransport(
+        {
+            secret_url: HttpResponse(
+                status_code=503,
+                headers={"Content-Type": "text/plain"},
+                body=fixture_bytes("llms.txt"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "source.llms.redacted",
+            "url": secret_url,
+            "transport": transport,
+            "max_retries": 0,
+        },
+    )
+
+    with pytest.raises(ConnectorError) as error:
+        connector.discover(Cursor())
+
+    assert "fixture-secret" not in str(error.value)
+    assert "access_token" not in str(error.value)

@@ -1,0 +1,16 @@
+{
+  "adapters": [
+    {"adapter": "rss", "mode": "fetch", "fixture": "rss.xml"},
+    {"adapter": "rss_article", "mode": "fetch", "fixture": "rss.xml"},
+    {"adapter": "llms_txt", "mode": "fetch", "fixture": "llms.txt"},
+    {"adapter": "github_tree", "mode": "fetch", "fixture": "github-tree.json"},
+    {"adapter": "deepwiki", "mode": "fetch", "fixture": "deepwiki-response.txt"},
+    {"adapter": "local_import", "mode": "fetch", "fixture": "local-import"},
+    {"adapter": "knowledge_source", "mode": "fetch", "fixture": "local-import"},
+    {"adapter": "markdown_google", "mode": "unsupported", "fixture": "adapter-matrix.json"},
+    {"adapter": "coding_tools_catalog", "mode": "unsupported", "fixture": "adapter-matrix.json"},
+    {"adapter": "qdrant_editorial_catalog", "mode": "unsupported", "fixture": "adapter-matrix.json"},
+    {"adapter": "framework_hubs", "mode": "unsupported", "fixture": "adapter-matrix.json"},
+    {"adapter": "manual_editorial", "mode": "unsupported", "fixture": "adapter-matrix.json"}
+  ]
+}
