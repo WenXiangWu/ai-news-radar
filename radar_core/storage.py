@@ -145,6 +145,94 @@ class StateStore:
         result.update({"content_id": row["content_id"], "source_id": row["source_id"]})
         return result
 
+    def get_item(self, content_id: str) -> Optional[Dict[str, Any]]:
+        row = self._connection.execute(
+            """
+            SELECT content_id, source_id, payload_json
+            FROM content_items
+            WHERE content_id = ?
+            """,
+            (content_id,),
+        ).fetchone()
+        if row is None:
+            return None
+        result = _payload(json.loads(row["payload_json"]))
+        result.update({"content_id": row["content_id"], "source_id": row["source_id"]})
+        return result
+
+    def iter_items(self) -> list[Dict[str, Any]]:
+        rows = self._connection.execute(
+            """
+            SELECT content_id, source_id, payload_json
+            FROM content_items
+            ORDER BY content_id
+            """
+        ).fetchall()
+        items: list[Dict[str, Any]] = []
+        for row in rows:
+            payload = _payload(json.loads(row["payload_json"]))
+            payload.update({"content_id": row["content_id"], "source_id": row["source_id"]})
+            items.append(payload)
+        return items
+
+    def find_revisions_by_hash(self, source_hash: str) -> list[Dict[str, Any]]:
+        rows = self._connection.execute(
+            """
+            SELECT revision_id, content_id, source_hash, normalizer_version,
+                   status, payload_json
+            FROM revisions
+            WHERE source_hash = ?
+            ORDER BY revision_id
+            """,
+            (source_hash,),
+        ).fetchall()
+        revisions: list[Dict[str, Any]] = []
+        for row in rows:
+            payload = _payload(json.loads(row["payload_json"]))
+            payload.update(
+                {
+                    "revision_id": row["revision_id"],
+                    "content_id": row["content_id"],
+                    "source_hash": row["source_hash"],
+                    "normalizer_version": row["normalizer_version"],
+                    "status": row["status"],
+                }
+            )
+            revisions.append(payload)
+        return revisions
+
+    def find_revision(
+        self,
+        *,
+        content_id: str,
+        source_hash: str,
+        normalizer_version: str,
+    ) -> Optional[Dict[str, Any]]:
+        row = self._connection.execute(
+            """
+            SELECT revision_id, content_id, source_hash, normalizer_version,
+                   status, payload_json
+            FROM revisions
+            WHERE content_id = ?
+              AND source_hash = ?
+              AND normalizer_version = ?
+            """,
+            (content_id, source_hash, normalizer_version),
+        ).fetchone()
+        if row is None:
+            return None
+        payload = _payload(json.loads(row["payload_json"]))
+        payload.update(
+            {
+                "revision_id": row["revision_id"],
+                "content_id": row["content_id"],
+                "source_hash": row["source_hash"],
+                "normalizer_version": row["normalizer_version"],
+                "status": row["status"],
+            }
+        )
+        return payload
+
     def record_revision(self, payload: Dict[str, Any]) -> Dict[str, Any]:
         now = _now()
         existing = self._connection.execute(
