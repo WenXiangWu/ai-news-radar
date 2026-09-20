@@ -42,6 +42,9 @@ class StateStore:
             CREATE TABLE IF NOT EXISTS sources (
                 source_id TEXT PRIMARY KEY,
                 payload_json TEXT NOT NULL,
+                baseline_fingerprint TEXT,
+                staged_fingerprint TEXT,
+                staged_run_id TEXT,
                 created_at TEXT NOT NULL,
                 updated_at TEXT NOT NULL
             );
@@ -120,6 +123,19 @@ class StateStore:
             );
             """
         )
+        columns = {
+            str(row["name"])
+            for row in self._connection.execute("PRAGMA table_info(sources)").fetchall()
+        }
+        for name, definition in (
+            ("baseline_fingerprint", "TEXT"),
+            ("staged_fingerprint", "TEXT"),
+            ("staged_run_id", "TEXT"),
+        ):
+            if name not in columns:
+                self._connection.execute(
+                    f"ALTER TABLE sources ADD COLUMN {name} {definition}"
+                )
         self._connection.commit()
 
     def get_or_create_item(self, content_id: str, payload: Dict[str, Any]) -> Dict[str, Any]:
@@ -373,6 +389,87 @@ class StateStore:
             "cursor": _payload(json.loads(row["cursor_json"])),
             "run_id": row["run_id"],
         }
+
+    def get_source_registration(self, source_id: str) -> Optional[Dict[str, Any]]:
+        row = self._connection.execute(
+            """
+            SELECT source_id, payload_json, baseline_fingerprint,
+                   staged_fingerprint, staged_run_id
+            FROM sources
+            WHERE source_id = ?
+            """,
+            (source_id,),
+        ).fetchone()
+        if row is None:
+            return None
+        result = _payload(json.loads(row["payload_json"]))
+        result.update(
+            {
+                "source_id": row["source_id"],
+                "payload": _payload(json.loads(row["payload_json"])),
+                "baseline_fingerprint": row["baseline_fingerprint"],
+                "staged_fingerprint": row["staged_fingerprint"],
+                "staged_run_id": row["staged_run_id"],
+            }
+        )
+        return result
+
+    def stage_source_registration(
+        self,
+        source_id: str,
+        payload: Dict[str, Any],
+        fingerprint: str,
+        run_id: str,
+    ) -> None:
+        now = _now()
+        self._connection.execute(
+            """
+            INSERT INTO sources(
+                source_id, payload_json, baseline_fingerprint,
+                staged_fingerprint, staged_run_id, created_at, updated_at
+            )
+            VALUES (?, ?, NULL, ?, ?, ?, ?)
+            ON CONFLICT(source_id) DO UPDATE SET
+                payload_json = excluded.payload_json,
+                staged_fingerprint = excluded.staged_fingerprint,
+                staged_run_id = excluded.staged_run_id,
+                updated_at = excluded.updated_at
+            """,
+            (
+                source_id,
+                _json(payload),
+                fingerprint,
+                run_id,
+                now,
+                now,
+            ),
+        )
+        self._connection.commit()
+
+    def commit_source_registration(self, source_id: str, run_id: str) -> None:
+        status = self._connection.execute(
+            "SELECT status FROM runs WHERE run_id = ?",
+            (run_id,),
+        ).fetchone()
+        if status is None or status["status"] != "success":
+            raise ValueError("source registration can only commit for a successful run")
+        result = self._connection.execute(
+            """
+            UPDATE sources
+            SET baseline_fingerprint = staged_fingerprint,
+                staged_fingerprint = NULL,
+                staged_run_id = NULL,
+                updated_at = ?
+            WHERE source_id = ?
+              AND staged_run_id = ?
+              AND staged_fingerprint IS NOT NULL
+            """,
+            (_now(), source_id, run_id),
+        )
+        if result.rowcount != 1:
+            self._connection.rollback()
+            raise ValueError("source registration has no staged baseline")
+        self._connection.commit()
 
     def advance_cursor(self, source_id: str, cursor: Dict[str, Any], run_id: str) -> None:
         result = self._connection.execute(

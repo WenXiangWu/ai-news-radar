@@ -223,27 +223,18 @@ def _cursor_payload(source: SourceSpec, state: StateStore) -> dict[str, Any] | N
     return dict(cursor) if isinstance(cursor, dict) else {}
 
 
-def _persist_registration_cursor(
-    state: StateStore,
-    source: SourceSpec,
-    cursor: dict[str, Any],
-    run_id: str,
-) -> None:
-    state.advance_cursor(source.id, cursor, run_id)
-
-
 def _reconcile_registry(registry: Registry, state: StateStore) -> None:
     registry.reset_diagnostics()
     for source in sorted(registry.sources, key=lambda item: item.id):
-        cursor_row = state.get_cursor(source.id)
-        cursor = (
-            dict(cursor_row.get("cursor") or {})
-            if isinstance(cursor_row, dict)
-            else {}
+        registration = state.get_source_registration(source.id)
+        baseline = (
+            registration.get("baseline_fingerprint")
+            if isinstance(registration, dict)
+            else None
         )
-        if cursor_row is None:
+        if registration is None:
             registry.diagnostics["added_sources"].append(source.id)
-        elif cursor.get("registry_fingerprint") != source.registry_fingerprint:
+        elif baseline != source.registry_fingerprint:
             registry.diagnostics["changed_sources"].append(source.id)
         if not source.enabled or not bool(source.schedule.get("enabled", True)):
             registry.diagnostics["disabled_sources"].append(source.id)
@@ -259,14 +250,12 @@ def register_new_sources(
     _reconcile_registry(registry, state)
     added = list(registry.diagnostics["added_sources"])
     for source in sorted(registry.sources, key=lambda item: item.id):
-        existing = state.get_cursor(source.id)
-        current = (
-            dict(existing.get("cursor") or {})
-            if isinstance(existing, dict)
-            else {}
+        state.stage_source_registration(
+            source.id,
+            source.to_dict(),
+            source.registry_fingerprint,
+            run_id,
         )
-        current["registry_fingerprint"] = source.registry_fingerprint
-        _persist_registration_cursor(state, source, current, run_id)
     return added
 
 
@@ -294,11 +283,7 @@ def discover_due_operations(
 
         local_now = _localize(now, timezone_value)
         current_minute = local_now.replace(second=0, microsecond=0)
-        scheduled_at = (
-            current_minute
-            if _cron_matches(cron, current_minute)
-            else None
-        )
+        scheduled_at = _last_scheduled(cron, current_minute)
         next_scheduled = _next_scheduled(cron, current_minute)
         registry.diagnostics["next_run_at"][source.id] = (
             next_scheduled.isoformat() if next_scheduled is not None else None

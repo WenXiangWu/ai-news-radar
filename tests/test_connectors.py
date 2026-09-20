@@ -296,13 +296,14 @@ def test_github_tree_discovers_markdown_blobs_and_fetches_raw_content():
     page = connector.discover(Cursor())
     document = connector.fetch(page.items[0])
 
-    assert [item.native_id for item in page.items] == ["blob-readme-v1", "blob-guide-v1"]
+    assert [item.native_id for item in page.items] == ["README.md", "docs/guide.md"]
     assert page.cursor.token == "tree-sha-v1"
     assert page.cursor.etag == '"tree-v1"'
     assert page.cursor.last_modified == "Tue, 15 Sep 2026 11:00:00 GMT"
     assert page.items[0].url == raw_url
     assert_raw_document(document, "source.github.example")
-    assert document.native_id == "blob-readme-v1"
+    assert document.native_id == "README.md"
+    assert document.metadata["sha"] == "blob-readme-v1"
     assert "Example project" in document.body
 
 
@@ -340,6 +341,34 @@ def test_deepwiki_discovers_linked_pages_and_fetches_page_text():
     assert_raw_document(document, "source.deepwiki.example")
     assert document.content_type == "text/markdown"
     assert "wiki overview" in document.body
+
+
+def test_deepwiki_accepts_nested_module_source_configuration():
+    root_url = "https://deepwiki.example.test/example/project"
+    transport = FixtureTransport(
+        {
+            root_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/plain"},
+                body=fixture_bytes("deepwiki-response.txt"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "deepwiki",
+        {
+            "source": {"deepwiki": root_url, "github": "example/project"},
+            "task": {"source": {"github": "example/project"}},
+            "transport": transport,
+            "source_id": "framework.example",
+        },
+    )
+
+    assert connector.healthcheck().status == "healthy"
+    assert [item.title for item in connector.discover(Cursor()).items] == [
+        "Overview",
+        "Architecture",
+    ]
 
 
 def test_local_import_discovers_fixture_files_with_stable_manifest_cursor():
@@ -492,12 +521,121 @@ def test_connector_rejects_oversized_fixture_response_and_bad_content_type():
             "source_id": "source.llms.safety",
             "url": llms_url,
             "transport": transport,
-            "max_response_bytes": 8,
+            "max_response_bytes": 4096,
         },
     )
 
     with pytest.raises(ValueError, match="content type|response size"):
         connector.discover(Cursor())
+
+
+def test_connector_handles_headerless_http_response_without_attribute_error():
+    llms_url = "https://docs.example.test/llms.txt"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={},
+                body=fixture_bytes("llms.txt"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "source.llms.headerless",
+            "url": llms_url,
+            "transport": transport,
+        },
+    )
+
+    assert len(connector.discover(Cursor()).items) == 2
+
+
+def test_connector_rejects_non_http_scheme_before_transport():
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {"source_id": "source.file", "url": "file:///etc/hosts"},
+    )
+
+    with pytest.raises(ConnectorError, match="http"):
+        connector.discover(Cursor())
+
+
+def test_connector_error_redacts_userinfo_credentials():
+    secret_url = "https://user:fixture-secret@docs.example.test/llms.txt"
+    transport = FixtureTransport(
+        {
+            secret_url: HttpResponse(
+                status_code=503,
+                headers={"Content-Type": "text/plain"},
+                body=fixture_bytes("llms.txt"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "source.llms.userinfo",
+            "url": secret_url,
+            "transport": transport,
+            "max_retries": 0,
+        },
+    )
+
+    with pytest.raises(ConnectorError) as error:
+        connector.discover(Cursor())
+
+    assert "fixture-secret" not in str(error.value)
+    assert "user@" not in str(error.value)
+
+
+def test_local_import_rejects_oversized_file_before_reading_contents(tmp_path: Path):
+    path = tmp_path / "large.md"
+    path.write_bytes(b"x" * 128)
+    connector = ConnectorFactory.create(
+        "local_import",
+        {
+            "source_id": "source.local.large",
+            "root": tmp_path,
+            "max_file_bytes": 8,
+        },
+    )
+
+    with pytest.raises(ValueError, match="exceeds"):
+        connector.discover(Cursor())
+
+
+def test_registry_declared_adapters_have_fixture_matrix_entries():
+    from radar_core.contracts import load_registry_document
+
+    registry_root = Path(__file__).parent / "fixtures" / "actual-way-registry"
+    document = load_registry_document(registry_root)
+    declared = {
+        str(task.get("adapter"))
+        for module in document["modules"]
+        for task in module.get("tasks", [])
+        if task.get("adapter")
+    }
+    knowledge = json.loads(
+        (registry_root / "radar/registry/knowledge.json").read_text(encoding="utf-8")
+    )
+    for source in knowledge.get("sources", []):
+        declared.add(str(source.get("adapter")))
+        declared.update(
+            str(task.get("adapter"))
+            for task in source.get("tasks", [])
+            if task.get("adapter")
+        )
+    matrix = json.loads(
+        (FIXTURE_ROOT / "adapter-matrix.json").read_text(encoding="utf-8")
+    )
+    matrix_by_adapter = {item["adapter"]: item for item in matrix["adapters"]}
+
+    assert declared <= set(matrix_by_adapter)
+    for adapter in sorted(declared):
+        fixture = FIXTURE_ROOT / matrix_by_adapter[adapter]["fixture"]
+        assert fixture.exists()
 
 
 def test_http_errors_redact_query_values_from_fixture_failure_messages():

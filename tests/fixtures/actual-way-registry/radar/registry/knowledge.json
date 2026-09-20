@@ -1,0 +1,51 @@
+{
+  "schema": "radar-knowledge-registry/v1",
+  "sources": [
+    {
+      "id": "example-rss",
+      "module_id": "source.example.rss",
+      "adapter": "rss",
+      "enabled": false,
+      "tasks": [
+        {
+          "id": "task.source.example.rss.sync",
+          "kind": "news_sync",
+          "adapter": "rss",
+          "schedule": {
+            "enabled": true,
+            "timezone": "UTC",
+            "cron": "0 * * * *"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-knowledge",
+      "module_id": "knowledge.example.docs",
+      "adapter": "knowledge_source",
+      "enabled": false,
+      "tasks": [
+        {
+          "id": "task.knowledge.example.docs.sync",
+          "kind": "knowledge_sync",
+          "adapter": "knowledge_source",
+          "schedule": {
+            "enabled": true,
+            "timezone": "UTC",
+            "cron": "0 * * * *"
+          }
+        },
+        {
+          "id": "task.knowledge.example.docs.translation",
+          "kind": "translation",
+          "adapter": "markdown_google",
+          "schedule": {
+            "enabled": true,
+            "timezone": "UTC",
+            "cron": "30 * * * *"
+          }
+        }
+      ]
+    }
+  ]
+}

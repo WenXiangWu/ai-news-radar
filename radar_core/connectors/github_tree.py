@@ -98,7 +98,8 @@ class GitHubTreeConnector(HttpConnector):
                 if Path(path).suffix.lower() not in allowed_extensions:
                     continue
             item_url = self._entry_url(entry, path)
-            native_id = str(entry.get("sha") or path)
+            native_id = path
+            blob_sha = str(entry.get("sha") or "")
             items.append(
                 DiscoveredItem(
                     source_id=self.source_id,
@@ -112,7 +113,7 @@ class GitHubTreeConnector(HttpConnector):
                         "path": path,
                         "blob_url": str(entry.get("url") or ""),
                         "download_url": str(entry.get("download_url") or ""),
-                        "sha": native_id,
+                        "sha": blob_sha,
                     },
                 )
             )

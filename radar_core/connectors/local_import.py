@@ -154,7 +154,19 @@ class LocalImportConnector(BaseConnector):
 
     def _read(self, path: Path) -> str:
         self._assert_inside(path.resolve())
-        data = path.read_bytes()
+        try:
+            size = path.stat().st_size
+        except OSError as exc:
+            raise ValueError(f"local_import file cannot be read: {path}") from exc
+        if size > self.max_file_bytes:
+            raise ValueError(
+                f"local_import file exceeds {self.max_file_bytes} bytes"
+            )
+        try:
+            with path.open("rb") as handle:
+                data = handle.read(self.max_file_bytes + 1)
+        except OSError as exc:
+            raise ValueError(f"local_import file cannot be read: {path}") from exc
         if len(data) > self.max_file_bytes:
             raise ValueError(
                 f"local_import file exceeds {self.max_file_bytes} bytes"

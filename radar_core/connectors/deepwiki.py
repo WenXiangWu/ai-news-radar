@@ -30,12 +30,7 @@ class DeepWikiConnector(HttpConnector):
 
     def __init__(self, config: Mapping[str, Any] | None = None):
         super().__init__(config)
-        self.wiki_url = str(
-            self.config.get("deepwiki_url")
-            or self.config.get("url")
-            or self.config.get("locator")
-            or ""
-        ).strip()
+        self.wiki_url = _deepwiki_url(self.config)
         if not self.wiki_url:
             self._configuration_error = "requires deepwiki_url or url"
 
@@ -257,3 +252,53 @@ def _optional_text(value: Any) -> str | None:
         return None
     text = str(value).strip()
     return text or None
+
+
+def _deepwiki_url(config: Mapping[str, Any]) -> str:
+    candidates: list[Any] = [
+        config.get("deepwiki_url"),
+        config.get("url"),
+        config.get("locator"),
+    ]
+    for key in ("source", "task"):
+        nested = config.get(key)
+        if isinstance(nested, Mapping):
+            candidates.extend(
+                [
+                    nested.get("deepwiki"),
+                    nested.get("deepwiki_url"),
+                    nested.get("url"),
+                    nested.get("locator"),
+                ]
+            )
+            nested_source = nested.get("source")
+            if isinstance(nested_source, Mapping):
+                candidates.extend(
+                    [
+                        nested_source.get("deepwiki"),
+                        nested_source.get("deepwiki_url"),
+                        nested_source.get("url"),
+                        nested_source.get("locator"),
+                    ]
+                )
+
+    for candidate in candidates:
+        value = str(candidate or "").strip()
+        if value:
+            return value
+
+    github_candidates: list[Any] = [
+        config.get("github"),
+    ]
+    for key in ("source", "task"):
+        nested = config.get(key)
+        if isinstance(nested, Mapping):
+            github_candidates.append(nested.get("github"))
+            nested_source = nested.get("source")
+            if isinstance(nested_source, Mapping):
+                github_candidates.append(nested_source.get("github"))
+    for candidate in github_candidates:
+        repository = str(candidate or "").strip().strip("/")
+        if repository:
+            return f"https://deepwiki.com/{repository}"
+    return ""

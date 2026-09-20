@@ -169,6 +169,8 @@ class HttpResponse:
     @property
     def content_type(self) -> str:
         value = _header(self.headers, "Content-Type")
+        if not value:
+            return ""
         return value.split(";", 1)[0].strip().lower()
 
 
@@ -198,9 +200,11 @@ class UrllibTransport:
         headers: dict[str, str],
         timeout: float,
     ) -> HttpResponse:
+        _ensure_http_url(url)
         request = Request(url, headers=headers, method=method.upper())
         try:
             with urlopen(request, timeout=timeout) as response:
+                _ensure_http_url(response.geturl())
                 body = response.read(self.max_response_bytes + 1)
                 response_headers = {
                     str(key): str(value) for key, value in response.headers.items()
@@ -211,6 +215,7 @@ class UrllibTransport:
                     body=body,
                 )
         except HTTPError as exc:
+            _ensure_http_url(exc.geturl() or url)
             body = exc.read(self.max_response_bytes + 1)
             response_headers = {
                 str(key): str(value) for key, value in exc.headers.items()
@@ -306,6 +311,7 @@ class HttpConnector(BaseConnector):
         expected_content_types: Sequence[str] = (),
         extra_headers: Mapping[str, str] | None = None,
     ) -> HttpResponse:
+        _ensure_http_url(url)
         current_cursor = Cursor.coerce(cursor)
         headers = {
             "Accept": ", ".join(expected_content_types) or "*/*",
@@ -615,11 +621,27 @@ def _positive_float(value: Any, default: float) -> float:
 def _redact_url(url: str) -> str:
     try:
         parts = urlsplit(str(url))
+        hostname = parts.hostname
+        port = parts.port
     except ValueError:
         return "<invalid-url>"
-    if not parts.scheme or not parts.netloc:
+    if not parts.scheme or not hostname:
         return "<local-url>"
-    return f"{parts.scheme}://{parts.netloc}{parts.path or '/'}"
+    host = hostname
+    if ":" in host and not host.startswith("["):
+        host = f"[{host}]"
+    if port is not None:
+        host = f"{host}:{port}"
+    return f"{parts.scheme}://{host}{parts.path or '/'}"
+
+
+def _ensure_http_url(url: str) -> None:
+    try:
+        parts = urlsplit(str(url))
+    except ValueError as exc:
+        raise ConnectorError("connector URL is invalid") from exc
+    if parts.scheme.lower() not in {"http", "https"} or not parts.netloc:
+        raise ConnectorError("connector only supports http/https URLs")
 
 
 def content_type_for_path(path: str | Path) -> str:

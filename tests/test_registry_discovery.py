@@ -4,6 +4,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+import pytest
+
 from radar_core.discovery import (
     discover_due_operations,
     register_new_sources,
@@ -12,6 +14,7 @@ from radar_core.registry import (
     Registry,
     SourceSpec,
     load_framework_entities,
+    load_registry,
     load_sources,
     load_surfaces,
 )
@@ -55,6 +58,7 @@ def test_new_source_manifest_is_discovered_and_due_without_radar_code_changes(
     )
     existing_source = json.loads(existing_source_path.read_text(encoding="utf-8"))
     existing_source["schedule"]["cron"] = "0 23 * * *"
+    existing_source["enabled"] = False
     write_json(existing_source_path, existing_source)
     source_path = target / "radar/registry/sources/example.new-source.json"
     write_json(
@@ -91,8 +95,10 @@ def test_new_source_manifest_is_discovered_and_due_without_radar_code_changes(
     assert set(registered) == {
         "source.example.official-blog",
         "source.example.new-source",
+        "source.example.rss",
+        "source.knowledge.example.docs",
     }
-    assert state.get_cursor("source.example.new-source") is not None
+    assert state.get_source_registration("source.example.new-source") is not None
     assert [operation.source_id for operation in operations] == [
         "source.example.new-source"
     ]
@@ -109,6 +115,7 @@ def test_disabled_sources_are_visible_but_not_executable_and_source_schedule_win
     )
     existing_source = json.loads(existing_source_path.read_text(encoding="utf-8"))
     existing_source["schedule"]["cron"] = "0 23 * * *"
+    existing_source["enabled"] = False
     write_json(existing_source_path, existing_source)
     source_path = target / "radar/registry/sources/example.disabled.json"
     write_json(
@@ -154,7 +161,7 @@ def test_disabled_sources_are_visible_but_not_executable_and_source_schedule_win
     state.close()
 
 
-def test_due_requires_exact_localized_cron_minute_but_reports_next_run(
+def test_due_recovers_a_cron_window_after_scheduler_restart(
     tmp_path: Path,
 ):
     target = copy_fixture(tmp_path)
@@ -169,7 +176,9 @@ def test_due_requires_exact_localized_cron_minute_but_reports_next_run(
         state,
     )
 
-    assert operations == []
+    assert [operation.source_id for operation in operations] == [
+        "source.example.official-blog"
+    ]
     assert registry.diagnostics["next_run_at"]["source.example.official-blog"] == (
         "2026-09-21T04:17:00+08:00"
     )
@@ -204,6 +213,156 @@ def test_due_honors_last_scheduled_at_on_an_exact_cron_minute(tmp_path: Path):
         "2026-09-21T04:17:00+08:00"
     )
     state.close()
+
+
+def test_due_recovers_a_cron_window_when_radar_starts_a_minute_late(
+    tmp_path: Path,
+):
+    target = copy_fixture(tmp_path)
+    registry = make_registry(target)
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    state.record_run("run-register", {"status": "running"})
+    register_new_sources(registry, state, "run-register")
+
+    operations = discover_due_operations(
+        registry,
+        datetime(2026, 9, 19, 20, 18, tzinfo=timezone.utc),
+        state,
+    )
+
+    assert [operation.source_id for operation in operations] == [
+        "source.example.official-blog"
+    ]
+    assert operations[0].scheduled_at.isoformat() == (
+        "2026-09-20T04:17:00+08:00"
+    )
+    state.close()
+
+
+def test_registry_baseline_is_not_committed_until_source_succeeds(
+    tmp_path: Path,
+):
+    target = copy_fixture(tmp_path)
+    registry = make_registry(target)
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    state.record_run("run-register", {"status": "running"})
+    register_new_sources(registry, state, "run-register")
+
+    assert state.get_source_registration("source.example.official-blog") is not None
+    assert state.get_source_registration(
+        "source.example.official-blog"
+    )["baseline_fingerprint"] is None
+    assert state.count_rows("cursors") == 0
+
+    state.record_run("run-failed", {"status": "failed"})
+    state.stage_source_registration(
+        "source.example.official-blog",
+        registry.sources[0].to_dict(),
+        registry.sources[0].registry_fingerprint,
+        "run-failed",
+    )
+    assert state.get_source_registration(
+        "source.example.official-blog"
+    )["baseline_fingerprint"] is None
+    with pytest.raises(ValueError, match="successful run"):
+        state.commit_source_registration("source.example.official-blog", "run-failed")
+
+    state.record_run("run-success", {"status": "success"})
+    state.stage_source_registration(
+        "source.example.official-blog",
+        registry.sources[0].to_dict(),
+        registry.sources[0].registry_fingerprint,
+        "run-success",
+    )
+    state.commit_source_registration("source.example.official-blog", "run-success")
+
+    assert state.get_source_registration(
+        "source.example.official-blog"
+    )["baseline_fingerprint"] == registry.sources[0].registry_fingerprint
+    state.close()
+
+
+def test_disabled_source_is_registered_without_an_operational_cursor(
+    tmp_path: Path,
+):
+    target = copy_fixture(tmp_path)
+    source_path = target / "radar/registry/sources/example.disabled.json"
+    write_json(
+        source_path,
+        {
+            "schema": "radar-content-contract/v1/source",
+            "id": "source.example.disabled",
+            "kind": "source",
+            "source_type": "rss",
+            "name": "Disabled",
+            "locator": "https://example.com/disabled.xml",
+            "schedule": {
+                "enabled": True,
+                "timezone": "UTC",
+                "cron": "0 4 * * *",
+            },
+            "output_root": "frontend/sources/disabled",
+            "enabled": False,
+        },
+    )
+    registry = make_registry(target)
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    state.record_run("run-register", {"status": "running"})
+    register_new_sources(registry, state, "run-register")
+
+    assert state.get_source_registration("source.example.disabled") is not None
+    assert state.get_cursor("source.example.disabled") is None
+    state.close()
+
+
+def test_invalid_manifest_is_reported_without_blocking_valid_sources(
+    tmp_path: Path,
+):
+    target = copy_fixture(tmp_path)
+    write_json(
+        target / "radar/registry/sources/invalid.json",
+        {
+            "schema": "radar-content-contract/v1/source",
+            "id": "source.example.invalid",
+            "kind": "source",
+            "source_type": "rss",
+            "name": "Invalid",
+            "locator": "https://example.com/invalid.xml",
+            "schedule": {
+                "enabled": True,
+                "timezone": "Asia/Shanghai",
+                "cron": "not a cron",
+            },
+            "output_root": "frontend/sources/invalid",
+        },
+    )
+
+    registry = load_registry(target)
+
+    assert [source.id for source in registry.sources] == [
+        "source.example.official-blog",
+        "source.example.rss",
+        "source.knowledge.example.docs",
+    ]
+    assert any(
+        item["path"].endswith("radar/registry/sources/invalid.json")
+        for item in registry.diagnostics["invalid_declarations"]
+    )
+
+
+def test_duplicate_source_ids_are_rejected_instead_of_silently_dropped(
+    tmp_path: Path,
+):
+    target = copy_fixture(tmp_path)
+    duplicate = json.loads(
+        (target / "radar/registry/sources/example.official-blog.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    write_json(target / "radar/registry/sources/duplicate.json", duplicate)
+
+    with pytest.raises(ValueError, match="duplicate source"):
+        load_sources(target)
 
 
 def test_load_sources_includes_legacy_knowledge_registry(tmp_path: Path):

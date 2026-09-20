@@ -6,7 +6,17 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Mapping
 
-from .contracts import load_registry_document
+from .contracts import (
+    SUPPORTED_REGISTRY_SCHEMA,
+    _read_json,
+    _resolve_under,
+    _safe_relative,
+    _validate_way_index,
+    _validate_way_manifest,
+    _validate_way_module,
+    load_protocol,
+    load_registry_document,
+)
 
 
 def _fingerprint(payload: Mapping[str, Any]) -> str:
@@ -348,17 +358,102 @@ def _source_payloads(
     for payload in payloads:
         source_id = str(payload.get("id") or "")
         if source_id in seen:
-            continue
+            raise ValueError(f"duplicate source id: {source_id}")
         seen.add(source_id)
         unique.append(payload)
     return unique
 
 
 def _load_document(target_root: Path) -> dict[str, Any]:
-    document = load_registry_document(Path(target_root))
+    try:
+        document = load_registry_document(Path(target_root))
+    except ValueError:
+        document = _load_tolerant_way_document(Path(target_root))
     if not isinstance(document, dict):
         raise ValueError("Way registry document must be an object")
     return document
+
+
+def _load_tolerant_way_document(target_root: Path) -> dict[str, Any]:
+    root = Path(target_root)
+    protocol = load_protocol(root)
+    index_path = root / protocol["registry_index"]
+    index = _read_json(index_path)
+    if index.get("schema") != SUPPORTED_REGISTRY_SCHEMA:
+        raise ValueError("registry cannot be loaded tolerantly")
+    index_errors = _validate_way_index(index)
+    if index_errors:
+        raise ValueError("invalid Way registry index: " + "; ".join(index_errors))
+    registry_root = index_path.parent
+    schema_by_kind = {
+        "sources": "radar-content-contract/v1/source",
+        "entities": "radar-content-contract/v1/entity",
+        "surfaces": "radar-content-contract/v1/surface",
+        "editorial": "way-content-registry/v1/editorial",
+    }
+    manifests: dict[str, list[dict[str, Any]]] = {
+        kind: [] for kind in schema_by_kind
+    }
+    diagnostics: dict[str, Any] = {
+        "invalid_declarations": [],
+        "added_sources": [],
+        "changed_sources": [],
+        "disabled_sources": [],
+        "next_run_at": {},
+    }
+    ids: set[str] = set()
+    for kind, schema_name in schema_by_kind.items():
+        manifest_root = _resolve_under(
+            registry_root,
+            _safe_relative(index["manifest_roots"][kind], f"manifest_roots.{kind}"),
+            f"manifest_roots.{kind}",
+        )
+        for path in sorted(manifest_root.rglob("*.json")):
+            if path.is_symlink():
+                continue
+            payload = _read_json(path)
+            errors = _validate_way_manifest(payload, kind)
+            if errors:
+                diagnostics["invalid_declarations"].append(
+                    {
+                        "path": str(path.relative_to(root).as_posix()),
+                        "errors": errors,
+                    }
+                )
+                continue
+            identifier = str(payload["id"])
+            if identifier in ids:
+                raise ValueError(f"duplicate {kind[:-1]} id: {identifier}")
+            ids.add(identifier)
+            manifests[kind].append(payload)
+
+    modules: list[dict[str, Any]] = []
+    task_ids: set[str] = set()
+    for reference in index.get("modules") or []:
+        relative = _safe_relative(reference["manifest"], "module.manifest")
+        path = _resolve_under(registry_root, relative, "module.manifest")
+        payload = _read_json(path)
+        errors = _validate_way_module(
+            payload,
+            expected_id=str(reference["id"]),
+            task_ids=task_ids,
+        )
+        if errors:
+            diagnostics["invalid_declarations"].append(
+                {
+                    "path": str(path.relative_to(root).as_posix()),
+                    "errors": errors,
+                }
+            )
+            continue
+        modules.append({**payload, "manifest": relative})
+
+    normalized = dict(index)
+    normalized["manifests"] = manifests
+    normalized["modules"] = modules
+    normalized["declarations"] = []
+    normalized["_diagnostics"] = diagnostics
+    return normalized
 
 
 def load_sources(target_root: Path) -> list[SourceSpec]:
@@ -408,6 +503,7 @@ def load_registry(target_root: Path) -> Registry:
             SurfaceSpec.from_payload(payload)
             for payload in _manifest_payloads(document, "surfaces")
         ],
+        diagnostics=document.get("_diagnostics") or {},
     )
 
 
