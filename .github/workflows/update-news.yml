@@ -158,10 +158,6 @@ jobs:
           GITEE_REPO: ${{ vars.GITEE_REPO }}
           GITEE_BRANCH: ${{ vars.GITEE_BRANCH }}
           GITEE_DATA_PATH: ${{ vars.GITEE_DATA_PATH }}
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
-          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
-          TRANSLATE_USE_DEEPSEEK: ${{ vars.TRANSLATE_USE_DEEPSEEK }}
           KNOWLEDGE_MAX_NEW: ${{ vars.KNOWLEDGE_MAX_NEW }}
           KNOWLEDGE_MAX_NEW_TOTAL: ${{ vars.KNOWLEDGE_MAX_NEW_TOTAL }}
           KNOWLEDGE_SOURCES: ${{ vars.KNOWLEDGE_SOURCES }}
@@ -176,25 +172,60 @@ jobs:
           rm -rf "$work"
           git clone --depth 1 --branch "$branch" \
             "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" "$work"
-          ks_report=/tmp/knowledge-job-report.json
-          rm -f "$ks_report"
-          if [ -d "$work/frontend/sources" ]; then
+          state_path="$work/$dest/registry-state.json"
+          registry_report=/tmp/radar-registry-report.json
+          task_report=/tmp/radar-task-report.json
+          ks_report=""
+          rm -f "$registry_report" "$task_report"
+          if [ -f "$work/radar/protocol.json" ] && [ -f "$work/radar/registry/index.json" ]; then
+            python scripts/radar_registry.py \
+              --target-root "$work" \
+              --state "$state_path" \
+              --out "$registry_report" \
+              || echo "::warning::Radar registry reconciliation failed; snapshot still publishes"
+            python scripts/run_registered_tasks.py \
+              --target-root "$work" \
+              --state "$state_path" \
+              --report "$task_report" \
+              || echo "::warning::registered Radar task execution had failures; snapshot still publishes"
+          else
+            echo "::warning::way-to-agentic Radar registry not published yet; using legacy knowledge sync"
+            ks_report=/tmp/knowledge-job-report.json
             python scripts/sync_knowledge_sources.py \
               --sources-root "$work/frontend/sources" \
               --only "${KNOWLEDGE_SOURCES:-engineering,cookbook,openai_cookbook,langchain_blog}" \
               --max-new "${KNOWLEDGE_MAX_NEW:-2}" \
               --max-new-total "${KNOWLEDGE_MAX_NEW_TOTAL:-4}" \
               --report-out "$ks_report" \
-              || echo "::warning::knowledge source sync failed; radar snapshot still publishes"
-          else
-            echo "Skip knowledge-source sync (frontend/sources missing)"
+              || echo "::warning::legacy knowledge source sync failed; radar snapshot still publishes"
           fi
-          if [ -f "$ks_report" ]; then
-            python scripts/write_job_report.py --data-dir data --knowledge-json "$ks_report" --out data/job-report.json
+          if [ ! -f "$task_report" ]; then
+            printf '%s\n' '{"schema":"radar-task-report/v1","jobs":[]}' > "$task_report"
+          fi
+          if [ -f "$registry_report" ]; then
+            python scripts/write_export_manifest.py \
+              --registry-report "$registry_report" \
+              --out "$work/$dest/export-manifest.json" \
+              || echo "::warning::Radar export manifest generation failed"
+          fi
+          if [ -n "$ks_report" ] && [ -f "$ks_report" ]; then
+            python scripts/write_job_report.py \
+              --data-dir data \
+              --knowledge-json "$ks_report" \
+              --task-reports "$task_report" \
+              --out data/job-report.json
           else
-            python scripts/write_job_report.py --data-dir data --out data/job-report.json
+            python scripts/write_job_report.py \
+              --data-dir data \
+              --task-reports "$task_report" \
+              --registry-json "$registry_report" \
+              --reconciliation-json "$registry_report" \
+              --out data/job-report.json
           fi
           mkdir -p "$work/$dest"
+          if [ -f "$registry_report" ]; then
+            cp "$registry_report" "$work/$dest/registry-report.json"
+          fi
           # Slim files only — skip archive / latest-24h-all to keep the learning repo small.
           for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json job-report.json; do
             if [ -f "data/$f" ]; then
@@ -217,6 +248,9 @@ jobs:
           git -C "$work" add "$dest"
           if [ -d "$work/frontend/sources" ]; then
             git -C "$work" add frontend/sources
+          fi
+          if [ -d "$work/frontend/path/frameworks" ]; then
+            git -C "$work" add frontend/path/frameworks
           fi
           if git -C "$work" diff --cached --quiet; then
             echo "No radar snapshot changes for way-to-agentic"
