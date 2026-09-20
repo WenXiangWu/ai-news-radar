@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 import hashlib
+import json
 from pathlib import Path
-from typing import Union
+from typing import Any, Union
 
 
 BytesLike = Union[bytes, bytearray, memoryview]
@@ -14,6 +15,17 @@ def sha256_bytes(value: BytesLike) -> str:
 
 def sha256_text(value: str) -> str:
     return sha256_bytes(str(value).encode("utf-8"))
+
+
+def sha256_structured(value: Any) -> str:
+    encoded = json.dumps(
+        value,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+        allow_nan=False,
+    )
+    return sha256_text(encoded)
 
 
 def sha256_file(path: Path, chunk_size: int = 1024 * 1024) -> str:

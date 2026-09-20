@@ -12,9 +12,9 @@ from radar_core.ids import (
 def test_canonicalize_url_removes_tracking_and_fragment_but_keeps_content_query():
     assert (
         canonicalize_url(
-            " HTTPS://Example.COM:443/docs?page=2&utm_source=news#section "
+            " HTTPS://Example.COM:443/docs?tag=second&utm_source=news&tag=first#section "
         )
-        == "https://example.com/docs?page=2"
+        == "https://example.com/docs?tag=second&tag=first"
     )
 
 
@@ -69,3 +69,12 @@ def test_revision_and_translation_keys_change_when_inputs_change():
     assert first_revision.startswith("revision_")
     assert first_key.startswith("translation_")
     assert sha256_text("paragraph one") != sha256_text("paragraph two")
+
+
+def test_revision_and_translation_inputs_are_structured_not_delimited_strings():
+    assert revision_id_for("a\nb", "normalizer/v1") != revision_id_for(
+        "b", "normalizer/v1\na"
+    )
+    assert translation_key("content", "revision\nlocale", "profile", "policy", "") != translation_key(
+        "content", "revision", "locale\nprofile", "policy", ""
+    )

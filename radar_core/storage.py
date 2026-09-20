@@ -6,6 +6,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Optional
 
+from .ids import translation_key
+
 
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -145,6 +147,24 @@ class StateStore:
 
     def record_revision(self, payload: Dict[str, Any]) -> Dict[str, Any]:
         now = _now()
+        existing = self._connection.execute(
+            """
+            SELECT content_id, source_hash, normalizer_version
+            FROM revisions
+            WHERE revision_id = ?
+            """,
+            (payload["revision_id"],),
+        ).fetchone()
+        if existing is not None:
+            identity = {
+                "content_id": payload["content_id"],
+                "source_hash": payload["source_hash"],
+                "normalizer_version": payload["normalizer_version"],
+            }
+            if any(existing[field] != value for field, value in identity.items()):
+                raise ValueError(
+                    f"revision identity conflicts for {payload['revision_id']}"
+                )
         self._connection.execute(
             """
             INSERT INTO revisions(
@@ -204,6 +224,14 @@ class StateStore:
 
     def upsert_translation(self, payload: Dict[str, Any]) -> None:
         now = _now()
+        normalized = dict(payload)
+        normalized["translation_key"] = translation_key(
+            normalized["content_id"],
+            normalized["revision_id"],
+            normalized["target_locale"],
+            normalized["translation_profile"],
+            normalized["policy_version"],
+        )
         self._connection.execute(
             """
             INSERT INTO translations(
@@ -212,7 +240,14 @@ class StateStore:
                 output_hash, status, payload_json, created_at, updated_at
             )
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ON CONFLICT(translation_key) DO UPDATE SET
+            ON CONFLICT(
+                content_id,
+                revision_id,
+                target_locale,
+                translation_profile,
+                policy_version
+            ) DO UPDATE SET
+                translation_key = excluded.translation_key,
                 provider = excluded.provider,
                 source_hash = excluded.source_hash,
                 output_hash = excluded.output_hash,
@@ -221,17 +256,17 @@ class StateStore:
                 updated_at = excluded.updated_at
             """,
             (
-                payload["translation_key"],
-                payload["content_id"],
-                payload["revision_id"],
-                payload["target_locale"],
-                payload["translation_profile"],
-                payload["policy_version"],
-                payload.get("provider"),
-                payload.get("source_hash"),
-                payload.get("output_hash"),
-                payload.get("status", "new"),
-                _json(payload),
+                normalized["translation_key"],
+                normalized["content_id"],
+                normalized["revision_id"],
+                normalized["target_locale"],
+                normalized["translation_profile"],
+                normalized["policy_version"],
+                normalized.get("provider"),
+                normalized.get("source_hash"),
+                normalized.get("output_hash"),
+                normalized.get("status", "new"),
+                _json(normalized),
                 now,
                 now,
             ),
@@ -252,17 +287,23 @@ class StateStore:
         }
 
     def advance_cursor(self, source_id: str, cursor: Dict[str, Any], run_id: str) -> None:
-        self._connection.execute(
+        result = self._connection.execute(
             """
             INSERT INTO cursors(source_id, cursor_json, run_id, updated_at)
-            VALUES (?, ?, ?, ?)
+            SELECT ?, ?, ?, ?
+            WHERE EXISTS (
+                SELECT 1 FROM runs WHERE run_id = ? AND status = 'success'
+            )
             ON CONFLICT(source_id) DO UPDATE SET
                 cursor_json = excluded.cursor_json,
                 run_id = excluded.run_id,
                 updated_at = excluded.updated_at
             """,
-            (source_id, _json(cursor), run_id, _now()),
+            (source_id, _json(cursor), run_id, _now(), run_id),
         )
+        if result.rowcount != 1:
+            self._connection.rollback()
+            raise ValueError("cursor can only advance for a successful run")
         self._connection.commit()
 
     def record_run(self, run_id: str, payload: Dict[str, Any]) -> None:

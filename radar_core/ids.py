@@ -4,7 +4,7 @@ import re
 import unicodedata
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
-from .hashing import sha256_text
+from .hashing import sha256_structured, sha256_text
 
 
 _TRACKING_KEYS = {
@@ -42,7 +42,6 @@ def canonicalize_url(url: str) -> str:
         if key.lower() not in _TRACKING_KEYS
         and not key.lower().startswith(_TRACKING_PREFIXES)
     ]
-    query.sort()
     path = parts.path or "/"
     if path != "/":
         path = path.rstrip("/")
@@ -83,8 +82,8 @@ def content_id_for(
 
 
 def revision_id_for(normalized_text: str, normalizer_version: str) -> str:
-    return "revision_" + sha256_text(
-        f"{normalizer_version}\n{normalized_text}"
+    return "revision_" + sha256_structured(
+        [normalizer_version, normalized_text]
     )[:32]
 
 
@@ -95,13 +94,6 @@ def translation_key(
     profile: str,
     policy: str,
 ) -> str:
-    raw = "\n".join(
-        (
-            str(content_id),
-            str(revision_id),
-            str(locale),
-            str(profile),
-            str(policy),
-        )
-    )
-    return "translation_" + sha256_text(raw)[:32]
+    return "translation_" + sha256_structured(
+        [str(content_id), str(revision_id), str(locale), str(profile), str(policy)]
+    )[:32]
