@@ -1,0 +1,20 @@
+{
+  "schema": "radar-registry/v1",
+  "updated_at": "2026-09-20",
+  "defaults": {
+    "timezone": "Asia/Shanghai",
+    "cron": "17 * * * *",
+    "retry_count": 2,
+    "max_runtime_minutes": 30,
+    "max_new_items": 20
+  },
+  "managed_roots": [
+    "frontend/radar-content"
+  ],
+  "modules": [
+    {
+      "id": "source.example",
+      "manifest": "modules/source.example.json"
+    }
+  ]
+}

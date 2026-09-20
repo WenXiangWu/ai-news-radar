@@ -1,0 +1,27 @@
+{
+  "id": "source.example",
+  "kind": "source",
+  "enabled": true,
+  "display": {
+    "name": "Example source",
+    "target_path": "frontend/radar-content/example"
+  },
+  "tasks": [
+    {
+      "id": "task.source.example.sync",
+      "kind": "source_sync",
+      "adapter": "rss_article",
+      "output": {
+        "path": "frontend/radar-content/example"
+      },
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_new_items": 20
+      }
+    }
+  ]
+}
