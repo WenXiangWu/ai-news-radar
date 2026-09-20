@@ -1,0 +1,15 @@
+{
+  "protocol": "way-to-agentic-radar",
+  "version": "1.0",
+  "registry_contract": "way-content-registry/v1",
+  "content_contract": "radar-content-contract/v1",
+  "export_contract": "radar-content-export/v1",
+  "run_report_contract": "radar-run-report/v1",
+  "contract_root": "radar/contracts/v1",
+  "registry_mode": "declarative",
+  "registry_root": "radar/registry",
+  "registry_index": "radar/registry/index.json",
+  "job_report_path": "frontend/frontier/radar-data/job-report.json",
+  "export_manifest_path": "frontend/frontier/radar-data/export-manifest.json",
+  "state_path": "frontend/frontier/radar-data/registry-state.json"
+}

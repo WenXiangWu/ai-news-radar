@@ -14,12 +14,13 @@ from radar_core.contracts import (
 
 
 FIXTURE_ROOT = Path(__file__).parent / "fixtures" / "way-registry"
+ACTUAL_WAY_FIXTURE_ROOT = Path(__file__).parent / "fixtures" / "actual-way-registry"
 
 
-def copy_fixture(tmp_path: Path) -> Path:
-    target = tmp_path / "way"
-    for source in FIXTURE_ROOT.rglob("*"):
-        destination = target / source.relative_to(FIXTURE_ROOT)
+def copy_fixture(tmp_path: Path, source_root: Path = FIXTURE_ROOT) -> Path:
+    target = tmp_path / source_root.name
+    for source in source_root.rglob("*"):
+        destination = target / source.relative_to(source_root)
         if source.is_dir():
             destination.mkdir(parents=True, exist_ok=True)
         else:
@@ -43,6 +44,33 @@ def test_load_protocol_and_registry_normalizes_contract_paths(tmp_path: Path):
     assert protocol["registry_index"] == "radar/registry/index.json"
     assert registry["schema"] == "radar-registry/v1"
     assert registry["modules"][0]["manifest"] == "modules/source.example.json"
+
+
+def test_load_actual_way_registry_returns_normalized_declarations(tmp_path: Path):
+    target = copy_fixture(tmp_path, ACTUAL_WAY_FIXTURE_ROOT)
+
+    registry = load_registry_document(target)
+
+    assert registry["schema"] == "way-content-registry/v1"
+    assert registry["manifests"]["sources"][0]["id"] == "source.example.official-blog"
+    declaration = registry["declarations"][0]
+    assert declaration["source_id"] == "source.example.official-blog"
+    assert declaration["entity_id"] == "framework.example"
+    assert declaration["surface_id"] == "surface.example-framework.docs"
+    assert declaration["schedule"]["cron"] == "17 4 * * *"
+    assert declaration["translation_profile"] == "prose/v1"
+    assert declaration["output"] == {"path": "frontend/path/frameworks/example"}
+
+
+def test_loader_validates_referenced_manifest_contents(tmp_path: Path):
+    target = copy_fixture(tmp_path)
+    manifest_path = target / "radar/registry/modules/source.example.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest["tasks"][0]["adapter"] = ""
+    write_json(manifest_path, manifest)
+
+    with pytest.raises(ValueError, match="adapter"):
+        load_registry_document(target)
 
 
 def test_load_protocol_rejects_missing_protocol(tmp_path: Path):
@@ -104,6 +132,35 @@ def test_registry_validation_rejects_malformed_cron_and_incomplete_task(tmp_path
     assert any("output" in error for error in errors)
 
 
+@pytest.mark.parametrize("cron", ["99 * * * *", "*/0 * * * *"])
+def test_registry_validation_rejects_out_of_range_cron(cron: str, tmp_path: Path):
+    target = copy_fixture(tmp_path)
+    registry = load_registry_document(target)
+    manifest_path = target / "radar/registry/modules/source.example.json"
+    module = json.loads(manifest_path.read_text(encoding="utf-8"))
+    module["tasks"][0]["schedule"]["cron"] = cron
+
+    errors = validate_contract_document(
+        {
+            "schema": "radar-registry/v1",
+            "managed_roots": registry["managed_roots"],
+            "modules": [module],
+        },
+        "radar-registry/v1",
+    )
+
+    assert any("cron" in error for error in errors)
+
+
+def test_load_protocol_normalizes_way_json_state_path(tmp_path: Path):
+    target = copy_fixture(tmp_path, ACTUAL_WAY_FIXTURE_ROOT)
+
+    protocol = load_protocol(target)
+
+    assert protocol["state_path"] == "var/radar/state.sqlite3"
+    assert protocol["way_state_path"] == "frontend/frontier/radar-data/registry-state.json"
+
+
 def test_runtime_config_prefers_explicit_environment_and_has_safe_defaults():
     config = RuntimeConfig.from_env(
         {
@@ -122,3 +179,9 @@ def test_runtime_config_prefers_explicit_environment_and_has_safe_defaults():
     assert config.target_locales == ("zh-CN", "en-US")
     assert config.dry_run is True
     assert config.http_timeout_seconds == 17
+
+
+def test_runtime_config_normalizes_non_sqlite_state_path():
+    config = RuntimeConfig.from_env({"RADAR_STATE_PATH": "var/radar/state.json"})
+
+    assert config.state_path == Path("var/radar/state.sqlite3")

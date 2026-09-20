@@ -1,0 +1,17 @@
+{
+  "schema": "way-content-registry/v1",
+  "version": "v1",
+  "updated_at": "2026-09-20",
+  "manifest_roots": {
+    "sources": "sources",
+    "entities": "entities",
+    "surfaces": "surfaces",
+    "editorial": "editorial"
+  },
+  "contracts": {
+    "source": "radar/contracts/v1/source.schema.json",
+    "entity": "radar/contracts/v1/entity.schema.json",
+    "surface": "radar/contracts/v1/surface.schema.json",
+    "editorial": "radar/contracts/v1/editorial.schema.json"
+  }
+}

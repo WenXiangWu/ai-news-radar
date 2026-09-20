@@ -26,6 +26,16 @@ def _locales(value: str | None) -> Tuple[str, ...]:
     return locales or ("zh-CN",)
 
 
+def _sqlite_state_path(value: str | None) -> Path:
+    raw = str(value or "var/radar/state.sqlite3").strip()
+    path = Path(raw)
+    if path.suffix.lower() in {".sqlite", ".sqlite3", ".db"}:
+        return path
+    if path.suffix:
+        return path.with_suffix(".sqlite3")
+    return Path(f"{path}.sqlite3")
+
+
 @dataclass(frozen=True)
 class RuntimeConfig:
     way_root: Path
@@ -44,7 +54,7 @@ class RuntimeConfig:
         values = dict(os.environ if env is None else env)
         return cls(
             way_root=Path(values.get("RADAR_WAY_ROOT", ".")),
-            state_path=Path(values.get("RADAR_STATE_PATH", "var/radar/state.sqlite3")),
+            state_path=_sqlite_state_path(values.get("RADAR_STATE_PATH")),
             export_root=Path(values.get("RADAR_EXPORT_ROOT", "var/radar/exports")),
             target_locales=_locales(values.get("RADAR_TARGET_LOCALES")),
             dry_run=_env_bool(values.get("RADAR_DRY_RUN")),

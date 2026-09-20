@@ -1,0 +1,20 @@
+{
+  "schema": "radar-content-contract/v1/source",
+  "id": "source.example.official-blog",
+  "kind": "source",
+  "source_type": "official_blog",
+  "name": "Example Official Blog",
+  "locator": "https://example.com/blog",
+  "schedule": {
+    "enabled": true,
+    "timezone": "Asia/Shanghai",
+    "cron": "17 4 * * *",
+    "retry_count": 2,
+    "max_runtime_minutes": 30,
+    "max_items": 20
+  },
+  "output_root": "frontend/sources/example",
+  "enabled": true,
+  "owner": "way-to-agentic",
+  "tags": ["example", "official"]
+}

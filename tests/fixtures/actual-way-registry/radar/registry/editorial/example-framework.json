@@ -1,0 +1,11 @@
+{
+  "schema": "way-content-registry/v1/editorial",
+  "id": "editorial.example-framework",
+  "kind": "editorial",
+  "entity_id": "framework.example",
+  "surface_id": "surface.example-framework.docs",
+  "title": "Example Framework 导读",
+  "route": "/frameworks/example",
+  "content_ids": ["content.example-framework.introduction"],
+  "enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "radar-content-contract/v1/entity",
+  "id": "framework.example",
+  "kind": "framework",
+  "name": "Example Framework",
+  "source_ids": ["source.example.official-blog"],
+  "default_surface_id": "surface.example-framework.docs",
+  "content_root": "frontend/path/frameworks/example",
+  "enabled": true,
+  "tags": ["example"]
+}
