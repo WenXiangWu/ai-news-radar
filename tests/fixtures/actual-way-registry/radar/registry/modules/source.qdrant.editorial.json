@@ -1,0 +1,40 @@
+{
+  "schema": "way-content-registry/v1/module",
+  "id": "source.qdrant.editorial",
+  "kind": "source",
+  "enabled": true,
+  "display": {
+    "name": "Qdrant Blog and Articles catalog",
+    "category": "vector-db",
+    "target_path": "frontend/sources/qdrant"
+  },
+  "source": {
+    "official": "https://qdrant.tech/llms.txt"
+  },
+  "bootstrap": {
+    "mode": "adopt_existing",
+    "baseline": "current_content"
+  },
+  "tasks": [
+    {
+      "id": "task.source.qdrant.editorial.catalog",
+      "kind": "index_sync",
+      "adapter": "qdrant_editorial_catalog",
+      "output": {
+        "path": "frontend/sources/qdrant"
+      },
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 4 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_new_items": 0
+      },
+      "incremental": {
+        "preserve_existing": true,
+        "revision_field": "catalog.generatedAt"
+      }
+    }
+  ]
+}

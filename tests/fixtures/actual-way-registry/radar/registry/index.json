@@ -12,6 +12,29 @@
     "source": "radar/contracts/v1/source.schema.json",
     "entity": "radar/contracts/v1/entity.schema.json",
     "surface": "radar/contracts/v1/surface.schema.json",
-    "editorial": "radar/contracts/v1/editorial.schema.json"
-  }
+    "editorial": "radar/contracts/v1/editorial.schema.json",
+    "module": "radar/contracts/v1/module.schema.json"
+  },
+  "modules": [
+    {
+      "id": "framework.deepseek-harness",
+      "manifest": "modules/framework.deepseek-harness.json"
+    },
+    {
+      "id": "framework.cordis",
+      "manifest": "modules/framework.cordis.json"
+    },
+    {
+      "id": "source.coding-tools",
+      "manifest": "modules/source.coding-tools.json"
+    },
+    {
+      "id": "source.qdrant.editorial",
+      "manifest": "modules/source.qdrant.editorial.json"
+    },
+    {
+      "id": "framework.app-platform.editorial",
+      "manifest": "modules/framework.app-platform.editorial.json"
+    }
+  ]
 }

@@ -1,0 +1,51 @@
+{
+  "schema": "way-content-registry/v1/module",
+  "id": "source.coding-tools",
+  "kind": "source",
+  "enabled": true,
+  "display": {
+    "name": "AI Coding Tools catalogs",
+    "category": "coding-tools",
+    "target_path": "frontend/path/coding-tools"
+  },
+  "source": {
+    "vendors": [
+      "cursor",
+      "codex"
+    ],
+    "catalogs": [
+      "https://cursor.com/changelog/rss.xml",
+      "https://developers.openai.com/codex/llms.txt"
+    ]
+  },
+  "bootstrap": {
+    "mode": "adopt_existing",
+    "baseline": "current_content"
+  },
+  "tasks": [
+    {
+      "id": "task.source.coding-tools.catalog",
+      "kind": "index_sync",
+      "adapter": "coding_tools_catalog",
+      "output": {
+        "paths": [
+          "frontend/sources/cursor",
+          "frontend/sources/openai-codex",
+          "frontend/path/coding-tools"
+        ]
+      },
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 4 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_new_items": 0
+      },
+      "incremental": {
+        "preserve_existing": true,
+        "revision_field": "catalog.generatedAt"
+      }
+    }
+  ]
+}

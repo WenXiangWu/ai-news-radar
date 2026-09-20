@@ -1,0 +1,96 @@
+{
+  "schema": "way-content-registry/v1/module",
+  "id": "framework.deepseek-harness",
+  "kind": "framework",
+  "enabled": true,
+  "display": {
+    "name": "DeepSeek Harness",
+    "category": "agent-runtime",
+    "target_path": "frontend/path/frameworks/02-agent-runtime/deepseek-harness"
+  },
+  "source": {
+    "github": "deepseek-ai/deepseek-harness",
+    "deepwiki": "https://deepwiki.com/deepseek-ai/deepseek-harness"
+  },
+  "bootstrap": {
+    "mode": "adopt_existing",
+    "baseline": "current_content"
+  },
+  "tasks": [
+    {
+      "id": "task.framework.deepseek-harness.wiki",
+      "kind": "wiki_sync",
+      "adapter": "deepwiki",
+      "source": {
+        "legacy_id": "deepseek-harness",
+        "github": "deepseek-ai/deepseek-harness"
+      },
+      "output": {
+        "path": "frontend/path/frameworks/02-agent-runtime/deepseek-harness/wiki"
+      },
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 3 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_new_items": 50
+      },
+      "incremental": {
+        "revision_field": "manifest.fetchedAt",
+        "preserve_existing": true
+      }
+    },
+    {
+      "id": "task.framework.deepseek-harness.translation",
+      "kind": "translation",
+      "adapter": "markdown_google",
+      "depends_on": [
+        "task.framework.deepseek-harness.wiki"
+      ],
+      "source": {
+        "stale_manifest": "frontend/path/frameworks/02-agent-runtime/deepseek-harness/wiki/_sync/stale.json",
+        "source_root": "frontend/path/frameworks/02-agent-runtime/deepseek-harness/wiki"
+      },
+      "output": {
+        "path": "frontend/path/frameworks/02-agent-runtime/deepseek-harness/wiki/zh"
+      },
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "47 3 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 45,
+        "max_new_items": 20
+      },
+      "incremental": {
+        "revision_field": "source_content_hash",
+        "preserve_code_blocks": true,
+        "keep_previous_on_error": true
+      }
+    },
+    {
+      "id": "task.framework.deepseek-harness.index",
+      "kind": "index_sync",
+      "adapter": "framework_hubs",
+      "depends_on": [
+        "task.framework.deepseek-harness.wiki",
+        "task.framework.deepseek-harness.translation"
+      ],
+      "output": {
+        "path": "frontend/path/frameworks/hubs.json"
+      },
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "57 3 * * *",
+        "retry_count": 1,
+        "max_runtime_minutes": 10,
+        "max_new_items": 0
+      },
+      "incremental": {
+        "preserve_existing": true
+      }
+    }
+  ]
+}

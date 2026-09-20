@@ -52,6 +52,17 @@ def test_load_actual_way_registry_returns_normalized_declarations(tmp_path: Path
     registry = load_registry_document(target)
 
     assert registry["schema"] == "way-content-registry/v1"
+    assert {
+        module["id"] for module in registry["modules"]
+    } == {
+        "framework.deepseek-harness",
+        "framework.cordis",
+        "source.coding-tools",
+        "source.qdrant.editorial",
+        "framework.app-platform.editorial",
+    }
+    assert len(registry["modules"]) == 5
+    assert registry["modules"] != registry["declarations"]
     assert registry["manifests"]["sources"][0]["id"] == "source.example.official-blog"
     declaration = registry["declarations"][0]
     assert declaration["source_id"] == "source.example.official-blog"
@@ -60,6 +71,60 @@ def test_load_actual_way_registry_returns_normalized_declarations(tmp_path: Path
     assert declaration["schedule"]["cron"] == "17 4 * * *"
     assert declaration["translation_profile"] == "prose/v1"
     assert declaration["output"] == {"path": "frontend/path/frameworks/example"}
+
+
+def test_loader_validates_actual_referenced_module_contents(tmp_path: Path):
+    target = copy_fixture(tmp_path, ACTUAL_WAY_FIXTURE_ROOT)
+    manifest_path = target / "radar/registry/modules/framework.cordis.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest["tasks"][0]["adapter"] = ""
+    write_json(manifest_path, manifest)
+
+    with pytest.raises(ValueError, match="adapter"):
+        load_registry_document(target)
+
+
+@pytest.mark.parametrize(
+    ("mutation", "message"),
+    [
+        ("output", "output"),
+        ("schedule", "cron"),
+        ("task_id", "duplicate task id"),
+    ],
+)
+def test_loader_validates_explicit_module_task_contract(
+    tmp_path: Path,
+    mutation: str,
+    message: str,
+):
+    target = copy_fixture(tmp_path, ACTUAL_WAY_FIXTURE_ROOT)
+    manifest_path = target / "radar/registry/modules/framework.cordis.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    if mutation == "output":
+        manifest["tasks"][0]["output"] = {}
+    elif mutation == "schedule":
+        manifest["tasks"][0]["schedule"]["cron"] = "99 * * * *"
+    else:
+        manifest["tasks"][1]["id"] = manifest["tasks"][0]["id"]
+    write_json(manifest_path, manifest)
+
+    with pytest.raises(ValueError, match=message):
+        load_registry_document(target)
+
+
+def test_loader_rejects_explicit_module_manifest_symlink_escape(tmp_path: Path):
+    target = copy_fixture(tmp_path, ACTUAL_WAY_FIXTURE_ROOT)
+    index_path = target / "radar/registry/index.json"
+    index = json.loads(index_path.read_text(encoding="utf-8"))
+    index["modules"][0]["manifest"] = "modules/escaped.json"
+    write_json(index_path, index)
+
+    outside = tmp_path / "outside-module.json"
+    write_json(outside, {"schema": "way-content-registry/v1/module"})
+    (target / "radar/registry/modules/escaped.json").symlink_to(outside)
+
+    with pytest.raises(ValueError, match="outside registry root"):
+        load_registry_document(target)
 
 
 def test_loader_validates_referenced_manifest_contents(tmp_path: Path):

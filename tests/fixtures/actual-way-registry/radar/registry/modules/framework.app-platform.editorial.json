@@ -1,0 +1,37 @@
+{
+  "schema": "way-content-registry/v1/module",
+  "id": "framework.app-platform.editorial",
+  "kind": "framework",
+  "enabled": true,
+  "display": {
+    "name": "App Platform editorial overview",
+    "category": "app-platform",
+    "target_path": "frontend/path/frameworks/14-app-platform"
+  },
+  "bootstrap": {
+    "mode": "adopt_existing",
+    "baseline": "current_content"
+  },
+  "tasks": [
+    {
+      "id": "task.framework.app-platform.editorial.ownership",
+      "kind": "index_sync",
+      "adapter": "manual_editorial",
+      "output": {
+        "path": "frontend/path/frameworks/14-app-platform"
+      },
+      "schedule": {
+        "enabled": false,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 5 * * *",
+        "retry_count": 0,
+        "max_runtime_minutes": 10,
+        "max_new_items": 0
+      },
+      "incremental": {
+        "preserve_existing": true,
+        "policy": "manual_review"
+      }
+    }
+  ]
+}

@@ -95,3 +95,57 @@ git diff --check
 The unfiltered full suite remains blocked during collection by the existing
 Python 3.9 incompatibility in `tests/test_source_overlap.py`, which imports
 `datetime.UTC`. No Way files were modified.
+
+## Re-review Fix: Preserve Explicit Way Modules
+
+The re-review found that the Way loader replaced the index's explicit
+`modules` references with the four-root normalized declarations. The fixture
+also did not include the five current Way module manifests, so this could
+silently drop DeepSeek Harness, Cordis, coding-tools, Qdrant, and App Platform
+from Radar discovery.
+
+The loader now:
+
+- loads and validates every `index.modules[].manifest` reference;
+- keeps those normalized module manifests in `registry["modules"]`;
+- keeps four-root source/entity/surface/editorial expansions separately in
+  `registry["declarations"]`;
+- validates module schema, referenced module ID, adapter, output, schedule,
+  and globally unique task IDs;
+- resolves every indexed root and explicit module manifest beneath the
+  registry root, rejecting symlink/path escapes.
+
+The actual Way registry fixture now contains all five referenced module
+manifests. The tests assert all five IDs are retained, mutate a module task to
+prove referenced content validation, cover output/cron/duplicate-task-ID
+validation, and verify a symlink escape is rejected.
+
+### Re-review TDD evidence
+
+Red:
+
+```text
+python3 -m pytest tests/test_contracts.py -q
+3 failed, 11 passed
+```
+
+The failures demonstrated dropped explicit modules, skipped referenced module
+validation, and accepted an escaping module symlink.
+
+Green:
+
+```text
+python3 -m pytest tests/test_contracts.py -q
+17 passed
+
+python3 -m pytest tests/test_contracts.py tests/test_radar_registry.py tests/test_registered_tasks.py tests/test_export_manifest.py -q
+32 passed, 1 warning
+
+python3 -m pytest -q --ignore=tests/test_source_overlap.py
+274 passed, 1 warning
+```
+
+The unfiltered suite still stops during collection at
+`tests/test_source_overlap.py` because the host Python 3.9 runtime does not
+provide `datetime.UTC`. The change is limited to this Radar repository; no
+Way files were modified.

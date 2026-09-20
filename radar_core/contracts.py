@@ -257,6 +257,32 @@ def _validate_way_index(document: Dict[str, Any]) -> List[str]:
                 errors.append(f"contracts.{contract_key} is required")
             else:
                 _validate_path(errors, contracts[contract_key], f"contracts.{contract_key}")
+    modules = document.get("modules", [])
+    if not isinstance(modules, list):
+        errors.append("modules must be a list")
+    else:
+        module_ids: set[str] = set()
+        manifest_paths: set[str] = set()
+        for index, reference in enumerate(modules):
+            if not isinstance(reference, dict):
+                errors.append(f"modules[{index}] must be an object")
+                continue
+            module_id = str(reference.get("id") or "").strip()
+            if not module_id or not _ID_RE.fullmatch(module_id):
+                errors.append(f"modules[{index}].id is invalid")
+            elif module_id in module_ids:
+                errors.append(f"duplicate module id: {module_id}")
+            else:
+                module_ids.add(module_id)
+            manifest = reference.get("manifest")
+            try:
+                normalized_manifest = _safe_relative(manifest, f"modules[{index}].manifest")
+            except ValueError as exc:
+                errors.append(str(exc))
+            else:
+                if normalized_manifest in manifest_paths:
+                    errors.append(f"duplicate module manifest: {normalized_manifest}")
+                manifest_paths.add(normalized_manifest)
     return errors
 
 
@@ -319,6 +345,45 @@ def _validate_way_manifest(payload: Dict[str, Any], kind: str) -> List[str]:
     return errors
 
 
+def _validate_way_module(
+    payload: Dict[str, Any],
+    *,
+    expected_id: str,
+    task_ids: set[str],
+) -> List[str]:
+    errors: List[str] = []
+    if payload.get("schema") != "way-content-registry/v1/module":
+        errors.append("module.schema is invalid")
+    module_id = str(payload.get("id") or "").strip()
+    if not module_id or not _ID_RE.fullmatch(module_id):
+        errors.append("module.id is invalid")
+    elif module_id != expected_id:
+        errors.append(f"module.id does not match index reference: {module_id} != {expected_id}")
+    if payload.get("kind") not in {"framework", "source"}:
+        errors.append(f"{module_id or expected_id}.kind is invalid")
+    display = payload.get("display")
+    if not isinstance(display, dict):
+        errors.append(f"{module_id or expected_id}.display must be an object")
+    elif display.get("target_path"):
+        _validate_path(
+            errors,
+            display["target_path"],
+            f"{module_id or expected_id}.display.target_path",
+        )
+    tasks = payload.get("tasks")
+    if not isinstance(tasks, list) or not tasks:
+        errors.append(f"{module_id or expected_id}.tasks is required")
+    else:
+        for task in tasks:
+            _validate_task(
+                errors,
+                task,
+                module_id=module_id or expected_id,
+                task_ids=task_ids,
+            )
+    return errors
+
+
 def validate_contract_document(
     document: Dict[str, Any],
     schema_name: str,
@@ -332,8 +397,25 @@ def validate_contract_document(
     return [f"unsupported contract schema: {schema_name}"]
 
 
+def _resolve_under(root: Path, relative: str, label: str) -> Path:
+    root_path = root.resolve()
+    candidate = (root / relative).resolve()
+    try:
+        candidate.relative_to(root_path)
+    except ValueError as exc:
+        raise ValueError(f"{label} resolves outside registry root: {relative}") from exc
+    return candidate
+
+
 def _iter_manifest_files(root: Path) -> Iterable[Path]:
-    return sorted(path for path in root.rglob("*.json") if path.is_file())
+    root_path = root.resolve()
+    paths = sorted(path for path in root.rglob("*.json") if path.is_file())
+    for path in paths:
+        try:
+            path.resolve().relative_to(root_path)
+        except ValueError as exc:
+            raise ValueError(f"manifest path resolves outside registry root: {path}") from exc
+    return paths
 
 
 def _load_way_registry(root: Path, index_path: Path, index: Dict[str, Any]) -> Dict[str, Any]:
@@ -345,7 +427,7 @@ def _load_way_registry(root: Path, index_path: Path, index: Dict[str, Any]) -> D
     by_id: Dict[str, Dict[str, Any]] = {}
     for kind in _WAY_MANIFEST_SCHEMAS:
         relative_root = _safe_relative(index["manifest_roots"][kind], f"manifest_roots.{kind}")
-        manifest_root = registry_root / relative_root
+        manifest_root = _resolve_under(registry_root, relative_root, f"manifest_roots.{kind}")
         if not manifest_root.is_dir():
             raise ValueError(f"missing manifest root: {manifest_root}")
         for manifest_path in _iter_manifest_files(manifest_root):
@@ -430,10 +512,29 @@ def _load_way_registry(root: Path, index_path: Path, index: Dict[str, Any]) -> D
                         "surface": surface,
                     }
                 )
+    explicit_modules: List[Dict[str, Any]] = []
+    explicit_task_ids: set[str] = set()
+    for reference in index.get("modules") or []:
+        relative_manifest = _safe_relative(reference["manifest"], "module.manifest")
+        manifest_path = _resolve_under(registry_root, relative_manifest, "module.manifest")
+        module = _read_json(manifest_path)
+        module_errors = _validate_way_module(
+            module,
+            expected_id=str(reference["id"]),
+            task_ids=explicit_task_ids,
+        )
+        if module_errors:
+            raise ValueError(
+                f"invalid module manifest {manifest_path}: " + "; ".join(module_errors)
+            )
+        loaded = dict(module)
+        loaded["manifest"] = relative_manifest
+        explicit_modules.append(loaded)
+
     normalized = dict(index)
     normalized["manifests"] = manifests
     normalized["declarations"] = declarations
-    normalized["modules"] = declarations
+    normalized["modules"] = explicit_modules
     return normalized
 
 
