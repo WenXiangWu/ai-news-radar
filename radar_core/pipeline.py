@@ -222,7 +222,7 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
         context.state.record_run(
             context.run_id,
             {
-                "status": "failed",
+                "status": "unsupported_incremental",
                 "source_id": source.id,
                 "result": result.to_dict(),
                 "errors": result.errors,
@@ -244,7 +244,15 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
     for row in selected_rows:
         item = items_by_id.get(row["item_id"])
         if item is None:
-            continue
+            # Spec §3.1: after a 304 the discovery page may be empty, but
+            # lagged items (fetched_revision != remote_revision) must still
+            # be selected from the ledger. Reconstruct a DiscoveredItem from
+            # the ledger row unless the item has been marked missing.
+            if str(row.get("status") or "") == "missing":
+                continue
+            item = _reconstruct_item_from_row(source, row)
+            if item is None:
+                continue
         try:
             raw = connector.fetch(item)
             result.fetched += 1
@@ -380,6 +388,36 @@ def _mark_item_fetched(
             "last_fetched_at": context.now.isoformat(),
             "status": "fetched",
         }
+    )
+
+
+def _reconstruct_item_from_row(
+    source: SourceSpec,
+    row: dict[str, Any],
+) -> DiscoveredItem | None:
+    """Rebuild a DiscoveredItem from a ledger row when the discovery page
+    did not re-emit it (e.g. a 304 manifest). Used to fetch lagged items
+    whose fetched_revision still trails remote_revision."""
+
+    item_id = str(row.get("item_id") or "").strip()
+    canonical_url = str(row.get("canonical_url") or "").strip()
+    if not item_id or not canonical_url:
+        return None
+    payload = row.get("payload") if isinstance(row.get("payload"), Mapping) else {}
+    title = str(
+        payload.get("title")
+        or row.get("title")
+        or item_id
+    )
+    return DiscoveredItem(
+        source_id=source.id,
+        native_id=item_id,
+        url=canonical_url,
+        title=title,
+        remote_revision=row.get("remote_revision"),
+        remote_etag=row.get("remote_etag"),
+        remote_last_modified=row.get("remote_last_modified"),
+        metadata=dict(payload),
     )
 
 

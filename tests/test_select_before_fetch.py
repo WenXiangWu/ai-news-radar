@@ -310,3 +310,80 @@ def test_no_change_run_fetches_nothing(tmp_path: Path):
     assert result.selected == 0
     assert result.skipped_not_modified == 2
     state.close()
+
+
+def test_304_discover_with_empty_page_still_fetches_lagged_ledger_item(
+    tmp_path: Path,
+):
+    """Spec §3.1: after a 304, lagged items (fetched_revision !=
+    remote_revision) must still be selected from the ledger even when the
+    discovery page is empty. The pipeline reconstructs a DiscoveredItem from
+    the ledger row and fetches it."""
+
+    from radar_core.pipeline import run_source
+
+    class NotModifiedConnector(CountingConnector):
+        """Second discover returns an empty page (manifest 304)."""
+
+        def __init__(self) -> None:
+            super().__init__()
+            self._call = 0
+
+        def discover(self, cursor: Cursor) -> DiscoveryPage:
+            self._call += 1
+            if self._call == 1:
+                return super().discover(cursor)
+            return DiscoveryPage(items=[], cursor=cursor)
+
+    connector = NotModifiedConnector()
+    source = _source()
+    state = StateStore.open(tmp_path / "state.sqlite3")
+
+    # Run 1: baseline_only.
+    first = run_source(source, _context(state, connector, mode="incremental", run_id="r1"))
+    assert first.run_kind == "baseline_only"
+    assert connector.fetches == []
+
+    # Simulate p1 fetched at sha-a; p2 fetched at an older revision (lagged).
+    _mark_fetched(state, "p1", "sha-a")
+    state.upsert_source_item(
+        {
+            "source_id": "source.fake",
+            "item_id": "p2",
+            "canonical_url": "https://ex/p2",
+            "remote_revision": "sha-b",
+            "fetched_revision": "sha-old",
+            "status": "fetched",
+        }
+    )
+
+    # Run 2: discover returns 304 (empty page). p2 is lagged in the ledger and
+    # must still be fetched from the ledger row.
+    second = run_source(source, _context(state, connector, mode="incremental", run_id="r2"))
+
+    assert second.run_kind == "incremental"
+    assert second.selected == 1
+    assert connector.fetches == ["p2"]
+    assert second.fetched == 1
+    state.close()
+
+
+def test_unsupported_incremental_run_status_is_not_hard_failed(tmp_path: Path):
+    """The run row status for an unsupported_incremental operation must be
+    consistent with the operation result, not a hard 'failed'."""
+
+    from radar_core.pipeline import run_source
+
+    connector = CountingConnector()
+    connector.incremental_class = "unsupported"
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    state.mark_source_baseline("source.fake", "r0")
+
+    result = run_source(_source(), _context(state, connector, mode="incremental"))
+
+    assert result.status == "unsupported_incremental"
+    # The run row should not be a hard "failed"; it should reflect the
+    # per-operation unsupported state.
+    run_row = state.iter_rows("runs")[0]
+    assert run_row["status"] != "failed"
+    state.close()
