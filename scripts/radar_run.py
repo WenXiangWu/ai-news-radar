@@ -466,8 +466,12 @@ def _final_status(results: list[dict[str, Any]], *, dry_run: bool) -> str:
     # `partial` from fetch/translation failures also degrades the run.
     if "partial" in statuses or "unsupported_incremental" in statuses:
         return "partial"
-    # `deferred` and `blocked` are soft states (budget exhaustion or
-    # dependency waiting); they must not by themselves fail the run.
+    # Spec §6: `blocked` (budget exhaustion or dependency waiting) is not a
+    # hard failure, but it must degrade the run to `partial` so downstream
+    # steps know the budget was exhausted and the report is still written.
+    # `deferred` (per-item cap) stays soft and does not by itself degrade.
+    if "blocked" in statuses:
+        return "partial"
     return "success"
 
 

@@ -135,12 +135,13 @@ def test_run_budget_writes_flat_blocked_results(tmp_path: Path):
         ]
     )
 
-    # Budget exhaustion produces soft `blocked` results; per the design these
-    # must not fail the whole run, so the report is written with a non-failed
-    # status and exit code 0.
-    assert exit_code == 0
+    # Budget exhaustion produces soft `blocked` results. Per the design these
+    # are not a hard failure, but the run must degrade to `partial` (not
+    # `success`) so downstream steps know the budget was exhausted. The report
+    # is still written and the exit code reflects the partial status.
+    assert exit_code == 1
     report = json.loads(report_path.read_text(encoding="utf-8"))
-    assert report["status"] == "success"
+    assert report["status"] == "partial"
     assert report["operations"]
     assert all(isinstance(row, dict) for row in report["operations"])
     assert any(row["status"] == "blocked" for row in report["operations"])
