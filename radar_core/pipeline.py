@@ -4,17 +4,19 @@ from dataclasses import dataclass, field, replace
 from datetime import datetime, timezone
 import time
 from pathlib import Path
-from typing import Any, Callable, Mapping
+from typing import Any, Callable, Literal, Mapping
 
 from .connectors.base import (
     Connector,
     ConnectorFactory,
     Cursor,
+    DiscoveredItem,
     DiscoveryPage,
     merge_nested_source_config,
 )
 from .dedupe import Revision, accept_revision
 from .discovery import Operation
+from .ledger import select_items
 from .normalize import NormalizedDocument, normalize_document
 from .registry import SourceSpec
 from .storage import StateStore
@@ -31,6 +33,9 @@ from .translation.router import TranslationRouter
 ConnectorBuilder = Callable[[SourceSpec], Connector]
 
 
+RunMode = Literal["incremental", "baseline_only", "bootstrap"]
+
+
 @dataclass
 class RunContext:
     state: StateStore
@@ -43,6 +48,7 @@ class RunContext:
     policy_version: str = DEFAULT_POLICY_VERSION
     dry_run: bool = False
     glossary: Mapping[str, str] | None = None
+    mode: RunMode = "incremental"
 
     def __post_init__(self) -> None:
         self.target_locales = tuple(self.target_locales or ("zh-CN",))
@@ -58,6 +64,10 @@ class SourceRunResult:
     finished_at: str | None = None
     duration_ms: int = 0
     discovered: int = 0
+    selected: int = 0
+    deferred: int = 0
+    skipped_not_modified: int = 0
+    run_kind: str = "incremental"
     fetched: int = 0
     normalized: int = 0
     revisions_new: int = 0
@@ -87,6 +97,10 @@ class SourceRunResult:
             "finished_at": self.finished_at,
             "duration_ms": self.duration_ms,
             "discovered": self.discovered,
+            "selected": self.selected,
+            "deferred": self.deferred,
+            "skipped_not_modified": self.skipped_not_modified,
+            "run_kind": self.run_kind,
             "fetched": self.fetched,
             "normalized": self.normalized,
             "revisions_new": self.revisions_new,
@@ -180,7 +194,57 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
         _finish_result(result, started_clock)
         return result
 
-    for item in page.items:
+    _record_source_snapshot(source, page, context)
+    ledger_rows = _upsert_ledger_items(source, page, context)
+
+    result.run_kind = "incremental" if context.mode == "incremental" else context.mode
+
+    if context.mode != "bootstrap" and not context.state.baseline_initialized(source.id):
+        context.state.mark_source_baseline(source.id, context.run_id)
+        result.run_kind = "baseline_only"
+        result.status = "success"
+        result.cursor = page.cursor.to_dict()
+        context.state.record_run(
+            context.run_id,
+            {"status": "success", "source_id": source.id, "result": result.to_dict()},
+        )
+        advance_cursor_after_success(source.id, page.cursor, context)
+        _commit_source_registration(source, context)
+        _finish_result(result, started_clock)
+        return result
+
+    if not _connector_supports_incremental(connector, page.items):
+        result.status = "unsupported_incremental"
+        result.failed = 1
+        result.errors.append(
+            f"{source.id}: connector cannot supply stable item revisions"
+        )
+        context.state.record_run(
+            context.run_id,
+            {
+                "status": "failed",
+                "source_id": source.id,
+                "result": result.to_dict(),
+                "errors": result.errors,
+            },
+        )
+        _finish_result(result, started_clock)
+        return result
+
+    max_new_items = _max_new_items(source)
+    selected_rows, deferred_rows = select_items(ledger_rows, max_new_items=max_new_items)
+    result.selected = len(selected_rows)
+    result.deferred = len(deferred_rows)
+    result.skipped_not_modified = max(
+        0, len(ledger_rows) - len(selected_rows) - len(deferred_rows)
+    )
+
+    items_by_id = {item.native_id: item for item in page.items}
+
+    for row in selected_rows:
+        item = items_by_id.get(row["item_id"])
+        if item is None:
+            continue
         try:
             raw = connector.fetch(item)
             result.fetched += 1
@@ -209,11 +273,25 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
                     )
                 elif revision.content_id not in result.translated_content_ids:
                     result.translated_content_ids.append(revision.content_id)
+            _mark_item_fetched(source, item, context)
         except Exception as exc:  # noqa: BLE001
             result.failed += 1
             result.errors.append(
                 f"{item.native_id or item.url}: {_safe_error(exc)}"
             )
+
+    for row in deferred_rows:
+        context.state.upsert_source_item(
+            {
+                "source_id": source.id,
+                "item_id": row["item_id"],
+                "canonical_url": row["canonical_url"],
+                "remote_revision": row.get("remote_revision"),
+                "remote_etag": row.get("remote_etag"),
+                "remote_last_modified": row.get("remote_last_modified"),
+                "status": "deferred",
+            }
+        )
 
     if result.failed:
         result.status = "partial" if result.fetched else "failed"
@@ -239,6 +317,92 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
     _commit_source_registration(source, context)
     _finish_result(result, started_clock)
     return result
+
+
+def _record_source_snapshot(
+    source: SourceSpec,
+    page: DiscoveryPage,
+    context: RunContext,
+) -> None:
+    cursor = page.cursor
+    snapshot_id = f"{source.id}:{context.run_id}"
+    context.state.record_source_snapshot(
+        source.id,
+        {
+            "snapshot_id": snapshot_id,
+            "fetched_at": context.now.isoformat(),
+            "remote_manifest_id": cursor.token,
+            "etag": cursor.etag,
+            "last_modified": cursor.last_modified,
+            "item_count": len(page.items),
+            "status": "ok",
+            "payload": {"has_more": page.has_more},
+        },
+    )
+
+
+def _upsert_ledger_items(
+    source: SourceSpec,
+    page: DiscoveryPage,
+    context: RunContext,
+) -> list[dict[str, Any]]:
+    now = context.now.isoformat()
+    for item in page.items:
+        context.state.upsert_source_item(
+            {
+                "source_id": source.id,
+                "item_id": item.native_id,
+                "canonical_url": item.canonical_url,
+                "remote_revision": item.remote_revision,
+                "remote_etag": item.remote_etag,
+                "remote_last_modified": item.remote_last_modified,
+                "last_seen_at": now,
+                "status": "seen",
+            }
+        )
+    return context.state.list_source_items(source.id)
+
+
+def _mark_item_fetched(
+    source: SourceSpec,
+    item: DiscoveredItem,
+    context: RunContext,
+) -> None:
+    context.state.upsert_source_item(
+        {
+            "source_id": source.id,
+            "item_id": item.native_id,
+            "canonical_url": item.canonical_url,
+            "remote_revision": item.remote_revision,
+            "remote_etag": item.remote_etag,
+            "remote_last_modified": item.remote_last_modified,
+            "fetched_revision": item.remote_revision,
+            "last_fetched_at": context.now.isoformat(),
+            "status": "fetched",
+        }
+    )
+
+
+def _connector_supports_incremental(
+    connector: Any,
+    items: list[DiscoveredItem],
+) -> bool:
+    incremental_class = getattr(connector, "incremental_class", None)
+    if incremental_class == "unsupported":
+        return False
+    if incremental_class == "revision-native":
+        return True
+    if not items:
+        return True
+    return any(item.has_remote_validator for item in items)
+
+
+def _max_new_items(source: SourceSpec) -> int:
+    raw = source.schedule.get("max_new_items") if isinstance(source.schedule, Mapping) else None
+    try:
+        return max(0, int(raw or 0))
+    except (TypeError, ValueError):
+        return 0
 
 
 def _finish_result(result: SourceRunResult, started_clock: float) -> None:

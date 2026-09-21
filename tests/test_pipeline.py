@@ -31,6 +31,7 @@ def _source() -> SourceSpec:
                 "enabled": True,
                 "timezone": "UTC",
                 "cron": "0 * * * *",
+                "max_new_items": 10,
             },
             "output_root": "frontend/docs",
             "translation_profile": "prose/v1",
@@ -53,12 +54,14 @@ def _operation(source: SourceSpec) -> Operation:
 
 class FakeConnector:
     adapter_name = "fake"
+    incremental_class = "revision-native"
 
     def __init__(self, body: str = "Hello world", *, fail_fetch: bool = False):
         self.body = body
         self.fail_fetch = fail_fetch
         self.discover_calls = 0
         self.fetch_calls = 0
+        self.remote_revision = _revision_for(body)
 
     def discover(self, cursor: Cursor) -> DiscoveryPage:
         self.discover_calls += 1
@@ -70,6 +73,7 @@ class FakeConnector:
                     url="https://docs.example.test/guide.md",
                     title="Guide",
                     content_type="text/markdown",
+                    remote_revision=self.remote_revision,
                 )
             ],
             cursor=Cursor(
@@ -90,6 +94,12 @@ class FakeConnector:
             text=self.body,
             content_type=item.content_type,
         )
+
+
+def _revision_for(body: str) -> str:
+    import hashlib
+
+    return "rev-" + hashlib.sha256(body.encode("utf-8")).hexdigest()[:12]
 
 
 class RecordingRouter:
@@ -116,7 +126,13 @@ class EmptyRouter:
         )
 
 
-def _context(tmp_path: Path, connector: FakeConnector, router: RecordingRouter) -> Any:
+def _context(
+    tmp_path: Path,
+    connector: FakeConnector,
+    router: RecordingRouter,
+    *,
+    mode: str = "bootstrap",
+) -> Any:
     from radar_core.pipeline import RunContext
 
     return RunContext(
@@ -126,6 +142,7 @@ def _context(tmp_path: Path, connector: FakeConnector, router: RecordingRouter) 
         connector_factory=lambda _source: connector,
         router=router,
         now=datetime(2026, 9, 20, 0, 0, tzinfo=timezone.utc),
+        mode=mode,
     )
 
 
@@ -135,15 +152,17 @@ def test_run_source_is_idempotent_for_existing_translation(tmp_path: Path):
     source = _source()
     connector = FakeConnector()
     router = RecordingRouter()
-    context = _context(tmp_path, connector, router)
+    context = _context(tmp_path, connector, router, mode="bootstrap")
 
     first = run_source(source, context)
     second = run_source(source, replace(context, run_id="run-2"))
 
     assert first.fetched == 1
     assert first.translated == 1
-    assert second.fetched == 1
-    assert second.translation_reused == 1
+    # Second run selects nothing because the item's fetched_revision already
+    # matches remote_revision; no fetch, no translation request.
+    assert second.fetched == 0
+    assert second.selected == 0
     assert len(router.requests) == 1
     assert context.state.count_rows("revisions") == 1
     assert context.state.count_rows("translations") == 1
@@ -195,10 +214,11 @@ def test_changed_source_body_creates_one_new_revision_and_translation(tmp_path: 
     source = _source()
     connector = FakeConnector("Hello world")
     router = RecordingRouter()
-    context = _context(tmp_path, connector, router)
+    context = _context(tmp_path, connector, router, mode="bootstrap")
 
     first = run_source(source, context)
     connector.body = "Hello changed world"
+    connector.remote_revision = _revision_for(connector.body)
     second = run_source(source, replace(context, run_id="run-2"))
 
     assert first.revisions_new == 1
@@ -218,7 +238,7 @@ def test_run_operation_records_context_and_does_not_advance_cursor_on_failure(
     source = _source()
     connector = FakeConnector(fail_fetch=True)
     router = RecordingRouter()
-    context = _context(tmp_path, connector, router)
+    context = _context(tmp_path, connector, router, mode="bootstrap")
 
     result = run_operation(_operation(source), context)
 
@@ -239,7 +259,7 @@ def test_translation_provider_exhaustion_does_not_advance_cursor_or_baseline(
 
     source = _source()
     connector = FakeConnector()
-    context = _context(tmp_path, connector, EmptyRouter())
+    context = _context(tmp_path, connector, EmptyRouter(), mode="bootstrap")
     context.state.record_run("bootstrap", {"status": "success"})
     from radar_core.registry import Registry
 

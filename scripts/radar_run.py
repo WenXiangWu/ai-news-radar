@@ -439,10 +439,17 @@ def _final_status(results: list[dict[str, Any]], *, dry_run: bool) -> str:
     if dry_run:
         return "dry_run"
     statuses = {str(result.get("status") or "") for result in results}
-    if "failed" in statuses or "blocked" in statuses:
+    # A hard "failed" operation fails the whole run.
+    if "failed" in statuses:
         return "failed"
-    if "partial" in statuses:
+    # `unsupported_incremental` is a per-operation failure: degrade the run to
+    # partial so the report is still written and downstream steps continue,
+    # but do not treat it as a hard run-level failure.
+    # `partial` from fetch/translation failures also degrades the run.
+    if "partial" in statuses or "unsupported_incremental" in statuses:
         return "partial"
+    # `deferred` and `blocked` are soft states (budget exhaustion or
+    # dependency waiting); they must not by themselves fail the run.
     return "success"
 
 

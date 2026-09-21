@@ -78,6 +78,9 @@ class DiscoveredItem:
     title: str
     published_at: str | None = None
     content_type: str = "text/plain"
+    remote_revision: str | None = None
+    remote_etag: str | None = None
+    remote_last_modified: str | None = None
     metadata: Mapping[str, Any] = field(default_factory=dict)
 
     @property
@@ -89,6 +92,17 @@ class DiscoveredItem:
     @property
     def source_native_id(self) -> str:
         return self.native_id
+
+    @property
+    def has_remote_validator(self) -> bool:
+        return any(
+            value is not None
+            for value in (
+                self.remote_revision,
+                self.remote_etag,
+                self.remote_last_modified,
+            )
+        )
 
 
 @dataclass(frozen=True)
@@ -231,6 +245,7 @@ class UrllibTransport:
 
 class Connector(Protocol):
     adapter_name: str
+    incremental_class: str | None
 
     def discover(self, cursor: Cursor) -> DiscoveryPage:
         ...
@@ -244,6 +259,7 @@ class Connector(Protocol):
 
 class BaseConnector:
     adapter_name = "connector"
+    incremental_class: str | None = None
     network = True
 
     def __init__(self, config: Mapping[str, Any] | None = None):
@@ -439,6 +455,7 @@ class HttpConnector(BaseConnector):
 
 class UnsupportedConnector(BaseConnector):
     network = False
+    incremental_class = "unsupported"
 
     def __init__(self, adapter_name: str, reason: str):
         super().__init__({"adapter_name": adapter_name, "source_id": adapter_name})

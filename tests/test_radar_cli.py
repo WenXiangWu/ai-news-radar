@@ -126,6 +126,16 @@ def test_provider_endpoint_redacts_query_credentials():
     )
 
 
-def test_partial_and_blocked_operations_fail_the_publish_gate():
+def test_partial_fails_but_blocked_and_deferred_do_not_fail_the_publish_gate():
     assert _final_status([{"status": "partial"}], dry_run=False) == "partial"
-    assert _final_status([{"status": "blocked"}], dry_run=False) == "failed"
+    # `blocked` (budget exhaustion / dependency wait) and `deferred` are soft
+    # states; they must not by themselves fail the run.
+    assert _final_status([{"status": "blocked"}], dry_run=False) == "success"
+    assert _final_status([{"status": "deferred"}], dry_run=False) == "success"
+    # `unsupported_incremental` is a per-operation failure: degrade to partial
+    # so the report is still written, but do not treat it as a hard failure.
+    assert (
+        _final_status([{"status": "unsupported_incremental"}], dry_run=False)
+        == "partial"
+    )
+    assert _final_status([{"status": "failed"}], dry_run=False) == "failed"

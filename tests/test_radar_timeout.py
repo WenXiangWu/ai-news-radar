@@ -135,9 +135,12 @@ def test_run_budget_writes_flat_blocked_results(tmp_path: Path):
         ]
     )
 
-    assert exit_code == 1
+    # Budget exhaustion produces soft `blocked` results; per the design these
+    # must not fail the whole run, so the report is written with a non-failed
+    # status and exit code 0.
+    assert exit_code == 0
     report = json.loads(report_path.read_text(encoding="utf-8"))
-    assert report["status"] == "failed"
+    assert report["status"] == "success"
     assert report["operations"]
     assert all(isinstance(row, dict) for row in report["operations"])
     assert any(row["status"] == "blocked" for row in report["operations"])
