@@ -23,7 +23,8 @@ def select_items(
     changed = [
         item
         for item in items
-        if item.get("fetched_revision") != item.get("remote_revision")
+        if str(item.get("status") or "") not in {"missing", "blocked"}
+        and item.get("fetched_revision") != item.get("remote_revision")
     ]
     if max_new_items <= 0:
         return [], list(changed)

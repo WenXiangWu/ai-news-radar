@@ -17,6 +17,45 @@ from radar_core.registry import TaskSpec
 from tests.test_connectors import FixtureTransport, SequenceTransport, fixture_bytes
 
 
+def test_html_collection_uses_head_etag_as_remote_revision_when_present():
+    listing_url = "https://blog.example.test/engineering"
+    article_url = "https://blog.example.test/engineering/agents"
+    transport = FixtureTransport(
+        {
+            listing_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/html; charset=utf-8"},
+                body=fixture_bytes("html-collection-index.html"),
+            ),
+            article_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "text/html; charset=utf-8",
+                    "ETag": '"article-v2"',
+                    "Last-Modified": "Tue, 15 Sep 2026 12:00:00 GMT",
+                },
+                body=b"<html></html>",
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "html_collection",
+        {
+            "source_id": "source.html.ledger",
+            "listing_url": listing_url,
+            "link_prefixes": ["/engineering/"],
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert page.items[0].remote_revision == '"article-v2"'
+    assert page.items[0].remote_etag == '"article-v2"'
+    assert transport.calls[1]["method"] == "HEAD"
+    assert transport.calls[1]["url"] == article_url
+
+
 def test_html_collection_emits_canonical_url_as_remote_revision():
     listing_url = "https://blog.example.test/engineering"
     article_url = "https://blog.example.test/engineering/agents"
@@ -50,23 +89,35 @@ def test_html_collection_emits_canonical_url_as_remote_revision():
 def test_html_collection_304_reconstructs_remote_revision_from_cursor():
     listing_url = "https://blog.example.test/engineering"
     article_url = "https://blog.example.test/engineering/agents"
-    transport = SequenceTransport(
-        [
-            HttpResponse(
-                status_code=200,
-                headers={
-                    "Content-Type": "text/html; charset=utf-8",
-                    "ETag": '"listing-v1"',
-                },
-                body=fixture_bytes("html-collection-index.html"),
-            ),
-            HttpResponse(
+
+    class ListingThenNotModified:
+        def __init__(self) -> None:
+            self.listing_gets = 0
+            self.calls: list[dict[str, object]] = []
+
+        def request(self, method, url, *, headers, timeout):
+            self.calls.append({"method": method, "url": url})
+            if method == "HEAD":
+                return HttpResponse(status_code=405, headers={}, body=b"")
+            if url != listing_url:
+                raise AssertionError(url)
+            self.listing_gets += 1
+            if self.listing_gets == 1:
+                return HttpResponse(
+                    status_code=200,
+                    headers={
+                        "Content-Type": "text/html; charset=utf-8",
+                        "ETag": '"listing-v1"',
+                    },
+                    body=fixture_bytes("html-collection-index.html"),
+                )
+            return HttpResponse(
                 status_code=304,
                 headers={"ETag": '"listing-v1"'},
                 body=b"",
-            ),
-        ]
-    )
+            )
+
+    transport = ListingThenNotModified()
     connector = ConnectorFactory.create(
         "html_collection",
         {
@@ -80,8 +131,10 @@ def test_html_collection_304_reconstructs_remote_revision_from_cursor():
     first = connector.discover(Cursor())
     second = connector.discover(first.cursor)
 
+    assert first.items[0].remote_revision == article_url
     assert second.items[0].remote_revision == article_url
     assert second.items[0].has_remote_validator
+    assert transport.listing_gets == 2
 
 
 def test_static_pages_uses_head_etag_as_remote_revision():

@@ -148,6 +148,14 @@ jobs:
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
         run: python scripts/persona_score.py --data-dir data
 
+      - name: Restore Radar ledger
+        uses: actions/cache@v4
+        with:
+          path: /tmp/radar-ledger.sqlite3
+          key: radar-ledger-v1
+          restore-keys: |
+            radar-ledger-v1
+
       - name: Publish snapshot to way-to-agentic
         env:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
@@ -179,6 +187,11 @@ jobs:
           git clone --depth 1 --branch "$branch" \
             "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" "$work"
           state_path="$work/$dest/radar-state.sqlite3"
+          mkdir -p "$(dirname "$state_path")"
+          if [ -f /tmp/radar-ledger.sqlite3 ]; then
+            cp /tmp/radar-ledger.sqlite3 "$state_path"
+            echo "Restored Radar ledger from Actions cache"
+          fi
           radar_report=/tmp/radar-run-report.json
           radar_bundle=/tmp/radar-export
           rm -f "$radar_report"
@@ -218,6 +231,9 @@ jobs:
           fi
           if [ "$radar_exit" -ne 0 ]; then
             echo "::warning::Radar run failed or was partial (exit=$radar_exit); continuing export/import/push because the report exists"
+          fi
+          if [ -f "$state_path" ]; then
+            cp "$state_path" /tmp/radar-ledger.sqlite3
           fi
           run_id="$(python3 - "$radar_report" <<'PY'
           import json
@@ -347,6 +363,7 @@ jobs:
           git -C "$work" config user.name "github-actions[bot]"
           git -C "$work" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git -C "$work" add "$dest"
+          git -C "$work" reset -q HEAD -- "$dest/radar-state.sqlite3" 2>/dev/null || true
           if [ -d "$work/frontend/radar-content" ]; then
             git -C "$work" add frontend/radar-content
           fi

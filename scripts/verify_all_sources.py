@@ -23,7 +23,7 @@ from radar_core.connectors.base import (
 )
 from radar_core.discovery import FETCH_ADAPTERS
 from radar_core.pipeline import RunContext, run_source
-from radar_core.registry import SourceSpec
+from radar_core.registry import SourceSpec, load_registry
 from radar_core.source_audit import SourceAuditRow, collect_all_sources
 from radar_core.storage import StateStore
 
@@ -50,6 +50,12 @@ def verify_all_sources(
     inventory = collect_all_sources(target_root)
     if only_ids:
         inventory = [row for row in inventory if row.source_id in only_ids]
+    registry = load_registry(target_root)
+    scheduled = {
+        task.to_source_spec().id: task.to_source_spec()
+        for task in registry.tasks
+        if task.enabled and task.adapter in FETCH_ADAPTERS
+    }
     state = StateStore.open(state_path)
     results: list[dict[str, Any]] = []
     started = time.perf_counter()
@@ -60,6 +66,7 @@ def verify_all_sources(
                 state=state,
                 max_new_items=max_new_items,
                 fetch_bodies=fetch_bodies,
+                scheduled_source=scheduled.get(row.source_id),
             )
             results.append(result)
             print(
@@ -101,6 +108,7 @@ def _verify_row(
     state: StateStore,
     max_new_items: int,
     fetch_bodies: bool,
+    scheduled_source: SourceSpec | None = None,
 ) -> dict[str, Any]:
     started = time.perf_counter()
     report: dict[str, Any] = {
@@ -121,7 +129,24 @@ def _verify_row(
             report["errors"].append("fixture example source")
             report["latency_ms"] = 0
             return report
-        if row.origin == "radar":
+        if scheduled_source is not None:
+            scheduled_row = SourceAuditRow(
+                source_id=scheduled_source.id,
+                origin=row.origin,
+                adapter=str(scheduled_source.payload.get("adapter") or row.adapter),
+                locator=scheduled_source.locator,
+                enabled=scheduled_source.enabled,
+                payload=scheduled_source.to_dict(),
+            )
+            report["adapter"] = scheduled_row.adapter
+            _verify_radar_row(
+                scheduled_row,
+                report,
+                state=state,
+                max_new_items=max_new_items,
+                fetch_bodies=fetch_bodies,
+            )
+        elif row.origin == "radar":
             _verify_radar_row(
                 row,
                 report,

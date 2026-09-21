@@ -333,7 +333,7 @@ class TaskSpec:
 
     @property
     def source_id(self) -> str:
-        if self.module_id.startswith("source."):
+        if self.module_id.startswith(("source.", "docs.", "wiki.")):
             return self.module_id
         return f"source.{self.module_id}"
 
@@ -585,6 +585,172 @@ def _knowledge_source_payloads(
     return normalized
 
 
+_SKIP_WIKI_IDS = frozenset({"deepseek-harness", "cordis"})
+_TREE_MAX_RESPONSE_BYTES = 32 * 1024 * 1024
+
+
+def _daily_schedule(source_id: str) -> dict[str, Any]:
+    digest = hashlib.sha256(source_id.encode("utf-8")).hexdigest()
+    hour = 4 + (int(digest[:8], 16) % 4)
+    return {
+        "enabled": True,
+        "timezone": "Asia/Shanghai",
+        "cron": f"17 {hour} * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 8,
+        "max_new_items": 50,
+    }
+
+
+def _parse_github_raw_base(url: str) -> dict[str, str]:
+    text = str(url or "").strip()
+    marker = "://raw.githubusercontent.com/"
+    if marker not in text:
+        return {}
+    rest = text.split(marker, 1)[1].strip("/")
+    parts = rest.split("/")
+    if len(parts) < 3:
+        return {}
+    owner, repo, ref = parts[0], parts[1], parts[2]
+    prefix = "/".join(parts[3:])
+    parsed = {
+        "repo": f"{owner}/{repo}",
+        "ref": ref,
+    }
+    if prefix:
+        parsed["path_prefix"] = prefix
+    return parsed
+
+
+def _normalize_docs_adapter(entry: Mapping[str, Any]) -> tuple[str, dict[str, Any]]:
+    adapter = str(entry.get("adapter") or "").strip()
+    extra: dict[str, Any] = {
+        "max_response_bytes": _TREE_MAX_RESPONSE_BYTES,
+    }
+    index_urls = entry.get("index_urls")
+    first_index = (
+        str(index_urls[0]).strip()
+        if isinstance(index_urls, list) and index_urls
+        else ""
+    )
+    official = str(entry.get("official") or "").strip()
+    if adapter == "langchain_md":
+        adapter = "llms_txt"
+        extra["url"] = first_index or official
+    elif adapter == "mintlify":
+        adapter = "github_tree"
+        extra.update(_parse_github_raw_base(str(entry.get("github_raw_base") or "")))
+        extra["extensions"] = [".md", ".mdx", ".txt"]
+    elif adapter == "next_data":
+        adapter = "llms_txt"
+        extra["url"] = first_index or (
+            f"{official.rstrip('/')}/llms.txt" if official else ""
+        )
+    elif adapter == "github_tree":
+        owner = str(entry.get("github_owner") or "").strip()
+        repo = str(entry.get("github_repo") or "").strip()
+        if owner and repo:
+            extra["repo"] = f"{owner}/{repo}"
+        extra["ref"] = str(entry.get("github_branch") or entry.get("ref") or "").strip()
+        extra["path_prefix"] = str(entry.get("github_docs_prefix") or "").strip()
+        extra["extensions"] = entry.get("extensions") or [
+            ".md",
+            ".mdx",
+            ".txt",
+            ".rst",
+            ".adoc",
+        ]
+    elif adapter == "llms_txt":
+        extra["url"] = first_index or official
+        extra["drop_re"] = entry.get("drop_re")
+        if not first_index:
+            adapter = "html_collection"
+            extra["listing_url"] = official
+    elif adapter == "html_collection":
+        extra["listing_url"] = str(entry.get("listing_url") or official)
+        extra["link_prefixes"] = entry.get("link_prefixes")
+        extra["drop_re"] = entry.get("drop_re")
+    extra["drop_re"] = extra.get("drop_re") or entry.get("drop_re")
+    extra["url"] = extra.get("url") or first_index or official
+    extra["locator"] = (
+        extra.get("url")
+        or extra.get("listing_url")
+        or extra.get("repo")
+        or official
+    )
+    return adapter, extra
+
+
+def _legacy_framework_task_specs(target_root: Path) -> list[TaskSpec]:
+    root = Path(target_root)
+    specs: list[TaskSpec] = []
+    wiki_path = root / "frontend/path/frameworks/wiki/registry.json"
+    if wiki_path.is_file():
+        document = json.loads(wiki_path.read_text(encoding="utf-8"))
+        for entry in document.get("frameworks") or []:
+            if not isinstance(entry, Mapping):
+                continue
+            identifier = str(entry.get("id") or "").strip()
+            github = str(entry.get("github") or "").strip()
+            if not identifier or identifier in _SKIP_WIKI_IDS or not github:
+                continue
+            module_id = f"wiki.{identifier}"
+            module = {
+                "id": module_id,
+                "kind": "wiki",
+                "enabled": True,
+                "display": {"name": str(entry.get("name") or identifier)},
+                "source": {
+                    "github": github,
+                    "deepwiki": f"https://deepwiki.com/{github}",
+                    "max_response_bytes": _TREE_MAX_RESPONSE_BYTES,
+                },
+            }
+            specs.append(
+                TaskSpec.from_payload(
+                    {
+                        "id": f"task.{module_id}.sync",
+                        "kind": "wiki_sync",
+                        "adapter": "deepwiki",
+                        "output": {"path": str(entry.get("root") or "")},
+                        "schedule": _daily_schedule(module_id),
+                    },
+                    module=module,
+                )
+            )
+    docs_path = root / "frontend/path/frameworks/sync/registry.json"
+    if docs_path.is_file():
+        document = json.loads(docs_path.read_text(encoding="utf-8"))
+        for entry in document.get("frameworks") or []:
+            if not isinstance(entry, Mapping):
+                continue
+            identifier = str(entry.get("id") or "").strip()
+            if not identifier:
+                continue
+            adapter, extra = _normalize_docs_adapter(entry)
+            module_id = f"docs.{identifier}"
+            module = {
+                "id": module_id,
+                "kind": "docs",
+                "enabled": True,
+                "display": {"name": str(entry.get("name") or identifier)},
+                "source": {**dict(entry), **extra, "adapter": adapter},
+            }
+            specs.append(
+                TaskSpec.from_payload(
+                    {
+                        "id": f"task.{module_id}.sync",
+                        "kind": "docs_sync",
+                        "adapter": adapter,
+                        "output": {"path": str(entry.get("root") or "")},
+                        "schedule": _daily_schedule(module_id),
+                    },
+                    module=module,
+                )
+            )
+    return specs
+
+
 def _source_payloads(
     target_root: Path,
     document: Mapping[str, Any],
@@ -639,6 +805,7 @@ def _task_specs(
             for task in entry.get("tasks") or []:
                 if isinstance(task, Mapping):
                     specs.append(TaskSpec.from_payload(task, module=module))
+    specs.extend(_legacy_framework_task_specs(target_root))
     seen: set[str] = set()
     unique: list[TaskSpec] = []
     for task in specs:

@@ -36,7 +36,7 @@ class LLMSTxtConnector(HttpConnector):
         ).strip()
         if not self.llms_url:
             self._configuration_error = "requires llms_url or url"
-        self._drop_re = _compile_pattern(self.config.get("drop_re"))
+        self._drop_re = _compile_drop_re(self.config.get("drop_re"))
 
     def discover(self, cursor: Cursor) -> DiscoveryPage:
         if not self.llms_url:
@@ -64,10 +64,7 @@ class LLMSTxtConnector(HttpConnector):
         etag = _header(response.headers, "ETag")
         last_modified = _header(response.headers, "Last-Modified")
         remote_revision = etag or last_modified or None
-        if remote_revision:
-            self.incremental_class = "revision-native"
-        else:
-            self.incremental_class = "unsupported"
+        self.incremental_class = "revision-native"
 
         items: list[DiscoveredItem] = []
         seen: set[str] = set()
@@ -75,7 +72,7 @@ class LLMSTxtConnector(HttpConnector):
             url = canonicalize_url(urljoin(self.llms_url, raw_url))
             if not url or url in seen:
                 continue
-            if self._drop_re and self._drop_re.search(url):
+            if self._drop_re.search(url):
                 continue
             seen.add(url)
             items.append(
@@ -85,7 +82,7 @@ class LLMSTxtConnector(HttpConnector):
                     url=url,
                     title=title.strip() or url.rsplit("/", 1)[-1],
                     content_type=content_type_for_path(url),
-                    remote_revision=remote_revision,
+                    remote_revision=remote_revision or url,
                     remote_etag=etag,
                     remote_last_modified=last_modified,
                     metadata={"llms_url": self.llms_url},
@@ -100,7 +97,7 @@ class LLMSTxtConnector(HttpConnector):
                     url=self.llms_url,
                     title=self.source_id,
                     content_type="text/plain",
-                    remote_revision=remote_revision,
+                    remote_revision=remote_revision or self.llms_url,
                     remote_etag=etag,
                     remote_last_modified=last_modified,
                     metadata={"llms_url": self.llms_url, "inline_body": body},
@@ -190,6 +187,14 @@ def _optional_text(value: Any) -> str | None:
         return None
     text = str(value).strip()
     return text or None
+
+
+def _compile_drop_re(value: Any) -> re.Pattern[str]:
+    patterns = [r"llms-full\.txt(?:$|[?#])"]
+    configured = str(value or "").strip()
+    if configured:
+        patterns.append(configured)
+    return re.compile("|".join(f"(?:{pattern})" for pattern in patterns))
 
 
 def _compile_pattern(value: Any) -> re.Pattern[str] | None:

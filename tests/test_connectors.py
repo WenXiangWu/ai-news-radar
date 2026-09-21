@@ -297,6 +297,32 @@ def test_llms_txt_drops_links_matching_drop_re():
     ]
 
 
+def test_llms_txt_drops_llms_full_concatenated_dumps():
+    llms_url = "https://docs.example.test/llms.txt"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/plain"},
+                body=(
+                    "[Guide](https://docs.example.test/guide.md)\n"
+                    "[Full](https://docs.example.test/llms-full.txt)\n"
+                ).encode("utf-8"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {"source_id": "source.llms", "url": llms_url, "transport": transport},
+    )
+
+    page = connector.discover(Cursor())
+
+    assert [item.url for item in page.items] == [
+        "https://docs.example.test/guide.md"
+    ]
+
+
 def test_llms_txt_retries_directory_markdown_on_404():
     llms_url = "https://www.comet.com/docs/opik/llms.txt"
     missing_url = "https://www.comet.com/docs/opik.md"
@@ -1212,7 +1238,7 @@ def test_llms_txt_entries_use_url_and_optional_etag_as_revision():
     assert all(item.remote_etag == '"llms-v1"' for item in page.items)
 
 
-def test_llms_txt_without_etag_or_last_modified_is_unsupported():
+def test_llms_txt_without_etag_or_last_modified_uses_item_url():
     llms_url = "https://docs.example.test/llms.txt"
     transport = FixtureTransport(
         {
@@ -1234,9 +1260,13 @@ def test_llms_txt_without_etag_or_last_modified_is_unsupported():
 
     page = connector.discover(Cursor())
 
-    assert connector.incremental_class == "unsupported"
-    assert len(page.items) == 2
-    assert not any(item.has_remote_validator for item in page.items)
+    assert connector.incremental_class == "revision-native"
+    assert [item.native_id for item in page.items] == [
+        "https://docs.example.test/guide/getting-started.md",
+        "https://docs.example.test/reference/api.md",
+    ]
+    assert all(item.remote_revision == item.url for item in page.items)
+    assert all(item.has_remote_validator for item in page.items)
 
 
 def _rss_source(*, max_new_items: int = 10):

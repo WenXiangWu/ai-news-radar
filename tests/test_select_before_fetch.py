@@ -387,3 +387,63 @@ def test_unsupported_incremental_run_status_is_not_hard_failed(tmp_path: Path):
     run_row = state.iter_rows("runs")[0]
     assert run_row["status"] != "failed"
     state.close()
+
+
+def test_http_404_item_is_marked_missing_and_next_item_is_fetched(tmp_path: Path):
+    from radar_core.connectors.base import ConnectorError
+    from radar_core.pipeline import run_source
+
+    class PartialGoneConnector(CountingConnector):
+        def fetch(self, item: DiscoveredItem) -> RawDocument:
+            if item.native_id == "p1":
+                raise ConnectorError(
+                    "llms_txt request failed with HTTP 404 for https://ex/p1"
+                )
+            return super().fetch(item)
+
+    connector = PartialGoneConnector()
+    source = _source(max_new_items=1)
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    first = run_source(
+        source, _context(state, connector, mode="baseline_only", run_id="r1")
+    )
+    assert first.status == "success"
+    assert connector.fetches == []
+
+    second = run_source(
+        source, _context(state, connector, mode="bootstrap", run_id="r2")
+    )
+
+    assert second.status == "success"
+    assert connector.fetches == ["p2"]
+    assert second.fetched == 1
+    rows = {row["item_id"]: row for row in state.list_source_items("source.fake")}
+    assert rows["p1"]["status"] == "missing"
+    state.close()
+
+
+def test_oversized_item_is_blocked_and_next_item_is_fetched(tmp_path: Path):
+    from radar_core.connectors.base import ConnectorError
+    from radar_core.pipeline import run_source
+
+    class OversizedConnector(CountingConnector):
+        def fetch(self, item: DiscoveredItem) -> RawDocument:
+            if item.native_id == "p1":
+                raise ConnectorError(
+                    "llms_txt response size exceeds 4194304 bytes for https://ex/p1"
+                )
+            return super().fetch(item)
+
+    connector = OversizedConnector()
+    source = _source(max_new_items=1)
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    run_source(source, _context(state, connector, mode="baseline_only", run_id="r1"))
+    second = run_source(
+        source, _context(state, connector, mode="bootstrap", run_id="r2")
+    )
+
+    assert second.status == "success"
+    assert connector.fetches == ["p2"]
+    rows = {row["item_id"]: row for row in state.list_source_items("source.fake")}
+    assert rows["p1"]["status"] == "blocked"
+    state.close()

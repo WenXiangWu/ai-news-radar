@@ -84,6 +84,87 @@ def test_legacy_docs_adapters_are_classified():
     assert any(row.adapter == "llms_txt" for row in docs)
 
 
+def test_radar_scheduler_covers_every_docs_and_uncovered_wiki_source():
+    from radar_core.discovery import FETCH_ADAPTERS, discover_due_task_operations
+    from radar_core.registry import load_registry
+    from radar_core.storage import StateStore
+    from datetime import datetime, timezone
+
+    registry = load_registry(WAY_ROOT)
+    scheduled = {
+        task.to_source_spec().id
+        for task in registry.tasks
+        if task.enabled and task.adapter in FETCH_ADAPTERS
+    }
+    docs = [row for row in collect_all_sources(WAY_ROOT) if row.origin == "docs"]
+    wikis = [row for row in collect_all_sources(WAY_ROOT) if row.origin == "wiki"]
+    already_on_radar = {
+        "wiki.deepseek-harness",
+        "wiki.cordis",
+    }
+    missing_docs = [
+        row.source_id for row in docs if row.source_id not in scheduled
+    ]
+    missing_wikis = [
+        row.source_id
+        for row in wikis
+        if row.source_id not in scheduled and row.source_id not in already_on_radar
+    ]
+    assert missing_docs == [], missing_docs
+    assert missing_wikis == [], missing_wikis
+    adapters = {
+        task.adapter
+        for task in registry.tasks
+        if task.id.startswith("task.docs.") or task.id.startswith("task.wiki.")
+    }
+    assert adapters <= FETCH_ADAPTERS
+
+    operations = discover_due_task_operations(
+        registry,
+        datetime(2026, 9, 21, 12, 0, tzinfo=timezone.utc),
+        StateStore.open(Path("/tmp/radar-schedule-test.sqlite3")),
+        force=True,
+    )
+    op_ids = {operation.source_id for operation in operations}
+    assert "docs.langchain" in op_ids
+    assert "wiki.pydantic-ai" in op_ids
+    assert "wiki.deepseek-harness" not in op_ids
+
+
+def test_legacy_docs_adapters_are_remapped_to_fetchable_connectors():
+    from radar_core.registry import load_registry
+
+    registry = load_registry(WAY_ROOT)
+    by_id = {
+        task.to_source_spec().id: task
+        for task in registry.tasks
+        if task.enabled
+    }
+    assert by_id["docs.langchain"].adapter == "llms_txt"
+    assert by_id["docs.chroma"].adapter == "github_tree"
+    assert "chroma-core/chroma" in str(by_id["docs.chroma"].source.get("repo") or "")
+    assert by_id["docs.milvus"].adapter == "llms_txt"
+    assert str(by_id["docs.milvus"].source.get("url") or "").endswith("/llms.txt")
+    assert by_id["docs.guardrails-ai"].adapter == "html_collection"
+    assert by_id["docs.dspy"].adapter == "github_tree"
+    assert by_id["docs.dspy"].source.get("repo") == "stanfordnlp/dspy"
+    assert "github" in str(by_id["docs.phoenix"].source.get("drop_re") or "")
+    assert by_id["wiki.pydantic-ai"].adapter == "deepwiki"
+
+
+def test_docs_github_tree_connector_config_maps_owner_repo(monkeypatch):
+    from radar_core.pipeline import _connector_config
+    from radar_core.registry import load_registry
+
+    monkeypatch.setenv("GITHUB_TOKEN", "test-token")
+    registry = load_registry(WAY_ROOT)
+    task = next(task for task in registry.tasks if task.source_id == "docs.dspy")
+    config = _connector_config(task.to_source_spec(), "github_tree")
+    assert config["repo"] == "stanfordnlp/dspy"
+    assert config["path_prefix"].startswith("docs")
+    assert config["token"] == "test-token"
+
+
 def test_docs_connector_config_maps_official_html_listing_url():
     from radar_core.source_audit import SourceAuditRow
     from scripts.verify_all_sources import _docs_connector_config

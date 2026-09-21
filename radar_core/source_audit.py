@@ -53,6 +53,8 @@ def _radar_rows(root: Path) -> list[SourceAuditRow]:
     rows: list[SourceAuditRow] = []
     for declaration in _source_declarations(registry):
         source = declaration["source"]
+        if source.id.startswith(("docs.", "wiki.")):
+            continue
         rows.append(
             SourceAuditRow(
                 source_id=source.id,

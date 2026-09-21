@@ -8,6 +8,7 @@ from urllib.parse import urljoin, urlsplit
 from ..hashing import sha256_structured
 from ..ids import canonicalize_url
 from .base import (
+    ConnectorError,
     Cursor,
     DiscoveredItem,
     DiscoveryPage,
@@ -91,6 +92,13 @@ class HTMLCollectionConnector(HttpConnector):
                 listing_cursors[key] = child_cursor.to_dict()
             else:
                 discovered = self._parse_listing(listing_url, response.text)
+                for payload in discovered:
+                    revision, etag, last_modified = self._probe_item_revision(
+                        str(payload.get("url") or "")
+                    )
+                    payload["remote_revision"] = revision
+                    payload["remote_etag"] = etag
+                    payload["remote_last_modified"] = last_modified
                 listing_cursors[key] = self._cursor(
                     response,
                     metadata={"listing_url": listing_url},
@@ -164,6 +172,22 @@ class HTMLCollectionConnector(HttpConnector):
             last_modified=_header(response.headers, "Last-Modified"),
             metadata=dict(item.metadata),
         )
+
+    def _probe_item_revision(
+        self, url: str
+    ) -> tuple[str, str | None, str | None]:
+        fallback = url
+        if not url:
+            return fallback, None, None
+        try:
+            response = self._request(url, method="HEAD")
+        except ConnectorError:
+            return fallback, None, None
+        if response.status_code == 304 or response.status_code >= 400:
+            return fallback, None, None
+        etag = _header(response.headers, "ETag")
+        last_modified = _header(response.headers, "Last-Modified")
+        return etag or last_modified or fallback, etag, last_modified
 
     def _parse_listing(self, listing_url: str, body: str) -> list[dict[str, Any]]:
         parser = _AnchorParser()

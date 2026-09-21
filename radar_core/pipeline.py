@@ -2,12 +2,14 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field, replace
 from datetime import datetime, timezone
+import os
 import time
 from pathlib import Path
 from typing import Any, Callable, Literal, Mapping
 
 from .connectors.base import (
     Connector,
+    ConnectorError,
     ConnectorFactory,
     Cursor,
     DiscoveredItem,
@@ -252,8 +254,11 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
     )
 
     items_by_id = {item.native_id: item for item in page.items}
+    pending = list(selected_rows)
+    deferred_queue = list(deferred_rows)
 
-    for row in selected_rows:
+    while pending:
+        row = pending.pop(0)
         item = items_by_id.get(row["item_id"])
         if item is None:
             # Spec §3.1: after a 304 the discovery page may be empty, but
@@ -295,6 +300,24 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
                     result.translated_content_ids.append(revision.content_id)
             _mark_item_fetched(source, item, context)
         except Exception as exc:  # noqa: BLE001
+            unfetchable = _unfetchable_status(exc)
+            if unfetchable:
+                context.state.upsert_source_item(
+                    {
+                        "source_id": source.id,
+                        "item_id": row["item_id"],
+                        "canonical_url": row.get("canonical_url") or item.url,
+                        "remote_revision": row.get("remote_revision"),
+                        "remote_etag": row.get("remote_etag"),
+                        "remote_last_modified": row.get("remote_last_modified"),
+                        "status": unfetchable,
+                    }
+                )
+                if deferred_queue and result.fetched < max_new_items:
+                    pending.append(deferred_queue.pop(0))
+                    result.selected += 1
+                    result.deferred = max(0, result.deferred - 1)
+                continue
             result.failed += 1
             result.errors.append(
                 f"{item.native_id or item.url}: {_safe_error(exc)}"
@@ -698,10 +721,35 @@ def _connector_config(source: SourceSpec, adapter: str) -> dict[str, Any]:
             "locator": source.locator,
         }
     )
+    token = str(
+        config.get("token")
+        or os.environ.get("GITHUB_TOKEN")
+        or os.environ.get("GH_TOKEN")
+        or ""
+    ).strip()
+    if token:
+        config["token"] = token
+    owner = str(config.get("github_owner") or "").strip()
+    repo_name = str(config.get("github_repo") or "").strip()
+    if owner and repo_name:
+        config.setdefault("repo", f"{owner}/{repo_name}")
+    if not str(config.get("ref") or "").strip():
+        branch = str(config.get("github_branch") or config.get("branch") or "").strip()
+        if branch:
+            config["ref"] = branch
+    if not str(config.get("path_prefix") or "").strip():
+        prefix = str(config.get("github_docs_prefix") or "").strip()
+        if prefix:
+            config["path_prefix"] = prefix
     if adapter in {"rss", "rss_article"}:
         config.setdefault("feed_url", source.locator)
     elif adapter in {"llms_txt", "deepwiki"}:
         config.setdefault("url", source.locator)
+    elif adapter in {"html_collection", "static_pages"}:
+        config.setdefault("listing_url", source.locator)
+        config.setdefault("url", source.locator)
+    elif adapter == "github_tree":
+        config.setdefault("repo", source.locator)
     return config
 
 
@@ -736,6 +784,17 @@ def _commit_source_registration(source: SourceSpec, context: RunContext) -> None
 def _safe_error(error: Exception) -> str:
     message = str(error).strip()
     return message[:500] or type(error).__name__
+
+
+def _unfetchable_status(error: Exception) -> str | None:
+    if not isinstance(error, ConnectorError):
+        return None
+    message = str(error)
+    if "HTTP 404" in message or "HTTP 410" in message:
+        return "missing"
+    if "response size exceeds" in message:
+        return "blocked"
+    return None
 
 
 __all__ = [

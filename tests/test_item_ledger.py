@@ -28,6 +28,32 @@ def test_select_items_max_new_items_nonpositive_selects_nothing():
     assert [row["item_id"] for row in deferred] == ["b", "c"]
 
 
+def test_select_items_skips_missing_and_blocked_rows():
+    rows = [
+        {
+            "item_id": "gone",
+            "remote_revision": "1",
+            "fetched_revision": None,
+            "status": "missing",
+        },
+        {
+            "item_id": "blocked",
+            "remote_revision": "2",
+            "fetched_revision": None,
+            "status": "blocked",
+        },
+        {
+            "item_id": "fresh",
+            "remote_revision": "3",
+            "fetched_revision": None,
+            "status": "seen",
+        },
+    ]
+    selected, deferred = select_items(rows, max_new_items=10)
+    assert [row["item_id"] for row in selected] == ["fresh"]
+    assert deferred == []
+
+
 def test_baseline_initialized_is_sticky(tmp_path: Path):
     state = StateStore.open(tmp_path / "state.sqlite3")
     assert state.baseline_initialized("source.demo") is False
