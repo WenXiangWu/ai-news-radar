@@ -76,17 +76,19 @@ class RSSArticleConnector(HttpConnector):
                 url = canonicalize_url(self.feed_url) or self.feed_url
             title = _entry_text(entry, "title") or native_id
             summary = _entry_content(entry)
-            # Prefer published then updated: feedparser aliases pubDate onto
-            # updated and warns when updated is read first (issue 310).
-            published = _entry_text(entry, "published", "updated")
-            remote_revision = published or feed_etag or feed_last_modified or None
+            # Spec order: updated|published|etag|Last-Modified.
+            updated = _entry_text(entry, "updated")
+            published = _entry_text(entry, "published")
+            remote_revision = (
+                updated or published or feed_etag or feed_last_modified or None
+            )
             items.append(
                 DiscoveredItem(
                     source_id=self.source_id,
                     native_id=native_id,
                     url=url,
                     title=title,
-                    published_at=published or None,
+                    published_at=published or updated or None,
                     content_type=(
                         "text/html"
                         if "<" in summary and ">" in summary

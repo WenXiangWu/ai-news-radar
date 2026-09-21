@@ -894,6 +894,53 @@ def test_rss_article_emits_guid_item_id_and_published_remote_revision():
     assert all(item.has_remote_validator for item in page.items)
 
 
+def test_rss_atom_entry_prefers_updated_over_published_for_remote_revision():
+    """remote_revision order is updated|published|etag (Atom when both differ)."""
+    feed_url = "https://news.example.test/atom.xml"
+    atom = b"""<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Atom</title>
+  <id>https://news.example.test/</id>
+  <updated>2026-09-15T12:00:00Z</updated>
+  <entry>
+    <title>Updated after publish</title>
+    <id>atom-entry-one</id>
+    <link href="https://news.example.test/articles/atom-one"/>
+    <published>2026-09-10T08:00:00Z</published>
+    <updated>2026-09-15T11:30:00Z</updated>
+    <summary>Atom entry with distinct updated and published.</summary>
+  </entry>
+</feed>"""
+    transport = FixtureTransport(
+        {
+            feed_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "application/atom+xml",
+                    "ETag": '"atom-v1"',
+                },
+                body=atom,
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "rss_article",
+        {
+            "source_id": "source.rss.atom",
+            "feed_url": feed_url,
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert len(page.items) == 1
+    assert page.items[0].native_id == "atom-entry-one"
+    # Must follow updated, not published, when both are present and differ.
+    assert page.items[0].remote_revision == "2026-09-15T11:30:00Z"
+    assert page.items[0].remote_revision != "2026-09-10T08:00:00Z"
+
+
 def test_rss_feed_without_item_identity_is_unsupported():
     feed_url = "https://news.example.test/anonymous.xml"
     anonymous = b"""<?xml version="1.0"?>
