@@ -79,6 +79,17 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--state", required=True)
     parser.add_argument("--report", required=True)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--skip-translation",
+        action="store_true",
+        help="Fetch and normalize only; never call DeepSeek or Google Translate",
+    )
+    parser.add_argument(
+        "--max-new-items",
+        type=int,
+        default=None,
+        help="Override registry max_new_items for this run",
+    )
     parser.add_argument("--now", default="")
     parser.add_argument("--only-source", default="")
     parser.add_argument("--only-module", default="")
@@ -193,10 +204,12 @@ def main(argv: list[str] | None = None) -> int:
             state=state,
             run_id=run_id,
             target_locales=config.target_locales,
-            router=_router(config),
+            router=_router(config, skip_translation=args.skip_translation),
             now=now,
             dry_run=args.dry_run,
             mode=run_mode,
+            skip_translation=args.skip_translation,
+            max_new_items_override=args.max_new_items,
         )
         for index, operation in enumerate(operations):
             baseline_before = _baseline_snapshot(state, operation.source_id)
@@ -394,7 +407,9 @@ def main(argv: list[str] | None = None) -> int:
         state.close()
 
 
-def _router(config: RuntimeConfig) -> TranslationRouter:
+def _router(config: RuntimeConfig, *, skip_translation: bool = False) -> Any:
+    if skip_translation:
+        return _DisabledTranslationRouter()
     return TranslationRouter(
         deepseek=DeepSeekProvider(
             api_key=config.deepseek_api_key,
@@ -407,6 +422,14 @@ def _router(config: RuntimeConfig) -> TranslationRouter:
             timeout_seconds=config.http_timeout_seconds,
         ),
     )
+
+
+class _DisabledTranslationRouter:
+    def provider_order(self) -> tuple[str, ...]:
+        return ()
+
+    def translate(self, request: Any) -> Any:
+        raise RuntimeError("translation disabled by --skip-translation")
 
 
 def _parse_now(value: str) -> datetime:

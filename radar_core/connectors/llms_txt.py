@@ -6,6 +6,7 @@ from urllib.parse import urljoin
 
 from ..ids import canonicalize_url
 from .base import (
+    ConnectorError,
     Cursor,
     DiscoveredItem,
     DiscoveryPage,
@@ -35,6 +36,7 @@ class LLMSTxtConnector(HttpConnector):
         ).strip()
         if not self.llms_url:
             self._configuration_error = "requires llms_url or url"
+        self._drop_re = _compile_pattern(self.config.get("drop_re"))
 
     def discover(self, cursor: Cursor) -> DiscoveryPage:
         if not self.llms_url:
@@ -72,6 +74,8 @@ class LLMSTxtConnector(HttpConnector):
         for title, raw_url in _MARKDOWN_LINK_RE.findall(body):
             url = canonicalize_url(urljoin(self.llms_url, raw_url))
             if not url or url in seen:
+                continue
+            if self._drop_re and self._drop_re.search(url):
                 continue
             seen.add(url)
             items.append(
@@ -128,19 +132,31 @@ class LLMSTxtConnector(HttpConnector):
                 metadata=dict(item.metadata),
             )
 
-        response = self._request(
-            item.url,
-            Cursor(
-                etag=_optional_text(item.metadata.get("etag")),
-                last_modified=_optional_text(item.metadata.get("last_modified")),
-            ),
-            expected_content_types=(
-                "text/plain",
-                "text/markdown",
-                "text/html",
-                "application/json",
-            ),
+        cursor = Cursor(
+            etag=_optional_text(item.metadata.get("etag")),
+            last_modified=_optional_text(item.metadata.get("last_modified")),
         )
+        expected_content_types = (
+            "text/plain",
+            "text/markdown",
+            "text/html",
+            "application/json",
+        )
+        try:
+            response = self._request(
+                item.url,
+                cursor,
+                expected_content_types=expected_content_types,
+            )
+        except ConnectorError:
+            fallback_url = _directory_markdown_url(item.url)
+            if not fallback_url:
+                raise
+            response = self._request(
+                fallback_url,
+                cursor,
+                expected_content_types=expected_content_types,
+            )
         if response.status_code == 304:
             raise ValueError(f"{self.adapter_name} document was not modified without a body")
         return RawDocument(
@@ -174,3 +190,14 @@ def _optional_text(value: Any) -> str | None:
         return None
     text = str(value).strip()
     return text or None
+
+
+def _compile_pattern(value: Any) -> re.Pattern[str] | None:
+    text = str(value or "").strip()
+    return re.compile(text) if text else None
+
+
+def _directory_markdown_url(url: str) -> str | None:
+    if not url.endswith(".md") or url.endswith("/.md") or url.endswith("/index.md"):
+        return None
+    return f"{url[:-3]}/.md"

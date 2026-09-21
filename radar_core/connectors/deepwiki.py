@@ -36,9 +36,7 @@ class DeepWikiConnector(HttpConnector):
         super().__init__(config)
         self.wiki_url = _deepwiki_url(self.config)
         self.github_repo = _github_repo(self.config)
-        self.github_ref = str(
-            self.config.get("ref") or self.config.get("branch") or "main"
-        ).strip()
+        self.github_ref = _github_ref(self.config)
         if self.github_repo:
             self.incremental_class = "revision-native"
             self._github = GitHubTreeConnector(
@@ -73,6 +71,7 @@ class DeepWikiConnector(HttpConnector):
 
     def _discover_via_github(self, current: Cursor) -> DiscoveryPage:
         github_page = self._github.discover(current)
+        self.github_ref = self._github.ref or self.github_ref
         if github_page.metadata.get("not_modified"):
             return DiscoveryPage(
                 items=[],
@@ -487,6 +486,36 @@ def _github_repo(config: Mapping[str, Any]) -> str:
                     nested_source.get("repo"),
                 ):
                     value = str(candidate or "").strip().strip("/")
+                    if value:
+                        return value
+    return ""
+
+
+def _github_ref(config: Mapping[str, Any]) -> str:
+    for candidate in (
+        config.get("ref"),
+        config.get("branch"),
+    ):
+        value = str(candidate or "").strip()
+        if value:
+            return value
+    for key in ("source", "task"):
+        nested = config.get(key)
+        if isinstance(nested, Mapping):
+            for candidate in (
+                nested.get("ref"),
+                nested.get("branch"),
+            ):
+                value = str(candidate or "").strip()
+                if value:
+                    return value
+            nested_source = nested.get("source")
+            if isinstance(nested_source, Mapping):
+                for candidate in (
+                    nested_source.get("ref"),
+                    nested_source.get("branch"),
+                ):
+                    value = str(candidate or "").strip()
                     if value:
                         return value
     return ""

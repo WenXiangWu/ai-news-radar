@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from html.parser import HTMLParser
 from typing import Any, Mapping
 from urllib.parse import urljoin, urlsplit
@@ -20,6 +21,7 @@ class HTMLCollectionConnector(HttpConnector):
     """Discover article links from one or more declared HTML listing pages."""
 
     adapter_name = "html_collection"
+    incremental_class = "revision-native"
 
     def __init__(self, config: Mapping[str, Any] | None = None):
         super().__init__(config)
@@ -51,6 +53,8 @@ class HTMLCollectionConnector(HttpConnector):
             )
         else:
             self.exclude_prefixes = ()
+        drop_re = str(self.config.get("drop_re") or "").strip()
+        self._drop_re = re.compile(drop_re) if drop_re else None
         try:
             self.max_items = max(0, int(self.config.get("max_items", 0)))
         except (TypeError, ValueError):
@@ -182,6 +186,8 @@ class HTMLCollectionConnector(HttpConnector):
                 continue
             if any(path.startswith(prefix) for prefix in self.exclude_prefixes):
                 continue
+            if self._drop_re and self._drop_re.search(url):
+                continue
             listing_path = urlsplit(listing_url).path.rstrip("/")
             if path.rstrip("/") == listing_path:
                 continue
@@ -191,6 +197,7 @@ class HTMLCollectionConnector(HttpConnector):
                     "native_id": url,
                     "url": url,
                     "title": " ".join(title.split()) or path.rsplit("/", 1)[-1],
+                    "remote_revision": url,
                 }
             )
         return found
@@ -231,6 +238,9 @@ def _item_payload(item: DiscoveredItem) -> dict[str, Any]:
         "title": item.title,
         "published_at": item.published_at,
         "content_type": item.content_type,
+        "remote_revision": item.remote_revision,
+        "remote_etag": item.remote_etag,
+        "remote_last_modified": item.remote_last_modified,
         "metadata": dict(item.metadata),
     }
 
@@ -243,17 +253,21 @@ def _item_from_payload(
 ) -> DiscoveredItem:
     metadata = dict(payload.get("metadata") or {})
     metadata["listing_index"] = listing_index
+    url = str(payload.get("url") or "")
     return DiscoveredItem(
         source_id=source_id,
-        native_id=str(payload.get("native_id") or payload.get("url") or ""),
-        url=str(payload.get("url") or ""),
-        title=str(payload.get("title") or payload.get("url") or ""),
+        native_id=str(payload.get("native_id") or url or ""),
+        url=url,
+        title=str(payload.get("title") or url or ""),
         published_at=(
             str(payload.get("published_at"))
             if payload.get("published_at")
             else None
         ),
         content_type=str(payload.get("content_type") or "text/html"),
+        remote_revision=_optional_text(payload.get("remote_revision")) or url or None,
+        remote_etag=_optional_text(payload.get("remote_etag")),
+        remote_last_modified=_optional_text(payload.get("remote_last_modified")),
         metadata=metadata,
     )
 

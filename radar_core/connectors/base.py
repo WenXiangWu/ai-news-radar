@@ -338,9 +338,11 @@ class HttpConnector(BaseConnector):
         *,
         expected_content_types: Sequence[str] = (),
         extra_headers: Mapping[str, str] | None = None,
+        method: str = "GET",
     ) -> HttpResponse:
         _ensure_http_url(url)
         current_cursor = Cursor.coerce(cursor)
+        verb = str(method or "GET").upper() or "GET"
         headers = {
             "Accept": ", ".join(expected_content_types) or "*/*",
             "User-Agent": str(
@@ -355,7 +357,7 @@ class HttpConnector(BaseConnector):
             headers.update({str(key): str(value) for key, value in extra_headers.items()})
 
         for attempt in range(self.max_retries + 1):
-            response = self._call_transport("GET", url, headers)
+            response = self._call_transport(verb, url, headers)
             if (
                 response.status_code in RETRYABLE_STATUS_CODES
                 and attempt < self.max_retries

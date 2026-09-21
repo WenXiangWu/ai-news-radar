@@ -261,6 +261,89 @@ def test_llms_txt_discovers_markdown_links_and_fetches_one():
     assert "install the example package" in document.body
 
 
+def test_llms_txt_drops_links_matching_drop_re():
+    llms_url = "https://docs.example.test/llms.txt"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "text/plain; charset=utf-8",
+                    "ETag": '"llms-v1"',
+                },
+                body=(
+                    "# Letta\n\n"
+                    "[macOS](https://download.letta.com/mac/zip/arm64)\n"
+                    "[Repo](https://github.com/letta-ai/letta)\n"
+                    "[Quickstart](https://docs.letta.com/quickstart/index.md)\n"
+                ).encode("utf-8"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "docs.letta",
+            "url": llms_url,
+            "drop_re": r"download\.letta\.com|github\.com",
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert [item.url for item in page.items] == [
+        "https://docs.letta.com/quickstart/index.md"
+    ]
+
+
+def test_llms_txt_retries_directory_markdown_on_404():
+    llms_url = "https://www.comet.com/docs/opik/llms.txt"
+    missing_url = "https://www.comet.com/docs/opik.md"
+    fallback_url = "https://www.comet.com/docs/opik/.md"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "text/plain; charset=utf-8",
+                    "ETag": '"llms-v1"',
+                },
+                body=b"# Opik\n\n- [Home](https://www.comet.com/docs/opik.md)\n",
+            ),
+            missing_url: HttpResponse(
+                status_code=404,
+                headers={"Content-Type": "text/plain"},
+                body=b"not found",
+            ),
+            fallback_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/markdown; charset=utf-8"},
+                body=b"# Opik home\n",
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "docs.opik",
+            "url": llms_url,
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+    document = connector.fetch(page.items[0])
+
+    assert page.items[0].url == missing_url
+    assert document.body == "# Opik home\n"
+    assert [call["url"] for call in transport.calls] == [
+        llms_url,
+        missing_url,
+        fallback_url,
+    ]
+
+
 def test_github_tree_discovers_markdown_blobs_and_fetches_raw_content():
     tree_url = "https://api.github.test/repos/example/docs/git/trees/main?recursive=1"
     raw_url = "https://raw.github.test/example/docs/main/README.md"
@@ -307,6 +390,54 @@ def test_github_tree_discovers_markdown_blobs_and_fetches_raw_content():
     assert "Example project" in document.body
 
 
+def test_github_tree_discovers_adoc_when_extensions_include_it():
+    tree_url = "https://api.github.test/repos/spring-projects/spring-ai/git/trees/main?recursive=1"
+    transport = FixtureTransport(
+        {
+            tree_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "application/json"},
+                body=json.dumps(
+                    {
+                        "sha": "tree-adoc-v1",
+                        "tree": [
+                            {
+                                "path": "pages/index.adoc",
+                                "mode": "100644",
+                                "type": "blob",
+                                "sha": "blob-adoc-v1",
+                                "download_url": "https://raw.github.test/spring-ai/pages/index.adoc",
+                            },
+                            {
+                                "path": "pages/ignored.md",
+                                "mode": "100644",
+                                "type": "blob",
+                                "sha": "blob-md-v1",
+                            },
+                        ],
+                    }
+                ).encode("utf-8"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "github_tree",
+        {
+            "source_id": "docs.spring-ai",
+            "tree_url": tree_url,
+            "repo": "spring-projects/spring-ai",
+            "ref": "main",
+            "extensions": [".adoc"],
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert [item.native_id for item in page.items] == ["pages/index.adoc"]
+    assert page.items[0].remote_revision == "blob-adoc-v1"
+
+
 def test_deepwiki_discovers_linked_pages_and_fetches_page_text():
     root_url = "https://deepwiki.example.test/example/project"
     page_url = "https://deepwiki.example.test/example/project/wiki/Overview"
@@ -345,11 +476,17 @@ def test_deepwiki_discovers_linked_pages_and_fetches_page_text():
 
 def test_deepwiki_accepts_nested_module_source_configuration():
     root_url = "https://deepwiki.example.test/example/project"
+    repo_url = "https://api.github.com/repos/example/project"
     tree_url = (
         "https://api.github.com/repos/example/project/git/trees/main?recursive=1"
     )
     transport = FixtureTransport(
         {
+            repo_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "application/vnd.github+json"},
+                body=b'{"default_branch":"main"}',
+            ),
             tree_url: HttpResponse(
                 status_code=200,
                 headers={
@@ -475,6 +612,40 @@ def test_html_collection_discovers_filtered_links_and_fetches_article():
     assert "fixture engineering article" in document.body
 
 
+def test_html_collection_drops_links_matching_drop_re():
+    listing_url = "https://github.com/facebookresearch/faiss/wiki"
+    keep_url = "https://github.com/facebookresearch/faiss/wiki/Home"
+    history_url = "https://github.com/facebookresearch/faiss/wiki/Home/_history"
+    transport = FixtureTransport(
+        {
+            listing_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/html; charset=utf-8"},
+                body=(
+                    "<html><body>"
+                    f'<a href="{history_url}">History</a>'
+                    f'<a href="{keep_url}">Home</a>'
+                    "</body></html>"
+                ).encode("utf-8"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "html_collection",
+        {
+            "source_id": "docs.faiss",
+            "listing_url": listing_url,
+            "link_prefixes": ["/facebookresearch/faiss/wiki/"],
+            "drop_re": r"/_history$|_edit$|_pages$",
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert [item.url for item in page.items] == [keep_url]
+
+
 def test_static_pages_discovers_declared_pages_and_fetches_reader_url():
     public_url = "https://docs.example.test/guides/agents"
     fetch_url = "https://reader.example.test/guides/agents"
@@ -549,7 +720,12 @@ def test_static_pages_falls_back_to_public_url_when_reader_url_fails():
     document = connector.fetch(connector.discover(Cursor()).items[0])
 
     assert document.body == "<html><body>Public page fixture.</body></html>"
-    assert [call["url"] for call in transport.calls] == [fetch_url, public_url]
+    assert [call["url"] for call in transport.calls] == [
+        fetch_url,
+        fetch_url,
+        public_url,
+    ]
+    assert transport.calls[0]["method"] == "HEAD"
 
 
 def test_composite_connector_merges_child_sources_and_dispatches_fetch():

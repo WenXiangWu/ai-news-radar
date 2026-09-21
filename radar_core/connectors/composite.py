@@ -72,6 +72,9 @@ class CompositeConnector(BaseConnector):
                         title=item.title,
                         published_at=item.published_at,
                         content_type=item.content_type,
+                        remote_revision=item.remote_revision,
+                        remote_etag=item.remote_etag,
+                        remote_last_modified=item.remote_last_modified,
                         metadata=metadata,
                     )
                 )

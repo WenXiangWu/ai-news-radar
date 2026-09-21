@@ -510,6 +510,8 @@ def test_module_tasks_are_discovered_and_deepwiki_source_is_merged(
     assert deepseek_task.source["deepwiki"] == (
         "https://deepwiki.com/deepseek-ai/deepseek-harness"
     )
+    assert deepseek_task.source["ref"] == "master"
+    assert deepseek_task.source["github"] == "deepseek-ai/deepseek-harness"
     source = deepseek_task.to_source_spec()
     assert source.id == "source.framework.deepseek-harness"
     assert source.locator == "https://deepwiki.com/deepseek-ai/deepseek-harness"

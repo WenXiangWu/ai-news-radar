@@ -25,17 +25,18 @@ class GitHubTreeConnector(HttpConnector):
     def __init__(self, config: Mapping[str, Any] | None = None):
         super().__init__(config)
         self.repo = str(self.config.get("repo") or "").strip()
-        self.ref = str(self.config.get("ref") or "main").strip()
-        self.tree_url = str(
-            self.config.get("tree_url")
-            or self.config.get("api_url")
-            or self._default_tree_url()
+        self.ref = str(
+            self.config.get("ref") or self.config.get("branch") or ""
         ).strip()
-        if not self.tree_url:
+        self._explicit_tree_url = str(
+            self.config.get("tree_url") or self.config.get("api_url") or ""
+        ).strip()
+        self.tree_url = self._explicit_tree_url or self._default_tree_url()
+        if not self._explicit_tree_url and not self.repo:
             self._configuration_error = "requires tree_url or repo"
 
     def _default_tree_url(self) -> str:
-        if not self.repo:
+        if not self.repo or not self.ref:
             return ""
         return (
             "https://api.github.com/repos/"
@@ -43,7 +44,46 @@ class GitHubTreeConnector(HttpConnector):
             "?recursive=1"
         )
 
+    def _ensure_ref(self) -> None:
+        if self.ref:
+            if not self.tree_url:
+                self.tree_url = self._default_tree_url()
+            return
+        if self._explicit_tree_url:
+            return
+        if not self.repo:
+            raise ValueError(f"{self.adapter_name} requires tree_url or repo")
+        self.ref = self._resolve_default_branch()
+        self.tree_url = self._default_tree_url()
+
+    def _resolve_default_branch(self) -> str:
+        repo_url = (
+            "https://api.github.com/repos/"
+            f"{quote(self.repo, safe='/')}"
+        )
+        headers = {"Accept": "application/vnd.github+json"}
+        token = str(self.config.get("token") or "").strip()
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+        response = self._request(
+            repo_url,
+            expected_content_types=(
+                "application/json",
+                "application/vnd.github+json",
+                "text/plain",
+            ),
+            extra_headers=headers,
+        )
+        payload = parse_json_object(response.text, self.adapter_name)
+        branch = str(payload.get("default_branch") or "").strip()
+        if not branch:
+            raise ValueError(
+                f"{self.adapter_name} repo {self.repo} has no default_branch"
+            )
+        return branch
+
     def discover(self, cursor: Cursor) -> DiscoveryPage:
+        self._ensure_ref()
         if not self.tree_url:
             raise ValueError(f"{self.adapter_name} requires tree_url or repo")
         current = Cursor.coerce(cursor)

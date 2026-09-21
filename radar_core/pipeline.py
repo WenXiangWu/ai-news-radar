@@ -49,6 +49,8 @@ class RunContext:
     dry_run: bool = False
     glossary: Mapping[str, str] | None = None
     mode: RunMode = "incremental"
+    skip_translation: bool = False
+    max_new_items_override: int | None = None
 
     def __post_init__(self) -> None:
         self.target_locales = tuple(self.target_locales or ("zh-CN",))
@@ -238,7 +240,10 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
         _finish_result(result, started_clock)
         return result
 
-    max_new_items = _max_new_items(source)
+    max_new_items = _max_new_items(
+        source,
+        override=context.max_new_items_override,
+    )
     selected_rows, deferred_rows = select_items(ledger_rows, max_new_items=max_new_items)
     result.selected = len(selected_rows)
     result.deferred = len(deferred_rows)
@@ -486,12 +491,17 @@ def _connector_supports_incremental(
 DEFAULT_MAX_NEW_ITEMS = 50
 
 
-def _max_new_items(source: SourceSpec) -> int:
+def _max_new_items(source: SourceSpec, override: int | None = None) -> int:
     """Spec §3.5: `max_new_items` is a hard cap applied after selection.
     An *unset* (missing/None) value falls back to a positive default (50)
     so a normal schedule still selects changed items. An *explicit* 0 means
     the task does not fetch new bodies (index task) — changed items are
     deferred, not selected."""
+    if override is not None:
+        try:
+            return max(0, int(override))
+        except (TypeError, ValueError):
+            pass
     schedule = source.schedule if isinstance(source.schedule, Mapping) else {}
     if "max_new_items" not in schedule or schedule.get("max_new_items") is None:
         return DEFAULT_MAX_NEW_ITEMS
@@ -529,6 +539,8 @@ def _translate_revision(
     context: RunContext,
     result: SourceRunResult,
 ) -> bool:
+    if context.skip_translation:
+        return True
     request = TranslationRequest(
         text=document.body,
         source_locale="auto",

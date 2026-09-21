@@ -4,7 +4,6 @@ from typing import Any, Mapping
 
 from ..hashing import sha256_structured
 from .base import (
-    BaseConnector,
     ConnectorError,
     Cursor,
     DiscoveredItem,
@@ -19,6 +18,7 @@ class StaticPagesConnector(HttpConnector):
     """Fetch a bounded, explicitly registered list of documentation pages."""
 
     adapter_name = "static_pages"
+    incremental_class = "revision-native"
 
     def __init__(self, config: Mapping[str, Any] | None = None):
         super().__init__(config)
@@ -39,6 +39,8 @@ class StaticPagesConnector(HttpConnector):
             if not url:
                 raise ValueError(f"{self.adapter_name} page {index} requires url")
             native_id = str(page.get("id") or url).strip()
+            fetch_url = str(page.get("fetch_url") or url).strip()
+            revision, etag, last_modified = self._probe_page_revision(fetch_url or url)
             items.append(
                 DiscoveredItem(
                     source_id=self.source_id,
@@ -51,8 +53,11 @@ class StaticPagesConnector(HttpConnector):
                         else None
                     ),
                     content_type=str(page.get("content_type") or "text/html"),
+                    remote_revision=revision,
+                    remote_etag=etag,
+                    remote_last_modified=last_modified,
                     metadata={
-                        "fetch_url": str(page.get("fetch_url") or url).strip(),
+                        "fetch_url": fetch_url,
                         "page_index": index,
                     },
                 )
@@ -119,6 +124,18 @@ class StaticPagesConnector(HttpConnector):
             last_modified=_header(response.headers, "Last-Modified"),
             metadata=dict(item.metadata),
         )
+
+    def _probe_page_revision(
+        self, url: str
+    ) -> tuple[str, str | None, str | None]:
+        fallback = url
+        try:
+            response = self._request(url, method="HEAD")
+        except ConnectorError:
+            return fallback, None, None
+        etag = _header(response.headers, "ETag")
+        last_modified = _header(response.headers, "Last-Modified")
+        return etag or last_modified or fallback, etag, last_modified
 
 
 def _optional_text(value: Any) -> str | None:
