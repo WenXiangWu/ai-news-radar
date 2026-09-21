@@ -182,11 +182,14 @@ def test_publish_workflow_runs_the_radar_export_and_way_import():
     assert "reports/index.json" in workflow
     assert "RADAR_SCOPE" in workflow
     assert "--only-module" in workflow
+    # --force may appear as an optional flag, but must not be tied to request_id.
     assert "--force" in workflow
+    assert 'if [ -n "${RADAR_REQUEST_ID:-}" ]; then' not in workflow
+    assert "inputs.force_all" in workflow
     assert "radar-update-report.json" in workflow
     assert "source-validation.json" in workflow
     assert "radar_exit=0" in workflow
-    assert "failure report" in workflow
+    assert "report exists" in workflow or "continuing export" in workflow
     assert "radar-state.sqlite3" in workflow
     assert "RADAR_RUN_MAX_RUNTIME_MINUTES" in workflow
     assert "--max-runtime-minutes" in workflow

@@ -23,6 +23,16 @@ on:
         required: false
         default: ""
         type: string
+      force_all:
+        description: "Bypass Radar cron gates for due discovery (still incremental/baseline_only, not full fetch)"
+        required: false
+        default: false
+        type: boolean
+      bootstrap:
+        description: "Allow bootstrap fetch of new items on first run (default off; never auto-enabled by cron)"
+        required: false
+        default: false
+        type: boolean
       force_tikhub:
         description: "Force a paid TikHub refresh even before its normal interval"
         required: false
@@ -74,6 +84,8 @@ jobs:
           fi
 
       - name: Update data
+        timeout-minutes: 12
+        continue-on-error: true
         env:
           EMAIL_DIGEST_ENABLED: ${{ secrets.EMAIL_DIGEST_ENABLED || vars.EMAIL_DIGEST_ENABLED }}
           AGENTMAIL_API_KEY: ${{ secrets.AGENTMAIL_API_KEY }}
@@ -153,6 +165,8 @@ jobs:
           RADAR_SCOPE: ${{ inputs.scope || 'all' }}
           RADAR_TARGET_ID: ${{ inputs.target_id || '' }}
           RADAR_REQUEST_ID: ${{ inputs.request_id || '' }}
+          RADAR_FORCE_ALL: ${{ inputs.force_all && '1' || '' }}
+          RADAR_BOOTSTRAP: ${{ inputs.bootstrap && '1' || '' }}
         run: |
           if [ -z "$GITEE_TOKEN" ] || [ -z "$GITEE_REPO" ]; then
             echo "Skip Gitee publish: set secret GITEE_TOKEN and variable GITEE_REPO (owner/repo)"
@@ -191,98 +205,19 @@ jobs:
           elif [ "${RADAR_SCOPE:-all}" = "module" ] && [ -n "${RADAR_TARGET_ID:-}" ]; then
             radar_args+=(--only-module "$RADAR_TARGET_ID")
           fi
-          if [ -n "${RADAR_REQUEST_ID:-}" ]; then
+          if [ "${RADAR_FORCE_ALL:-}" = "1" ]; then
             radar_args+=(--force)
           fi
+          if [ "${RADAR_BOOTSTRAP:-}" = "1" ]; then
+            radar_args+=(--bootstrap)
+          fi
           python scripts/radar_run.py "${radar_args[@]}" || radar_exit=$?
+          if [ ! -f "$radar_report" ]; then
+            echo "::error::Radar run produced no report at $radar_report (exit=$radar_exit)"
+            exit "${radar_exit:-1}"
+          fi
           if [ "$radar_exit" -ne 0 ]; then
-            echo "::warning::Radar run failed or was partial; publishing the failure report and retaining the previous content bundle"
-            radar_content="$work/frontend/radar-content"
-            mkdir -p "$radar_content/reports" "$work/$dest"
-            python scripts/validate_registered_sources.py \
-              --target-root "$work" \
-              --state "$state_path" \
-              --report "$radar_content/source-validation.json" \
-              || true
-            python scripts/validate_radar_report.py \
-              --path "$radar_content/source-validation.json" \
-              --schema source-validation
-            if [ ! -f "$radar_content/content-registry.json" ]; then
-              printf '%s\n' '{"schema":"radar-content-registry/v1","content":[]}' \
-                > "$radar_content/content-registry.json"
-            fi
-            python scripts/build_radar_update_report.py \
-              --target-root "$work" \
-              --content-registry "$radar_content/content-registry.json" \
-              --run-report "$radar_report" \
-              --source-validation "$radar_content/source-validation.json" \
-              --out "$radar_content/radar-update-report.json"
-            run_id="$(python3 - "$radar_report" <<'PY'
-          import json
-          import sys
-          value = json.load(open(sys.argv[1], encoding="utf-8")).get("run_id")
-          if not value:
-              raise SystemExit("Radar run report has no run_id")
-          print(value)
-          PY
-            )"
-            cp "$radar_content/radar-update-report.json" \
-              "$radar_content/reports/$run_id.json"
-            cp "$radar_content/radar-update-report.json" \
-              "$radar_content/reports/$(date -u +%F).json"
-            cp "$radar_content/source-validation.json" \
-              "$radar_content/reports/$run_id-source-validation.json"
-            python scripts/build_radar_monitor_snapshot.py \
-              --target-root "$work" \
-              --run-report "$radar_report" \
-              --source-validation "$radar_content/source-validation.json" \
-              --update-report "$radar_content/radar-update-report.json" \
-              --out "$radar_content/radar-monitor.json" \
-              --reports-root "$radar_content/reports" \
-              --report-index-out "$radar_content/reports/index.json" \
-              --public-prefix /data \
-              --reports-prefix /data/radar-reports
-            python scripts/write_job_report.py \
-              --data-dir data \
-              --task-reports "$radar_report" \
-              --radar-update-report "$radar_content/radar-update-report.json" \
-              --radar-monitor "$radar_content/radar-monitor.json" \
-              --out data/job-report.json
-            mkdir -p data/radar-reports
-            cp "$radar_report" data/radar-run-report.json
-            cp "$radar_content/source-validation.json" data/source-validation.json
-            cp "$radar_content/radar-update-report.json" data/radar-update-report.json
-            cp "$radar_content/radar-monitor.json" data/radar-monitor.json
-            cp "$radar_content/reports/"*.json data/radar-reports/
-            cp "$radar_report" "$work/$dest/radar-run-report.json"
-            cp "$radar_content/source-validation.json" "$work/$dest/source-validation.json"
-            cp "$radar_content/radar-update-report.json" "$work/$dest/radar-update-report.json"
-            for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json job-report.json; do
-              if [ -f "data/$f" ]; then
-                cp "data/$f" "$work/$dest/$f"
-              fi
-            done
-            rm -f "$work/$dest/radar-monitor.json"
-            rm -f "$work/frontend/radar-content/radar-monitor.json"
-            rm -rf "$work/frontend/radar-content/reports"
-            git -C "$work" config user.name "github-actions[bot]"
-            git -C "$work" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git -C "$work" add "$dest" frontend/radar-content
-            if git -C "$work" diff --cached --quiet; then
-              echo "No report changes to publish after Radar failure"
-            else
-              git -C "$work" commit -m "chore: publish Radar failure report"
-              git -C "$work" push origin "HEAD:$branch"
-            fi
-            git add data/radar-monitor.json data/radar-update-report.json \
-              data/radar-run-report.json data/source-validation.json data/radar-reports
-            if git diff --cached --quiet; then
-              echo "No Radar monitor changes to publish after failure"
-            else
-              git commit -m "chore: publish Radar failure monitor"
-              git push
-            fi
-            exit "$radar_exit"
+            echo "::warning::Radar run failed or was partial (exit=$radar_exit); continuing export/import/push because the report exists"
           fi
           run_id="$(python3 - "$radar_report" <<'PY'
           import json

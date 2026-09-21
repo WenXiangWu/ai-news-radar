@@ -83,6 +83,17 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--only-source", default="")
     parser.add_argument("--only-module", default="")
     parser.add_argument("--force", action="store_true")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
+        "--baseline-only",
+        action="store_true",
+        help="Discover and write ledger only; no fetch/translate",
+    )
+    mode.add_argument(
+        "--bootstrap",
+        action="store_true",
+        help="Allow bootstrap fetch of new items (explicit only)",
+    )
     parser.add_argument(
         "--max-runtime-minutes",
         type=float,
@@ -172,6 +183,12 @@ def main(argv: list[str] | None = None) -> int:
                 if operation.task.module_id == args.only_module
             ]
 
+        if args.bootstrap:
+            run_mode = "bootstrap"
+        elif args.baseline_only:
+            run_mode = "baseline_only"
+        else:
+            run_mode = "incremental"
         context = RunContext(
             state=state,
             run_id=run_id,
@@ -179,6 +196,7 @@ def main(argv: list[str] | None = None) -> int:
             router=_router(config),
             now=now,
             dry_run=args.dry_run,
+            mode=run_mode,
         )
         for index, operation in enumerate(operations):
             baseline_before = _baseline_snapshot(state, operation.source_id)
