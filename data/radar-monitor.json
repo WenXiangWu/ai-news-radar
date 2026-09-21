@@ -1,0 +1,2828 @@
+{
+  "schema": "radar-monitor/v1",
+  "generated_at": "2026-09-21T22:03:33.329037+00:00",
+  "run": {
+    "run_id": "run-20260921T220047Z-68b13e9e",
+    "status": "success",
+    "started_at": "2026-09-21T22:00:47.396870+00:00",
+    "finished_at": "2026-09-21T22:03:32.258053+00:00",
+    "duration_ms": 164861,
+    "trigger_request_id": null,
+    "report_path": "/data/radar-run-report.json"
+  },
+  "summary": {
+    "modules": 84,
+    "sources": 31,
+    "enabled_sources": 29,
+    "healthy_sources": 29,
+    "failed_sources": 0,
+    "baseline_verified": 29,
+    "baseline_pending": 0,
+    "updated": 0,
+    "translated": 0
+  },
+  "providers": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "configured": true,
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com",
+      "status": "configured",
+      "success_count": 0,
+      "failure_count": 0,
+      "fallback_count": 0
+    },
+    {
+      "id": "google",
+      "name": "Google Translate",
+      "configured": true,
+      "model": "google-translate-gtx",
+      "base_url": "https://translate.googleapis.com/translate_a/single",
+      "status": "configured",
+      "success_count": 0,
+      "failure_count": 0,
+      "fallback_count": 0
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "docs.a2a",
+      "name": "A2A Protocol",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.a2a.sync"
+      ],
+      "source_ids": [
+        "docs.a2a"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.anthropic-skills",
+      "name": "Anthropic Skills",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.anthropic-skills.sync"
+      ],
+      "source_ids": [
+        "docs.anthropic-skills"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.autogen",
+      "name": "AutoGen / AG2",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.autogen.sync"
+      ],
+      "source_ids": [
+        "docs.autogen"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.chroma",
+      "name": "Chroma",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.chroma.sync"
+      ],
+      "source_ids": [
+        "docs.chroma"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.codex",
+      "name": "Codex",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.codex.sync"
+      ],
+      "source_ids": [
+        "docs.codex"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.codex-sdk",
+      "name": "Codex SDK",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.codex-sdk.sync"
+      ],
+      "source_ids": [
+        "docs.codex-sdk"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.crewai",
+      "name": "CrewAI",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.crewai.sync"
+      ],
+      "source_ids": [
+        "docs.crewai"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.cursor",
+      "name": "Cursor",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.cursor.sync"
+      ],
+      "source_ids": [
+        "docs.cursor"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.deepeval",
+      "name": "DeepEval",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.deepeval.sync"
+      ],
+      "source_ids": [
+        "docs.deepeval"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.dspy",
+      "name": "DSPy",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.dspy.sync"
+      ],
+      "source_ids": [
+        "docs.dspy"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.faiss",
+      "name": "FAISS",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.faiss.sync"
+      ],
+      "source_ids": [
+        "docs.faiss"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.fastmcp",
+      "name": "FastMCP",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.fastmcp.sync"
+      ],
+      "source_ids": [
+        "docs.fastmcp"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.guardrails-ai",
+      "name": "Guardrails AI",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.guardrails-ai.sync"
+      ],
+      "source_ids": [
+        "docs.guardrails-ai"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.guidance",
+      "name": "Guidance",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.guidance.sync"
+      ],
+      "source_ids": [
+        "docs.guidance"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.humanlayer",
+      "name": "HumanLayer",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.humanlayer.sync"
+      ],
+      "source_ids": [
+        "docs.humanlayer"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.instructor",
+      "name": "Instructor",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.instructor.sync"
+      ],
+      "source_ids": [
+        "docs.instructor"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.jarvis-registry",
+      "name": "Jarvis Registry",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.jarvis-registry.sync"
+      ],
+      "source_ids": [
+        "docs.jarvis-registry"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.langchain",
+      "name": "LangChain Docs",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.langchain.sync"
+      ],
+      "source_ids": [
+        "docs.langchain"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.langfuse",
+      "name": "Langfuse",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.langfuse.sync"
+      ],
+      "source_ids": [
+        "docs.langfuse"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.langsmith",
+      "name": "LangSmith",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.langsmith.sync"
+      ],
+      "source_ids": [
+        "docs.langsmith"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.letta",
+      "name": "Letta",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.letta.sync"
+      ],
+      "source_ids": [
+        "docs.letta"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.llamaindex",
+      "name": "LlamaIndex",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.llamaindex.sync"
+      ],
+      "source_ids": [
+        "docs.llamaindex"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.mem0",
+      "name": "mem0",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.mem0.sync"
+      ],
+      "source_ids": [
+        "docs.mem0"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.microsoft-agent-framework",
+      "name": "Microsoft Agent Framework",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.microsoft-agent-framework.sync"
+      ],
+      "source_ids": [
+        "docs.microsoft-agent-framework"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.milvus",
+      "name": "Milvus",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.milvus.sync"
+      ],
+      "source_ids": [
+        "docs.milvus"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.neo4j-graphrag",
+      "name": "Neo4j GraphRAG",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.neo4j-graphrag.sync"
+      ],
+      "source_ids": [
+        "docs.neo4j-graphrag"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.ollama",
+      "name": "Ollama",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.ollama.sync"
+      ],
+      "source_ids": [
+        "docs.ollama"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.openai-agents-sdk.sync"
+      ],
+      "source_ids": [
+        "docs.openai-agents-sdk"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.opencode-sdk",
+      "name": "OpenCode SDK",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.opencode-sdk.sync"
+      ],
+      "source_ids": [
+        "docs.opencode-sdk"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.opik",
+      "name": "Opik",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.opik.sync"
+      ],
+      "source_ids": [
+        "docs.opik"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.pgvector",
+      "name": "pgvector",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.pgvector.sync"
+      ],
+      "source_ids": [
+        "docs.pgvector"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.phoenix",
+      "name": "Phoenix",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.phoenix.sync"
+      ],
+      "source_ids": [
+        "docs.phoenix"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.pi-sdk",
+      "name": "Pi SDK",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.pi-sdk.sync"
+      ],
+      "source_ids": [
+        "docs.pi-sdk"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.pinecone",
+      "name": "Pinecone",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.pinecone.sync"
+      ],
+      "source_ids": [
+        "docs.pinecone"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.pydantic-ai",
+      "name": "PydanticAI",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.pydantic-ai.sync"
+      ],
+      "source_ids": [
+        "docs.pydantic-ai"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.qdrant",
+      "name": "Qdrant",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.qdrant.sync"
+      ],
+      "source_ids": [
+        "docs.qdrant"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.ragas",
+      "name": "Ragas",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.ragas.sync"
+      ],
+      "source_ids": [
+        "docs.ragas"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.ragflow",
+      "name": "RAGFlow",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.ragflow.sync"
+      ],
+      "source_ids": [
+        "docs.ragflow"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.spring-ai",
+      "name": "Spring AI",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.spring-ai.sync"
+      ],
+      "source_ids": [
+        "docs.spring-ai"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "docs.weaviate",
+      "name": "Weaviate",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.docs.weaviate.sync"
+      ],
+      "source_ids": [
+        "docs.weaviate"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "framework.app-platform.editorial",
+      "name": "App Platform editorial overview",
+      "kind": "framework",
+      "enabled": true,
+      "target_path": "frontend/path/frameworks/14-app-platform",
+      "status": "not_due",
+      "task_ids": [
+        "task.framework.app-platform.editorial.ownership"
+      ],
+      "source_ids": [
+        "source.framework.app-platform.editorial"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "framework.cordis",
+      "name": "Cordis",
+      "kind": "framework",
+      "enabled": true,
+      "target_path": "frontend/path/frameworks/02-agent-runtime/deepseek-harness/cordis",
+      "status": "success",
+      "task_ids": [
+        "task.framework.cordis.index",
+        "task.framework.cordis.wiki"
+      ],
+      "source_ids": [
+        "source.framework.cordis"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "framework.deepseek-harness",
+      "name": "DeepSeek Harness",
+      "kind": "framework",
+      "enabled": true,
+      "target_path": "frontend/path/frameworks/02-agent-runtime/deepseek-harness",
+      "status": "success",
+      "task_ids": [
+        "task.framework.deepseek-harness.index",
+        "task.framework.deepseek-harness.wiki"
+      ],
+      "source_ids": [
+        "source.framework.deepseek-harness"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.anthropic.cookbook",
+      "name": "Claude Cookbook",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.anthropic.cookbook.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.anthropic.cookbook"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.anthropic.docs",
+      "name": "Anthropic Docs",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.anthropic.docs.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.anthropic.docs"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.anthropic.engineering",
+      "name": "Anthropic Engineering",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.anthropic.engineering.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.anthropic.engineering"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.langchain.blog",
+      "name": "LangChain Blog",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.langchain.blog.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.langchain.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.langchain.langgraph",
+      "name": "LangGraph Docs",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.langchain.langgraph.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.langchain.langgraph"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.llamaindex.docs",
+      "name": "LlamaIndex Docs",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.llamaindex.docs.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.llamaindex.docs"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.mcp.docs",
+      "name": "MCP Docs",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.mcp.docs.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.mcp.docs"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.openai.cookbook",
+      "name": "OpenAI Cookbook",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.openai.cookbook.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.openai.cookbook"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "knowledge.openai.docs",
+      "name": "OpenAI Docs",
+      "kind": "knowledge",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.knowledge.openai.docs.sync"
+      ],
+      "source_ids": [
+        "source.knowledge.openai.docs"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.anthropic.news",
+      "name": "Anthropic News",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.anthropic.news.sync"
+      ],
+      "source_ids": [
+        "source.anthropic.news"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.chip-huyen.blog",
+      "name": "Chip Huyen",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.chip-huyen.blog.sync"
+      ],
+      "source_ids": [
+        "source.chip-huyen.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.coding-tools",
+      "name": "AI Coding Tools catalogs",
+      "kind": "source",
+      "enabled": true,
+      "target_path": "frontend/path/coding-tools",
+      "status": "success",
+      "task_ids": [
+        "task.source.coding-tools.catalog"
+      ],
+      "source_ids": [
+        "source.coding-tools"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.deepmind.blog",
+      "name": "Google DeepMind Blog",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.deepmind.blog.sync"
+      ],
+      "source_ids": [
+        "source.deepmind.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.eugene-yan.blog",
+      "name": "Eugene Yan",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.eugene-yan.blog.sync"
+      ],
+      "source_ids": [
+        "source.eugene-yan.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.example.official-blog",
+      "name": "Example Official Blog",
+      "kind": "source",
+      "enabled": false,
+      "target_path": null,
+      "status": "disabled",
+      "task_ids": [],
+      "source_ids": [
+        "source.example.official-blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.google.research",
+      "name": "Google Research Blog",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.google.research.sync"
+      ],
+      "source_ids": [
+        "source.google.research"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.hamel.blog",
+      "name": "Hamel Husain",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.hamel.blog.sync"
+      ],
+      "source_ids": [
+        "source.hamel.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.huggingface.blog",
+      "name": "Hugging Face Blog",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.huggingface.blog.sync"
+      ],
+      "source_ids": [
+        "source.huggingface.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.interconnects.blog",
+      "name": "Interconnects",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.interconnects.blog.sync"
+      ],
+      "source_ids": [
+        "source.interconnects.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.jxnl.blog",
+      "name": "Jason Liu",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.jxnl.blog.sync"
+      ],
+      "source_ids": [
+        "source.jxnl.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.latent-space.blog",
+      "name": "Latent Space",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.latent-space.blog.sync"
+      ],
+      "source_ids": [
+        "source.latent-space.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.lilian-weng.blog",
+      "name": "Lilian Weng",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.lilian-weng.blog.sync"
+      ],
+      "source_ids": [
+        "source.lilian-weng.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.microsoft.foundry",
+      "name": "Azure AI Foundry Blog",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.microsoft.foundry.sync"
+      ],
+      "source_ids": [
+        "source.microsoft.foundry"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.nvidia.blog",
+      "name": "NVIDIA Developer Blog",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.nvidia.blog.sync"
+      ],
+      "source_ids": [
+        "source.nvidia.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.openai.news",
+      "name": "OpenAI News",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.openai.news.sync"
+      ],
+      "source_ids": [
+        "source.openai.news"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.qdrant.editorial",
+      "name": "Qdrant Blog and Articles catalog",
+      "kind": "source",
+      "enabled": true,
+      "target_path": "frontend/sources/qdrant",
+      "status": "success",
+      "task_ids": [
+        "task.source.qdrant.editorial.catalog"
+      ],
+      "source_ids": [
+        "source.qdrant.editorial"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.qwen.blog",
+      "name": "Qwen Blog",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.qwen.blog.sync"
+      ],
+      "source_ids": [
+        "source.qwen.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "source.simon-willison.blog",
+      "name": "Simon Willison",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "success",
+      "task_ids": [
+        "task.source.simon-willison.blog.sync"
+      ],
+      "source_ids": [
+        "source.simon-willison.blog"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.chroma",
+      "name": "Chroma",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.chroma.sync"
+      ],
+      "source_ids": [
+        "wiki.chroma"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.crewai",
+      "name": "CrewAI",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.crewai.sync"
+      ],
+      "source_ids": [
+        "wiki.crewai"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.dspy",
+      "name": "DSPy",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.dspy.sync"
+      ],
+      "source_ids": [
+        "wiki.dspy"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.fastmcp",
+      "name": "FastMCP",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.fastmcp.sync"
+      ],
+      "source_ids": [
+        "wiki.fastmcp"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.jarvis-registry",
+      "name": "Jarvis Registry",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.jarvis-registry.sync"
+      ],
+      "source_ids": [
+        "wiki.jarvis-registry"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.langchain",
+      "name": "LangChain",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.langchain.sync"
+      ],
+      "source_ids": [
+        "wiki.langchain"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.langfuse",
+      "name": "Langfuse",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.langfuse.sync"
+      ],
+      "source_ids": [
+        "wiki.langfuse"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.langgraph",
+      "name": "LangGraph",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.langgraph.sync"
+      ],
+      "source_ids": [
+        "wiki.langgraph"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.llamaindex",
+      "name": "LlamaIndex",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.llamaindex.sync"
+      ],
+      "source_ids": [
+        "wiki.llamaindex"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.mem0",
+      "name": "mem0",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.mem0.sync"
+      ],
+      "source_ids": [
+        "wiki.mem0"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.openai-agents-sdk.sync"
+      ],
+      "source_ids": [
+        "wiki.openai-agents-sdk"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.pydantic-ai",
+      "name": "PydanticAI",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.pydantic-ai.sync"
+      ],
+      "source_ids": [
+        "wiki.pydantic-ai"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    },
+    {
+      "module_id": "wiki.qdrant",
+      "name": "Qdrant",
+      "kind": "source",
+      "enabled": true,
+      "target_path": null,
+      "status": "pending",
+      "task_ids": [
+        "task.wiki.qdrant.sync"
+      ],
+      "source_ids": [
+        "wiki.qdrant"
+      ],
+      "updated": 0,
+      "translated": 0,
+      "translation_links": [],
+      "errors": []
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source.anthropic.news",
+      "module_id": "source.anthropic.news",
+      "module_name": "Anthropic News",
+      "enabled": true,
+      "adapter": "html_collection",
+      "locator": "https://www.anthropic.com/news",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:44.401677+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "html_collection connector ready",
+        "checked_at": "2026-09-21T22:03:32.842972+00:00",
+        "latency_ms": 3,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "418ce711aa2bfa8aa750eb80f90b58aa3a147c3b701d28d734e78a6eb612b4f8",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 11,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.chip-huyen.blog",
+      "module_id": "source.chip-huyen.blog",
+      "module_name": "Chip Huyen",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://huyenchip.com/feed.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:45.031681+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.847030+00:00",
+        "latency_ms": 13,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "6e9a91dea7d15b25d1c24b0dbd691c3a65131b63339984825959d05815666d45",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 10,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.coding-tools",
+      "module_id": "source.coding-tools",
+      "module_name": "AI Coding Tools catalogs",
+      "enabled": true,
+      "adapter": "composite",
+      "locator": "https://cursor.com/changelog/rss.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 4 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_new_items": 0
+      },
+      "scheduled_at": "2026-09-22T04:17:00+08:00",
+      "next_run_at": "2026-09-23T04:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:46.417693+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "composite connector ready",
+        "checked_at": "2026-09-21T22:03:32.869456+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "ca1b4dee1b29c347df7ca03b353cf2576f33a3fe9f0c764009d2b7d0e78958f8",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 245,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.deepmind.blog",
+      "module_id": "source.deepmind.blog",
+      "module_name": "Google DeepMind Blog",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://deepmind.google/blog/rss.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:46.985558+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.860373+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "d47d10b93d20521273d11679f5b6658c2a5e4d9be6a93cff06d13f77c8449505",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 100,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.eugene-yan.blog",
+      "module_id": "source.eugene-yan.blog",
+      "module_name": "Eugene Yan",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://eugeneyan.com/rss/",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:47.404777+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.860515+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "57e60d64c5b744e442b5c75f0302b74569defa193702263d037f729ec8200fba",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 212,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.example.official-blog",
+      "module_id": "source.example.official-blog",
+      "module_name": "Example Official Blog",
+      "enabled": false,
+      "adapter": "rss_article",
+      "locator": "https://example.com/blog",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 4 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_items": 20
+      },
+      "scheduled_at": null,
+      "next_run_at": null,
+      "last_run_at": null,
+      "status": "disabled",
+      "reachability": {
+        "status": "unknown",
+        "message": "",
+        "checked_at": null,
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "unknown",
+        "fingerprint": null,
+        "cursor_status": "unknown",
+        "cursor_run_id": null
+      },
+      "metrics": {
+        "discovered": 0,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.framework.app-platform.editorial",
+      "module_id": "framework.app-platform.editorial",
+      "module_name": "App Platform editorial overview",
+      "enabled": false,
+      "adapter": "manual_editorial",
+      "locator": "",
+      "schedule": {
+        "enabled": false,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 5 * * *",
+        "retry_count": 0,
+        "max_runtime_minutes": 10,
+        "max_new_items": 0
+      },
+      "scheduled_at": null,
+      "next_run_at": null,
+      "last_run_at": null,
+      "status": "disabled",
+      "reachability": {
+        "status": "unknown",
+        "message": "",
+        "checked_at": null,
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "unknown",
+        "fingerprint": null,
+        "cursor_status": "unknown",
+        "cursor_run_id": null
+      },
+      "metrics": {
+        "discovered": 0,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.framework.cordis",
+      "module_id": "framework.cordis",
+      "module_name": "Cordis",
+      "enabled": true,
+      "adapter": "deepwiki",
+      "locator": "https://deepwiki.com/cordiverse/cordis",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 4 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_new_items": 50
+      },
+      "scheduled_at": "2026-09-22T04:57:00+08:00",
+      "next_run_at": "2026-09-23T04:57:00+08:00",
+      "last_run_at": "2026-09-21T22:03:32.868784+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "deepwiki connector ready",
+        "checked_at": "2026-09-21T22:03:32.868784+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "8e7738a88bbef21f5b3605573b835550c5f179ccfec3ddfc1c899f5fe24ab211",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 0,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.framework.deepseek-harness",
+      "module_id": "framework.deepseek-harness",
+      "module_name": "DeepSeek Harness",
+      "enabled": true,
+      "adapter": "deepwiki",
+      "locator": "https://deepwiki.com/deepseek-ai/deepseek-harness",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 3 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_new_items": 50
+      },
+      "scheduled_at": "2026-09-22T03:57:00+08:00",
+      "next_run_at": "2026-09-23T03:57:00+08:00",
+      "last_run_at": "2026-09-21T22:03:32.869336+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "deepwiki connector ready",
+        "checked_at": "2026-09-21T22:03:32.869336+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "89740dd1690df268009c57f7333dd4a28d4c71a878f363a201c2dcde7c38fc4f",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 0,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.google.research",
+      "module_id": "source.google.research",
+      "module_name": "Google Research Blog",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://research.google/blog/rss/",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:47.857611+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.860595+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "5c7a636884a1965a697dc416470328ea46495b8a58575c66500ac924dac34346",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 100,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.hamel.blog",
+      "module_id": "source.hamel.blog",
+      "module_name": "Hamel Husain",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://hamel.dev/index.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:48.269968+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.860663+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "1f498dca8138cca91bfa1a778f9764b833d4a80544b4e1bde65e5bb35167594d",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 20,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.huggingface.blog",
+      "module_id": "source.huggingface.blog",
+      "module_name": "Hugging Face Blog",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://huggingface.co/blog/feed.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:49.181956+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.860821+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "2b997b4f0e064bd64aaf4cdd750c7ab424689eb8a0bd1c8b7259544c21993f01",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 863,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.interconnects.blog",
+      "module_id": "source.interconnects.blog",
+      "module_name": "Interconnects",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://www.interconnects.ai/feed",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:49.554286+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.860896+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "11adb3d60dbc3665ba56968c377975bd293743a386b6209614b2f2e7314a3f79",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 20,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.jxnl.blog",
+      "module_id": "source.jxnl.blog",
+      "module_name": "Jason Liu",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://jxnl.co/feed_rss_created.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:49.764160+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.860984+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "a9dff22fc17fbb82d6afe534ea8f49c26c5ba50b87bf48d65d482773b69d7e1d",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 20,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.anthropic.cookbook",
+      "module_id": "knowledge.anthropic.cookbook",
+      "module_name": "Claude Cookbook",
+      "enabled": true,
+      "adapter": "html_collection",
+      "locator": "https://platform.claude.com/cookbook/",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:20.232360+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "html_collection connector ready",
+        "checked_at": "2026-09-21T22:03:32.861054+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "0f7db18bccdc1c622902797014f4a759483e69f2fee23258911c956331fde9d5",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 96,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.anthropic.docs",
+      "module_id": "knowledge.anthropic.docs",
+      "module_name": "Anthropic Docs",
+      "enabled": true,
+      "adapter": "static_pages",
+      "locator": "https://docs.anthropic.com/en/docs/intro-to-claude",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 */2 * * *"
+      },
+      "scheduled_at": "2026-09-22T04:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:25.291307+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "static_pages connector ready",
+        "checked_at": "2026-09-21T22:03:32.861402+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "7146a5bd7b6b3b025c7b0463a0c75aa4658407d5cd0f5d70252b759f411aeac8",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 8,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.anthropic.engineering",
+      "module_id": "knowledge.anthropic.engineering",
+      "module_name": "Anthropic Engineering",
+      "enabled": true,
+      "adapter": "html_collection",
+      "locator": "https://www.anthropic.com/engineering",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:30.270304+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "html_collection connector ready",
+        "checked_at": "2026-09-21T22:03:32.861690+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "aeb28e9a78d5787c9390d12a5005fcf787ba176675800104fc368ed08105fc23",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 25,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.langchain.blog",
+      "module_id": "knowledge.langchain.blog",
+      "module_name": "LangChain Blog",
+      "enabled": true,
+      "adapter": "html_collection",
+      "locator": "https://www.langchain.com/blog?8457a1db_page=1",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:36.636141+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "html_collection connector ready",
+        "checked_at": "2026-09-21T22:03:32.861847+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "1c69143a13545c5a42ba964f28d7d6f98552c5798446e0c2ee1b0c196fcc2f1e",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 48,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.langchain.langgraph",
+      "module_id": "knowledge.langchain.langgraph",
+      "module_name": "LangGraph Docs",
+      "enabled": true,
+      "adapter": "llms_txt",
+      "locator": "https://docs.langchain.com/oss/python/langgraph/llms.txt",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 */2 * * *"
+      },
+      "scheduled_at": "2026-09-22T04:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:37.004239+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "llms_txt connector ready",
+        "checked_at": "2026-09-21T22:03:32.862031+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "af4814157ab29b8d4677b134ea27db024c707d86136835edb5afb4507eb2ff5b",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 43,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.llamaindex.docs",
+      "module_id": "knowledge.llamaindex.docs",
+      "module_name": "LlamaIndex Docs",
+      "enabled": true,
+      "adapter": "llms_txt",
+      "locator": "https://developers.llamaindex.ai/llms.txt",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 */2 * * *"
+      },
+      "scheduled_at": "2026-09-22T04:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:37.190321+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "llms_txt connector ready",
+        "checked_at": "2026-09-21T22:03:32.862516+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "1014b1e510d15be11d35c831c2cfd74841118d5983b84a361bd5132c5c5a02dd",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 65,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.mcp.docs",
+      "module_id": "knowledge.mcp.docs",
+      "module_name": "MCP Docs",
+      "enabled": true,
+      "adapter": "llms_txt",
+      "locator": "https://modelcontextprotocol.io/llms.txt",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 */2 * * *"
+      },
+      "scheduled_at": "2026-09-22T04:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:37.627796+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "llms_txt connector ready",
+        "checked_at": "2026-09-21T22:03:32.862598+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "22f18f444db30f3c06e4fda4f63281eb2099b428e1d1f88c0f11d9615ec58309",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 347,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.openai.cookbook",
+      "module_id": "knowledge.openai.cookbook",
+      "module_name": "OpenAI Cookbook",
+      "enabled": true,
+      "adapter": "html_collection",
+      "locator": "https://developers.openai.com/cookbook",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:42.054278+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "html_collection connector ready",
+        "checked_at": "2026-09-21T22:03:32.862674+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "b5f980fb1dd637f6d373761ada640bc1d4976d6fd18354757f772350a2a1534a",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 15,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.knowledge.openai.docs",
+      "module_id": "knowledge.openai.docs",
+      "module_name": "OpenAI Docs",
+      "enabled": true,
+      "adapter": "llms_txt",
+      "locator": "https://developers.openai.com/api/llms.txt",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 */2 * * *"
+      },
+      "scheduled_at": "2026-09-22T04:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:42.166826+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "llms_txt connector ready",
+        "checked_at": "2026-09-21T22:03:32.862782+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "a3c108ee4a54206b722db3f87aea9add91a03b23624e19ac0301336f77763fc2",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 2,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.latent-space.blog",
+      "module_id": "source.latent-space.blog",
+      "module_name": "Latent Space",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://www.latent.space/feed",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:50.331598+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.862958+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "56aa1e49e4c3b94759da58b6814fd763904edad7c9b02244e4899ea163c8ef97",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 20,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.lilian-weng.blog",
+      "module_id": "source.lilian-weng.blog",
+      "module_name": "Lilian Weng",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://lilianweng.github.io/index.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:50.526869+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.863030+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "044e5a3be4df70295043ee3872af709a9180d6749d259cdd35aaf19d4d031b56",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 53,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.microsoft.foundry",
+      "module_id": "source.microsoft.foundry",
+      "module_name": "Azure AI Foundry Blog",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://devblogs.microsoft.com/foundry/feed/",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:50.983979+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.863093+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "528060fcf1f8ef496d84f04c56a52657a5c57d32fe6c356e41eb707a5aa78384",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 10,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.nvidia.blog",
+      "module_id": "source.nvidia.blog",
+      "module_name": "NVIDIA Developer Blog",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://developer.nvidia.com/blog/feed",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:51.575893+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.863151+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "820d36a1c60ff830e94a9f9d5d8dfc5a97b0f060d3b8a090bb5e3f825d38d6f9",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 100,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.openai.news",
+      "module_id": "source.openai.news",
+      "module_name": "OpenAI News",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://openai.com/news/rss.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:52.904516+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.863208+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "453de81fa003fa4eb89f77e3fbe5bbf4b25c9ccb092c4b6a621df70bb5964cbe",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 1215,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.qdrant.editorial",
+      "module_id": "source.qdrant.editorial",
+      "module_name": "Qdrant Blog and Articles catalog",
+      "enabled": true,
+      "adapter": "llms_txt",
+      "locator": "https://qdrant.tech/llms.txt",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 4 * * *",
+        "retry_count": 2,
+        "max_runtime_minutes": 30,
+        "max_new_items": 0
+      },
+      "scheduled_at": "2026-09-22T04:17:00+08:00",
+      "next_run_at": "2026-09-23T04:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:53.694880+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "llms_txt connector ready",
+        "checked_at": "2026-09-21T22:03:32.869731+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "dc555065e7bbbab90fc7781600e8d3caee6be5b42601096ae08feefe83075155",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 676,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.qwen.blog",
+      "module_id": "source.qwen.blog",
+      "module_name": "Qwen Blog",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://qwenlm.github.io/blog/index.xml",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:53.809233+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.863265+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "585b78ff9624879125da5b0e62fa4513d0b0e92edaf64ab51f354b80048e0d69",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 44,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    },
+    {
+      "source_id": "source.simon-willison.blog",
+      "module_id": "source.simon-willison.blog",
+      "module_name": "Simon Willison",
+      "enabled": true,
+      "adapter": "rss",
+      "locator": "https://simonwillison.net/atom/everything/",
+      "schedule": {
+        "enabled": true,
+        "timezone": "Asia/Shanghai",
+        "cron": "17 * * * *"
+      },
+      "scheduled_at": "2026-09-22T05:17:00+08:00",
+      "next_run_at": "2026-09-22T06:17:00+08:00",
+      "last_run_at": "2026-09-21T22:02:54.109000+00:00",
+      "status": "success",
+      "reachability": {
+        "status": "healthy",
+        "message": "rss connector ready",
+        "checked_at": "2026-09-21T22:03:32.863322+00:00",
+        "latency_ms": 0,
+        "discovered": 0,
+        "fetched": 0
+      },
+      "baseline": {
+        "status": "verified",
+        "fingerprint": "04e8057a23d43c864b4ec88917c2bd1d2def5f4eb8f8a91d5ebfbea1269a0c75",
+        "cursor_status": "present",
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+      },
+      "metrics": {
+        "discovered": 30,
+        "fetched": 0,
+        "updated": 0,
+        "translated": 0,
+        "translation_reused": 0
+      },
+      "translations": [],
+      "errors": []
+    }
+  ],
+  "reports": {
+    "latest_run": "/data/radar-run-report.json",
+    "latest_update": "/data/radar-update-report.json",
+    "latest_validation": "/data/source-validation.json",
+    "history_index": "/data/radar-reports/index.json"
+  }
+}

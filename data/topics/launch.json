@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-21T00:24:31.753896+00:00",
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 8,
+  "total_items": 19,
   "items": [
     {
-      "title": "React 19.3 发布，但真正的赢家是 StyleX：当 AI 成为框架的“第一用户”",
-      "url": "https://juejin.cn/post/7686769981477814313",
-      "source": "juejin",
+      "title": "akitaonrails 发布 ai-memory，为 AI 编程代理提供长期记忆",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source": "github",
       "site_id": "newsnow",
-      "published_at": "2026-09-20T11:18:08.169000+00:00",
+      "published_at": "2026-09-21T21:36:42.388000+00:00",
       "source_count": 1,
-      "score": 49,
-      "official": false,
+      "score": 52,
+      "official": true,
       "topics": [
         "launch"
       ],
@@ -22,15 +22,49 @@
       "label": "值得关注"
     },
     {
-      "title": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
-      "url": "https://www.aibase.com/news/31205",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
+      "title": "小米发布开放权重模型 MiMo-V2.6-Pro，登顶 Artificial Analysis 开放权重模型智能指数",
+      "url": "https://x.com/ClementDelangue/status/2102141768674222323",
+      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T21:03:48+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 76,
       "official": false,
       "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "XiaomiMiMo 在 Hugging Face 上线 MiMo-v2.6 模型合集，正文仅以 Banger 和链接刷屏，想了解小米这波模型发布到底放了什么，点开合集链接就能看到。",
+      "label": "行业动态"
+    },
+    {
+      "title": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
+      "url": "https://x.com/XiaomiMiMo/status/2102138559952290106",
+      "source": "X：小米 MiMo (@XiaomiMiMo)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T20:51:03+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch",
+        "industry"
+      ],
+      "reason": "Xiaomi 发布 MiMo-V2.6 Pro 与 Flash 两款全模态模型，通过规模化强化学习推进，Pro 在多数 agent 基准测试中与 Claude Opus 5、GPT-5.6 Sol 持平，并在 Artificia 上得分 46。",
+      "label": "行业动态"
+    },
+    {
+      "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk3NTkxMTM2NA%3D%3D&mid=2247484969&idx=1&sn=76c4757b26a2b646e1b690bf78c386d8",
+      "source": "公众号：小米 MiMo",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T20:18:52+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "opensource",
         "launch",
         "industry"
       ],
@@ -38,15 +72,16 @@
       "label": "行业动态"
     },
     {
-      "title": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-      "url": "https://www.aibase.com/news/31206",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
+      "title": "xAI 发布 Grok 4.7，主打编码与知识工作",
+      "url": "https://x.ai/news/grok-4-7",
+      "source": "xAI：News（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T19:49:54.380000+00:00",
+      "source_count": 2,
+      "score": 75,
       "official": false,
       "topics": [
+        "coding",
         "launch",
         "industry"
       ],
@@ -54,13 +89,13 @@
       "label": "行业动态"
     },
     {
-      "title": "AI 热点日报（2026-09-18）：华为昇腾960超节点发布，OpenAI 首次公开模型失准报告",
-      "url": "https://juejin.cn/post/7686588753230364708",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-20T06:12:26.374000+00:00",
+      "title": "Meta的Muse在移动端发布初期的表现超过了ChatGPT",
+      "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T19:19:21+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 63,
       "official": false,
       "topics": [
         "openai",
@@ -70,67 +105,205 @@
       "label": "值得关注"
     },
     {
-      "title": "千问发布 Qwen3.8-LiveTranslate 同声传译大模型：原文译文同屏出，字均延迟压到 2.3 秒",
-      "url": "https://www.aibase.com/news/31181",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
+      "title": "Terence Tao博客发布Mathematics and Artificial Intelligence顾问组客座文章",
+      "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-21T19:17:42+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": false,
       "topics": [
-        "qwen",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
-      "title": "千问发布Qwen3.8-LiveTranslate:同传延迟降至2.3秒，还能保留你的音色",
-      "url": "https://www.aibase.com/news/31174",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "title": "AI 模型成本正把初创公司推向更便宜的开源权重模型",
+      "url": "https://thenextweb.com/news/model-costs-startups-open-weights",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-21T17:30:24+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "qwen",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8",
-      "url": "https://www.aibase.com/news/31187",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
-      "source": "公众号：阶跃星辰（Step）",
-      "site_id": "aihot",
-      "published_at": "2026-09-20T02:00:00+00:00",
-      "source_count": 1,
-      "score": 70,
+      "score": 51,
       "official": false,
       "topics": [
         "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9%",
+      "url": "https://www.infoq.cn/article/vA7opkWL5WYlwYcPIdds",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-21T17:07:01+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "xAI 低价发布 Grok 4.7，但基准测试显示与 Claude 和 GPT-6 差距明显",
+      "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T16:56:36+00:00",
+      "source_count": 1,
+      "score": 66,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "launch",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "SpaceXAI releases Grok 4.7, which it says is better at verifying its own work and managing longer context, available for $2/1M input and $6/1M output tokens (xAI)",
+      "url": "https://www.techmeme.com/260921/p40",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-21T15:55:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "xAI推迟发布Grok 4.7近两周，或赶在Opus 5.5传闻发布前推出",
+      "url": "https://news.ycombinator.com/item?id=49788838",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-09-21T15:50:15+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "langgraph==1.2.12",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.12",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T14:43:40+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "langgraph 发布 1.2.12 版本，为 interrupt() 新增 response_schema 功能（#8886），并将依赖 soupsieve 从 2.8.4 升级至 2.9（#8958），另含多项修复。",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.5",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.5",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T14:43:09+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "langgraph-sdk 发布 0.4.5 版本，同步更新 langgraph 1.2.12，并将依赖 anyio 从 4.14.2 升级到 4.15.1，适合关注 langchain-ai/langgraph 迭代的开发者了解本次变更。",
+      "label": "官方更新"
+    },
+    {
+      "title": "阿里 70 亿参数图像模型Qwen-Image-2. 1 开源发布，号称以瘦身之躯叫板闭源巨头",
+      "url": "https://www.aibase.com/news/31227",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T11:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "贾跃亭的 FF 一口气发布九款 EAI 机器人，最贵超 92 万元",
+      "url": "https://www.aibase.com/news/31223",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T10:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
+      "source": "公众号：月之暗面（Kimi）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T07:54:32+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v0.30.0：[构建] 修复 DeepGEMM CUDA 12.9 发布构建 (#57554)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T06:14:34+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "vllm-project/vllm 发布 v0.30.0，修复 DeepGEMM 在 CUDA 12.9 下的 release 构建问题（#57554），由 khluu 提交、OpenAI Codex 与 Jee Jee Li 共同参与，并回合并自 commit eb87980。",
+      "label": "官方更新"
+    },
+    {
+      "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+      "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T02:50:40+00:00",
+      "source_count": 1,
+      "score": 72,
+      "official": true,
+      "topics": [
+        "qwen",
         "launch"
       ],
       "reason": "",

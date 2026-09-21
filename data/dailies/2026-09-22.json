@@ -1,0 +1,308 @@
+{
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
+  "date": "2026-09-22",
+  "timezone": "Asia/Shanghai",
+  "lead": "如何评估AI Agent：从工具调用到任务完成；像物理学家一样剪枝LLM：将模块移除视为Ising优化问题；GitHub Enterprise 新增凭证清单导出功能",
+  "total_items": 20,
+  "selection": "official_first_then_crossing",
+  "hot": [],
+  "items": [
+    {
+      "title": "如何评估AI Agent：从工具调用到任务完成",
+      "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T21:05:28+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "AI agent评估已从单次函数调用转向完整任务执行，文章以Berkeley Function-Calling Leaderboard为例，说明为何调用准确率必要但不充分，并拆解step-level与E2E两层评分如何从同一trace中分别定位断点与判定任务是否完成。",
+      "label": "官方更新"
+    },
+    {
+      "title": "像物理学家一样剪枝LLM：将模块移除视为Ising优化问题",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T13:44:34+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "Multiverse Computing 将 LLM 的 block removal 重新表述为 Ising glass 上的约束二元优化问题，用自旋系统能量作为剪枝模型性能的廉价代理，在 Llama-3.3-70B-Instruct 上压缩 50% 时，MMLU 比最佳同类方法高出近 23 个百分点。",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Enterprise 新增凭证清单导出功能",
+      "url": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T21:13:18+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "GitHub Enterprise 现支持导出企业内所有凭证清单，涵盖 SSH keys、personal access tokens、OAuth App 及 GitHub App tokens，企业所有者可在 Settings 中导出 CSV 或调用新 REST API，便于安全事件中快速评估风险面并规划修复。",
+      "label": "官方更新"
+    },
+    {
+      "title": "Grok 4.7 现已上线 GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T14:54:12+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "xAI 最新推理模型 Grok 4.7 已在 GitHub Copilot 逐步上线，基于 Grok 4.6 打造，面向 agentic coding 与复杂多步工作流，Pro、Pro+、Max、Business、Enterprise 用户可在模型选择器中选用。",
+      "label": "官方更新"
+    },
+    {
+      "title": "Higgsfield AI 借助 GPT-6 Astra 一天内上线多项视频新功能",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "Higgsfield AI借助GPT-6 Astra让小企业用一句提示词就能基于爆款广告生成100个新变体，并让单个工程师在一天内交付新功能，这展示了AI如何同时加速广告创作与产品开发。",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph==1.2.12",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.12",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T14:43:40+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "langgraph 发布 1.2.12 版本，为 interrupt() 新增 response_schema 功能（#8886），并将依赖 soupsieve 从 2.8.4 升级至 2.9（#8958），另含多项修复。",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.5",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.5",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T14:43:09+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "langgraph-sdk 发布 0.4.5 版本，同步更新 langgraph 1.2.12，并将依赖 anyio 从 4.14.2 升级到 4.15.1，适合关注 langchain-ai/langgraph 迭代的开发者了解本次变更。",
+      "label": "官方更新"
+    },
+    {
+      "title": "数学与人工智能咨询小组",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "OpenAI 8月28日起训练的新内部模型不仅解决了 Navier–Stokes 千禧年难题，还攻克了数学各领域100多个长期未解问题，为此 OpenAI 与数学家组成独立顾问组，评估和协调这些成果的发布。",
+      "label": "官方更新"
+    },
+    {
+      "title": "Nathan Lambert 撰文分析开源模型的中美实力格局",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T11:56:56+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "美国AI政策专家在国会证词中披露，自2025年4月起中国AI公司在open-weight模型领域已明显领先，Alibaba的Qwen推动中国于2025年7月在Hugging Face下载量上反超美国，如今中国累计下载量达3.2B，是美国的整整两倍。",
+      "label": "官方更新"
+    },
+    {
+      "title": "为AI下一阶段构建标准",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T10:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "OpenAI提出全球AI标准路径，呼吁协调评估、报告与治理，并提及AI已推动Navier-Stokes千禧年问题进展，同时强调在推进自动化AI研究时须保留人类控制与民主选择。",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI Academy 扩展，新增多条学习路径",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T07:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "OpenAI Academy新增面向开发者、领导者、教育者和大学生的课程，与Apply AI at Work、Build with AI、AI Leadership等学习路径并列，学员通过课程评估可获OpenAI Academy课程徽章。",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.30.0：[构建] 修复 DeepGEMM CUDA 12.9 发布构建 (#57554)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T06:14:34+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "vllm-project/vllm 发布 v0.30.0，修复 DeepGEMM 在 CUDA 12.9 下的 release 构建问题（#57554），由 khluu 提交、OpenAI Codex 与 Jee Jee Li 共同参与，并回合并自 commit eb87980。",
+      "label": "官方更新"
+    },
+    {
+      "title": "tokenizers v1：编码、解码与扩展性，实测",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource"
+      ],
+      "reason": "tokenizers v1 通过重构将性能提升至 v0.23 的数十倍，保留相同 token IDs 和 API，覆盖单线程、多线程、延迟、解码吞吐、内存堆及 crate 大小等基准测试，并感谢 IBM、NVIDIA 和 ExecuTorch 团队贡献补丁。",
+      "label": "官方更新"
+    },
+    {
+      "title": "V7 如何为 AI Agent 赋予机构记忆",
+      "url": "https://openai.com/index/v7",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "V7用GPT-5.6 Luna从数百万文件中提取信息并构建Context Graph，在HERB基准上检索性能超官方基线69%、幻觉减少38%，让AI agent以99.9%准确率完成50–100步工作流。",
+      "label": "官方更新"
+    },
+    {
+      "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+      "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T02:50:40+00:00",
+      "source_count": 1,
+      "score": 72,
+      "official": true,
+      "topics": [
+        "qwen",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI成立数学顾问小组，其AI已解决100多个开放问题",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T20:15:58+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google 售价 899 美元的 Googlebook，是在赌你会为 Gemini 买一台新笔记本",
+      "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T14:39:22+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "软银将借入超110亿美元高风险债券，用于投资OpenAI",
+      "url": "https://the-decoder.com/softbank-to-borrow-over-11-billion-in-risky-bonds-for-openai-stake",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T14:35:11+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "从首批用户到数十亿用户：Google的Robby Stein加入TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T14:30:00+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "NVIDIA Dynamo-Triton 集成 TensorRT 多设备支持，简化多 GPU 模型部署",
+      "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton",
+      "source": "NVIDIA Generative AI Blog",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-21T21:51:06+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    }
+  ]
+}

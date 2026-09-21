@@ -1,55 +1,20 @@
 {
-  "generated_at": "2026-09-21T00:24:31.753896+00:00",
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 19,
+  "total_items": 10,
   "items": [
     {
-      "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
-      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
-      "source": "MarkTechPost（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-20T20:20:56+00:00",
-      "source_count": 1,
-      "score": 78,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "google",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
-      "url": "https://github.com/marciob/openmsg",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-20T20:10:39+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia's Jensen Huang says AI CEOs have 'ulterior reasons' for warning about doomsday",
-      "url": "https://www.businessinsider.com/nvidia-jensen-huang-ai-regulation-anthropic-amodei-openai-altman-trump-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T19:17:13+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
+      "title": "写作者应避免用Claude、ChatGPT等AI代笔",
+      "url": "https://paulbakker.io/writing/no-ai-for-writing",
+      "source": "paulbakker.io",
+      "site_id": "buzzing",
+      "published_at": "2026-09-21T19:49:52.271000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
       "topics": [
         "openai",
         "anthropic"
@@ -58,27 +23,28 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent",
+      "title": "Anthropic、OpenAI 等公司因合谋放缓 AI 发展面临反垄断诉讼",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
-      "published_at": "2026-09-20T18:40:25+00:00",
+      "published_at": "2026-09-21T18:33:56+00:00",
       "source_count": 1,
       "score": 51,
       "official": true,
       "topics": [
+        "openai",
         "anthropic",
-        "agent"
+        "industry"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "AI companies, including OpenAI and Anthropic, are putting pressure on office rents in Singapore as they embark on expansion in response to government overtures (Owen Walker/Financial Times)",
-      "url": "https://www.techmeme.com/260920/p11",
+      "title": "Source: before the Hugging Face incident, OpenAI was negotiating a legally binding deal with Anthropic for the companies to stress-test each other's models (The Information)",
+      "url": "https://www.techmeme.com/260921/p46",
       "source": "Techmeme",
       "site_id": "techurls",
-      "published_at": "2026-09-20T18:15:01+00:00",
+      "published_at": "2026-09-21T18:15:01+00:00",
       "source_count": 1,
       "score": 51,
       "official": false,
@@ -90,230 +56,114 @@
       "label": "值得关注"
     },
     {
-      "title": "Trump's tech advisor has advice for AI companies worried they're building unsafe models: 'Just stop'",
-      "url": "https://www.businessinsider.com/trump-tech-advisor-ai-slow-down-anthropic-openai-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T17:47:57+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Amodei wrote that coordinating on pace would need an antitrust waiver. Altman said OpenAI would not wait for one. Both lines are now in a lawsuit.",
-      "url": "https://thenextweb.com/news/buist-v-anthropic-antitrust-waiver-evidence-public-agreement",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T16:49:53+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "诉讼：Anthropic、OpenAI、SpaceXAI 和谷歌达成非法减速协议",
-      "url": "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-20T13:43:27+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
-      "url": "https://www.aibase.com/news/31199",
+      "title": "Anthropic与字节扎堆AI制药，下一个Coding风口卡在了数据这道坎上",
+      "url": "https://www.aibase.com/news/31241",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
+      "published_at": "2026-09-21T17:54:33.753167+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 76,
       "official": false,
       "topics": [
         "anthropic",
         "industry"
       ],
-      "reason": "",
+      "reason": "Anthropic自建湿实验室验证模型指导生物实验的能力，同时与Novo Nordisk、Bristol-Myers Squibb合作并收购Coefficient Bio，字节分拆的实验室也完成首轮融资，但AI目前只能压缩早期候选分子搜索和实验迭代时间，临床阶段难以同步缩短。",
       "label": "行业动态"
     },
     {
-      "title": "消息称 Anthropic 拟在 IPO 前推出新模型，应对 GPT-6 Astra 冲击",
-      "url": "https://www.aibase.com/news/31198",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "人类学/金融服务",
-      "url": "https://github.com/anthropics/financial-services",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-09-20T11:00:35.172000+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude可以不经询问就发送电子邮件；谷歌仍然不会让 Gemini 媒体自行发送",
-      "url": "https://www.androidpolice.com/claude-gmail-autosend-gemini-cant",
-      "source": "Android Police",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T11:00:10+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "这位福特高管让她家的Claude助理加入了 PIP。 ChatGPT 已接管。",
-      "url": "https://www.businessinsider.com/ford-exec-claude-chatgpt-family-chief-staff-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T09:45:01+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "据报道，继 OpenAI 之后，Anthropic 也推迟了 IPO",
-      "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo",
+      "title": "xAI 低价发布 Grok 4.7，但基准测试显示与 Claude 和 GPT-6 差距明显",
+      "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-09-20T08:35:25+00:00",
+      "published_at": "2026-09-21T16:56:36+00:00",
       "source_count": 1,
-      "score": 61,
-      "official": true,
+      "score": 66,
+      "official": false,
       "topics": [
         "openai",
+        "anthropic",
+        "launch",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
+      "url": "https://www.aibase.com/news/31231",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T15:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "开发者Lyra爆料Anthropic跳过Opus 5.2直接内测Claude Opus 5.5（代号claude-wafer-eap），百万Token输入仅4美元、输出20美元，直指GPT-6，最早本周二上市。",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
+      "url": "https://www.aibase.com/news/31232",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T15:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "Claude Opus 5.5 内测代号 claude-wafer-eap，跳过 5.2 直指 GPT-6，定价降至每百万 Token 输入 4 美元、输出 20 美元，缓存读取仅 0.2 美元，较 Opus 5 降价约 20%。",
+      "label": "行业动态"
+    },
+    {
+      "title": "登顶国际Data Agent榜单，OceanBase超过多项GPT、Claude方案",
+      "url": "https://www.aibase.com/news/31229",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T14:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Cory Doctorow批评对Claude的盲目崇拜",
+      "url": "https://pluralistic.net/2026/09/21/sunsetting",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-21T14:30:24+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "Anthropic考虑推出新模型，拟应对OpenAI GPT-6Astra竞争",
-      "url": "https://www.aibase.com/news/31180",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "title": "诉讼称Anthropic、OpenAI、SpaceXAI和Google就AI放缓达成非法协议",
+      "url": "https://yro.slashdot.org/story/26/09/20/2152215/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-09-21T01:04:00+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
+      "score": 47,
+      "official": true,
       "topics": [
         "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-      "url": "https://www.aibase.com/news/31188",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Unity推出Claude Code与OpenAI Codex官方插件，提供31项开发技能",
-      "url": "https://www.aibase.com/news/31176",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "agent",
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8",
-      "url": "https://www.aibase.com/news/31187",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "编排Claude代码代理：参谋长模式",
-      "url": "https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-20T05:46:19+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
         "anthropic"
       ],
       "reason": "",

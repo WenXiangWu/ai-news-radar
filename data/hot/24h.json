@@ -1,170 +1,135 @@
 {
-  "generated_at": "2026-09-21T00:24:31.753896+00:00",
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
   "window_hours": 24,
-  "total_items": 11,
+  "total_items": 8,
   "items": [
     {
-      "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
-      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-20T18:05:38.317000+00:00",
-      "source_count": 4,
-      "score": 84,
+      "title": "macOS 27：避免下载 AI 模型并节省存储空间的解决方法",
+      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and",
+      "source": "www.reddit.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-21T19:49:53.499000+00:00",
+      "source_count": 3,
+      "score": 57,
       "official": false,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
       "reason": "",
       "label": "多源热议",
       "hot_score": 100
     },
     {
-      "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "source": "Qwen：Blog Retrieval（API）",
+      "title": "xAI 发布 Grok 4.7，主打编码与知识工作",
+      "url": "https://x.ai/news/grok-4-7",
+      "source": "xAI：News（网页）",
       "site_id": "aihot",
-      "published_at": "2026-09-20T14:40:14.401000+00:00",
-      "source_count": 4,
-      "score": 81,
-      "official": true,
+      "published_at": "2026-09-21T19:49:54.380000+00:00",
+      "source_count": 2,
+      "score": 75,
+      "official": false,
       "topics": [
-        "qwen",
+        "coding",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 50
+    },
+    {
+      "title": "写作者应避免用Claude、ChatGPT等AI代笔",
+      "url": "https://paulbakker.io/writing/no-ai-for-writing",
+      "source": "paulbakker.io",
+      "site_id": "buzzing",
+      "published_at": "2026-09-21T19:49:52.271000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "亚马逊阻止Meta的新款Muse AI助手在amazon.com上购物",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom",
+      "source": "www.forbes.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-21T19:49:55.498000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "source": "Linear：Now（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T19:23:33+00:00",
+      "source_count": 2,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 48
+    },
+    {
+      "title": "Terence Tao博客发布Mathematics and Artificial Intelligence顾问组客座文章",
+      "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-21T19:17:42+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
+    },
+    {
+      "title": "RoboHarm：前沿机器人策略会拒绝不安全指令吗？",
+      "url": "https://robocurve.org/roboharm",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-21T18:58:26+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
+    },
+    {
+      "title": "前沿AI，运行在你自己的硬件上",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-21T18:53:01+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
         "opensource"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 80
-    },
-    {
-      "title": "“海盗脸”拯救了大语言模型免遭删除",
-      "url": "https://pirateface.co",
-      "source": "pirateface.co",
-      "site_id": "buzzing",
-      "published_at": "2026-09-20T17:03:10.347000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 65
-    },
-    {
-      "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
-      "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T20:32:43+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
       "label": "值得关注",
-      "hot_score": 43
-    },
-    {
-      "title": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-20T18:50:18+00:00",
-      "source_count": 2,
-      "score": 60,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 38
-    },
-    {
-      "title": "自托管推理编排器比较：LocalAI、exo、GPUStack、vLLM",
-      "url": "https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-20T17:43:35+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 34
-    },
-    {
-      "title": "Prompts Aren't Real",
-      "url": "https://evaluation.club",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T15:59:25+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 30
-    },
-    {
-      "title": "Prompts Aren't Real",
-      "url": "https://news.ycombinator.com/item?id=49777111",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-20T15:59:25+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 30
-    },
-    {
-      "title": "人工智能与“知识共享”的瓦解",
-      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
-      "source": "www.chesterwisniewski.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-20T12:50:12.972000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 23
-    },
-    {
-      "title": "微软以 12 万美元的价格代理将 Copilot 运行时移植到 Rust",
-      "url": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-20T09:08:52+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 17
-    },
-    {
-      "title": "Show HN：符合人类偏好的人工智能面部吸引力模型",
-      "url": "https://faceanalysisai.com",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T08:48:35+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 16
+      "hot_score": 46
     }
   ]
 }

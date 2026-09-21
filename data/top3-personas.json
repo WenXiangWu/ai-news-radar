@@ -1,4 +1,80 @@
 {
-  "generated_at": "2026-09-21T00:24:32.126060Z",
-  "items": []
+  "generated_at": "2026-09-21T22:00:03.788910Z",
+  "model": "deepseek-chat",
+  "personas": [
+    {
+      "id": "cynic",
+      "name": "毒舌评论员"
+    },
+    {
+      "id": "paper-police",
+      "name": "较真党"
+    },
+    {
+      "id": "pragmatic",
+      "name": "实用派"
+    }
+  ],
+  "items": [
+    {
+      "story_id": "story_3f10cf90ec97",
+      "title": "Grok 4.7 现已上线 GitHub Copilot / Grok 4.7 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 58,
+          "review": "版本号从4.6跳到4.7，changelog里连个基准测试都懒得放，就一句'现已上线'。"
+        },
+        "paper-police": {
+          "score": 30,
+          "review": "仅一条官方上线公告，无论文、无代码、无第三方评测，证据不足。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "Copilot 里多一个模型可选，写代码的今天就能切过去试试手感。"
+        }
+      }
+    },
+    {
+      "story_id": "story_1b06f1be2557",
+      "title": "tokenizers v1：编码、解码与扩展性，实测 / tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 78,
+          "review": "标题敢写'实测'就比九成PR稿诚实，但v1这版本号憋了几年，扩展性数据敢不敢放全？"
+        },
+        "paper-police": {
+          "score": 58,
+          "review": "官方博客给了实测数字，但无独立复现与第三方跑分，暂按有迹可循。"
+        },
+        "pragmatic": {
+          "score": 82,
+          "review": "分词库大版本更新，性能有实测数据，升级前先看破坏性变更。"
+        }
+      }
+    },
+    {
+      "story_id": "story_ea478dcc527f",
+      "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk3NTkxMTM2NA%3D%3D&mid=2247484969&idx=1&sn=76c4757b26a2b646e1b690bf78c386d8",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "开源权重是真动作，但\"自我提升\"这词先别急着往AGI上靠，等第三方复现再说。"
+        },
+        "paper-police": {
+          "score": 42,
+          "review": "官方公众号宣称开源，但无论文链接、无仓库地址、无第三方跑分，先给个待验证分。"
+        },
+        "pragmatic": {
+          "score": 82,
+          "review": "开源可 clone，强化学习规模扩展方案能直接参考，值得跑一遍。"
+        }
+      }
+    }
+  ]
 }

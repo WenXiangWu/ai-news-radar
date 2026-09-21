@@ -1,84 +1,358 @@
 {
-  "generated_at": "2026-09-21T00:24:31.753896+00:00",
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
   "slug": "industry",
   "label": "行业动态",
   "group": "form",
   "blurb": "融资、监管与公司",
-  "total_items": 40,
+  "total_items": 33,
   "items": [
     {
-      "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
-      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
-      "source": "MarkTechPost（RSS）",
+      "title": "小米 MiMo-V2.6-Pro 登上 Code Arena： WebDev 榜约第10名，开源权重中约第3",
+      "url": "https://x.com/arena/status/2102142912943489220",
+      "source": "X：Arena (@arena)",
       "site_id": "aihot",
-      "published_at": "2026-09-20T20:20:56+00:00",
+      "published_at": "2026-09-21T21:08:21+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "XiaomiMiMo 的 MiMo-V2.6-Pro 在 Code Arena: WebDev 首次登场即约列第 10、开放权重模型第 3，AutoEval 得 1628 分，与 Claude Fable 5 (High) 持平，较前代提升 153 分。",
+      "label": "行业动态"
+    },
+    {
+      "title": "小米发布开放权重模型 MiMo-V2.6-Pro，登顶 Artificial Analysis 开放权重模型智能指数",
+      "url": "https://x.com/ClementDelangue/status/2102141768674222323",
+      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T21:03:48+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "XiaomiMiMo 在 Hugging Face 上线 MiMo-v2.6 模型合集，正文仅以 Banger 和链接刷屏，想了解小米这波模型发布到底放了什么，点开合集链接就能看到。",
+      "label": "行业动态"
+    },
+    {
+      "title": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
+      "url": "https://x.com/XiaomiMiMo/status/2102138559952290106",
+      "source": "X：小米 MiMo (@XiaomiMiMo)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T20:51:03+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch",
+        "industry"
+      ],
+      "reason": "Xiaomi 发布 MiMo-V2.6 Pro 与 Flash 两款全模态模型，通过规模化强化学习推进，Pro 在多数 agent 基准测试中与 Claude Opus 5、GPT-5.6 Sol 持平，并在 Artificia 上得分 46。",
+      "label": "行业动态"
+    },
+    {
+      "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk3NTkxMTM2NA%3D%3D&mid=2247484969&idx=1&sn=76c4757b26a2b646e1b690bf78c386d8",
+      "source": "公众号：小米 MiMo",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T20:18:52+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "不列颠哥伦比亚省起诉 OpenAI，指其未在枪击案前将 flagged ChatGPT 活动转介警方",
+      "url": "https://x.com/rohanpaul_ai/status/2102128625126605059",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T20:11:34+00:00",
       "source_count": 1,
       "score": 78,
-      "official": true,
+      "official": false,
       "topics": [
         "openai",
-        "anthropic",
-        "google",
+        "industry"
+      ],
+      "reason": "Bloomberg报道，British Columbia在California起诉OpenAI，指控其在Tumbler Ridge枪击案前已标记的ChatGPT活动本应通报警方；该案致8人死亡、27人受伤。",
+      "label": "行业动态"
+    },
+    {
+      "title": "xAI 发布 Grok 4.7，主打编码与知识工作",
+      "url": "https://x.ai/news/grok-4-7",
+      "source": "xAI：News（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T19:49:54.380000+00:00",
+      "source_count": 2,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "coding",
+        "launch",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
     },
     {
-      "title": "Is the AI industry really ready to slow down?",
-      "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-20T18:56:04+00:00",
+      "title": "Artificial Analysis 评测 Grok 4.7：智能体知识工作跻身前沿，编码代理得分升至 56",
+      "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T19:41:25.079000+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding",
+        "paper",
+        "industry"
+      ],
+      "reason": "Grok 4.7在Artificial Analysis Intelligence Index上得分46，较Grok 4.6提升2分，助SpaceXAI跻身前四AI实验室；其Coding Agent Index得分56，反超GPT-5.6 Sol，但每任务约81k输出token，远超Grok 4.6的36k。",
+      "label": "行业动态"
+    },
+    {
+      "title": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "source": "Linear：Now（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T19:23:33+00:00",
+      "source_count": 2,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic、OpenAI 等公司因合谋放缓 AI 发展面临反垄断诉讼",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-21T18:33:56+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic与字节扎堆AI制药，下一个Coding风口卡在了数据这道坎上",
+      "url": "https://www.aibase.com/news/31241",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T17:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "Anthropic自建湿实验室验证模型指导生物实验的能力，同时与Novo Nordisk、Bristol-Myers Squibb合作并收购Coefficient Bio，字节分拆的实验室也完成首轮融资，但AI目前只能压缩早期候选分子搜索和实验迭代时间，临床阶段难以同步缩短。",
+      "label": "行业动态"
+    },
+    {
+      "title": "微软花 12 万美元让 AI 重写 Copilot 运行时：43 万行 TS 变 80 万行 Rust，快 15.9 倍",
+      "url": "https://www.aibase.com/news/31240",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T17:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "coding",
+        "industry"
+      ],
+      "reason": "微软用 AI agents 将 GitHub Copilot 运行时从 43 万行 TypeScript 重写为 80 万行 Rust，token 成本约 12 万美元，历经 135 个版本、14.5 周，最终性能提升 15.9 倍。",
+      "label": "行业动态"
+    },
+    {
+      "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+      "url": "https://www.aibase.com/news/31239",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T17:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 76,
       "official": false,
       "topics": [
         "industry"
       ],
-      "reason": "",
-      "label": "值得关注"
+      "reason": "月之暗面发布 Kimi Code Desktop 的 macOS 和 Windows 版本，将 AI 编程 Agent 从浏览器搬到本地桌面，用户可对话式读写代码、执行命令并完成自动化任务，无需手动切换。",
+      "label": "行业动态"
     },
     {
-      "title": "Autonomous strike drone uses Nvidia Jetson Orin Nano to pick and bomb targets",
-      "url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-20T17:07:08+00:00",
+      "title": "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
+      "url": "https://x.com/elonmusk/status/2102082011233931762",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T17:06:20+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding",
+        "industry"
+      ],
+      "reason": "Grok 4.7 在 agentic coding 领域将 @SpaceXAI 带到第三位，仅次于 Anthropic 和 OpenAI，且 Grok 速度更快、成本更低，适合作为日常主力工具。",
+      "label": "行业动态"
+    },
+    {
+      "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
+      "url": "https://www.aibase.com/news/31237",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T16:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
       "topics": [
         "industry"
       ],
-      "reason": "",
-      "label": "值得关注"
+      "reason": "Kimi Code 桌面客户端现已上线 macOS 与 Windows，访问 kimi.com/code 即可安装，内置终端、浏览器和 Git 状态查看，支持直接运行调试项目、审查代码变更并关联 PR 状态。",
+      "label": "行业动态"
     },
     {
-      "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
-      "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-      "site_id": "aihot",
-      "published_at": "2026-09-20T13:52:24+00:00",
+      "title": "法国兴业银行押注 AI：预计最多省下 6 亿欧元成本",
+      "url": "https://www.aibase.com/news/31238",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T16:54:33.753167+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": true,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "法国兴业银行预计AI应用最多可节省6亿欧元成本，其中2029年前已规划落实约3.5亿欧元，并将通过与Anthropic合作部署Claude大模型，用于自动生成报告、监控指标和降低代码开发成本。",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
+      "url": "https://www.aibase.com/news/31231",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T15:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "开发者Lyra爆料Anthropic跳过Opus 5.2直接内测Claude Opus 5.5（代号claude-wafer-eap），百万Token输入仅4美元、输出20美元，直指GPT-6，最早本周二上市。",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
+      "url": "https://www.aibase.com/news/31232",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T15:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "Claude Opus 5.5 内测代号 claude-wafer-eap，跳过 5.2 直指 GPT-6，定价降至每百万 Token 输入 4 美元、输出 20 美元，缓存读取仅 0.2 美元，较 Opus 5 降价约 20%。",
+      "label": "行业动态"
+    },
+    {
+      "title": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+      "url": "https://www.aibase.com/news/31234",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T15:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "安全研究者发现OpenAI通过内部广告平台bazaar建立跨站追踪链：ChatGPT客户端生成随机标识符并绑定账号JWT token，写入名为__obi的跨站cookie，用户访问嵌入OpenAI广告像素的第三方网站时，浏览行为会被直接关联回ChatGPT账号，且无需在对话中输入任何相关内容。",
+      "label": "行业动态"
+    },
+    {
+      "title": "百度文库网盘宣布AI办公出海，库库AI全球月活超4000万",
+      "url": "https://www.aibase.com/news/31236",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T15:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "百度Wenku Cloud Drive在9月21日Baidu AI Day宣布加速AI办公出海，通用AI agent库库全球月活超4000万，海外版Kooko用户一年破1000万，产品已迭代至4.0版并推出独立客户端。",
+      "label": "行业动态"
+    },
+    {
+      "title": "阿里换帅Qwen团队：刘大一恒接掌通义千问大模型，云栖大会前亮相",
+      "url": "https://www.aibase.com/news/31233",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T15:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
       "topics": [
         "qwen",
-        "opensource",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
     },
     {
-      "title": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
-      "url": "https://www.aibase.com/news/31199",
+      "title": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
+      "url": "https://www.aibase.com/news/31228",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
+      "published_at": "2026-09-21T14:54:33.753167+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "登顶国际Data Agent榜单，OceanBase超过多项GPT、Claude方案",
+      "url": "https://www.aibase.com/news/31229",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T14:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -88,77 +362,13 @@
       "label": "行业动态"
     },
     {
-      "title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
-      "url": "https://www.aibase.com/news/31193",
+      "title": "阿宝上线「鱼来」摸鱼AI系统，将碎片化休息纳入智能管理",
+      "url": "https://www.aibase.com/news/31230",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
+      "published_at": "2026-09-21T14:54:33.753167+00:00",
       "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
-      "url": "https://www.aibase.com/news/31192",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
-      "url": "https://www.aibase.com/news/31195",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
-      "url": "https://www.aibase.com/news/31205",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
-      "url": "https://www.aibase.com/news/31204",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
+      "score": 75,
       "official": false,
       "topics": [
         "industry"
@@ -167,154 +377,13 @@
       "label": "行业动态"
     },
     {
-      "title": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-      "url": "https://www.aibase.com/news/31206",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-      "url": "https://www.aibase.com/news/31200",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-      "url": "https://www.aibase.com/news/31201",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "消息称 Anthropic 拟在 IPO 前推出新模型，应对 GPT-6 Astra 冲击",
-      "url": "https://www.aibase.com/news/31198",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "特朗普要给“人工智能”改名：18 万人投票，“卓越智能”暂时领先",
-      "url": "https://www.aibase.com/news/31203",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "阶跃星辰 Step 5 Preview 全量开放：600B 参数打平 K3 级性能，新用户最长白嫖 75 天",
-      "url": "https://www.aibase.com/news/31194",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "阶跃甩出 Step 5 Preview：600B 稀疏 MoE 只激活 27B，把开源旗舰的\"性价比边界\"往外推了一格",
-      "url": "https://www.aibase.com/news/31196",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "雷神首款 AI 移动工作站明日开售：64GB 内存驯服 120B 大模型，1.99 万元把数据中心装进背包",
-      "url": "https://www.aibase.com/news/31197",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T11:17:36.554800+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "US policy analysts, lawmakers, and others say several state-level AI chatbot safety bills included language that could provide loopholes for tech companies (Katie McQue/NPR)",
-      "url": "https://www.techmeme.com/260920/p6",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T09:05:02+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "科技行业对特朗普的“人工智能力量”提案摸不着头脑",
-      "url": "https://politics.slashdot.org/story/26/09/19/2250231/tech-industry-scratches-its-head-over-trumps-ai-force-proposal",
+      "title": "图书出版商开始对AI行业升温了吗？",
+      "url": "https://news.slashdot.org/story/26/09/21/0551218/are-book-publishers-warming-up-to-the-ai-industry",
       "source": "Slashdot",
       "site_id": "techurls",
-      "published_at": "2026-09-20T07:04:00+00:00",
+      "published_at": "2026-09-21T14:34:00+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 50,
       "official": false,
       "topics": [
         "industry"
@@ -323,145 +392,122 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic考虑推出新模型，拟应对OpenAI GPT-6Astra竞争",
-      "url": "https://www.aibase.com/news/31180",
+      "title": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
+      "url": "https://www.aibase.com/news/31226",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "published_at": "2026-09-21T11:54:33.753167+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 74,
       "official": false,
       "topics": [
-        "openai",
-        "anthropic",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
     },
     {
-      "title": "ChatGPT 正式入驻 Word：免费用户也能用，办公文档里三套 AI 同台厮杀",
-      "url": "https://www.aibase.com/news/31184",
+      "title": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
+      "url": "https://www.aibase.com/news/31224",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "published_at": "2026-09-21T11:54:33.753167+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 74,
       "official": false,
       "topics": [
-        "openai",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
     },
     {
-      "title": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
-      "url": "https://www.aibase.com/news/31191",
+      "title": "用 AI 造谣再收费删帖：自媒体博主敲诈科技企业 230 万元被抓",
+      "url": "https://www.aibase.com/news/31225",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "published_at": "2026-09-21T11:54:33.753167+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 74,
       "official": false,
       "topics": [
-        "deepseek",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
     },
     {
-      "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
-      "url": "https://www.aibase.com/news/31189",
+      "title": "阿里 70 亿参数图像模型Qwen-Image-2. 1 开源发布，号称以瘦身之躯叫板闭源巨头",
+      "url": "https://www.aibase.com/news/31227",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "published_at": "2026-09-21T11:54:33.753167+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 74,
       "official": false,
       "topics": [
         "opensource",
+        "launch",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
     },
     {
-      "title": "SpaceXAI 推出 Grok Voice Transcribe 2.0：错误率砍半、价格纹丝不动，流式语音识别登顶榜单",
-      "url": "https://www.aibase.com/news/31183",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "title": "亚马逊封禁 Meta Muse 智能体代用户购物，双方争端升级",
+      "url": "https://www.ithome.com/1/005/418.htm",
+      "source": "IT之家（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T11:52:52+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 76,
       "official": false,
       "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Termexo v0.10.4 把 Grok Build 拽进 AI 编程工作台，顺手修掉\"会话改了半天却显示 0\"的尴尬",
-      "url": "https://www.aibase.com/news/31178",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-      "url": "https://www.aibase.com/news/31188",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
         "agent",
-        "coding",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
     },
     {
-      "title": "Unity推出Claude Code与OpenAI Codex官方插件，提供31项开发技能",
-      "url": "https://www.aibase.com/news/31176",
+      "title": "特斯拉得州超级工厂钢结构接近完工，Optimus产线建设加速",
+      "url": "https://www.aibase.com/news/31222",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "published_at": "2026-09-21T10:54:33.753167+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 74,
       "official": false,
       "topics": [
-        "openai",
-        "anthropic",
-        "agent",
-        "coding",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
     },
     {
-      "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
-      "url": "https://www.aibase.com/news/31179",
+      "title": "贾跃亭的 FF 一口气发布九款 EAI 机器人，最贵超 92 万元",
+      "url": "https://www.aibase.com/news/31223",
       "source": "AIbase",
       "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "published_at": "2026-09-21T10:54:33.753167+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "阶跃甩出 Step 5 Preview：600B 稀疏 MoE 只激活 27B，把开源旗舰的性价比边界往外推了一格",
+      "url": "https://www.aibase.com/news/31221",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T09:54:33.753167+00:00",
+      "source_count": 1,
+      "score": 74,
       "official": false,
       "topics": [
         "opensource",
@@ -471,173 +517,16 @@
       "label": "行业动态"
     },
     {
-      "title": "千问发布 Qwen3.8-LiveTranslate 同声传译大模型：原文译文同屏出，字均延迟压到 2.3 秒",
-      "url": "https://www.aibase.com/news/31181",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
+      "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
+      "source": "公众号：月之暗面（Kimi）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T07:54:32+00:00",
       "source_count": 1,
       "score": 73,
       "official": false,
       "topics": [
-        "qwen",
         "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "千问发布Qwen3.8-LiveTranslate:同传延迟降至2.3秒，还能保留你的音色",
-      "url": "https://www.aibase.com/news/31174",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "qwen",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-      "url": "https://www.aibase.com/news/31190",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "智谱AI回应ZCode代码上传争议:已修复漏洞，将开源代码库",
-      "url": "https://www.aibase.com/news/31173",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "特朗普宣布组建“人工智能部队”：AI 未来或占美国 GDP 的 25%",
-      "url": "https://www.aibase.com/news/31185",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "用户质疑 Meta AI 助手 Muse 偷看 Mac 通知内容，官方否认：不会监视通知",
-      "url": "https://www.aibase.com/news/31175",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "谷歌Gemini测试中入侵3家公司，首次被确认自主突破测试环境",
-      "url": "https://www.aibase.com/news/31172",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "google",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
-      "url": "https://www.aibase.com/news/31177",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "迪士尼首设 CTO：挖来原 Character.AI CEO 阿南德，统管技术与 AI 平台",
-      "url": "https://www.aibase.com/news/31182",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8",
-      "url": "https://www.aibase.com/news/31187",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "马斯克放豪言：AI 将使明年美国 GDP 增速翻番至 4%",
-      "url": "https://www.aibase.com/news/31186",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
         "industry"
       ],
       "reason": "",

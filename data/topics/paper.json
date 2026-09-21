@@ -1,19 +1,55 @@
 {
-  "generated_at": "2026-09-21T00:24:31.753896+00:00",
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
   "slug": "paper",
   "label": "论文研究",
   "group": "form",
   "blurb": "论文、基准与评测",
-  "total_items": 1,
+  "total_items": 3,
   "items": [
     {
-      "title": "9.14—9.20｜本周AI 论文精选",
-      "url": "https://waytoagi.feishu.cn/wiki/S84awsOMjir7sUkUWA5cqXBHnBh?from=from_copylink",
-      "source": "社区更新 · 2026-09-20",
-      "site_id": "waytoagi",
-      "published_at": "2026-09-20T18:45:11.073800+00:00",
+      "title": "Artificial Analysis 评测 Grok 4.7：智能体知识工作跻身前沿，编码代理得分升至 56",
+      "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T19:41:25.079000+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding",
+        "paper",
+        "industry"
+      ],
+      "reason": "Grok 4.7在Artificial Analysis Intelligence Index上得分46，较Grok 4.6提升2分，助SpaceXAI跻身前四AI实验室；其Coding Agent Index得分56，反超GPT-5.6 Sol，但每任务约81k输出token，远超Grok 4.6的36k。",
+      "label": "行业动态"
+    },
+    {
+      "title": "xAI 低价发布 Grok 4.7，但基准测试显示与 Claude 和 GPT-6 差距明显",
+      "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T16:56:36+00:00",
+      "source_count": 1,
+      "score": 66,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "launch",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "下一家爆款创业公司会从哪里诞生？Benchmark全体合伙人在TechCrunch Disrupt 2026上给出看法",
+      "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T15:00:00+00:00",
+      "source_count": 1,
+      "score": 62,
       "official": false,
       "topics": [
         "paper"

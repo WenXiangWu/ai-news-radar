@@ -1,92 +1,42 @@
 {
-  "generated_at": "2026-09-21T00:24:31.753896+00:00",
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
   "slug": "qwen",
   "label": "通义千问 Qwen",
   "group": "vendor",
   "blurb": "Qwen 开源与端侧",
-  "total_items": 5,
+  "total_items": 2,
   "items": [
     {
-      "title": "阿里巴巴的开放权重 Qwen-Image-2.1 声称仅用 70 亿个参数就能在图像生成方面击败封闭模型",
-      "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-20T16:10:52+00:00",
+      "title": "阿里换帅Qwen团队：刘大一恒接掌通义千问大模型，云栖大会前亮相",
+      "url": "https://www.aibase.com/news/31233",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-21T15:54:33.753167+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "qwen",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+      "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T02:50:40+00:00",
+      "source_count": 1,
+      "score": 72,
       "official": true,
       "topics": [
-        "qwen"
+        "qwen",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "source": "Qwen：Blog Retrieval（API）",
-      "site_id": "aihot",
-      "published_at": "2026-09-20T14:40:14.401000+00:00",
-      "source_count": 4,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "qwen",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
-      "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-      "site_id": "aihot",
-      "published_at": "2026-09-20T13:52:24+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "qwen",
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "千问发布 Qwen3.8-LiveTranslate 同声传译大模型：原文译文同屏出，字均延迟压到 2.3 秒",
-      "url": "https://www.aibase.com/news/31181",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "qwen",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "千问发布Qwen3.8-LiveTranslate:同传延迟降至2.3秒，还能保留你的音色",
-      "url": "https://www.aibase.com/news/31174",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "qwen",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }

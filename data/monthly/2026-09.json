@@ -1,6 +1,7 @@
 {
   "title": "2026-09 月报",
   "dates": [
+    "2026-09-22",
     "2026-09-21",
     "2026-09-20",
     "2026-09-19",
@@ -166,6 +167,36 @@
       "label": "官方更新"
     },
     {
+      "title": "如何评估AI Agent：从工具调用到任务完成",
+      "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T21:05:28+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "AI agent评估已从单次函数调用转向完整任务执行，文章以Berkeley Function-Calling Leaderboard为例，说明为何调用准确率必要但不充分，并拆解step-level与E2E两层评分如何从同一trace中分别定位断点与判定任务是否完成。",
+      "label": "官方更新"
+    },
+    {
+      "title": "像物理学家一样剪枝LLM：将模块移除视为Ising优化问题",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T13:44:34+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "Multiverse Computing 将 LLM 的 block removal 重新表述为 Ising glass 上的约束二元优化问题，用自旋系统能量作为剪枝模型性能的廉价代理，在 Llama-3.3-70B-Instruct 上压缩 50% 时，MMLU 比最佳同类方法高出近 23 个百分点。",
+      "label": "官方更新"
+    },
+    {
       "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
       "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
       "source": "TechCrunch：AI（RSS）",
@@ -254,6 +285,49 @@
         "openai"
       ],
       "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Enterprise 新增凭证清单导出功能",
+      "url": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T21:13:18+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "GitHub Enterprise 现支持导出企业内所有凭证清单，涵盖 SSH keys、personal access tokens、OAuth App 及 GitHub App tokens，企业所有者可在 Settings 中导出 CSV 或调用新 REST API，便于安全事件中快速评估风险面并规划修复。",
+      "label": "官方更新"
+    },
+    {
+      "title": "Grok 4.7 现已上线 GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T14:54:12+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "xAI 最新推理模型 Grok 4.7 已在 GitHub Copilot 逐步上线，基于 Grok 4.6 打造，面向 agentic coding 与复杂多步工作流，Pro、Pro+、Max、Business、Enterprise 用户可在模型选择器中选用。",
+      "label": "官方更新"
+    },
+    {
+      "title": "Higgsfield AI 借助 GPT-6 Astra 一天内上线多项视频新功能",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "Higgsfield AI借助GPT-6 Astra让小企业用一句提示词就能基于爆款广告生成100个新变体，并让单个工程师在一天内交付新功能，这展示了AI如何同时加速广告创作与产品开发。",
       "label": "官方更新"
     },
     {
@@ -543,86 +617,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T09:41:12+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T04:49:35.840000+00:00",
-      "source_count": 3,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T07:46:08+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-02T01:05:52+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-19T23:58:19.151000+00:00",
-      "source_count": 4,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议"
     }
   ],
-  "generated_at": "2026-09-21T00:24:31.753896+00:00",
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
   "period": "2026-09"
 }

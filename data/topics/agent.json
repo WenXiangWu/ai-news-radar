@@ -1,22 +1,163 @@
 {
-  "generated_at": "2026-09-21T00:24:31.753896+00:00",
+  "generated_at": "2026-09-21T21:59:36.074305+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 9,
+  "total_items": 14,
   "items": [
     {
-      "title": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
-      "url": "https://github.com/marciob/openmsg",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-20T20:10:39+00:00",
+      "title": "如何评估AI Agent：从工具调用到任务完成",
+      "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T21:05:28+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 85,
       "official": true,
       "topics": [
-        "anthropic",
+        "agent"
+      ],
+      "reason": "AI agent评估已从单次函数调用转向完整任务执行，文章以Berkeley Function-Calling Leaderboard为例，说明为何调用准确率必要但不充分，并拆解step-level与E2E两层评分如何从同一trace中分别定位断点与判定任务是否完成。",
+      "label": "官方更新"
+    },
+    {
+      "title": "亚马逊阻止Meta的新款Muse AI助手在amazon.com上购物",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom",
+      "source": "www.forbes.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-21T19:49:55.498000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Artificial Analysis 评测 Grok 4.7：智能体知识工作跻身前沿，编码代理得分升至 56",
+      "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T19:41:25.079000+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding",
+        "paper",
+        "industry"
+      ],
+      "reason": "Grok 4.7在Artificial Analysis Intelligence Index上得分46，较Grok 4.6提升2分，助SpaceXAI跻身前四AI实验室；其Coding Agent Index得分56，反超GPT-5.6 Sol，但每任务约81k输出token，远超Grok 4.6的36k。",
+      "label": "行业动态"
+    },
+    {
+      "title": "Meta的AI Agent被禁止使用Amazon.com",
+      "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T17:55:18+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "联合国科学小组称，无法保证人类能持续控制AI Agent",
+      "url": "https://the-decoder.com/un-science-panel-says-there-is-no-assurance-humans-will-keep-control-over-ai-agents",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T17:44:10+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9%",
+      "url": "https://www.infoq.cn/article/vA7opkWL5WYlwYcPIdds",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-21T17:07:01+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
+      "url": "https://x.com/elonmusk/status/2102082011233931762",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T17:06:20+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding",
+        "industry"
+      ],
+      "reason": "Grok 4.7 在 agentic coding 领域将 @SpaceXAI 带到第三位，仅次于 Anthropic 和 OpenAI，且 Grok 速度更快、成本更低，适合作为日常主力工具。",
+      "label": "行业动态"
+    },
+    {
+      "title": "不靠最强大模型，也能拿全球第一？OceanBase 的 “纯国产组合” 登顶国际 Data Agent 榜",
+      "url": "https://www.infoq.cn/article/Obuxu1mvY9p6RNOlxFGc",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-21T13:58:22+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Amazon 阻止 Meta 的 AI agent Muse 进行在线购物",
+      "url": "https://the-decoder.com/amazon-blocks-metas-ai-agent-muse-from-online-shopping",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-21T13:37:51+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI Codex 正在淘汰最后一个像助手一样行事的模型",
+      "url": "https://www.vincentschmalbach.com/gpt-5-5-retirement-codex",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-21T12:41:48+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "openai",
         "agent",
         "coding"
       ],
@@ -24,132 +165,66 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-20T18:40:25+00:00",
+      "title": "亚马逊封禁 Meta Muse 智能体代用户购物，双方争端升级",
+      "url": "https://www.ithome.com/1/005/418.htm",
+      "source": "IT之家（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-21T11:52:52+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Amazon不信任Meta的Muse AI Agent",
+      "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+      "source": "The Verge",
+      "site_id": "techurls",
+      "published_at": "2026-09-21T09:21:47+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "我能让我的AI Agent在安息日运行吗？",
+      "url": "https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-21T02:05:45+00:00",
+      "source_count": 1,
+      "score": 48,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "V7 如何为 AI Agent 赋予机构记忆",
+      "url": "https://openai.com/index/v7",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
       "official": true,
       "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta 的 Muse TV 广告是人工智能代理走向主流的最新迹象",
-      "url": "https://www.businessinsider.com/meta-muse-personal-ai-agent-mainstream-instinct-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T17:11:09+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "人工智能代理试图根据我的描述猜测我喝的是什么酒——至少可以说，结果好坏参半",
-      "url": "https://www.techradar.com/pro/an-ai-agent-tried-to-guess-what-wine-i-was-drinking-based-on-my-description-and-the-results-were-mixed-to-say-the-least",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-20T16:05:00+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "最新桌面 Agent，AI 工作流解码办公效率提升",
-      "url": "https://www.infoq.cn/article/EBIZhgc8pLujPiIum6Yt",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-20T15:00:59+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "从 0 到 1 搭建你的 AI Agent 平台：当 Agent 有了工厂，人人都能造同事",
-      "url": "https://juejin.cn/post/7686588753231560740",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-20T11:18:08.169000+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "走进 AI Agent 第四篇：知识获取管道——RAG 基础",
-      "url": "https://juejin.cn/post/7687422041256689691",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-20T11:18:08.169000+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-      "url": "https://www.aibase.com/news/31188",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Unity推出Claude Code与OpenAI Codex官方插件，提供31项开发技能",
-      "url": "https://www.aibase.com/news/31176",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-20T06:11:50.055729+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
         "openai",
-        "anthropic",
-        "agent",
-        "coding",
-        "industry"
+        "agent"
       ],
-      "reason": "",
-      "label": "行业动态"
+      "reason": "V7用GPT-5.6 Luna从数百万文件中提取信息并构建Context Graph，在HERB基准上检索性能超官方基线69%、幻觉减少38%，让AI agent以99.9%准确率完成50–100步工作流。",
+      "label": "官方更新"
     }
   ]
 }
