@@ -12,12 +12,12 @@ from .base import (
     HttpConnector,
     RawDocument,
     _header,
-    content_type_for_path,
 )
 
 
 class RSSArticleConnector(HttpConnector):
     adapter_name = "rss_article"
+    incremental_class: str | None = None
 
     def __init__(self, config: Mapping[str, Any] | None = None):
         super().__init__(config)
@@ -46,6 +46,8 @@ class RSSArticleConnector(HttpConnector):
             ),
         )
         if response.status_code == 304:
+            if self.incremental_class is None:
+                self.incremental_class = "revision-native"
             return DiscoveryPage(
                 items=[],
                 cursor=_preserve_cursor(current, response),
@@ -57,25 +59,42 @@ class RSSArticleConnector(HttpConnector):
         if getattr(parsed, "bozo", False) and not entries:
             raise ValueError(f"{self.adapter_name} returned an invalid RSS document")
 
+        feed_etag = _header(response.headers, "ETag")
+        feed_last_modified = _header(response.headers, "Last-Modified")
         items: list[DiscoveredItem] = []
+        missing_identity = False
         for entry in entries:
-            link = _entry_link(entry) or self.feed_url
-            url = canonicalize_url(link) or link
-            native_id = _entry_text(entry, "id", "guid") or url
+            link = _entry_link(entry)
+            guid = _entry_text(entry, "id", "guid")
+            native_id = guid or (canonicalize_url(link) if link else "") or link
+            if not native_id:
+                missing_identity = True
+                continue
+            url = canonicalize_url(link) if link else ""
+            if not url:
+                # Identity via guid alone is allowed; URL may fall back to feed.
+                url = canonicalize_url(self.feed_url) or self.feed_url
             title = _entry_text(entry, "title") or native_id
             summary = _entry_content(entry)
+            # Prefer published then updated: feedparser aliases pubDate onto
+            # updated and warns when updated is read first (issue 310).
+            published = _entry_text(entry, "published", "updated")
+            remote_revision = published or feed_etag or feed_last_modified or None
             items.append(
                 DiscoveredItem(
                     source_id=self.source_id,
                     native_id=native_id,
                     url=url,
                     title=title,
-                    published_at=_entry_text(entry, "published", "updated"),
+                    published_at=published or None,
                     content_type=(
                         "text/html"
                         if "<" in summary and ">" in summary
                         else "text/plain"
                     ),
+                    remote_revision=remote_revision,
+                    remote_etag=feed_etag,
+                    remote_last_modified=feed_last_modified,
                     metadata={
                         "feed_url": self.feed_url,
                         "summary": summary,
@@ -85,8 +104,15 @@ class RSSArticleConnector(HttpConnector):
                 )
             )
 
+        if missing_identity or not items or not any(
+            item.has_remote_validator for item in items
+        ):
+            self.incremental_class = "unsupported"
+        else:
+            self.incremental_class = "revision-native"
+
         feed_token = _entry_text(parsed.get("feed") or {}, "updated", "published")
-        if _header(response.headers, "ETag") or _header(response.headers, "Last-Modified"):
+        if feed_etag or feed_last_modified:
             feed_token = None
         page_cursor = self._cursor(
             response,

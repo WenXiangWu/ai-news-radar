@@ -23,6 +23,7 @@ _MARKDOWN_LINK_RE = re.compile(
 
 class LLMSTxtConnector(HttpConnector):
     adapter_name = "llms_txt"
+    incremental_class: str | None = None
 
     def __init__(self, config: Mapping[str, Any] | None = None):
         super().__init__(config)
@@ -49,6 +50,8 @@ class LLMSTxtConnector(HttpConnector):
             ),
         )
         if response.status_code == 304:
+            if self.incremental_class is None:
+                self.incremental_class = "revision-native"
             return DiscoveryPage(
                 items=[],
                 cursor=_preserve_cursor(current, response),
@@ -56,6 +59,14 @@ class LLMSTxtConnector(HttpConnector):
             )
 
         body = response.text
+        etag = _header(response.headers, "ETag")
+        last_modified = _header(response.headers, "Last-Modified")
+        remote_revision = etag or last_modified or None
+        if remote_revision:
+            self.incremental_class = "revision-native"
+        else:
+            self.incremental_class = "unsupported"
+
         items: list[DiscoveredItem] = []
         seen: set[str] = set()
         for title, raw_url in _MARKDOWN_LINK_RE.findall(body):
@@ -70,6 +81,9 @@ class LLMSTxtConnector(HttpConnector):
                     url=url,
                     title=title.strip() or url.rsplit("/", 1)[-1],
                     content_type=content_type_for_path(url),
+                    remote_revision=remote_revision,
+                    remote_etag=etag,
+                    remote_last_modified=last_modified,
                     metadata={"llms_url": self.llms_url},
                 )
             )
@@ -82,6 +96,9 @@ class LLMSTxtConnector(HttpConnector):
                     url=self.llms_url,
                     title=self.source_id,
                     content_type="text/plain",
+                    remote_revision=remote_revision,
+                    remote_etag=etag,
+                    remote_last_modified=last_modified,
                     metadata={"llms_url": self.llms_url, "inline_body": body},
                 )
             )

@@ -857,3 +857,411 @@ def test_http_errors_redact_query_values_from_fixture_failure_messages():
 
     assert "fixture-secret" not in str(error.value)
     assert "access_token" not in str(error.value)
+
+
+# --- Task 5: ledger fields on RSS / GitHub tree / llms.txt ---
+
+
+def test_rss_article_emits_guid_item_id_and_published_remote_revision():
+    feed_url = "https://news.example.test/feed.xml"
+    transport = FixtureTransport(
+        {
+            feed_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "application/rss+xml",
+                    "ETag": '"feed-v1"',
+                },
+                body=fixture_bytes("rss.xml"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "rss_article",
+        {
+            "source_id": "source.rss.ledger",
+            "feed_url": feed_url,
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert connector.incremental_class == "revision-native"
+    assert [item.native_id for item in page.items] == ["article-one", "article-two"]
+    assert page.items[0].remote_revision == "Tue, 15 Sep 2026 09:00:00 GMT"
+    assert page.items[1].remote_revision == "Tue, 15 Sep 2026 08:00:00 GMT"
+    assert all(item.has_remote_validator for item in page.items)
+
+
+def test_rss_feed_without_item_identity_is_unsupported():
+    feed_url = "https://news.example.test/anonymous.xml"
+    anonymous = b"""<?xml version="1.0"?>
+<rss version="2.0"><channel><title>Anon</title>
+<item><title>No id</title><description>body</description></item>
+</channel></rss>"""
+    transport = FixtureTransport(
+        {
+            feed_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "application/rss+xml"},
+                body=anonymous,
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "rss_article",
+        {
+            "source_id": "source.rss.anon",
+            "feed_url": feed_url,
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert connector.incremental_class == "unsupported"
+    assert page.items == [] or not any(item.has_remote_validator for item in page.items)
+
+
+def test_github_tree_items_carry_blob_sha_as_remote_revision():
+    tree_url = "https://api.github.test/repos/example/docs/git/trees/main?recursive=1"
+    transport = FixtureTransport(
+        {
+            tree_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "application/json"},
+                body=fixture_text("github-tree.json"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "github_tree",
+        {
+            "source_id": "source.github.ledger",
+            "tree_url": tree_url,
+            "repo": "example/docs",
+            "ref": "main",
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert connector.incremental_class == "revision-native"
+    assert [item.remote_revision for item in page.items] == [
+        "blob-readme-v1",
+        "blob-guide-v1",
+    ]
+
+
+def test_llms_txt_entries_use_url_and_optional_etag_as_revision():
+    llms_url = "https://docs.example.test/llms.txt"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={
+                    "Content-Type": "text/plain; charset=utf-8",
+                    "ETag": '"llms-v1"',
+                },
+                body=fixture_bytes("llms.txt"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "source.llms.ledger",
+            "url": llms_url,
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert connector.incremental_class == "revision-native"
+    assert [item.native_id for item in page.items] == [
+        "https://docs.example.test/guide/getting-started.md",
+        "https://docs.example.test/reference/api.md",
+    ]
+    assert all(item.remote_revision == '"llms-v1"' for item in page.items)
+    assert all(item.remote_etag == '"llms-v1"' for item in page.items)
+
+
+def test_llms_txt_without_etag_or_last_modified_is_unsupported():
+    llms_url = "https://docs.example.test/llms.txt"
+    transport = FixtureTransport(
+        {
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/plain"},
+                body=fixture_bytes("llms.txt"),
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "llms_txt",
+        {
+            "source_id": "source.llms.noetag",
+            "url": llms_url,
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+
+    assert connector.incremental_class == "unsupported"
+    assert len(page.items) == 2
+    assert not any(item.has_remote_validator for item in page.items)
+
+
+def _rss_source(*, max_new_items: int = 10):
+    from radar_core.registry import SourceSpec
+
+    return SourceSpec.from_payload(
+        {
+            "schema": "radar-content-contract/v1/source",
+            "id": "source.rss.news",
+            "kind": "source",
+            "source_type": "rss_article",
+            "adapter": "rss_article",
+            "name": "RSS News",
+            "locator": "https://news.example.test/feed.xml",
+            "schedule": {
+                "enabled": True,
+                "timezone": "UTC",
+                "cron": "0 * * * *",
+                "max_new_items": max_new_items,
+            },
+            "output_root": "frontend/news",
+            "translation_profile": "prose/v1",
+            "enabled": True,
+        }
+    )
+
+
+def _rss_run_context(state, connector, *, run_id: str = "run-1"):
+    from datetime import datetime, timezone
+
+    from radar_core.pipeline import RunContext
+    from radar_core.translation.base import TranslationRequest, TranslationResponse
+
+    class _Router:
+        def translate(self, request: TranslationRequest) -> TranslationResponse:
+            return TranslationResponse(
+                translated_text=f"译文：{request.text[:40]}",
+                provider="fake",
+                model="fake-model",
+                metadata={"provider": "fake"},
+            )
+
+    return RunContext(
+        state=state,
+        run_id=run_id,
+        target_locales=("zh-CN",),
+        connector_factory=lambda _source: connector,
+        router=_Router(),
+        now=datetime(2026, 9, 21, 0, 0, tzinfo=timezone.utc),
+        mode="incremental",
+    )
+
+
+def test_rss_304_through_run_source_fetches_zero_articles(tmp_path: Path):
+    from radar_core.pipeline import run_source
+    from radar_core.storage import StateStore
+
+    feed_url = "https://news.example.test/feed.xml"
+    article_one = "https://news.example.test/articles/one"
+    article_two = "https://news.example.test/articles/two"
+    feed_200 = HttpResponse(
+        status_code=200,
+        headers={
+            "Content-Type": "application/rss+xml",
+            "ETag": '"feed-v1"',
+            "Last-Modified": "Tue, 15 Sep 2026 10:00:00 GMT",
+        },
+        body=fixture_bytes("rss.xml"),
+    )
+    feed_304 = HttpResponse(
+        status_code=304,
+        headers={
+            "ETag": '"feed-v1"',
+            "Last-Modified": "Tue, 15 Sep 2026 10:00:00 GMT",
+        },
+        body=b"",
+    )
+    article_body = HttpResponse(
+        status_code=200,
+        headers={"Content-Type": "text/html; charset=utf-8"},
+        body=fixture_bytes("rss-article-one.html"),
+    )
+    routes = {
+        feed_url: feed_200,
+        article_one: article_body,
+        article_two: article_body,
+    }
+
+    class _HybridTransport(SequenceTransport):
+        def request(self, method, url, *, headers, timeout):
+            if url == feed_url and self.responses:
+                return super().request(method, url, headers=headers, timeout=timeout)
+            response = routes[url]
+            self.calls.append(
+                {
+                    "method": method,
+                    "url": url,
+                    "headers": dict(headers),
+                    "timeout": timeout,
+                }
+            )
+            return response
+
+    transport = _HybridTransport([feed_200, feed_304])
+    connector = ConnectorFactory.create(
+        "rss_article",
+        {
+            "source_id": "source.rss.news",
+            "feed_url": feed_url,
+            "transport": transport,
+        },
+    )
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    source = _rss_source()
+
+    first = run_source(source, _rss_run_context(state, connector, run_id="r1"))
+    assert first.run_kind == "baseline_only"
+    assert first.fetched == 0
+
+    for item_id, revision, url in (
+        ("article-one", "Tue, 15 Sep 2026 09:00:00 GMT", article_one),
+        ("article-two", "Tue, 15 Sep 2026 08:00:00 GMT", article_two),
+    ):
+        state.upsert_source_item(
+            {
+                "source_id": "source.rss.news",
+                "item_id": item_id,
+                "canonical_url": url,
+                "remote_revision": revision,
+                "fetched_revision": revision,
+                "status": "fetched",
+            }
+        )
+
+    article_gets_before = [
+        call for call in transport.calls if call["url"] in {article_one, article_two}
+    ]
+    assert article_gets_before == []
+
+    second = run_source(source, _rss_run_context(state, connector, run_id="r2"))
+
+    assert second.run_kind == "incremental"
+    assert second.fetched == 0
+    article_gets = [
+        call for call in transport.calls if call["url"] in {article_one, article_two}
+    ]
+    assert article_gets == []
+    state.close()
+
+
+def test_rss_new_guid_is_only_fetch_after_baseline(tmp_path: Path):
+    from radar_core.pipeline import run_source
+    from radar_core.storage import StateStore
+
+    feed_url = "https://news.example.test/feed.xml"
+    article_one = "https://news.example.test/articles/one"
+    article_two = "https://news.example.test/articles/two"
+    article_three = "https://news.example.test/articles/three"
+
+    feed_v1 = fixture_bytes("rss.xml")
+    feed_v2 = feed_v1.replace(
+        b"</channel>",
+        b"""  <item>
+      <title>Third article</title>
+      <guid isPermaLink="false">article-three</guid>
+      <link>https://news.example.test/articles/three</link>
+      <pubDate>Tue, 15 Sep 2026 11:00:00 GMT</pubDate>
+      <description>Third article summary.</description>
+    </item>
+</channel>""",
+    )
+    article_html = HttpResponse(
+        status_code=200,
+        headers={"Content-Type": "text/html; charset=utf-8"},
+        body=fixture_bytes("rss-article-one.html"),
+    )
+
+    class _RssTransport(FixtureTransport):
+        def __init__(self) -> None:
+            super().__init__({})
+            self.feed_bodies = [feed_v1, feed_v2]
+            self.routes = {
+                article_one: article_html,
+                article_two: article_html,
+                article_three: article_html,
+            }
+
+        def request(self, method, url, *, headers, timeout):
+            self.calls.append(
+                {
+                    "method": method,
+                    "url": url,
+                    "headers": dict(headers),
+                    "timeout": timeout,
+                }
+            )
+            if url == feed_url:
+                body = self.feed_bodies.pop(0)
+                return HttpResponse(
+                    status_code=200,
+                    headers={
+                        "Content-Type": "application/rss+xml",
+                        "ETag": f'"feed-v{3 - len(self.feed_bodies)}"',
+                    },
+                    body=body,
+                )
+            return self.routes[url]
+
+    transport = _RssTransport()
+    connector = ConnectorFactory.create(
+        "rss_article",
+        {
+            "source_id": "source.rss.news",
+            "feed_url": feed_url,
+            "transport": transport,
+        },
+    )
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    source = _rss_source()
+
+    first = run_source(source, _rss_run_context(state, connector, run_id="r1"))
+    assert first.run_kind == "baseline_only"
+    assert first.fetched == 0
+
+    for item_id, revision, url in (
+        ("article-one", "Tue, 15 Sep 2026 09:00:00 GMT", article_one),
+        ("article-two", "Tue, 15 Sep 2026 08:00:00 GMT", article_two),
+    ):
+        state.upsert_source_item(
+            {
+                "source_id": "source.rss.news",
+                "item_id": item_id,
+                "canonical_url": url,
+                "remote_revision": revision,
+                "fetched_revision": revision,
+                "status": "fetched",
+            }
+        )
+
+    second = run_source(source, _rss_run_context(state, connector, run_id="r2"))
+
+    assert second.run_kind == "incremental"
+    assert second.fetched == 1
+    assert second.selected == 1
+    article_gets = [
+        call["url"]
+        for call in transport.calls
+        if call["url"] in {article_one, article_two, article_three}
+    ]
+    assert article_gets == [article_three]
+    state.close()
