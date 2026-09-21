@@ -431,6 +431,175 @@ def test_knowledge_source_alias_infers_llms_from_generic_url():
     assert [item.title for item in page.items] == ["Getting started", "API reference"]
 
 
+def test_html_collection_discovers_filtered_links_and_fetches_article():
+    listing_url = "https://blog.example.test/engineering"
+    article_url = "https://blog.example.test/engineering/agents"
+    transport = FixtureTransport(
+        {
+            listing_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/html; charset=utf-8"},
+                body=fixture_bytes("html-collection-index.html"),
+            ),
+            article_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/html; charset=utf-8"},
+                body=fixture_bytes("html-collection-article.html"),
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "html_collection",
+        {
+            "source_id": "source.html.example",
+            "listing_url": listing_url,
+            "link_prefixes": ["/engineering/"],
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+    document = connector.fetch(page.items[0])
+
+    assert [item.title for item in page.items] == ["Agents at Example"]
+    assert page.items[0].url == article_url
+    assert_raw_document(document, "source.html.example")
+    assert document.content_type == "text/html"
+    assert "fixture engineering article" in document.body
+
+
+def test_static_pages_discovers_declared_pages_and_fetches_reader_url():
+    public_url = "https://docs.example.test/guides/agents"
+    fetch_url = "https://reader.example.test/guides/agents"
+    transport = FixtureTransport(
+        {
+            fetch_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/plain; charset=utf-8"},
+                body="# Agents guide\n\nStatic page fixture.",
+            )
+        }
+    )
+    connector = ConnectorFactory.create(
+        "static_pages",
+        {
+            "source_id": "source.static.example",
+            "pages": [
+                {
+                    "id": "agents",
+                    "title": "Agents guide",
+                    "url": public_url,
+                    "fetch_url": fetch_url,
+                }
+            ],
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+    document = connector.fetch(page.items[0])
+
+    assert [item.native_id for item in page.items] == ["agents"]
+    assert page.items[0].url == public_url
+    assert document.url == public_url
+    assert document.body.startswith("# Agents guide")
+
+
+def test_static_pages_falls_back_to_public_url_when_reader_url_fails():
+    public_url = "https://docs.example.test/guides/agents"
+    fetch_url = "https://reader.example.test/guides/agents"
+    transport = FixtureTransport(
+        {
+            fetch_url: HttpResponse(
+                status_code=503,
+                headers={"Content-Type": "text/plain"},
+                body="reader unavailable",
+            ),
+            public_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/html; charset=utf-8"},
+                body="<html><body>Public page fixture.</body></html>",
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "static_pages",
+        {
+            "source_id": "source.static.fallback",
+            "max_retries": 0,
+            "pages": [
+                {
+                    "id": "agents",
+                    "title": "Agents guide",
+                    "url": public_url,
+                    "fetch_url": fetch_url,
+                }
+            ],
+            "transport": transport,
+        },
+    )
+
+    document = connector.fetch(connector.discover(Cursor()).items[0])
+
+    assert document.body == "<html><body>Public page fixture.</body></html>"
+    assert [call["url"] for call in transport.calls] == [fetch_url, public_url]
+
+
+def test_composite_connector_merges_child_sources_and_dispatches_fetch():
+    feed_url = "https://composite.example.test/feed.xml"
+    article_url = "https://composite.example.test/article"
+    llms_url = "https://composite.example.test/llms.txt"
+    guide_url = "https://composite.example.test/guide.md"
+    transport = FixtureTransport(
+        {
+            feed_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "application/rss+xml"},
+                body=fixture_bytes("rss.xml").replace(
+                    b"https://news.example.test/articles/one",
+                    article_url.encode("utf-8"),
+                ),
+            ),
+            article_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/html"},
+                body=fixture_bytes("rss-article-one.html"),
+            ),
+            llms_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/plain"},
+                body=fixture_bytes("llms.txt").replace(
+                    b"https://docs.example.test/guide/getting-started.md",
+                    guide_url.encode("utf-8"),
+                ),
+            ),
+            guide_url: HttpResponse(
+                status_code=200,
+                headers={"Content-Type": "text/markdown"},
+                body=fixture_bytes("llms-getting-started.md"),
+            ),
+        }
+    )
+    connector = ConnectorFactory.create(
+        "composite",
+        {
+            "source_id": "source.composite.example",
+            "sources": [
+                {"adapter": "rss_article", "feed_url": feed_url},
+                {"adapter": "llms_txt", "url": llms_url},
+            ],
+            "transport": transport,
+        },
+    )
+
+    page = connector.discover(Cursor())
+    document = connector.fetch(page.items[0])
+
+    assert len(page.items) == 4
+    assert {item.metadata["composite_index"] for item in page.items} == {0, 1}
+    assert_raw_document(document, "source.composite.example")
+
+
 @pytest.mark.parametrize("adapter", REGISTERED_ADAPTERS)
 def test_factory_explicitly_covers_every_registered_source_adapter(adapter: str):
     assert adapter in ConnectorFactory.supported_adapters()
@@ -445,6 +614,23 @@ def test_factory_explicitly_covers_every_registered_source_adapter(adapter: str)
         )
     elif adapter == "deepwiki":
         config["url"] = "https://deepwiki.example.test/example/project"
+    elif adapter == "html_collection":
+        config["listing_url"] = "https://blog.example.test/engineering"
+    elif adapter == "static_pages":
+        config["pages"] = [
+            {
+                "id": "fixture",
+                "title": "Fixture",
+                "url": "https://docs.example.test/fixture",
+            }
+        ]
+    elif adapter == "composite":
+        config["sources"] = [
+            {
+                "adapter": "llms_txt",
+                "url": "https://docs.example.test/llms.txt",
+            }
+        ]
     elif adapter in {"local_import", "knowledge_source"}:
         config["root"] = FIXTURE_ROOT / "local-import"
     connector = ConnectorFactory.create(adapter, config)

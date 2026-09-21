@@ -275,6 +275,18 @@ class BaseConnector:
         )
 
 
+def merge_nested_source_config(config: Mapping[str, Any]) -> dict[str, Any]:
+    """Expose module-level source settings to a connector without losing metadata."""
+
+    raw = dict(config)
+    nested = raw.get("source")
+    if not isinstance(nested, Mapping):
+        return raw
+    merged = dict(nested)
+    merged.update(raw)
+    return merged
+
+
 class HttpConnector(BaseConnector):
     network = True
 
@@ -459,6 +471,9 @@ class ConnectorFactory:
         "llms_txt": "llms_txt",
         "github_tree": "github_tree",
         "deepwiki": "deepwiki",
+        "html_collection": "html_collection",
+        "static_pages": "static_pages",
+        "composite": "composite",
         "knowledge_source": "knowledge_source",
         "local_import": "local_import",
         "markdown_google": "unsupported",
@@ -520,6 +535,18 @@ class ConnectorFactory:
             from .deepwiki import DeepWikiConnector
 
             return DeepWikiConnector(settings)
+        if target == "html_collection":
+            from .html_collection import HTMLCollectionConnector
+
+            return HTMLCollectionConnector(settings)
+        if target == "static_pages":
+            from .static_pages import StaticPagesConnector
+
+            return StaticPagesConnector(settings)
+        if target == "composite":
+            from .composite import CompositeConnector
+
+            return CompositeConnector(settings)
         if target == "local_import":
             from .local_import import LocalImportConnector
 

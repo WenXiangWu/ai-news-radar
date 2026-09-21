@@ -167,11 +167,32 @@ def test_registered_translation_only_processes_stale_pages_and_preserves_code(
     assert "```python\nprint('hello')\n```" in translated
 
 
-def test_publish_workflow_runs_registry_reconciliation_and_registered_tasks():
+def test_publish_workflow_runs_the_radar_export_and_way_import():
     workflow = Path(".github/workflows/update-news.yml").read_text(encoding="utf-8")
 
-    assert "scripts/radar_registry.py" in workflow
-    assert "scripts/run_registered_tasks.py" in workflow
-    assert "scripts/write_export_manifest.py" in workflow
-    assert "registry-state.json" in workflow
-    assert "radar-task-report.json" in workflow
+    assert "scripts/radar_run.py" in workflow
+    assert "scripts/radar_export.py" in workflow
+    assert "scripts/import_radar_export.py" in workflow
+    assert "scripts/build_radar_content_registry.py" in workflow
+    assert "scripts/build_radar_projections.py" in workflow
+    assert "scripts/build_radar_update_report.py" in workflow
+    assert "scripts/build_radar_monitor_snapshot.py" in workflow
+    assert "radar-monitor.json" in workflow
+    assert "--radar-monitor" in workflow
+    assert "reports/index.json" in workflow
+    assert "RADAR_SCOPE" in workflow
+    assert "--only-module" in workflow
+    assert "--force" in workflow
+    assert "radar-update-report.json" in workflow
+    assert "source-validation.json" in workflow
+    assert "radar_exit=0" in workflow
+    assert "failure report" in workflow
+    assert "radar-state.sqlite3" in workflow
+    assert "frontend/radar-content" in workflow
+    assert "data/radar-monitor.json" in workflow
+    assert "data/radar-update-report.json" in workflow
+    assert "data/source-validation.json" in workflow
+    assert "data/radar-reports" in workflow
+    assert "--public-prefix /data" in workflow
+    assert "--reports-prefix /data/radar-reports" in workflow
+    assert 'rm -f "$work/frontend/radar-content/radar-monitor.json"' in workflow

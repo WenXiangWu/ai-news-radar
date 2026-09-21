@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Radar 同步监控</title>
+  <link rel="stylesheet" href="./monitor.css?v=20260921">
+</head>
+<body>
+  <main class="monitor-page">
+        <header class="monitor-hero">
+          <div>
+            <p class="eyebrow">RADAR CONTROL PLANE</p>
+            <h1>Radar 数据同步监控</h1>
+            <p class="monitor-lead">Radar 独立控制面：展示模块、数据源、基线、可达性、翻译状态和每日报告。</p>
+          </div>
+          <div class="hero-actions">
+            <span id="snapshotMeta" class="muted">正在加载…</span>
+            <a id="runAllBtn" class="primary-action" href="https://github.com/WenXiangWu/ai-news-radar/actions/workflows/update-news.yml" target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">▶</span> 在 GitHub Actions 中执行
+            </a>
+          </div>
+        </header>
+
+        <section class="kpi-grid" id="kpis" aria-label="运行概览"></section>
+        <section class="monitor-section" id="runSection">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">LATEST RUN</p>
+              <h2>当前运行</h2>
+            </div>
+            <span id="runStatus" class="status-chip">待加载</span>
+          </div>
+          <div id="runSummary" class="run-summary"></div>
+        </section>
+
+        <section class="monitor-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">TRANSLATION</p>
+              <h2>翻译提供方</h2>
+            </div>
+          </div>
+          <div id="providers" class="provider-grid"></div>
+        </section>
+
+        <section class="monitor-section" id="modules">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">REGISTERED MODULES</p>
+              <h2>模块总览</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table class="module-table">
+              <thead>
+                <tr>
+                  <th>模块</th>
+                  <th>类型</th>
+                  <th>状态</th>
+                  <th>任务</th>
+                  <th>数据源</th>
+                  <th>更新</th>
+                  <th>翻译</th>
+                </tr>
+              </thead>
+              <tbody id="moduleTable"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="monitor-section" id="sources">
+          <div class="section-heading section-heading-wrap">
+            <div>
+              <p class="eyebrow">REGISTERED SOURCES</p>
+              <h2>数据源监控</h2>
+            </div>
+            <div class="table-tools">
+              <label class="sr-only" for="sourceFilter">筛选数据源</label>
+              <input id="sourceFilter" type="search" placeholder="筛选模块、来源或适配器">
+              <select id="sourceStatusFilter" aria-label="按状态筛选">
+                <option value="">全部状态</option>
+                <option value="success">成功</option>
+                <option value="pending">待执行</option>
+                <option value="failed">失败</option>
+                <option value="disabled">已停用</option>
+              </select>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table class="source-table">
+              <thead>
+                <tr>
+                  <th>模块 / 数据源</th>
+                  <th>适配器</th>
+                  <th>计划</th>
+                  <th>状态</th>
+                  <th>可达性</th>
+                  <th>基线</th>
+                  <th>最近执行</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="sourceTable"></tbody>
+            </table>
+          </div>
+          <p id="sourceEmpty" class="empty-state" hidden>没有符合条件的数据源。</p>
+        </section>
+
+        <section class="monitor-section" id="reports">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">DAILY MODULE LOG</p>
+              <h2>每日更新</h2>
+            </div>
+            <a id="latestReportLink" class="quiet-link" href="/data/radar-update-report.json">打开完整报告</a>
+          </div>
+          <div id="dailyModules" class="module-log"></div>
+          <div class="report-history">
+            <h3>历史报告</h3>
+            <div id="reportList" class="report-list"></div>
+          </div>
+        </section>
+
+        <div id="loadError" class="error-panel" hidden></div>
+      </main>
+  <script src="./monitor.js?v=20260921"></script>
+</body>
+</html>

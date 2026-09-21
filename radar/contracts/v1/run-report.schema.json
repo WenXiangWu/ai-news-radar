@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "radar-run-report/v1",
+  "title": "Radar run report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "run_id", "protocol_version", "started_at", "finished_at", "status", "tasks"],
+  "properties": {
+    "schema": {"const": "radar-run-report/v1"},
+    "run_id": {"type": "string", "pattern": "^run-[A-Za-z0-9._:+-]+$"},
+    "protocol_version": {"const": "v1"},
+    "started_at": {"type": "string", "format": "date-time"},
+    "finished_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["ok", "partial", "failed", "skipped"]},
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["task_id", "status", "summary"],
+        "properties": {
+          "task_id": {"type": "string", "pattern": "^task\\.[a-z0-9]+(?:[.-][a-z0-9]+)*$"},
+          "status": {"enum": ["ok", "partial", "failed", "skipped"]},
+          "summary": {"type": "string", "minLength": 1},
+          "added": {"type": "integer", "minimum": 0},
+          "updated": {"type": "integer", "minimum": 0},
+          "translated": {"type": "integer", "minimum": 0},
+          "error": {"type": "string"}
+        }
+      }
+    },
+    "export_id": {"type": "string", "pattern": "^export-[A-Za-z0-9._:+-]+$"}
+  }
+}

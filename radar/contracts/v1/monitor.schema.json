@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "radar-monitor/v1",
+  "title": "Radar monitoring snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "generated_at", "run", "summary", "providers", "modules", "sources", "reports"],
+  "properties": {
+    "schema": {"const": "radar-monitor/v1"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "run": {
+      "type": "object",
+      "required": ["run_id", "status", "duration_ms", "report_path"],
+      "properties": {
+        "run_id": {"type": "string"},
+        "status": {"type": "string"},
+        "started_at": {"type": ["string", "null"], "format": "date-time"},
+        "finished_at": {"type": ["string", "null"], "format": "date-time"},
+        "duration_ms": {"type": "integer", "minimum": 0},
+        "trigger_request_id": {"type": ["string", "null"]},
+        "report_path": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "summary": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "providers": {"type": "array", "items": {"type": "object"}},
+    "modules": {"type": "array", "items": {"type": "object"}},
+    "sources": {"type": "array", "items": {"type": "object"}},
+    "reports": {
+      "type": "object",
+      "required": ["latest_update", "latest_validation", "history_index"],
+      "additionalProperties": {"type": "string"}
+    }
+  }
+}

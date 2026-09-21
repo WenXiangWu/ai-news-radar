@@ -82,6 +82,12 @@ def accept_revision(document: NormalizedDocument, state: StateStore) -> Revision
             "status": "new",
             "title": document.title,
             "canonical_url": document.canonical_url,
+            "body": document.body,
+            "content_type": str(
+                document.metadata.get("content_type") or "documentation"
+            ),
+            "published_at": document.published_at,
+            "metadata": dict(document.metadata),
         }
     )
     return Revision(

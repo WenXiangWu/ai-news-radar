@@ -76,13 +76,13 @@ def content_id_for(
     canonical_url: str | None = None,
     slug: str | None = None,
 ) -> str:
-    return "content_" + sha256_text(
+    return "content." + sha256_text(
         _stable_basis(source_id, native_id, canonical_url, slug)
     )[:32]
 
 
 def revision_id_for(normalized_text: str, normalizer_version: str) -> str:
-    return "revision_" + sha256_structured(
+    return "revision." + sha256_structured(
         [normalizer_version, normalized_text]
     )[:32]
 
@@ -94,6 +94,6 @@ def translation_key(
     profile: str,
     policy: str,
 ) -> str:
-    return "translation_" + sha256_structured(
+    return "translation." + sha256_structured(
         [str(content_id), str(revision_id), str(locale), str(profile), str(policy)]
     )[:32]

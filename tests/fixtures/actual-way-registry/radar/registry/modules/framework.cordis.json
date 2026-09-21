@@ -43,40 +43,11 @@
       }
     },
     {
-      "id": "task.framework.cordis.translation",
-      "kind": "translation",
-      "adapter": "markdown_google",
-      "depends_on": [
-        "task.framework.cordis.wiki"
-      ],
-      "source": {
-        "stale_manifest": "frontend/path/frameworks/02-agent-runtime/deepseek-harness/cordis/wiki/_sync/stale.json",
-        "source_root": "frontend/path/frameworks/02-agent-runtime/deepseek-harness/cordis/wiki"
-      },
-      "output": {
-        "path": "frontend/path/frameworks/02-agent-runtime/deepseek-harness/cordis/wiki/zh"
-      },
-      "schedule": {
-        "enabled": true,
-        "timezone": "Asia/Shanghai",
-        "cron": "47 4 * * *",
-        "retry_count": 2,
-        "max_runtime_minutes": 45,
-        "max_new_items": 20
-      },
-      "incremental": {
-        "revision_field": "source_content_hash",
-        "preserve_code_blocks": true,
-        "keep_previous_on_error": true
-      }
-    },
-    {
       "id": "task.framework.cordis.index",
       "kind": "index_sync",
       "adapter": "framework_hubs",
       "depends_on": [
-        "task.framework.cordis.wiki",
-        "task.framework.cordis.translation"
+        "task.framework.cordis.wiki"
       ],
       "output": {
         "path": "frontend/path/frameworks/hubs.json"

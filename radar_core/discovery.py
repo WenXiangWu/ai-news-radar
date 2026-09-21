@@ -5,8 +5,24 @@ from datetime import datetime, timedelta, timezone
 from typing import Any, Mapping
 from zoneinfo import ZoneInfo
 
-from .registry import Registry, SourceSpec
+from .registry import Registry, SourceSpec, TaskSpec
 from .storage import StateStore
+
+
+FETCH_ADAPTERS = frozenset(
+    {
+        "rss",
+        "rss_article",
+        "llms_txt",
+        "github_tree",
+        "deepwiki",
+        "html_collection",
+        "static_pages",
+        "composite",
+        "local_import",
+        "knowledge_source",
+    }
+)
 
 
 @dataclass(frozen=True)
@@ -18,10 +34,11 @@ class Operation:
     cursor: dict[str, Any]
     entity_ids: tuple[str, ...] = ()
     surface_ids: tuple[str, ...] = ()
+    task_id: str | None = None
 
     @property
     def id(self) -> str:
-        return self.source_id
+        return self.task_id or self.source_id
 
     @property
     def schedule(self) -> dict[str, Any]:
@@ -31,11 +48,35 @@ class Operation:
         return {
             "id": self.id,
             "source_id": self.source_id,
+            "task_id": self.task_id,
             "scheduled_at": self.scheduled_at.isoformat(),
             "next_run_at": self.next_run_at,
             "schedule": self.schedule,
             "entity_ids": list(self.entity_ids),
             "surface_ids": list(self.surface_ids),
+        }
+
+
+@dataclass(frozen=True)
+class TaskOperation:
+    task: TaskSpec
+    scheduled_at: datetime
+    next_run_at: str | None
+    cursor: dict[str, Any]
+
+    @property
+    def id(self) -> str:
+        return self.task.id
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "id": self.task.id,
+            "task_id": self.task.id,
+            "source_id": self.task.source_id,
+            "adapter": self.task.adapter,
+            "scheduled_at": self.scheduled_at.isoformat(),
+            "next_run_at": self.next_run_at,
+            "cursor": dict(self.cursor),
         }
 
 
@@ -259,17 +300,169 @@ def register_new_sources(
     return added
 
 
+def register_new_tasks(
+    registry: Registry,
+    state: StateStore,
+    run_id: str,
+) -> list[str]:
+    """Stage source fingerprints for fetch-capable module tasks."""
+
+    added: list[str] = []
+    declared_source_ids = {source.id for source in registry.sources}
+    for task in sorted(registry.tasks, key=lambda item: item.id):
+        if task.adapter not in FETCH_ADAPTERS:
+            continue
+        if task.source_id in declared_source_ids:
+            continue
+        source = task.to_source_spec()
+        registration = state.get_source_registration(source.id)
+        if registration is None:
+            added.append(task.id)
+        state.stage_source_registration(
+            source.id,
+            source.to_dict(),
+            source.registry_fingerprint,
+            run_id,
+        )
+    return added
+
+
+def discover_due_task_operations(
+    registry: Registry,
+    now: datetime,
+    state: StateStore,
+    *,
+    force: bool = False,
+) -> list[Operation]:
+    """Discover fetch operations declared by module and knowledge tasks."""
+
+    operations: list[Operation] = []
+    for task in sorted(registry.tasks, key=lambda item: item.id):
+        if not task.enabled or task.adapter not in FETCH_ADAPTERS:
+            continue
+        source = task.to_source_spec()
+        schedule = source.schedule
+        timezone_value = _timezone(schedule)
+        errors = _source_errors(source)
+        if errors:
+            continue
+        local_now = _localize(now, timezone_value)
+        current_minute = local_now.replace(second=0, microsecond=0)
+        scheduled_at = _last_scheduled(
+            str(schedule.get("cron") or ""),
+            current_minute,
+        )
+        next_scheduled = _next_scheduled(
+            str(schedule.get("cron") or ""),
+            current_minute,
+        )
+        if scheduled_at is None and not force:
+            continue
+        if scheduled_at is None:
+            scheduled_at = current_minute
+        cursor = _cursor_payload(source, state) or {}
+        last_scheduled = _parse_scheduled(cursor.get("last_scheduled_at"))
+        if last_scheduled is not None:
+            last_scheduled = last_scheduled.astimezone(timezone_value)
+        if not force and last_scheduled is not None and last_scheduled >= scheduled_at:
+            continue
+        operations.append(
+            Operation(
+                source_id=source.id,
+                source=source,
+                scheduled_at=scheduled_at,
+                next_run_at=(
+                    next_scheduled.isoformat()
+                    if next_scheduled is not None
+                    else None
+                ),
+                cursor=cursor,
+                entity_ids=tuple(
+                    entity.id for entity in registry.entities_for_source(source.id)
+                ),
+                surface_ids=tuple(
+                    surface.id for surface in registry.surfaces_for_source(source.id)
+                ),
+                task_id=task.id,
+            )
+        )
+    return operations
+
+
+def discover_due_control_task_operations(
+    registry: Registry,
+    now: datetime,
+    state: StateStore,
+    *,
+    force: bool = False,
+) -> list[TaskOperation]:
+    """Discover registered non-fetch tasks using the same cron state."""
+
+    operations: list[TaskOperation] = []
+    for task in sorted(registry.tasks, key=lambda item: item.id):
+        if not task.enabled or task.adapter in FETCH_ADAPTERS:
+            continue
+        schedule = task.schedule
+        timezone_value = _timezone(schedule)
+        if timezone_value is None:
+            continue
+        cron = str(schedule.get("cron") or "")
+        if not _cron_has_valid_fields(cron):
+            continue
+        local_now = _localize(now, timezone_value)
+        current_minute = local_now.replace(second=0, microsecond=0)
+        scheduled_at = _last_scheduled(cron, current_minute)
+        next_scheduled = _next_scheduled(cron, current_minute)
+        if scheduled_at is None and not force:
+            continue
+        if scheduled_at is None:
+            scheduled_at = current_minute
+        cursor_row = state.get_cursor(task.id)
+        cursor = (
+            dict(cursor_row.get("cursor") or {})
+            if isinstance(cursor_row, Mapping)
+            else {}
+        )
+        last_scheduled = _parse_scheduled(cursor.get("last_scheduled_at"))
+        if last_scheduled is not None:
+            last_scheduled = last_scheduled.astimezone(timezone_value)
+        if not force and last_scheduled is not None and last_scheduled >= scheduled_at:
+            continue
+        operations.append(
+            TaskOperation(
+                task=task,
+                scheduled_at=scheduled_at,
+                next_run_at=(
+                    next_scheduled.isoformat()
+                    if next_scheduled is not None
+                    else None
+                ),
+                cursor=cursor,
+            )
+        )
+    return operations
+
+
 def discover_due_operations(
     registry: Registry,
     now: datetime,
     state: StateStore,
+    *,
+    force: bool = False,
 ) -> list[Operation]:
     """Return executable source operations whose registry schedule is due."""
 
     _reconcile_registry(registry, state)
     operations: list[Operation] = []
+    task_backed_source_ids = {
+        task.source_id
+        for task in registry.tasks
+        if task.enabled and task.adapter in FETCH_ADAPTERS
+    }
 
     for source in sorted(registry.sources, key=lambda item: item.id):
+        if source.id in task_backed_source_ids:
+            continue
         schedule = source.schedule
         timezone_value = _timezone(schedule) if isinstance(schedule, Mapping) else None
         cron = str(schedule.get("cron") or "") if isinstance(schedule, Mapping) else ""
@@ -290,14 +483,16 @@ def discover_due_operations(
         )
         if not source.enabled or not bool(schedule.get("enabled", True)):
             continue
-        if scheduled_at is None:
+        if scheduled_at is None and not force:
             continue
+        if scheduled_at is None:
+            scheduled_at = current_minute
 
         cursor = _cursor_payload(source, state) or {}
         last_scheduled = _parse_scheduled(cursor.get("last_scheduled_at"))
         if last_scheduled is not None:
             last_scheduled = last_scheduled.astimezone(timezone_value)
-        if last_scheduled is not None and last_scheduled >= scheduled_at:
+        if not force and last_scheduled is not None and last_scheduled >= scheduled_at:
             continue
 
         entities = registry.entities_for_source(source.id)
@@ -321,7 +516,12 @@ def discover_due_operations(
 
 
 __all__ = [
+    "FETCH_ADAPTERS",
     "Operation",
+    "TaskOperation",
     "discover_due_operations",
+    "discover_due_control_task_operations",
+    "discover_due_task_operations",
     "register_new_sources",
+    "register_new_tasks",
 ]

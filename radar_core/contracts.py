@@ -65,6 +65,10 @@ def _normalize_protocol(protocol: Dict[str, Any]) -> Dict[str, Any]:
         "registry_index",
         "job_report_path",
         "export_manifest_path",
+        "radar_content_root",
+        "source_validation_path",
+        "update_report_path",
+        "report_history_root",
         "contract_root",
     ):
         if key in normalized:

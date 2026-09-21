@@ -9,13 +9,28 @@
     "target_path": "frontend/path/coding-tools"
   },
   "source": {
+    "locator": "https://cursor.com/changelog/rss.xml",
     "vendors": [
       "cursor",
       "codex"
     ],
-    "catalogs": [
-      "https://cursor.com/changelog/rss.xml",
-      "https://developers.openai.com/codex/llms.txt"
+    "sources": [
+      {"adapter": "rss_article", "feed_url": "https://cursor.com/changelog/rss.xml"},
+      {"adapter": "llms_txt", "url": "https://cursor.com/llms.txt"},
+      {"adapter": "rss_article", "feed_url": "https://cursor.com/atom.xml"},
+      {"adapter": "rss_article", "feed_url": "https://cursor.com/blog/rss.xml"},
+      {"adapter": "llms_txt", "url": "https://developers.openai.com/codex/llms.txt"},
+      {"adapter": "llms_txt", "url": "https://developers.openai.com/blog/llms.txt"},
+      {
+        "adapter": "static_pages",
+        "pages": [
+          {
+            "id": "codex-changelog",
+            "title": "Codex Changelog",
+            "url": "https://developers.openai.com/codex/changelog"
+          }
+        ]
+      }
     ]
   },
   "bootstrap": {
@@ -26,7 +41,7 @@
     {
       "id": "task.source.coding-tools.catalog",
       "kind": "index_sync",
-      "adapter": "coding_tools_catalog",
+      "adapter": "composite",
       "output": {
         "paths": [
           "frontend/sources/cursor",

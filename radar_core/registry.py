@@ -39,6 +39,34 @@ def _diagnostics() -> dict[str, Any]:
     }
 
 
+def _source_type_for_adapter(adapter: str, fallback: str = "") -> str:
+    normalized = str(adapter or "").strip()
+    mapped = {
+        "rss": "rss",
+        "rss_article": "rss",
+        "llms_txt": "llms_txt",
+        "github_tree": "github",
+        "deepwiki": "deepwiki",
+        "local_import": "local",
+        "knowledge_source": "local",
+        "html_collection": "official_blog",
+        "static_pages": "official_blog",
+        "composite": "official_blog",
+    }.get(normalized)
+    if mapped:
+        return mapped
+    if fallback in {
+        "official_blog",
+        "rss",
+        "llms_txt",
+        "github",
+        "deepwiki",
+        "local",
+    }:
+        return fallback
+    return "local"
+
+
 @dataclass(frozen=True)
 class SourceSpec:
     id: str
@@ -180,11 +208,187 @@ class SurfaceSpec:
         return self.to_dict()[key]
 
 
+def _merge_mappings(base: Mapping[str, Any], override: Mapping[str, Any]) -> dict[str, Any]:
+    merged = dict(base)
+    for key, value in override.items():
+        if isinstance(merged.get(key), Mapping) and isinstance(value, Mapping):
+            merged[key] = _merge_mappings(merged[key], value)
+        else:
+            merged[key] = value
+    return merged
+
+
+def _task_locator(source: Mapping[str, Any], fallback: str) -> str:
+    for key in (
+        "locator",
+        "url",
+        "feed_url",
+        "llms_url",
+        "listing_url",
+        "deepwiki",
+        "deepwiki_url",
+        "official",
+        "github",
+        "repo",
+    ):
+        value = str(source.get(key) or "").strip()
+        if value:
+            return value
+    pages = source.get("pages")
+    if isinstance(pages, list) and pages:
+        first = pages[0]
+        if isinstance(first, Mapping):
+            value = str(first.get("url") or first.get("fetch_url") or "").strip()
+            if value:
+                return value
+    for key in ("listing_urls", "sources"):
+        values = source.get(key)
+        if isinstance(values, list) and values:
+            first = values[0]
+            if isinstance(first, Mapping):
+                value = str(
+                    first.get("locator")
+                    or first.get("url")
+                    or first.get("feed_url")
+                    or first.get("llms_url")
+                    or ""
+                ).strip()
+                if value:
+                    return value
+            value = str(first).strip()
+            if value:
+                return value
+    return fallback
+
+
+@dataclass(frozen=True)
+class TaskSpec:
+    id: str
+    module_id: str
+    kind: str
+    adapter: str
+    source: dict[str, Any]
+    output: dict[str, Any]
+    schedule: dict[str, Any]
+    depends_on: tuple[str, ...] = ()
+    enabled: bool = True
+    module_kind: str = ""
+    module_name: str = ""
+    payload: dict[str, Any] = field(default_factory=dict)
+    fingerprint: str = ""
+
+    @classmethod
+    def from_payload(
+        cls,
+        payload: Mapping[str, Any],
+        *,
+        module: Mapping[str, Any],
+    ) -> "TaskSpec":
+        raw = dict(payload)
+        module_id = str(module.get("id") or "").strip()
+        task_id = str(raw.get("id") or "").strip()
+        if not task_id:
+            raise ValueError(f"{module_id}.task.id is required")
+        source = raw.get("source") if isinstance(raw.get("source"), Mapping) else {}
+        module_source = module.get("source")
+        merged_source = _merge_mappings(
+            module_source if isinstance(module_source, Mapping) else {},
+            source,
+        )
+        adapter = str(
+            raw.get("adapter")
+            or merged_source.get("adapter")
+            or ""
+        ).strip()
+        output = raw.get("output") if isinstance(raw.get("output"), Mapping) else {}
+        schedule = raw.get("schedule") if isinstance(raw.get("schedule"), Mapping) else {}
+        depends_on = raw.get("depends_on")
+        normalized_depends = tuple(
+            str(value).strip()
+            for value in depends_on
+            if str(value).strip()
+        ) if isinstance(depends_on, list) else ()
+        fingerprint = _fingerprint(raw)
+        return cls(
+            id=task_id,
+            module_id=module_id,
+            kind=str(raw.get("kind") or "").strip(),
+            adapter=adapter,
+            source=dict(merged_source),
+            output=dict(output),
+            schedule=dict(schedule),
+            depends_on=normalized_depends,
+            enabled=bool(module.get("enabled", True))
+            and bool(raw.get("enabled", True))
+            and bool(schedule.get("enabled", True)),
+            module_kind=str(module.get("kind") or "").strip(),
+            module_name=str(
+                (module.get("display") or {}).get("name")
+                if isinstance(module.get("display"), Mapping)
+                else module_id
+            ).strip(),
+            payload=raw,
+            fingerprint=fingerprint,
+        )
+
+    @property
+    def source_id(self) -> str:
+        if self.module_id.startswith("source."):
+            return self.module_id
+        return f"source.{self.module_id}"
+
+    @property
+    def registry_fingerprint(self) -> str:
+        return self.fingerprint
+
+    def to_source_spec(self) -> SourceSpec:
+        output_root = str(
+            self.output.get("path")
+            or (
+                self.output.get("paths")[0]
+                if isinstance(self.output.get("paths"), list) and self.output.get("paths")
+                else ""
+            )
+        ).strip()
+        locator = _task_locator(self.source, self.module_id)
+        payload = {
+            "schema": "radar-content-contract/v1/source",
+            "id": self.source_id,
+            "kind": "source",
+            "source_type": _source_type_for_adapter(self.adapter, self.kind),
+            "adapter": self.adapter,
+            "name": self.module_name or self.module_id,
+            "locator": locator,
+            "schedule": dict(self.schedule),
+            "output_root": output_root or f"frontend/{self.module_id}",
+            "translation_profile": str(
+                self.payload.get("translation_profile") or "prose/v1"
+            ),
+            "enabled": self.enabled,
+            "module_id": self.module_id,
+            "task_id": self.id,
+            "source": dict(self.source),
+        }
+        return SourceSpec.from_payload(payload)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            **dict(self.payload),
+            "id": self.id,
+            "module_id": self.module_id,
+            "source": dict(self.source),
+            "output": dict(self.output),
+            "schedule": dict(self.schedule),
+            "depends_on": list(self.depends_on),
+        }
+
+
 @dataclass
 class Registry:
     sources: list[SourceSpec]
     entities: list[EntitySpec] = field(default_factory=list)
     surfaces: list[SurfaceSpec] = field(default_factory=list)
+    tasks: list[TaskSpec] = field(default_factory=list)
     diagnostics: dict[str, Any] = field(default_factory=_diagnostics)
 
     @classmethod
@@ -209,6 +413,15 @@ class Registry:
             if isinstance(surface, SurfaceSpec)
             else SurfaceSpec.from_payload(surface)
             for surface in self.surfaces
+        ]
+        self.tasks = [
+            task
+            if isinstance(task, TaskSpec)
+            else TaskSpec.from_payload(
+                task,
+                module=task.get("module") if isinstance(task, Mapping) else {},
+            )
+            for task in self.tasks
         ]
         defaults = _diagnostics()
         defaults.update(self.diagnostics or {})
@@ -323,8 +536,30 @@ def _knowledge_source_payloads(
         locator = str(
             raw.get("locator")
             or raw.get("url")
+            or raw.get("feed_url")
             or raw.get("official")
             or raw.get("github")
+            or raw.get("listing_url")
+            or (
+                raw.get("listing_urls")[0]
+                if isinstance(raw.get("listing_urls"), list)
+                and raw.get("listing_urls")
+                else ""
+            )
+            or (
+                raw.get("pages")[0].get("url")
+                if isinstance(raw.get("pages"), list)
+                and raw.get("pages")
+                and isinstance(raw.get("pages")[0], Mapping)
+                else ""
+            )
+            or (
+                raw.get("sources")[0].get("url")
+                if isinstance(raw.get("sources"), list)
+                and raw.get("sources")
+                and isinstance(raw.get("sources")[0], Mapping)
+                else ""
+            )
             or legacy_id
             or source_id
         ).strip()
@@ -334,7 +569,10 @@ def _knowledge_source_payloads(
                 "schema": "radar-content-contract/v1/source",
                 "id": source_id,
                 "kind": "source",
-                "source_type": str(raw.get("source_type") or "knowledge"),
+                "source_type": _source_type_for_adapter(
+                    str(raw.get("adapter") or ""),
+                    str(raw.get("source_type") or ""),
+                ),
                 "name": str(raw.get("name") or raw.get("label") or legacy_id),
                 "locator": locator,
                 "schedule": schedule,
@@ -361,6 +599,53 @@ def _source_payloads(
             raise ValueError(f"duplicate source id: {source_id}")
         seen.add(source_id)
         unique.append(payload)
+    return unique
+
+
+def _task_specs(
+    target_root: Path,
+    document: Mapping[str, Any],
+) -> list[TaskSpec]:
+    specs: list[TaskSpec] = []
+    modules = document.get("modules")
+    if isinstance(modules, list):
+        for module in modules:
+            if not isinstance(module, Mapping):
+                continue
+            tasks = module.get("tasks")
+            if not isinstance(tasks, list):
+                continue
+            for task in tasks:
+                if isinstance(task, Mapping):
+                    specs.append(TaskSpec.from_payload(task, module=module))
+
+    knowledge = _knowledge_registry_payload(target_root, document)
+    if isinstance(knowledge, Mapping):
+        for entry in knowledge.get("sources") or []:
+            if not isinstance(entry, Mapping):
+                continue
+            module_id = str(entry.get("module_id") or entry.get("id") or "").strip()
+            if not module_id:
+                continue
+            module = {
+                "id": module_id,
+                "kind": "knowledge",
+                "enabled": bool(entry.get("enabled", True)),
+                "display": {
+                    "name": str(entry.get("name") or entry.get("label") or module_id)
+                },
+                "source": dict(entry),
+            }
+            for task in entry.get("tasks") or []:
+                if isinstance(task, Mapping):
+                    specs.append(TaskSpec.from_payload(task, module=module))
+    seen: set[str] = set()
+    unique: list[TaskSpec] = []
+    for task in specs:
+        if task.id in seen:
+            raise ValueError(f"duplicate task id: {task.id}")
+        seen.add(task.id)
+        unique.append(task)
     return unique
 
 
@@ -503,6 +788,7 @@ def load_registry(target_root: Path) -> Registry:
             SurfaceSpec.from_payload(payload)
             for payload in _manifest_payloads(document, "surfaces")
         ],
+        tasks=_task_specs(Path(target_root), document),
         diagnostics=document.get("_diagnostics") or {},
     )
 
@@ -512,6 +798,7 @@ __all__ = [
     "Registry",
     "SourceSpec",
     "SurfaceSpec",
+    "TaskSpec",
     "load_framework_entities",
     "load_registry",
     "load_sources",

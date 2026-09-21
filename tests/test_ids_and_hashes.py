@@ -33,7 +33,7 @@ def test_content_id_prefers_native_id_over_url_and_slug():
     )
 
     assert native == same_native
-    assert native.startswith("content_")
+    assert native.startswith("content.")
 
 
 def test_content_id_uses_canonical_url_then_stable_slug():
@@ -66,8 +66,8 @@ def test_revision_and_translation_keys_change_when_inputs_change():
 
     assert first_revision != second_revision
     assert first_key != second_key
-    assert first_revision.startswith("revision_")
-    assert first_key.startswith("translation_")
+    assert first_revision.startswith("revision.")
+    assert first_key.startswith("translation.")
     assert sha256_text("paragraph one") != sha256_text("paragraph two")
 
 

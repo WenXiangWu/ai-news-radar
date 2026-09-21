@@ -19,7 +19,10 @@
     {
       "id": "task.source.qdrant.editorial.catalog",
       "kind": "index_sync",
-      "adapter": "qdrant_editorial_catalog",
+      "adapter": "llms_txt",
+      "source": {
+        "url": "https://qdrant.tech/llms.txt"
+      },
       "output": {
         "path": "frontend/sources/qdrant"
       },

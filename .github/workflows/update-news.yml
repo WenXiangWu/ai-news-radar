@@ -4,6 +4,25 @@ name: Update AI News Snapshot
 on:
   workflow_dispatch:
     inputs:
+      scope:
+        description: "Radar execution scope"
+        required: false
+        default: all
+        type: choice
+        options:
+          - all
+          - module
+          - source
+      target_id:
+        description: "Module or source id when scope is not all"
+        required: false
+        default: ""
+        type: string
+      request_id:
+        description: "Way manual trigger request id"
+        required: false
+        default: ""
+        type: string
       force_tikhub:
         description: "Force a paid TikHub refresh even before its normal interval"
         required: false
@@ -117,6 +136,293 @@ jobs:
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
         run: python scripts/persona_score.py --data-dir data
 
+      - name: Publish snapshot to way-to-agentic
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_REPO: ${{ vars.GITEE_REPO }}
+          GITEE_BRANCH: ${{ vars.GITEE_BRANCH }}
+          GITEE_DATA_PATH: ${{ vars.GITEE_DATA_PATH }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
+          GOOGLE_TRANSLATE_ENDPOINT: ${{ vars.GOOGLE_TRANSLATE_ENDPOINT }}
+          RADAR_TARGET_LOCALES: ${{ vars.RADAR_TARGET_LOCALES }}
+          RADAR_HTTP_TIMEOUT_SECONDS: ${{ vars.RADAR_HTTP_TIMEOUT_SECONDS }}
+          RADAR_SCOPE: ${{ inputs.scope || 'all' }}
+          RADAR_TARGET_ID: ${{ inputs.target_id || '' }}
+          RADAR_REQUEST_ID: ${{ inputs.request_id || '' }}
+        run: |
+          if [ -z "$GITEE_TOKEN" ] || [ -z "$GITEE_REPO" ]; then
+            echo "Skip Gitee publish: set secret GITEE_TOKEN and variable GITEE_REPO (owner/repo)"
+            exit 0
+          fi
+          branch="${GITEE_BRANCH:-master}"
+          dest="${GITEE_DATA_PATH:-frontend/frontier/radar-data}"
+          work=/tmp/way-to-agentic-mirror
+          rm -rf "$work"
+          git clone --depth 1 --branch "$branch" \
+            "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" "$work"
+          state_path="$work/$dest/radar-state.sqlite3"
+          radar_report=/tmp/radar-run-report.json
+          radar_bundle=/tmp/radar-export
+          rm -f "$radar_report"
+          rm -rf "$radar_bundle"
+          test -f "$work/radar/protocol.json"
+          test -f "$work/radar/registry/index.json"
+          test -f "$work/scripts/import_radar_export.py"
+          test -f "$work/scripts/build_radar_content_registry.py"
+          test -f "$work/scripts/build_radar_projections.py"
+          test -f "$work/radar/registry/course-bindings.json"
+          python scripts/validate_registered_sources.py \
+            --target-root "$work" \
+            --report /tmp/radar-source-validation-preflight.json
+          radar_exit=0
+          radar_args=(
+            --target-root "$work"
+            --state "$state_path"
+            --report "$radar_report"
+          )
+          if [ "${RADAR_SCOPE:-all}" = "source" ] && [ -n "${RADAR_TARGET_ID:-}" ]; then
+            radar_args+=(--only-source "$RADAR_TARGET_ID")
+          elif [ "${RADAR_SCOPE:-all}" = "module" ] && [ -n "${RADAR_TARGET_ID:-}" ]; then
+            radar_args+=(--only-module "$RADAR_TARGET_ID")
+          fi
+          if [ -n "${RADAR_REQUEST_ID:-}" ]; then
+            radar_args+=(--force)
+          fi
+          python scripts/radar_run.py "${radar_args[@]}" || radar_exit=$?
+          if [ "$radar_exit" -ne 0 ]; then
+            echo "::warning::Radar run failed or was partial; publishing the failure report and retaining the previous content bundle"
+            radar_content="$work/frontend/radar-content"
+            mkdir -p "$radar_content/reports" "$work/$dest"
+            python scripts/validate_registered_sources.py \
+              --target-root "$work" \
+              --state "$state_path" \
+              --report "$radar_content/source-validation.json" \
+              || true
+            python scripts/validate_radar_report.py \
+              --path "$radar_content/source-validation.json" \
+              --schema source-validation
+            if [ ! -f "$radar_content/content-registry.json" ]; then
+              printf '%s\n' '{"schema":"radar-content-registry/v1","content":[]}' \
+                > "$radar_content/content-registry.json"
+            fi
+            python scripts/build_radar_update_report.py \
+              --target-root "$work" \
+              --content-registry "$radar_content/content-registry.json" \
+              --run-report "$radar_report" \
+              --source-validation "$radar_content/source-validation.json" \
+              --out "$radar_content/radar-update-report.json"
+            run_id="$(python3 - "$radar_report" <<'PY'
+          import json
+          import sys
+          value = json.load(open(sys.argv[1], encoding="utf-8")).get("run_id")
+          if not value:
+              raise SystemExit("Radar run report has no run_id")
+          print(value)
+          PY
+            )"
+            cp "$radar_content/radar-update-report.json" \
+              "$radar_content/reports/$run_id.json"
+            cp "$radar_content/radar-update-report.json" \
+              "$radar_content/reports/$(date -u +%F).json"
+            cp "$radar_content/source-validation.json" \
+              "$radar_content/reports/$run_id-source-validation.json"
+            python scripts/build_radar_monitor_snapshot.py \
+              --target-root "$work" \
+              --run-report "$radar_report" \
+              --source-validation "$radar_content/source-validation.json" \
+              --update-report "$radar_content/radar-update-report.json" \
+              --out "$radar_content/radar-monitor.json" \
+              --reports-root "$radar_content/reports" \
+              --report-index-out "$radar_content/reports/index.json" \
+              --public-prefix /data \
+              --reports-prefix /data/radar-reports
+            python scripts/write_job_report.py \
+              --data-dir data \
+              --task-reports "$radar_report" \
+              --radar-update-report "$radar_content/radar-update-report.json" \
+              --radar-monitor "$radar_content/radar-monitor.json" \
+              --out data/job-report.json
+            mkdir -p data/radar-reports
+            cp "$radar_report" data/radar-run-report.json
+            cp "$radar_content/source-validation.json" data/source-validation.json
+            cp "$radar_content/radar-update-report.json" data/radar-update-report.json
+            cp "$radar_content/radar-monitor.json" data/radar-monitor.json
+            cp "$radar_content/reports/"*.json data/radar-reports/
+            cp "$radar_report" "$work/$dest/radar-run-report.json"
+            cp "$radar_content/source-validation.json" "$work/$dest/source-validation.json"
+            cp "$radar_content/radar-update-report.json" "$work/$dest/radar-update-report.json"
+            for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json job-report.json; do
+              if [ -f "data/$f" ]; then
+                cp "data/$f" "$work/$dest/$f"
+              fi
+            done
+            rm -f "$work/$dest/radar-monitor.json"
+            rm -f "$work/frontend/radar-content/radar-monitor.json"
+            rm -rf "$work/frontend/radar-content/reports"
+            git -C "$work" config user.name "github-actions[bot]"
+            git -C "$work" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git -C "$work" add "$dest" frontend/radar-content
+            if git -C "$work" diff --cached --quiet; then
+              echo "No report changes to publish after Radar failure"
+            else
+              git -C "$work" commit -m "chore: publish Radar failure report"
+              git -C "$work" push origin "HEAD:$branch"
+            fi
+            git add data/radar-monitor.json data/radar-update-report.json \
+              data/radar-run-report.json data/source-validation.json data/radar-reports
+            if git diff --cached --quiet; then
+              echo "No Radar monitor changes to publish after failure"
+            else
+              git commit -m "chore: publish Radar failure monitor"
+              git push
+            fi
+            exit "$radar_exit"
+          fi
+          run_id="$(python3 - "$radar_report" <<'PY'
+          import json
+          import sys
+          value = json.load(open(sys.argv[1], encoding="utf-8")).get("run_id")
+          if not value:
+              raise SystemExit("Radar run report has no run_id")
+          print(value)
+          PY
+          )"
+          python scripts/radar_export.py \
+            --state "$state_path" \
+            --run-id "$run_id" \
+            --out "$radar_bundle"
+          radar_content="$work/frontend/radar-content"
+          python3 "$work/scripts/import_radar_export.py" \
+            --bundle "$radar_bundle" \
+            --content-root "$radar_content" \
+            --staging-root "$radar_content/staging/$run_id"
+          current_export="$(python3 - "$radar_content/current.json" "$radar_content" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+          content_root = Path(sys.argv[2]).resolve()
+          pointer = json.load(open(sys.argv[1], encoding="utf-8"))
+          path = str(pointer.get("path") or "")
+          if not path:
+              raise SystemExit("Radar current pointer has no path")
+          current = (content_root / path).resolve()
+          current.relative_to(content_root)
+          print(current)
+          PY
+          )"
+          python3 "$work/scripts/build_radar_content_registry.py" \
+            --current-export "$current_export" \
+            --out "$radar_content/content-registry.json"
+          python scripts/validate_registered_sources.py \
+            --target-root "$work" \
+            --state "$state_path" \
+            --report "$radar_content/source-validation.json"
+          python scripts/validate_radar_report.py \
+            --path "$radar_content/source-validation.json" \
+            --schema source-validation
+          python scripts/build_radar_update_report.py \
+            --target-root "$work" \
+            --content-registry "$radar_content/content-registry.json" \
+            --run-report "$radar_report" \
+            --source-validation "$radar_content/source-validation.json" \
+            --out "$radar_content/radar-update-report.json"
+          mkdir -p "$radar_content/reports"
+          cp "$radar_content/radar-update-report.json" \
+            "$radar_content/reports/$run_id.json"
+          cp "$radar_content/radar-update-report.json" \
+            "$radar_content/reports/$(date -u +%F).json"
+          cp "$radar_content/source-validation.json" \
+            "$radar_content/reports/$run_id-source-validation.json"
+          python scripts/build_radar_monitor_snapshot.py \
+            --target-root "$work" \
+            --run-report "$radar_report" \
+            --source-validation "$radar_content/source-validation.json" \
+            --update-report "$radar_content/radar-update-report.json" \
+            --out "$radar_content/radar-monitor.json" \
+            --reports-root "$radar_content/reports" \
+            --report-index-out "$radar_content/reports/index.json" \
+            --public-prefix /data \
+            --reports-prefix /data/radar-reports
+          python3 "$work/scripts/build_radar_projections.py" \
+            --registry "$radar_content/content-registry.json" \
+            --out-dir "$radar_content/projections" \
+            --course-bindings "$work/radar/registry/course-bindings.json"
+          python scripts/write_job_report.py \
+            --data-dir data \
+            --task-reports "$radar_report" \
+            --radar-update-report "$radar_content/radar-update-report.json" \
+            --radar-monitor "$radar_content/radar-monitor.json" \
+            --out data/job-report.json
+          mkdir -p data/radar-reports
+          cp "$radar_report" data/radar-run-report.json
+          cp "$radar_content/source-validation.json" data/source-validation.json
+          cp "$radar_content/radar-update-report.json" data/radar-update-report.json
+          cp "$radar_content/radar-monitor.json" data/radar-monitor.json
+          cp "$radar_content/reports/"*.json data/radar-reports/
+          mkdir -p "$work/$dest"
+          cp "$radar_report" "$work/$dest/radar-run-report.json"
+          cp "$radar_content/source-validation.json" "$work/$dest/source-validation.json"
+          cp "$radar_content/radar-update-report.json" "$work/$dest/radar-update-report.json"
+          rm -f "$work/$dest/radar-monitor.json"
+          rm -f "$work/frontend/radar-content/radar-monitor.json"
+          rm -rf "$work/frontend/radar-content/reports"
+          python3 - "$work/$dest/export-manifest.json" <<'PY'
+          import json
+          import sys
+          from datetime import datetime, timezone
+          target = sys.argv[1]
+          payload = {
+              "schema": "radar-export-manifest/v1",
+              "updated_at": datetime.now(timezone.utc).isoformat(),
+              "paths": [
+                  "frontend/frontier/radar-data",
+                  "frontend/radar-content",
+                  "frontend/sources",
+                  "frontend/path/frameworks",
+                  "frontend/path/coding-tools",
+              ],
+          }
+          with open(target, "w", encoding="utf-8") as handle:
+              json.dump(payload, handle, ensure_ascii=False, indent=2)
+              handle.write("\n")
+          PY
+          # Slim files only — skip archive / latest-24h-all to keep the learning repo small.
+          for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json job-report.json; do
+            if [ -f "data/$f" ]; then
+              cp "data/$f" "$work/$dest/$f"
+            fi
+          done
+          for dir in dailies hot topics weekly monthly; do
+            if [ -d "data/$dir" ]; then
+              rm -rf "$work/$dest/$dir"
+              cp -R "data/$dir" "$work/$dest/$dir"
+            fi
+          done
+          printf '%s\n' \
+            '# Radar snapshot (generated)' \
+            '' \
+            'Copied by GitHub Actions from ai-news-radar. Do not edit by hand.' \
+            > "$work/$dest/README.md"
+          git -C "$work" config user.name "github-actions[bot]"
+          git -C "$work" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$work" add "$dest"
+          if [ -d "$work/frontend/radar-content" ]; then
+            git -C "$work" add frontend/radar-content
+          fi
+          for path in frontend/sources frontend/path/frameworks frontend/path/coding-tools; do
+            if [ -d "$work/$path" ]; then
+              git -C "$work" add "$path"
+            fi
+          done
+          if git -C "$work" diff --cached --quiet; then
+            echo "No radar snapshot changes for way-to-agentic"
+            exit 0
+          fi
+          git -C "$work" commit -m "chore: refresh Radar export and snapshot"
+          git -C "$work" push origin "HEAD:$branch"
+
       - name: Commit and push changes
         env:
           EMAIL_DIGEST_PUBLISH: ${{ secrets.EMAIL_DIGEST_PUBLISH || vars.EMAIL_DIGEST_PUBLISH }}
@@ -151,110 +457,3 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort || true; exit 1; }
           done
           git push
-
-      - name: Publish snapshot to way-to-agentic
-        env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-          GITEE_REPO: ${{ vars.GITEE_REPO }}
-          GITEE_BRANCH: ${{ vars.GITEE_BRANCH }}
-          GITEE_DATA_PATH: ${{ vars.GITEE_DATA_PATH }}
-          KNOWLEDGE_MAX_NEW: ${{ vars.KNOWLEDGE_MAX_NEW }}
-          KNOWLEDGE_MAX_NEW_TOTAL: ${{ vars.KNOWLEDGE_MAX_NEW_TOTAL }}
-          KNOWLEDGE_SOURCES: ${{ vars.KNOWLEDGE_SOURCES }}
-        run: |
-          if [ -z "$GITEE_TOKEN" ] || [ -z "$GITEE_REPO" ]; then
-            echo "Skip Gitee publish: set secret GITEE_TOKEN and variable GITEE_REPO (owner/repo)"
-            exit 0
-          fi
-          branch="${GITEE_BRANCH:-master}"
-          dest="${GITEE_DATA_PATH:-frontend/frontier/radar-data}"
-          work=/tmp/way-to-agentic-mirror
-          rm -rf "$work"
-          git clone --depth 1 --branch "$branch" \
-            "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" "$work"
-          state_path="$work/$dest/registry-state.json"
-          registry_report=/tmp/radar-registry-report.json
-          task_report=/tmp/radar-task-report.json
-          ks_report=""
-          rm -f "$registry_report" "$task_report"
-          if [ -f "$work/radar/protocol.json" ] && [ -f "$work/radar/registry/index.json" ]; then
-            python scripts/radar_registry.py \
-              --target-root "$work" \
-              --state "$state_path" \
-              --out "$registry_report" \
-              || echo "::warning::Radar registry reconciliation failed; snapshot still publishes"
-            python scripts/run_registered_tasks.py \
-              --target-root "$work" \
-              --state "$state_path" \
-              --report "$task_report" \
-              || echo "::warning::registered Radar task execution had failures; snapshot still publishes"
-          else
-            echo "::warning::way-to-agentic Radar registry not published yet; using legacy knowledge sync"
-            ks_report=/tmp/knowledge-job-report.json
-            python scripts/sync_knowledge_sources.py \
-              --sources-root "$work/frontend/sources" \
-              --only "${KNOWLEDGE_SOURCES:-engineering,cookbook,openai_cookbook,langchain_blog}" \
-              --max-new "${KNOWLEDGE_MAX_NEW:-2}" \
-              --max-new-total "${KNOWLEDGE_MAX_NEW_TOTAL:-4}" \
-              --report-out "$ks_report" \
-              || echo "::warning::legacy knowledge source sync failed; radar snapshot still publishes"
-          fi
-          if [ ! -f "$task_report" ]; then
-            printf '%s\n' '{"schema":"radar-task-report/v1","jobs":[]}' > "$task_report"
-          fi
-          if [ -f "$registry_report" ]; then
-            python scripts/write_export_manifest.py \
-              --registry-report "$registry_report" \
-              --out "$work/$dest/export-manifest.json" \
-              || echo "::warning::Radar export manifest generation failed"
-          fi
-          if [ -n "$ks_report" ] && [ -f "$ks_report" ]; then
-            python scripts/write_job_report.py \
-              --data-dir data \
-              --knowledge-json "$ks_report" \
-              --task-reports "$task_report" \
-              --out data/job-report.json
-          else
-            python scripts/write_job_report.py \
-              --data-dir data \
-              --task-reports "$task_report" \
-              --registry-json "$registry_report" \
-              --reconciliation-json "$registry_report" \
-              --out data/job-report.json
-          fi
-          mkdir -p "$work/$dest"
-          if [ -f "$registry_report" ]; then
-            cp "$registry_report" "$work/$dest/registry-report.json"
-          fi
-          # Slim files only — skip archive / latest-24h-all to keep the learning repo small.
-          for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json job-report.json; do
-            if [ -f "data/$f" ]; then
-              cp "data/$f" "$work/$dest/$f"
-            fi
-          done
-          for dir in dailies hot topics weekly monthly; do
-            if [ -d "data/$dir" ]; then
-              rm -rf "$work/$dest/$dir"
-              cp -R "data/$dir" "$work/$dest/$dir"
-            fi
-          done
-          printf '%s\n' \
-            '# Radar snapshot (generated)' \
-            '' \
-            'Copied by GitHub Actions from ai-news-radar. Do not edit by hand.' \
-            > "$work/$dest/README.md"
-          git -C "$work" config user.name "github-actions[bot]"
-          git -C "$work" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git -C "$work" add "$dest"
-          if [ -d "$work/frontend/sources" ]; then
-            git -C "$work" add frontend/sources
-          fi
-          if [ -d "$work/frontend/path/frameworks" ]; then
-            git -C "$work" add frontend/path/frameworks
-          fi
-          if git -C "$work" diff --cached --quiet; then
-            echo "No radar snapshot changes for way-to-agentic"
-            exit 0
-          fi
-          git -C "$work" commit -m "chore: refresh radar snapshot and knowledge sources"
-          git -C "$work" push origin "HEAD:$branch"

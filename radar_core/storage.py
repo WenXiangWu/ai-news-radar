@@ -377,6 +377,96 @@ class StateStore:
         )
         self._connection.commit()
 
+    def record_artifact(self, payload: Dict[str, Any]) -> None:
+        now = _now()
+        normalized = dict(payload)
+        normalized["payload"] = _payload(normalized.get("payload"))
+        self._connection.execute(
+            """
+            INSERT INTO artifacts(
+                artifact_id, content_id, revision_id, kind, locale,
+                artifact_hash, status, path, payload_json, created_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(content_id, revision_id, kind, locale) DO UPDATE SET
+                artifact_id = excluded.artifact_id,
+                artifact_hash = excluded.artifact_hash,
+                status = excluded.status,
+                path = excluded.path,
+                payload_json = excluded.payload_json
+            """,
+            (
+                normalized["artifact_id"],
+                normalized["content_id"],
+                normalized["revision_id"],
+                normalized["kind"],
+                normalized.get("locale"),
+                normalized.get("artifact_hash"),
+                normalized.get("status", "new"),
+                normalized.get("path"),
+                _json(normalized),
+                now,
+            ),
+        )
+        self._connection.commit()
+
+    def get_artifact(
+        self,
+        content_id: str,
+        revision_id: str,
+        kind: str,
+        locale: str | None,
+    ) -> Optional[Dict[str, Any]]:
+        row = self._connection.execute(
+            """
+            SELECT artifact_id, content_id, revision_id, kind, locale,
+                   artifact_hash, status, path, payload_json
+            FROM artifacts
+            WHERE content_id = ? AND revision_id = ? AND kind = ?
+              AND (locale = ? OR (locale IS NULL AND ? IS NULL))
+            """,
+            (content_id, revision_id, kind, locale, locale),
+        ).fetchone()
+        if row is None:
+            return None
+        result = _payload(json.loads(row["payload_json"]))
+        for column in (
+            "artifact_id",
+            "content_id",
+            "revision_id",
+            "kind",
+            "locale",
+            "artifact_hash",
+            "status",
+            "path",
+        ):
+            result[column] = row[column]
+        return result
+
+    def iter_rows(self, table: str) -> list[Dict[str, Any]]:
+        order_by = {
+            "sources": "source_id",
+            "content_items": "content_id",
+            "revisions": "created_at, revision_id",
+            "artifacts": "created_at, artifact_id",
+            "translations": "updated_at, translation_key",
+            "runs": "updated_at, run_id",
+            "task_runs": "updated_at, task_id, run_id",
+        }
+        if table not in order_by:
+            raise ValueError(f"unsupported table: {table}")
+        rows = self._connection.execute(
+            f"SELECT * FROM {table} ORDER BY {order_by[table]}"
+        ).fetchall()
+        output: list[Dict[str, Any]] = []
+        for row in rows:
+            item = {str(key): row[key] for key in row.keys()}
+            if "payload_json" in item:
+                payload = _payload(json.loads(item["payload_json"]))
+                item["payload"] = payload
+            output.append(item)
+        return output
+
     def get_cursor(self, source_id: str) -> Optional[Dict[str, Any]]:
         row = self._connection.execute(
             "SELECT source_id, cursor_json, run_id FROM cursors WHERE source_id = ?",

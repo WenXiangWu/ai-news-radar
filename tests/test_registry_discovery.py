@@ -7,12 +7,16 @@ from pathlib import Path
 import pytest
 
 from radar_core.discovery import (
+    discover_due_control_task_operations,
     discover_due_operations,
+    discover_due_task_operations,
     register_new_sources,
+    register_new_tasks,
 )
 from radar_core.registry import (
     Registry,
     SourceSpec,
+    TaskSpec,
     load_framework_entities,
     load_registry,
     load_sources,
@@ -421,7 +425,7 @@ def test_load_sources_includes_legacy_knowledge_registry(tmp_path: Path):
     assert [source.id for source in sources] == [
         "source.knowledge.anthropic.engineering"
     ]
-    assert sources[0].source_type == "knowledge"
+    assert sources[0].source_type == "local"
     assert sources[0].schedule["cron"] == "0 4 * * *"
     assert sources[0].output_root == "frontend/sources/engineering"
 
@@ -471,4 +475,205 @@ def test_discovery_reports_changed_and_invalid_declarations(tmp_path: Path):
     assert invalid_registry.diagnostics["next_run_at"][
         "source.example.official-blog"
     ] is None
+    state.close()
+
+
+def test_module_tasks_are_discovered_and_deepwiki_source_is_merged(
+    tmp_path: Path,
+):
+    target = tmp_path / "actual-way-registry"
+    for source in (
+        Path(__file__).parent / "fixtures" / "actual-way-registry"
+    ).rglob("*"):
+        destination = target / source.relative_to(
+            Path(__file__).parent / "fixtures" / "actual-way-registry"
+        )
+        if source.is_dir():
+            destination.mkdir(parents=True, exist_ok=True)
+        else:
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(source.read_bytes())
+
+    registry = load_registry(target)
+    task_ids = {task.id for task in registry.tasks}
+
+    assert "task.framework.deepseek-harness.wiki" in task_ids
+    assert "task.framework.cordis.wiki" in task_ids
+    assert "task.framework.deepseek-harness.translation" not in task_ids
+
+    deepseek_task = next(
+        task
+        for task in registry.tasks
+        if task.id == "task.framework.deepseek-harness.wiki"
+    )
+    assert deepseek_task.adapter == "deepwiki"
+    assert deepseek_task.source["deepwiki"] == (
+        "https://deepwiki.com/deepseek-ai/deepseek-harness"
+    )
+    source = deepseek_task.to_source_spec()
+    assert source.id == "source.framework.deepseek-harness"
+    assert source.locator == "https://deepwiki.com/deepseek-ai/deepseek-harness"
+
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    state.record_run("bootstrap", {"status": "success"})
+    state.advance_cursor(
+        "source.framework.cordis",
+        {"last_scheduled_at": "2026-09-19T04:17:00+08:00"},
+        "bootstrap",
+    )
+    operations = discover_due_task_operations(
+        registry,
+        datetime(2026, 9, 19, 19, 30, tzinfo=timezone.utc),
+        state,
+    )
+
+    assert [operation.task_id for operation in operations] == [
+        "task.framework.deepseek-harness.wiki",
+        "task.source.coding-tools.catalog",
+        "task.source.qdrant.editorial.catalog",
+    ]
+    assert operations[0].source.locator.startswith("https://deepwiki.com/")
+    state.close()
+
+
+def test_manual_force_discovers_target_before_its_cron_window(tmp_path: Path):
+    target = tmp_path / "actual-way-registry"
+    fixture = Path(__file__).parent / "fixtures" / "actual-way-registry"
+    for source in fixture.rglob("*"):
+        destination = target / source.relative_to(fixture)
+        if source.is_dir():
+            destination.mkdir(parents=True, exist_ok=True)
+        else:
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(source.read_bytes())
+
+    registry = load_registry(target)
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    now = datetime(2026, 9, 19, 19, 30, tzinfo=timezone.utc)
+    state.record_run("previous", {"status": "success"})
+    state.advance_cursor(
+        "source.framework.deepseek-harness",
+        {"last_scheduled_at": "2026-09-20T03:17:00+08:00"},
+        "previous",
+    )
+
+    normal = discover_due_task_operations(registry, now, state)
+    assert all(
+        operation.task_id != "task.framework.deepseek-harness.wiki"
+        for operation in normal
+    )
+    forced = discover_due_task_operations(registry, now, state, force=True)
+
+    assert any(
+        operation.task_id == "task.framework.deepseek-harness.wiki"
+        for operation in forced
+    )
+    state.close()
+
+
+def test_task_backed_sources_are_not_discovered_twice(tmp_path: Path):
+    source = SourceSpec.from_payload(
+        {
+            "schema": "radar-content-contract/v1/source",
+            "id": "source.example",
+            "kind": "source",
+            "source_type": "rss",
+            "adapter": "rss_article",
+            "name": "Example",
+            "locator": "https://example.test/feed.xml",
+            "schedule": {
+                "enabled": True,
+                "timezone": "UTC",
+                "cron": "0 * * * *",
+            },
+            "output_root": "frontend/sources/example",
+            "translation_profile": "prose/v1",
+        }
+    )
+    task = TaskSpec.from_payload(
+        {
+            "id": "task.source.example.sync",
+            "kind": "news_sync",
+            "adapter": "rss_article",
+            "output": {"path": "frontend/sources/example"},
+            "schedule": {
+                "enabled": True,
+                "timezone": "UTC",
+                "cron": "0 * * * *",
+            },
+        },
+        module={
+            "id": "source.example",
+            "kind": "source",
+            "enabled": True,
+            "display": {"name": "Example"},
+            "source": source.to_dict(),
+        },
+    )
+    registry = Registry(sources=[source], tasks=[task])
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    state.record_run("register", {"status": "success"})
+    register_new_sources(registry, state, "register")
+
+    source_operations = discover_due_operations(
+        registry,
+        datetime(2026, 9, 20, 0, 0, tzinfo=timezone.utc),
+        state,
+    )
+    task_operations = discover_due_task_operations(
+        registry,
+        datetime(2026, 9, 20, 0, 0, tzinfo=timezone.utc),
+        state,
+    )
+
+    assert source_operations == []
+    assert [operation.task_id for operation in task_operations] == [
+        "task.source.example.sync"
+    ]
+    state.close()
+
+
+def test_declared_source_owns_baseline_when_task_has_same_source_id(
+    tmp_path: Path,
+):
+    target = copy_fixture(tmp_path)
+    registry = load_registry(target)
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    state.record_run("register", {"status": "success"})
+
+    register_new_sources(registry, state, "register")
+    register_new_tasks(registry, state, "register")
+
+    registration = state.get_source_registration("source.knowledge.example.docs")
+    assert registration is not None
+    assert registration["payload"]["source_type"] == "llms_txt"
+    state.close()
+
+
+def test_non_fetch_module_tasks_are_discovered_by_the_same_scheduler(
+    tmp_path: Path,
+):
+    target = tmp_path / "actual-way-registry"
+    fixture = Path(__file__).parent / "fixtures" / "actual-way-registry"
+    for source in fixture.rglob("*"):
+        destination = target / source.relative_to(fixture)
+        if source.is_dir():
+            destination.mkdir(parents=True, exist_ok=True)
+        else:
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(source.read_bytes())
+
+    registry = load_registry(target)
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    operations = discover_due_control_task_operations(
+        registry,
+        datetime(2026, 9, 20, 20, 57, tzinfo=timezone.utc),
+        state,
+    )
+
+    assert {
+        operation.task.adapter
+        for operation in operations
+    } >= {"framework_hubs"}
+    assert all(operation.task.id.startswith("task.") for operation in operations)
     state.close()

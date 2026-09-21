@@ -98,8 +98,27 @@ def _registered_jobs(task_report: dict[str, Any] | None) -> list[dict[str, Any]]
     if not isinstance(raw, list):
         raw = task_report.get("tasks")
     if not isinstance(raw, list):
+        raw = task_report.get("operations")
+    if not isinstance(raw, list):
         return []
-    return [row for row in raw if isinstance(row, dict)]
+    jobs: list[dict[str, Any]] = []
+    for row in raw:
+        if not isinstance(row, dict):
+            continue
+        job = dict(row)
+        status = str(job.get("status") or "").strip()
+        if status == "success":
+            job["status"] = "ok"
+        elif status == "dry_run":
+            job["status"] = "skipped"
+        if not job.get("summary"):
+            job["summary"] = (
+                f"发现 {int(job.get('discovered') or 0)} · "
+                f"抓取 {int(job.get('fetched') or 0)} · "
+                f"翻译 {int(job.get('translated') or 0)}"
+            )
+        jobs.append(job)
+    return jobs
 
 
 def _knowledge_from_jobs(jobs: list[dict[str, Any]]) -> dict[str, Any] | None:
@@ -152,6 +171,44 @@ def _radar_summary(jobs: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def _radar_update_report(report: dict[str, Any] | None) -> dict[str, Any] | None:
+    if not isinstance(report, dict) or not report:
+        return None
+    summary = report.get("summary") if isinstance(report.get("summary"), dict) else {}
+    status = str(report.get("status") or "unknown")
+    return {
+        "ok": status == "success",
+        "status": status,
+        "summary": (
+            f"模块 {int(summary.get('modules') or 0)} 个 · "
+            f"更新 {int(summary.get('updated') or 0)} · "
+            f"翻译 {int(summary.get('translated') or 0)}"
+        ),
+        "path": "frontend/radar-content/radar-update-report.json",
+        "link": "/frontier/radar-data/radar-update-report.json",
+        "error": None if status == "success" else "模块更新报告存在未完成项",
+    }
+
+
+def _radar_monitor_summary(monitor: dict[str, Any] | None) -> dict[str, Any] | None:
+    if not isinstance(monitor, dict) or not monitor:
+        return None
+    summary = monitor.get("summary") if isinstance(monitor.get("summary"), dict) else {}
+    run = monitor.get("run") if isinstance(monitor.get("run"), dict) else {}
+    return {
+        "status": str(run.get("status") or "unknown"),
+        "summary": (
+            f"模块 {int(summary.get('modules') or 0)} 个 · "
+            f"数据源 {int(summary.get('sources') or 0)} · "
+            f"可达 {int(summary.get('healthy_sources') or 0)} · "
+            f"失败 {int(summary.get('failed_sources') or 0)}"
+        ),
+        "path": "data/radar-monitor.json",
+        "link": "https://news.learnprompt.pro/monitor/",
+        "generated_at": monitor.get("generated_at"),
+    }
+
+
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--data-dir", required=True)
@@ -159,6 +216,8 @@ def main() -> int:
     p.add_argument("--registry-json", default="")
     p.add_argument("--reconciliation-json", default="")
     p.add_argument("--task-reports", default="")
+    p.add_argument("--radar-update-report", default="")
+    p.add_argument("--radar-monitor", default="")
     p.add_argument("--out", default="")
     args = p.parse_args()
     data_dir = Path(args.data_dir)
@@ -166,6 +225,16 @@ def main() -> int:
     if knowledge == {}:
         knowledge = None
     task_report = _load(Path(args.task_reports)) if args.task_reports else None
+    radar_update = (
+        _load(Path(args.radar_update_report))
+        if args.radar_update_report
+        else None
+    )
+    radar_monitor = (
+        _load(Path(args.radar_monitor))
+        if args.radar_monitor
+        else None
+    )
     reconciliation = _load(Path(args.reconciliation_json)) if args.reconciliation_json else {}
     registry = _load(Path(args.registry_json)) if args.registry_json else {}
     if isinstance(reconciliation.get("reconciliation"), dict):
@@ -200,6 +269,12 @@ def main() -> int:
         "frontier": frontier,
         "sources": sources,
     }
+    radar_update_summary = _radar_update_report(radar_update)
+    if radar_update_summary is not None:
+        report["radar_update"] = radar_update_summary
+    radar_monitor_summary = _radar_monitor_summary(radar_monitor)
+    if radar_monitor_summary is not None:
+        report["radar_monitor"] = radar_monitor_summary
     out = Path(args.out) if args.out else data_dir / "job-report.json"
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {out}", flush=True)

@@ -21,7 +21,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
-from urllib.parse import unquote, urljoin, urlparse
+from urllib.parse import unquote, urljoin, urlparse, urlunparse
 from zoneinfo import ZoneInfo
 
 import feedparser
@@ -251,6 +251,40 @@ def split_chunks(text: str, size: int = 12000) -> list[str]:
     return parts
 
 
+_FENCE_RE = re.compile(r"```[\s\S]*?```")
+
+
+def split_markdown_preserving_fences(text: str) -> list[tuple[str, str]]:
+    """Return ('text'|'code', chunk) blocks; fenced code is never translated."""
+    out: list[tuple[str, str]] = []
+    pos = 0
+    for m in _FENCE_RE.finditer(text):
+        if m.start() > pos:
+            out.append(("text", text[pos : m.start()]))
+        out.append(("code", m.group(0)))
+        pos = m.end()
+    if pos < len(text):
+        out.append(("text", text[pos:]))
+    return [(kind, chunk) for kind, chunk in out if chunk]
+
+
+def translate_markdown_google(text: str) -> str:
+    parts: list[str] = []
+    for kind, block in split_markdown_preserving_fences(text):
+        if kind == "code":
+            parts.append(block.strip("\n"))
+            continue
+        for chunk in split_chunks(block, 3500):
+            if not chunk.strip():
+                continue
+            zh = translate_to_zh_google(chunk)
+            if not zh:
+                raise RuntimeError("Google 翻译失败")
+            parts.append(zh)
+            time.sleep(0.2)
+    return "\n\n".join(p.strip("\n") for p in parts if p.strip()).strip()
+
+
 def translate_full(
     *,
     title: str,
@@ -264,43 +298,86 @@ def translate_full(
         f"> 原文：[{title}]({url})\n"
         f"> 译文说明：自动翻译校对（对照 {source_label} 原文）\n\n"
     )
-    if allow_deepseek and translate_use_deepseek():
-        chunks = split_chunks(body, 12000)
-        system = (
-            f"你是技术文档译者。将 {source_label} 英文文章译为忠实中文 Markdown。"
-            "要求：全文翻译非摘要；保留标题层级、列表与代码块（代码与标识符不要翻译）；"
-            "术语首次可中英并列；不要臆造原文没有的内容；只输出 Markdown 正文（不要包裹在代码块中）。"
-        )
-        out: list[str] = []
-        for i, chunk in enumerate(chunks):
-            if i == 0:
-                user = (
-                    f"文章标题：{title}\n原文链接：{url}\n\n"
-                    "请在文首固定两行 blockquote：\n"
-                    f"{header}"
-                    f"英文正文（第 {i + 1}/{len(chunks)} 段）：\n{chunk}"
-                )
-            else:
-                user = (
-                    f"续译同一篇文章《{title}》，不要重复文首说明，不要重复已译内容。"
-                    f"这是第 {i + 1}/{len(chunks)} 段：\n{chunk}"
-                )
-            out.append(deepseek_chat([{"role": "system", "content": system}, {"role": "user", "content": user}]))
-            time.sleep(0.4)
-        md = "\n\n".join(out).strip()
-    else:
-        chunks = split_chunks(body, 3500)
-        parts: list[str] = []
-        for chunk in chunks:
-            zh = translate_to_zh_google(chunk)
-            if not zh:
-                raise RuntimeError("Google 翻译失败")
-            parts.append(zh)
-            time.sleep(0.2)
-        md = "\n\n".join(parts).strip()
+    # Knowledge-source full-text translation is intentionally DeepSeek-free.
+    # The radar/news pipeline may still use DeepSeek elsewhere, but this path
+    # must never consume the learning site's project key.
+    _ = allow_deepseek
+    _ = translate_use_deepseek
+    md = translate_markdown_google(body)
     if "原文：" not in md[:400]:
         md = header + md
     return md
+
+
+def _replace_url_base(url: str, base_url: str) -> str:
+    if not base_url:
+        return url
+    parsed = urlparse(url)
+    if not parsed.scheme:
+        return urljoin(base_url.rstrip("/") + "/", url.lstrip("/"))
+    base = urlparse(base_url)
+    if not base.scheme or not base.netloc:
+        return url
+    return urlunparse((base.scheme, base.netloc, parsed.path, parsed.params, parsed.query, parsed.fragment))
+
+
+def _doc_slug(url: str) -> str:
+    path = urlparse(url).path
+    path = re.sub(r"/index\.md$", "", path)
+    path = re.sub(r"\.md$", "", path)
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", path.strip("/")).strip("-").lower()
+    return slug[:180] or "docs"
+
+
+def parse_llms_index(
+    text: str,
+    *,
+    public_base_url: str = "",
+    fetch_base_url: str = "",
+    category: str = "Docs",
+    include: list[str] | None = None,
+    limit: int = 0,
+) -> list[dict[str, Any]]:
+    """Parse llms.txt-style Markdown indexes into the site article contract."""
+    items: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for m in re.finditer(r"\[([^\]]+)\]\(([^)]+\.md)\)", text):
+        title = html_lib.unescape(m.group(1)).strip()
+        raw_url = html_lib.unescape(m.group(2)).strip()
+        path = urlparse(raw_url).path
+        if include and not any(token in path for token in include):
+            continue
+        slug = _doc_slug(raw_url)
+        if slug in seen:
+            continue
+        seen.add(slug)
+        fetch_url = _replace_url_base(raw_url, fetch_base_url)
+        public_url = _replace_url_base(re.sub(r"\.md$", "", raw_url), public_base_url)
+        cats = ["Specification"] if "/specification/" in path else [category]
+        items.append(
+            {
+                "slug": slug,
+                "title": title or slug,
+                "titleZh": title or slug,
+                "publishedAt": today_shanghai(),
+                "url": public_url,
+                "fetchUrl": fetch_url,
+                "categories": cats,
+                "status": "pending",
+            }
+        )
+        if limit and len(items) >= limit:
+            break
+    return items
+
+
+def fetch_markdown_doc(item: dict[str, Any]) -> str:
+    url = str(item.get("fetchUrl") or item.get("url") or "")
+    text = http_get(url, timeout=90)
+    title = str(item.get("title") or "")
+    if title and not text.lstrip().startswith("#"):
+        text = f"# {title}\n\n{text}"
+    return text[:160000]
 
 
 # --- source parsers ---
@@ -590,6 +667,78 @@ def fetch_langchain(item: dict[str, Any]) -> str:
     return text
 
 
+def list_llms_docs(
+    index_url: str,
+    *,
+    public_base_url: str,
+    fetch_base_url: str,
+    category: str = "Docs",
+    include: list[str] | None = None,
+    limit: int = 0,
+):
+    def _list(_root: Path) -> list[dict[str, Any]]:
+        return parse_llms_index(
+            http_get(index_url, timeout=90),
+            public_base_url=public_base_url,
+            fetch_base_url=fetch_base_url,
+            category=category,
+            include=include,
+            limit=limit,
+        )
+
+    return _list
+
+
+def jina_reader_url(url: str) -> str:
+    return "https://r.jina.ai/http://" + url
+
+
+def make_static_docs_lister(pages: list[tuple[str, str, str, list[str] | None]]):
+    def _list(_root: Path) -> list[dict[str, Any]]:
+        items: list[dict[str, Any]] = []
+        for slug, title, url, categories in pages:
+            items.append(
+                {
+                    "slug": slug,
+                    "title": title,
+                    "titleZh": title,
+                    "publishedAt": today_shanghai(),
+                    "url": url,
+                    "fetchUrl": jina_reader_url(url),
+                    "categories": categories or ["Docs"],
+                    "status": "pending",
+                }
+            )
+        return items
+
+    return _list
+
+
+OPENAI_DOC_PAGES = [
+    ("responses-api", "Responses API", "https://developers.openai.com/api/docs/guides/responses", ["Responses"]),
+    ("agents", "Agents", "https://developers.openai.com/api/docs/guides/agents", ["Agents"]),
+    ("agents-sdk", "Agents SDK", "https://developers.openai.com/api/docs/guides/agents-sdk", ["Agents"]),
+    ("tools", "Tools", "https://developers.openai.com/api/docs/guides/tools", ["Tools"]),
+    ("function-calling", "Function calling", "https://developers.openai.com/api/docs/guides/function-calling", ["Tools"]),
+    ("structured-outputs", "Structured outputs", "https://developers.openai.com/api/docs/guides/structured-outputs", ["Responses"]),
+    ("reasoning", "Reasoning models", "https://developers.openai.com/api/docs/guides/reasoning", ["Reasoning"]),
+    ("evals", "Evals", "https://developers.openai.com/api/docs/guides/evals", ["Evals"]),
+    ("prompting", "Prompting", "https://developers.openai.com/api/docs/guides/prompting", ["Prompting"]),
+]
+
+
+ANTHROPIC_DOC_PAGES = [
+    ("overview", "Claude docs overview", "https://docs.anthropic.com/en/docs/intro-to-claude", ["Docs"]),
+    ("messages", "Messages API", "https://docs.anthropic.com/en/api/messages", ["API"]),
+    ("tool-use", "Tool use", "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview", ["Tools"]),
+    ("mcp", "Model Context Protocol", "https://docs.anthropic.com/en/docs/agents-and-tools/mcp", ["MCP"]),
+    ("claude-code-overview", "Claude Code overview", "https://docs.anthropic.com/en/docs/claude-code/overview", ["Claude Code"]),
+    ("claude-agent-sdk", "Claude Agent SDK", "https://docs.anthropic.com/en/docs/claude-code/sdk", ["Agent SDK"]),
+    ("skills", "Skills", "https://docs.anthropic.com/en/docs/agents-and-tools/skills/overview", ["Skills"]),
+    ("computer-use", "Computer use", "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/computer-use-tool", ["Tools"]),
+]
+
+
 SourceFn = Callable[[Path], list[dict[str, Any]]]
 FetchFn = Callable[[dict[str, Any]], str]
 
@@ -617,6 +766,53 @@ SOURCES: dict[str, dict[str, Any]] = {
         "label": "LangChain Blog",
         "list": list_langchain,
         "fetch": fetch_langchain,
+    },
+    "mcp_docs": {
+        "rel": "mcp/docs",
+        "label": "MCP Docs",
+        "list": list_llms_docs(
+            "https://modelcontextprotocol.io/llms.txt",
+            public_base_url="https://modelcontextprotocol.io",
+            fetch_base_url="https://modelcontextprotocol.io",
+            category="Docs",
+        ),
+        "fetch": fetch_markdown_doc,
+    },
+    "openai_docs": {
+        "rel": "openai/docs",
+        "label": "OpenAI Docs",
+        "list": make_static_docs_lister(OPENAI_DOC_PAGES),
+        "fetch": fetch_markdown_doc,
+    },
+    "langgraph_docs": {
+        "rel": "langchain/langgraph",
+        "label": "LangGraph Docs",
+        "list": list_llms_docs(
+            "https://docs.langchain.com/oss/python/langgraph/llms.txt",
+            public_base_url="https://docs.langchain.com",
+            fetch_base_url="https://docs.langchain.com",
+            category="LangGraph",
+        ),
+        "fetch": fetch_markdown_doc,
+    },
+    "llamaindex_docs": {
+        "rel": "llamaindex/docs",
+        "label": "LlamaIndex Docs",
+        "list": list_llms_docs(
+            "https://developers.llamaindex.ai/llms.txt",
+            public_base_url="https://developers.llamaindex.ai",
+            fetch_base_url="https://developers.llamaindex.ai",
+            category="LlamaIndex",
+            include=["/python/", "/framework/"],
+            limit=80,
+        ),
+        "fetch": fetch_markdown_doc,
+    },
+    "anthropic_docs": {
+        "rel": "anthropic/docs",
+        "label": "Anthropic Docs",
+        "list": make_static_docs_lister(ANTHROPIC_DOC_PAGES),
+        "fetch": fetch_markdown_doc,
     },
     "anthropic_news": {
         "rel": "anthropic/news",
@@ -728,12 +924,17 @@ SOURCES: dict[str, dict[str, Any]] = {
     },
 }
 
-# 仅站内已有阅读器的 4 个知识源做全文翻译；新增源先在学习站加栏目再写入此集合。
+# 仅站内已有阅读器的知识源做全文翻译；全文翻译永不使用 DeepSeek。
 FULLTEXT_SOURCE_IDS: tuple[str, ...] = (
     "engineering",
     "cookbook",
     "openai_cookbook",
     "langchain_blog",
+    "mcp_docs",
+    "openai_docs",
+    "langgraph_docs",
+    "llamaindex_docs",
+    "anthropic_docs",
 )
 
 

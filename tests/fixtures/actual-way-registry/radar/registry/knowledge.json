@@ -22,27 +22,18 @@
     {
       "id": "example-knowledge",
       "module_id": "knowledge.example.docs",
-      "adapter": "knowledge_source",
+      "adapter": "llms_txt",
+      "url": "https://docs.example.test/llms.txt",
       "enabled": false,
       "tasks": [
         {
           "id": "task.knowledge.example.docs.sync",
           "kind": "knowledge_sync",
-          "adapter": "knowledge_source",
+          "adapter": "llms_txt",
           "schedule": {
             "enabled": true,
             "timezone": "UTC",
             "cron": "0 * * * *"
-          }
-        },
-        {
-          "id": "task.knowledge.example.docs.translation",
-          "kind": "translation",
-          "adapter": "markdown_google",
-          "schedule": {
-            "enabled": true,
-            "timezone": "UTC",
-            "cron": "30 * * * *"
           }
         }
       ]
