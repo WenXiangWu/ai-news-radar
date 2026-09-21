@@ -193,6 +193,8 @@ def test_publish_workflow_runs_the_radar_export_and_way_import():
     assert "radar-state.sqlite3" in workflow
     assert "actions/cache@" in workflow
     assert "radar-ledger-v1" in workflow
+    requirements = Path("requirements.txt").read_text(encoding="utf-8")
+    assert "jsonschema" in requirements
     assert "RADAR_RUN_MAX_RUNTIME_MINUTES" in workflow
     assert "--max-runtime-minutes" in workflow
     assert "RADAR_OPERATION_MAX_RUNTIME_MINUTES" in workflow
