@@ -89,6 +89,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=float(os.environ.get("RADAR_RUN_MAX_RUNTIME_MINUTES", "45")),
         help="Maximum wall-clock budget for the complete run; 0 disables the budget",
     )
+    parser.add_argument(
+        "--max-operation-runtime-minutes",
+        type=float,
+        default=float(os.environ.get("RADAR_OPERATION_MAX_RUNTIME_MINUTES", "8")),
+    )
     return parser.parse_args(argv)
 
 
@@ -217,6 +222,7 @@ def main(argv: list[str] | None = None) -> int:
                     context,
                     baseline_before,
                     budget_seconds=remaining,
+                    max_operation_runtime_minutes=args.max_operation_runtime_minutes,
                 )
             )
         failed_task_ids = {
@@ -287,6 +293,7 @@ def main(argv: list[str] | None = None) -> int:
                     run_id,
                     target_root,
                     budget_seconds=remaining,
+                    max_operation_runtime_minutes=args.max_operation_runtime_minutes,
                 )
             )
 
@@ -452,6 +459,7 @@ def _operation_timeout_seconds(
     operation: Any,
     *,
     budget_seconds: float | None = None,
+    max_operation_runtime_minutes: float | None = None,
 ) -> float:
     if hasattr(operation, "task"):
         schedule = operation.task.schedule
@@ -469,6 +477,8 @@ def _operation_timeout_seconds(
         except (TypeError, ValueError):
             minutes = 30
         seconds = minutes * 60
+    if max_operation_runtime_minutes is not None and max_operation_runtime_minutes > 0:
+        seconds = min(seconds, max(0.01, float(max_operation_runtime_minutes) * 60))
     if budget_seconds is not None:
         seconds = min(seconds, max(0.01, budget_seconds))
     return seconds
@@ -480,10 +490,12 @@ def _run_bounded_source_operation(
     baseline_before: dict[str, Any],
     *,
     budget_seconds: float | None = None,
+    max_operation_runtime_minutes: float | None = None,
 ) -> dict[str, Any]:
     timeout_seconds = _operation_timeout_seconds(
         operation,
         budget_seconds=budget_seconds,
+        max_operation_runtime_minutes=max_operation_runtime_minutes,
     )
     started_clock = time.perf_counter()
     print(
@@ -528,10 +540,12 @@ def _run_bounded_task_operation(
     target_root: Path,
     *,
     budget_seconds: float | None = None,
+    max_operation_runtime_minutes: float | None = None,
 ) -> dict[str, Any]:
     timeout_seconds = _operation_timeout_seconds(
         operation,
         budget_seconds=budget_seconds,
+        max_operation_runtime_minutes=max_operation_runtime_minutes,
     )
     started_clock = time.perf_counter()
     print(

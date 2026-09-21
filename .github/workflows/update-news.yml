@@ -148,7 +148,8 @@ jobs:
           GOOGLE_TRANSLATE_ENDPOINT: ${{ vars.GOOGLE_TRANSLATE_ENDPOINT }}
           RADAR_TARGET_LOCALES: ${{ vars.RADAR_TARGET_LOCALES }}
           RADAR_HTTP_TIMEOUT_SECONDS: ${{ vars.RADAR_HTTP_TIMEOUT_SECONDS }}
-          RADAR_RUN_MAX_RUNTIME_MINUTES: ${{ vars.RADAR_RUN_MAX_RUNTIME_MINUTES || '45' }}
+          RADAR_RUN_MAX_RUNTIME_MINUTES: ${{ vars.RADAR_RUN_MAX_RUNTIME_MINUTES || '30' }}
+          RADAR_OPERATION_MAX_RUNTIME_MINUTES: ${{ vars.RADAR_OPERATION_MAX_RUNTIME_MINUTES || '8' }}
           RADAR_SCOPE: ${{ inputs.scope || 'all' }}
           RADAR_TARGET_ID: ${{ inputs.target_id || '' }}
           RADAR_REQUEST_ID: ${{ inputs.request_id || '' }}
@@ -182,7 +183,8 @@ jobs:
             --target-root "$work"
             --state "$state_path"
             --report "$radar_report"
-            --max-runtime-minutes "${RADAR_RUN_MAX_RUNTIME_MINUTES:-45}"
+            --max-runtime-minutes "${RADAR_RUN_MAX_RUNTIME_MINUTES:-30}"
+            --max-operation-runtime-minutes "${RADAR_OPERATION_MAX_RUNTIME_MINUTES:-8}"
           )
           if [ "${RADAR_SCOPE:-all}" = "source" ] && [ -n "${RADAR_TARGET_ID:-}" ]; then
             radar_args+=(--only-source "$RADAR_TARGET_ID")
