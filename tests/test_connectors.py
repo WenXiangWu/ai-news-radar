@@ -345,13 +345,19 @@ def test_deepwiki_discovers_linked_pages_and_fetches_page_text():
 
 def test_deepwiki_accepts_nested_module_source_configuration():
     root_url = "https://deepwiki.example.test/example/project"
+    tree_url = (
+        "https://api.github.com/repos/example/project/git/trees/main?recursive=1"
+    )
     transport = FixtureTransport(
         {
-            root_url: HttpResponse(
+            tree_url: HttpResponse(
                 status_code=200,
-                headers={"Content-Type": "text/plain"},
-                body=fixture_bytes("deepwiki-response.txt"),
-            )
+                headers={
+                    "Content-Type": "application/vnd.github+json",
+                    "ETag": '"tree-v1"',
+                },
+                body=fixture_bytes("github-tree.json"),
+            ),
         }
     )
     connector = ConnectorFactory.create(
@@ -365,10 +371,11 @@ def test_deepwiki_accepts_nested_module_source_configuration():
     )
 
     assert connector.healthcheck().status == "healthy"
-    assert [item.title for item in connector.discover(Cursor()).items] == [
-        "Overview",
-        "Architecture",
-    ]
+    assert connector.incremental_class == "revision-native"
+    page = connector.discover(Cursor())
+    assert [item.native_id for item in page.items] == ["README.md", "docs/guide.md"]
+    assert all(item.url.startswith(root_url + "/") for item in page.items)
+    assert all(item.remote_revision for item in page.items)
 
 
 def test_local_import_discovers_fixture_files_with_stable_manifest_cursor():

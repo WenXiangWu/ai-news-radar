@@ -37,7 +37,7 @@
         "max_new_items": 50
       },
       "incremental": {
-        "revision_field": "manifest.fetchedAt",
+        "authority": "github_tree",
         "preserve_existing": true
       }
     },

@@ -20,6 +20,7 @@ from .base import (
 
 class GitHubTreeConnector(HttpConnector):
     adapter_name = "github_tree"
+    incremental_class = "revision-native"
 
     def __init__(self, config: Mapping[str, Any] | None = None):
         super().__init__(config)
@@ -107,6 +108,7 @@ class GitHubTreeConnector(HttpConnector):
                     url=item_url,
                     title=Path(path).name or path,
                     content_type=content_type_for_path(path),
+                    remote_revision=blob_sha or None,
                     metadata={
                         "repo": self.repo,
                         "ref": self.ref,
