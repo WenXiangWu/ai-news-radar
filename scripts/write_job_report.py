@@ -204,7 +204,7 @@ def _radar_monitor_summary(monitor: dict[str, Any] | None) -> dict[str, Any] | N
             f"失败 {int(summary.get('failed_sources') or 0)}"
         ),
         "path": "data/radar-monitor.json",
-        "link": "https://news.learnprompt.pro/monitor/",
+        "link": "https://wenxiangwu.github.io/ai-news-radar/monitor/",
         "generated_at": monitor.get("generated_at"),
     }
 

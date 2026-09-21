@@ -86,6 +86,6 @@ flowchart LR
 - workflow 成功和失败分支都发布 Radar 监控工件；
 - 运行报告、来源验证、更新报告、监控快照和报告索引通过契约校验；
 - Way 不存在 Radar 监控页面、Radar 执行接口和 Radar 控制配置；
-- Way 只保留指向 `https://news.learnprompt.pro/monitor/` 的外部链接；
+- Way 只保留指向 `https://wenxiangwu.github.io/ai-news-radar/monitor/` 的外部链接；
 - 手动执行入口指向 Radar 的 GitHub Actions workflow；
 - 页面 JavaScript 不包含 GitHub Token、DeepSeek Key 或其他密钥。

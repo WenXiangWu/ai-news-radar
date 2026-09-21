@@ -82,4 +82,6 @@ def test_job_report_links_the_daily_radar_update_report(tmp_path: Path, monkeypa
     assert report["radar_update"]["link"].endswith("radar-update-report.json")
     assert report["radar_monitor"]["status"] == "success"
     assert report["radar_monitor"]["summary"] == "模块 3 个 · 数据源 4 · 可达 4 · 失败 0"
-    assert report["radar_monitor"]["link"] == "https://news.learnprompt.pro/monitor/"
+    assert report["radar_monitor"]["link"] == (
+        "https://wenxiangwu.github.io/ai-news-radar/monitor/"
+    )

@@ -1,9 +1,23 @@
 (function () {
   "use strict";
 
-  var SNAPSHOT_URL = "/data/radar-monitor.json";
-  var UPDATE_URL = "/data/radar-update-report.json";
-  var INDEX_URL = "/data/radar-reports/index.json";
+  function radarDataUrl(path) {
+    return new URL("../data/" + String(path).replace(/^\/+/, ""), window.location.href).toString();
+  }
+
+  function resolveRadarPath(path) {
+    var value = String(path || "");
+    if (!value || value === "#") return value || "#";
+    if (/^(?:[a-z][a-z0-9+.-]*:|\/\/)/i.test(value)) return value;
+    if (value.charAt(0) === "/") {
+      return new URL(".." + value, window.location.href).toString();
+    }
+    return new URL(value, window.location.href).toString();
+  }
+
+  var SNAPSHOT_URL = radarDataUrl("radar-monitor.json");
+  var UPDATE_URL = radarDataUrl("radar-update-report.json");
+  var INDEX_URL = radarDataUrl("radar-reports/index.json");
   var ACTIONS_URL = "https://github.com/WenXiangWu/ai-news-radar/actions/workflows/update-news.yml";
   var state = { monitor: null, update: null, index: null };
 
@@ -35,7 +49,7 @@
         started_at: null,
         finished_at: null,
         duration_ms: 0,
-        report_path: "/data/radar-run-report.json"
+        report_path: radarDataUrl("radar-run-report.json")
       },
       summary: {
         modules: 0,
@@ -52,9 +66,9 @@
       modules: [],
       sources: [],
       reports: {
-        latest_update: "/data/radar-update-report.json",
-        latest_validation: "/data/source-validation.json",
-        history_index: "/data/radar-reports/index.json"
+        latest_update: radarDataUrl("radar-update-report.json"),
+        latest_validation: radarDataUrl("source-validation.json"),
+        history_index: radarDataUrl("radar-reports/index.json")
       }
     };
   }
@@ -210,7 +224,7 @@
     var modules = update && update.modules || [];
     $("dailyModules").innerHTML = modules.map(function (module) {
       var links = (module.translation_links || []).map(function (link) {
-        return '<a href="' + escapeHtml(link.url || link.path || "#") + '">' +
+        return '<a href="' + escapeHtml(resolveRadarPath(link.url || link.path || "#")) + '">' +
           escapeHtml(link.content_id || "翻译文件") + "</a>";
       }).join("");
       return '<article class="module-log-item"><div class="module-log-head"><strong>' +
@@ -227,7 +241,7 @@
   function renderReports(index) {
     var reports = index && index.reports || [];
     $("reportList").innerHTML = reports.map(function (report) {
-      return '<a class="report-item" href="' + escapeHtml(report.path || "#") + '">' +
+      return '<a class="report-item" href="' + escapeHtml(resolveRadarPath(report.path || "#")) + '">' +
         "<strong>" + escapeHtml(report.date) + "</strong>" +
         '<span>' + escapeHtml(statusLabel(report.status)) + " · 更新 " +
         escapeHtml((report.summary || {}).updated || 0) + "</span></a>";
@@ -271,7 +285,7 @@
       renderDaily(state.update);
       renderReports(state.index);
       if (state.monitor.reports && state.monitor.reports.latest_update) {
-        $("latestReportLink").href = state.monitor.reports.latest_update;
+        $("latestReportLink").href = resolveRadarPath(state.monitor.reports.latest_update);
       }
       $("snapshotMeta").textContent = "快照 " + formatDate(state.monitor.generated_at);
     }).catch(showError);

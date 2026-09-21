@@ -21,9 +21,11 @@ def test_radar_monitor_is_a_standalone_page_with_actions_entrypoint():
         "reportList",
     ):
         assert marker in html or marker in js
-    assert "/data/radar-monitor.json" in js
-    assert "/data/radar-update-report.json" in js
-    assert "/data/radar-reports/index.json" in js
+    assert 'radarDataUrl("radar-monitor.json")' in js
+    assert 'radarDataUrl("radar-update-report.json")' in js
+    assert 'radarDataUrl("radar-reports/index.json")' in js
+    assert 'new URL("../data/"' in js
+    assert 'var SNAPSHOT_URL = "/data/radar-monitor.json"' not in js
     assert "github.com/WenXiangWu/ai-news-radar/actions/workflows/update-news.yml" in (
         html + js
     )
