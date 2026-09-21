@@ -30,6 +30,8 @@ def test_radar_monitor_is_a_standalone_page_with_actions_entrypoint():
         html + js
     )
     assert "/api/admin/radar/" not in (html + js)
+    assert "renderUnavailableMonitor" in js
+    assert "不能把缺失数据显示为 0" in js
 
 
 def test_monitor_page_assets_are_present():

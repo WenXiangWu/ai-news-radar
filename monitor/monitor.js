@@ -73,6 +73,26 @@
     };
   }
 
+  function renderUnavailableMonitor() {
+    var message = "Radar 尚未发布可验证的监控快照。本轮执行可能仍在运行、失败或尚未完成发布。";
+    $("kpis").innerHTML =
+      '<div class="empty-state monitor-unavailable">数据不可判定：' +
+      escapeHtml(message) + "</div>";
+    $("runStatus").className = "status-chip warn";
+    $("runStatus").textContent = "无可用快照";
+    $("runSummary").innerHTML =
+      '<div class="run-cell"><label>状态</label><strong>' +
+      escapeHtml(message) + "</strong></div>";
+    $("providers").innerHTML = '<p class="empty-state">暂无可验证的提供方运行数据。</p>';
+    $("moduleTable").innerHTML =
+      '<tr><td colspan="7">监控快照尚未发布，不能把缺失数据显示为 0。</td></tr>';
+    $("sourceTable").innerHTML =
+      '<tr><td colspan="8">监控快照尚未发布，不能判定数据源状态。</td></tr>';
+    $("sourceEmpty").hidden = true;
+    $("snapshotMeta").textContent = "尚未发布监控快照";
+    showError(message);
+  }
+
   function formatDate(value) {
     if (!value) return "未记录";
     var date = new Date(value);
@@ -98,7 +118,7 @@
     var value = String(status || "").toLowerCase();
     if (["success", "ok", "healthy", "configured"].indexOf(value) >= 0) return "good";
     if (["pending", "degraded", "not_configured", "unknown"].indexOf(value) >= 0) return "warn";
-    if (["failed", "partial", "error"].indexOf(value) >= 0) return "bad";
+    if (["failed", "partial", "error", "blocked"].indexOf(value) >= 0) return "bad";
     return "";
   }
 
@@ -106,6 +126,7 @@
     var labels = {
       success: "成功", ok: "正常", healthy: "可达", configured: "已配置",
       pending: "待执行", degraded: "降级", not_configured: "未配置",
+      blocked: "阻塞",
       unknown: "未知", failed: "失败", partial: "部分成功",
       error: "错误", disabled: "已停用", not_due: "未到时间"
     };
@@ -266,13 +287,22 @@
     return Promise.all([
       fetchJson(SNAPSHOT_URL).catch(function (error) {
         if (String(error && error.message || "").indexOf("404") >= 0) {
-          return emptyMonitor();
+          return { __unavailable: true };
         }
         throw error;
       }),
       fetchJson(UPDATE_URL).catch(function () { return null; }),
       fetchJson(INDEX_URL).catch(function () { return null; })
     ]).then(function (values) {
+      if (values[0] && values[0].__unavailable) {
+        state.monitor = null;
+        state.update = values[1];
+        state.index = values[2];
+        renderUnavailableMonitor();
+        renderDaily(state.update);
+        renderReports(state.index);
+        return;
+      }
       state.monitor = values[0];
       state.update = values[1];
       state.index = values[2];

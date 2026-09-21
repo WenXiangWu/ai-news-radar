@@ -284,6 +284,8 @@ def _build_source_row(
         )
         if status == "ok":
             status = "success"
+        elif status == "blocked":
+            status = "failed"
     live = validation.get("live")
     live = dict(live) if isinstance(live, Mapping) else {}
     health = validation.get("health")

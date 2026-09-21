@@ -334,7 +334,7 @@ def _module_status(
     if not module.get("enabled", True):
         return "disabled"
     statuses = {str(task.get("status") or "") for task in tasks}
-    if "failed" in statuses or any(
+    if {"failed", "blocked"} & statuses or any(
         str(source.get("status") or "") == "failed" for source in sources
     ):
         return "failed"

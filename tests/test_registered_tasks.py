@@ -188,6 +188,8 @@ def test_publish_workflow_runs_the_radar_export_and_way_import():
     assert "radar_exit=0" in workflow
     assert "failure report" in workflow
     assert "radar-state.sqlite3" in workflow
+    assert "RADAR_RUN_MAX_RUNTIME_MINUTES" in workflow
+    assert "--max-runtime-minutes" in workflow
     assert "frontend/radar-content" in workflow
     assert "data/radar-monitor.json" in workflow
     assert "data/radar-update-report.json" in workflow

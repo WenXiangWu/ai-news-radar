@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import argparse
+from contextlib import contextmanager
 import json
 import os
+import signal
 import sys
 import time
 import uuid
@@ -36,6 +38,41 @@ from radar_core.translation.router import TranslationRouter
 from radar_core.verification import build_baseline_verification
 
 
+class RadarOperationTimeout(BaseException):
+    """Interrupt a connector without being swallowed by per-item handlers."""
+
+
+@contextmanager
+def _operation_deadline(seconds: float):
+    """Install a process-local deadline for one synchronous operation."""
+
+    try:
+        previous_handler = signal.getsignal(signal.SIGALRM)
+        previous_timer = signal.setitimer(signal.ITIMER_REAL, 0)
+        def _alarm(_signum, _frame):
+            raise RadarOperationTimeout()
+
+        signal.signal(signal.SIGALRM, _alarm)
+        signal.setitimer(signal.ITIMER_REAL, max(0.01, float(seconds)))
+    except (AttributeError, ValueError):
+        # Signal timers are unavailable outside the main interpreter thread.
+        # HTTP and subprocess adapters still have their own request limits.
+        yield
+        return
+
+    try:
+        yield
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, 0)
+        signal.signal(signal.SIGALRM, previous_handler)
+        if previous_timer[0] > 0:
+            signal.setitimer(
+                signal.ITIMER_REAL,
+                previous_timer[0],
+                previous_timer[1],
+            )
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run due Radar operations")
     parser.add_argument("--target-root", required=True)
@@ -46,6 +83,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--only-source", default="")
     parser.add_argument("--only-module", default="")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument(
+        "--max-runtime-minutes",
+        type=float,
+        default=float(os.environ.get("RADAR_RUN_MAX_RUNTIME_MINUTES", "45")),
+        help="Maximum wall-clock budget for the complete run; 0 disables the budget",
+    )
     return parser.parse_args(argv)
 
 
@@ -68,6 +111,7 @@ def main(argv: list[str] | None = None) -> int:
     registry = load_registry(target_root)
     state = StateStore.open(state_path)
     state.record_run(run_id, {"status": "running", "dry_run": args.dry_run})
+    results: list[dict[str, Any]] = []
     try:
         if not args.dry_run:
             register_new_sources(registry, state, run_id)
@@ -131,8 +175,7 @@ def main(argv: list[str] | None = None) -> int:
             now=now,
             dry_run=args.dry_run,
         )
-        results: list[dict[str, Any]] = []
-        for operation in operations:
+        for index, operation in enumerate(operations):
             baseline_before = _baseline_snapshot(state, operation.source_id)
             if args.dry_run:
                 payload = {
@@ -152,13 +195,28 @@ def main(argv: list[str] | None = None) -> int:
                     )
                 )
                 continue
-            result = run_operation(operation, context)
+            remaining = _remaining_budget_seconds(
+                started_clock,
+                args.max_runtime_minutes,
+            )
+            if remaining is not None and remaining <= 0:
+                results.extend(
+                    [
+                        _deferred_source_result(
+                            pending,
+                            state,
+                            reason="本轮运行预算已用尽，等待下一轮执行",
+                        )
+                        for pending in operations[index:]
+                    ]
+                )
+                break
             results.append(
-                _decorate_source_result(
-                    result.to_dict(),
+                _run_bounded_source_operation(
                     operation,
+                    context,
                     baseline_before,
-                    state,
+                    budget_seconds=remaining,
                 )
             )
         failed_task_ids = {
@@ -167,7 +225,23 @@ def main(argv: list[str] | None = None) -> int:
             if str(result.get("status") or "") in {"failed", "partial"}
             and result.get("task_id")
         }
-        for operation in _order_control_operations(control_operations):
+        ordered_control = _order_control_operations(control_operations)
+        for index, operation in enumerate(ordered_control):
+            remaining = _remaining_budget_seconds(
+                started_clock,
+                args.max_runtime_minutes,
+            )
+            if remaining is not None and remaining <= 0:
+                results.extend(
+                    [
+                        _deferred_task_result(
+                            pending,
+                            reason="本轮运行预算已用尽，等待下一轮执行",
+                        )
+                        for pending in ordered_control[index:]
+                    ]
+                )
+                break
             blocked_dependencies = [
                 dependency
                 for dependency in operation.task.depends_on
@@ -206,13 +280,15 @@ def main(argv: list[str] | None = None) -> int:
                     )
                 )
                 continue
-            result = run_registered_task(
-                operation,
-                state,
-                run_id,
-                target_root,
+            results.append(
+                _run_bounded_task_operation(
+                    operation,
+                    state,
+                    run_id,
+                    target_root,
+                    budget_seconds=remaining,
+                )
             )
-            results.append(_decorate_task_result(result.to_dict(), operation))
 
         final_status = _final_status(results, dry_run=args.dry_run)
         state.record_run(
@@ -249,6 +325,46 @@ def main(argv: list[str] | None = None) -> int:
         )
         print(f"wrote {report_path}", flush=True)
         return 1 if final_status in {"failed", "partial"} else 0
+    except Exception as exc:  # noqa: BLE001
+        message = _safe_error(exc)
+        results.append(
+            {
+                "status": "failed",
+                "summary": message,
+                "error": message,
+                "failed": 1,
+                "errors": [message],
+            }
+        )
+        try:
+            state.record_run(
+                run_id,
+                {
+                    "status": "failed",
+                    "dry_run": args.dry_run,
+                    "operations": results,
+                    "discovery": registry.diagnostics,
+                },
+            )
+        except Exception:
+            pass
+        report = _build_report(
+            run_id=run_id,
+            status="failed",
+            now=now,
+            started_at=started_at,
+            finished_at=datetime.now(timezone.utc),
+            duration_ms=max(0, int((time.perf_counter() - started_clock) * 1000)),
+            request_id=str(os.environ.get("RADAR_REQUEST_ID") or "").strip(),
+            operations=results,
+            diagnostics=registry.diagnostics,
+            verification=_safe_verification(registry, state, results),
+            providers=_provider_status(config, results),
+            dry_run=args.dry_run,
+        )
+        _write_report(report_path, report)
+        print(f"Radar run failed; wrote {report_path}: {message}", flush=True)
+        return 1
     finally:
         state.close()
 
@@ -321,6 +437,225 @@ def _final_status(results: list[dict[str, Any]], *, dry_run: bool) -> str:
     if "partial" in statuses:
         return "partial"
     return "success"
+
+
+def _remaining_budget_seconds(
+    started_clock: float,
+    max_runtime_minutes: float,
+) -> float | None:
+    if max_runtime_minutes <= 0:
+        return None
+    return (max_runtime_minutes * 60) - (time.perf_counter() - started_clock)
+
+
+def _operation_timeout_seconds(
+    operation: Any,
+    *,
+    budget_seconds: float | None = None,
+) -> float:
+    if hasattr(operation, "task"):
+        schedule = operation.task.schedule
+    else:
+        schedule = operation.schedule if hasattr(operation, "schedule") else {}
+    raw_seconds = schedule.get("max_runtime_seconds")
+    if raw_seconds is not None:
+        try:
+            seconds = max(0.01, float(raw_seconds))
+        except (TypeError, ValueError):
+            seconds = 30 * 60
+    else:
+        try:
+            minutes = max(1.0, float(schedule.get("max_runtime_minutes") or 30))
+        except (TypeError, ValueError):
+            minutes = 30
+        seconds = minutes * 60
+    if budget_seconds is not None:
+        seconds = min(seconds, max(0.01, budget_seconds))
+    return seconds
+
+
+def _run_bounded_source_operation(
+    operation: Any,
+    context: RunContext,
+    baseline_before: dict[str, Any],
+    *,
+    budget_seconds: float | None = None,
+) -> dict[str, Any]:
+    timeout_seconds = _operation_timeout_seconds(
+        operation,
+        budget_seconds=budget_seconds,
+    )
+    started_clock = time.perf_counter()
+    print(
+        f"Radar operation start: {operation.id} "
+        f"source={operation.source_id} timeout={timeout_seconds:.2f}s",
+        flush=True,
+    )
+    try:
+        with _operation_deadline(timeout_seconds):
+            result = run_operation(operation, context)
+        payload = result.to_dict()
+    except RadarOperationTimeout:
+        payload = _source_failure_payload(
+            operation,
+            f"operation timed out after {timeout_seconds:.2f}s",
+            started_clock,
+        )
+        payload["timeout_seconds"] = timeout_seconds
+    except Exception as exc:  # noqa: BLE001
+        payload = _source_failure_payload(
+            operation,
+            _safe_error(exc),
+            started_clock,
+        )
+    decorated = _decorate_source_result(
+        payload,
+        operation,
+        baseline_before,
+        context.state,
+    )
+    print(
+        f"Radar operation finish: {operation.id} status={decorated.get('status')}",
+        flush=True,
+    )
+    return decorated
+
+
+def _run_bounded_task_operation(
+    operation: Any,
+    state: StateStore,
+    run_id: str,
+    target_root: Path,
+    *,
+    budget_seconds: float | None = None,
+) -> dict[str, Any]:
+    timeout_seconds = _operation_timeout_seconds(
+        operation,
+        budget_seconds=budget_seconds,
+    )
+    started_clock = time.perf_counter()
+    print(
+        f"Radar task start: {operation.task.id} timeout={timeout_seconds:.2f}s",
+        flush=True,
+    )
+    try:
+        with _operation_deadline(timeout_seconds):
+            result = run_registered_task(
+                operation,
+                state,
+                run_id,
+                target_root,
+            )
+        payload = result.to_dict()
+    except RadarOperationTimeout:
+        payload = {
+            "task_id": operation.task.id,
+            "adapter": operation.task.adapter,
+            "status": "failed",
+            "summary": (
+                f"控制任务超时（{timeout_seconds:.2f}s），等待下一轮重试"
+            ),
+            "error": f"task timed out after {timeout_seconds:.2f}s",
+        }
+    except Exception as exc:  # noqa: BLE001
+        message = _safe_error(exc)
+        payload = {
+            "task_id": operation.task.id,
+            "adapter": operation.task.adapter,
+            "status": "failed",
+            "summary": message,
+            "error": message,
+        }
+    payload["duration_ms"] = max(
+        0,
+        int((time.perf_counter() - started_clock) * 1000),
+    )
+    decorated = _decorate_task_result(payload, operation)
+    print(
+        f"Radar task finish: {operation.task.id} status={decorated.get('status')}",
+        flush=True,
+    )
+    return decorated
+
+
+def _source_failure_payload(
+    operation: Any,
+    error: str,
+    started_clock: float,
+) -> dict[str, Any]:
+    return {
+        "source_id": operation.source_id,
+        "status": "failed",
+        "ok": False,
+        "started_at": datetime.now(timezone.utc).isoformat(),
+        "finished_at": datetime.now(timezone.utc).isoformat(),
+        "duration_ms": max(0, int((time.perf_counter() - started_clock) * 1000)),
+        "discovered": 0,
+        "fetched": 0,
+        "normalized": 0,
+        "revisions_new": 0,
+        "revisions_reused": 0,
+        "translated": 0,
+        "translation_reused": 0,
+        "quality_failed": 0,
+        "failed": 1,
+        "errors": [str(error)[:500]],
+        "provider_counts": {},
+        "provider_failures": {},
+        "provider_fallbacks": {},
+        "cursor": {},
+        "updated_content_ids": [],
+        "translated_content_ids": [],
+    }
+
+
+def _deferred_source_result(
+    operation: Any,
+    state: StateStore,
+    *,
+    reason: str,
+) -> dict[str, Any]:
+    payload = _source_failure_payload(operation, reason, time.perf_counter())
+    payload["status"] = "blocked"
+    payload["error"] = reason
+    return _decorate_source_result(
+        payload,
+        operation,
+        _baseline_snapshot(state, operation.source_id),
+        state,
+        )
+
+
+def _deferred_task_result(operation: Any, *, reason: str) -> dict[str, Any]:
+    return _decorate_task_result(
+        {
+            "task_id": operation.task.id,
+            "adapter": operation.task.adapter,
+            "status": "blocked",
+            "summary": reason,
+            "error": reason,
+        },
+        operation,
+    )
+
+
+def _safe_verification(
+    registry: Any,
+    state: StateStore,
+    operations: list[dict[str, Any]],
+) -> dict[str, Any]:
+    try:
+        return build_baseline_verification(registry, state, operations=operations)
+    except Exception as exc:  # noqa: BLE001
+        return {"status": "failed", "error": _safe_error(exc), "sources": []}
+
+
+def _write_report(report_path: Path, report: dict[str, Any]) -> None:
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def _build_report(
@@ -493,7 +828,7 @@ def _decorate_source_result(
             "baseline_committed": (
                 after["baseline_fingerprint"]
                 and after["baseline_fingerprint"]
-                != baseline_before["baseline_fingerprint"]
+                != baseline_before.get("baseline_fingerprint")
             )
             or (
                 after["baseline_fingerprint"]
@@ -501,7 +836,7 @@ def _decorate_source_result(
                 == source.registry_fingerprint
             ),
             "cursor_advanced": (
-                after["cursor_run_id"] != baseline_before["cursor_run_id"]
+                after["cursor_run_id"] != baseline_before.get("cursor_run_id")
             ),
         }
     )
