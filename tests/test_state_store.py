@@ -174,3 +174,44 @@ def test_state_store_same_translation_tuple_with_different_keys_is_idempotent(
     assert store.count_rows("translations") == 1
     assert store.get_translation(expected_key)["provider"] == "google"
     store.close()
+
+
+def test_state_store_persists_source_snapshots_and_items(tmp_path: Path):
+    store = StateStore.open(tmp_path / "state.sqlite3")
+    store.record_source_snapshot(
+        "source.demo",
+        {
+            "snapshot_id": "snap-1",
+            "fetched_at": "2026-09-21T00:00:00+00:00",
+            "etag": 'W/"abc"',
+            "item_count": 1,
+            "status": "ok",
+        },
+    )
+    store.upsert_source_item(
+        {
+            "source_id": "source.demo",
+            "item_id": "item-1",
+            "canonical_url": "https://example.com/item-1",
+            "remote_revision": "rev-1",
+            "status": "seen",
+        }
+    )
+    store.upsert_source_item(
+        {
+            "source_id": "source.demo",
+            "item_id": "item-1",
+            "canonical_url": "https://example.com/item-1",
+            "remote_revision": "rev-2",
+            "status": "seen",
+        }
+    )
+
+    items = store.list_source_items("source.demo")
+    assert len(items) == 1
+    assert items[0]["item_id"] == "item-1"
+    assert items[0]["remote_revision"] == "rev-2"
+    assert items[0]["fetched_revision"] is None
+    assert store.count_rows("source_snapshots") == 1
+    assert store.count_rows("source_items") == 1
+    store.close()
