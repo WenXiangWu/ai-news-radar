@@ -86,7 +86,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--max-runtime-minutes",
         type=float,
-        default=float(os.environ.get("RADAR_RUN_MAX_RUNTIME_MINUTES", "45")),
+        default=float(os.environ.get("RADAR_RUN_MAX_RUNTIME_MINUTES", "30")),
         help="Maximum wall-clock budget for the complete run; 0 disables the budget",
     )
     parser.add_argument(
