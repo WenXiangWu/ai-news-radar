@@ -690,7 +690,7 @@ class StateStore:
         existing = self._connection.execute(
             """
             SELECT first_seen_at, fetched_revision, source_hash, last_fetched_at,
-                   payload_json
+                   status, payload_json
             FROM source_items
             WHERE source_id = ? AND item_id = ?
             """,
@@ -711,6 +711,12 @@ class StateStore:
         last_fetched_at = row.get("last_fetched_at")
         if last_fetched_at is None and existing is not None:
             last_fetched_at = existing["last_fetched_at"]
+        if "status" in row:
+            status = str(row["status"] or "seen")
+        elif existing is not None:
+            status = str(existing["status"])
+        else:
+            status = "seen"
         payload = dict(row)
         if existing is not None and "payload_json" in existing.keys():
             prior = _payload(json.loads(existing["payload_json"]))
@@ -748,7 +754,7 @@ class StateStore:
                 first_seen_at,
                 last_seen_at,
                 last_fetched_at,
-                str(row.get("status") or "seen"),
+                status,
                 _json(payload),
             ),
         )

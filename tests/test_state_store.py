@@ -215,3 +215,38 @@ def test_state_store_persists_source_snapshots_and_items(tmp_path: Path):
     assert store.count_rows("source_snapshots") == 1
     assert store.count_rows("source_items") == 1
     store.close()
+
+
+def test_discover_upsert_preserves_existing_item_status(tmp_path: Path):
+    store = StateStore.open(tmp_path / "state.sqlite3")
+    for item_id, status in (
+        ("fetched-item", "fetched"),
+        ("deferred-item", "deferred"),
+        ("blocked-item", "blocked"),
+    ):
+        store.upsert_source_item(
+            {
+                "source_id": "source.demo",
+                "item_id": item_id,
+                "canonical_url": f"https://example.com/{item_id}",
+                "remote_revision": "rev-1",
+                "status": status,
+            }
+        )
+
+    for item_id in ("fetched-item", "deferred-item", "blocked-item"):
+        store.upsert_source_item(
+            {
+                "source_id": "source.demo",
+                "item_id": item_id,
+                "canonical_url": f"https://example.com/{item_id}",
+                "remote_revision": "rev-2",
+            }
+        )
+
+    by_id = {row["item_id"]: row for row in store.list_source_items("source.demo")}
+    assert by_id["fetched-item"]["status"] == "fetched"
+    assert by_id["deferred-item"]["status"] == "deferred"
+    assert by_id["blocked-item"]["status"] == "blocked"
+    assert by_id["fetched-item"]["remote_revision"] == "rev-2"
+    store.close()
