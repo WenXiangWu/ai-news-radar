@@ -4,7 +4,7 @@ import json
 import re
 from pathlib import Path
 from typing import Any, Mapping
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin
 
 from ..ids import canonicalize_url
 from .base import (
@@ -266,6 +266,21 @@ def _remap_to_deepwiki(
     metadata = dict(item.metadata)
     metadata["deepwiki_url"] = page_url
     metadata["wiki_url"] = wiki_url
+    # git/trees entries do not carry `download_url`. The DeepWiki page is the
+    # primary fetch URL, but on 404 we must still be able to fall back to the
+    # raw GitHub blob. Preserve an explicit `download_url` (preferred) or
+    # synthesize one from repo/ref/path so the fallback path stays alive.
+    fallback_url = str(item.metadata.get("download_url") or "").strip()
+    if not fallback_url:
+        fallback_url = item.url if str(item.metadata.get("github_url") or "") else ""
+    if not fallback_url and repo and path:
+        fallback_url = (
+            "https://raw.githubusercontent.com/"
+            f"{repo}/{quote(ref, safe='')}/{quote(path, safe='/')}"
+        )
+    if fallback_url:
+        metadata["download_url"] = fallback_url
+    metadata["github_url"] = item.url
     return DiscoveredItem(
         source_id=item.source_id,
         native_id=path,

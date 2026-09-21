@@ -199,7 +199,14 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
 
     result.run_kind = "incremental" if context.mode == "incremental" else context.mode
 
-    if context.mode != "bootstrap" and not context.state.baseline_initialized(source.id):
+    # Spec §3.2: `baseline_only` always discovers + writes ledger, fetch=0,
+    # translate=0 — even on an already-initialized source. `bootstrap` skips the
+    # baseline gate entirely. The implicit first-cron baseline_only path only
+    # triggers when the source has not been initialized yet.
+    baseline_initialized = context.state.baseline_initialized(source.id)
+    if context.mode == "baseline_only" or (
+        context.mode != "bootstrap" and not baseline_initialized
+    ):
         context.state.mark_source_baseline(source.id, context.run_id)
         result.run_kind = "baseline_only"
         result.status = "success"
@@ -355,19 +362,54 @@ def _upsert_ledger_items(
     context: RunContext,
 ) -> list[dict[str, Any]]:
     now = context.now.isoformat()
+    # Spec §3.1/§4: discover upsert only updates remote_* / last_seen_at and
+    # must NOT overwrite an existing `fetched`/`deferred`/`blocked` status with
+    # `seen`. We omit `status` so `upsert_source_item` preserves the prior row
+    # status for items that already exist, and defaults new items to `seen`.
+    not_modified = bool(page.metadata.get("not_modified"))
+    discovered_ids: set[str] = set()
     for item in page.items:
-        context.state.upsert_source_item(
-            {
-                "source_id": source.id,
-                "item_id": item.native_id,
-                "canonical_url": item.canonical_url,
-                "remote_revision": item.remote_revision,
-                "remote_etag": item.remote_etag,
-                "remote_last_modified": item.remote_last_modified,
-                "last_seen_at": now,
-                "status": "seen",
-            }
-        )
+        discovered_ids.add(item.native_id)
+        row: dict[str, Any] = {
+            "source_id": source.id,
+            "item_id": item.native_id,
+            "canonical_url": item.canonical_url,
+            "remote_revision": item.remote_revision,
+            "remote_etag": item.remote_etag,
+            "remote_last_modified": item.remote_last_modified,
+            "last_seen_at": now,
+            # Persist enough metadata to reconstruct a fetchable DiscoveredItem
+            # later (e.g. after a 304 manifest). See _reconstruct_item_from_row.
+            "title": item.title,
+            "published_at": item.published_at,
+            "content_type": item.content_type,
+            "payload": dict(item.metadata),
+        }
+        context.state.upsert_source_item(row)
+    # When the manifest actually changed (non-304) and re-emitted a non-empty
+    # item set, mark ledger items that are no longer present in the discovered
+    # page as `missing` so they stop being selected for fetch but are not
+    # silently deleted (Spec §4). An empty page (e.g. a 304 without the flag,
+    # or a connector that does not re-emit) is treated conservatively and
+    # never marks items missing.
+    if not not_modified and page.items:
+        prior_rows = context.state.list_source_items(source.id)
+        for row in prior_rows:
+            if row["item_id"] in discovered_ids:
+                continue
+            if str(row.get("status") or "") in {"missing"}:
+                continue
+            context.state.upsert_source_item(
+                {
+                    "source_id": source.id,
+                    "item_id": row["item_id"],
+                    "canonical_url": row.get("canonical_url") or "",
+                    "remote_revision": row.get("remote_revision"),
+                    "remote_etag": row.get("remote_etag"),
+                    "remote_last_modified": row.get("remote_last_modified"),
+                    "status": "missing",
+                }
+            )
     return context.state.list_source_items(source.id)
 
 
@@ -397,27 +439,33 @@ def _reconstruct_item_from_row(
 ) -> DiscoveredItem | None:
     """Rebuild a DiscoveredItem from a ledger row when the discovery page
     did not re-emit it (e.g. a 304 manifest). Used to fetch lagged items
-    whose fetched_revision still trails remote_revision."""
+    whose fetched_revision still trails remote_revision.
+
+    The ledger row carries the persisted title, published_at, content_type
+    and connector metadata (path/url/etc.) so the reconstructed item can be
+    fetched without the discovery page being re-emitted.
+    """
 
     item_id = str(row.get("item_id") or "").strip()
     canonical_url = str(row.get("canonical_url") or "").strip()
     if not item_id or not canonical_url:
         return None
-    payload = row.get("payload") if isinstance(row.get("payload"), Mapping) else {}
-    title = str(
-        payload.get("title")
-        or row.get("title")
-        or item_id
-    )
+    metadata = row.get("payload") if isinstance(row.get("payload"), Mapping) else {}
+    metadata = dict(metadata)
+    title = str(row.get("title") or metadata.get("title") or item_id)
     return DiscoveredItem(
         source_id=source.id,
         native_id=item_id,
         url=canonical_url,
         title=title,
+        published_at=row.get("published_at") or metadata.get("published_at"),
+        content_type=str(
+            row.get("content_type") or metadata.get("content_type") or "text/plain"
+        ),
         remote_revision=row.get("remote_revision"),
         remote_etag=row.get("remote_etag"),
         remote_last_modified=row.get("remote_last_modified"),
-        metadata=dict(payload),
+        metadata=metadata,
     )
 
 
@@ -435,12 +483,24 @@ def _connector_supports_incremental(
     return any(item.has_remote_validator for item in items)
 
 
+DEFAULT_MAX_NEW_ITEMS = 50
+
+
 def _max_new_items(source: SourceSpec) -> int:
-    raw = source.schedule.get("max_new_items") if isinstance(source.schedule, Mapping) else None
+    """Spec §3.5: `max_new_items` is a hard cap applied after selection.
+    An *unset* (missing/None) value falls back to a positive default (50)
+    so a normal schedule still selects changed items. An *explicit* 0 means
+    the task does not fetch new bodies (index task) — changed items are
+    deferred, not selected."""
+    schedule = source.schedule if isinstance(source.schedule, Mapping) else {}
+    if "max_new_items" not in schedule or schedule.get("max_new_items") is None:
+        return DEFAULT_MAX_NEW_ITEMS
+    raw = schedule.get("max_new_items")
     try:
-        return max(0, int(raw or 0))
+        value = int(raw)
     except (TypeError, ValueError):
-        return 0
+        return DEFAULT_MAX_NEW_ITEMS
+    return max(0, value)
 
 
 def _finish_result(result: SourceRunResult, started_clock: float) -> None:
