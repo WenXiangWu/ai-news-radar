@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar 同步监控 · 静态预览</title>
+  <style>
+    :root {
+      --text: #101828;
+      --muted: #667085;
+      --line: #e4e7ec;
+      --bg: #f5f6f8;
+      --card: #fff;
+      --good: #087f5b;
+      --warn: #a15c00;
+      --bad: #b42318;
+      --ink: #101828;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: inherit; }
+    button, select, input { font: inherit; color: inherit; }
+    .page { max-width: 1180px; margin: 0 auto; padding: 36px 24px 80px; }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 24px;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: .08em;
+    }
+    h1 { margin: 0; font-size: 32px; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 13px; text-align: right; }
+    .actions { margin-top: 10px; }
+    .link {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: var(--ink);
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 650;
+    }
+    .status {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-top: 22px;
+      padding: 18px 20px;
+      border: 1px solid #f3d7a1;
+      border-radius: 14px;
+      background: #fff8eb;
+    }
+    .status strong { display: block; font-size: 22px; }
+    .status p { margin: 4px 0 0; color: var(--warn); font-size: 13px; }
+    .status-side { display: flex; gap: 28px; color: var(--muted); font-size: 13px; }
+    .status-side b { display: block; color: var(--text); font-size: 20px; }
+    h2 { margin: 28px 0 12px; font-size: 16px; }
+    .note { margin: -4px 0 12px; color: var(--muted); font-size: 13px; }
+    .workflows, .modules { display: grid; gap: 12px; }
+    .workflows { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .modules { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+    .card, .mod {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--card);
+      text-align: left;
+      cursor: pointer;
+    }
+    .card { padding: 16px; min-height: 168px; }
+    .card.selected, .mod.selected { outline: 2px solid var(--ink); }
+    .card .duty { margin: 8px 0 12px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .when { font-size: 14px; font-weight: 700; }
+    .cron, .last { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; font-weight: 400; }
+    .pill {
+      display: inline-flex;
+      margin-top: 12px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #eef2f6;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .pill.good { background: #e7f6ef; color: var(--good); }
+    .pill.warn { background: #fff4df; color: var(--warn); }
+    .pill.bad { background: #fdecec; color: var(--bad); }
+    .mod { padding: 14px; min-height: 108px; }
+    .mod b { display: block; font-size: 13px; }
+    .mod .num { display: block; margin: 8px 0 4px; font-size: 28px; line-height: 1; }
+    .mod span { color: var(--muted); font-size: 12px; }
+    .mod.bad { border-color: #f3c1bc; background: #fff6f5; }
+    .mod.bad .num { color: var(--bad); }
+    .mod.good .num { color: var(--good); }
+    .mod.warn .num { color: var(--warn); font-size: 16px; margin-top: 14px; }
+    .stack { display: grid; gap: 10px; }
+    .group { border: 1px solid var(--line); border-radius: 14px; background: #fff; overflow: hidden; }
+    .group-head, .group > summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 16px;
+      cursor: pointer;
+      list-style: none;
+    }
+    .group > summary::-webkit-details-marker { display: none; }
+    .group-head b, .group > summary b { font-size: 14px; }
+    .sub { display: block; margin-top: 3px; color: var(--muted); font-size: 12px; font-weight: 400; }
+    .counts { display: flex; flex-wrap: wrap; gap: 6px; }
+    .line {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 16px;
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+    }
+    .line em { color: var(--muted); font-style: normal; }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+    .filters button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .day { display: grid; grid-template-columns: 88px 1fr auto; gap: 12px; align-items: center; }
+    .day time { font-size: 18px; font-weight: 750; }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
+      overflow-x: auto;
+    }
+    .tabs button, .ghost {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      padding: 8px 14px;
+      cursor: pointer;
+    }
+    .tabs button[aria-selected="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .panel { margin-top: 16px; }
+    .panel[hidden] { display: none; }
+    .toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+    th, td { padding: 12px 14px; border-bottom: 1px solid var(--line); text-align: left; font-size: 13px; vertical-align: top; }
+    th { color: var(--muted); font-weight: 650; background: #fafbfc; }
+    tr:last-child td { border-bottom: 0; }
+    .empty {
+      padding: 28px;
+      border: 1px dashed var(--line);
+      border-radius: 12px;
+      background: #fff;
+      color: var(--muted);
+    }
+    .providers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .provider { padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+    .provider p { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
+    @media (max-width: 980px) {
+      .workflows, .modules, .providers { grid-template-columns: 1fr 1fr; }
+      .top, .status, .toolbar { align-items: flex-start; flex-direction: column; }
+      .meta { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="top">
+      <div>
+        <p class="eyebrow">RADAR · 静态预览</p>
+        <h1>Radar 数据同步监控</h1>
+      </div>
+      <div class="meta">
+        快照 2026/09/23 12:05
+        <div class="actions"><a class="link" href="https://github.com/WenXiangWu/ai-news-radar/actions">在 GitHub Actions 中执行</a></div>
+      </div>
+    </header>
+
+    <section class="status" aria-label="今日结论">
+      <div>
+        <strong>抓取已完成，站点未推送</strong>
+        <p>新闻和资料已写入待推送。update-publish 尚未执行，下一次是今天 13:47。</p>
+      </div>
+      <div class="status-side">
+        <div>失败<b>0</b></div>
+        <div>未推送<b>是</b></div>
+      </div>
+    </section>
+
+    <h2>Workflow</h2>
+    <p class="note">四条任务始终在这里。还没跑过的显示「尚未执行」。</p>
+    <section class="workflows" id="workflows"></section>
+
+    <h2>模块</h2>
+    <p class="note">数字是失败数。没有失败时显示成功或未执行。点击后只看这个模块。</p>
+    <section class="modules" id="modules"></section>
+
+    <h2>明细</h2>
+    <nav class="tabs" id="tabs">
+      <button type="button" data-tab="today" aria-selected="true">今日明细</button>
+      <button type="button" data-tab="coverage">Way 对照</button>
+      <button type="button" data-tab="registry">注册信息</button>
+      <button type="button" data-tab="reports">历史报告</button>
+      <button type="button" data-tab="config">配置</button>
+    </nav>
+
+    <section class="panel" id="panel-today">
+      <div class="filters" id="todayFilters">
+        <button type="button" data-today="failed" aria-pressed="true">只看失败</button>
+        <button type="button" data-today="all">按任务展开</button>
+      </div>
+      <div class="stack" id="todayBody"></div>
+    </section>
+    <section class="panel" id="panel-coverage" hidden>
+      <div class="filters" id="coverageFilters">
+        <button type="button" data-bucket="attention" aria-pressed="true">先看例外</button>
+        <button type="button" data-bucket="unregistered">未登记</button>
+        <button type="button" data-bucket="excluded">不更新</button>
+        <button type="button" data-bucket="registered">已登记</button>
+      </div>
+      <div class="stack" id="coverageBody"></div>
+    </section>
+    <section class="panel" id="panel-registry" hidden>
+      <div class="filters" id="registryFilters">
+        <button type="button" data-registry="summary" aria-pressed="true">只看分组</button>
+        <button type="button" data-registry="sources">展开数据源</button>
+      </div>
+      <div class="stack" id="registryBody"></div>
+    </section>
+    <section class="panel" id="panel-reports" hidden>
+      <div class="stack" id="reportBody"></div>
+    </section>
+    <section class="panel" id="panel-config" hidden>
+      <div class="providers">
+        <article class="provider"><strong>DeepSeek</strong><span class="pill good">已配置</span><p>翻译失败时的回退模型<br>deepseek-chat · 成功 0 · 失败 0 · 最近使用未上报</p></article>
+        <article class="provider"><strong>Google 翻译</strong><span class="pill good">已配置</span><p>正文翻译的默认通道<br>google-translate-gtx · 成功 0 · 失败 0 · 最近使用未上报</p></article>
+      </div>
+    </section>
+  </main>
+  <script>
+    var workflows = [
+      { id: "news", name: "新闻采集", duty: "抓前沿新闻，写入待推送。不推站点。", when: "每小时第 17 分", cron: "17 * * * *", last: "成功 · 今天 12:44", tone: "good" },
+      { id: "radar", name: "资料抓取", duty: "官方资料、框架文档、wiki。15 组并行，每组最多 6 个源。", when: "03:17、09:17、15:17、21:17", cron: "17 1,7,13,19 * * *", last: "成功 · 09-22 14:03", tone: "good" },
+      { id: "books", name: "教材镜像", duty: "按登记表镜像 10 本教材。不翻译，不提交正文。", when: "每天 08:17", cron: "17 0 * * *", last: "尚未执行", tone: "warn" },
+      { id: "publish", name: "站点推送", duty: "把待推送内容推上 Way。唯一会推 Gitee 的任务。", when: "每小时第 47 分", cron: "47 * * * *", last: "尚未执行", tone: "warn" }
+    ];
+    var modules = [
+      { id: "course", name: "课程中心", failed: 0, success: 0, idle: 10, tone: "idle" },
+      { id: "docs", name: "官方资料", failed: 0, success: 25, idle: 0, tone: "good" },
+      { id: "frameworks", name: "开源框架", failed: 0, success: 38, idle: 0, tone: "good" },
+      { id: "frontier", name: "前沿追踪", failed: 0, success: 14, idle: 0, tone: "good" },
+      { id: "summits", name: "技术峰会", failed: 0, success: 0, idle: 0, tone: "idle", label: "不更新" },
+      { id: "publish", name: "站点推送", failed: 0, success: 0, idle: 1, tone: "warn", label: "未推送" }
+    ];
+    var rows = [
+      { workflow: "news", module: "frontier", source: "official_ai", status: "success", kind: "增量" },
+      { workflow: "news", module: "frontier", source: "hackernews", status: "success", kind: "增量" },
+      { workflow: "news", module: "frontier", source: "aibase", status: "success", kind: "增量" },
+      { workflow: "radar", module: "docs", source: "Anthropic Engineering", status: "success", kind: "增量" },
+      { workflow: "radar", module: "docs", source: "Anthropic News", status: "success", kind: "增量" },
+      { workflow: "radar", module: "frameworks", source: "Ollama 文档", status: "success", kind: "仅基线" },
+      { workflow: "radar", module: "frameworks", source: "LangChain Wiki", status: "success", kind: "增量" }
+    ];
+    var coverage = [
+      { name: "课程中心", registered: 7, excluded: 4, unregistered: 0, attention: [
+        { name: "中心站", bucket: "不更新", reason: "本站页面，没有上游仓库" },
+        { name: "Claude Code 专栏", bucket: "不更新", reason: "不是 Git 教程仓" }
+      ]},
+      { name: "官方资料", registered: 25, excluded: 0, unregistered: 0, attention: [] },
+      { name: "开源框架", registered: 38, excluded: 2, unregistered: 57, attention: [
+        { name: "vLLM", bucket: "未登记", reason: "未写入登记表，Radar 不会生成任务" },
+        { name: "Dify", bucket: "未登记", reason: "未写入登记表，Radar 不会生成任务" },
+        { name: "DeepSeek Harness", bucket: "不更新", reason: "已有独立框架模块" }
+      ]},
+      { name: "前沿追踪", registered: 14, excluded: 0, unregistered: 0, attention: [] },
+      { name: "技术峰会", registered: 0, excluded: 13, unregistered: 0, attention: [
+        { name: "13 场峰会", bucket: "不更新", reason: "静态目录，没有 Radar 任务" }
+      ]}
+    ];
+    var registry = [
+      { name: "官方资料", total: 25, baseline: 25, schedule: "随资料抓取，每组最多 6 个源", items: ["Anthropic News · rss · 每小时", "OpenAI Docs · llms.txt · 每天"] },
+      { name: "框架文档", total: 40, baseline: 40, schedule: "每天四次里的 docs 组", items: ["Ollama · github_tree · 每天", "LangChain · github_tree · 每天"] },
+      { name: "Wiki", total: 13, baseline: 13, schedule: "每天四次里的 wiki 组", items: ["LangChain · deepwiki · 每天", "PydanticAI · deepwiki · 每天"] }
+    ];
+    var focusWorkflow = "";
+    var focusModule = "";
+    var todayMode = "failed";
+    var coverageMode = "attention";
+    var registryMode = "summary";
+
+    function pill(tone, text) {
+      return '<span class="pill ' + tone + '">' + text + "</span>";
+    }
+    function renderWorkflows() {
+      document.getElementById("workflows").innerHTML = workflows.map(function (item) {
+        return '<button class="card' + (focusWorkflow === item.id ? " selected" : "") + '" data-workflow="' + item.id + '">' +
+          "<b>" + item.name + "</b><div class=\"duty\">" + item.duty + "</div>" +
+          '<div class="when">' + item.when + '<span class="cron">' + item.cron + "</span></div>" +
+          pill(item.tone, item.last) + "</button>";
+      }).join("");
+    }
+    function renderModules() {
+      document.getElementById("modules").innerHTML = modules.map(function (item) {
+        var num = item.label || String(item.failed || item.success || item.idle || 0);
+        var detail = item.id === "publish" ? "唯一推送任务" : (item.failed ? "失败" : (item.success ? "成功 " + item.success : (item.idle ? "未执行 " + item.idle : "静态目录")));
+        return '<button class="mod ' + item.tone + (focusModule === item.id ? " selected" : "") + '" data-module="' + item.id + '">' +
+          "<b>" + item.name + '</b><span class="num">' + num + "</span><span>" + detail + "</span></button>";
+      }).join("");
+    }
+    function workflowById(id) {
+      return workflows.filter(function (item) { return item.id === id; })[0];
+    }
+    function renderToday() {
+      var groups = workflows.map(function (workflow) {
+        var list = rows.filter(function (row) {
+          if (row.workflow !== workflow.id) return false;
+          if (focusModule && row.module !== focusModule) return false;
+          return true;
+        });
+        return { workflow: workflow, list: list, failed: list.filter(function (row) { return row.status === "failed"; }) };
+      }).filter(function (group) {
+        if (focusWorkflow && group.workflow.id !== focusWorkflow) return false;
+        if (focusModule && !group.list.length && group.workflow.id !== "publish" && group.workflow.id !== "books") return false;
+        return true;
+      });
+      var failedTotal = groups.reduce(function (sum, group) { return sum + group.failed.length; }, 0);
+      if (todayMode === "failed" && !failedTotal) {
+        document.getElementById("todayBody").innerHTML = '<div class="empty">今日无失败。需要看成功源时，切换到「按任务展开」。</div>';
+        return;
+      }
+      document.getElementById("todayBody").innerHTML = groups.map(function (group) {
+        var open = todayMode === "all" || group.failed.length || focusWorkflow === group.workflow.id;
+        var shown = todayMode === "failed" ? group.failed : group.list;
+        var body = shown.length
+          ? shown.map(function (row) {
+            return '<div class="line"><span>' + row.source + '</span><em>' + row.kind + " · 成功</em></div>";
+          }).join("")
+          : '<div class="line"><em>' + (group.workflow.last === "尚未执行" ? "尚未执行" : "本组没有失败") + "</em></div>";
+        return '<details class="group"' + (open ? " open" : "") + '><summary><span><b>' + group.workflow.name +
+          '</b><span class="sub">' + group.workflow.when + "</span></span>" +
+          '<span class="counts">' + pill(group.failed.length ? "bad" : "good", "失败 " + group.failed.length) +
+          pill("good", "成功 " + group.list.filter(function (row) { return row.status === "success"; }).length) +
+          "</span></summary>" + body + "</details>";
+      }).join("");
+    }
+    function renderCoverage() {
+      document.getElementById("coverageBody").innerHTML = coverage.map(function (module) {
+        var lines = coverageMode === "attention" ? module.attention : module.attention.filter(function (item) {
+          return (coverageMode === "unregistered" && item.bucket === "未登记") || (coverageMode === "excluded" && item.bucket === "不更新");
+        });
+        if (coverageMode === "registered") {
+          lines = module.registered ? [{ name: module.registered + " 条已登记", bucket: "已登记", reason: "抓取完成的显示「尚未推上站点」，点分组看数量即可" }] : [];
+        }
+        var body = lines.length ? lines.map(function (item) {
+          return '<div class="line"><span>' + item.name + " · " + item.bucket + '</span><em>' + item.reason + "</em></div>";
+        }).join("") : '<div class="line"><em>这一档没有需要处理的条目。</em></div>';
+        var open = coverageMode === "attention" ? module.attention.length > 0 : lines.length > 0;
+        return '<details class="group"' + (open ? " open" : "") + '><summary><span><b>' + module.name + "</b></span>" +
+          '<span class="counts">' + pill("", "未登记 " + module.unregistered) + pill("", "不更新 " + module.excluded) +
+          pill("warn", "已登记 " + module.registered) + "</span></summary>" + body + "</details>";
+      }).join("");
+    }
+    function renderRegistry() {
+      document.getElementById("registryBody").innerHTML = registry.map(function (group) {
+        var body = registryMode === "sources"
+          ? group.items.map(function (item) { return '<div class="line"><span>' + item + '</span><em>有基线</em></div>'; }).join("")
+          : "";
+        return '<details class="group"' + (registryMode === "sources" ? " open" : "") + '><summary><span><b>' + group.name +
+          '</b><span class="sub">' + group.schedule + "</span></span>" +
+          '<span class="counts">' + pill("good", group.total + " 个源") + pill("good", "基线 " + group.baseline) +
+          "</span></summary>" + body + "</details>";
+      }).join("");
+    }
+    function renderReports() {
+      var days = [
+        { date: "09-23", text: "新闻与资料已抓完，站点推送还没跑", tone: "warn", label: "未推送" },
+        { date: "09-22", text: "资料抓取成功，当日快照已生成", tone: "good", label: "成功" },
+        { date: "09-21", text: "日报成功，更新 0 条", tone: "good", label: "成功" }
+      ];
+      document.getElementById("reportBody").innerHTML = days.map(function (day) {
+        return '<article class="group"><div class="group-head day"><time>' + day.date + "</time><span>" + day.text +
+          "</span>" + pill(day.tone, day.label) + "</div></article>";
+      }).join("");
+    }
+    document.getElementById("workflows").addEventListener("click", function (event) {
+      var card = event.target.closest("[data-workflow]");
+      if (!card) return;
+      focusWorkflow = focusWorkflow === card.getAttribute("data-workflow") ? "" : card.getAttribute("data-workflow");
+      todayMode = "all";
+      document.querySelector('[data-today="all"]').setAttribute("aria-pressed", "true");
+      document.querySelector('[data-today="failed"]').setAttribute("aria-pressed", "false");
+      document.querySelector('[data-tab="today"]').click();
+      renderWorkflows();
+      renderToday();
+    });
+    document.getElementById("modules").addEventListener("click", function (event) {
+      var card = event.target.closest("[data-module]");
+      if (!card) return;
+      focusModule = focusModule === card.getAttribute("data-module") ? "" : card.getAttribute("data-module");
+      todayMode = "all";
+      document.querySelector('[data-today="all"]').setAttribute("aria-pressed", "true");
+      document.querySelector('[data-today="failed"]').setAttribute("aria-pressed", "false");
+      document.querySelector('[data-tab="today"]').click();
+      renderModules();
+      renderToday();
+    });
+    document.getElementById("todayFilters").addEventListener("click", function (event) {
+      var button = event.target.closest("[data-today]");
+      if (!button) return;
+      todayMode = button.getAttribute("data-today");
+      document.querySelectorAll("#todayFilters button").forEach(function (item) {
+        item.setAttribute("aria-pressed", item === button ? "true" : "false");
+      });
+      renderToday();
+    });
+    document.getElementById("coverageFilters").addEventListener("click", function (event) {
+      var button = event.target.closest("[data-bucket]");
+      if (!button) return;
+      coverageMode = button.getAttribute("data-bucket");
+      document.querySelectorAll("#coverageFilters button").forEach(function (item) {
+        item.setAttribute("aria-pressed", item === button ? "true" : "false");
+      });
+      renderCoverage();
+    });
+    document.getElementById("registryFilters").addEventListener("click", function (event) {
+      var button = event.target.closest("[data-registry]");
+      if (!button) return;
+      registryMode = button.getAttribute("data-registry");
+      document.querySelectorAll("#registryFilters button").forEach(function (item) {
+        item.setAttribute("aria-pressed", item === button ? "true" : "false");
+      });
+      renderRegistry();
+    });
+    document.getElementById("tabs").addEventListener("click", function (event) {
+      var button = event.target.closest("[data-tab]");
+      if (!button) return;
+      document.querySelectorAll("[data-tab]").forEach(function (item) {
+        item.setAttribute("aria-selected", item === button ? "true" : "false");
+      });
+      document.querySelectorAll(".panel").forEach(function (panel) {
+        panel.hidden = panel.id !== "panel-" + button.getAttribute("data-tab");
+      });
+    });
+    renderWorkflows();
+    renderModules();
+    renderToday();
+    renderCoverage();
+    renderRegistry();
+    renderReports();
+  </script>
+</body>
+</html>
