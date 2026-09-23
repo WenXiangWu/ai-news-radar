@@ -67,6 +67,8 @@ jobs:
           GITEE_BRANCH: ${{ vars.GITEE_BRANCH }}
           GITEE_DATA_PATH: ${{ vars.GITEE_DATA_PATH }}
           PUBLISH_OWNER: ${{ inputs.owner }}
+          WAY_SITE_SYNC_URL: ${{ vars.WAY_SITE_SYNC_URL }}
+          WAY_SITE_SYNC_TOKEN: ${{ secrets.WAY_SITE_SYNC_TOKEN }}
         run: |
           set -euo pipefail
           mkdir -p data/pending-publish data/workflow-status /tmp
@@ -125,6 +127,15 @@ jobs:
           else
             git -C "$work" commit -m "chore: publish radar snapshot"
             git -C "$work" push origin "HEAD:$branch"
+          fi
+          if [ -n "${WAY_SITE_SYNC_URL:-}" ] && [ -n "${WAY_SITE_SYNC_TOKEN:-}" ]; then
+            curl -fsS -m 120 -X POST "$WAY_SITE_SYNC_URL" \
+              -H "Authorization: Bearer ${WAY_SITE_SYNC_TOKEN}" \
+              -H "Content-Type: application/json" \
+              -d '{}' \
+              || echo "::warning::Way did not pull the new snapshot"
+          else
+            echo "Way site sync hook is not configured; the site interval pull will pick this up"
           fi
           owner_id="$(cat /tmp/publish-owner.txt)"
           if [ -n "$owner_id" ]; then

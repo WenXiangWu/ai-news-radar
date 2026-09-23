@@ -38,3 +38,6 @@ def test_publish_follows_finished_fetches_and_is_the_only_gitee_push():
     assert "GITEE_REPO" not in radar
     assert "owner: news" in news
     assert "owner: radar" in radar
+    assert "WAY_SITE_SYNC_URL" in publish
+    assert "secrets.WAY_SITE_SYNC_TOKEN" in publish
+    assert "Way did not pull the new snapshot" in publish
