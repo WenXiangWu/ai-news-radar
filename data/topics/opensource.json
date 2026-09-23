@@ -1,200 +1,27 @@
 {
-  "generated_at": "2026-09-21T21:59:36.074305+00:00",
+  "generated_at": "2026-09-23T07:56:20.800418+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 12,
+  "total_items": 1,
   "items": [
     {
-      "title": "MiniMax H3 开源后，本地 AIGC 走到了哪里？",
-      "url": "https://www.infoq.cn/video/fJe6qRKX70UqqCEDMRTK",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-21T21:31:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "小米 MiMo-V2.6-Pro 登上 Code Arena： WebDev 榜约第10名，开源权重中约第3",
-      "url": "https://x.com/arena/status/2102142912943489220",
-      "source": "X：Arena (@arena)",
+      "title": "Qwen-Image-2.1 登顶 Arena 图像编辑与文生图开源榜第一",
+      "url": "https://x.com/Alibaba_Qwen/status/2102569821997346912",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
       "site_id": "aihot",
-      "published_at": "2026-09-21T21:08:21+00:00",
+      "published_at": "2026-09-23T01:24:44+00:00",
       "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "XiaomiMiMo 的 MiMo-V2.6-Pro 在 Code Arena: WebDev 首次登场即约列第 10、开放权重模型第 3，AutoEval 得 1628 分，与 Claude Fable 5 (High) 持平，较前代提升 153 分。",
-      "label": "行业动态"
-    },
-    {
-      "title": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
-      "url": "https://x.com/XiaomiMiMo/status/2102138559952290106",
-      "source": "X：小米 MiMo (@XiaomiMiMo)",
-      "site_id": "aihot",
-      "published_at": "2026-09-21T20:51:03+00:00",
-      "source_count": 1,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch",
-        "industry"
-      ],
-      "reason": "Xiaomi 发布 MiMo-V2.6 Pro 与 Flash 两款全模态模型，通过规模化强化学习推进，Pro 在多数 agent 基准测试中与 Claude Opus 5、GPT-5.6 Sol 持平，并在 Artificia 上得分 46。",
-      "label": "行业动态"
-    },
-    {
-      "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzk3NTkxMTM2NA%3D%3D&mid=2247484969&idx=1&sn=76c4757b26a2b646e1b690bf78c386d8",
-      "source": "公众号：小米 MiMo",
-      "site_id": "aihot",
-      "published_at": "2026-09-21T20:18:52+00:00",
-      "source_count": 1,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "前沿AI，运行在你自己的硬件上",
-      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-21T18:53:01+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI 模型成本正把初创公司推向更便宜的开源权重模型",
-      "url": "https://thenextweb.com/news/model-costs-startups-open-weights",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-21T17:30:24+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Z.AI open sources its coding harness ZCode and disables certain features after users said ZCode was uploading codebases onto overseas servers without consent (Laurie Chen/Reuters)",
-      "url": "https://www.techmeme.com/260921/p37",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-21T15:15:00+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "像物理学家一样剪枝LLM：将模块移除视为Ising优化问题",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-21T13:44:34+00:00",
-      "source_count": 1,
-      "score": 85,
+      "score": 73,
       "official": true,
       "topics": [
-        "opensource"
-      ],
-      "reason": "Multiverse Computing 将 LLM 的 block removal 重新表述为 Ising glass 上的约束二元优化问题，用自旋系统能量作为剪枝模型性能的廉价代理，在 Llama-3.3-70B-Instruct 上压缩 50% 时，MMLU 比最佳同类方法高出近 23 个百分点。",
-      "label": "官方更新"
-    },
-    {
-      "title": "Nathan Lambert 撰文分析开源模型的中美实力格局",
-      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-09-21T11:56:56+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "美国AI政策专家在国会证词中披露，自2025年4月起中国AI公司在open-weight模型领域已明显领先，Alibaba的Qwen推动中国于2025年7月在Hugging Face下载量上反超美国，如今中国累计下载量达3.2B，是美国的整整两倍。",
-      "label": "官方更新"
-    },
-    {
-      "title": "阿里 70 亿参数图像模型Qwen-Image-2. 1 开源发布，号称以瘦身之躯叫板闭源巨头",
-      "url": "https://www.aibase.com/news/31227",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-21T11:54:33.753167+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "阶跃甩出 Step 5 Preview：600B 稀疏 MoE 只激活 27B，把开源旗舰的性价比边界往外推了一格",
-      "url": "https://www.aibase.com/news/31221",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-21T09:54:33.753167+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
+        "qwen",
         "opensource",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "tokenizers v1：编码、解码与扩展性，实测",
-      "url": "https://huggingface.co/blog/tokenizers-v1",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-21T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding",
-        "opensource"
-      ],
-      "reason": "tokenizers v1 通过重构将性能提升至 v0.23 的数十倍，保留相同 token IDs 和 API，覆盖单线程、多线程、延迟、解码吞吐、内存堆及 crate 大小等基准测试，并感谢 IBM、NVIDIA 和 ExecuTorch 团队贡献补丁。",
-      "label": "官方更新"
     }
   ]
 }

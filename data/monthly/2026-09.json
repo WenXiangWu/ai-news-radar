@@ -1,6 +1,7 @@
 {
   "title": "2026-09 月报",
   "dates": [
+    "2026-09-23",
     "2026-09-22",
     "2026-09-21",
     "2026-09-20",
@@ -37,6 +38,22 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-22T18:25:24.334000+00:00",
+      "source_count": 3,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -80,6 +97,39 @@
       "published_at": "2026-09-02T03:33:48.237000+00:00",
       "source_count": 3,
       "score": 88,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-22T23:46:41+00:00",
+      "source_count": 2,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-22T16:53:30.664000+00:00",
+      "source_count": 3,
+      "score": 87,
       "official": true,
       "topics": [
         "anthropic",
@@ -162,6 +212,38 @@
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T06:41:41+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.156.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T00:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -280,6 +362,51 @@
       "published_at": "2026-09-04T05:18:11+00:00",
       "source_count": 1,
       "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenTelemetry in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T02:14:54+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "New features and improvements in Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T00:34:18+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-22T21:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
@@ -502,123 +629,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "When will average people feel AI’s impact?",
-      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-09-09T11:01:23+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T14:15:25+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T14:00:15+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc6",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T08:34:20+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.29.0rc5",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-08T08:20:33+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
-      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T20:18:41+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-      "source": "NVIDIA Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-03T14:32:21.658000+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "CodeQL 2.26.4 改进了 GitHub 操作安全检测",
-      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-03T14:04:59+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-21T21:59:36.074305+00:00",
+  "generated_at": "2026-09-23T07:56:20.800418+00:00",
   "period": "2026-09"
 }

@@ -1,135 +1,200 @@
 {
-  "generated_at": "2026-09-21T21:59:36.074305+00:00",
+  "generated_at": "2026-09-23T07:56:20.800418+00:00",
   "window_hours": 168,
-  "total_items": 8,
+  "total_items": 12,
   "items": [
     {
-      "title": "macOS 27：避免下载 AI 模型并节省存储空间的解决方法",
-      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and",
-      "source": "www.reddit.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-21T19:49:53.499000+00:00",
-      "source_count": 3,
-      "score": 57,
+      "title": "五角大楼调查：过度依赖 Maven AI 是美军误击伊朗米纳布学校的原因之一",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-22T20:00:35.186000+00:00",
+      "source_count": 4,
+      "score": 86,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 67
     },
     {
-      "title": "xAI 发布 Grok 4.7，主打编码与知识工作",
-      "url": "https://x.ai/news/grok-4-7",
-      "source": "xAI：News（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-21T19:49:54.380000+00:00",
-      "source_count": 2,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "coding",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 50
-    },
-    {
-      "title": "写作者应避免用Claude、ChatGPT等AI代笔",
-      "url": "https://paulbakker.io/writing/no-ai-for-writing",
-      "source": "paulbakker.io",
+      "title": "Claude Opus 5.5 智能、性能与价格分析（Max）",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "source": "artificialanalysis.ai",
       "site_id": "buzzing",
-      "published_at": "2026-09-21T19:49:52.271000+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-22T19:13:26.296000+00:00",
+      "source_count": 3,
       "score": 54,
       "official": false,
       "topics": [
-        "openai",
         "anthropic"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 50
+      "label": "多源热议",
+      "hot_score": 42
     },
     {
-      "title": "亚马逊阻止Meta的新款Muse AI助手在amazon.com上购物",
-      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom",
-      "source": "www.forbes.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-21T19:49:55.498000+00:00",
+      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-22T18:25:24.334000+00:00",
+      "source_count": 3,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 39
+    },
+    {
+      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-22T16:53:30.664000+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 34
+    },
+    {
+      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-22T23:46:41+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 30
+    },
+    {
+      "title": "虚幻特工",
+      "url": "https://unreallabs.ai/blog/unreal-agent",
+      "source": "unreallabs.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-09-22T23:22:19.074000+00:00",
+      "source_count": 2,
+      "score": 53,
       "official": false,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
+      "hot_score": 29
     },
     {
-      "title": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
-      "url": "https://linear.app/now/ci-bottleneck-reworked",
-      "source": "Linear：Now（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-21T19:23:33+00:00",
+      "title": "LLM 辅助长凳",
+      "url": "https://www.assbench.com",
+      "source": "www.assbench.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-22T22:20:32.474000+00:00",
       "source_count": 2,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 48
-    },
-    {
-      "title": "Terence Tao博客发布Mathematics and Artificial Intelligence顾问组客座文章",
-      "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-21T19:17:42+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
-    },
-    {
-      "title": "RoboHarm：前沿机器人策略会拒绝不安全指令吗？",
-      "url": "https://robocurve.org/roboharm",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-21T18:58:26+00:00",
-      "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 47
+      "hot_score": 27
     },
     {
-      "title": "前沿AI，运行在你自己的硬件上",
-      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-21T18:53:01+00:00",
+      "title": "Trump says AI will be renamed ‘super intelligence’ in all US documents",
+      "url": "https://www.reddit.com/r/politics/comments/1wnhlyu/trump_says_ai_will_be_renamed_super_intelligence",
+      "source": "Reddit (热门)",
+      "site_id": "iris",
+      "published_at": "2026-09-22T18:27:16+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 20
+    },
+    {
+      "title": "Claude Opus 5.5 登顶 Artificial Analysis 智能指数，得分 58",
+      "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-22T17:41:36.934000+00:00",
+      "source_count": 2,
+      "score": 80,
       "official": false,
       "topics": [
-        "opensource"
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 18
+    },
+    {
+      "title": "Claude Code v2.1.280 发布，新增 Claude Opus 5.5 为默认 Opus 模型",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-22T16:38:14+00:00",
+      "source_count": 2,
+      "score": 79,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 17
+    },
+    {
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-22T14:42:59+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 46
+      "hot_score": 14
+    },
+    {
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-22T13:52:15+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 13
     }
   ]
 }
