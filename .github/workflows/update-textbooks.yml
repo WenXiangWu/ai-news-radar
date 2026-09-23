@@ -13,7 +13,21 @@ permissions:
   contents: write
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+      deepseek: ${{ steps.check.outputs.deepseek }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Read runtime config
+        id: check
+        run: python3 scripts/runtime_gate.py --workflow update-textbooks --event "${{ github.event_name }}" >> "$GITHUB_OUTPUT"
+
   sync:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:

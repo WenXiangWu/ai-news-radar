@@ -50,13 +50,19 @@ def test_monitor_page_has_workflow_and_coverage_sections():
 def test_monitor_page_splits_content_into_tabs():
     html = (MONITOR / "index.html").read_text(encoding="utf-8")
     js = (MONITOR / "monitor.js").read_text(encoding="utf-8")
-    for marker in ("今日执行", "注册信息", "Way 对照", "历史报告", "翻译提供方", "未登记"):
+    for marker in ("今日明细", "注册信息", "Way 对照", "历史报告", "翻译提供方", "未登记", "先看例外"):
         assert marker in html
     assert 'data-tab="today"' in html
     assert 'data-tab="config"' in html
     assert "showTab" in js
     assert "location.hash" in js
     assert "未上报" in js
+    assert "moduleBoard" in html
+    assert "站点推送" in js
+    assert "openBoardModule" in js
+    assert "执行时间" in html
+    assert 'radarDataUrl("radar-runtime.json")' in js
+    assert "DeepSeek" in html
 
 
 def test_monitor_page_assets_are_present():

@@ -1,0 +1,24 @@
+{
+  "schema": "radar-runtime/v1",
+  "workflows": {
+    "update-news": {
+      "enabled": true,
+      "slots_shanghai": ["*:17"]
+    },
+    "update-radar": {
+      "enabled": true,
+      "slots_shanghai": ["03:17", "09:17", "15:17", "21:17"]
+    },
+    "update-textbooks": {
+      "enabled": true,
+      "slots_shanghai": ["08:17"]
+    },
+    "update-publish": {
+      "enabled": true,
+      "slots_shanghai": ["*:47"]
+    }
+  },
+  "deepseek": {
+    "enabled": false
+  }
+}

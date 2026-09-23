@@ -20,7 +20,21 @@ permissions:
   contents: write
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+      deepseek: ${{ steps.check.outputs.deepseek }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Read runtime config
+        id: check
+        run: python3 scripts/runtime_gate.py --workflow update-news --event "${{ github.event_name }}" >> "$GITHUB_OUTPUT"
+
   update:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
@@ -100,10 +114,10 @@ jobs:
           # in the step below). All reads in update_news.py use
           # `os.environ.get(...) or default`, so leaving the optional vars
           # unset/empty is safe.
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ needs.gate.outputs.deepseek == '1' && secrets.DEEPSEEK_API_KEY || '' }}
           DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
-          TRANSLATE_USE_DEEPSEEK: ${{ vars.TRANSLATE_USE_DEEPSEEK }}
+          TRANSLATE_USE_DEEPSEEK: ${{ needs.gate.outputs.deepseek }}
           TITLE_ENHANCE_MAX_PER_RUN: ${{ vars.TITLE_ENHANCE_MAX_PER_RUN }}
         run: |
           if [ -f feeds/follow.opml ]; then
@@ -114,7 +128,7 @@ jobs:
 
       - name: Persona scoring
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ needs.gate.outputs.deepseek == '1' && secrets.DEEPSEEK_API_KEY || '' }}
           DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
         run: python scripts/persona_score.py --data-dir data

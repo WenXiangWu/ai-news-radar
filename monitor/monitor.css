@@ -133,6 +133,139 @@ a {
   padding: 24px 0 8px;
 }
 
+.status-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 22px;
+  padding: 18px 20px;
+  border: 1px solid #f3d7a1;
+  border-radius: 14px;
+  background: #fff8eb;
+}
+
+.status-banner strong { display: block; font-size: 22px; }
+.status-banner p { margin: 4px 0 0; color: var(--monitor-warn); font-size: 13px; }
+.status-banner.good { border-color: #b7e4c7; background: #f3fbf6; }
+.status-banner.good p { color: var(--monitor-good); }
+.status-banner.bad { border-color: #f3c1bc; background: #fff6f5; }
+.status-banner.bad p { color: var(--monitor-bad); }
+.status-side { display: flex; gap: 28px; color: var(--monitor-muted); font-size: 13px; }
+.status-side b { display: block; color: var(--radar-text); font-size: 20px; }
+.block-title { margin: 28px 0 8px; font-size: 16px; }
+.workflow-catalog { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.catalog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-height: 168px;
+  padding: 16px;
+  border: 1px solid var(--monitor-border);
+  border-radius: 14px;
+  background: #fff;
+  text-align: left;
+  cursor: pointer;
+}
+.catalog-card p { margin: 0; color: var(--monitor-muted); font-size: 13px; line-height: 1.45; }
+.catalog-card .when { font-size: 14px; font-weight: 700; }
+.catalog-card .when span { display: block; margin-top: 4px; color: var(--monitor-muted); font-size: 12px; font-weight: 400; }
+.catalog-card.selected { outline: 2px solid #101828; }
+.stack { display: grid; gap: 10px; }
+.group { border: 1px solid var(--monitor-border); border-radius: 14px; background: #fff; overflow: hidden; }
+.group > summary, .group-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+.group > summary::-webkit-details-marker { display: none; }
+.sub { display: block; margin-top: 3px; color: var(--monitor-muted); font-size: 12px; font-weight: 400; }
+.counts { display: flex; flex-wrap: wrap; gap: 6px; }
+.line {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 16px;
+  border-top: 1px solid var(--monitor-border);
+  font-size: 13px;
+}
+.line em { color: var(--monitor-muted); font-style: normal; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+.filters button {
+  border: 1px solid var(--monitor-border);
+  border-radius: 999px;
+  background: #fff;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.filters button[aria-pressed="true"] { background: #101828; color: #fff; border-color: #101828; }
+.day { display: grid; grid-template-columns: 120px 1fr auto; gap: 12px; align-items: center; }
+
+.module-board {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.board-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  min-height: 108px;
+  padding: 14px;
+  border: 1px solid var(--monitor-border);
+  border-radius: 12px;
+  background: #fff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.board-card strong {
+  font-size: 14px;
+}
+
+.board-count {
+  font-size: 28px;
+  font-weight: 750;
+  line-height: 1;
+}
+
+.board-detail {
+  color: var(--monitor-muted);
+  font-size: 12px;
+}
+
+.board-card.bad {
+  border-color: color-mix(in srgb, var(--monitor-bad) 55%, white);
+  background: color-mix(in srgb, var(--monitor-bad) 8%, white);
+}
+
+.board-card.bad .board-count {
+  color: var(--monitor-bad);
+}
+
+.board-card.good .board-count {
+  color: var(--monitor-good);
+}
+
+.board-card.selected {
+  outline: 2px solid #101828;
+}
+
+.push-hint {
+  margin: 12px 0 0;
+  color: var(--monitor-muted);
+  font-size: 13px;
+}
+
 .monitor-tabs {
   position: sticky;
   top: 0;
@@ -216,6 +349,11 @@ a {
 
 .section-heading h2 {
   font-size: 23px;
+}
+
+#runStatus[hidden],
+#runSummary[hidden] {
+  display: none;
 }
 
 .status-chip,
@@ -553,9 +691,18 @@ a {
   }
 
   .kpi-grid,
+  .workflow-catalog,
+  .module-board,
   .run-summary,
   .provider-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .status-banner,
+  .day {
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
   }
 
   .table-tools {
