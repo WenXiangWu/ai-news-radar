@@ -1,11 +1,61 @@
 {
-  "generated_at": "2026-09-23T17:43:07.282341+00:00",
+  "generated_at": "2026-09-23T20:30:27.221147+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 27,
+  "total_items": 26,
   "items": [
+    {
+      "title": "v2.1.281",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-23T19:19:15+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "MiMo-V2.6-Pro、Claude Opus 5.5、GPT-6 Luna/Sol 发布改变智能指数与成本 Pareto 前沿",
+      "url": "https://x.com/ArtificialAnlys/status/2102833926788288704",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "site_id": "aihot",
+      "published_at": "2026-09-23T18:54:11+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "langgraph-cli==0.4.32",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T18:02:46+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Google releases Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS, its \"most expressive audio generation models yet\", with support for more than 100 languages (Google)",
       "url": "https://www.techmeme.com/260923/p31",
@@ -13,7 +63,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-23T15:50:02+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "google",
@@ -28,8 +78,8 @@
       "source": "Google DeepMind",
       "site_id": "official_ai",
       "published_at": "2026-09-23T15:29:23+00:00",
-      "source_count": 3,
-      "score": 90,
+      "source_count": 2,
+      "score": 86,
       "official": true,
       "topics": [
         "google",
@@ -45,7 +95,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T15:20:38+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -65,7 +115,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-23T14:41:27+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "openai",
@@ -82,7 +132,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-23T14:30:00+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "launch"
@@ -141,6 +191,38 @@
       "label": "行业动态"
     },
     {
+      "title": "OpenAI 在即将发布的公告之前任命了 Patreon 的关键高管",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-23T11:02:39+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T10:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Qwen 发布 Qwen-Audio-3.1 全家桶，ASR、TTS、Realtime 升级并新增 TTS-Next 与 ASR-Next",
       "url": "https://x.com/Alibaba_Qwen/status/2102687258990026993",
       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
@@ -158,13 +240,13 @@
       "label": "行业动态"
     },
     {
-      "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+      "title": "v0.30.1rc0：[ROCm][CI] 添加 MI355 密集 NVFP4 和 MoRI 内核镜像 (#58281)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
       "source": "vLLM Releases",
       "site_id": "official_ai",
       "published_at": "2026-09-23T08:06:15+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -294,7 +376,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T05:18:36+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "openai",
@@ -312,7 +394,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T00:00:00+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "launch"
@@ -327,7 +409,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-22T23:46:41+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -344,114 +426,15 @@
       "site_id": "aihot",
       "published_at": "2026-09-22T21:25:03+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为",
-      "url": "https://x.com/rohanpaul_ai/status/2102491250515681384",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "site_id": "aihot",
-      "published_at": "2026-09-22T20:12:31+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价降低 50%",
-      "url": "https://www.ithome.com/1/006/001.htm",
-      "source": "IT之家（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-22T19:25:16+00:00",
-      "source_count": 1,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-22T18:25:24.334000+00:00",
-      "source_count": 3,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格比 GPT-5.6 促销价低 50%",
-      "url": "https://x.com/sama/status/2102464201335984392",
-      "source": "X：Sam Altman (@sama)",
-      "site_id": "aihot",
-      "published_at": "2026-09-22T18:25:02+00:00",
-      "source_count": 1,
       "score": 72,
       "official": false,
       "topics": [
         "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GPT-6 Sol 与 Luna 发布，API 价格比 GPT-5.6 低 50%",
-      "url": "https://x.com/sherwinwu/status/2102462783707344907",
-      "source": "X：Sherwin Wu（@sherwinwu）",
-      "site_id": "aihot",
-      "published_at": "2026-09-22T18:19:24+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
         "launch",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Anthropic Releases a New A.I. Model, Opus 5.5, Amid Safety Debate",
-      "url": "https://www.nytimes.com/2026/09/22/technology/anthropic-ai-model-safety.html",
-      "source": "New York Times",
-      "site_id": "techurls",
-      "published_at": "2026-09-22T18:06:39+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
