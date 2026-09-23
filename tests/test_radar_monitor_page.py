@@ -47,6 +47,18 @@ def test_monitor_page_has_workflow_and_coverage_sections():
     assert "全量更新" not in js
 
 
+def test_monitor_page_splits_content_into_tabs():
+    html = (MONITOR / "index.html").read_text(encoding="utf-8")
+    js = (MONITOR / "monitor.js").read_text(encoding="utf-8")
+    for marker in ("今日执行", "注册信息", "Way 对照", "历史报告", "翻译提供方", "未登记"):
+        assert marker in html
+    assert 'data-tab="today"' in html
+    assert 'data-tab="config"' in html
+    assert "showTab" in js
+    assert "location.hash" in js
+    assert "未上报" in js
+
+
 def test_monitor_page_assets_are_present():
     assert (MONITOR / "index.html").is_file()
     assert (MONITOR / "monitor.css").is_file()

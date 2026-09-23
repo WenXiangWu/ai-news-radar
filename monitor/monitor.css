@@ -128,9 +128,56 @@ a {
 
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
   padding: 24px 0 8px;
+}
+
+.monitor-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-top: 8px;
+  padding: 12px 0;
+  background: #f7f8fa;
+  border-bottom: 1px solid var(--monitor-border);
+}
+
+.monitor-tabs button,
+#coverageFilters button {
+  border: 1px solid var(--monitor-border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--radar-text);
+  padding: 8px 14px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 650;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.monitor-tabs button[aria-selected="true"],
+#coverageFilters button[aria-pressed="true"] {
+  border-color: #101828;
+  background: #101828;
+  color: #fff;
+}
+
+.tab-panel {
+  padding-top: 8px;
+}
+
+.tab-panel > .section-heading:first-child {
+  border-top: 0;
+}
+
+.registry-sources,
+.today-messages {
+  margin-top: 28px;
 }
 
 .kpi {
@@ -297,9 +344,19 @@ a {
 }
 
 .table-wrap {
-  overflow-x: auto;
+  max-height: 68vh;
+  overflow: auto;
   border: 1px solid var(--monitor-border);
   border-radius: 6px;
+}
+
+.source-table thead th,
+.module-table thead th,
+.coverage-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
 }
 
 .source-table {
@@ -558,10 +615,6 @@ a {
   vertical-align: top;
 }
 
-#coverageFilters button {
-  border: 1px solid var(--monitor-border);
-  background: #fff;
-  border-radius: 999px;
-  padding: 6px 12px;
-  cursor: pointer;
+.table-tools {
+  flex-wrap: wrap;
 }
