@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T07:21:46.789610Z",
+  "generated_at": "2026-09-23T11:29:41.806226Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -106,15 +106,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8784,
-      "importance": 0.8784,
-      "importance_score": 0.8784,
+      "score": 0.8698,
+      "importance": 0.8698,
+      "importance_score": 0.8698,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8245,
+        "recency": 0.7767,
         "story_heat": 0.5
       },
       "category": "official",
@@ -142,7 +142,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -248,15 +248,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8741,
-      "importance": 0.8741,
-      "importance_score": 0.8741,
+      "score": 0.8656,
+      "importance": 0.8656,
+      "importance_score": 0.8656,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8114,
+        "recency": 0.7644,
         "story_heat": 0.5
       },
       "category": "official",
@@ -283,7 +283,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -360,15 +360,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8663,
-      "importance": 0.8663,
-      "importance_score": 0.8663,
+      "score": 0.857,
+      "importance": 0.857,
+      "importance_score": 0.857,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8963,
+        "recency": 0.8443,
         "story_heat": 0.25
       },
       "category": "official",
@@ -396,7 +396,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -531,15 +531,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8553,
-      "importance": 0.8553,
-      "importance_score": 0.8553,
+      "score": 0.8466,
+      "importance": 0.8466,
+      "importance_score": 0.8466,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8372,
+        "recency": 0.7887,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -566,7 +566,90 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
+      }
+    },
+    {
+      "story_id": "story_dff67021603e",
+      "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
+      "primary_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
+      "source": "vLLM Releases",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2f79588ae0cc10e7983fa93e76640a93fb6bcd97",
+          "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+          "title_zh": null,
+          "title_en": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+          "title_original": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
+          "source": "vLLM Releases",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-23T08:06:15Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "vLLM Releases"
+      ],
+      "items": [
+        {
+          "id": "2f79588ae0cc10e7983fa93e76640a93fb6bcd97",
+          "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+          "title_zh": null,
+          "title_en": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+          "title_original": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
+          "source": "vLLM Releases",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-23T08:06:15Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8434,
+      "importance": 0.8434,
+      "importance_score": 0.8434,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9522,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-23T08:06:15Z",
+      "latest_at": "2026-09-23T08:06:15Z",
+      "primary_item": {
+        "id": "2f79588ae0cc10e7983fa93e76640a93fb6bcd97",
+        "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+        "title_zh": null,
+        "title_en": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+        "title_original": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
+        "source": "vLLM Releases",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -614,15 +697,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8503,
-      "importance": 0.8503,
-      "importance_score": 0.8503,
+      "score": 0.8399,
+      "importance": 0.8399,
+      "importance_score": 0.8399,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9904,
+        "recency": 0.933,
         "story_heat": 0.0
       },
       "category": "official",
@@ -649,7 +732,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -697,15 +780,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8478,
-      "importance": 0.8478,
-      "importance_score": 0.8478,
+      "score": 0.8385,
+      "importance": 0.8385,
+      "importance_score": 0.8385,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8991,
+        "recency": 0.8471,
         "story_heat": 0.0
       },
       "category": "official",
@@ -732,7 +815,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -780,15 +863,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8392,
-      "importance": 0.8392,
-      "importance_score": 0.8392,
+      "score": 0.8295,
+      "importance": 0.8295,
+      "importance_score": 0.8295,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9288,
+        "recency": 0.875,
         "story_heat": 0.0
       },
       "category": "official",
@@ -815,7 +898,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -863,15 +946,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8173,
-      "importance": 0.8173,
-      "importance_score": 0.8173,
+      "score": 0.8087,
+      "importance": 0.8087,
+      "importance_score": 0.8087,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 0.8181,
+        "recency": 0.7707,
         "story_heat": 0.0
       },
       "category": "official",
@@ -898,7 +981,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -946,15 +1029,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.843,
-      "importance": 0.843,
-      "importance_score": 0.843,
+      "score": 0.834,
+      "importance": 0.834,
+      "importance_score": 0.834,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.861,
+        "recency": 0.8111,
         "story_heat": 0.0
       },
       "category": "official",
@@ -981,7 +1064,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -1029,15 +1112,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8352,
-      "importance": 0.8352,
-      "importance_score": 0.8352,
+      "score": 0.8257,
+      "importance": 0.8257,
+      "importance_score": 0.8257,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9066,
+        "recency": 0.8541,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1064,12 +1147,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
       "story_id": "story_d72f30956aba",
-      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+      "title": "与 Epoch AI 的 JS Denain 讨论 RSI、中美差距和锯齿状 / Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
       "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
       "primary_url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
       "source": "Interconnects",
@@ -1077,8 +1160,8 @@
       "sources": [
         {
           "id": "2d15970e338a8593acb723745ca9c74ccfcf499b",
-          "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
-          "title_zh": null,
+          "title": "与 Epoch AI 的 JS Denain 讨论 RSI、中美差距和锯齿状 / Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+          "title_zh": "与 Epoch AI 的 JS Denain 讨论 RSI、中美差距和锯齿状",
           "title_en": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
           "title_original": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
           "summary": null,
@@ -1097,8 +1180,8 @@
       "items": [
         {
           "id": "2d15970e338a8593acb723745ca9c74ccfcf499b",
-          "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
-          "title_zh": null,
+          "title": "与 Epoch AI 的 JS Denain 讨论 RSI、中美差距和锯齿状 / Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+          "title_zh": "与 Epoch AI 的 JS Denain 讨论 RSI、中美差距和锯齿状",
           "title_en": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
           "title_original": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
           "summary": null,
@@ -1112,15 +1195,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7953,
+      "importance": 0.7953,
+      "importance_score": 0.7953,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7741,
+        "recency": 0.7292,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1133,8 +1216,8 @@
       "latest_at": "2026-09-22T13:37:45Z",
       "primary_item": {
         "id": "2d15970e338a8593acb723745ca9c74ccfcf499b",
-        "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
-        "title_zh": null,
+        "title": "与 Epoch AI 的 JS Denain 讨论 RSI、中美差距和锯齿状 / Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+        "title_zh": "与 Epoch AI 的 JS Denain 讨论 RSI、中美差距和锯齿状",
         "title_en": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
         "title_original": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
         "summary": null,
@@ -1147,7 +1230,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -1195,15 +1278,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8327,
-      "importance": 0.8327,
-      "importance_score": 0.8327,
+      "score": 0.823,
+      "importance": 0.823,
+      "importance_score": 0.823,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9374,
+        "recency": 0.8831,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1230,7 +1313,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -1307,15 +1390,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7994,
-      "importance": 0.7994,
-      "importance_score": 0.7994,
+      "score": 0.7908,
+      "importance": 0.7908,
+      "importance_score": 0.7908,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8209,
+        "recency": 0.7733,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1342,7 +1425,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -1419,15 +1502,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7945,
-      "importance": 0.7945,
-      "importance_score": 0.7945,
+      "score": 0.7861,
+      "importance": 0.7861,
+      "importance_score": 0.7861,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8084,
+        "recency": 0.7616,
         "story_heat": 0.25
       },
       "category": "official",
@@ -1454,7 +1537,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -1502,15 +1585,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8193,
-      "importance": 0.8193,
-      "importance_score": 0.8193,
+      "score": 0.8103,
+      "importance": 0.8103,
+      "importance_score": 0.8103,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8626,
+        "recency": 0.8126,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1537,7 +1620,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
@@ -1585,15 +1668,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7893,
-      "importance": 0.7893,
-      "importance_score": 0.7893,
+      "score": 0.7792,
+      "importance": 0.7792,
+      "importance_score": 0.7792,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9708,
+        "recency": 0.9146,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1619,12 +1702,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
       "story_id": "story_ae9ca816225e",
-      "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+      "title": "使用 AI 代理和 NVIDIA Isaac ROS 加速 ROS 2 节点 / Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
       "url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros",
       "primary_url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros",
       "source": "NVIDIA Developer Blog",
@@ -1632,8 +1715,8 @@
       "sources": [
         {
           "id": "c232f2761ed6c9c57ce50004028b734713192c65",
-          "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
-          "title_zh": null,
+          "title": "使用 AI 代理和 NVIDIA Isaac ROS 加速 ROS 2 节点 / Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+          "title_zh": "使用 AI 代理和 NVIDIA Isaac ROS 加速 ROS 2 节点",
           "title_en": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
           "title_original": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
           "summary": null,
@@ -1652,8 +1735,8 @@
       "items": [
         {
           "id": "c232f2761ed6c9c57ce50004028b734713192c65",
-          "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
-          "title_zh": null,
+          "title": "使用 AI 代理和 NVIDIA Isaac ROS 加速 ROS 2 节点 / Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+          "title_zh": "使用 AI 代理和 NVIDIA Isaac ROS 加速 ROS 2 节点",
           "title_en": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
           "title_original": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
           "summary": null,
@@ -1667,15 +1750,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8061,
-      "importance": 0.8061,
-      "importance_score": 0.8061,
+      "score": 0.7982,
+      "importance": 0.7982,
+      "importance_score": 0.7982,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 0.7561,
+        "recency": 0.7123,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1688,8 +1771,8 @@
       "latest_at": "2026-09-22T12:00:00Z",
       "primary_item": {
         "id": "c232f2761ed6c9c57ce50004028b734713192c65",
-        "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
-        "title_zh": null,
+        "title": "使用 AI 代理和 NVIDIA Isaac ROS 加速 ROS 2 节点 / Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+        "title_zh": "使用 AI 代理和 NVIDIA Isaac ROS 加速 ROS 2 节点",
         "title_en": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
         "title_original": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
         "summary": null,
@@ -1702,112 +1785,30 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
-      "story_id": "story_366b9b129591",
-      "title": "Artificial Analysis 评测 GPT-6 Sol 与 Luna：成本减半，智能指数持平 / GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-      "url": "https://x.com/ArtificialAnlys/status/2102462962758033624",
-      "primary_url": "https://x.com/ArtificialAnlys/status/2102462962758033624",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "06918dd83ad05a0b9db226a2f6b110d410e23103",
-          "title": "Artificial Analysis 评测 GPT-6 Sol 与 Luna：成本减半，智能指数持平 / GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-          "title_zh": "Artificial Analysis 评测 GPT-6 Sol 与 Luna：成本减半，智能指数持平",
-          "title_en": "GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-          "title_original": "GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-          "summary": "Artificial Analysis 评测 GPT-6 Sol 和 Luna，两模型价格约为 GPT-5.6 对应版本一半，Sol 定价 $2/$10、Luna $0.10/$0.50 每百万输入/输出 token，Intelligence Index 与 GPT-5.6 持平。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/ArtificialAnlys/status/2102462962758033624",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-22T18:20:06Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Artificial Analysis (@ArtificialAnlys)"
-      ],
-      "items": [
-        {
-          "id": "06918dd83ad05a0b9db226a2f6b110d410e23103",
-          "title": "Artificial Analysis 评测 GPT-6 Sol 与 Luna：成本减半，智能指数持平 / GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-          "title_zh": "Artificial Analysis 评测 GPT-6 Sol 与 Luna：成本减半，智能指数持平",
-          "title_en": "GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-          "title_original": "GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-          "summary": "Artificial Analysis 评测 GPT-6 Sol 和 Luna，两模型价格约为 GPT-5.6 对应版本一半，Sol 定价 $2/$10、Luna $0.10/$0.50 每百万输入/输出 token，Intelligence Index 与 GPT-5.6 持平。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/ArtificialAnlys/status/2102462962758033624",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-22T18:20:06Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7727,
-      "importance": 0.7727,
-      "importance_score": 0.7727,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.84,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8285,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-22T18:20:06Z",
-      "latest_at": "2026-09-22T18:20:06Z",
-      "primary_item": {
-        "id": "06918dd83ad05a0b9db226a2f6b110d410e23103",
-        "title": "Artificial Analysis 评测 GPT-6 Sol 与 Luna：成本减半，智能指数持平 / GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-        "title_zh": "Artificial Analysis 评测 GPT-6 Sol 与 Luna：成本减半，智能指数持平",
-        "title_en": "GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-        "title_original": "GPT-6 Sol and Luna push the cost efficiency frontier by halving cost relative to GPT-5.6 Sol and Lun…",
-        "summary": "Artificial Analysis 评测 GPT-6 Sol 和 Luna，两模型价格约为 GPT-5.6 对应版本一半，Sol 定价 $2/$10、Luna $0.10/$0.50 每百万输入/输出 token，Intelligence Index 与 GPT-5.6 持平。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/ArtificialAnlys/status/2102462962758033624",
-        "source": "X：Artificial Analysis (@ArtificialAnlys)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
-      }
-    },
-    {
-      "story_id": "story_c06640dd9bba",
-      "title": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
-      "url": "https://www.aibase.com/news/31298",
-      "primary_url": "https://www.aibase.com/news/31298",
+      "story_id": "story_08113360bf48",
+      "title": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
+      "url": "https://www.aibase.com/news/31310",
+      "primary_url": "https://www.aibase.com/news/31310",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "eed20b4433e5ff451ef4dc1466329844184508df",
-          "title": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
-          "title_zh": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
+          "id": "a0846ec5f1f59c7563f2e27777b5fa5797feb24d",
+          "title": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
+          "title_zh": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
           "title_en": null,
-          "title_original": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
+          "title_original": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31298",
+          "url": "https://www.aibase.com/news/31310",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-23T07:21:46.789610Z"
+          "published_at": "2026-09-23T11:29:41.806226Z"
         }
       ],
       "source_count": 1,
@@ -1816,18 +1817,18 @@
       ],
       "items": [
         {
-          "id": "eed20b4433e5ff451ef4dc1466329844184508df",
-          "title": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
-          "title_zh": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
+          "id": "a0846ec5f1f59c7563f2e27777b5fa5797feb24d",
+          "title": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
+          "title_zh": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
           "title_en": null,
-          "title_original": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
+          "title_original": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31298",
+          "url": "https://www.aibase.com/news/31310",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-23T07:21:46.789610Z"
+          "published_at": "2026-09-23T11:29:41.806226Z"
         }
       ],
       "item_count": 1,
@@ -1848,17 +1849,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-23T07:21:46.789610Z",
-      "latest_at": "2026-09-23T07:21:46.789610Z",
+      "earliest_at": "2026-09-23T11:29:41.806226Z",
+      "latest_at": "2026-09-23T11:29:41.806226Z",
       "primary_item": {
-        "id": "eed20b4433e5ff451ef4dc1466329844184508df",
-        "title": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
-        "title_zh": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
+        "id": "a0846ec5f1f59c7563f2e27777b5fa5797feb24d",
+        "title": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
+        "title_zh": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
         "title_en": null,
-        "title_original": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
+        "title_original": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31298",
+        "url": "https://www.aibase.com/news/31310",
         "source": "AIbase",
         "source_name": "AIbase"
       },
@@ -1866,63 +1867,63 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     },
     {
-      "story_id": "story_36f419f40039",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic",
-      "primary_url": "https://simonwillison.net/2026/Sep/22/llm-anthropic",
-      "source": "Simon Willison",
+      "story_id": "story_52b87179db37",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "primary_url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "8f1f727288bd6ceedc07d3e67d3814c7ed930613",
-          "title": "llm-anthropic 0.29",
+          "id": "86f6a265686a0a48999957469e8809e5d57ed257",
+          "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
           "title_zh": null,
-          "title_en": "llm-anthropic 0.29",
-          "title_original": "llm-anthropic 0.29",
+          "title_en": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+          "title_original": "Grab and OpenAI bring practical AI skills to Southeast Asia",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic",
-          "source": "Simon Willison",
+          "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-22T17:14:55Z"
+          "published_at": "2026-09-23T00:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Simon Willison"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "8f1f727288bd6ceedc07d3e67d3814c7ed930613",
-          "title": "llm-anthropic 0.29",
+          "id": "86f6a265686a0a48999957469e8809e5d57ed257",
+          "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
           "title_zh": null,
-          "title_en": "llm-anthropic 0.29",
-          "title_original": "llm-anthropic 0.29",
+          "title_en": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+          "title_original": "Grab and OpenAI bring practical AI skills to Southeast Asia",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic",
-          "source": "Simon Willison",
+          "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-22T17:14:55Z"
+          "published_at": "2026-09-23T00:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8268,
-      "importance": 0.8268,
-      "importance_score": 0.8268,
+      "score": 0.8245,
+      "importance": 0.8245,
+      "importance_score": 0.8245,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8156,
+        "ai_relevance": 0.91,
+        "recency": 0.8471,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1931,25 +1932,25 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-22T17:14:55Z",
-      "latest_at": "2026-09-22T17:14:55Z",
+      "earliest_at": "2026-09-23T00:00:00Z",
+      "latest_at": "2026-09-23T00:00:00Z",
       "primary_item": {
-        "id": "8f1f727288bd6ceedc07d3e67d3814c7ed930613",
-        "title": "llm-anthropic 0.29",
+        "id": "86f6a265686a0a48999957469e8809e5d57ed257",
+        "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
         "title_zh": null,
-        "title_en": "llm-anthropic 0.29",
-        "title_original": "llm-anthropic 0.29",
+        "title_en": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+        "title_original": "Grab and OpenAI bring practical AI skills to Southeast Asia",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic",
-        "source": "Simon Willison",
+        "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-23T07:56:21.265395Z"
+        "scored_at": "2026-09-23T12:08:02.427507Z"
       }
     }
   ]

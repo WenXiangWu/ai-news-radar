@@ -27,22 +27,6 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-22T18:25:24.334000+00:00",
-      "source_count": 3,
-      "score": 88,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
       "url": "https://www.hacktron.ai/blog/hacking-openai",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
@@ -58,17 +42,16 @@
       "label": "多源热议"
     },
     {
-      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-      "source": "Simon Willison",
+      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T23:46:41+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-22T18:25:24.334000+00:00",
+      "source_count": 3,
       "score": 87,
       "official": true,
       "topics": [
         "openai",
-        "anthropic",
         "launch"
       ],
       "reason": "",
@@ -91,33 +74,18 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
-      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
-      "source": "Latent Space",
+      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T06:41:41+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Codex CLI 0.156.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T00:00:00+00:00",
-      "source_count": 1,
-      "score": 85,
+      "published_at": "2026-09-22T23:46:41+00:00",
+      "source_count": 2,
+      "score": 86,
       "official": true,
       "topics": [
         "openai",
-        "agent",
-        "coding"
+        "anthropic",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -214,46 +182,48 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenTelemetry in the GitHub Copilot app",
-      "url": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
-      "source": "GitHub Changelog",
+      "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T02:14:54+00:00",
+      "published_at": "2026-09-23T08:06:15+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "coding"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "New features and improvements in Copilot for JetBrains",
-      "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
-      "source": "GitHub Changelog",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T00:34:18+00:00",
+      "published_at": "2026-09-23T06:41:41+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "coding"
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "source": "OpenAI News",
+      "title": "Codex CLI 0.156.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T21:00:00+00:00",
+      "published_at": "2026-09-23T00:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -345,55 +315,41 @@
       "label": "官方更新"
     },
     {
-      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
-      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T02:53:19+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-22T17:14:55+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Opus 5.5 is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
+      "title": "OpenTelemetry in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T17:10:23+00:00",
+      "published_at": "2026-09-23T02:14:54+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "anthropic",
         "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
-      "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+      "title": "New features and improvements in Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T17:00:14+00:00",
+      "published_at": "2026-09-23T00:34:18+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-22T21:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -539,71 +495,125 @@
       "label": "官方更新"
     },
     {
-      "title": "Faster C++ code intelligence with whole codebase indexing",
-      "url": "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T02:53:19+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-22T17:14:55+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude Opus 5.5 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T22:24:48+00:00",
+      "published_at": "2026-09-22T17:10:23+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "anthropic",
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-      "url": "https://www.latent.space/p/john-platt",
-      "source": "Latent Space",
+      "title": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
+      "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T21:07:39+00:00",
+      "published_at": "2026-09-22T17:00:14+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "llm 0.36",
-      "url": "https://simonwillison.net/2026/Sep/22/llm",
-      "source": "Simon Willison",
+      "title": "Nathan Lambert 撰文分析开源模型的中美实力格局",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source": "Interconnects",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T18:48:37+00:00",
+      "published_at": "2026-09-21T11:56:56+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
-      "reason": "",
+      "topics": [
+        "opensource"
+      ],
+      "reason": "美国AI政策专家在国会证词中披露，自2025年4月起中国AI公司在open-weight模型领域已明显领先，Alibaba的Qwen推动中国于2025年7月在Hugging Face下载量上反超美国，如今中国累计下载量达3.2B，是美国的整整两倍。",
       "label": "官方更新"
     },
     {
-      "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
-      "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing",
-      "source": "NVIDIA Developer Blog",
+      "title": "为AI下一阶段构建标准",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T17:27:41+00:00",
+      "published_at": "2026-09-21T10:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
-      "reason": "",
+      "topics": [
+        "openai"
+      ],
+      "reason": "OpenAI提出全球AI标准路径，呼吁协调评估、报告与治理，并提及AI已推动Navier-Stokes千禧年问题进展，同时强调在推进自动化AI研究时须保留人类控制与民主选择。",
       "label": "官方更新"
     },
     {
-      "title": "llm-typesafe 0.1a0",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe",
-      "source": "Simon Willison",
+      "title": "OpenAI Academy 扩展，新增多条学习路径",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T15:54:16+00:00",
+      "published_at": "2026-09-21T07:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
-      "reason": "",
+      "topics": [
+        "openai"
+      ],
+      "reason": "OpenAI Academy新增面向开发者、领导者、教育者和大学生的课程，与Apply AI at Work、Build with AI、AI Leadership等学习路径并列，学员通过课程评估可获OpenAI Academy课程徽章。",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-23T07:56:20.800418+00:00",
+  "generated_at": "2026-09-23T12:08:01.916826+00:00",
   "period": "2026-W39"
 }
