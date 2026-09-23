@@ -20,8 +20,9 @@ def test_default_file_keeps_the_current_schedule_and_deepseek_off():
     assert config["schema"] == "radar-runtime/v1"
     assert config["workflows"]["update-news"]["slots_shanghai"] == ["*:17"]
     assert config["workflows"]["update-radar"]["slots_shanghai"] == ["03:17", "09:17", "15:17", "21:17"]
-    assert config["workflows"]["update-textbooks"]["slots_shanghai"] == ["08:17"]
-    assert config["workflows"]["update-publish"]["slots_shanghai"] == ["*:47"]
+    assert "update-textbooks" not in config["workflows"]
+    assert config["workflows"]["update-publish"]["trigger"] == "after_workflow"
+    assert config["workflows"]["update-publish"]["slots_shanghai"] == []
     assert config["deepseek"]["enabled"] is False
     assert "key" not in json.dumps(config).lower()
     assert "token" not in json.dumps(config).lower()
@@ -34,10 +35,9 @@ def test_scheduled_run_matches_configured_shanghai_slots_with_start_delay():
     assert should_run("update-news", config, event="schedule", now=at(9, 40))
     assert should_run("update-radar", config, event="schedule", now=at(9, 17))
     assert not should_run("update-radar", config, event="schedule", now=at(10, 17))
-    assert should_run("update-textbooks", config, event="schedule", now=at(8, 17))
-    assert not should_run("update-textbooks", config, event="schedule", now=at(9, 17))
-    assert should_run("update-publish", config, event="schedule", now=at(13, 47))
-    assert not should_run("update-publish", config, event="schedule", now=at(13, 30))
+    assert not should_run("update-textbooks", config, event="schedule", now=at(8, 17))
+    assert should_run("update-publish", config, event="workflow_call", now=at(1, 0))
+    assert not should_run("update-publish", config, event="schedule", now=at(13, 47))
 
 
 def test_off_grid_slot_and_disabled_workflow_do_not_run_on_schedule():
@@ -61,7 +61,7 @@ def test_narrowing_news_to_one_hour_skips_the_other_hourly_wakes():
 
 
 def test_workflows_read_the_runtime_gate_before_doing_work():
-    for name in ("update-news.yml", "update-radar.yml", "update-publish.yml", "update-textbooks.yml"):
+    for name in ("update-news.yml", "update-radar.yml", "update-publish.yml"):
         text = (ROOT / ".github/workflows" / name).read_text(encoding="utf-8")
         assert "scripts/runtime_gate.py" in text
         assert "needs: gate" in text

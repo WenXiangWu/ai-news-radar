@@ -15,7 +15,6 @@ SCHEMA = "radar-runtime/v1"
 WAKE_GRID = {
     "update-news": {"minute": 17, "hours": set(range(24))},
     "update-radar": {"minute": 17, "hours": {3, 9, 15, 21}},
-    "update-textbooks": {"minute": 17, "hours": {8}},
     "update-publish": {"minute": 47, "hours": set(range(24))},
 }
 
@@ -24,8 +23,7 @@ DEFAULTS = {
     "workflows": {
         "update-news": {"enabled": True, "slots_shanghai": ["*:17"]},
         "update-radar": {"enabled": True, "slots_shanghai": ["03:17", "09:17", "15:17", "21:17"]},
-        "update-textbooks": {"enabled": True, "slots_shanghai": ["08:17"]},
-        "update-publish": {"enabled": True, "slots_shanghai": ["*:47"]},
+        "update-publish": {"enabled": True, "trigger": "after_workflow", "slots_shanghai": []},
     },
     "deepseek": {"enabled": False},
 }
@@ -50,11 +48,13 @@ def deepseek_enabled(config: dict) -> bool:
 
 def should_run(workflow_id: str, config: dict, *, event: str, now: datetime) -> bool:
     """Scheduled runs must hit a configured Shanghai slot. Manual runs ignore the clock."""
-    if event != "schedule":
+    if event == "workflow_dispatch":
         return True
     workflow = _workflow(config, workflow_id)
     if workflow.get("enabled") is False:
         return False
+    if event != "schedule":
+        return True
     if workflow_id not in WAKE_GRID:
         return False
     moment = now if now.tzinfo else now.replace(tzinfo=timezone.utc)

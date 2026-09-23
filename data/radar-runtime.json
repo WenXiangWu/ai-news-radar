@@ -9,13 +9,10 @@
       "enabled": true,
       "slots_shanghai": ["03:17", "09:17", "15:17", "21:17"]
     },
-    "update-textbooks": {
-      "enabled": true,
-      "slots_shanghai": ["08:17"]
-    },
     "update-publish": {
       "enabled": true,
-      "slots_shanghai": ["*:47"]
+      "trigger": "after_workflow",
+      "slots_shanghai": []
     }
   },
   "deepseek": {

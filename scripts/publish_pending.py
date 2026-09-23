@@ -7,12 +7,14 @@ import json
 from pathlib import Path
 
 
-def publish_pending(directory: Path, *, now: str) -> list[Path]:
+def publish_pending(directory: Path, *, now: str, workflow_id: str | None = None) -> list[Path]:
     pending = Path(directory)
     selected: list[Path] = []
     for path in sorted(pending.glob("*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
         if payload.get("ready") is not True:
+            continue
+        if workflow_id and str(payload.get("workflow_id") or "") != workflow_id:
             continue
         payload["ready"] = False
         payload["published_at"] = now
@@ -28,9 +30,10 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--directory", required=True)
     parser.add_argument("--now", default="")
+    parser.add_argument("--workflow-id", default="")
     args = parser.parse_args(argv)
     now = args.now or datetime.now(timezone.utc).isoformat()
-    selected = publish_pending(Path(args.directory), now=now)
+    selected = publish_pending(Path(args.directory), now=now, workflow_id=args.workflow_id or None)
     print(len(selected))
     return 0
 

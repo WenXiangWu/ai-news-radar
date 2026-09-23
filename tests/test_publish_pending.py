@@ -19,3 +19,21 @@ def test_publish_pending_keeps_unready_files(tmp_path: Path):
     assert published["ready"] is False
     assert published["published_at"] == "2026-09-23T03:47:00Z"
     assert json.loads(waiting.read_text())["ready"] is False
+
+
+def test_publish_pending_leaves_other_workflows_ready(tmp_path: Path):
+    pending = tmp_path / "pending"
+    pending.mkdir()
+    news = pending / "news.json"
+    news.write_text(
+        '{"ready": true, "workflow_id": "update-news", "source_ids": ["official_ai"]}',
+        encoding="utf-8",
+    )
+    radar = pending / "docs-01.json"
+    radar.write_text(
+        '{"ready": true, "workflow_id": "update-radar", "source_ids": ["docs.ollama"]}',
+        encoding="utf-8",
+    )
+    selected = publish_pending(pending, now="2026-09-23T06:20:00Z", workflow_id="update-news")
+    assert [path.name for path in selected] == ["news.json"]
+    assert json.loads(radar.read_text(encoding="utf-8"))["ready"] is True

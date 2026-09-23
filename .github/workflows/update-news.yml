@@ -226,3 +226,11 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort || true; exit 1; }
           done
           git push
+
+  publish:
+    needs: [gate, update]
+    if: needs.gate.outputs.run == 'true' && needs.update.result == 'success'
+    uses: ./.github/workflows/update-publish.yml
+    with:
+      owner: news
+    secrets: inherit

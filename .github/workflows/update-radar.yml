@@ -178,3 +178,11 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort || true; exit 1; }
           done
           git push
+
+  publish:
+    needs: [gate, fetch]
+    if: needs.gate.outputs.run == 'true' && (needs.fetch.result == 'success' || needs.fetch.result == 'failure')
+    uses: ./.github/workflows/update-publish.yml
+    with:
+      owner: radar
+    secrets: inherit

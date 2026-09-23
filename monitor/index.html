@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <title>Radar 同步监控</title>
-  <link rel="stylesheet" href="./monitor.css?v=20260923-runtime">
+  <link rel="stylesheet" href="./monitor.css?v=20260923-after-fetch">
 </head>
 <body>
   <main class="monitor-page">
@@ -25,7 +25,7 @@
     <div id="runSummary" hidden></div>
 
     <h2 class="block-title">Workflow</h2>
-    <p class="push-hint">四条任务始终列在这里。抓取只写入待推送，推上 Way 的只有每小时第 47 分的站点推送。</p>
+    <p class="push-hint">三条任务始终列在这里。新闻采集结束后立刻推送，15 个资料组都结束后再推一次。</p>
     <section class="workflow-catalog" id="workflowCards" aria-label="Workflow 目录"></section>
 
     <h2 class="block-title">模块</h2>
@@ -96,6 +96,6 @@
 
     <div id="loadError" class="error-panel" hidden></div>
   </main>
-  <script src="./monitor.js?v=20260923-runtime"></script>
+  <script src="./monitor.js?v=20260923-after-fetch"></script>
 </body>
 </html>

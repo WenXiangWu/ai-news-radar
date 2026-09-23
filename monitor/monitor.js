@@ -19,10 +19,9 @@
   var INDEX_URL = radarDataUrl("radar-reports/index.json");
   var TABS = ["today", "registry", "coverage", "reports", "config"];
   var CATALOG = [
-    { id: "update-news", name: "新闻采集", duty: "抓前沿新闻，写入待推送。不推站点。", when: "每小时第 17 分", cron: "17 * * * *" },
-    { id: "update-radar", name: "资料抓取", duty: "官方资料、框架文档、wiki。15 组并行，每组最多 6 个源。", when: "03:17、09:17、15:17、21:17", cron: "17 1,7,13,19 * * *" },
-    { id: "update-textbooks", name: "教材镜像", duty: "按登记表镜像 10 本教材。不翻译，不提交正文。", when: "每天 08:17", cron: "17 0 * * *" },
-    { id: "update-publish", name: "站点推送", duty: "把待推送内容推上 Way。唯一会推 Gitee 的任务。", when: "每小时第 47 分", cron: "47 * * * *" }
+    { id: "update-news", name: "新闻采集", duty: "抓前沿新闻，写入待推送。结束后立刻推上站点。", when: "每小时第 17 分", cron: "17 * * * *" },
+    { id: "update-radar", name: "资料抓取", duty: "官方资料、框架文档、wiki。15 组并行，全部结束后再推一次。", when: "03:17、09:17、15:17、21:17", cron: "17 1,7,13,19 * * *" },
+    { id: "update-publish", name: "站点推送", duty: "新闻或资料抓取全部结束后推上 Way。两次推送会排队。唯一会推 Gitee 的任务。", when: "抓取结束后", cron: "随抓取结束" }
   ];
   var state = {
     monitor: null,
@@ -189,7 +188,8 @@
     $("runStatus").textContent = title;
   }
 
-  function formatSlots(slots) {
+  function formatSlots(slots, workflow) {
+    if (workflow && workflow.trigger === "after_workflow") return "抓取结束后";
     if (!slots || !slots.length) return "未配置时间";
     if (slots.length === 1 && String(slots[0]).charAt(0) === "*") {
       return "每小时第 " + Number(String(slots[0]).split(":")[1]) + " 分";
@@ -207,7 +207,7 @@
     var known = workflowsById(monitor || {});
     $("workflowCards").innerHTML = CATALOG.map(function (item) {
       var configured = runtimeWorkflow(item.id);
-      var when = configured && configured.slots_shanghai ? formatSlots(configured.slots_shanghai) : item.when;
+      var when = configured ? formatSlots(configured.slots_shanghai, configured) : item.when;
       var live = known[item.id];
       var last = "尚未执行";
       var tone = "warn";
@@ -442,9 +442,12 @@
     schedule.innerHTML = CATALOG.map(function (item) {
       var configured = (runtime.workflows || {})[item.id] || {};
       var slots = configured.slots_shanghai || [];
+      var note = configured.trigger === "after_workflow"
+        ? "新闻或资料全部结束后调用，两次推送排队"
+        : item.cron + " · 只能选这个唤醒网格上的时间";
       return '<article class="group"><div class="group-head"><span><b>' + escapeHtml(item.name) +
-        '</b><span class="sub">' + escapeHtml(item.cron) + " · 只能选这个唤醒网格上的时间</span></span>" +
-        chip(configured.enabled === false ? "disabled" : "success", configured.enabled === false ? "已停用" : formatSlots(slots)) +
+        '</b><span class="sub">' + escapeHtml(note) + "</span></span>" +
+        chip(configured.enabled === false ? "disabled" : "success", configured.enabled === false ? "已停用" : formatSlots(slots, configured)) +
         "</div></article>";
     }).join("");
     var enabled = runtime.deepseek && runtime.deepseek.enabled === true;
