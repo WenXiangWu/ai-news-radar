@@ -1,86 +1,85 @@
 {
-  "generated_at": "2026-09-23T12:08:01.916826+00:00",
-  "today": "2026-09-23",
-  "lead": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%；Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%；Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+  "generated_at": "2026-09-23T17:43:07.282341+00:00",
+  "today": "2026-09-24",
+  "lead": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型；OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%；Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "五角大楼调查：过度依赖 Maven AI 是美军误击伊朗米纳布学校的原因之一",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-22T20:00:35.186000+00:00",
-      "source_count": 4,
-      "score": 85,
-      "official": false,
-      "topics": [],
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T15:29:23+00:00",
+      "source_count": 3,
+      "score": 90,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 47
+      "label": "官方更新",
+      "hot_score": 100
     },
     {
-      "title": "用25行Python代码实现Jev",
-      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines",
-      "source": "www.nobodywho.ai",
+      "title": "GPT-6 Astra 已具备驾驶汽车的能力",
+      "url": "https://drivingbench.com",
+      "source": "drivingbench.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-23T09:18:26.848000+00:00",
+      "published_at": "2026-09-23T16:35:38.456000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "OpenAI正在组建一支网红大军，以塑造其“造福世界”的形象",
+      "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+      "source": "www.businessinsider.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-23T14:13:24.942000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 45
+    },
+    {
+      "title": "Stripe built its internal AI platform",
+      "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-23T13:38:00+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 47
+      "hot_score": 43
     },
     {
-      "title": "Claude Opus 5.5 智能、性能与价格分析（Max）",
-      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-      "source": "artificialanalysis.ai",
+      "title": "开放模型中的当前力量平衡",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source": "www.interconnects.ai",
       "site_id": "buzzing",
-      "published_at": "2026-09-22T19:13:26.296000+00:00",
-      "source_count": 3,
-      "score": 53,
+      "published_at": "2026-09-23T12:56:55.101000+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": false,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 29
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-22T18:25:24.334000+00:00",
-      "source_count": 3,
-      "score": 87,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 27
-    },
-    {
-      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "source": "Anthropic：Newsroom（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-22T16:53:30.664000+00:00",
-      "source_count": 3,
-      "score": 87,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 24
+      "label": "值得关注",
+      "hot_score": 40
     }
   ],
   "topics": [
@@ -103,7 +102,7 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 3
+      "count": 7
     },
     {
       "slug": "deepseek",
@@ -117,49 +116,49 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 26
+      "count": 25
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 1
+      "count": 5
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 25
+      "count": 27
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "industry",
@@ -170,6 +169,7 @@
     }
   ],
   "days": [
+    "2026-09-24",
     "2026-09-23",
     "2026-09-22",
     "2026-09-21",
@@ -182,8 +182,7 @@
     "2026-09-14",
     "2026-09-13",
     "2026-09-12",
-    "2026-09-11",
-    "2026-09-10"
+    "2026-09-11"
   ],
   "week": "2026-W39",
   "month": "2026-09"
