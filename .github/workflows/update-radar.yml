@@ -1,0 +1,166 @@
+name: Update Radar Sources
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1,7,13,19 * * *"
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    timeout-minutes: 55
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        group_id:
+          - docs-01
+          - docs-02
+          - docs-03
+          - docs-04
+          - docs-05
+          - docs-06
+          - docs-07
+          - knowledge-01
+          - knowledge-02
+          - knowledge-03
+          - knowledge-04
+          - knowledge-05
+          - wiki-01
+          - wiki-02
+          - wiki-03
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore group ledger
+        uses: actions/cache@v4
+        with:
+          path: /tmp/radar-ledger-${{ matrix.group_id }}.sqlite3
+          key: radar-ledger-${{ matrix.group_id }}
+          restore-keys: |
+            radar-ledger-${{ matrix.group_id }}
+
+      - name: Fetch group
+        run: |
+          set -euo pipefail
+          group="${{ matrix.group_id }}"
+          git clone --depth 1 https://gitee.com/Michaelwwx/way-to-agentic.git /tmp/way
+          state="/tmp/radar-ledger-${group}.sqlite3"
+          report="/tmp/radar-run-report.json"
+          rm -f "$report"
+          ids="$(python3 - "$group" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+          group_id = sys.argv[1]
+          payload = json.loads(Path("data/radar-groups.json").read_text(encoding="utf-8"))
+          groups = payload.get("groups") or payload
+          print(",".join(groups.get(group_id) or []))
+          PY
+          )"
+          radar_exit=0
+          if [ -n "$ids" ]; then
+            python scripts/radar_run.py \
+              --target-root /tmp/way \
+              --state "$state" \
+              --report "$report" \
+              --only-sources "$ids" \
+              --force \
+              --max-runtime-minutes 50 \
+              --max-operation-runtime-minutes 8 || radar_exit=$?
+          fi
+          mkdir -p data/pending-publish data/workflow-status /tmp
+          python3 - "$group" "$report" "$radar_exit" <<'PY'
+          import json
+          import sys
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          from radar_core.export import export_successful_subset
+
+          group_id = sys.argv[1]
+          report_path = Path(sys.argv[2])
+          radar_failed = sys.argv[3] != "0"
+          now = datetime.now(timezone.utc).isoformat()
+          if report_path.is_file():
+              report = json.loads(report_path.read_text(encoding="utf-8"))
+          else:
+              report = {"operations": []}
+          bundle, excluded = export_successful_subset(report)
+          source_ids = [row.get("source_id") for row in bundle["operations"] if row.get("source_id")]
+          if source_ids:
+              pending = {
+                  "schema": "radar-pending-publish/v1",
+                  "ready": True,
+                  "workflow_id": "update-radar",
+                  "group_id": group_id,
+                  "source_ids": source_ids,
+                  "excluded": excluded,
+                  "finished_at": now,
+              }
+              path = Path("data/pending-publish") / f"{group_id}.json"
+              path.write_text(json.dumps(pending, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          sources = []
+          for row in report.get("operations") or []:
+              if not isinstance(row, dict) or not row.get("source_id"):
+                  continue
+              sources.append({
+                  "source_id": row.get("source_id"),
+                  "status": row.get("status") or "failed",
+                  "run_kind": row.get("run_kind") or "incremental",
+                  "error": (row.get("errors") or [None])[0],
+              })
+          payload = {
+              "workflow_id": "update-radar",
+              "name": "资料抓取",
+              "schedule": "17 1,7,13,19 * * *",
+              "combined_lanes": [],
+              "groups": [group_id],
+              "conclusion": "failure" if excluded or radar_failed else "success",
+              "push": {"attempted": False},
+              "sources": sources,
+          }
+          Path(f"/tmp/radar-status-{group_id}.json").write_text(json.dumps(payload), encoding="utf-8")
+          PY
+          python scripts/write_workflow_status.py \
+            --out "data/workflow-status/update-radar-${group}.json" \
+            --payload "/tmp/radar-status-${group}.json" \
+            --run-id "${{ github.run_id }}" \
+            --html-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ "$radar_exit" -ne 0 ]; then
+            exit "$radar_exit"
+          fi
+
+      - name: Commit pending group
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/pending-publish data/workflow-status || true
+          if git diff --cached --quiet; then
+            echo "No pending files"
+            exit 0
+          fi
+          git commit -m "chore: record radar group ${{ matrix.group_id }}"
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort || true; exit 1; }
+          done
+          git push

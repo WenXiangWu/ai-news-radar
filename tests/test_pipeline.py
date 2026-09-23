@@ -152,7 +152,9 @@ def test_run_source_is_idempotent_for_existing_translation(tmp_path: Path):
     source = _source()
     connector = FakeConnector()
     router = RecordingRouter()
-    context = _context(tmp_path, connector, router, mode="bootstrap")
+    baseline = _context(tmp_path, connector, router, mode="baseline_only")
+    run_source(source, baseline)
+    context = replace(baseline, run_id="run-1", mode="incremental")
 
     first = run_source(source, context)
     second = run_source(source, replace(context, run_id="run-2"))
@@ -166,7 +168,7 @@ def test_run_source_is_idempotent_for_existing_translation(tmp_path: Path):
     assert len(router.requests) == 1
     assert context.state.count_rows("revisions") == 1
     assert context.state.count_rows("translations") == 1
-    assert context.state.get_cursor("source.docs")["cursor"]["token"] == "cursor-2"
+    assert context.state.get_cursor("source.docs")["cursor"]["token"] == "cursor-3"
     context.state.close()
 
 
@@ -214,7 +216,9 @@ def test_changed_source_body_creates_one_new_revision_and_translation(tmp_path: 
     source = _source()
     connector = FakeConnector("Hello world")
     router = RecordingRouter()
-    context = _context(tmp_path, connector, router, mode="bootstrap")
+    baseline = _context(tmp_path, connector, router, mode="baseline_only")
+    run_source(source, baseline)
+    context = replace(baseline, run_id="run-1", mode="incremental")
 
     first = run_source(source, context)
     connector.body = "Hello changed world"
@@ -233,12 +237,16 @@ def test_changed_source_body_creates_one_new_revision_and_translation(tmp_path: 
 def test_run_operation_records_context_and_does_not_advance_cursor_on_failure(
     tmp_path: Path,
 ):
-    from radar_core.pipeline import run_operation
+    from radar_core.pipeline import run_operation, run_source
 
     source = _source()
     connector = FakeConnector(fail_fetch=True)
     router = RecordingRouter()
-    context = _context(tmp_path, connector, router, mode="bootstrap")
+    baseline = _context(tmp_path, connector, router, mode="baseline_only")
+    established = run_source(source, baseline)
+    assert established.status == "success"
+    cursor_after_baseline = baseline.state.get_cursor("source.docs")
+    context = replace(baseline, run_id="run-fetch", mode="incremental")
 
     result = run_operation(_operation(source), context)
 
@@ -246,7 +254,7 @@ def test_run_operation_records_context_and_does_not_advance_cursor_on_failure(
     assert result.source_id == "source.docs"
     assert result.entity_ids == ("framework.docs",)
     assert result.surface_ids == ("surface.docs",)
-    assert context.state.get_cursor("source.docs") is None
+    assert context.state.get_cursor("source.docs") == cursor_after_baseline
     assert context.state.count_rows("translations") == 0
     context.state.close()
 
@@ -259,21 +267,26 @@ def test_translation_provider_exhaustion_does_not_advance_cursor_or_baseline(
 
     source = _source()
     connector = FakeConnector()
-    context = _context(tmp_path, connector, EmptyRouter(), mode="bootstrap")
-    context.state.record_run("bootstrap", {"status": "success"})
+    context = _context(tmp_path, connector, EmptyRouter(), mode="baseline_only")
+    context.state.record_run("baseline", {"status": "success"})
     from radar_core.registry import Registry
 
     registry = Registry(sources=[source])
-    register_new_sources(registry, context.state, "bootstrap")
+    register_new_sources(registry, context.state, "baseline")
+    run_operation(_operation(source), context)
+    cursor_after_baseline = context.state.get_cursor(source.id)
+    fingerprint_after_baseline = context.state.get_source_registration(source.id)[
+        "baseline_fingerprint"
+    ]
 
-    result = run_operation(_operation(source), replace(context, run_id="run-failed"))
+    result = run_operation(_operation(source), replace(context, run_id="run-failed", mode="incremental"))
 
     assert result.status == "partial"
     assert result.failed == 1
-    assert context.state.get_cursor(source.id) is None
+    assert context.state.get_cursor(source.id) == cursor_after_baseline
     assert context.state.get_source_registration(source.id)[
         "baseline_fingerprint"
-    ] is None
+    ] == fingerprint_after_baseline
     translation = context.state.iter_rows("translations")[0]
     assert translation["status"] == "needs_review"
     context.state.close()

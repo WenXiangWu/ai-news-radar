@@ -397,19 +397,21 @@ def test_scenario_5_translation_rerun_reuses_translation_key(tmp_path: Path):
     state = StateStore.open(tmp_path / "state.sqlite3")
     source = _source()
 
-    # Bootstrap run actually fetches + normalizes + translates so a revision
-    # and translation row exist in state.
+    # Establish the baseline, then fetch so a revision and translation exist.
+    baseline = run_source(
+        source,
+        _context(state, transport, router, mode="baseline_only", run_id="r0"),
+    )
+    assert baseline.run_kind == "baseline_only"
+    assert baseline.fetched == 0
     first = run_source(
         source,
-        _context(state, transport, router, mode="bootstrap", run_id="r1"),
+        _context(state, transport, router, mode="incremental", run_id="r1"),
     )
-    assert first.run_kind == "bootstrap"
+    assert first.run_kind == "incremental"
     assert first.fetched == 1
     assert first.translated == 1
     assert len(router.requests) == 1
-    # Bootstrap mode skips the baseline check; mark it manually so the next
-    # incremental run reaches the selection path instead of baseline_only.
-    state.mark_source_baseline("source.rss", "r1")
 
     # Second run (incremental): only <updated> changes, so remote_revision
     # changes (item is selected + fetched) but <published> and the article

@@ -1,0 +1,88 @@
+{
+  "schema": "radar-workflow-status/v1",
+  "workflow_id": "update-news",
+  "name": "新闻采集",
+  "schedule": "17 * * * *",
+  "combined_lanes": [],
+  "groups": [],
+  "run_id": "run-20260921T220047Z-68b13e9e",
+  "html_url": "",
+  "conclusion": "success",
+  "started_at": "2026-09-21T22:03:33.440262+00:00",
+  "finished_at": "2026-09-21T22:03:33.440262+00:00",
+  "push": {
+    "attempted": false
+  },
+  "sources": [
+    {
+      "source_id": "official_ai",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "curated_media",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "aibreakfast",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "followbuilders",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "techurls",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "buzzing",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "iris",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "bestblogs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "zeli",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "hackernews",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "aihubtoday",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "aibase",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "aihot",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "newsnow",
+      "status": "success",
+      "run_kind": "incremental"
+    }
+  ]
+}

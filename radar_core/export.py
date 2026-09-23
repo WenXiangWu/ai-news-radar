@@ -496,4 +496,27 @@ def _local_artifact_path(root: Path, bundle_root: str, declared: str) -> str:
     return declared[len(prefix):]
 
 
-__all__ = ["build_export_bundle", "verify_export_bundle"]
+def export_successful_subset(report: Mapping[str, Any]) -> tuple[dict[str, Any], list[str]]:
+    """Keep only successful operations. Failed source ids stay out of the bundle."""
+    operations = [
+        row for row in report.get("operations") or []
+        if isinstance(row, Mapping)
+    ]
+    included = [
+        dict(row) for row in operations
+        if str(row.get("status") or "") == "success"
+    ]
+    excluded = [
+        str(row.get("source_id"))
+        for row in operations
+        if str(row.get("status") or "") != "success" and row.get("source_id")
+    ]
+    bundle = {
+        "schema": EXPORT_SCHEMA,
+        "manifest": {"complete": True, "source_ids": [row.get("source_id") for row in included]},
+        "operations": included,
+    }
+    return bundle, excluded
+
+
+__all__ = ["build_export_bundle", "verify_export_bundle", "export_successful_subset"]

@@ -19,7 +19,7 @@
   var UPDATE_URL = radarDataUrl("radar-update-report.json");
   var INDEX_URL = radarDataUrl("radar-reports/index.json");
   var ACTIONS_URL = "https://github.com/WenXiangWu/ai-news-radar/actions/workflows/update-news.yml";
-  var state = { monitor: null, update: null, index: null };
+  var state = { monitor: null, update: null, index: null, coverageFilter: "all" };
 
   function $(id) { return document.getElementById(id); }
 
@@ -41,7 +41,7 @@
 
   function emptyMonitor() {
     return {
-      schema: "radar-monitor/v1",
+      schema: "radar-monitor/v2",
       generated_at: "",
       run: {
         run_id: "",
@@ -65,6 +65,8 @@
       providers: [],
       modules: [],
       sources: [],
+      workflows: [],
+      coverage: { modules: [] },
       reports: {
         latest_update: radarDataUrl("radar-update-report.json"),
         latest_validation: radarDataUrl("source-validation.json"),
@@ -89,6 +91,8 @@
     $("sourceTable").innerHTML =
       '<tr><td colspan="8">监控快照尚未发布，不能判定数据源状态。</td></tr>';
     $("sourceEmpty").hidden = true;
+    $("workflowCards").innerHTML = '<p class="empty-state">监控快照尚未发布，不能判定 workflow。</p>';
+    $("coverageModules").innerHTML = '<p class="empty-state">监控快照尚未发布，不能判定 Way 覆盖。</p>';
     $("snapshotMeta").textContent = "尚未发布监控快照";
     showError(message);
   }
@@ -98,6 +102,21 @@
     var date = new Date(value);
     if (isNaN(date.getTime())) return escapeHtml(value);
     return date.toLocaleString("zh-CN", { hour12: false });
+  }
+
+  function formatShanghaiMinute(value) {
+    if (!value) return "无基线时间";
+    var date = new Date(value);
+    if (isNaN(date.getTime())) return String(value);
+    return new Intl.DateTimeFormat("zh-CN", {
+      timeZone: "Asia/Shanghai",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hourCycle: "h23"
+    }).format(date);
   }
 
   function formatDuration(value) {
@@ -232,13 +251,66 @@
         "<td>" + chip(row.status) + "</td>" +
         "<td>" + chip(reachability.status) + '<br><span class="source-locator">' +
         escapeHtml((reachability.latency_ms || 0) + " ms · " + (reachability.fetched || 0) + " fetched") + "</span></td>" +
-        "<td>" + chip(baseline.status) + '<br><span class="source-locator">' +
-        escapeHtml(baseline.cursor_run_id || "无游标") + "</span></td>" +
+        "<td>" + chip(baseline.presence || baseline.status) + '<br><span class="source-locator">' +
+        escapeHtml(
+          (baseline.presence === "not_applicable" ? "不适用" : formatShanghaiMinute(baseline.at))
+        ) + "</span></td>" +
         '<td><span class="source-locator">' + escapeHtml(formatDate(row.last_run_at)) + "</span></td>" +
       '<td><a class="source-action" href="' + ACTIONS_URL +
       '" target="_blank" rel="noopener noreferrer">在 Actions 执行</a></td>' +
       "</tr>";
     }).join("");
+  }
+
+  function renderWorkflows(workflows) {
+    $("workflowCards").innerHTML = (workflows || []).map(function (workflow) {
+      var push = workflow.push || {};
+      var pushText = !push.attempted ? "未推送" : (push.ok ? "推送成功" : "推送失败");
+      var sources = (workflow.sources || []).map(function (source) {
+        return "<tr><td>" + escapeHtml(source.source_id) + "</td><td>" +
+          escapeHtml(source.status || "") + "</td><td>" +
+          escapeHtml(source.run_kind || "") + "</td><td>" +
+          escapeHtml(source.baseline === "not_applicable" ? "不适用" : (source.baseline || "")) +
+          "</td><td>" + escapeHtml(source.baseline_at ? formatShanghaiMinute(source.baseline_at) : "") +
+          "</td><td>" + escapeHtml(source.error || "") + "</td></tr>";
+      }).join("");
+      return '<article class="workflow-card"><header><strong>' +
+        escapeHtml(workflow.name || workflow.workflow_id) + "</strong>" +
+        chip(workflow.conclusion) + "</header><p>" +
+        escapeHtml(workflow.schedule || "") + "</p><p>开始 " +
+        escapeHtml(formatShanghaiMinute(workflow.started_at)) + " · 结束 " +
+        escapeHtml(formatShanghaiMinute(workflow.finished_at)) + "</p><p>" +
+        escapeHtml(pushText) + (push.sha ? " · " + escapeHtml(push.sha) : "") + "</p>" +
+        (workflow.html_url ? '<p><a href="' + escapeHtml(workflow.html_url) + '">运行记录</a></p>' : "") +
+        (sources ? '<table class="coverage-table"><tbody>' + sources + "</tbody></table>" : "") +
+        "</article>";
+    }).join("") || '<p class="empty-state">还没有 workflow 状态。</p>';
+  }
+
+  function baselineLabel(item) {
+    if (!item || item.baseline === "not_applicable") return "不适用";
+    if (item.baseline === "present") return "有基线 · " + formatShanghaiMinute(item.baseline_at);
+    return "无基线";
+  }
+
+  function renderCoverage(coverage) {
+    var filter = state.coverageFilter || "all";
+    var modules = (coverage && coverage.modules) || [];
+    $("coverageModules").innerHTML = modules.map(function (module) {
+      var items = (module.items || []).filter(function (item) {
+        return filter === "all" || item.coverage === filter;
+      });
+      var rows = items.map(function (item) {
+        return "<tr><td>" + escapeHtml(item.name || item.item_id) + "</td><td>" +
+          escapeHtml(item.coverage || "") + "</td><td>" +
+          escapeHtml(item.reason_zh || "") + "</td><td>" +
+          escapeHtml(baselineLabel(item)) + "</td><td>" +
+          escapeHtml(item.workflow_id || "") + "</td></tr>";
+      }).join("") || '<tr><td colspan="5">没有符合筛选的条目。</td></tr>';
+      return '<article class="coverage-module"><h3>' + escapeHtml(module.name || module.module_id) +
+        '</h3><table class="coverage-table"><thead><tr><th>条目</th><th>结论</th><th>原因</th><th>基线</th><th>Workflow</th></tr></thead><tbody>' +
+        rows + "</tbody></table></article>";
+    }).join("") || '<p class="empty-state">没有 Way 覆盖清单。</p>';
   }
 
   function renderDaily(update) {
@@ -281,6 +353,12 @@
     $("sourceStatusFilter").addEventListener("change", function () {
       renderSources(state.monitor && state.monitor.sources);
     });
+    $("coverageFilters").addEventListener("click", function (event) {
+      var button = event.target.closest("button[data-coverage]");
+      if (!button) return;
+      state.coverageFilter = button.getAttribute("data-coverage");
+      renderCoverage(state.monitor && state.monitor.coverage);
+    });
   }
 
   function load() {
@@ -301,6 +379,8 @@
         renderUnavailableMonitor();
         renderDaily(state.update);
         renderReports(state.index);
+        renderWorkflows([]);
+        renderCoverage({ modules: [] });
         return;
       }
       state.monitor = values[0];
@@ -312,6 +392,8 @@
       renderProviders(state.monitor.providers);
       renderModules(state.monitor.modules);
       renderSources(state.monitor.sources);
+      renderWorkflows(state.monitor.workflows);
+      renderCoverage(state.monitor.coverage);
       renderDaily(state.update);
       renderReports(state.index);
       if (state.monitor.reports && state.monitor.reports.latest_update) {

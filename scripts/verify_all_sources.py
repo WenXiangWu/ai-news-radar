@@ -201,7 +201,7 @@ def _verify_radar_row(
             state=state,
             run_id=f"e2e-fetch-{source.id}",
             router=router,
-            mode="bootstrap",
+            mode="incremental",
             skip_translation=True,
             max_new_items_override=max_new_items,
         ),

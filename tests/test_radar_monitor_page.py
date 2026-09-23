@@ -34,6 +34,19 @@ def test_radar_monitor_is_a_standalone_page_with_actions_entrypoint():
     assert "不能把缺失数据显示为 0" in js
 
 
+def test_monitor_page_has_workflow_and_coverage_sections():
+    html = (MONITOR / "index.html").read_text(encoding="utf-8")
+    js = (MONITOR / "monitor.js").read_text(encoding="utf-8")
+    assert "workflowCards" in html
+    assert "coverageModules" in html
+    assert "renderWorkflows" in js
+    assert "renderCoverage" in js
+    assert "不适用" in js
+    assert "bootstrap" not in html
+    assert "全量更新" not in html
+    assert "全量更新" not in js
+
+
 def test_monitor_page_assets_are_present():
     assert (MONITOR / "index.html").is_file()
     assert (MONITOR / "monitor.css").is_file()

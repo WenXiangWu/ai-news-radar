@@ -1,0 +1,538 @@
+{
+  "schema": "radar-workflow-status/v1",
+  "workflow_id": "update-radar",
+  "name": "资料抓取",
+  "schedule": "17 1,7,13,19 * * *",
+  "combined_lanes": [],
+  "groups": [
+    "docs-01",
+    "docs-02",
+    "docs-03",
+    "docs-04",
+    "docs-05",
+    "docs-06",
+    "docs-07",
+    "knowledge-01",
+    "knowledge-02",
+    "knowledge-03",
+    "knowledge-04",
+    "knowledge-05",
+    "wiki-01",
+    "wiki-02",
+    "wiki-03"
+  ],
+  "run_id": "run-20260921T220047Z-68b13e9e",
+  "html_url": "",
+  "conclusion": "success",
+  "started_at": "2026-09-21T22:00:47.396870+00:00",
+  "finished_at": "2026-09-21T22:03:32.258053+00:00",
+  "push": {
+    "attempted": false
+  },
+  "sources": [
+    {
+      "source_id": "docs.a2a",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.anthropic-skills",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.autogen",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.chroma",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.codex-sdk",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.codex",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.crewai",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.cursor",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.deepeval",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.dspy",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.faiss",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.fastmcp",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.guardrails-ai",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.guidance",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.humanlayer",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.instructor",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.jarvis-registry",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.langchain",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.langfuse",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.langsmith",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.letta",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.llamaindex",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.mem0",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.microsoft-agent-framework",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.milvus",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.neo4j-graphrag",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.ollama",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.openai-agents-sdk",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.opencode-sdk",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.opik",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.pgvector",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.phoenix",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.pi-sdk",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.pinecone",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.pydantic-ai",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.qdrant",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.ragas",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.ragflow",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.spring-ai",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.weaviate",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.framework.cordis",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.framework.deepseek-harness",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.anthropic.cookbook",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.anthropic.docs",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.anthropic.engineering",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.langchain.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.langchain.langgraph",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.llamaindex.docs",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.mcp.docs",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.openai.cookbook",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.openai.docs",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.anthropic.news",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.chip-huyen.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.coding-tools",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.deepmind.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.eugene-yan.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.google.research",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.hamel.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.huggingface.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.interconnects.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.jxnl.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.latent-space.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.lilian-weng.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.microsoft.foundry",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.nvidia.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.openai.news",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.qdrant.editorial",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.qwen.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.simon-willison.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.chroma",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.crewai",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.dspy",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.fastmcp",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.jarvis-registry",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.langchain",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.langfuse",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.langgraph",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.llamaindex",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.mem0",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.openai-agents-sdk",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.pydantic-ai",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.qdrant",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.framework.cordis",
+      "status": "success",
+      "run_kind": "incremental",
+      "error": null
+    },
+    {
+      "source_id": "source.framework.deepseek-harness",
+      "status": "success",
+      "run_kind": "incremental",
+      "error": null
+    }
+  ]
+}

@@ -160,6 +160,7 @@ class StateStore:
             ("staged_fingerprint", "TEXT"),
             ("staged_run_id", "TEXT"),
             ("baseline_initialized", "INTEGER NOT NULL DEFAULT 0"),
+            ("baseline_at", "TEXT"),
         ):
             if name not in columns:
                 self._connection.execute(
@@ -825,6 +826,14 @@ class StateStore:
                 """,
                 (_json(payload), now, source_id),
             )
+        self._connection.execute(
+            """
+            UPDATE sources
+            SET baseline_at = COALESCE(baseline_at, ?)
+            WHERE source_id = ?
+            """,
+            (now, source_id),
+        )
         self._connection.commit()
 
     def baseline_initialized(self, source_id: str) -> bool:
@@ -835,6 +844,15 @@ class StateStore:
         if row is None:
             return False
         return bool(row["baseline_initialized"])
+
+    def baseline_at(self, source_id: str) -> str | None:
+        row = self._connection.execute(
+            "SELECT baseline_at FROM sources WHERE source_id = ?",
+            (source_id,),
+        ).fetchone()
+        if row is None:
+            return None
+        return row["baseline_at"]
 
     def close(self) -> None:
         self._connection.commit()

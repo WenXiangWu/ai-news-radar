@@ -85,7 +85,7 @@ def test_source_validation_and_update_report_contracts_accept_generated_shapes(
 
 def test_monitor_and_report_index_contracts_accept_generated_shapes(tmp_path: Path):
     monitor = {
-        "schema": "radar-monitor/v1",
+        "schema": "radar-monitor/v2",
         "generated_at": "2026-09-21T03:20:00Z",
         "run": {
             "run_id": "run-test",
@@ -147,6 +147,8 @@ def test_monitor_and_report_index_contracts_accept_generated_shapes(tmp_path: Pa
                 "translations": [],
             }
         ],
+        "workflows": [],
+        "coverage": {"modules": []},
         "reports": {
             "latest_update": "/radar-content/radar-update-report.json",
             "latest_validation": "/radar-content/source-validation.json",

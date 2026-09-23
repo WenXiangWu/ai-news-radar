@@ -1,0 +1,152 @@
+name: Publish Radar Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 * * * *"
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Publish ready snapshots
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_REPO: ${{ vars.GITEE_REPO }}
+          GITEE_BRANCH: ${{ vars.GITEE_BRANCH }}
+          GITEE_DATA_PATH: ${{ vars.GITEE_DATA_PATH }}
+        run: |
+          set -euo pipefail
+          mkdir -p data/pending-publish data/workflow-status /tmp
+          ready="$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          count = 0
+          ids = []
+          for path in sorted(Path("data/pending-publish").glob("*.json")):
+              payload = json.loads(path.read_text(encoding="utf-8"))
+              if payload.get("ready") is True:
+                  count += 1
+                  ids.extend(payload.get("source_ids") or [])
+          Path("/tmp/publish-source-ids.json").write_text(json.dumps(ids), encoding="utf-8")
+          print(count)
+          PY
+          )"
+          if [ "$ready" = "0" ]; then
+            python3 - <<'PY'
+            import json
+            from pathlib import Path
+            payload = {
+                "workflow_id": "update-publish",
+                "name": "每小时推送",
+                "schedule": "47 * * * *",
+                "combined_lanes": [],
+                "conclusion": "success",
+                "push": {"attempted": False, "ok": False, "source_ids": []},
+                "sources": [],
+            }
+            Path("/tmp/publish-status.json").write_text(json.dumps(payload), encoding="utf-8")
+            PY
+            python scripts/write_workflow_status.py \
+              --out data/workflow-status/update-publish.json \
+              --payload /tmp/publish-status.json \
+              --run-id "${{ github.run_id }}" \
+              --html-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            exit 0
+          fi
+          if [ -z "${GITEE_TOKEN:-}" ] || [ -z "${GITEE_REPO:-}" ]; then
+            echo "GITEE_REPO is not configured"
+            exit 1
+          fi
+          branch="${GITEE_BRANCH:-master}"
+          dest="${GITEE_DATA_PATH:-frontend/frontier/radar-data}"
+          work=/tmp/way-to-agentic-mirror
+          rm -rf "$work"
+          git clone --depth 1 --branch "$branch" \
+            "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" "$work"
+          mkdir -p "$work/$dest"
+          for f in daily-brief.json stories-merged.json source-status.json latest-24h.json top3-personas.json hub.json job-report.json; do
+            if [ -f "data/$f" ]; then
+              cp "data/$f" "$work/$dest/$f"
+            fi
+          done
+          for dir in dailies hot topics weekly monthly; do
+            if [ -d "data/$dir" ]; then
+              rm -rf "$work/$dest/$dir"
+              cp -R "data/$dir" "$work/$dest/$dir"
+            fi
+          done
+          git -C "$work" config user.name "github-actions[bot]"
+          git -C "$work" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$work" add "$dest"
+          if git -C "$work" diff --cached --quiet; then
+            echo "No site snapshot changes"
+          else
+            git -C "$work" commit -m "chore: publish radar snapshot"
+            git -C "$work" push origin "HEAD:$branch"
+          fi
+          python scripts/publish_pending.py --directory data/pending-publish
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          ids = json.loads(Path("/tmp/publish-source-ids.json").read_text(encoding="utf-8"))
+          payload = {
+              "workflow_id": "update-publish",
+              "name": "每小时推送",
+              "schedule": "47 * * * *",
+              "combined_lanes": [],
+              "conclusion": "success",
+              "push": {"attempted": True, "ok": True, "source_ids": ids},
+              "sources": [{"source_id": source_id, "status": "success", "run_kind": "incremental"} for source_id in ids],
+          }
+          Path("/tmp/publish-status.json").write_text(json.dumps(payload), encoding="utf-8")
+          PY
+          python scripts/write_workflow_status.py \
+            --out data/workflow-status/update-publish.json \
+            --payload /tmp/publish-status.json \
+            --run-id "${{ github.run_id }}" \
+            --html-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: Record publish failure
+        if: failure()
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          payload = {
+              "workflow_id": "update-publish",
+              "name": "每小时推送",
+              "schedule": "47 * * * *",
+              "combined_lanes": [],
+              "conclusion": "failure",
+              "push": {"attempted": True, "ok": False, "source_ids": []},
+              "sources": [],
+          }
+          Path("/tmp/publish-status.json").write_text(json.dumps(payload), encoding="utf-8")
+          PY
+          python scripts/write_workflow_status.py \
+            --out data/workflow-status/update-publish.json \
+            --payload /tmp/publish-status.json \
+            --run-id "${{ github.run_id }}" \
+            --html-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

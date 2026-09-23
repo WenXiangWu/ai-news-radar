@@ -1,6 +1,6 @@
 {
-  "schema": "radar-monitor/v1",
-  "generated_at": "2026-09-21T22:03:33.329037+00:00",
+  "schema": "radar-monitor/v2",
+  "generated_at": "2026-09-23T04:05:30.564784+00:00",
   "run": {
     "run_id": "run-20260921T220047Z-68b13e9e",
     "status": "success",
@@ -1588,7 +1588,9 @@
         "status": "verified",
         "fingerprint": "418ce711aa2bfa8aa750eb80f90b58aa3a147c3b701d28d734e78a6eb612b4f8",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 11,
@@ -1628,7 +1630,9 @@
         "status": "verified",
         "fingerprint": "6e9a91dea7d15b25d1c24b0dbd691c3a65131b63339984825959d05815666d45",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 10,
@@ -1671,7 +1675,9 @@
         "status": "verified",
         "fingerprint": "ca1b4dee1b29c347df7ca03b353cf2576f33a3fe9f0c764009d2b7d0e78958f8",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 245,
@@ -1711,7 +1717,9 @@
         "status": "verified",
         "fingerprint": "d47d10b93d20521273d11679f5b6658c2a5e4d9be6a93cff06d13f77c8449505",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 100,
@@ -1751,7 +1759,9 @@
         "status": "verified",
         "fingerprint": "57e60d64c5b744e442b5c75f0302b74569defa193702263d037f729ec8200fba",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 212,
@@ -1794,7 +1804,9 @@
         "status": "unknown",
         "fingerprint": null,
         "cursor_status": "unknown",
-        "cursor_run_id": null
+        "cursor_run_id": null,
+        "presence": "absent",
+        "at": null
       },
       "metrics": {
         "discovered": 0,
@@ -1837,7 +1849,9 @@
         "status": "unknown",
         "fingerprint": null,
         "cursor_status": "unknown",
-        "cursor_run_id": null
+        "cursor_run_id": null,
+        "presence": "absent",
+        "at": null
       },
       "metrics": {
         "discovered": 0,
@@ -1880,7 +1894,9 @@
         "status": "verified",
         "fingerprint": "8e7738a88bbef21f5b3605573b835550c5f179ccfec3ddfc1c899f5fe24ab211",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 0,
@@ -1923,7 +1939,9 @@
         "status": "verified",
         "fingerprint": "89740dd1690df268009c57f7333dd4a28d4c71a878f363a201c2dcde7c38fc4f",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 0,
@@ -1963,7 +1981,9 @@
         "status": "verified",
         "fingerprint": "5c7a636884a1965a697dc416470328ea46495b8a58575c66500ac924dac34346",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 100,
@@ -2003,7 +2023,9 @@
         "status": "verified",
         "fingerprint": "1f498dca8138cca91bfa1a778f9764b833d4a80544b4e1bde65e5bb35167594d",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 20,
@@ -2043,7 +2065,9 @@
         "status": "verified",
         "fingerprint": "2b997b4f0e064bd64aaf4cdd750c7ab424689eb8a0bd1c8b7259544c21993f01",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 863,
@@ -2083,7 +2107,9 @@
         "status": "verified",
         "fingerprint": "11adb3d60dbc3665ba56968c377975bd293743a386b6209614b2f2e7314a3f79",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 20,
@@ -2123,7 +2149,9 @@
         "status": "verified",
         "fingerprint": "a9dff22fc17fbb82d6afe534ea8f49c26c5ba50b87bf48d65d482773b69d7e1d",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 20,
@@ -2163,7 +2191,9 @@
         "status": "verified",
         "fingerprint": "0f7db18bccdc1c622902797014f4a759483e69f2fee23258911c956331fde9d5",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 96,
@@ -2203,7 +2233,9 @@
         "status": "verified",
         "fingerprint": "7146a5bd7b6b3b025c7b0463a0c75aa4658407d5cd0f5d70252b759f411aeac8",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 8,
@@ -2243,7 +2275,9 @@
         "status": "verified",
         "fingerprint": "aeb28e9a78d5787c9390d12a5005fcf787ba176675800104fc368ed08105fc23",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 25,
@@ -2283,7 +2317,9 @@
         "status": "verified",
         "fingerprint": "1c69143a13545c5a42ba964f28d7d6f98552c5798446e0c2ee1b0c196fcc2f1e",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 48,
@@ -2323,7 +2359,9 @@
         "status": "verified",
         "fingerprint": "af4814157ab29b8d4677b134ea27db024c707d86136835edb5afb4507eb2ff5b",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 43,
@@ -2363,7 +2401,9 @@
         "status": "verified",
         "fingerprint": "1014b1e510d15be11d35c831c2cfd74841118d5983b84a361bd5132c5c5a02dd",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 65,
@@ -2403,7 +2443,9 @@
         "status": "verified",
         "fingerprint": "22f18f444db30f3c06e4fda4f63281eb2099b428e1d1f88c0f11d9615ec58309",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 347,
@@ -2443,7 +2485,9 @@
         "status": "verified",
         "fingerprint": "b5f980fb1dd637f6d373761ada640bc1d4976d6fd18354757f772350a2a1534a",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 15,
@@ -2483,7 +2527,9 @@
         "status": "verified",
         "fingerprint": "a3c108ee4a54206b722db3f87aea9add91a03b23624e19ac0301336f77763fc2",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 2,
@@ -2523,7 +2569,9 @@
         "status": "verified",
         "fingerprint": "56aa1e49e4c3b94759da58b6814fd763904edad7c9b02244e4899ea163c8ef97",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 20,
@@ -2563,7 +2611,9 @@
         "status": "verified",
         "fingerprint": "044e5a3be4df70295043ee3872af709a9180d6749d259cdd35aaf19d4d031b56",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 53,
@@ -2603,7 +2653,9 @@
         "status": "verified",
         "fingerprint": "528060fcf1f8ef496d84f04c56a52657a5c57d32fe6c356e41eb707a5aa78384",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 10,
@@ -2643,7 +2695,9 @@
         "status": "verified",
         "fingerprint": "820d36a1c60ff830e94a9f9d5d8dfc5a97b0f060d3b8a090bb5e3f825d38d6f9",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 100,
@@ -2683,7 +2737,9 @@
         "status": "verified",
         "fingerprint": "453de81fa003fa4eb89f77e3fbe5bbf4b25c9ccb092c4b6a621df70bb5964cbe",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 1215,
@@ -2726,7 +2782,9 @@
         "status": "verified",
         "fingerprint": "dc555065e7bbbab90fc7781600e8d3caee6be5b42601096ae08feefe83075155",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 676,
@@ -2766,7 +2824,9 @@
         "status": "verified",
         "fingerprint": "585b78ff9624879125da5b0e62fa4513d0b0e92edaf64ab51f354b80048e0d69",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 44,
@@ -2806,7 +2866,9 @@
         "status": "verified",
         "fingerprint": "04e8057a23d43c864b4ec88917c2bd1d2def5f4eb8f8a91d5ebfbea1269a0c75",
         "cursor_status": "present",
-        "cursor_run_id": "run-20260921T220047Z-68b13e9e"
+        "cursor_run_id": "run-20260921T220047Z-68b13e9e",
+        "presence": "present",
+        "at": null
       },
       "metrics": {
         "discovered": 30,
@@ -2819,6 +2881,2708 @@
       "errors": []
     }
   ],
+  "workflows": [
+    {
+      "schema": "radar-workflow-status/v1",
+      "workflow_id": "update-news",
+      "name": "新闻采集",
+      "schedule": "17 * * * *",
+      "combined_lanes": [],
+      "groups": [],
+      "run_id": "run-20260921T220047Z-68b13e9e",
+      "html_url": "",
+      "conclusion": "success",
+      "started_at": "2026-09-21T22:03:33.440262+00:00",
+      "finished_at": "2026-09-21T22:03:33.440262+00:00",
+      "push": {
+        "attempted": false
+      },
+      "sources": [
+        {
+          "source_id": "official_ai",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "curated_media",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "aibreakfast",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "followbuilders",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "techurls",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "buzzing",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "iris",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "bestblogs",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "zeli",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "hackernews",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "aihubtoday",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "aibase",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "aihot",
+          "status": "success",
+          "run_kind": "incremental"
+        },
+        {
+          "source_id": "newsnow",
+          "status": "success",
+          "run_kind": "incremental"
+        }
+      ]
+    },
+    {
+      "schema": "radar-workflow-status/v1",
+      "workflow_id": "update-radar",
+      "name": "资料抓取",
+      "schedule": "17 1,7,13,19 * * *",
+      "combined_lanes": [],
+      "groups": [
+        "docs-01",
+        "docs-02",
+        "docs-03",
+        "docs-04",
+        "docs-05",
+        "docs-06",
+        "docs-07",
+        "knowledge-01",
+        "knowledge-02",
+        "knowledge-03",
+        "knowledge-04",
+        "knowledge-05",
+        "wiki-01",
+        "wiki-02",
+        "wiki-03"
+      ],
+      "run_id": "run-20260921T220047Z-68b13e9e",
+      "html_url": "",
+      "conclusion": "success",
+      "started_at": "2026-09-21T22:00:47.396870+00:00",
+      "finished_at": "2026-09-21T22:03:32.258053+00:00",
+      "push": {
+        "attempted": false
+      },
+      "sources": [
+        {
+          "source_id": "docs.a2a",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.anthropic-skills",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.autogen",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.chroma",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.codex-sdk",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.codex",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.crewai",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.cursor",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.deepeval",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.dspy",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.faiss",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.fastmcp",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.guardrails-ai",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.guidance",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.humanlayer",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.instructor",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.jarvis-registry",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.langchain",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.langfuse",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.langsmith",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.letta",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.llamaindex",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.mem0",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.microsoft-agent-framework",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.milvus",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.neo4j-graphrag",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.ollama",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.openai-agents-sdk",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.opencode-sdk",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.opik",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.pgvector",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.phoenix",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.pi-sdk",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.pinecone",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.pydantic-ai",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.qdrant",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.ragas",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.ragflow",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.spring-ai",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "docs.weaviate",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.framework.cordis",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.framework.deepseek-harness",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.anthropic.cookbook",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.anthropic.docs",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.anthropic.engineering",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.langchain.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.langchain.langgraph",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.llamaindex.docs",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.mcp.docs",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.openai.cookbook",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.knowledge.openai.docs",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.anthropic.news",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.chip-huyen.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.coding-tools",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.deepmind.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.eugene-yan.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.google.research",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.hamel.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.huggingface.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.interconnects.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.jxnl.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.latent-space.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.lilian-weng.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.microsoft.foundry",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.nvidia.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.openai.news",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.qdrant.editorial",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.qwen.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.simon-willison.blog",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.chroma",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.crewai",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.dspy",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.fastmcp",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.jarvis-registry",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.langchain",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.langfuse",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.langgraph",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.llamaindex",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.mem0",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.openai-agents-sdk",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.pydantic-ai",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "wiki.qdrant",
+          "status": "success",
+          "run_kind": "baseline_only",
+          "error": null
+        },
+        {
+          "source_id": "source.framework.cordis",
+          "status": "success",
+          "run_kind": "incremental",
+          "error": null
+        },
+        {
+          "source_id": "source.framework.deepseek-harness",
+          "status": "success",
+          "run_kind": "incremental",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "modules": [
+      {
+        "module_id": "course-center",
+        "name": "课程中心",
+        "items": [
+          {
+            "item_id": "center",
+            "name": "学习中心",
+            "surface": "/learn/#home",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "site_owned",
+            "reason_zh": "本站页面，没有上游仓库",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "agent",
+            "name": "Agent",
+            "surface": "/learn/books/hello-agents/",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "deepagents",
+            "name": "Deep Agents",
+            "surface": "/learn/books/deepagents-in-action/",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "deepseek-harness",
+            "name": "DeepSeek Harness",
+            "surface": "/learn/frameworks/#deepseek-harness",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "covered_by_framework_module",
+            "reason_zh": "课程卡片指向已有框架模块",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "cordis",
+            "name": "Cordis",
+            "surface": "/learn/frameworks/#deepseek-harness",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "covered_by_framework_module",
+            "reason_zh": "课程卡片指向已有框架模块",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "learn-harness-engineering",
+            "name": "Harness Engineering",
+            "surface": "/learn/books/learn-harness-engineering/",
+            "radar_source_id": "learn-harness-engineering",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "claude-code-report",
+            "name": "深入 Claude Code",
+            "surface": "/learn/books/claude-code-report/",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "pdf_source",
+            "reason_zh": "来源是 PDF，页内图由站点重绘",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "ai-agent-book",
+            "name": "深入理解 AI Agent",
+            "surface": "/learn/books/ai-agent-book/",
+            "radar_source_id": "ai-agent-book",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "build-large-language-model-cn",
+            "name": "从零构建大语言模型",
+            "surface": "/learn/books/build-large-language-model-cn/",
+            "radar_source_id": "build-large-language-model-cn",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "hands-on-large-language-models-cn",
+            "name": "动手学大模型",
+            "surface": "/learn/books/hands-on-large-language-models-cn/",
+            "radar_source_id": "hands-on-large-language-models-cn",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "ai-infra-book",
+            "name": "深入理解 AI Infra",
+            "surface": "/learn/books/ai-infra-book/",
+            "radar_source_id": "ai-infra-book",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "vecdb",
+            "name": "向量数据库",
+            "surface": "/learn/books/easy-vecdb/",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "rag",
+            "name": "RAG",
+            "surface": "/learn/books/all-in-rag/",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "frameworks",
+            "name": "开源框架",
+            "surface": "/learn/frameworks/",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "site_owned",
+            "reason_zh": "本站页面，没有上游仓库",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "practice",
+            "name": "生产实践",
+            "surface": "/studio/",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "site_owned",
+            "reason_zh": "本站页面，没有上游仓库",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "fde-handbook",
+            "name": "前线部署工程师 FDE",
+            "surface": "/learn/books/fde-handbook/",
+            "radar_source_id": "fde-handbook",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "claude-code",
+            "name": "Claude Code",
+            "surface": "/learn/sources/jsmanifest/claude-code.html",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "not_git_tutorial",
+            "reason_zh": "不是 Git 教程仓",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "hello-agents",
+            "name": "Hello-Agents",
+            "surface": "/path/learning-roadmap.html",
+            "radar_source_id": "hello-agents",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "deepagents-in-action",
+            "name": "Deep Agents 实战",
+            "surface": "/path/deepagents-in-action.html",
+            "radar_source_id": "deepagents-in-action",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "all-in-rag",
+            "name": "All-in-RAG",
+            "surface": "/path/all-in-rag.html",
+            "radar_source_id": "all-in-rag",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "easy-vecdb",
+            "name": "Easy-vecDB",
+            "surface": "/path/easy-vecdb.html",
+            "radar_source_id": "easy-vecdb",
+            "workflow_id": "update-textbooks",
+            "coverage": "registered",
+            "reason_code": "not_run",
+            "reason_zh": "尚未成功执行",
+            "baseline": "absent",
+            "baseline_at": null
+          }
+        ]
+      },
+      {
+        "module_id": "official-docs",
+        "name": "官方资料",
+        "items": [
+          {
+            "item_id": "engineering",
+            "name": "Anthropic Engineering",
+            "surface": "frontend/sources/anthropic/engineering",
+            "radar_source_id": "source.knowledge.anthropic.engineering",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "cookbook",
+            "name": "Claude Cookbook",
+            "surface": "frontend/sources/anthropic/cookbook",
+            "radar_source_id": "source.knowledge.anthropic.cookbook",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "openai_cookbook",
+            "name": "OpenAI Cookbook",
+            "surface": "frontend/sources/openai/cookbook",
+            "radar_source_id": "source.knowledge.openai.cookbook",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "langchain_blog",
+            "name": "LangChain Blog",
+            "surface": "frontend/sources/langchain/blog",
+            "radar_source_id": "source.knowledge.langchain.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "mcp_docs",
+            "name": "MCP Docs",
+            "surface": "frontend/sources/mcp/docs",
+            "radar_source_id": "source.knowledge.mcp.docs",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "openai_docs",
+            "name": "OpenAI Docs",
+            "surface": "frontend/sources/openai/docs",
+            "radar_source_id": "source.knowledge.openai.docs",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "langgraph_docs",
+            "name": "LangGraph Docs",
+            "surface": "frontend/sources/langchain/langgraph",
+            "radar_source_id": "source.knowledge.langchain.langgraph",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "llamaindex_docs",
+            "name": "LlamaIndex Docs",
+            "surface": "frontend/sources/llamaindex/docs",
+            "radar_source_id": "source.knowledge.llamaindex.docs",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "anthropic_docs",
+            "name": "Anthropic Docs",
+            "surface": "frontend/sources/anthropic/docs",
+            "radar_source_id": "source.knowledge.anthropic.docs",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "anthropic_news",
+            "name": "Anthropic News",
+            "surface": "frontend/sources/anthropic/news",
+            "radar_source_id": "source.anthropic.news",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "openai_news",
+            "name": "OpenAI News",
+            "surface": "frontend/sources/openai/news",
+            "radar_source_id": "source.openai.news",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "huggingface_blog",
+            "name": "Hugging Face Blog",
+            "surface": "frontend/sources/huggingface/blog",
+            "radar_source_id": "source.huggingface.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "deepmind_blog",
+            "name": "Google DeepMind Blog",
+            "surface": "frontend/sources/deepmind/blog",
+            "radar_source_id": "source.deepmind.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "google_research",
+            "name": "Google Research Blog",
+            "surface": "frontend/sources/google/research",
+            "radar_source_id": "source.google.research",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "azure_foundry",
+            "name": "Azure AI Foundry Blog",
+            "surface": "frontend/sources/microsoft/foundry",
+            "radar_source_id": "source.microsoft.foundry",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "nvidia_devblog",
+            "name": "NVIDIA Developer Blog",
+            "surface": "frontend/sources/nvidia/blog",
+            "radar_source_id": "source.nvidia.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "qwen_blog",
+            "name": "Qwen Blog",
+            "surface": "frontend/sources/qwen/blog",
+            "radar_source_id": "source.qwen.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "simon_willison",
+            "name": "Simon Willison",
+            "surface": "frontend/sources/simon-willison/blog",
+            "radar_source_id": "source.simon-willison.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "hamel_dev",
+            "name": "Hamel Husain",
+            "surface": "frontend/sources/hamel/blog",
+            "radar_source_id": "source.hamel.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "lilian_weng",
+            "name": "Lilian Weng",
+            "surface": "frontend/sources/lilian-weng/blog",
+            "radar_source_id": "source.lilian-weng.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "chip_huyen",
+            "name": "Chip Huyen",
+            "surface": "frontend/sources/chip-huyen/blog",
+            "radar_source_id": "source.chip-huyen.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "eugene_yan",
+            "name": "Eugene Yan",
+            "surface": "frontend/sources/eugene-yan/blog",
+            "radar_source_id": "source.eugene-yan.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "jxnl",
+            "name": "Jason Liu",
+            "surface": "frontend/sources/jxnl/blog",
+            "radar_source_id": "source.jxnl.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "interconnects",
+            "name": "Interconnects",
+            "surface": "frontend/sources/interconnects/blog",
+            "radar_source_id": "source.interconnects.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "latent_space",
+            "name": "Latent Space",
+            "surface": "frontend/sources/latent-space/blog",
+            "radar_source_id": "source.latent-space.blog",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          }
+        ]
+      },
+      {
+        "module_id": "frameworks",
+        "name": "开源框架",
+        "items": [
+          {
+            "item_id": "vllm",
+            "name": "vllm",
+            "surface": "/learn/frameworks/#vllm",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "ollama",
+            "name": "ollama",
+            "surface": "/learn/frameworks/#ollama",
+            "radar_source_id": "docs.ollama",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "sglang",
+            "name": "sglang",
+            "surface": "/learn/frameworks/#sglang",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "tgi",
+            "name": "tgi",
+            "surface": "/learn/frameworks/#tgi",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "llama-cpp",
+            "name": "llama-cpp",
+            "surface": "/learn/frameworks/#llama-cpp",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "litellm",
+            "name": "litellm",
+            "surface": "/learn/frameworks/#litellm",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "claude-agent-sdk",
+            "name": "claude-agent-sdk",
+            "surface": "/learn/frameworks/#claude-agent-sdk",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "codex-sdk",
+            "name": "codex-sdk",
+            "surface": "/learn/frameworks/#codex-sdk",
+            "radar_source_id": "docs.codex-sdk",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "pi-sdk",
+            "name": "pi-sdk",
+            "surface": "/learn/frameworks/#pi-sdk",
+            "radar_source_id": "docs.pi-sdk",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "opencode-sdk",
+            "name": "opencode-sdk",
+            "surface": "/learn/frameworks/#opencode-sdk",
+            "radar_source_id": "docs.opencode-sdk",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "deepseek-harness",
+            "name": "deepseek-harness",
+            "surface": "/learn/frameworks/#deepseek-harness",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "covered_by_framework_module",
+            "reason_zh": "课程卡片指向已有框架模块",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "openai-agents-sdk",
+            "name": "openai-agents-sdk",
+            "surface": "/learn/frameworks/#openai-agents-sdk",
+            "radar_source_id": "docs.openai-agents-sdk",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "google-adk",
+            "name": "google-adk",
+            "surface": "/learn/frameworks/#google-adk",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "microsoft-agent-framework",
+            "name": "microsoft-agent-framework",
+            "surface": "/learn/frameworks/#microsoft-agent-framework",
+            "radar_source_id": "docs.microsoft-agent-framework",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "pydantic-ai",
+            "name": "pydantic-ai",
+            "surface": "/learn/frameworks/#pydantic-ai",
+            "radar_source_id": "docs.pydantic-ai",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "semantic-kernel",
+            "name": "semantic-kernel",
+            "surface": "/learn/frameworks/#semantic-kernel",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "smolagents",
+            "name": "smolagents",
+            "surface": "/learn/frameworks/#smolagents",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "agno",
+            "name": "agno",
+            "surface": "/learn/frameworks/#agno",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "spring-ai",
+            "name": "spring-ai",
+            "surface": "/learn/frameworks/#spring-ai",
+            "radar_source_id": "docs.spring-ai",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "langgraph",
+            "name": "langgraph",
+            "surface": "/learn/frameworks/#langgraph",
+            "radar_source_id": "wiki.langgraph",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "deepagents",
+            "name": "deepagents",
+            "surface": "/learn/frameworks/#deepagents",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "crewai",
+            "name": "crewai",
+            "surface": "/learn/frameworks/#crewai",
+            "radar_source_id": "docs.crewai",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "autogen",
+            "name": "autogen",
+            "surface": "/learn/frameworks/#autogen",
+            "radar_source_id": "docs.autogen",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "instructor",
+            "name": "instructor",
+            "surface": "/learn/frameworks/#instructor",
+            "radar_source_id": "docs.instructor",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "baml",
+            "name": "baml",
+            "surface": "/learn/frameworks/#baml",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "outlines",
+            "name": "outlines",
+            "surface": "/learn/frameworks/#outlines",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "browser-use",
+            "name": "browser-use",
+            "surface": "/learn/frameworks/#browser-use",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "mcp-python-sdk",
+            "name": "mcp-python-sdk",
+            "surface": "/learn/frameworks/#mcp-python-sdk",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "fastmcp",
+            "name": "fastmcp",
+            "surface": "/learn/frameworks/#fastmcp",
+            "radar_source_id": "docs.fastmcp",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "mcp-inspector",
+            "name": "mcp-inspector",
+            "surface": "/learn/frameworks/#mcp-inspector",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "mcp-registry",
+            "name": "mcp-registry",
+            "surface": "/learn/frameworks/#mcp-registry",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "a2a",
+            "name": "a2a",
+            "surface": "/learn/frameworks/#a2a",
+            "radar_source_id": "docs.a2a",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "llamaindex",
+            "name": "llamaindex",
+            "surface": "/learn/frameworks/#llamaindex",
+            "radar_source_id": "docs.llamaindex",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "ragflow",
+            "name": "ragflow",
+            "surface": "/learn/frameworks/#ragflow",
+            "radar_source_id": "docs.ragflow",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "haystack",
+            "name": "haystack",
+            "surface": "/learn/frameworks/#haystack",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "neo4j-graphrag",
+            "name": "neo4j-graphrag",
+            "surface": "/learn/frameworks/#neo4j-graphrag",
+            "radar_source_id": "docs.neo4j-graphrag",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "pgvector",
+            "name": "pgvector",
+            "surface": "/learn/frameworks/#pgvector",
+            "radar_source_id": "docs.pgvector",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "qdrant",
+            "name": "qdrant",
+            "surface": "/learn/frameworks/#qdrant",
+            "radar_source_id": "docs.qdrant",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "milvus",
+            "name": "milvus",
+            "surface": "/learn/frameworks/#milvus",
+            "radar_source_id": "docs.milvus",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "chroma",
+            "name": "chroma",
+            "surface": "/learn/frameworks/#chroma",
+            "radar_source_id": "docs.chroma",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "pinecone",
+            "name": "pinecone",
+            "surface": "/learn/frameworks/#pinecone",
+            "radar_source_id": "docs.pinecone",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "weaviate",
+            "name": "weaviate",
+            "surface": "/learn/frameworks/#weaviate",
+            "radar_source_id": "docs.weaviate",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "lancedb",
+            "name": "lancedb",
+            "surface": "/learn/frameworks/#lancedb",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "faiss",
+            "name": "faiss",
+            "surface": "/learn/frameworks/#faiss",
+            "radar_source_id": "docs.faiss",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "vespa",
+            "name": "vespa",
+            "surface": "/learn/frameworks/#vespa",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "opensearch",
+            "name": "opensearch",
+            "surface": "/learn/frameworks/#opensearch",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "elasticsearch",
+            "name": "elasticsearch",
+            "surface": "/learn/frameworks/#elasticsearch",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "redis-vector",
+            "name": "redis-vector",
+            "surface": "/learn/frameworks/#redis-vector",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "mem0",
+            "name": "mem0",
+            "surface": "/learn/frameworks/#mem0",
+            "radar_source_id": "docs.mem0",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "letta",
+            "name": "letta",
+            "surface": "/learn/frameworks/#letta",
+            "radar_source_id": "docs.letta",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "tencentdb-agent-memory",
+            "name": "tencentdb-agent-memory",
+            "surface": "/learn/frameworks/#tencentdb-agent-memory",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "zep",
+            "name": "zep",
+            "surface": "/learn/frameworks/#zep",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "cognee",
+            "name": "cognee",
+            "surface": "/learn/frameworks/#cognee",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "dspy",
+            "name": "dspy",
+            "surface": "/learn/frameworks/#dspy",
+            "radar_source_id": "docs.dspy",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "guidance",
+            "name": "guidance",
+            "surface": "/learn/frameworks/#guidance",
+            "radar_source_id": "docs.guidance",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "adalflow",
+            "name": "adalflow",
+            "surface": "/learn/frameworks/#adalflow",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "anthropic-skills",
+            "name": "anthropic-skills",
+            "surface": "/learn/frameworks/#anthropic-skills",
+            "radar_source_id": "docs.anthropic-skills",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "superpowers",
+            "name": "superpowers",
+            "surface": "/learn/frameworks/#superpowers",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "bmad-method",
+            "name": "bmad-method",
+            "surface": "/learn/frameworks/#bmad-method",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "awesome-claude-skills",
+            "name": "awesome-claude-skills",
+            "surface": "/learn/frameworks/#awesome-claude-skills",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "llm-guard",
+            "name": "llm-guard",
+            "surface": "/learn/frameworks/#llm-guard",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "prompt-armor",
+            "name": "prompt-armor",
+            "surface": "/learn/frameworks/#prompt-armor",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "nemo-guardrails",
+            "name": "nemo-guardrails",
+            "surface": "/learn/frameworks/#nemo-guardrails",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "guardrails-ai",
+            "name": "guardrails-ai",
+            "surface": "/learn/frameworks/#guardrails-ai",
+            "radar_source_id": "docs.guardrails-ai",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "azure-ai-content-safety",
+            "name": "azure-ai-content-safety",
+            "surface": "/learn/frameworks/#azure-ai-content-safety",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "lakera",
+            "name": "lakera",
+            "surface": "/learn/frameworks/#lakera",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "llama-guard",
+            "name": "llama-guard",
+            "surface": "/learn/frameworks/#llama-guard",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "presidio",
+            "name": "presidio",
+            "surface": "/learn/frameworks/#presidio",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "garak",
+            "name": "garak",
+            "surface": "/learn/frameworks/#garak",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "pyrit",
+            "name": "pyrit",
+            "surface": "/learn/frameworks/#pyrit",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "ragas",
+            "name": "ragas",
+            "surface": "/learn/frameworks/#ragas",
+            "radar_source_id": "docs.ragas",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "deepeval",
+            "name": "deepeval",
+            "surface": "/learn/frameworks/#deepeval",
+            "radar_source_id": "docs.deepeval",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "promptfoo",
+            "name": "promptfoo",
+            "surface": "/learn/frameworks/#promptfoo",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "inspect-ai",
+            "name": "inspect-ai",
+            "surface": "/learn/frameworks/#inspect-ai",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "openai-evals",
+            "name": "openai-evals",
+            "surface": "/learn/frameworks/#openai-evals",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "lm-evaluation-harness",
+            "name": "lm-evaluation-harness",
+            "surface": "/learn/frameworks/#lm-evaluation-harness",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "giskard",
+            "name": "giskard",
+            "surface": "/learn/frameworks/#giskard",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "langfuse",
+            "name": "langfuse",
+            "surface": "/learn/frameworks/#langfuse",
+            "radar_source_id": "docs.langfuse",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "langsmith",
+            "name": "langsmith",
+            "surface": "/learn/frameworks/#langsmith",
+            "radar_source_id": "docs.langsmith",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "phoenix",
+            "name": "phoenix",
+            "surface": "/learn/frameworks/#phoenix",
+            "radar_source_id": "docs.phoenix",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "opik",
+            "name": "opik",
+            "surface": "/learn/frameworks/#opik",
+            "radar_source_id": "docs.opik",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "helicone",
+            "name": "helicone",
+            "surface": "/learn/frameworks/#helicone",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "lunary",
+            "name": "lunary",
+            "surface": "/learn/frameworks/#lunary",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "openllmetry",
+            "name": "openllmetry",
+            "surface": "/learn/frameworks/#openllmetry",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "openinference",
+            "name": "openinference",
+            "surface": "/learn/frameworks/#openinference",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "weave",
+            "name": "weave",
+            "surface": "/learn/frameworks/#weave",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "dify",
+            "name": "dify",
+            "surface": "/learn/frameworks/#dify",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "open-webui",
+            "name": "open-webui",
+            "surface": "/learn/frameworks/#open-webui",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "langflow",
+            "name": "langflow",
+            "surface": "/learn/frameworks/#langflow",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "flowise",
+            "name": "flowise",
+            "surface": "/learn/frameworks/#flowise",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "anythingllm",
+            "name": "anythingllm",
+            "surface": "/learn/frameworks/#anythingllm",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "librechat",
+            "name": "librechat",
+            "surface": "/learn/frameworks/#librechat",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "temporal",
+            "name": "temporal",
+            "surface": "/learn/frameworks/#temporal",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "inngest",
+            "name": "inngest",
+            "surface": "/learn/frameworks/#inngest",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "humanlayer",
+            "name": "humanlayer",
+            "surface": "/learn/frameworks/#humanlayer",
+            "radar_source_id": "docs.humanlayer",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          },
+          {
+            "item_id": "langgraph-platform",
+            "name": "langgraph-platform",
+            "surface": "/learn/frameworks/#langgraph-platform",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "unregistered",
+            "reason_code": "not_in_registry",
+            "reason_zh": "未写入登记表，Radar 不会生成任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "jarvis-registry",
+            "name": "jarvis-registry",
+            "surface": "/learn/frameworks/#jarvis-registry",
+            "radar_source_id": "docs.jarvis-registry",
+            "workflow_id": "update-radar",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "present",
+            "baseline_at": null
+          }
+        ]
+      },
+      {
+        "module_id": "frontier",
+        "name": "前沿追踪",
+        "items": [
+          {
+            "item_id": "official_ai",
+            "name": "Official AI Updates",
+            "surface": "/discover/",
+            "radar_source_id": "official_ai",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "curated_media",
+            "name": "Curated Media",
+            "surface": "/discover/",
+            "radar_source_id": "curated_media",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "aibreakfast",
+            "name": "AI Breakfast",
+            "surface": "/discover/",
+            "radar_source_id": "aibreakfast",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "followbuilders",
+            "name": "Follow Builders",
+            "surface": "/discover/",
+            "radar_source_id": "followbuilders",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "techurls",
+            "name": "TechURLs",
+            "surface": "/discover/",
+            "radar_source_id": "techurls",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "buzzing",
+            "name": "Buzzing",
+            "surface": "/discover/",
+            "radar_source_id": "buzzing",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "iris",
+            "name": "Info Flow",
+            "surface": "/discover/",
+            "radar_source_id": "iris",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "bestblogs",
+            "name": "BestBlogs",
+            "surface": "/discover/",
+            "radar_source_id": "bestblogs",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "zeli",
+            "name": "Zeli",
+            "surface": "/discover/",
+            "radar_source_id": "zeli",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "hackernews",
+            "name": "Hacker News",
+            "surface": "/discover/",
+            "radar_source_id": "hackernews",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "aihubtoday",
+            "name": "AI HubToday",
+            "surface": "/discover/",
+            "radar_source_id": "aihubtoday",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "aibase",
+            "name": "AIbase",
+            "surface": "/discover/",
+            "radar_source_id": "aibase",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "aihot",
+            "name": "AI HOT",
+            "surface": "/discover/",
+            "radar_source_id": "aihot",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          },
+          {
+            "item_id": "newsnow",
+            "name": "NewsNow",
+            "surface": "/discover/",
+            "radar_source_id": "newsnow",
+            "workflow_id": "update-news",
+            "coverage": "registered",
+            "reason_code": "push_blocked",
+            "reason_zh": "抓取已完成，尚未推上站点",
+            "baseline": "absent",
+            "baseline_at": null
+          }
+        ]
+      },
+      {
+        "module_id": "summits",
+        "name": "技术峰会",
+        "items": [
+          {
+            "item_id": "unprompted-2026",
+            "name": "unprompted-2026",
+            "surface": "/discover/summits/detail.html?id=unprompted-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "gartner-data-analytics-2026",
+            "name": "gartner-data-analytics-2026",
+            "surface": "/discover/summits/detail.html?id=gartner-data-analytics-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "gtc-2026",
+            "name": "gtc-2026",
+            "surface": "/discover/summits/detail.html?id=gtc-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "sequoia-ai-ascent-2026",
+            "name": "sequoia-ai-ascent-2026",
+            "surface": "/discover/summits/detail.html?id=sequoia-ai-ascent-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "google-io-2026",
+            "name": "google-io-2026",
+            "surface": "/discover/summits/detail.html?id=google-io-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "microsoft-build-2026",
+            "name": "microsoft-build-2026",
+            "surface": "/discover/summits/detail.html?id=microsoft-build-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "baai-2026",
+            "name": "baai-2026",
+            "surface": "/discover/summits/detail.html?id=baai-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "databricks-dai-2026",
+            "name": "databricks-dai-2026",
+            "surface": "/discover/summits/detail.html?id=databricks-dai-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "ai-engineer-worlds-fair-2026",
+            "name": "ai-engineer-worlds-fair-2026",
+            "surface": "/discover/summits/detail.html?id=ai-engineer-worlds-fair-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "waic-2026",
+            "name": "waic-2026",
+            "surface": "/discover/summits/detail.html?id=waic-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "world-summit-ai-2026",
+            "name": "world-summit-ai-2026",
+            "surface": "/discover/summits/detail.html?id=world-summit-ai-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "pytorch-conference-na-2026",
+            "name": "pytorch-conference-na-2026",
+            "surface": "/discover/summits/detail.html?id=pytorch-conference-na-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          },
+          {
+            "item_id": "neurips-2026",
+            "name": "neurips-2026",
+            "surface": "/discover/summits/detail.html?id=neurips-2026",
+            "radar_source_id": null,
+            "workflow_id": null,
+            "coverage": "excluded",
+            "reason_code": "static_catalog",
+            "reason_zh": "静态目录，没有 Radar 任务",
+            "baseline": "not_applicable",
+            "baseline_at": null
+          }
+        ]
+      }
+    ]
+  },
   "reports": {
     "latest_run": "/data/radar-run-report.json",
     "latest_update": "/data/radar-update-report.json",

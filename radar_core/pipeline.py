@@ -178,6 +178,17 @@ def run_source(source: SourceSpec, context: RunContext) -> SourceRunResult:
         result.status = "dry_run"
         _finish_result(result, started_clock)
         return result
+    if context.mode == "bootstrap":
+        result.status = "failed"
+        result.failed = 1
+        result.run_kind = "bootstrap"
+        result.errors.append("bootstrap is disabled")
+        context.state.record_run(
+            context.run_id,
+            {"status": "failed", "source_id": source.id, "errors": result.errors},
+        )
+        _finish_result(result, started_clock)
+        return result
 
     try:
         connector = _connector_for(source, context)

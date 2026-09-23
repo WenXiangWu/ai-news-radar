@@ -92,6 +92,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--now", default="")
     parser.add_argument("--only-source", default="")
+    parser.add_argument("--only-sources", default="", help="Comma-separated source ids")
     parser.add_argument("--only-module", default="")
     parser.add_argument("--force", action="store_true")
     mode = parser.add_mutually_exclusive_group()
@@ -121,6 +122,9 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
+    if args.bootstrap:
+        print("bootstrap is disabled", file=sys.stderr)
+        return 2
     target_root = Path(args.target_root).resolve()
     state_path = Path(args.state)
     report_path = Path(args.report)
@@ -143,7 +147,7 @@ def main(argv: list[str] | None = None) -> int:
         if not args.dry_run:
             register_new_sources(registry, state, run_id)
             register_new_tasks(registry, state, run_id)
-        force_target = bool(args.force or args.only_source or args.only_module)
+        force_target = bool(args.force or args.only_source or args.only_sources or args.only_module)
         operations = discover_due_operations(
             registry,
             now,
@@ -165,6 +169,18 @@ def main(argv: list[str] | None = None) -> int:
             state,
             force=force_target,
         )
+        if args.only_sources:
+            allowed = {part.strip() for part in args.only_sources.split(",") if part.strip()}
+            operations = [
+                operation
+                for operation in operations
+                if operation.source_id in allowed or operation.task_id in allowed
+            ]
+            control_operations = [
+                operation
+                for operation in control_operations
+                if operation.task.id in allowed
+            ]
         if args.only_source:
             operations = [
                 operation
@@ -194,9 +210,7 @@ def main(argv: list[str] | None = None) -> int:
                 if operation.task.module_id == args.only_module
             ]
 
-        if args.bootstrap:
-            run_mode = "bootstrap"
-        elif args.baseline_only:
+        if args.baseline_only:
             run_mode = "baseline_only"
         else:
             run_mode = "incremental"

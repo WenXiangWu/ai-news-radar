@@ -1,0 +1,92 @@
+name: Update Textbooks
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0 * * *"
+
+concurrency:
+  group: textbooks
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Sync textbook mirrors
+        env:
+          TEXTBOOK_SYNC_URL: ${{ secrets.TEXTBOOK_SYNC_URL }}
+        run: |
+          set -euo pipefail
+          mkdir -p data/workflow-status /tmp
+          if [ -z "${TEXTBOOK_SYNC_URL:-}" ]; then
+            python3 - <<'PY'
+            import json
+            from pathlib import Path
+            payload = {
+                "workflow_id": "update-textbooks",
+                "name": "教材镜像",
+                "schedule": "17 0 * * *",
+                "combined_lanes": [],
+                "conclusion": "failure",
+                "push": {"attempted": False, "error": "TEXTBOOK_SYNC_URL is not configured"},
+                "sources": [],
+            }
+            Path("/tmp/textbook-status.json").write_text(json.dumps(payload), encoding="utf-8")
+            PY
+            python scripts/write_workflow_status.py \
+              --out data/workflow-status/update-textbooks.json \
+              --payload /tmp/textbook-status.json \
+              --run-id "${{ github.run_id }}" \
+              --html-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "TEXTBOOK_SYNC_URL is not configured"
+            exit 1
+          fi
+          response="$(curl -fsS -X POST "$TEXTBOOK_SYNC_URL")"
+          python3 - "$response" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+          body = json.loads(sys.argv[1])
+          books = body.get("books") or body.get("results") or []
+          sources = []
+          failed = False
+          for book in books:
+              if not isinstance(book, dict):
+                  continue
+              ok = bool(book.get("ok", True))
+              failed = failed or not ok
+              sources.append({
+                  "source_id": book.get("id"),
+                  "status": "success" if ok else "failed",
+                  "run_kind": "incremental",
+                  "action": book.get("action"),
+              })
+          payload = {
+              "workflow_id": "update-textbooks",
+              "name": "教材镜像",
+              "schedule": "17 0 * * *",
+              "combined_lanes": [],
+              "conclusion": "failure" if failed else "success",
+              "push": {"attempted": False},
+              "sources": sources,
+          }
+          Path("/tmp/textbook-status.json").write_text(json.dumps(payload), encoding="utf-8")
+          PY
+          python scripts/write_workflow_status.py \
+            --out data/workflow-status/update-textbooks.json \
+            --payload /tmp/textbook-status.json \
+            --run-id "${{ github.run_id }}" \
+            --html-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

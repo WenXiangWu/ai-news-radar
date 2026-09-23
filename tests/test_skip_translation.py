@@ -72,14 +72,27 @@ def _source() -> SourceSpec:
 
 
 def test_skip_translation_fetches_without_calling_the_router(tmp_path: Path):
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    baseline = RunContext(
+        state=state,
+        run_id="run-baseline",
+        target_locales=("zh-CN",),
+        connector_factory=lambda _source: _FetchConnector(),
+        router=_ExplodingRouter(),
+        now=datetime(2026, 9, 20, tzinfo=timezone.utc),
+        mode="baseline_only",
+        skip_translation=True,
+    )
+    established = run_source(_source(), baseline)
+    assert established.fetched == 0
     context = RunContext(
-        state=StateStore.open(tmp_path / "state.sqlite3"),
+        state=state,
         run_id="run-1",
         target_locales=("zh-CN",),
         connector_factory=lambda _source: _FetchConnector(),
         router=_ExplodingRouter(),
         now=datetime(2026, 9, 20, tzinfo=timezone.utc),
-        mode="bootstrap",
+        mode="incremental",
         skip_translation=True,
     )
 

@@ -278,17 +278,35 @@ def test_max_new_items_caps_selection_and_defers_rest(tmp_path: Path):
     state.close()
 
 
-def test_bootstrap_mode_fetches_on_first_run(tmp_path: Path):
+def test_bootstrap_is_disabled(tmp_path: Path):
     from radar_core.pipeline import run_source
 
     connector = CountingConnector()
     state = StateStore.open(tmp_path / "state.sqlite3")
-
     result = run_source(_source(), _context(state, connector, mode="bootstrap"))
 
-    assert result.run_kind == "bootstrap"
-    assert result.fetched == 2
-    assert connector.fetches == ["p1", "p2"]
+    assert result.status == "failed"
+    assert result.fetched == 0
+    assert result.errors == ["bootstrap is disabled"]
+    assert connector.fetches == []
+    state.close()
+
+
+def test_baseline_at_is_written_once(tmp_path: Path):
+    from radar_core.pipeline import run_source
+
+    state = StateStore.open(tmp_path / "state.sqlite3")
+    source = _source()
+    first = run_source(
+        source, _context(state, CountingConnector(), mode="incremental", run_id="r1")
+    )
+    assert first.run_kind == "baseline_only"
+    stamped = state.baseline_at(source.id)
+    assert stamped
+    run_source(
+        source, _context(state, CountingConnector(), mode="incremental", run_id="r2")
+    )
+    assert state.baseline_at(source.id) == stamped
     state.close()
 
 
@@ -411,7 +429,7 @@ def test_http_404_item_is_marked_missing_and_next_item_is_fetched(tmp_path: Path
     assert connector.fetches == []
 
     second = run_source(
-        source, _context(state, connector, mode="bootstrap", run_id="r2")
+        source, _context(state, connector, mode="incremental", run_id="r2")
     )
 
     assert second.status == "success"
@@ -439,7 +457,7 @@ def test_oversized_item_is_blocked_and_next_item_is_fetched(tmp_path: Path):
     state = StateStore.open(tmp_path / "state.sqlite3")
     run_source(source, _context(state, connector, mode="baseline_only", run_id="r1"))
     second = run_source(
-        source, _context(state, connector, mode="bootstrap", run_id="r2")
+        source, _context(state, connector, mode="incremental", run_id="r2")
     )
 
     assert second.status == "success"

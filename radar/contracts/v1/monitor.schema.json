@@ -1,12 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "radar-monitor/v1",
+    "$id": "radar-monitor/v2",
   "title": "Radar monitoring snapshot",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema", "generated_at", "run", "summary", "providers", "modules", "sources", "reports"],
+  "required": ["schema", "generated_at", "run", "summary", "providers", "modules", "sources", "workflows", "coverage", "reports"],
   "properties": {
-    "schema": {"const": "radar-monitor/v1"},
+    "schema": {"const": "radar-monitor/v2"},
     "generated_at": {"type": "string", "format": "date-time"},
     "run": {
       "type": "object",
@@ -26,6 +26,8 @@
     "providers": {"type": "array", "items": {"type": "object"}},
     "modules": {"type": "array", "items": {"type": "object"}},
     "sources": {"type": "array", "items": {"type": "object"}},
+    "workflows": {"type": "array", "items": {"type": "object"}},
+    "coverage": {"type": "object"},
     "reports": {
       "type": "object",
       "required": ["latest_update", "latest_validation", "history_index"],

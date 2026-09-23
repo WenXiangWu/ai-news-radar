@@ -173,9 +173,11 @@ def build_monitor_snapshot(
             int(row["metrics"].get("translated") or 0) for row in source_rows
         ),
     }
+    workflows = _workflow_rows(target_root)
+    coverage = _coverage_rows(target_root, workflows, source_rows, validation_by_source)
     run_id = str(run_report.get("run_id") or "")
     return {
-        "schema": "radar-monitor/v1",
+        "schema": "radar-monitor/v2",
         "generated_at": generated,
         "run": {
             "run_id": run_id,
@@ -190,6 +192,8 @@ def build_monitor_snapshot(
         "providers": providers,
         "modules": sorted(module_rows, key=lambda row: str(row["module_id"])),
         "sources": source_rows,
+        "workflows": workflows,
+        "coverage": coverage,
         "reports": {
             "latest_run": _public_path(public_prefix, "radar-run-report.json"),
             "latest_update": _public_path(public_prefix, "radar-update-report.json"),
@@ -197,6 +201,101 @@ def build_monitor_snapshot(
             "history_index": _public_path(reports_prefix, "index.json"),
         },
     }
+
+
+def _workflow_rows(target_root: Path) -> list[dict[str, Any]]:
+    seen: set[str] = set()
+    rows: list[dict[str, Any]] = []
+    directories = [
+        Path(target_root) / "data/workflow-status",
+        Path(__file__).resolve().parents[1] / "data/workflow-status",
+    ]
+    for directory in directories:
+        if not directory.is_dir():
+            continue
+        for path in sorted(directory.glob("*.json")):
+            payload = _load_json(path)
+            workflow_id = str(payload.get("workflow_id") or path.stem)
+            if workflow_id in seen:
+                current = next(row for row in rows if row.get("workflow_id") == workflow_id)
+                current["sources"] = list(current.get("sources") or []) + list(payload.get("sources") or [])
+                current["groups"] = sorted(set(list(current.get("groups") or []) + list(payload.get("groups") or [])))
+                if payload.get("conclusion") != "success":
+                    current["conclusion"] = payload.get("conclusion")
+                finished = str(payload.get("finished_at") or "")
+                if finished > str(current.get("finished_at") or ""):
+                    current["finished_at"] = payload.get("finished_at")
+                    current["html_url"] = payload.get("html_url") or current.get("html_url")
+                continue
+            seen.add(workflow_id)
+            rows.append(payload)
+    return rows
+
+
+def _coverage_rows(
+    target_root: Path,
+    workflows: list[dict[str, Any]],
+    source_rows: list[dict[str, Any]],
+    validation_by_source: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    catalog = Path(target_root) / "frontend/path/catalog.js"
+    if not catalog.is_file():
+        return {"modules": []}
+    try:
+        from scripts.build_way_inventory import REASONS, build_way_inventory
+    except ImportError:
+        from build_way_inventory import REASONS, build_way_inventory
+    inventory = build_way_inventory(target_root)
+    published: set[str] = set()
+    fetch_status: dict[str, str] = {}
+    for workflow in workflows:
+        push = workflow.get("push") if isinstance(workflow.get("push"), dict) else {}
+        if workflow.get("workflow_id") == "update-publish" and push.get("ok"):
+            published.update(str(item) for item in push.get("source_ids") or [])
+        for source in workflow.get("sources") or []:
+            if isinstance(source, dict) and source.get("source_id"):
+                fetch_status[str(source["source_id"])] = str(source.get("status") or "")
+    baseline_by_source = {
+        str(row.get("source_id")): row.get("baseline") or {}
+        for row in source_rows
+    }
+    validation_by_source = validation_by_source or {}
+    for module in inventory["modules"]:
+        for item in module["items"]:
+            if item["coverage"] in {"excluded", "unregistered"}:
+                item["baseline"] = "not_applicable"
+                item["baseline_at"] = None
+                continue
+            source_id = str(item.get("radar_source_id") or "")
+            baseline = dict(baseline_by_source.get(source_id) or {})
+            validation = validation_by_source.get(source_id) or {}
+            if str(validation.get("baseline_status") or "") == "verified":
+                baseline["presence"] = "present"
+                baseline["at"] = validation.get("baseline_at") or baseline.get("at")
+            elif validation and baseline.get("presence") != "present":
+                baseline["presence"] = "absent"
+            if baseline.get("presence") == "present" or baseline.get("status") == "verified":
+                item["baseline"] = "present"
+                item["baseline_at"] = baseline.get("at")
+            else:
+                item["baseline"] = "absent"
+                item["baseline_at"] = None
+            status = fetch_status.get(source_id)
+            if source_id in published and status == "success":
+                item["coverage"] = "updating"
+            elif status == "failed":
+                item["coverage"] = "registered"
+                item["reason_code"] = "run_failed"
+                item["reason_zh"] = REASONS["run_failed"]
+            elif status == "success":
+                item["coverage"] = "registered"
+                item["reason_code"] = "push_blocked"
+                item["reason_zh"] = REASONS["push_blocked"]
+            else:
+                item["coverage"] = "registered"
+                item["reason_code"] = "not_run"
+                item["reason_zh"] = REASONS["not_run"]
+    return {"modules": inventory["modules"]}
 
 
 def build_report_index(
@@ -305,6 +404,12 @@ def _build_source_row(
         "cursor_status": validation.get("cursor_status") or "unknown",
         "cursor_run_id": validation.get("cursor_run_id")
         or (operation.get("baseline_after") or {}).get("cursor_run_id"),
+        "presence": (
+            "present"
+            if str(validation.get("baseline_status") or "") == "verified"
+            else "absent"
+        ),
+        "at": validation.get("baseline_at"),
     }
     translations = list(update.get("translation_links") or [])
     return {
