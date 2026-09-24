@@ -1,31 +1,16 @@
 {
   "title": "2026-W39 周报",
   "dates": [
+    "2026-09-25",
     "2026-09-24",
     "2026-09-23",
     "2026-09-22",
     "2026-09-21",
     "2026-09-20",
-    "2026-09-19",
-    "2026-09-18"
+    "2026-09-19"
   ],
   "total_items": 40,
   "items": [
-    {
-      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T04:45:46.237000+00:00",
-      "source_count": 6,
-      "score": 88,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
     {
       "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
@@ -75,37 +60,6 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph-cli==0.4.32.dev0",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T23:26:51+00:00",
-      "source_count": 2,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
-      "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-23T22:54:29.320000+00:00",
-      "source_count": 4,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
       "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "source": "Anthropic：Newsroom（网页）",
@@ -138,16 +92,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
-      "url": "https://openai.com/index/ringg",
-      "source": "OpenAI News",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-24T04:43:55.149291+00:00",
+      "published_at": "2026-09-24T14:08:57+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "openai"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -198,19 +152,47 @@
       "label": "官方更新"
     },
     {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-18T11:15:43.941000+00:00",
-      "source_count": 5,
-      "score": 85,
+      "title": "Require proof of presence for high-impact actions",
+      "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-24T20:28:33+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "When chat is the wrong UI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-24T20:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "coding"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "官方更新"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-24T16:20:39+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
@@ -316,31 +298,73 @@
       "label": "官方更新"
     },
     {
-      "title": "新专家加入 Google 人工智能与经济团队",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
-      "source": "Google AI Blog",
+      "title": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
+      "source": "GitHub AI & ML",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T14:00:00+00:00",
+      "published_at": "2026-09-24T18:26:12+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
-        "google"
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "与 Google 共同创造时尚的未来",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
-      "source": "Google AI Blog",
+      "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
+      "url": "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent",
+      "source": "Azure AI Foundry Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-18T13:00:00+00:00",
+      "published_at": "2026-09-24T17:55:06+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
-        "google"
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-24T15:03:16+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available",
+      "url": "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-24T15:00:57+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
+      "url": "https://openai.com/index/ringg",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-24T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -512,21 +536,6 @@
       "label": "多源热议"
     },
     {
-      "title": "v0.5.20",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
-      "source": "SGLang Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T08:02:22+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Node 20 is no longer available in GitHub Actions",
       "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
       "source": "GitHub Changelog",
@@ -598,23 +607,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "invideo 如何利用 GPT‑6 Astra 将颜色分级提高 3 倍",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T12:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-24T05:19:24.707982+00:00",
+  "generated_at": "2026-09-24T23:00:08.997023+00:00",
   "period": "2026-W39"
 }

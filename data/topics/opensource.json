@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-24T05:19:24.707982+00:00",
+  "generated_at": "2026-09-24T23:00:08.997023+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 10,
+  "total_items": 5,
   "items": [
     {
-      "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
-      "url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
-      "source": "OpenRouter：Announcements（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-24T00:00:00+00:00",
+      "title": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+      "url": "https://www.aibase.com/news/31356",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-24T18:21:55.694147+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "opensource",
@@ -23,29 +23,13 @@
       "label": "行业动态"
     },
     {
-      "title": "LensVLM-9B by Apple",
-      "url": "https://huggingface.co/papers/2605.07019",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-23T20:35:20+00:00",
+      "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
+      "url": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-24T18:11:27+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "opensource",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Clément Delangue tells UN Security Council open-source AI helps defenders",
-      "url": "https://thenextweb.com/news/clement-delangue-un-security-council-open-source-ai",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-23T20:24:22+00:00",
-      "source_count": 1,
-      "score": 50,
+      "score": 59,
       "official": false,
       "topics": [
         "opensource"
@@ -54,11 +38,11 @@
       "label": "值得关注"
     },
     {
-      "title": "如何使用 NVIDIA Warp 和 MjWarp 加速机器人模拟和学习工作流程",
-      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T18:41:40+00:00",
+      "published_at": "2026-09-24T14:08:57+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
@@ -69,102 +53,36 @@
       "label": "官方更新"
     },
     {
-      "title": "LensVLM: Compressing long context as images, expanding only relevant pages",
-      "url": "https://huggingface.co/apple/LensVLM-9B",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-23T18:36:29+00:00",
+      "title": "We used an AI agent to fix an open-source bug. Someone asked to ban us",
+      "url": "https://github.com/saulpw/visidata/pull/3229",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-24T01:14:43+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 47,
       "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "开源微信流，微信聊天记录，可以直接给 Codex 和 Obsidan 了",
-      "url": "https://waytoagi.feishu.cn/wiki/W4A8wRWa2iXFyrkVWrrcXRUgnLg?from=from_copylink",
-      "source": "社区更新 · 2026-09-22",
-      "site_id": "waytoagi",
-      "published_at": "2026-09-23T16:53:39.780401+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
       "topics": [
         "agent",
-        "coding",
         "opensource"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "我把463个AI视频做成了Skill和提示语模版，全都开源！",
-      "url": "https://waytoagi.feishu.cn/wiki/RnLewCa42iQ56VkC1HnclnYbnSd?from=from_copylink",
-      "source": "社区更新 · 2026-09-22",
-      "site_id": "waytoagi",
-      "published_at": "2026-09-23T16:53:39.780401+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "LLM Benchmark for de-identification and synthesis",
-      "url": "https://huggingface.co/datasets/TonicAI/Privacy-Bench",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-23T16:17:09+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "opensource",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "小米发布 MiMo-V2.6 Pro 与 Flash 开源全模态模型，Pro 在多数 Agent 基准上对标 Claude Opus 5 和 GPT-5.6 Sol",
-      "url": "https://x.com/AravSrinivas/status/2102780186202972254",
-      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
+      "url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
+      "source": "OpenRouter：Announcements（RSS）",
       "site_id": "aihot",
-      "published_at": "2026-09-23T15:20:38+00:00",
+      "published_at": "2026-09-24T00:00:00+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 73,
       "official": false,
       "topics": [
-        "openai",
-        "anthropic",
-        "agent",
         "opensource",
-        "launch",
         "industry"
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "**了解谁在何时说话：使用 NVIDIA Nemotron 3 Diarization 构建实时多说话者 AI**",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T13:17:01+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }

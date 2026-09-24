@@ -1,11 +1,90 @@
 {
-  "generated_at": "2026-09-24T05:19:24.707982+00:00",
+  "generated_at": "2026-09-24T23:00:08.997023+00:00",
   "slug": "coding",
   "label": "AI 编码",
   "group": "tech",
   "blurb": "编码助手与开发工作流",
-  "total_items": 12,
+  "total_items": 7,
   "items": [
+    {
+      "title": "我把 Cursor 接到了蓝湖上，设计师再也不用追着我问\"还原了吗\"",
+      "url": "https://juejin.cn/post/7688644921475924010",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-24T21:57:20.714000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "给Codex配上Jev，直接起飞。",
+      "url": "https://juejin.cn/post/7688401277182066738",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-24T21:57:20.714000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Vibe Coding Production Kit – a production workflow for AI coding agents",
+      "url": "https://github.com/Moeeryani/Vibe-Coding-Production-Kit",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-24T21:02:34+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "When chat is the wrong UI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-24T20:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 发布 Claude Opus 5.5，面向更长、上下文更重的编码会话优化成本",
+      "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+      "source": "Claude：Blog（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-24T16:38:37.757000+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "coding",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "微软发布 Ink Canvas 数字画布：手写草图 + Copilot，AI 帮你把灵感变成内容",
       "url": "https://www.aibase.com/news/31330",
@@ -13,7 +92,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 73,
       "official": false,
       "topics": [
         "coding",
@@ -30,7 +109,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 73,
       "official": false,
       "topics": [
         "coding",
@@ -39,165 +118,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "More ways to request and configure Copilot code reviews",
-      "url": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T21:25:58+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在 GitHub Copilot 应用程序中呈现巨大的拉取请求",
-      "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T18:29:49+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "开源微信流，微信聊天记录，可以直接给 Codex 和 Obsidan 了",
-      "url": "https://waytoagi.feishu.cn/wiki/W4A8wRWa2iXFyrkVWrrcXRUgnLg?from=from_copylink",
-      "source": "社区更新 · 2026-09-22",
-      "site_id": "waytoagi",
-      "published_at": "2026-09-23T16:53:39.780401+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Local sandboxing in the GitHub Copilot app",
-      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T15:00:57+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Cursor 发布 Rollouts 和 Security Reviewer 开发机器人",
-      "url": "https://cursor.com/blog/rollouts-and-security-reviewer",
-      "source": "Cursor Blog",
-      "site_id": "aihot",
-      "published_at": "2026-09-23T12:00:00+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": false,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cursor 提升 agent 长时运行 token 效率，用户成本降低 7%",
-      "url": "https://cursor.com/blog/improved-token-efficiency",
-      "source": "Cursor Blog",
-      "site_id": "aihot",
-      "published_at": "2026-09-23T12:00:00+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "国内开发者如何稳定使用 Claude Code、Codex 和 Gemini CLI：从配置接入到团队协作",
-      "url": "https://www.aibase.com/news/31312",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-23T11:29:41.806226+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "google",
-        "agent",
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Windows 11 Copilot 应用程序将拥有自己的浏览器，但并非所有人都满意",
-      "url": "https://www.techradar.com/computing/windows/copilot-is-a-scourge-that-i-avoid-at-all-opportunities-microsoft-is-giving-the-copilot-app-its-own-browser-but-windows-11-users-remain-largely-unimpressed",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-23T10:55:11+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "问 HN：GitHub Copilot 和 Anthropic Claude 的成本相比如何？",
-      "url": "https://news.ycombinator.com/item?id=49813172",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-23T08:29:32+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "最高折扣 50%：微软推 AI 替你“干活”，Copilot 变身超级应用",
-      "url": "https://www.aibase.com/news/31302",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-23T07:21:46.789610+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
