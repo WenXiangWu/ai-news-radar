@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-09-24T00:07:45.981106+00:00",
+  "generated_at": "2026-09-24T05:19:24.707982+00:00",
   "date": "2026-09-24",
   "timezone": "Asia/Shanghai",
-  "lead": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统；Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART；langgraph-cli==0.4.32.dev0",
+  "lead": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型；阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统；Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T15:29:23+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 38
+    },
     {
       "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
       "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
@@ -13,7 +30,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T22:54:29.320000+00:00",
       "source_count": 4,
-      "score": 88,
+      "score": 86,
       "official": true,
       "topics": [
         "openai",
@@ -30,14 +47,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T19:28:38.639000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 81
+      "hot_score": 53
     },
     {
       "title": "langgraph-cli==0.4.32.dev0",
@@ -46,52 +63,33 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T23:26:51+00:00",
       "source_count": 2,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 57
-    },
+      "hot_score": 37
+    }
+  ],
+  "items": [
     {
       "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
       "source": "Google DeepMind",
       "site_id": "official_ai",
       "published_at": "2026-09-23T15:29:23+00:00",
-      "source_count": 2,
-      "score": 86,
+      "source_count": 3,
+      "score": 87,
       "official": true,
       "topics": [
         "google",
         "launch"
       ],
       "reason": "",
-      "label": "官方更新",
-      "hot_score": 29
+      "label": "官方更新"
     },
-    {
-      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-22T23:46:41+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 8
-    }
-  ],
-  "items": [
     {
       "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
       "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
@@ -99,7 +97,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T22:54:29.320000+00:00",
       "source_count": 4,
-      "score": 88,
+      "score": 86,
       "official": true,
       "topics": [
         "openai",
@@ -115,7 +113,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T19:28:38.639000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "anthropic"
@@ -130,7 +128,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T23:26:51+00:00",
       "source_count": 2,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "launch"
@@ -139,17 +137,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
-      "source": "Google DeepMind",
+      "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
+      "url": "https://openai.com/index/ringg",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T15:29:23+00:00",
-      "source_count": 2,
-      "score": 86,
+      "published_at": "2026-09-24T04:43:55.149291+00:00",
+      "source_count": 1,
+      "score": 85,
       "official": true,
       "topics": [
-        "google",
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -161,25 +158,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T18:41:40+00:00",
       "source_count": 1,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
-      "url": "https://openai.com/index/ringg",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T23:39:34.449662+00:00",
-      "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "openai"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -191,24 +173,11 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T21:25:58+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Node 20 is no longer available in GitHub Actions",
-      "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T20:46:07+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -219,7 +188,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T18:29:49+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
@@ -234,25 +203,10 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T15:00:57+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "**了解谁在何时说话：使用 NVIDIA Nemotron 3 Diarization 构建实时多说话者 AI**",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T13:17:01+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -264,7 +218,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T12:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -273,19 +227,15 @@
       "label": "官方更新"
     },
     {
-      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-      "source": "Simon Willison",
+      "title": "Node 20 is no longer available in GitHub Actions",
+      "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T23:46:41+00:00",
-      "source_count": 2,
-      "score": 83,
+      "published_at": "2026-09-23T20:46:07+00:00",
+      "source_count": 1,
+      "score": 82,
       "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -296,22 +246,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T18:00:00+00:00",
       "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T16:00:57+00:00",
-      "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google"
@@ -326,10 +261,25 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T16:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "**了解谁在何时说话：使用 NVIDIA Nemotron 3 Diarization 构建实时多说话者 AI**",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T13:17:01+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -341,7 +291,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T13:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -356,10 +306,25 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T12:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T16:00:57+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -371,7 +336,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T13:27:18+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -384,10 +349,26 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T12:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T10:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"

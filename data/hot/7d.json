@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T00:07:45.981106+00:00",
+  "generated_at": "2026-09-24T05:19:24.707982+00:00",
   "window_hours": 168,
-  "total_items": 13,
+  "total_items": 15,
   "items": [
     {
       "title": "Anthropic 团队详解如何用 Claude 在两周内把 claude.ai 提速约 3 倍",
@@ -10,7 +10,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T21:34:38.801000+00:00",
       "source_count": 5,
-      "score": 87,
+      "score": 86,
       "official": false,
       "topics": [
         "anthropic"
@@ -26,12 +26,26 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T22:54:29.320000+00:00",
       "source_count": 4,
-      "score": 88,
+      "score": 86,
       "official": true,
       "topics": [
         "openai",
         "agent"
       ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "联邦政府将人工智能批评者定性为“外国代理人”",
+      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+      "source": "www.kenklippenstein.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-24T03:55:33.462000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
       "reason": "",
       "label": "多源热议",
       "hot_score": 100
@@ -43,30 +57,31 @@
       "site_id": "aihot",
       "published_at": "2026-09-23T19:28:38.639000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 81
+      "hot_score": 53
     },
     {
-      "title": "Gemini 3.8 文本转语音",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech",
-      "source": "blog.google",
-      "site_id": "buzzing",
-      "published_at": "2026-09-23T17:54:36.800000+00:00",
-      "source_count": 3,
-      "score": 56,
+      "title": "Australia says OpenAI agent hacked into government website",
+      "url": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-24T01:24:00+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": true,
       "topics": [
-        "google"
+        "openai",
+        "agent"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 71
+      "label": "值得关注",
+      "hot_score": 43
     },
     {
       "title": "Stripe 的知识人工智能平台",
@@ -75,12 +90,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-23T16:50:24.378000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 65
+      "hot_score": 42
     },
     {
       "title": "GPT-6 Astra 已具备驾驶汽车的能力",
@@ -89,14 +104,31 @@
       "site_id": "buzzing",
       "published_at": "2026-09-23T16:35:38.456000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 64
+      "hot_score": 42
+    },
+    {
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T15:29:23+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 38
     },
     {
       "title": "langgraph-cli==0.4.32.dev0",
@@ -105,14 +137,28 @@
       "site_id": "official_ai",
       "published_at": "2026-09-23T23:26:51+00:00",
       "source_count": 2,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 57
+      "hot_score": 37
+    },
+    {
+      "title": "Mercury 2.5 LLM hits 770 tokens per second",
+      "url": "https://artificialanalysis.ai/models/mercury-2-5",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-23T22:16:19+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 33
     },
     {
       "title": "云代理是不可避免的人工智能监狱",
@@ -121,29 +167,28 @@
       "site_id": "techurls",
       "published_at": "2026-09-23T18:16:41+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 37
+      "hot_score": 24
     },
     {
-      "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T15:29:23+00:00",
+      "title": "Gemini 3.8 文本转语音",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech",
+      "source": "blog.google",
+      "site_id": "buzzing",
+      "published_at": "2026-09-23T17:54:36.800000+00:00",
       "source_count": 2,
-      "score": 86,
+      "score": 52,
       "official": true,
       "topics": [
-        "google",
-        "launch"
+        "google"
       ],
       "reason": "",
-      "label": "官方更新",
-      "hot_score": 29
+      "label": "值得关注",
+      "hot_score": 23
     },
     {
       "title": "OpenAI正在组建一支网红大军，以塑造其“造福世界”的形象",
@@ -152,14 +197,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-23T14:13:24.942000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 26
+      "hot_score": 17
     },
     {
       "title": "Claude代码仅在遥测功能开启时才会读取 AGENTS.md 文件",
@@ -168,14 +213,14 @@
       "site_id": "iris",
       "published_at": "2026-09-23T12:15:33+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 22
+      "hot_score": 14
     },
     {
       "title": "用25行Python代码实现Jev",
@@ -184,30 +229,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-23T09:18:26.848000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
-    },
-    {
-      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-22T23:46:41+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 8
+      "hot_score": 11
     }
   ]
 }
