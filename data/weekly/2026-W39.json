@@ -12,19 +12,20 @@
   "total_items": 40,
   "items": [
     {
-      "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "source": "Anthropic：Newsroom（网页）",
+      "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+      "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
-      "published_at": "2026-09-23T19:28:38.639000+00:00",
-      "source_count": 3,
+      "published_at": "2026-09-23T22:54:29.320000+00:00",
+      "source_count": 4,
       "score": 88,
       "official": true,
       "topics": [
-        "anthropic"
+        "openai",
+        "agent"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "多源热议"
     },
     {
       "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
@@ -42,16 +43,31 @@
       "label": "多源热议"
     },
     {
-      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-      "source": "Hugging Face Blog",
+      "title": "langgraph-cli==0.4.32.dev0",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T18:41:40+00:00",
-      "source_count": 1,
+      "published_at": "2026-09-23T23:26:51+00:00",
+      "source_count": 2,
       "score": 87,
       "official": true,
       "topics": [
-        "opensource"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "source": "Anthropic：Newsroom（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-23T19:28:38.639000+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -89,6 +105,21 @@
       "label": "官方更新"
     },
     {
+      "title": "如何使用 NVIDIA Warp 和 MjWarp 加速机器人模拟和学习工作流程",
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T18:41:40+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
       "source": "Google DeepMind",
@@ -105,11 +136,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
       "url": "https://openai.com/index/ringg",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T20:18:42.599059+00:00",
+      "published_at": "2026-09-23T23:39:34.449662+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
@@ -120,31 +151,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Rendering huge pull requests in the GitHub Copilot app",
-      "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app",
-      "source": "GitHub AI & ML",
+      "title": "More ways to request and configure Copilot code reviews",
+      "url": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T18:29:49+00:00",
+      "published_at": "2026-09-23T21:25:58+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Harvey 通过 GPT-6 Astra 将法律背景转化为更强大的草案",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T12:00:00+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -195,46 +211,29 @@
       "label": "多源热议"
     },
     {
-      "title": "langgraph-cli==0.4.32",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32",
-      "source": "LangGraph Releases",
+      "title": "Node 20 is no longer available in GitHub Actions",
+      "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T18:02:46+00:00",
+      "published_at": "2026-09-23T20:46:07+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
-      "source": "Google AI Blog",
+      "title": "在 GitHub Copilot 应用程序中呈现巨大的拉取请求",
+      "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app",
+      "source": "GitHub AI & ML",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T18:00:00+00:00",
+      "published_at": "2026-09-23T18:29:49+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T16:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -270,8 +269,8 @@
       "label": "官方更新"
     },
     {
-      "title": "invideo 如何利用 GPT‑6 Astra 将颜色分级提高 3 倍",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "title": "Harvey 通过 GPT-6 Astra 将法律背景转化为更强大的草案",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-09-23T12:00:00+00:00",
@@ -285,18 +284,48 @@
       "label": "官方更新"
     },
     {
-      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-      "source": "Simon Willison",
+      "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-22T23:46:41+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-23T08:06:15+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T06:41:41+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.156.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T00:00:00+00:00",
+      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
         "openai",
-        "anthropic",
-        "launch"
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -388,6 +417,21 @@
       "label": "官方更新"
     },
     {
+      "title": "Google Beam 不断拓展新的地区、合作伙伴和客户",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T18:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
       "source": "Google DeepMind",
@@ -403,15 +447,17 @@
       "label": "官方更新"
     },
     {
-      "title": "🔬生物安全是一场人工智能军备竞赛 - Eric Nguyen（Radical Numerics 首席执行官）",
-      "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
-      "source": "Latent Space",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T13:27:18+00:00",
+      "published_at": "2026-09-23T16:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -431,17 +477,16 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
-      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "title": "invideo 如何利用 GPT‑6 Astra 将颜色分级提高 3 倍",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-23T10:00:00+00:00",
+      "published_at": "2026-09-23T12:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "openai",
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -472,6 +517,23 @@
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-22T23:46:41+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -551,66 +613,8 @@
       ],
       "reason": "",
       "label": "多源热议"
-    },
-    {
-      "title": "v0.5.20",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
-      "source": "SGLang Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-18T08:02:22+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.30.1rc0：[ROCm][CI] 添加 MI355 密集 NVFP4 和 MoRI 内核镜像 (#58281)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T08:06:15+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Claude Opus 5.5，AINews 的新默认型号 — 每个人都降价 40-50%",
-      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T06:41:41+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
-      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T02:53:19+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-23T20:30:27.221147+00:00",
+  "generated_at": "2026-09-24T00:07:45.981106+00:00",
   "period": "2026-W39"
 }
