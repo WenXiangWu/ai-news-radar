@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-25T07:44:56.800411+00:00",
+  "generated_at": "2026-09-25T14:01:01.404273+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 9,
+  "total_items": 8,
   "items": [
     {
       "title": "Docker 发布云沙箱，在云中实现安全的代理工作负载",
@@ -13,7 +13,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-24T22:24:06+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "launch"
@@ -28,7 +28,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-24T18:38:05+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -45,7 +45,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-24T18:26:12+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "agent",
@@ -55,13 +55,29 @@
       "label": "官方更新"
     },
     {
+      "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
+      "url": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-24T17:25:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 发布 Claude Opus 5.5，面向更长、上下文更重的编码会话优化成本",
       "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
       "source": "Claude：Blog（网页）",
       "site_id": "aihot",
       "published_at": "2026-09-24T16:38:37.757000+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -79,14 +95,13 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T15:21:55.694147+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "高通联手 PrismML 发布 1-bit Bonsai：AI 眼镜离线识图，内存占用降到 1/4",
@@ -95,14 +110,13 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T15:21:55.694147+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "阿里达摩院发布食管癌 AI 模型 DAMO EAGLE：不插管，平扫 CT 就能查早癌",
@@ -111,44 +125,9 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T14:21:55.694147+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
-      "url": "https://x.com/Thom_Wolf/status/2103054896438136973",
-      "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-      "site_id": "aihot",
-      "published_at": "2026-09-24T09:32:14+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
-      "url": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-24T09:25:00+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "agent",
         "launch"
       ],
       "reason": "",

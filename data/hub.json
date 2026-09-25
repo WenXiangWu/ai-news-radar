@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T07:44:56.800411+00:00",
+  "generated_at": "2026-09-25T14:01:01.404273+00:00",
   "today": "2026-09-25",
-  "lead": "Codex CLI 0.157.0；[AINews] 潜在空间的未来；默认启用 Copilot Business 和 Enterprise 的 Copilot 功能",
+  "lead": "CodeQL 2.27.1 adds C and C++ query and Kotlin 2.4.20 support；默认启用 Copilot Business 和 Enterprise 的 Copilot 功能；Codex CLI 0.157.0",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,14 +11,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-25T05:45:21.151000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
         "industry"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 60
     },
     {
       "title": "利用大型语言模型追溯炼金术知识并破译17世纪的信件",
@@ -27,12 +27,26 @@
       "site_id": "buzzing",
       "published_at": "2026-09-25T04:25:45.760000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 91
+      "hot_score": 54
+    },
+    {
+      "title": "Show HN: Agentic CUDA Kernel Optimizer",
+      "url": "https://github.com/bertaye/agentic-cuda-optimizer",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-25T10:32:58+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 45
     },
     {
       "title": "在伯克利，人工智能安全基本上是一个性 cult 组织",
@@ -41,43 +55,28 @@
       "site_id": "buzzing",
       "published_at": "2026-09-25T02:34:35.119000+00:00",
       "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 39
-    },
-    {
-      "title": "安全研究者披露黑客用 GEO 污染 ChatGPT、Gemini 和 Google AI Overview，374 家企业被植入诈骗联系方式",
-      "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-24T17:19:34.716000+00:00",
-      "source_count": 3,
-      "score": 80,
-      "official": false,
-      "topics": [
-        "openai",
-        "google"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 36
-    },
-    {
-      "title": "“这太‘AI’了”——阿尔法一代最严重的侮辱向我们揭示了什么",
-      "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
-      "source": "www.theguardian.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-24T22:20:31.390000+00:00",
-      "source_count": 2,
       "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 23
+    },
+    {
+      "title": "Gemini 3.8 Live with Live Avatar 为谷歌人工智能提供了面孔",
+      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-24T19:59:26+00:00",
+      "source_count": 2,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 13
     }
   ],
   "topics": [
@@ -86,28 +85,28 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 30
+      "count": 27
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 15
+      "count": 19
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 15
+      "count": 19
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "qwen",
@@ -128,42 +127,42 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 10
+      "count": 15
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 9
+      "count": 8
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 26
+      "count": 11
     }
   ],
   "days": [
