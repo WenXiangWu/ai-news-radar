@@ -1,6 +1,7 @@
 {
   "title": "2026-09 月报",
   "dates": [
+    "2026-09-26",
     "2026-09-25",
     "2026-09-24",
     "2026-09-23",
@@ -40,6 +41,21 @@
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T18:00:00+00:00",
+      "source_count": 2,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -135,6 +151,23 @@
       "topics": [
         "anthropic",
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T18:35:10.534709+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -276,6 +309,52 @@
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Agentic autofix now uses Copilot Memory",
+      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T17:25:50+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — September 21",
+      "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T16:42:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
+      "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T16:33:42+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -559,84 +638,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "proto-v0.2.0: vllm-proto 0.2.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-16T08:32:41+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "New insights from Google’s AI & Economy ATLAS",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-15T13:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
-      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-15T04:50:36+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
-      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-12T05:56:05+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Open-Source AI & Open Models Reading List",
-      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-09-11T12:36:25+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-25T14:01:01.404273+00:00",
+  "generated_at": "2026-09-25T19:03:52.809903+00:00",
   "period": "2026-09"
 }

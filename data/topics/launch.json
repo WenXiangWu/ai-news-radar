@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-25T14:01:01.404273+00:00",
+  "generated_at": "2026-09-25T19:03:52.809903+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 8,
+  "total_items": 3,
   "items": [
+    {
+      "title": "GitHub Copilot weekly releases — September 21",
+      "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T16:42:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Docker 发布云沙箱，在云中实现安全的代理工作负载",
       "url": "https://www.docker.com/c/sbx-promo",
@@ -13,7 +29,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-24T22:24:06+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "launch"
@@ -28,106 +44,11 @@
       "site_id": "curated_media",
       "published_at": "2026-09-24T18:38:05+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
-      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-24T18:26:12+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
-      "url": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-24T17:25:00+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 发布 Claude Opus 5.5，面向更长、上下文更重的编码会话优化成本",
-      "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
-      "source": "Claude：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-09-24T16:38:37.757000+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "coding",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Meta Connect 发布会：Muse 全面接入 AI 眼镜，小扎要让数十亿人用上超级智能",
-      "url": "https://www.aibase.com/news/31346",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-24T15:21:55.694147+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "高通联手 PrismML 发布 1-bit Bonsai：AI 眼镜离线识图，内存占用降到 1/4",
-      "url": "https://www.aibase.com/news/31349",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-24T15:21:55.694147+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "阿里达摩院发布食管癌 AI 模型 DAMO EAGLE：不插管，平扫 CT 就能查早癌",
-      "url": "https://www.aibase.com/news/31341",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-24T14:21:55.694147+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
         "launch"
       ],
       "reason": "",

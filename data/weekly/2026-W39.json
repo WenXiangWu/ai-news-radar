@@ -1,16 +1,31 @@
 {
   "title": "2026-W39 周报",
   "dates": [
+    "2026-09-26",
     "2026-09-25",
     "2026-09-24",
     "2026-09-23",
     "2026-09-22",
     "2026-09-21",
-    "2026-09-20",
-    "2026-09-19"
+    "2026-09-20"
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T18:00:00+00:00",
+      "source_count": 2,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
@@ -55,6 +70,23 @@
       "topics": [
         "anthropic",
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T18:35:10.534709+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -118,6 +150,52 @@
         "openai",
         "anthropic",
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Agentic autofix now uses Copilot Memory",
+      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T17:25:50+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — September 21",
+      "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T16:42:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
+      "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T16:33:42+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -265,51 +343,6 @@
       "score": 84,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "CodeQL 2.27.1 adds C and C++ query and Kotlin 2.4.20 support",
-      "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T09:55:23+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "默认启用 Copilot Business 和 Enterprise 的 Copilot 功能",
-      "url": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T03:13:23+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Codex CLI 0.157.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -480,11 +513,11 @@
       "label": "多源热议"
     },
     {
-      "title": "[AINews] 潜在空间的未来",
-      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
-      "source": "Latent Space",
+      "title": "CodeQL 2.27.1 adds C and C++ query and Kotlin 2.4.20 support",
+      "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-25T05:37:00+00:00",
+      "published_at": "2026-09-25T09:55:23+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -493,15 +526,34 @@
       "label": "官方更新"
     },
     {
-      "title": "Runway 的 WorldPrompt 和实时世界的工程",
-      "url": "https://www.latent.space/p/runway",
-      "source": "Latent Space",
+      "title": "Default Enablement of Copilot features for Copilot Business and Enterprise",
+      "url": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-25T01:30:57+00:00",
+      "published_at": "2026-09-25T03:13:23+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.157.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -562,51 +614,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 向乌克兰政府开放 Daybreak 网络防御计划",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T13:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "invideo 如何利用 GPT‑6 Astra 将颜色分级提高 3 倍",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T12:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
-      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T02:53:19+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-25T14:01:01.404273+00:00",
+  "generated_at": "2026-09-25T19:03:52.809903+00:00",
   "period": "2026-W39"
 }
