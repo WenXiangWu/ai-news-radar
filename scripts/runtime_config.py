@@ -8,7 +8,6 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 SHANGHAI = ZoneInfo("Asia/Shanghai")
-GRACE = timedelta(minutes=40)
 SCHEMA = "radar-runtime/v1"
 
 # Cron wake grid in Shanghai. A configured slot only matches when it sits on this grid.
@@ -88,8 +87,18 @@ def _slots(workflow: dict) -> list[tuple[int | None, int]]:
     return parsed
 
 
+def _grace(workflow_id: str) -> timedelta:
+    """Accept a late GitHub wake until one minute before the next cron slot."""
+    hours = sorted(WAKE_GRID[workflow_id]["hours"])
+    if len(hours) < 2:
+        return timedelta(minutes=59)
+    gaps = [(hours[(index + 1) % len(hours)] - hours[index]) % 24 for index in range(len(hours))]
+    return timedelta(hours=min(gaps)) - timedelta(minutes=1)
+
+
 def _matches(workflow_id: str, slots: list[tuple[int | None, int]], now: datetime) -> bool:
     grid = WAKE_GRID[workflow_id]
+    grace = _grace(workflow_id)
     for hour, minute in slots:
         if minute != grid["minute"]:
             continue
@@ -101,6 +110,6 @@ def _matches(workflow_id: str, slots: list[tuple[int | None, int]], now: datetim
             if candidate > now:
                 candidate -= timedelta(days=1)
             delta = now - candidate
-            if timedelta(0) <= delta <= GRACE:
+            if timedelta(0) <= delta <= grace:
                 return True
     return False

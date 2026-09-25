@@ -31,6 +31,8 @@ def test_publish_follows_finished_fetches_and_is_the_only_gitee_push():
     news = Path(".github/workflows/update-news.yml").read_text(encoding="utf-8")
     radar = Path(".github/workflows/update-radar.yml").read_text(encoding="utf-8")
     assert "workflow_call:" in publish
+    assert "|| 'workflow_call'" in publish
+    assert '--event "${{ github.event_name }}"' not in publish
     assert "47 * * * *" not in publish
     assert "cancel-in-progress: false" in publish
     assert "GITEE_REPO" in publish
