@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-24T23:00:08.997023+00:00",
+  "generated_at": "2026-09-25T01:58:30.803119+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 36,
+  "total_items": 25,
   "items": [
     {
       "title": "我用 Go 搭了一条 AI Agent 流水线：从 1 张商品图到一整套淘宝详情页",
@@ -13,7 +13,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-24T21:57:20.714000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent"
@@ -28,7 +28,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-24T21:57:20.714000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent",
@@ -44,7 +44,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-24T20:20:35+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent"
@@ -74,7 +74,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-24T19:36:35+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -104,7 +104,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-24T18:38:05+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -152,7 +152,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-24T17:25:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent",
@@ -184,7 +184,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T15:21:55.694147+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -201,7 +201,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-24T14:01:05+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "openai",
@@ -218,7 +218,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-24T13:13:22+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -234,7 +234,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-24T13:10:54+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "agent"
@@ -265,7 +265,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-24T09:32:14+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -299,7 +299,7 @@
       "site_id": "iris",
       "published_at": "2026-09-24T05:21:10+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -314,7 +314,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-24T04:44:30.539000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -329,7 +329,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "deepseek",
@@ -347,7 +347,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -364,7 +364,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -375,29 +375,13 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
-      "url": "https://www.bbc.com/news/articles/c6vgy0333dppo",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-24T04:33:52+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "With a model this good the Claude Code harness really needs great live voice and browser + computer use (latter is improving!) Right now one lab has the best model and another has the best harness. https://t.co/SoV7GN...",
       "url": "https://x.com/petergyang/status/2102952201350254667",
       "source": "Follow Builders · X · Peter Yang",
       "site_id": "followbuilders",
       "published_at": "2026-09-24T02:44:10+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "anthropic",
@@ -421,163 +405,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单任务成本升至 $13.04",
-      "url": "https://x.com/ArtificialAnlys/status/2102932119995756613",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "site_id": "aihot",
-      "published_at": "2026-09-24T01:24:22+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Australia says OpenAI agent hacked into government website",
-      "url": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-24T01:24:00+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "We used an AI agent to fix an open-source bug. Someone asked to ban us",
-      "url": "https://github.com/saulpw/visidata/pull/3229",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-24T01:14:43+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Everything new coming to Meta’s AI agent Muse",
-      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-24T01:13:32+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
-      "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-24T00:46:17+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent",
-      "url": "https://mashable.com/tech/muse-charm-reveal-meta-connect-2026",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-09-24T00:15:48+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI agent hacked into Australia's national healthcare system",
-      "url": "https://www.cnn.com/2026/09/23/business/australia-openai-agent-hack-intl-hnk",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-23T23:31:43+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta's Muse AI agent is coming to its AI glasses",
-      "url": "https://www.engadget.com/2267210/meta-muse-ai-agent-smart-glasses",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-09-23T23:28:12+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta is bringing its Muse AI agent to its glasses",
-      "url": "https://www.businessinsider.com/meta-muse-ai-agent-smart-glasses-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-23T23:22:48+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
-      "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-23T22:54:29.320000+00:00",
-      "source_count": 2,
-      "score": 78,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }

@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-09-24T23:00:08.997023+00:00",
+  "generated_at": "2026-09-25T01:58:30.803119+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 22,
+  "total_items": 19,
   "items": [
+    {
+      "title": "Sources: Anthropic asks shareholders to approve a Palantir-style structure granting its seven co-founders 50.1% of voting power if three retain minimum stakes (The Information)",
+      "url": "https://www.techmeme.com/260924/p50",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-24T22:45:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "ChatGPT or Claude? For just $40, you can ask them both (and many others).",
       "url": "https://mashable.com/tech/sept-24-askanymodel-ai-pro-plan-lifetime-subscription",
@@ -13,7 +28,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-24T22:00:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -29,7 +44,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-24T21:57:20.714000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -45,7 +60,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-24T21:20:02+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
@@ -60,7 +75,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-24T20:48:43+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -76,7 +91,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-24T20:40:18+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
@@ -91,7 +106,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-24T18:38:05+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -108,7 +123,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-24T17:25:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -174,7 +189,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-24T14:34:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -190,7 +205,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -206,7 +221,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -222,7 +237,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -238,7 +253,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-24T04:43:55.149291+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -271,7 +286,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-24T02:44:10+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "anthropic",
@@ -295,70 +310,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单任务成本升至 $13.04",
-      "url": "https://x.com/ArtificialAnlys/status/2102932119995756613",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "site_id": "aihot",
-      "published_at": "2026-09-24T01:24:22+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "More details for the formal methods people -- what's happening is Claude is doing something like: 1. Building a model of the program, targeting a tricky state machine or race-prone part of the code 2. Finding counter-...",
-      "url": "https://x.com/bcherny/status/2102898067133595992",
-      "source": "Follow Builders · X · Boris Cherny",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-23T23:09:03+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
-      "url": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-23T22:41:27+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI and Anthropic bosses push UN for global terms on AI",
-      "url": "https://www.bbc.co.uk/news/articles/ck87v27vdn1po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "site_id": "techurls",
-      "published_at": "2026-09-23T22:35:14+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
