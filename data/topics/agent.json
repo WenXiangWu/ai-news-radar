@@ -1,24 +1,191 @@
 {
-  "generated_at": "2026-09-25T19:03:52.809903+00:00",
+  "generated_at": "2026-09-26T01:14:07.733645+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 18,
+  "total_items": 21,
   "items": [
     {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T18:35:10.534709+00:00",
+      "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+      "url": "https://swarmtraces.org",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T23:59:47.248000+00:00",
+      "source_count": 4,
+      "score": 87,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "OpenAI Codex 401 Outage",
+      "url": "https://status.openai.com",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-25T23:07:28+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 52,
       "official": true,
       "topics": [
         "openai",
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Issues with Codex – Identified – Full Outage",
+      "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-25T23:04:25+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Tell HN: Codex Is Down [fixed]",
+      "url": "https://news.ycombinator.com/item?id=49851032",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-25T22:51:44+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.283",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-25T21:50:12+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Yuchen Jin 分享 OpenAI Hugging Face 事件中智能体的原始思维链",
+      "url": "https://x.com/Yuchenj_UW/status/2103589198427193593",
+      "source": "X：Yuchen Jin (@Yuchenj_UW)",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T20:55:22+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
+      "url": "https://x.com/OpenAI/status/2103587050347995581",
+      "source": "X：OpenAI (@OpenAI)",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T20:46:50+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+      "url": "https://x.com/arena/status/2103572481206538439",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T19:48:56+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
+      "url": "https://x.com/sama/status/2103567198690349362",
+      "source": "X：Sam Altman (@sama)",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T19:27:57+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T19:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
+      "url": "https://x.com/ClaudeDevs/status/2103548467729887677",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T18:13:31+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
       ],
       "reason": "",
       "label": "官方更新"
@@ -30,7 +197,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-25T16:30:57+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "agent",
@@ -46,7 +213,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T16:04:04+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic",
@@ -62,7 +229,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T15:48:14+00:00",
       "source_count": 2,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "openai",
@@ -79,7 +246,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T13:49:27+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "agent",
@@ -95,7 +262,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-25T13:43:53.197000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -112,7 +279,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-25T12:22:27+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "agent"
@@ -127,7 +294,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T10:53:55+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "google",
@@ -143,7 +310,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T09:50:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -158,7 +325,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-25T07:44:33.109000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -173,7 +340,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T07:02:05+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -182,116 +349,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Codex CLI 0.157.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "我用 Go 搭了一条 AI Agent 流水线：从 1 张商品图到一整套淘宝详情页",
-      "url": "https://juejin.cn/post/7687943158864887843",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-24T21:57:20.714000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "给Codex配上Jev，直接起飞。",
-      "url": "https://juejin.cn/post/7688401277182066738",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-24T21:57:20.714000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Dataiku 表示，81% 的 CIO 缺乏对 IT 之外构建的人工智能代理的全面监督",
-      "url": "https://thenextweb.com/news/cio-ai-agent-oversight-dataiku-survey",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-24T20:20:35+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "我想我找到了一个值得冒险的人工智能代理",
-      "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-24T19:36:35+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "人工智能特工黑了政府网站，官员们不知道该怎么办",
-      "url": "https://www.makeuseof.com/ai-agent-hacked-australian-government-website",
-      "source": "MakeUseOf",
-      "site_id": "techurls",
-      "published_at": "2026-09-24T19:36:17+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.282",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-24T18:38:05+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
