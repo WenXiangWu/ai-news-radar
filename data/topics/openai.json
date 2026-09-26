@@ -1,17 +1,33 @@
 {
-  "generated_at": "2026-09-26T01:14:07.733645+00:00",
+  "generated_at": "2026-09-26T06:45:06.648898+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 28,
+  "total_items": 32,
   "items": [
     {
-      "title": "Researchers: OpenAI's agents meddled with the US Commerce Dept. and SEC sites this summer without OpenAI's knowledge and tried to hack the Education Dept. site (New York Times)",
-      "url": "https://www.techmeme.com/260925/p25",
+      "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+      "url": "https://x.com/emollick/status/2103709671865602100",
+      "source": "X：Ethan Mollick (@emollick)",
+      "site_id": "aihot",
+      "published_at": "2026-09-26T04:54:05+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI says it paused training, evaluation, and inference with tool-use of its most capable models after a model bypassed internet restrictions during training (OpenAI)",
+      "url": "https://www.techmeme.com/260926/p1",
       "source": "Techmeme",
       "site_id": "techurls",
-      "published_at": "2026-09-26T00:00:47+00:00",
+      "published_at": "2026-09-26T04:10:01+00:00",
       "source_count": 1,
       "score": 52,
       "official": false,
@@ -22,13 +38,60 @@
       "label": "值得关注"
     },
     {
+      "title": "'The prophecy is fulfilled': Popular 2020 XKCD comic predicted 'HEIF Heist' OpenAI hack and even mentions ImageMagick in spooky coincidence",
+      "url": "https://www.techradar.com/ai-platforms-assistants/openai/the-prophecy-is-fulfilled-popular-2020-xkcd-comic-predicted-heif-heist-openai-hack-and-even-mentions-imagemagick-in-spooky-coincidence",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T01:30:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Researchers: OpenAI's agents meddled with the US Commerce Dept. and SEC sites this summer without OpenAI's knowledge and tried to hack the Education Dept. site (New York Times)",
+      "url": "https://www.techmeme.com/260925/p25",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T00:00:47+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex CLI 0.157.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-26T00:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
       "url": "https://swarmtraces.org",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
       "published_at": "2026-09-25T23:59:47.248000+00:00",
       "source_count": 4,
-      "score": 87,
+      "score": 86,
       "official": false,
       "topics": [
         "openai",
@@ -44,7 +107,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-25T23:59:47.244000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "openai"
@@ -53,13 +116,13 @@
       "label": "多源热议"
     },
     {
-      "title": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
+      "title": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
       "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-      "source": "New York Times",
-      "site_id": "techurls",
-      "published_at": "2026-09-25T23:16:40+00:00",
-      "source_count": 1,
-      "score": 52,
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-25T23:22:18+00:00",
+      "source_count": 2,
+      "score": 53,
       "official": true,
       "topics": [
         "openai"
@@ -74,7 +137,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-25T23:07:28+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -91,7 +154,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T23:04:25+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -108,7 +171,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T22:43:54+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai"
@@ -123,7 +186,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T22:30:03+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai"
@@ -138,7 +201,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-25T22:20:47+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -153,7 +216,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T21:00:51+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai"
@@ -168,7 +231,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T20:55:22+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 78,
       "official": false,
       "topics": [
         "openai",
@@ -185,7 +248,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T20:46:50+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "openai",
@@ -202,7 +265,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T20:35:49+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai"
@@ -217,7 +280,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T20:01:20+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -232,7 +295,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T19:48:56+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -249,7 +312,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T19:27:57+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -266,7 +329,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-25T19:00:00+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "openai",
@@ -283,7 +346,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-25T18:22:47+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
@@ -299,7 +362,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-25T17:06:48+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -315,7 +378,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T15:48:14+00:00",
       "source_count": 2,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "openai",
@@ -332,7 +395,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T15:40:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai"
@@ -347,7 +410,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-25T15:39:48+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai",
@@ -363,7 +426,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T13:29:31+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -379,7 +442,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-25T08:55:43+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
@@ -394,7 +457,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-25T08:12:14+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai",
@@ -410,7 +473,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T07:12:48+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
@@ -425,7 +488,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T07:02:05+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -442,7 +505,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-25T06:30:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",

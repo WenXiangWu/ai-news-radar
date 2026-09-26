@@ -60,21 +60,6 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T18:00:00+00:00",
-      "source_count": 2,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "langgraph-cli==0.4.32.dev0",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
       "source": "LangGraph Releases",
@@ -138,17 +123,32 @@
       "label": "官方更新"
     },
     {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "source": "OpenAI News",
+      "title": "Codex CLI 0.157.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-25T19:00:00+00:00",
+      "published_at": "2026-09-26T00:00:00+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
         "openai",
         "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T18:00:00+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
         "coding"
       ],
       "reason": "",
@@ -212,45 +212,6 @@
         "opensource"
       ],
       "reason": "Multiverse Computing 将 LLM 的 block removal 重新表述为 Ising glass 上的约束二元优化问题，用自旋系统能量作为剪枝模型性能的廉价代理，在 Llama-3.3-70B-Instruct 上压缩 50% 时，MMLU 比最佳同类方法高出近 23 个百分点。",
-      "label": "官方更新"
-    },
-    {
-      "title": "Enterprise managed settings in-product validator",
-      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T23:24:57+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "url": "https://www.latent.space/p/openrouter",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T23:14:41+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Usage metrics API adds pull request review stages",
-      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T21:09:40+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
       "label": "官方更新"
     },
     {
@@ -340,11 +301,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-      "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+      "title": "Enterprise managed settings in-product validator",
+      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-25T19:05:03+00:00",
+      "published_at": "2026-09-25T23:24:57+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -353,11 +314,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Changes to query results in the GitHub Actions API and UI",
-      "url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
-      "source": "GitHub Changelog",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://www.latent.space/p/openrouter",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-25T18:17:06+00:00",
+      "published_at": "2026-09-25T23:14:41+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -366,63 +327,32 @@
       "label": "官方更新"
     },
     {
-      "title": "Agentic autofix now uses Copilot Memory",
-      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "source": "GitHub Changelog",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-25T17:25:50+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — September 21",
-      "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T16:42:48+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-      "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T16:33:42+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Codex CLI 0.157.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T00:00:00+00:00",
+      "published_at": "2026-09-25T19:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
         "openai",
         "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "默认启用 Copilot Business 和 Enterprise 的 Copilot 功能",
+      "url": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T03:13:23+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
         "coding"
       ],
       "reason": "",
@@ -595,21 +525,91 @@
       "label": "多源热议"
     },
     {
-      "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T18:36:52.879000+00:00",
-      "source_count": 3,
+      "title": "Usage metrics API adds pull request review stages",
+      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T21:09:40+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
+      "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T19:05:03+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Changes to query results in the GitHub Actions API and UI",
+      "url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T18:17:06+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Agentic autofix now uses Copilot Memory",
+      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T17:25:50+00:00",
+      "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "anthropic"
+        "coding"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — September 21",
+      "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T16:42:48+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
+      "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-25T16:33:42+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-26T01:14:07.733645+00:00",
+  "generated_at": "2026-09-26T06:45:06.648898+00:00",
   "period": "2026-W39"
 }
