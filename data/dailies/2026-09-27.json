@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T20:04:47.612038+00:00",
+  "generated_at": "2026-09-26T23:00:38.877330+00:00",
   "date": "2026-09-27",
   "timezone": "Asia/Shanghai",
   "lead": "Codex CLI 0.157.1；企业管理的设置产品内验证器；OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha",
@@ -7,13 +7,29 @@
   "selection": "official_first_then_crossing",
   "hot": [
     {
+      "title": "Copilot 电脑品牌已不复存在",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "source": "www.windowscentral.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-26T21:55:10.332000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
       "title": "Show HN: A Claude Code skill to analyze your chess games",
       "url": "https://github.com/brumar/chess-postmortem-skills",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-26T15:34:53+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
@@ -21,23 +37,23 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 41
+      "hot_score": 32
     },
     {
-      "title": "The Copilot+ PC brand is dead",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T09:55:38+00:00",
+      "title": "OpenAI 的系统失控并干扰美国政府网站",
+      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-25T23:22:18+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 49,
       "official": true,
       "topics": [
-        "coding"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 26
+      "hot_score": 8
     }
   ],
   "items": [
@@ -65,7 +81,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-25T23:24:57+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
@@ -77,19 +93,6 @@
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-09-25T23:14:41+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用指标 API 添加了拉取请求审核阶段",
-      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T21:09:40+00:00",
       "source_count": 1,
       "score": 79,
       "official": true,
@@ -104,7 +107,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-26T09:06:36+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -113,22 +116,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
-      "url": "https://x.com/OpenAI/status/2103587050347995581",
-      "source": "X：OpenAI (@OpenAI)",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T20:46:50+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "OpenAI 的 GPT-6 Astra 现在可以准确告诉您把宜家货架搞砸的具体位置",
@@ -141,22 +128,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia 的 SoL-Pi 系统通过优化线束将编码代理令牌使用量减少了近一半",
-      "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-26T10:30:32+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -177,34 +148,17 @@
       "label": "值得关注"
     },
     {
-      "title": "不安全的 OpenAI 代理在实验室不知情的情况下在互联网上发布了 53 张用户图像",
-      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge",
-      "source": "TechCrunch AI",
+      "title": "Nvidia 的 SoL-Pi 系统通过优化线束将编码代理令牌使用量减少了近一半",
+      "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-09-25T22:20:47+00:00",
+      "published_at": "2026-09-26T10:30:32+00:00",
       "source_count": 1,
       "score": 59,
       "official": true,
       "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.283",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-25T21:50:12+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
         "agent",
-        "launch"
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -223,46 +177,33 @@
       "label": "值得关注"
     },
     {
+      "title": "Copilot 电脑品牌已不复存在",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "source": "www.windowscentral.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-26T21:55:10.332000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "Show HN: A Claude Code skill to analyze your chess games",
       "url": "https://github.com/brumar/chess-postmortem-skills",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-26T15:34:53+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
         "agent"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "The Copilot+ PC brand is dead",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T09:55:38+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "小偷偷走了“Nvidia”预告片。他们得到了 20 吨沙子",
-      "url": "https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-25T20:30:40+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -301,7 +242,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T16:06:39+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -316,7 +257,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-26T15:43:46+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -332,11 +273,84 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T15:11:51+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
         "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Nvidia RTX Spark vs Apple M6: which chip is better for creating, gaming, and AI?",
+      "url": "https://www.techradar.com/computing/cpu/nvidia-rtx-spark-vs-apple-m6",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T13:30:00+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI reveals the AI-era workplace skills that matter most",
+      "url": "https://www.businessinsider.com/openai-reveals-workplace-skills-ai-cant-automate-easily-2026-9",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T13:00:02+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 的系统失控并干扰美国政府网站",
+      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-25T23:22:18+00:00",
+      "source_count": 2,
+      "score": 49,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI's agents targeted and infiltrated US government websites",
+      "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T11:58:20+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Is Microsoft Quietly Killing Off Its 'Copilot+ PC' Brand?",
+      "url": "https://tech.slashdot.org/story/26/09/25/0420247/is-microsoft-quietly-killing-off-its-copilot-pc-brand",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T11:34:00+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"

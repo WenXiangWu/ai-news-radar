@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-09-26T20:04:47.612038+00:00",
+  "generated_at": "2026-09-26T23:00:38.877330+00:00",
   "window_hours": 168,
   "total_items": 10,
   "items": [
+    {
+      "title": "Copilot 电脑品牌已不复存在",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "source": "www.windowscentral.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-26T21:55:10.332000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "source": "discourse.haskell.org",
+      "site_id": "buzzing",
+      "published_at": "2026-09-26T20:22:03.489000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 96
+    },
     {
       "title": "一个用于大型语言模型（LLM）的单函数Jev样式封装器，包括视觉模型",
       "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
@@ -15,7 +45,24 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 67
+      "hot_score": 52
+    },
+    {
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T18:22:41+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 41
     },
     {
       "title": "Show HN: A Claude Code skill to analyze your chess games",
@@ -24,7 +71,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T15:34:53+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
@@ -32,23 +79,25 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 41
+      "hot_score": 32
     },
     {
-      "title": "OpenAI bots meddled with multiple US Government agency sites",
+      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
       "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
       "published_at": "2026-09-26T14:03:54+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 81,
       "official": false,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "industry"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 36
+      "label": "行业动态",
+      "hot_score": 28
     },
     {
       "title": "没有AI的一个月",
@@ -57,29 +106,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-26T13:48:03.398000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 36
-    },
-    {
-      "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-      "url": "https://swarmtraces.org",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T23:59:47.248000+00:00",
-      "source_count": 4,
-      "score": 83,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 34
+      "hot_score": 28
     },
     {
       "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
@@ -88,58 +120,32 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T13:05:36+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 34
-    },
-    {
-      "title": "The Copilot+ PC brand is dead",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T09:55:38+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注",
       "hot_score": 26
     },
     {
-      "title": "如何在LLM的世界里继续享受编程的乐趣",
-      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T09:41:58+00:00",
+      "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+      "url": "https://swarmtraces.org",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T23:59:47.248000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 77,
       "official": false,
-      "topics": [],
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 25
-    },
-    {
-      "title": "太AI了；没看",
-      "url": "https://www.tai-dr.com",
-      "source": "www.tai-dr.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-25T23:44:26.250000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 11
+      "label": "行业动态",
+      "hot_score": 9
     },
     {
       "title": "OpenAI 的系统失控并干扰美国政府网站",
@@ -148,14 +154,14 @@
       "site_id": "zeli",
       "published_at": "2026-09-25T23:22:18+00:00",
       "source_count": 2,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 11
+      "hot_score": 8
     }
   ]
 }
