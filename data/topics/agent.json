@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-09-26T06:45:06.648898+00:00",
+  "generated_at": "2026-09-26T11:24:31.932448+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 27,
+  "total_items": 26,
   "items": [
+    {
+      "title": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
+      "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-26T10:30:32+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
+      "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-26T09:06:36+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "Codex 本地自定义 Agent 与模型配置实战：TOML、AGENTS.md 和优先级",
       "url": "https://juejin.cn/post/7688528701483827241",
@@ -13,7 +45,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-26T06:09:18.718000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent",
@@ -29,7 +61,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-26T06:09:18.718000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent"
@@ -44,7 +76,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-26T06:09:18.718000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent"
@@ -59,10 +91,27 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-26T01:20:21+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work sorry about the brief disruption! (and yes we have a special spare codex when things are down to help us out) h...",
+      "url": "https://x.com/thsottiaux/status/2103637477760311522",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-26T00:07:13+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -74,7 +123,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-26T00:00:00+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -91,7 +140,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T23:59:47.248000+00:00",
       "source_count": 4,
-      "score": 86,
+      "score": 85,
       "official": false,
       "topics": [
         "openai",
@@ -107,7 +156,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-25T23:07:28+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -118,13 +167,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Issues with Codex – Identified – Full Outage",
+      "title": "Codex 问题 – 已识别 – 全面中断",
       "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-25T23:04:25+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -135,13 +184,29 @@
       "label": "值得关注"
     },
     {
-      "title": "Tell HN: Codex Is Down [fixed]",
+      "title": "我们知道 Codex 已关闭，正在努力恢复正常服务。",
+      "url": "https://x.com/thsottiaux/status/2103620061156290622",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-25T22:58:00+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "告诉 HN：Codex 已关闭 [已修复]",
       "url": "https://news.ycombinator.com/item?id=49851032",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-25T22:51:44+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -157,7 +222,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-25T21:50:12+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -174,7 +239,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T20:55:22+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -191,7 +256,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T20:46:50+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "openai",
@@ -208,15 +273,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T19:48:56+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
@@ -224,8 +288,8 @@
       "source": "X：Sam Altman (@sama)",
       "site_id": "aihot",
       "published_at": "2026-09-25T19:27:57+00:00",
-      "source_count": 1,
-      "score": 73,
+      "source_count": 2,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -236,13 +300,30 @@
       "label": "行业动态"
     },
     {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "title": "We're helping world-class organizations like @klaviyo build agentic deployment platforms. ① Connect every agent (claude, codex, cursor…) ② Configure SSO via their IDP (Okta, Entra) ③ Now everyone can cook, securely® W...",
+      "url": "https://x.com/rauchg/status/2103564484602384855",
+      "source": "Follow Builders · X · Guillermo Rauch",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-25T19:17:10+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Proaction 通过 Codex 将销售额提高了 60% 并节省了 75 多个小时",
       "url": "https://openai.com/index/proaction",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-09-25T19:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
@@ -251,22 +332,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Show HN: I couldn't deal with another Claude Code tab",
-      "url": "https://aidash.dev",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-25T18:22:30+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
@@ -275,7 +340,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T18:13:31+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "anthropic",
@@ -285,13 +350,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
+      "title": "微软对 Copilot 进行了另一次改造，添加了 Autopilot 代理和基于使用情况的计费",
       "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-25T16:30:57+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "agent",
@@ -301,13 +366,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
+      "title": "Jevmem – Claude Code 的自动项目内存，基于 Jev 构建",
       "url": "https://github.com/Avinash-jetwani/jevmem",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-09-25T16:04:04+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -323,7 +388,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T15:48:14+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "openai",
@@ -334,29 +399,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Microsoft’s new Copilot app adds coding and an always-on Autopilot agent",
-      "url": "https://thenextweb.com/news/microsoft-copilot-super-app-code-autopilot",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-25T13:49:27+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "开源微信流，微信聊天记录，可以直接给 Codex 和 Obsidan 了",
       "url": "https://juejin.cn/post/7688333234086150178",
       "source": "juejin",
       "site_id": "newsnow",
       "published_at": "2026-09-25T13:43:53.197000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent",
@@ -373,76 +422,13 @@
       "site_id": "curated_media",
       "published_at": "2026-09-25T12:22:27+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Google adds creepy avatars to Gemini 3.8 live's agents",
-      "url": "https://www.engadget.com/2268587/google-video-avatars-gemini-3-8-live-agent",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-09-25T10:53:55+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "google",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta is no stranger to disrupting tech. But its agentic AI push feels different.",
-      "url": "https://www.businessinsider.com/meta-muse-ai-agent-stock-volatility-agentic-ai-turning-point-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-25T09:50:01+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Flutter Golden Tests：给 AI Agent 的 UI 测试系统",
-      "url": "https://juejin.cn/post/7688611918492008490",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-25T07:44:33.109000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 智能体被曝今年至少 4 次未经指示闯入政府和学校网站",
-      "url": "https://www.ithome.com/1/007/144.htm",
-      "source": "IT之家（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T07:02:05+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }

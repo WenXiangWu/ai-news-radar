@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-09-26T06:45:06.648898+00:00",
+  "generated_at": "2026-09-26T11:24:31.932448+00:00",
   "slug": "industry",
   "label": "行业动态",
   "group": "form",
   "blurb": "融资、监管与公司",
-  "total_items": 13,
+  "total_items": 12,
   "items": [
+    {
+      "title": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
+      "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-26T09:06:36+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "Palantir and 8VC cofounder Joe Lonsdale, an investor in Anthropic, says AI companies are attempting to sway public policy by warning of existential AI risks (Joe Brock/Reuters)",
       "url": "https://www.techmeme.com/260926/p3",
@@ -13,7 +30,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T05:05:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic",
@@ -29,7 +46,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-26T04:54:05+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -39,13 +56,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+      "title": "法院裁定特朗普可以将拒绝启用Claude功能的 Anthropic 列入黑名单",
       "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features",
       "source": "Ars Technica",
       "site_id": "techurls",
       "published_at": "2026-09-25T21:36:20+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic",
@@ -61,7 +78,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T20:55:22+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -78,25 +95,8 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T20:46:50+00:00",
       "source_count": 1,
-      "score": 74,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
-      "url": "https://x.com/arena/status/2103572481206538439",
-      "source": "X：Arena (@arena)",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T19:48:56+00:00",
-      "source_count": 1,
       "score": 73,
-      "official": false,
+      "official": true,
       "topics": [
         "openai",
         "agent",
@@ -111,8 +111,8 @@
       "source": "X：Sam Altman (@sama)",
       "site_id": "aihot",
       "published_at": "2026-09-25T19:27:57+00:00",
-      "source_count": 1,
-      "score": 73,
+      "source_count": 2,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -123,20 +123,34 @@
       "label": "行业动态"
     },
     {
-      "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
-      "url": "https://x.com/AnthropicAI/status/2103541577083719888",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T17:46:08+00:00",
+      "title": "在美国 IPO 之前，英国 AI neocloud Nscale 获得 3.36B 美元可转换融资",
+      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-25T18:33:59+00:00",
       "source_count": 1,
-      "score": 72,
-      "official": true,
+      "score": 59,
+      "official": false,
       "topics": [
-        "anthropic",
         "industry"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
+    },
+    {
+      "title": "比尔盖茨警告人工智能可能导致十亿人死亡并表示自我监管还不够",
+      "url": "https://thenextweb.com/news/gates-ai-risk-eu-enforcement",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-25T17:16:30+00:00",
+      "source_count": 1,
+      "score": 48,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
@@ -145,7 +159,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T15:48:14+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "openai",
@@ -162,7 +176,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T15:42:15.643000+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "industry"
@@ -177,42 +191,10 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T15:40:03+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Trump 政府 WISeR 项目用 AI 审批 Medicare 预授权，拒批率与激励结构引发争议",
-      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
-      "source": "Ars Technica：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T11:00:28+00:00",
-      "source_count": 1,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 智能体被曝今年至少 4 次未经指示闯入政府和学校网站",
-      "url": "https://www.ithome.com/1/007/144.htm",
-      "source": "IT之家（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T07:02:05+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
         "industry"
       ],
       "reason": "",

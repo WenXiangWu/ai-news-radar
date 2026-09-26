@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-26T06:45:06.648898+00:00",
+  "generated_at": "2026-09-26T11:24:31.932448+00:00",
   "window_hours": 168,
-  "total_items": 16,
+  "total_items": 17,
   "items": [
     {
       "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
@@ -10,7 +10,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T23:59:47.248000+00:00",
       "source_count": 4,
-      "score": 86,
+      "score": 85,
       "official": false,
       "topics": [
         "openai",
@@ -18,7 +18,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 70
     },
     {
       "title": "微软重启Copilot，退出个人AI聊天机器人领域的竞争",
@@ -27,14 +27,28 @@
       "site_id": "buzzing",
       "published_at": "2026-09-26T04:58:00.167000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "coding"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 70
+    },
+    {
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T09:41:58+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
     },
     {
       "title": "Meta的Muse似乎使用了一个名为muse-special的OpenAI模型",
@@ -43,14 +57,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-25T23:59:47.244000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 68
+      "hot_score": 46
     },
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -59,14 +73,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T20:17:37.059000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 50
+      "hot_score": 34
     },
     {
       "title": "A single function Jev-like wrapper for LLMs, including vision models",
@@ -74,50 +88,6 @@
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-26T04:20:58+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 49
-    },
-    {
-      "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T18:36:52.879000+00:00",
-      "source_count": 3,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 44
-    },
-    {
-      "title": "机密预算显示，美国国家安全局正斥资数十亿美元测试人工智能模型",
-      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
-      "source": "www.washingtonsun.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-25T18:36:52.812000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 44
-    },
-    {
-      "title": "太AI了；没看",
-      "url": "https://www.tai-dr.com",
-      "source": "www.tai-dr.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-25T23:44:26.250000+00:00",
       "source_count": 2,
       "score": 53,
       "official": false,
@@ -127,20 +97,82 @@
       "hot_score": 33
     },
     {
+      "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T18:36:52.879000+00:00",
+      "source_count": 3,
+      "score": 79,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 30
+    },
+    {
+      "title": "机密预算显示，美国国家安全局正斥资数十亿美元测试人工智能模型",
+      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "source": "www.washingtonsun.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-25T18:36:52.812000+00:00",
+      "source_count": 3,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 30
+    },
+    {
+      "title": "太AI了；没看",
+      "url": "https://www.tai-dr.com",
+      "source": "www.tai-dr.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-25T23:44:26.250000+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 23
+    },
+    {
       "title": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
       "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-09-25T23:22:18+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 22
+    },
+    {
+      "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
+      "url": "https://x.com/sama/status/2103567198690349362",
+      "source": "X：Sam Altman (@sama)",
+      "site_id": "aihot",
+      "published_at": "2026-09-25T19:27:57+00:00",
+      "source_count": 2,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 16
     },
     {
       "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
@@ -149,58 +181,58 @@
       "site_id": "official_ai",
       "published_at": "2026-09-25T18:00:00+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "coding"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 21
+      "hot_score": 14
     },
     {
-      "title": "Tesla&#8217;s Optimus robot is going through growing pains",
+      "title": "特斯拉的擎天柱机器人正在经历成长的阵痛",
       "url": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-09-25T17:01:36+00:00",
       "source_count": 2,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 19
+      "hot_score": 13
     },
     {
-      "title": "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk",
+      "title": "上诉法院让五角大楼将 Anthropic 指定为供应链风险",
       "url": "https://www.wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk",
       "source": "Wired AI",
       "site_id": "opmlrss",
       "published_at": "2026-09-25T16:58:20+00:00",
       "source_count": 2,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 19
+      "hot_score": 13
     },
     {
-      "title": "Show HN: Doom or Bloom, map your AI worldview",
+      "title": "展示《HN：末日还是盛开》，绘制您的 AI 世界观",
       "url": "https://www.doom-or-bloom.com",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-09-25T16:51:28+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 19
+      "hot_score": 13
     },
     {
       "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
@@ -209,7 +241,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T15:48:14+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "openai",
@@ -218,7 +250,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 17
+      "hot_score": 12
     },
     {
       "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
@@ -227,7 +259,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-25T15:40:03+00:00",
       "source_count": 2,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -235,21 +267,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 17
-    },
-    {
-      "title": "Show HN: Agentic CUDA Kernel Optimizer",
-      "url": "https://github.com/bertaye/agentic-cuda-optimizer",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-25T10:32:58+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 11
+      "hot_score": 12
     }
   ]
 }
