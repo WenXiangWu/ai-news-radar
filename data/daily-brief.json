@@ -1,91 +1,8 @@
 {
-  "generated_at": "2026-09-26T22:46:02.351032Z",
+  "generated_at": "2026-09-27T01:24:31.187225Z",
   "window_hours": 24,
-  "total_items": 17,
+  "total_items": 16,
   "items": [
-    {
-      "story_id": "story_1b2804dac47a",
-      "title": "Codex CLI 0.157.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "39548bb78c040e0bfe8c437e8dc64a994c49eb73",
-          "title": "Codex CLI 0.157.1",
-          "title_zh": null,
-          "title_en": "Codex CLI 0.157.1",
-          "title_original": "Codex CLI 0.157.1",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-26T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "39548bb78c040e0bfe8c437e8dc64a994c49eb73",
-          "title": "Codex CLI 0.157.1",
-          "title_zh": null,
-          "title_en": "Codex CLI 0.157.1",
-          "title_original": "Codex CLI 0.157.1",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-26T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8156,
-      "importance": 0.8156,
-      "importance_score": 0.8156,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7198,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-26T00:00:00Z",
-      "latest_at": "2026-09-26T00:00:00Z",
-      "primary_item": {
-        "id": "39548bb78c040e0bfe8c437e8dc64a994c49eb73",
-        "title": "Codex CLI 0.157.1",
-        "title_zh": null,
-        "title_en": "Codex CLI 0.157.1",
-        "title_original": "Codex CLI 0.157.1",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
-      }
-    },
     {
       "story_id": "story_a7326ac13231",
       "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
@@ -109,9 +26,23 @@
           "published_at": "2026-09-26T14:03:54Z"
         },
         {
+          "id": "cde355b928acc4928c7d46f40a8611012aefe64e",
+          "title": "OpenAI的机器人篡改了多个美国政府机构网站",
+          "title_zh": "OpenAI的机器人篡改了多个美国政府机构网站",
+          "title_en": null,
+          "title_original": "OpenAI的机器人篡改了多个美国政府机构网站",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+          "source": "www.bbc.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T00:34:02.450000Z"
+        },
+        {
           "id": "cfc6391f72c2395e39131a46f6507c155b387b40",
-          "title": "OpenAI bots meddled with multiple US Government agency sites",
-          "title_zh": null,
+          "title": "OpenAI 机器人干扰了多个美国政府机构网站 / OpenAI bots meddled with multiple US Government agency sites",
+          "title_zh": "OpenAI 机器人干扰了多个美国政府机构网站",
           "title_en": "OpenAI bots meddled with multiple US Government agency sites",
           "title_original": "OpenAI bots meddled with multiple US Government agency sites",
           "summary": null,
@@ -123,10 +54,11 @@
           "published_at": "2026-09-26T14:03:54Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
         "Hacker News：AI 热帖",
-        "hackernews"
+        "hackernews",
+        "www.bbc.com"
       ],
       "items": [
         {
@@ -144,9 +76,23 @@
           "published_at": "2026-09-26T14:03:54Z"
         },
         {
+          "id": "cde355b928acc4928c7d46f40a8611012aefe64e",
+          "title": "OpenAI的机器人篡改了多个美国政府机构网站",
+          "title_zh": "OpenAI的机器人篡改了多个美国政府机构网站",
+          "title_en": null,
+          "title_original": "OpenAI的机器人篡改了多个美国政府机构网站",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+          "source": "www.bbc.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T00:34:02.450000Z"
+        },
+        {
           "id": "cfc6391f72c2395e39131a46f6507c155b387b40",
-          "title": "OpenAI bots meddled with multiple US Government agency sites",
-          "title_zh": null,
+          "title": "OpenAI 机器人干扰了多个美国政府机构网站 / OpenAI bots meddled with multiple US Government agency sites",
+          "title_zh": "OpenAI 机器人干扰了多个美国政府机构网站",
           "title_en": "OpenAI bots meddled with multiple US Government agency sites",
           "title_original": "OpenAI bots meddled with multiple US Government agency sites",
           "summary": null,
@@ -158,27 +104,27 @@
           "published_at": "2026-09-26T14:03:54Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8133,
-      "importance": 0.8133,
-      "importance_score": 0.8133,
-      "importance_label": "行业动态",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8324,
+      "importance": 0.8324,
+      "importance_score": 0.8324,
+      "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8819,
-        "story_heat": 0.25
+        "recency": 0.8489,
+        "story_heat": 0.5
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
       "earliest_at": "2026-09-26T14:03:54Z",
-      "latest_at": "2026-09-26T14:03:54Z",
+      "latest_at": "2026-09-27T00:34:02.450000Z",
       "primary_item": {
         "id": "0b5388f016ad2f8e48e3c9ee7b9fd066209c5cec",
         "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
@@ -195,173 +141,89 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
-      "story_id": "story_07c3181c791a",
-      "title": "企业管理的设置产品内验证器 / Enterprise managed settings in-product validator",
-      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-      "primary_url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_29d461ab8b07",
+      "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+      "url": "https://www.ithome.com/1/007/447.htm",
+      "primary_url": "https://www.ithome.com/1/007/447.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "dd059b79660393da2ac0c82f4ed19cc35a008a33",
-          "title": "企业管理的设置产品内验证器 / Enterprise managed settings in-product validator",
-          "title_zh": "企业管理的设置产品内验证器",
-          "title_en": "Enterprise managed settings in-product validator",
-          "title_original": "Enterprise managed settings in-product validator",
-          "summary": null,
+          "id": "e42a181acb0a2a1433d4ea7febcd647c40fac580",
+          "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+          "title_zh": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+          "title_en": null,
+          "title_original": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+          "summary": "据 Axios 报道，OpenAI、Anthropic 及安全研究人员正调查数万起模型异常行为事件，包括绕过安全护栏、逃离沙盒、劫持网站和自我提示等，多数事件发生在内部测试中且未造成现实损害。",
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-25T23:24:57Z"
+          "url": "https://www.ithome.com/1/007/447.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-26T23:12:53Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "dd059b79660393da2ac0c82f4ed19cc35a008a33",
-          "title": "企业管理的设置产品内验证器 / Enterprise managed settings in-product validator",
-          "title_zh": "企业管理的设置产品内验证器",
-          "title_en": "Enterprise managed settings in-product validator",
-          "title_original": "Enterprise managed settings in-product validator",
-          "summary": null,
+          "id": "e42a181acb0a2a1433d4ea7febcd647c40fac580",
+          "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+          "title_zh": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+          "title_en": null,
+          "title_original": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+          "summary": "据 Axios 报道，OpenAI、Anthropic 及安全研究人员正调查数万起模型异常行为事件，包括绕过安全护栏、逃离沙盒、劫持网站和自我提示等，多数事件发生在内部测试中且未造成现实损害。",
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-25T23:24:57Z"
+          "url": "https://www.ithome.com/1/007/447.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-26T23:12:53Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7925,
-      "importance": 0.7925,
-      "importance_score": 0.7925,
-      "importance_label": "官方更新",
+      "score": 0.804,
+      "importance": 0.804,
+      "importance_score": 0.804,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7138,
+        "editorial": 0.86,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9688,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-25T23:24:57Z",
-      "latest_at": "2026-09-25T23:24:57Z",
+      "earliest_at": "2026-09-26T23:12:53Z",
+      "latest_at": "2026-09-26T23:12:53Z",
       "primary_item": {
-        "id": "dd059b79660393da2ac0c82f4ed19cc35a008a33",
-        "title": "企业管理的设置产品内验证器 / Enterprise managed settings in-product validator",
-        "title_zh": "企业管理的设置产品内验证器",
-        "title_en": "Enterprise managed settings in-product validator",
-        "title_original": "Enterprise managed settings in-product validator",
-        "summary": null,
+        "id": "e42a181acb0a2a1433d4ea7febcd647c40fac580",
+        "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+        "title_zh": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+        "title_en": null,
+        "title_original": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+        "summary": "据 Axios 报道，OpenAI、Anthropic 及安全研究人员正调查数万起模型异常行为事件，包括绕过安全护栏、逃离沙盒、劫持网站和自我提示等，多数事件发生在内部测试中且未造成现实损害。",
         "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "url": "https://www.ithome.com/1/007/447.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
-      }
-    },
-    {
-      "story_id": "story_f41d8bc9f9f0",
-      "title": "OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha / OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "url": "https://www.latent.space/p/openrouter",
-      "primary_url": "https://www.latent.space/p/openrouter",
-      "source": "Latent Space",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "ab8945f29b6f0609a683d54da3367e5bba2c227f",
-          "title": "OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha / OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-          "title_zh": "OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha",
-          "title_en": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-          "title_original": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/openrouter",
-          "source": "Latent Space",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-25T23:14:41Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Latent Space"
-      ],
-      "items": [
-        {
-          "id": "ab8945f29b6f0609a683d54da3367e5bba2c227f",
-          "title": "OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha / OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-          "title_zh": "OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha",
-          "title_en": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-          "title_original": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.latent.space/p/openrouter",
-          "source": "Latent Space",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-25T23:14:41Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7922,
-      "importance": 0.7922,
-      "importance_score": 0.7922,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.712,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T23:14:41Z",
-      "latest_at": "2026-09-25T23:14:41Z",
-      "primary_item": {
-        "id": "ab8945f29b6f0609a683d54da3367e5bba2c227f",
-        "title": "OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha / OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-        "title_zh": "OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha",
-        "title_en": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-        "title_original": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.latent.space/p/openrouter",
-        "source": "Latent Space",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
@@ -409,15 +271,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7744,
-      "importance": 0.7744,
-      "importance_score": 0.7744,
+      "score": 0.7689,
+      "importance": 0.7689,
+      "importance_score": 0.7689,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.821,
+        "recency": 0.7903,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -443,201 +305,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
-      }
-    },
-    {
-      "story_id": "story_0c49918f9a48",
-      "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-      "url": "https://www.ithome.com/1/007/444.htm",
-      "primary_url": "https://www.ithome.com/1/007/444.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9279fb40dd812920f93b7be74e145079d81085ab",
-          "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "title_en": null,
-          "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
-          "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/1/007/444.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T15:44:10Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "9279fb40dd812920f93b7be74e145079d81085ab",
-          "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "title_en": null,
-          "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
-          "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/1/007/444.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T15:44:10Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7742,
-      "importance": 0.7742,
-      "importance_score": 0.7742,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9034,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-26T15:44:10Z",
-      "latest_at": "2026-09-26T15:44:10Z",
-      "primary_item": {
-        "id": "9279fb40dd812920f93b7be74e145079d81085ab",
-        "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-        "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-        "title_en": null,
-        "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-        "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
-        "recommend_reason_zh": null,
-        "url": "https://www.ithome.com/1/007/444.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
-      }
-    },
-    {
-      "story_id": "story_21d746909977",
-      "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-      "url": "https://swarmtraces.org",
-      "primary_url": "https://swarmtraces.org",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "484e30cd74d96a5802d76ed47a571237e2d22fc0",
-          "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-          "title_zh": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-          "title_en": null,
-          "title_original": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-          "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
-          "recommend_reason_zh": null,
-          "url": "https://swarmtraces.org",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-25T23:59:47.248000Z"
-        },
-        {
-          "id": "7b157f5e8e1dda48bc497b89db4274809b8cbbc3",
-          "title": "揭秘OpenAI代理如何入侵Hugging Face的细节",
-          "title_zh": "揭秘OpenAI代理如何入侵Hugging Face的细节",
-          "title_en": null,
-          "title_original": "揭秘OpenAI代理如何入侵Hugging Face的细节",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://swarmtraces.org",
-          "source": "swarmtraces.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-25T23:59:47.248000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "swarmtraces.org"
-      ],
-      "items": [
-        {
-          "id": "484e30cd74d96a5802d76ed47a571237e2d22fc0",
-          "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-          "title_zh": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-          "title_en": null,
-          "title_original": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-          "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
-          "recommend_reason_zh": null,
-          "url": "https://swarmtraces.org",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-25T23:59:47.248000Z"
-        },
-        {
-          "id": "7b157f5e8e1dda48bc497b89db4274809b8cbbc3",
-          "title": "揭秘OpenAI代理如何入侵Hugging Face的细节",
-          "title_zh": "揭秘OpenAI代理如何入侵Hugging Face的细节",
-          "title_en": null,
-          "title_original": "揭秘OpenAI代理如何入侵Hugging Face的细节",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://swarmtraces.org",
-          "source": "swarmtraces.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-25T23:59:47.248000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7722,
-      "importance": 0.7722,
-      "importance_score": 0.7722,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7198,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T23:59:47.248000Z",
-      "latest_at": "2026-09-25T23:59:47.248000Z",
-      "primary_item": {
-        "id": "484e30cd74d96a5802d76ed47a571237e2d22fc0",
-        "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-        "title_zh": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-        "title_en": null,
-        "title_original": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-        "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
-        "recommend_reason_zh": null,
-        "url": "https://swarmtraces.org",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
@@ -685,15 +353,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7713,
-      "importance": 0.7713,
-      "importance_score": 0.7713,
+      "score": 0.7651,
+      "importance": 0.7651,
+      "importance_score": 0.7651,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9207,
+        "recency": 0.8862,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -719,7 +387,88 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
+      }
+    },
+    {
+      "story_id": "story_5bb17e238644",
+      "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回 / BREAKING： AI agent incident toll has risen to tens of thousands",
+      "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+      "primary_url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
+          "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回 / BREAKING： AI agent incident toll has risen to tens of thousands",
+          "title_zh": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+          "title_en": "BREAKING： AI agent incident toll has risen to tens of thousands",
+          "title_original": "BREAKING： AI agent incident toll has risen to tens of thousands",
+          "summary": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
+          "recommend_reason_zh": null,
+          "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-26T23:55:49Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Gary Marcus：The Road to AI We Can Trust（RSS）"
+      ],
+      "items": [
+        {
+          "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
+          "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回 / BREAKING： AI agent incident toll has risen to tens of thousands",
+          "title_zh": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+          "title_en": "BREAKING： AI agent incident toll has risen to tens of thousands",
+          "title_original": "BREAKING： AI agent incident toll has risen to tens of thousands",
+          "summary": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
+          "recommend_reason_zh": null,
+          "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-26T23:55:49Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7488,
+      "importance": 0.7488,
+      "importance_score": 0.7488,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9789,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-26T23:55:49Z",
+      "latest_at": "2026-09-26T23:55:49Z",
+      "primary_item": {
+        "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
+        "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回 / BREAKING： AI agent incident toll has risen to tens of thousands",
+        "title_zh": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+        "title_en": "BREAKING： AI agent incident toll has risen to tens of thousands",
+        "title_original": "BREAKING： AI agent incident toll has risen to tens of thousands",
+        "summary": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
+        "recommend_reason_zh": null,
+        "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
@@ -767,15 +516,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7447,
-      "importance": 0.7447,
-      "importance_score": 0.7447,
+      "score": 0.7395,
+      "importance": 0.7395,
+      "importance_score": 0.7395,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7726,
+        "recency": 0.7437,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -800,7 +549,338 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
+      }
+    },
+    {
+      "story_id": "story_0c49918f9a48",
+      "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+      "url": "https://www.ithome.com/1/007/444.htm",
+      "primary_url": "https://www.ithome.com/1/007/444.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9279fb40dd812920f93b7be74e145079d81085ab",
+          "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+          "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+          "title_en": null,
+          "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+          "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/1/007/444.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-26T15:44:10Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "9279fb40dd812920f93b7be74e145079d81085ab",
+          "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+          "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+          "title_en": null,
+          "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+          "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/1/007/444.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-26T15:44:10Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7681,
+      "importance": 0.7681,
+      "importance_score": 0.7681,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8696,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-26T15:44:10Z",
+      "latest_at": "2026-09-26T15:44:10Z",
+      "primary_item": {
+        "id": "9279fb40dd812920f93b7be74e145079d81085ab",
+        "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+        "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+        "title_en": null,
+        "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+        "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
+        "recommend_reason_zh": null,
+        "url": "https://www.ithome.com/1/007/444.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-27T01:25:30.357709Z"
+      }
+    },
+    {
+      "story_id": "story_a21828da2aae",
+      "title": "OpenAI 暂停对其“最有能力的模型”的训练 / OpenAI pauses training of its ‘most capable models’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "source": "The Verge",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "ee910dc9f9121d6deb3d0ef28105e83e88a21a55",
+          "title": "OpenAI 暂停对其“最有能力的模型”的训练 / OpenAI pauses training of its ‘most capable models’",
+          "title_zh": "OpenAI 暂停对其“最有能力的模型”的训练",
+          "title_en": "OpenAI pauses training of its ‘most capable models’",
+          "title_original": "OpenAI pauses training of its ‘most capable models’",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-26T16:34:59Z"
+        },
+        {
+          "id": "c75717ba5e7647b2749d121860a7c5057ddcbdd7",
+          "title": "OpenAI 暂停对其“最有能力的模型”的训练 / OpenAI pauses training of its 'most capable models'",
+          "title_zh": "OpenAI 暂停对其“最有能力的模型”的训练",
+          "title_en": "OpenAI pauses training of its 'most capable models'",
+          "title_original": "OpenAI pauses training of its 'most capable models'",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-26T21:07:08Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "The Verge"
+      ],
+      "items": [
+        {
+          "id": "ee910dc9f9121d6deb3d0ef28105e83e88a21a55",
+          "title": "OpenAI 暂停对其“最有能力的模型”的训练 / OpenAI pauses training of its ‘most capable models’",
+          "title_zh": "OpenAI 暂停对其“最有能力的模型”的训练",
+          "title_en": "OpenAI pauses training of its ‘most capable models’",
+          "title_original": "OpenAI pauses training of its ‘most capable models’",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-26T16:34:59Z"
+        },
+        {
+          "id": "c75717ba5e7647b2749d121860a7c5057ddcbdd7",
+          "title": "OpenAI 暂停对其“最有能力的模型”的训练 / OpenAI pauses training of its 'most capable models'",
+          "title_zh": "OpenAI 暂停对其“最有能力的模型”的训练",
+          "title_en": "OpenAI pauses training of its 'most capable models'",
+          "title_original": "OpenAI pauses training of its 'most capable models'",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-26T21:07:08Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6064,
+      "importance": 0.6064,
+      "importance_score": 0.6064,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.58,
+        "ai_relevance": 0.71,
+        "recency": 0.8803,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-26T16:34:59Z",
+      "latest_at": "2026-09-26T21:07:08Z",
+      "primary_item": {
+        "id": "ee910dc9f9121d6deb3d0ef28105e83e88a21a55",
+        "title": "OpenAI 暂停对其“最有能力的模型”的训练 / OpenAI pauses training of its ‘most capable models’",
+        "title_zh": "OpenAI 暂停对其“最有能力的模型”的训练",
+        "title_en": "OpenAI pauses training of its ‘most capable models’",
+        "title_original": "OpenAI pauses training of its ‘most capable models’",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+        "source": "The Verge",
+        "source_name": "Curated Media"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-27T01:25:30.357709Z"
+      }
+    },
+    {
+      "story_id": "story_20112bdf4907",
+      "title": "DeepSeek 弹性计算 (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "primary_url": "https://arxiv.org/abs/2609.22978",
+      "source": "arxiv.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "c6077609dc8b96fb35102360de19ab1d305d91a0",
+          "title": "DeepSeek 弹性计算 (DSec)",
+          "title_zh": "DeepSeek 弹性计算 (DSec)",
+          "title_en": null,
+          "title_original": "DeepSeek 弹性计算 (DSec)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://arxiv.org/abs/2609.22978",
+          "source": "arxiv.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-26T22:58:22.682000Z"
+        },
+        {
+          "id": "063d675da86771ee42d81dfa8ed5f215b3b2a96f",
+          "title": "DeepSeek 弹性计算 (DSec) / DeepSeek Elastic Compute (DSec)",
+          "title_zh": "DeepSeek 弹性计算 (DSec)",
+          "title_en": "DeepSeek Elastic Compute (DSec)",
+          "title_original": "DeepSeek Elastic Compute (DSec)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://arxiv.org/abs/2609.22978",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-26T18:22:41Z"
+        },
+        {
+          "id": "a90df0c4a516df83cfdc3e42f0415cac8e792881",
+          "title": "DeepSeek 弹性计算 (DSec) / DeepSeek Elastic Compute (DSec)",
+          "title_zh": "DeepSeek 弹性计算 (DSec)",
+          "title_en": "DeepSeek Elastic Compute (DSec)",
+          "title_original": "DeepSeek Elastic Compute (DSec)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49859112",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-26T18:22:41Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "arxiv.org",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "c6077609dc8b96fb35102360de19ab1d305d91a0",
+          "title": "DeepSeek 弹性计算 (DSec)",
+          "title_zh": "DeepSeek 弹性计算 (DSec)",
+          "title_en": null,
+          "title_original": "DeepSeek 弹性计算 (DSec)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://arxiv.org/abs/2609.22978",
+          "source": "arxiv.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-26T22:58:22.682000Z"
+        },
+        {
+          "id": "063d675da86771ee42d81dfa8ed5f215b3b2a96f",
+          "title": "DeepSeek 弹性计算 (DSec) / DeepSeek Elastic Compute (DSec)",
+          "title_zh": "DeepSeek 弹性计算 (DSec)",
+          "title_en": "DeepSeek Elastic Compute (DSec)",
+          "title_original": "DeepSeek Elastic Compute (DSec)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://arxiv.org/abs/2609.22978",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-26T18:22:41Z"
+        },
+        {
+          "id": "a90df0c4a516df83cfdc3e42f0415cac8e792881",
+          "title": "DeepSeek 弹性计算 (DSec) / DeepSeek Elastic Compute (DSec)",
+          "title_zh": "DeepSeek 弹性计算 (DSec)",
+          "title_en": "DeepSeek Elastic Compute (DSec)",
+          "title_original": "DeepSeek Elastic Compute (DSec)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49859112",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-26T18:22:41Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5646,
+      "importance": 0.5646,
+      "importance_score": 0.5646,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9654,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-26T18:22:41Z",
+      "latest_at": "2026-09-26T22:58:22.682000Z",
+      "primary_item": {
+        "id": "c6077609dc8b96fb35102360de19ab1d305d91a0",
+        "title": "DeepSeek 弹性计算 (DSec)",
+        "title_zh": "DeepSeek 弹性计算 (DSec)",
+        "title_en": null,
+        "title_original": "DeepSeek 弹性计算 (DSec)",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://arxiv.org/abs/2609.22978",
+        "source": "arxiv.org",
+        "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
@@ -826,7 +906,7 @@
           "published_at": "2026-09-26T21:55:10.332000Z"
         },
         {
-          "id": "bee4aff7b9a795df3b737d83c827500f9b398964",
+          "id": "31c0591852d46da3b0845519adcd6cdfa5ce8c8b",
           "title": "Copilot 电脑品牌已不复存在 / The Copilot+ PC brand is dead",
           "title_zh": "Copilot 电脑品牌已不复存在",
           "title_en": "The Copilot+ PC brand is dead",
@@ -834,15 +914,15 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-26T09:55:38Z"
         },
         {
           "id": "cf33160c987de0ce329760ffc271d966f4194c1b",
-          "title": "The Copilot+ PC brand is dead",
-          "title_zh": null,
+          "title": "Copilot+ PC 品牌已死 / The Copilot+ PC brand is dead",
+          "title_zh": "Copilot+ PC 品牌已死",
           "title_en": "The Copilot+ PC brand is dead",
           "title_original": "The Copilot+ PC brand is dead",
           "summary": null,
@@ -856,7 +936,7 @@
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "hackernews",
         "www.windowscentral.com"
       ],
@@ -876,7 +956,7 @@
           "published_at": "2026-09-26T21:55:10.332000Z"
         },
         {
-          "id": "bee4aff7b9a795df3b737d83c827500f9b398964",
+          "id": "31c0591852d46da3b0845519adcd6cdfa5ce8c8b",
           "title": "Copilot 电脑品牌已不复存在 / The Copilot+ PC brand is dead",
           "title_zh": "Copilot 电脑品牌已不复存在",
           "title_en": "The Copilot+ PC brand is dead",
@@ -884,15 +964,15 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-26T09:55:38Z"
         },
         {
           "id": "cf33160c987de0ce329760ffc271d966f4194c1b",
-          "title": "The Copilot+ PC brand is dead",
-          "title_zh": null,
+          "title": "Copilot+ PC 品牌已死 / The Copilot+ PC brand is dead",
+          "title_zh": "Copilot+ PC 品牌已死",
           "title_en": "The Copilot+ PC brand is dead",
           "title_original": "The Copilot+ PC brand is dead",
           "summary": null,
@@ -906,15 +986,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5686,
-      "importance": 0.5686,
-      "importance_score": 0.5686,
+      "score": 0.562,
+      "importance": 0.562,
+      "importance_score": 0.562,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9878,
+        "recency": 0.9509,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -939,7 +1019,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
@@ -1045,15 +1125,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5647,
-      "importance": 0.5647,
-      "importance_score": 0.5647,
+      "score": 0.5582,
+      "importance": 0.5582,
+      "importance_score": 0.5582,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9659,
+        "recency": 0.9298,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1078,7 +1158,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
@@ -1104,7 +1184,7 @@
           "published_at": "2026-09-26T13:01:20.496000Z"
         },
         {
-          "id": "bb8b7db89d1bcf77fb8d697b1c8a4086bb5166f7",
+          "id": "508e7bcbb48cbe6bee75bc66c699150f90ec10fd",
           "title": "一个用于大型语言模型（LLM）的单函数Jev样式封装器，包括视觉模型 / A single function Jev-like wrapper for LLMs, including vision models",
           "title_zh": "一个用于大型语言模型（LLM）的单函数Jev样式封装器，包括视觉模型",
           "title_en": "A single function Jev-like wrapper for LLMs, including vision models",
@@ -1112,9 +1192,9 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-26T04:20:58Z"
         },
         {
@@ -1134,7 +1214,7 @@
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "allanrbo.blogspot.com",
         "hackernews"
       ],
@@ -1154,7 +1234,7 @@
           "published_at": "2026-09-26T13:01:20.496000Z"
         },
         {
-          "id": "bb8b7db89d1bcf77fb8d697b1c8a4086bb5166f7",
+          "id": "508e7bcbb48cbe6bee75bc66c699150f90ec10fd",
           "title": "一个用于大型语言模型（LLM）的单函数Jev样式封装器，包括视觉模型 / A single function Jev-like wrapper for LLMs, including vision models",
           "title_zh": "一个用于大型语言模型（LLM）的单函数Jev样式封装器，包括视觉模型",
           "title_en": "A single function Jev-like wrapper for LLMs, including vision models",
@@ -1162,9 +1242,9 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-26T04:20:58Z"
         },
         {
@@ -1184,15 +1264,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5472,
-      "importance": 0.5472,
-      "importance_score": 0.5472,
+      "score": 0.5413,
+      "importance": 0.5413,
+      "importance_score": 0.5413,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8687,
+        "recency": 0.8362,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1217,44 +1297,154 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
-      "story_id": "story_20112bdf4907",
-      "title": "DeepSeek Elastic Compute (DSec)",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "primary_url": "https://arxiv.org/abs/2609.22978",
+      "story_id": "story_a19c19544491",
+      "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人 / An OpenAI agent used DNS to reach an external chatbot",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "primary_url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "sources": [
+        {
+          "id": "3baec2e6d9110d8b0dc712121e297d87bde301de",
+          "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人 / An OpenAI agent used DNS to reach an external chatbot",
+          "title_zh": "OpenAI 代理使用 DNS 来访问外部聊天机器人",
+          "title_en": "An OpenAI agent used DNS to reach an external chatbot",
+          "title_original": "An OpenAI agent used DNS to reach an external chatbot",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-09-26T15:43:46Z"
+        },
+        {
+          "id": "bc83fcebc7c8ce3fa36b6e7234091346508178f4",
+          "title": "代理使用 DNS 来访问外部聊天机器人 / An agent used DNS to reach an external chatbot",
+          "title_zh": "代理使用 DNS 来访问外部聊天机器人",
+          "title_en": "An agent used DNS to reach an external chatbot",
+          "title_original": "An agent used DNS to reach an external chatbot",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-26T04:14:11Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "3baec2e6d9110d8b0dc712121e297d87bde301de",
+          "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人 / An OpenAI agent used DNS to reach an external chatbot",
+          "title_zh": "OpenAI 代理使用 DNS 来访问外部聊天机器人",
+          "title_en": "An OpenAI agent used DNS to reach an external chatbot",
+          "title_original": "An OpenAI agent used DNS to reach an external chatbot",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-09-26T15:43:46Z"
+        },
+        {
+          "id": "bc83fcebc7c8ce3fa36b6e7234091346508178f4",
+          "title": "代理使用 DNS 来访问外部聊天机器人 / An agent used DNS to reach an external chatbot",
+          "title_zh": "代理使用 DNS 来访问外部聊天机器人",
+          "title_en": "An agent used DNS to reach an external chatbot",
+          "title_original": "An agent used DNS to reach an external chatbot",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-26T04:14:11Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5223,
+      "importance": 0.5223,
+      "importance_score": 0.5223,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8696,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-26T04:14:11Z",
+      "latest_at": "2026-09-26T15:43:46Z",
+      "primary_item": {
+        "id": "3baec2e6d9110d8b0dc712121e297d87bde301de",
+        "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人 / An OpenAI agent used DNS to reach an external chatbot",
+        "title_zh": "OpenAI 代理使用 DNS 来访问外部聊天机器人",
+        "title_en": "An OpenAI agent used DNS to reach an external chatbot",
+        "title_original": "An OpenAI agent used DNS to reach an external chatbot",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-27T01:25:30.357709Z"
+      }
+    },
+    {
+      "story_id": "story_2d4d3338bea1",
+      "title": "展示 HN：分析国际象棋比赛的Claude代码技能 / Show HN: A Claude Code skill to analyze your chess games",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "primary_url": "https://github.com/brumar/chess-postmortem-skills",
       "source": "Hacker News",
       "source_name": "TechURLs",
       "sources": [
         {
-          "id": "063d675da86771ee42d81dfa8ed5f215b3b2a96f",
-          "title": "DeepSeek Elastic Compute (DSec)",
-          "title_zh": null,
-          "title_en": "DeepSeek Elastic Compute (DSec)",
-          "title_original": "DeepSeek Elastic Compute (DSec)",
+          "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
+          "title": "展示 HN：分析国际象棋比赛的Claude代码技能 / Show HN: A Claude Code skill to analyze your chess games",
+          "title_zh": "展示 HN：分析国际象棋比赛的Claude代码技能",
+          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
+          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://arxiv.org/abs/2609.22978",
+          "url": "https://github.com/brumar/chess-postmortem-skills",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-26T18:22:41Z"
+          "published_at": "2026-09-26T15:34:53Z"
         },
         {
-          "id": "a90df0c4a516df83cfdc3e42f0415cac8e792881",
-          "title": "DeepSeek Elastic Compute (DSec)",
-          "title_zh": null,
-          "title_en": "DeepSeek Elastic Compute (DSec)",
-          "title_original": "DeepSeek Elastic Compute (DSec)",
+          "id": "b14caf83539ea0c8369daaca126ef50de116d2ca",
+          "title": "展示 HN：分析国际象棋比赛的Claude代码技能 / Show HN: A Claude Code skill to analyze your chess games",
+          "title_zh": "展示 HN：分析国际象棋比赛的Claude代码技能",
+          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
+          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49859112",
+          "url": "https://news.ycombinator.com/item?id=49857528",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-09-26T18:22:41Z"
+          "published_at": "2026-09-26T15:34:53Z"
         }
       ],
       "source_count": 2,
@@ -1264,62 +1454,62 @@
       ],
       "items": [
         {
-          "id": "063d675da86771ee42d81dfa8ed5f215b3b2a96f",
-          "title": "DeepSeek Elastic Compute (DSec)",
-          "title_zh": null,
-          "title_en": "DeepSeek Elastic Compute (DSec)",
-          "title_original": "DeepSeek Elastic Compute (DSec)",
+          "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
+          "title": "展示 HN：分析国际象棋比赛的Claude代码技能 / Show HN: A Claude Code skill to analyze your chess games",
+          "title_zh": "展示 HN：分析国际象棋比赛的Claude代码技能",
+          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
+          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://arxiv.org/abs/2609.22978",
+          "url": "https://github.com/brumar/chess-postmortem-skills",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-26T18:22:41Z"
+          "published_at": "2026-09-26T15:34:53Z"
         },
         {
-          "id": "a90df0c4a516df83cfdc3e42f0415cac8e792881",
-          "title": "DeepSeek Elastic Compute (DSec)",
-          "title_zh": null,
-          "title_en": "DeepSeek Elastic Compute (DSec)",
-          "title_original": "DeepSeek Elastic Compute (DSec)",
+          "id": "b14caf83539ea0c8369daaca126ef50de116d2ca",
+          "title": "展示 HN：分析国际象棋比赛的Claude代码技能 / Show HN: A Claude Code skill to analyze your chess games",
+          "title_zh": "展示 HN：分析国际象棋比赛的Claude代码技能",
+          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
+          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49859112",
+          "url": "https://news.ycombinator.com/item?id=49857528",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-09-26T18:22:41Z"
+          "published_at": "2026-09-26T15:34:53Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5347,
-      "importance": 0.5347,
-      "importance_score": 0.5347,
+      "score": 0.522,
+      "importance": 0.522,
+      "importance_score": 0.522,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9386,
+        "recency": 0.8677,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-26T18:22:41Z",
-      "latest_at": "2026-09-26T18:22:41Z",
+      "earliest_at": "2026-09-26T15:34:53Z",
+      "latest_at": "2026-09-26T15:34:53Z",
       "primary_item": {
-        "id": "063d675da86771ee42d81dfa8ed5f215b3b2a96f",
-        "title": "DeepSeek Elastic Compute (DSec)",
-        "title_zh": null,
-        "title_en": "DeepSeek Elastic Compute (DSec)",
-        "title_original": "DeepSeek Elastic Compute (DSec)",
+        "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
+        "title": "展示 HN：分析国际象棋比赛的Claude代码技能 / Show HN: A Claude Code skill to analyze your chess games",
+        "title_zh": "展示 HN：分析国际象棋比赛的Claude代码技能",
+        "title_en": "Show HN: A Claude Code skill to analyze your chess games",
+        "title_original": "Show HN: A Claude Code skill to analyze your chess games",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://arxiv.org/abs/2609.22978",
+        "url": "https://github.com/brumar/chess-postmortem-skills",
         "source": "Hacker News",
         "source_name": "TechURLs"
       },
@@ -1327,7 +1517,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
@@ -1353,7 +1543,7 @@
           "published_at": "2026-09-26T13:48:03.398000Z"
         },
         {
-          "id": "0f1257162bc0c26c7be23e75058a925a814839cb",
+          "id": "1c877b373403382f063f970da0b5434e8c0e99cc",
           "title": "没有AI的一个月 / One Month Without AI",
           "title_zh": "没有AI的一个月",
           "title_en": "One Month Without AI",
@@ -1361,15 +1551,15 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-26T10:08:21Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "blog.bustikiller.com"
       ],
       "items": [
@@ -1388,7 +1578,7 @@
           "published_at": "2026-09-26T13:48:03.398000Z"
         },
         {
-          "id": "0f1257162bc0c26c7be23e75058a925a814839cb",
+          "id": "1c877b373403382f063f970da0b5434e8c0e99cc",
           "title": "没有AI的一个月 / One Month Without AI",
           "title_zh": "没有AI的一个月",
           "title_en": "One Month Without AI",
@@ -1396,23 +1586,23 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-26T10:08:21Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5239,
-      "importance": 0.5239,
-      "importance_score": 0.5239,
+      "score": 0.518,
+      "importance": 0.518,
+      "importance_score": 0.518,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8786,
+        "recency": 0.8457,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1437,290 +1627,70 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     },
     {
-      "story_id": "story_2d4d3338bea1",
-      "title": "Show HN: A Claude Code skill to analyze your chess games",
-      "url": "https://github.com/brumar/chess-postmortem-skills",
-      "primary_url": "https://github.com/brumar/chess-postmortem-skills",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_zh": null,
-          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.com/brumar/chess-postmortem-skills",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T15:34:53Z"
-        },
-        {
-          "id": "b14caf83539ea0c8369daaca126ef50de116d2ca",
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_zh": null,
-          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49857528",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T15:34:53Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_zh": null,
-          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.com/brumar/chess-postmortem-skills",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T15:34:53Z"
-        },
-        {
-          "id": "b14caf83539ea0c8369daaca126ef50de116d2ca",
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_zh": null,
-          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49857528",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T15:34:53Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5281,
-      "importance": 0.5281,
-      "importance_score": 0.5281,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9014,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-26T15:34:53Z",
-      "latest_at": "2026-09-26T15:34:53Z",
-      "primary_item": {
-        "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
-        "title": "Show HN: A Claude Code skill to analyze your chess games",
-        "title_zh": null,
-        "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-        "title_original": "Show HN: A Claude Code skill to analyze your chess games",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.com/brumar/chess-postmortem-skills",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
-      }
-    },
-    {
-      "story_id": "story_6d7e1a8ea416",
-      "title": "OpenAI 的系统失控并干扰美国政府网站 / OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-      "primary_url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+      "story_id": "story_e5053502e78a",
+      "title": "了解 LLM 水印对 AI 代理行为的影响 / Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+      "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+      "primary_url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
       "source": "Hacker News · 24h最热",
       "source_name": "Zeli",
       "sources": [
         {
-          "id": "f59bdef20af1b57cbfcb2aa96b677d6f4e724bb1",
-          "title": "OpenAI 的系统失控并干扰美国政府网站 / OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-          "title_zh": "OpenAI 的系统失控并干扰美国政府网站",
-          "title_en": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-          "title_original": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
+          "id": "6f355212d4f712f69b5206fe5e870541b63d3f6d",
+          "title": "了解 LLM 水印对 AI 代理行为的影响 / Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+          "title_zh": "了解 LLM 水印对 AI 代理行为的影响",
+          "title_en": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+          "title_original": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+          "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-09-25T23:22:18Z"
+          "published_at": "2026-09-26T13:05:36Z"
         },
         {
-          "id": "7755dd8b2b57f61a0d9dc32fec1f39c3831b5b88",
-          "title": "OpenAI 的人工智能流氓行为并干扰美国政府网站 / OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
-          "title_zh": "OpenAI 的人工智能流氓行为并干扰美国政府网站",
-          "title_en": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
-          "title_original": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
+          "id": "a1b407d175206aca71a67696688a7971ee1649c0",
+          "title": "了解 LLM 水印对 AI 代理行为的影响 / Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+          "title_zh": "了解 LLM 水印对 AI 代理行为的影响",
+          "title_en": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+          "title_original": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-          "source": "New York Times",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-25T23:16:40Z"
+          "url": "https://news.ycombinator.com/item?id=49856149",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-26T13:05:36Z"
         }
       ],
       "source_count": 2,
       "source_names": [
         "Hacker News · 24h最热",
-        "New York Times"
-      ],
-      "items": [
-        {
-          "id": "f59bdef20af1b57cbfcb2aa96b677d6f4e724bb1",
-          "title": "OpenAI 的系统失控并干扰美国政府网站 / OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-          "title_zh": "OpenAI 的系统失控并干扰美国政府网站",
-          "title_en": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-          "title_original": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-25T23:22:18Z"
-        },
-        {
-          "id": "7755dd8b2b57f61a0d9dc32fec1f39c3831b5b88",
-          "title": "OpenAI 的人工智能流氓行为并干扰美国政府网站 / OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
-          "title_zh": "OpenAI 的人工智能流氓行为并干扰美国政府网站",
-          "title_en": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
-          "title_original": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-          "source": "New York Times",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-25T23:16:40Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4942,
-      "importance": 0.4942,
-      "importance_score": 0.4942,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7133,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-25T23:16:40Z",
-      "latest_at": "2026-09-25T23:22:18Z",
-      "primary_item": {
-        "id": "f59bdef20af1b57cbfcb2aa96b677d6f4e724bb1",
-        "title": "OpenAI 的系统失控并干扰美国政府网站 / OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-        "title_zh": "OpenAI 的系统失控并干扰美国政府网站",
-        "title_en": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-        "title_original": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 0,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
-      }
-    },
-    {
-      "story_id": "story_e5053502e78a",
-      "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-      "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-      "primary_url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "fb35fc0c5b546b958ccc6369f9be941d7f7f692a",
-          "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "title_zh": null,
-          "title_en": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "title_original": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T13:05:36Z"
-        },
-        {
-          "id": "a1b407d175206aca71a67696688a7971ee1649c0",
-          "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "title_zh": null,
-          "title_en": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "title_original": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49856149",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T13:05:36Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
         "hackernews"
       ],
       "items": [
         {
-          "id": "fb35fc0c5b546b958ccc6369f9be941d7f7f692a",
-          "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "title_zh": null,
+          "id": "6f355212d4f712f69b5206fe5e870541b63d3f6d",
+          "title": "了解 LLM 水印对 AI 代理行为的影响 / Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+          "title_zh": "了解 LLM 水印对 AI 代理行为的影响",
           "title_en": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
           "title_original": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-26T13:05:36Z"
         },
         {
           "id": "a1b407d175206aca71a67696688a7971ee1649c0",
-          "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "title_zh": null,
+          "title": "了解 LLM 水印对 AI 代理行为的影响 / Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+          "title_zh": "了解 LLM 水印对 AI 代理行为的影响",
           "title_en": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
           "title_original": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
           "summary": null,
@@ -1734,15 +1704,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5223,
-      "importance": 0.5223,
-      "importance_score": 0.5223,
+      "score": 0.5165,
+      "importance": 0.5165,
+      "importance_score": 0.5165,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8696,
+        "recency": 0.8371,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1752,22 +1722,22 @@
       "earliest_at": "2026-09-26T13:05:36Z",
       "latest_at": "2026-09-26T13:05:36Z",
       "primary_item": {
-        "id": "fb35fc0c5b546b958ccc6369f9be941d7f7f692a",
-        "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-        "title_zh": null,
+        "id": "6f355212d4f712f69b5206fe5e870541b63d3f6d",
+        "title": "了解 LLM 水印对 AI 代理行为的影响 / Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+        "title_zh": "了解 LLM 水印对 AI 代理行为的影响",
         "title_en": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
         "title_original": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
         "summary": null,
         "recommend_reason_zh": null,
         "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-26T23:00:39.198021Z"
+        "scored_at": "2026-09-27T01:25:30.357709Z"
       }
     }
   ]

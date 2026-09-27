@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-26T23:00:38.877330+00:00",
+  "generated_at": "2026-09-27T01:25:30.043238+00:00",
   "date": "2026-09-27",
   "timezone": "Asia/Shanghai",
-  "lead": "Codex CLI 0.157.1；企业管理的设置产品内验证器；OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha",
+  "lead": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件；OpenAI 暂停对其“最有能力的模型”的训练；OpenAI 的 GPT-6 Astra 现在可以准确告诉您把宜家货架搞砸的具体位置",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "OpenAI 暂停对其“最有能力的模型”的训练",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-26T21:07:08+00:00",
+      "source_count": 2,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 42
+    },
     {
       "title": "Copilot 电脑品牌已不复存在",
       "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
@@ -13,93 +29,50 @@
       "site_id": "buzzing",
       "published_at": "2026-09-26T21:55:10.332000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "coding"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 90
     },
     {
-      "title": "Show HN: A Claude Code skill to analyze your chess games",
+      "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-26T15:43:46+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 27
+    },
+    {
+      "title": "展示 HN：分析国际象棋比赛的Claude代码技能",
       "url": "https://github.com/brumar/chess-postmortem-skills",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-26T15:34:53+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
-        "anthropic",
-        "agent"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
-    },
-    {
-      "title": "OpenAI 的系统失控并干扰美国政府网站",
-      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-25T23:22:18+00:00",
-      "source_count": 2,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 8
+      "hot_score": 26
     }
   ],
   "items": [
-    {
-      "title": "Codex CLI 0.157.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "企业管理的设置产品内验证器",
-      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T23:24:57+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenRouter：从 Seed 到 Stripe — OpenRouter 的 Alex Atallah 和 AMP 的 Anjney Midha",
-      "url": "https://www.latent.space/p/openrouter",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T23:14:41+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
     {
       "title": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
       "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
@@ -118,13 +91,13 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenAI 的 GPT-6 Astra 现在可以准确告诉您把宜家货架搞砸的具体位置",
-      "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf",
-      "source": "The Decoder AI News",
+      "title": "OpenAI 暂停对其“最有能力的模型”的训练",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "source": "The Verge",
       "site_id": "curated_media",
-      "published_at": "2026-09-26T09:44:54+00:00",
-      "source_count": 1,
-      "score": 62,
+      "published_at": "2026-09-26T21:07:08+00:00",
+      "source_count": 2,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -133,13 +106,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI pauses training of its ‘most capable models’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "source": "The Verge",
+      "title": "OpenAI 的 GPT-6 Astra 现在可以准确告诉您把宜家货架搞砸的具体位置",
+      "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-09-26T16:34:59+00:00",
+      "published_at": "2026-09-26T09:44:54+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -164,13 +137,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "title": "Cloudflare 首席执行官 Matthew Prince 能否从人工智能手中拯救网络？",
       "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-09-26T14:00:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [],
       "reason": "",
@@ -183,7 +156,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-26T21:55:10.332000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "coding"
@@ -192,29 +165,73 @@
       "label": "多源热议"
     },
     {
-      "title": "Show HN: A Claude Code skill to analyze your chess games",
-      "url": "https://github.com/brumar/chess-postmortem-skills",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T15:34:53+00:00",
+      "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-26T15:43:46+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
-        "anthropic",
+        "openai",
         "agent"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "Google Maps overwhelmed me, so I used Gemini to find things to do during my vacation instead",
+      "title": "展示 HN：分析国际象棋比赛的Claude代码技能",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-26T15:34:53+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google is launching its AI chips into space — Project Suncatcher MVP sports four TPUs and will be delivered by a SpaceX rocket",
+      "url": "https://www.techradar.com/pro/google-is-launching-its-ai-chips-into-space-project-suncatcher-mvp-sports-four-tpus-and-will-be-delivered-by-a-spacex-rocket",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-09-27T00:05:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 代理通过在 DNS 查找中隐藏问题来逃脱沙箱",
+      "url": "https://madrobot.blog/2026/09/26/openai-agent-escaped-sandbox-dns-external-chatbot-models-paused",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-26T20:34:07+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "谷歌地图让我不知所措，所以我用 Gemini 来寻找假期期间要做的事情",
       "url": "https://www.androidpolice.com/gemini-google-maps-vacation-comparison",
       "source": "Android Police",
       "site_id": "techurls",
       "published_at": "2026-09-26T17:00:10+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "google"
@@ -223,20 +240,20 @@
       "label": "值得关注"
     },
     {
-      "title": "Google’s India AI hub cleared for 2.51GW, not 1GW, the Guardian reports",
+      "title": "据《卫报》报道，谷歌印度人工智能中心已获批 2.51 吉瓦，而非 1 吉瓦",
       "url": "https://thenextweb.com/news/google-india-ai-datacentre-andhra-pradesh-land",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-09-26T16:59:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "Oxford let OpenAI train AI models on Bodleian texts, the Guardian reports",
+      "title": "据《卫报》报道，牛津大学让 OpenAI 在博德利文本上训练人工智能模型",
       "url": "https://thenextweb.com/news/oxford-bodleian-openai-training-data",
       "source": "The Next Web",
       "site_id": "techurls",
@@ -251,23 +268,7 @@
       "label": "值得关注"
     },
     {
-      "title": "An OpenAI agent used DNS to reach an external chatbot",
-      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-26T15:43:46+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI took 2.5 hours to stop an AI agent that escaped its sandbox",
+      "title": "OpenAI 花了 2.5 小时才阻止了逃离沙箱的 AI 代理",
       "url": "https://thenextweb.com/news/openai-sandbox-agent-ai-kill-switch",
       "source": "The Next Web",
       "site_id": "techurls",
@@ -283,40 +284,25 @@
       "label": "值得关注"
     },
     {
-      "title": "Nvidia RTX Spark vs Apple M6: which chip is better for creating, gaming, and AI?",
+      "title": "Nvidia RTX Spark 与 Apple M6：哪种芯片更适合创作、游戏和人工智能？",
       "url": "https://www.techradar.com/computing/cpu/nvidia-rtx-spark-vs-apple-m6",
       "source": "TechRadar",
       "site_id": "techurls",
       "published_at": "2026-09-26T13:30:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "OpenAI reveals the AI-era workplace skills that matter most",
+      "title": "OpenAI 揭示了人工智能时代最重要的职场技能",
       "url": "https://www.businessinsider.com/openai-reveals-workplace-skills-ai-cant-automate-easily-2026-9",
       "source": "Business Insider",
       "site_id": "techurls",
       "published_at": "2026-09-26T13:00:02+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 的系统失控并干扰美国政府网站",
-      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-25T23:22:18+00:00",
-      "source_count": 2,
       "score": 49,
       "official": true,
       "topics": [
@@ -326,7 +312,7 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI's agents targeted and infiltrated US government websites",
+      "title": "OpenAI 的特工瞄准并渗透了美国政府网站",
       "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites",
       "source": "Engadget",
       "site_id": "techurls",
@@ -341,7 +327,7 @@
       "label": "值得关注"
     },
     {
-      "title": "Is Microsoft Quietly Killing Off Its 'Copilot+ PC' Brand?",
+      "title": "微软正在悄然淘汰其“Copilot+ PC”品牌吗？",
       "url": "https://tech.slashdot.org/story/26/09/25/0420247/is-microsoft-quietly-killing-off-its-copilot-pc-brand",
       "source": "Slashdot",
       "site_id": "techurls",
@@ -351,6 +337,36 @@
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "mobile-next /      mobile-mcp",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-09-26T11:06:37.462000+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": true,
+      "topics": [
+        "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "人类学 / Claude代码行动",
+      "url": "https://github.com/anthropics/claude-code-action",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-09-26T11:06:37.462000+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"

@@ -1,19 +1,68 @@
 {
-  "generated_at": "2026-09-26T23:00:38.877330+00:00",
+  "generated_at": "2026-09-27T01:25:30.043238+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 26,
+  "total_items": 21,
   "items": [
     {
-      "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
+      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-27T00:34:02.450000+00:00",
+      "source_count": 3,
+      "score": 83,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Google Threat Intelligence Group finds dark web marketplaces selling access to AI models, including from Anthropic, Google, and OpenAI, at up to 97% discounts (Tom Wilson/Financial Times)",
+      "url": "https://www.techmeme.com/260926/p18",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-27T00:20:09+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+      "url": "https://www.ithome.com/1/007/447.htm",
+      "source": "IT之家（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-26T23:12:53+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI Codex 代理作恶，未经授权消耗 78,000 美元",
       "url": "https://news.ycombinator.com/item?id=49861047",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-26T22:15:32+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -24,13 +73,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI pauses training of its ‘most capable models’",
+      "title": "OpenAI 暂停对其“最有能力的模型”的训练",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
       "source": "The Verge",
       "site_id": "curated_media",
-      "published_at": "2026-09-26T16:34:59+00:00",
-      "source_count": 1,
-      "score": 59,
+      "published_at": "2026-09-26T21:07:08+00:00",
+      "source_count": 2,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -39,7 +88,23 @@
       "label": "值得关注"
     },
     {
-      "title": "Oxford let OpenAI train AI models on Bodleian texts, the Guardian reports",
+      "title": "OpenAI 代理通过在 DNS 查找中隐藏问题来逃脱沙箱",
+      "url": "https://madrobot.blog/2026/09/26/openai-agent-escaped-sandbox-dns-external-chatbot-models-paused",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-26T20:34:07+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "据《卫报》报道，牛津大学让 OpenAI 在博德利文本上训练人工智能模型",
       "url": "https://thenextweb.com/news/oxford-bodleian-openai-training-data",
       "source": "The Next Web",
       "site_id": "techurls",
@@ -54,13 +119,13 @@
       "label": "值得关注"
     },
     {
-      "title": "An OpenAI agent used DNS to reach an external chatbot",
+      "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人",
       "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-09-26T15:43:46+00:00",
-      "source_count": 1,
-      "score": 50,
+      "source_count": 2,
+      "score": 52,
       "official": true,
       "topics": [
         "openai",
@@ -70,7 +135,7 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI took 2.5 hours to stop an AI agent that escaped its sandbox",
+      "title": "OpenAI 花了 2.5 小时才阻止了逃离沙箱的 AI 代理",
       "url": "https://thenextweb.com/news/openai-sandbox-agent-ai-kill-switch",
       "source": "The Next Web",
       "site_id": "techurls",
@@ -86,30 +151,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-26T14:03:54+00:00",
-      "source_count": 2,
-      "score": 81,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI: Astra Model Is Nerfed",
+      "title": "OpenAI：Astra 模型被削弱",
       "url": "https://www.reddit.com/r/codex/comments/1wqjxyy/i_thought_the_model_nerf_posts_were_bullshit",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-09-26T13:34:16+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -120,13 +168,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI reveals the AI-era workplace skills that matter most",
+      "title": "OpenAI 揭示了人工智能时代最重要的职场技能",
       "url": "https://www.businessinsider.com/openai-reveals-workplace-skills-ai-cant-automate-easily-2026-9",
       "source": "Business Insider",
       "site_id": "techurls",
       "published_at": "2026-09-26T13:00:02+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
@@ -135,7 +183,7 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI's agents targeted and infiltrated US government websites",
+      "title": "OpenAI 的特工瞄准并渗透了美国政府网站",
       "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites",
       "source": "Engadget",
       "site_id": "techurls",
@@ -156,7 +204,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-26T09:44:54+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -188,7 +236,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T09:00:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "openai"
@@ -203,7 +251,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T09:00:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -251,7 +299,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T04:10:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai"
@@ -285,136 +333,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work sorry about the brief disruption! (and yes we have a special spare codex when things are down to help us out) h...",
-      "url": "https://x.com/thsottiaux/status/2103637477760311522",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-26T00:07:13+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Researchers: OpenAI's agents meddled with the US Commerce Dept. and SEC sites this summer without OpenAI's knowledge and tried to hack the Education Dept. site (New York Times)",
-      "url": "https://www.techmeme.com/260925/p25",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T00:00:47+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex CLI 0.157.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-      "url": "https://swarmtraces.org",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T23:59:47.248000+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Meta的Muse似乎使用了一个名为muse-special的OpenAI模型",
-      "url": "https://mouse.dev/blog/muse-special",
-      "source": "mouse.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-09-25T23:59:47.244000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 的系统失控并干扰美国政府网站",
-      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-25T23:22:18+00:00",
-      "source_count": 2,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI Codex 401 Outage",
-      "url": "https://status.openai.com",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-25T23:07:28+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex 问题 – 已识别 – 全面中断",
-      "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-25T23:04:25+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

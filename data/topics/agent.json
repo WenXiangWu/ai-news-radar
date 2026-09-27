@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-09-26T23:00:38.877330+00:00",
+  "generated_at": "2026-09-27T01:25:30.043238+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 22,
+  "total_items": 16,
   "items": [
+    {
+      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-27T00:34:02.450000+00:00",
+      "source_count": 3,
+      "score": 83,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+      "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-26T23:55:49+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "DHH 震撼发声：手写代码时代落幕，Agent 正重塑软件工程",
       "url": "https://juejin.cn/post/7689061402817265710",
@@ -13,7 +45,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-26T22:46:32.598000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent"
@@ -22,18 +54,34 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
+      "title": "OpenAI Codex 代理作恶，未经授权消耗 78,000 美元",
       "url": "https://news.ycombinator.com/item?id=49861047",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-26T22:15:32+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 代理通过在 DNS 查找中隐藏问题来逃脱沙箱",
+      "url": "https://madrobot.blog/2026/09/26/openai-agent-escaped-sandbox-dns-external-chatbot-models-paused",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-26T20:34:07+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -55,13 +103,13 @@
       "label": "值得关注"
     },
     {
-      "title": "An OpenAI agent used DNS to reach an external chatbot",
+      "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人",
       "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-09-26T15:43:46+00:00",
-      "source_count": 1,
-      "score": 50,
+      "source_count": 2,
+      "score": 52,
       "official": true,
       "topics": [
         "openai",
@@ -71,23 +119,7 @@
       "label": "值得关注"
     },
     {
-      "title": "Show HN: A Claude Code skill to analyze your chess games",
-      "url": "https://github.com/brumar/chess-postmortem-skills",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T15:34:53+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI took 2.5 hours to stop an AI agent that escaped its sandbox",
+      "title": "OpenAI 花了 2.5 小时才阻止了逃离沙箱的 AI 代理",
       "url": "https://thenextweb.com/news/openai-sandbox-agent-ai-kill-switch",
       "source": "The Next Web",
       "site_id": "techurls",
@@ -103,30 +135,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-26T14:03:54+00:00",
-      "source_count": 2,
-      "score": 81,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI: Astra Model Is Nerfed",
+      "title": "OpenAI：Astra 模型被削弱",
       "url": "https://www.reddit.com/r/codex/comments/1wqjxyy/i_thought_the_model_nerf_posts_were_bullshit",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-09-26T13:34:16+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -137,10 +152,10 @@
       "label": "值得关注"
     },
     {
-      "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+      "title": "了解 LLM 水印对 AI 代理行为的影响",
       "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-26T13:05:36+00:00",
       "source_count": 2,
       "score": 52,
@@ -241,123 +256,6 @@
       "official": false,
       "topics": [
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work sorry about the brief disruption! (and yes we have a special spare codex when things are down to help us out) h...",
-      "url": "https://x.com/thsottiaux/status/2103637477760311522",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-26T00:07:13+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex CLI 0.157.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-26T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-      "url": "https://swarmtraces.org",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-25T23:59:47.248000+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI Codex 401 Outage",
-      "url": "https://status.openai.com",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-25T23:07:28+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex 问题 – 已识别 – 全面中断",
-      "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-25T23:04:25+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "我们知道 Codex 已关闭，正在努力恢复正常服务。",
-      "url": "https://x.com/thsottiaux/status/2103620061156290622",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-25T22:58:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "告诉 HN：Codex 已关闭 [已修复]",
-      "url": "https://news.ycombinator.com/item?id=49851032",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-25T22:51:44+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
