@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-27T08:11:27.995703+00:00",
+  "generated_at": "2026-09-27T14:02:22.811563+00:00",
   "date": "2026-09-27",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件；Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India；OpenAI 的 GPT-6 Astra 现在可以准确告诉您把宜家货架搞砸的具体位置",
+  "lead": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法；OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond；Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-27T09:27:15.061000+00:00",
+      "source_count": 4,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "OpenAI 暂停对其“最有能力的模型”的训练",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
@@ -13,30 +29,31 @@
       "site_id": "curated_media",
       "published_at": "2026-09-26T21:07:08+00:00",
       "source_count": 2,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 24
+      "hot_score": 15
     },
     {
-      "title": "Copilot 电脑品牌已不复存在",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "source": "www.windowscentral.com",
+      "title": "一位代理通过DNS连接到一个外部聊天机器人",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "source": "alignment.openai.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-26T21:55:10.332000+00:00",
-      "source_count": 3,
-      "score": 55,
+      "published_at": "2026-09-27T10:14:33.203000+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": true,
       "topics": [
-        "coding"
+        "openai",
+        "agent"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 51
+      "label": "值得关注",
+      "hot_score": 44
     },
     {
       "title": "展示 HN：分析国际象棋比赛的Claude代码技能",
@@ -45,33 +62,89 @@
       "site_id": "hackernews",
       "published_at": "2026-09-26T15:34:53+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 15
+      "hot_score": 9
     }
   ],
   "items": [
     {
-      "title": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
-      "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
-      "source": "The Decoder：AI News（RSS）",
+      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
-      "published_at": "2026-09-26T09:06:36+00:00",
-      "source_count": 1,
-      "score": 76,
+      "published_at": "2026-09-27T09:27:15.061000+00:00",
+      "source_count": 4,
+      "score": 85,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
-        "industry"
+        "openai"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "多源热议"
+    },
+    {
+      "title": "OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond",
+      "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-27T10:36:29+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
+      "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-27T09:23:36+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Some Anthropic veterans are reportedly buying remote land in case \"AI goes awry\"",
+      "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-27T13:03:05+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
+      "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-27T11:01:13+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
@@ -80,25 +153,10 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T01:30:00+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 的 GPT-6 Astra 现在可以准确告诉您把宜家货架搞砸的具体位置",
-      "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-26T09:44:54+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -110,26 +168,10 @@
       "site_id": "curated_media",
       "published_at": "2026-09-26T21:07:08+00:00",
       "source_count": 2,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia 的 SoL-Pi 系统通过优化线束将编码代理令牌使用量减少了近一半",
-      "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-26T10:30:32+00:00",
-      "source_count": 1,
       "score": 58,
       "official": true,
       "topics": [
-        "agent",
-        "coding"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -141,26 +183,42 @@
       "site_id": "curated_media",
       "published_at": "2026-09-26T14:00:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "Copilot 电脑品牌已不复存在",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "source": "www.windowscentral.com",
+      "title": "一位代理通过DNS连接到一个外部聊天机器人",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "source": "alignment.openai.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-26T21:55:10.332000+00:00",
-      "source_count": 3,
-      "score": 55,
+      "published_at": "2026-09-27T10:14:33.203000+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": true,
       "topics": [
-        "coding"
+        "openai",
+        "agent"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-6 Sol & Luna",
+      "url": "https://www.producthunt.com/products/openai",
+      "source": "producthunt",
+      "site_id": "newsnow",
+      "published_at": "2026-09-27T13:25:42.249000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "展示 HN：分析国际象棋比赛的Claude代码技能",
@@ -169,7 +227,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-26T15:34:53+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -184,7 +242,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T01:08:07+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
@@ -199,7 +257,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-27T00:44:48+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
@@ -214,9 +272,24 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T00:05:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Copilot 电脑品牌已不复存在",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "source": "www.windowscentral.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-26T21:55:10.332000+00:00",
+      "source_count": 1,
+      "score": 48,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -227,7 +300,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-26T20:34:07+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -243,7 +316,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T17:00:10+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "google"
@@ -258,7 +331,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T16:59:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [],
       "reason": "",
@@ -271,26 +344,10 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T16:06:39+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 代理使用 DNS 来访问外部聊天机器人",
-      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-26T15:43:46+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -302,54 +359,11 @@
       "site_id": "techurls",
       "published_at": "2026-09-26T15:11:51+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia RTX Spark 与 Apple M6：哪种芯片更适合创作、游戏和人工智能？",
-      "url": "https://www.techradar.com/computing/cpu/nvidia-rtx-spark-vs-apple-m6",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T13:30:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 揭示了人工智能时代最重要的职场技能",
-      "url": "https://www.businessinsider.com/openai-reveals-workplace-skills-ai-cant-automate-easily-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T13:00:02+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 的特工瞄准并渗透了美国政府网站",
-      "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T11:58:20+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
