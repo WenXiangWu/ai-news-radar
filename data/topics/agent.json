@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-27T14:02:22.811563+00:00",
+  "generated_at": "2026-09-27T18:33:41.784440+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 13,
+  "total_items": 10,
   "items": [
+    {
+      "title": "'I broke something': A Claude Code AI agent deleted 48,000 files in just over 100 seconds — then apologized for doing so",
+      "url": "https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just-over-100-seconds-then-apologized-for-doing-so",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-09-27T17:05:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "一天一个开源项目（第 227 篇）：Strands Agents Harness SDK —— 从「手写 Agent 循环」到「一行代码拿到生产级 Agent」",
       "url": "https://juejin.cn/post/7689299285138128932",
@@ -13,7 +29,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-27T13:25:50.958000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent",
@@ -28,8 +44,8 @@
       "source": "alignment.openai.com",
       "site_id": "buzzing",
       "published_at": "2026-09-27T10:14:33.203000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "source_count": 1,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -45,7 +61,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T10:03:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -60,7 +76,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T06:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -75,7 +91,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-27T01:37:21.367000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
@@ -85,29 +101,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-27T00:34:02.450000+00:00",
-      "source_count": 3,
-      "score": 81,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
       "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
       "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
       "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "site_id": "aihot",
       "published_at": "2026-09-26T23:55:49+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
         "agent"
@@ -122,7 +122,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-26T22:46:32.598000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -153,54 +153,6 @@
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-09-26T20:34:07+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Just about 1 year ago I posted one of the first posts about using Claude Code to make videos. Each of these actually took a long time to iterate with Claude and get right, pointing out details that were wrong, etc. Cr...",
-      "url": "https://x.com/trq212/status/2103897226154328502",
-      "source": "Follow Builders · X · Thariq",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-26T17:19:21+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "别把 Claude Code 当聊天框：一套「确定性工程」落地手册",
-      "url": "https://juejin.cn/post/7688401878564077602",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-26T16:06:33.452000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 花了 2.5 小时才阻止了逃离沙箱的 AI 代理",
-      "url": "https://thenextweb.com/news/openai-sandbox-agent-ai-kill-switch",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-26T15:11:51+00:00",
       "source_count": 1,
       "score": 47,
       "official": true,
