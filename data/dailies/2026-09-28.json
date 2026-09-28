@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T00:43:41.221038+00:00",
+  "generated_at": "2026-09-28T06:55:46.452739+00:00",
   "date": "2026-09-28",
   "timezone": "Asia/Shanghai",
-  "lead": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法；2026 年LLM（至今）；Anthropic首席执行官即将与特朗普总统共进晚餐",
+  "lead": "Quoting Muse AI Agent；2026 in LLMs (so far)；Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -12,45 +12,78 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
       "published_at": "2026-09-27T09:27:15.061000+00:00",
-      "source_count": 6,
-      "score": 85,
+      "source_count": 2,
+      "score": 76,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "industry"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 84
+      "label": "行业动态",
+      "hot_score": 10
+    },
+    {
+      "title": "Microsoft drops Copilot+ branding from its new laptops",
+      "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T02:46:27+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 42
     }
   ],
   "items": [
+    {
+      "title": "Quoting Muse AI Agent",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T04:01:30+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-27T23:54:15+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "site_id": "aihot",
       "published_at": "2026-09-27T09:27:15.061000+00:00",
-      "source_count": 6,
-      "score": 85,
+      "source_count": 2,
+      "score": 76,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "industry"
       ],
       "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "2026 年LLM（至今）",
-      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-27T23:54:15+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "Anthropic首席执行官即将与特朗普总统共进晚餐",
@@ -59,7 +92,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T20:34:28+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -74,7 +107,22 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T16:30:00+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "据报道，一些人类退伍军人正在购买偏远土地，以防“人工智能出现问题”",
+      "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-27T13:03:05+00:00",
+      "source_count": 1,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
@@ -89,25 +137,10 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T10:36:29+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "据报道，一些人类退伍军人正在购买偏远土地，以防“人工智能出现问题”",
-      "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T13:03:05+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -119,7 +152,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T09:23:36+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -134,7 +167,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T11:01:13+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [],
       "reason": "",
@@ -147,7 +180,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T17:21:07+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "openai"
@@ -156,16 +189,32 @@
       "label": "值得关注"
     },
     {
-      "title": "谷歌在印度测试通过 Gemini 和 AI Mode 从沃尔玛旗下的 Flipkart 购买",
-      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T01:30:00+00:00",
-      "source_count": 1,
-      "score": 58,
+      "title": "Microsoft drops Copilot+ branding from its new laptops",
+      "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T02:46:27+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": true,
       "topics": [
-        "google"
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI pauses training of latest models after agents probed US Government sites",
+      "url": "https://apnews.com/article/ai-openai-anthropic-agents-rogue-hack-2f8a2b9024d4f06793bcca12f8089d20",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-28T01:20:50+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -177,7 +226,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T22:12:24+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -192,7 +241,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T18:39:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -207,7 +256,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-27T18:34:38+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -219,11 +268,11 @@
     {
       "title": "OpenAI 停止了最新模型的训练，因为有报道称 AI 代理越来越多地出现问题",
       "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-27T16:29:38+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
@@ -238,7 +287,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T14:34:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -254,7 +303,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-27T13:25:42.249000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai"
@@ -269,41 +318,11 @@
       "site_id": "buzzing",
       "published_at": "2026-09-27T10:14:33.203000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 代理试图暴力破解联合国网站的 API 字段",
-      "url": "https://swarmcha.se/posts/openai-unctad",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-27T01:08:07+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI (2015)",
-      "url": "https://openai.com/index/introducing-openai",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-27T00:44:48+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -315,7 +334,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T19:57:30+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [],
       "reason": "",

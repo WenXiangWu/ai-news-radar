@@ -123,34 +123,6 @@
       "label": "官方更新"
     },
     {
-      "title": "2026 年LLM（至今）",
-      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-27T23:54:15+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-27T09:27:15.061000+00:00",
-      "source_count": 6,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
       "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
       "url": "https://openai.com/index/ringg",
       "source": "OpenAI News",
@@ -208,6 +180,21 @@
         "opensource"
       ],
       "reason": "Multiverse Computing 将 LLM 的 block removal 重新表述为 Ising glass 上的约束二元优化问题，用自旋系统能量作为剪枝模型性能的廉价代理，在 Llama-3.3-70B-Instruct 上压缩 50% 时，MMLU 比最佳同类方法高出近 23 个百分点。",
+      "label": "官方更新"
+    },
+    {
+      "title": "Quoting Muse AI Agent",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T04:01:30+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
       "label": "官方更新"
     },
     {
@@ -313,6 +300,19 @@
         "openai"
       ],
       "reason": "Higgsfield AI借助GPT-6 Astra让小企业用一句提示词就能基于爆款广告生成100个新变体，并让单个工程师在一天内交付新功能，这展示了AI如何同时加速广告创作与产品开发。",
+      "label": "官方更新"
+    },
+    {
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-27T23:54:15+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
       "label": "官方更新"
     },
     {
@@ -606,6 +606,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-28T00:43:41.221038+00:00",
+  "generated_at": "2026-09-28T06:55:46.452739+00:00",
   "period": "2026-W40"
 }
