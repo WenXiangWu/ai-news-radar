@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T22:07:37.516802+00:00",
+  "generated_at": "2026-09-28T00:43:41.221038+00:00",
   "date": "2026-09-28",
   "timezone": "Asia/Shanghai",
-  "lead": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法；Anthropic首席执行官即将与特朗普总统共进晚餐；Anthropic 的 Dario Amodei 接受 SNL 待遇",
+  "lead": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法；2026 年LLM（至今）；Anthropic首席执行官即将与特朗普总统共进晚餐",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -20,7 +20,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 84
     }
   ],
   "items": [
@@ -38,6 +38,19 @@
       ],
       "reason": "",
       "label": "多源热议"
+    },
+    {
+      "title": "2026 年LLM（至今）",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-27T23:54:15+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "Anthropic首席执行官即将与特朗普总统共进晚餐",
@@ -85,21 +98,6 @@
       "label": "值得关注"
     },
     {
-      "title": "数万次安全调查显示OpenAI抱脸事件只是一个开始",
-      "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T09:23:36+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "据报道，一些人类退伍军人正在购买偏远土地，以防“人工智能出现问题”",
       "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry",
       "source": "The Decoder AI News",
@@ -115,13 +113,28 @@
       "label": "值得关注"
     },
     {
+      "title": "数万次安全调查显示OpenAI抱脸事件只是一个开始",
+      "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-27T09:23:36+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Nvidia 推出免费的 1 亿参数模型，可实时识别多达 8 个扬声器",
       "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-27T11:01:13+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [],
       "reason": "",
@@ -134,7 +147,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T17:21:07+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "openai"
@@ -149,10 +162,25 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T01:30:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 的达里奥·阿莫代 (Dario Amodei) 将在白宫与特朗普共进晚餐",
+      "url": "https://www.nytimes.com/2026/09/27/us/politics/trump-amodei-anthropic-artificial-intelligence.html",
+      "source": "New York Times",
+      "site_id": "techurls",
+      "published_at": "2026-09-27T22:12:24+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -195,7 +223,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T16:29:38+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -226,7 +254,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-27T13:25:42.249000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
@@ -281,43 +309,15 @@
       "label": "值得关注"
     },
     {
-      "title": "Google is launching its AI chips into space — Project Suncatcher MVP sports four TPUs and will be delivered by a SpaceX rocket",
-      "url": "https://www.techradar.com/pro/google-is-launching-its-ai-chips-into-space-project-suncatcher-mvp-sports-four-tpus-and-will-be-delivered-by-a-spacex-rocket",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-27T00:05:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Muse 能克服 Meta 的信任问题吗？",
       "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-09-27T19:57:30+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "研究人员将 GPT-6 Astra 直接插入机器人，让它清理陌生的厨房",
-      "url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T10:59:11+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "值得关注"
     }

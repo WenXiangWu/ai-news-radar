@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-09-27T22:07:37.516802+00:00",
+  "generated_at": "2026-09-28T00:43:41.221038+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 9,
+  "total_items": 7,
   "items": [
+    {
+      "title": "MCP 到底接在了哪一层？从“Agent 调工具”说起",
+      "url": "https://juejin.cn/post/7688528701484253225",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-09-28T00:20:26.320000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "“我破坏了一些东西”：Claude Code AI 代理在短短 100 秒内删除了 48,000 个文件，然后为此道歉",
       "url": "https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just-over-100-seconds-then-apologized-for-doing-so",
@@ -13,7 +29,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T17:05:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -29,7 +45,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-27T13:25:50.958000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -94,53 +110,6 @@
       "score": 47,
       "official": false,
       "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-      "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-26T23:55:49+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DHH 震撼发声：手写代码时代落幕，Agent 正重塑软件工程",
-      "url": "https://juejin.cn/post/7689061402817265710",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-26T22:46:32.598000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI Codex 代理作恶，未经授权消耗 78,000 美元",
-      "url": "https://news.ycombinator.com/item?id=49861047",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-26T22:15:32+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
         "agent",
         "coding"
       ],
