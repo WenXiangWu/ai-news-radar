@@ -1,21 +1,316 @@
 {
-  "generated_at": "2026-09-28T15:24:37.814193+00:00",
+  "generated_at": "2026-09-28T22:23:13.354813+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 14,
+  "total_items": 32,
   "items": [
+    {
+      "title": "UC Berkeley 团队用 AI Agent 审计 13 个基准，发现 45 个无需解题的满分作弊方案",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T21:57:24.773732+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "agent",
+        "paper",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
       "url": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-09-28T14:17:00+00:00",
+      "published_at": "2026-09-28T21:57:24.773732+00:00",
       "source_count": 1,
       "score": 60,
       "official": false,
       "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex + Hypit复刻爆款视频【附新手教程】",
+      "url": "https://waytoagi.feishu.cn/wiki/FXDrwgdWoiOKRtkCs0CcUBlmnPg?from=from_copylink",
+      "source": "社区更新 · 2026-09-28",
+      "site_id": "waytoagi",
+      "published_at": "2026-09-28T21:57:24.773732+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Arena 评测：GPT-6 Luna (Max) 列 Agent Arena 第 23 名，单任务成本仅 $0.05",
+      "url": "https://x.com/arena/status/2104673568776990762",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T20:44:16+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Manus debuts Manus 2.0, its latest AI agent, and Cue, a new standalone app for personal agents, each with its own email, phone number, wallet, and computer (Micah Barkley/Bloomberg)",
+      "url": "https://www.techmeme.com/260928/p33",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T19:00:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
+      "source": "GitHub Blog",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T19:00:00+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI’s AI agents need to catch up",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-28T18:45:00+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Sonnet 5.5 上线 Arena 的 Agent Arena 与 Battle Mode 评测",
+      "url": "https://x.com/arena/status/2104640009232117859",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:30:55+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Sonnet 5.5 发布，作者演示其修复 Claude Code 中的 bug",
+      "url": "https://x.com/bcherny/status/2104638725317923228",
+      "source": "X：Boris Cherny (@bcherny)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:25:49+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Opus 5.5 (High) 在 Agent Arena 排名第二并重塑 Pareto 前沿",
+      "url": "https://x.com/arena/status/2104632801740132772",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:02:16+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.284",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-28T18:02:03+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog",
+      "url": "https://it.slashdot.org/story/26/09/28/150209/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T18:00:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Instinct raised $1B at $10B for an AI agent that rings restaurants on its own phone",
+      "url": "https://thenextweb.com/news/instinct-1bn-agent-calls-eu-rule",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T17:50:28+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Opus 5.5 (High) 在 Agent Arena 排名第 2 并重塑 Pareto 前沿",
+      "url": "https://x.com/arena/status/2104618173966504429",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T17:04:09+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Opus 5.5 (High) 进入 Agent Arena 第 2 名，成本比 Opus 5 (Max) 低 56%",
+      "url": "https://x.com/arena/status/2104617283679379704",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T17:00:36+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Nvidia launched a tool designed to stop AI agents from going rogue. Here’s how it works.",
+      "url": "https://www.businessinsider.com/nvidia-launches-open-agent-safety-platform-ai-going-rogue-2026-9",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T16:58:32+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 暂停前沿模型训练，因多起智能体对齐事件",
+      "url": "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents",
+      "source": "Ars Technica：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T16:43:18+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-28T15:46:36+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "An OpenAI agent security executive discusses the Hugging Face incident, OpenAI's response, sandboxing improvements, alignment, \"reasonable paranoia\", and more (Joe/@joedaroo)",
+      "url": "https://www.techmeme.com/260928/p25",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T14:25:01+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "openai",
         "agent"
       ],
       "reason": "",
@@ -28,7 +323,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-28T13:38:48+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "agent",
@@ -44,7 +339,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-28T12:53:05+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
@@ -60,7 +355,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-28T09:44:05+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "agent",
@@ -77,7 +372,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T09:33:59+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "agent",
@@ -94,7 +389,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-28T09:00:00+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "agent",
@@ -104,35 +399,16 @@
       "label": "值得关注"
     },
     {
-      "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+      "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
       "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
       "published_at": "2026-09-28T08:56:55+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
-        "agent",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
-      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-28T08:55:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource",
-        "launch"
+        "agent"
       ],
       "reason": "",
       "label": "官方更新"
@@ -144,7 +420,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-28T06:49:26.101253+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -161,7 +437,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-28T06:32:57.105000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -176,7 +452,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-28T04:01:30+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "agent"
@@ -191,7 +467,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-28T00:20:26.320000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "agent",
@@ -201,33 +477,51 @@
       "label": "值得关注"
     },
     {
-      "title": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. My plan is to let codex decide which tests actually need to run and drastically nix CI and run tests hourly. https://t.co/Yo4PYOT2cI",
-      "url": "https://x.com/steipete/status/2104305554760114488",
-      "source": "Follow Builders · X · Peter Steinberger",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-27T20:21:55+00:00",
+      "title": "Codex CLI 0.158.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T00:00:00+00:00",
       "source_count": 1,
-      "score": 61,
-      "official": false,
+      "score": 82,
+      "official": true,
       "topics": [
+        "openai",
         "agent",
         "coding"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "官方更新"
     },
     {
-      "title": "“我破坏了一些东西”：Claude Code AI 代理在短短 100 秒内删除了 48,000 个文件，然后为此道歉",
-      "url": "https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just-over-100-seconds-then-apologized-for-doing-so",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-27T17:05:00+00:00",
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T00:00:00+00:00",
       "source_count": 1,
-      "score": 47,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "xAI 发布 Team Bots：可与团队共同学习工作的 Grok 智能体",
+      "url": "https://x.ai/news/team-bots",
+      "source": "xAI：News（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "source_count": 1,
+      "score": 72,
       "official": false,
       "topics": [
-        "anthropic",
-        "agent"
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"

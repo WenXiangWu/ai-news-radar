@@ -1,11 +1,411 @@
 {
-  "generated_at": "2026-09-28T15:24:37.814193+00:00",
+  "generated_at": "2026-09-28T22:23:13.354813+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 18,
+  "total_items": 35,
   "items": [
+    {
+      "title": "Claude Sonnet 5.5 发布：比 Sonnet 5 快 30% 以上，多数工作成本降低至多 30%",
+      "url": "https://x.com/trq212/status/2104660926373023830",
+      "source": "X：Thariq (@trq212)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T19:54:02+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic releases Claude Sonnet 5.5, a faster and cheaper follow-up to Opus 5.5",
+      "url": "https://mashable.com/tech/anthropic-claude-sonnet-launch-cheaper-opus-model",
+      "source": "Mashable",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T19:16:24+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Sonnet 5.5 发布，Terminal-Bench 4.0 得分 70.6% 且价格不变",
+      "url": "https://x.com/rohanpaul_ai/status/2104649406536683789",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T19:08:15+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic ends discounts once tokens run out, The Information reports",
+      "url": "https://thenextweb.com/news/anthropic-openai-enterprise-discounts-tokens-the-information",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T19:07:22+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Sonnet 5.5 发布，比 Sonnet 5 快超 30%、多数工作成本最多低 30%",
+      "url": "https://x.com/ClaudeDevs/status/2104641318555353400",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:36:07+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5，Artificial Analysis 智能指数得分 56，仅次于 Opus 5.5",
+      "url": "https://x.com/ArtificialAnlys/status/2104640155843989864",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:31:30+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Sonnet 5.5 上线 Arena 的 Agent Arena 与 Battle Mode 评测",
+      "url": "https://x.com/arena/status/2104640009232117859",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:30:55+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic releases Claude Sonnet 5.5 with the cyber limits it reserved for its best models",
+      "url": "https://thenextweb.com/news/sonnet-5-5-cyber-distillation",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T18:30:03+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:28:19.833000+00:00",
+      "source_count": 3,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Claude Sonnet 5.5 发布，作者演示其修复 Claude Code 中的 bug",
+      "url": "https://x.com/bcherny/status/2104638725317923228",
+      "source": "X：Boris Cherny (@bcherny)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:25:49+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5：比 Sonnet 5 快超 30% 且成本最多降 30%",
+      "url": "https://x.com/dongxi_nlp/status/2104634260934054237",
+      "source": "X：马东锡 NLP (@dongxi_nlp)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:08:04+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic releases Sonnet 5.5, saying it generates outputs 30%+ faster than Sonnet 5 and costs up to 30% less per task, and plans to release Haiku 5.5 soon (Anthropic)",
+      "url": "https://www.techmeme.com/260928/p32",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T18:07:28+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5，速度比 Sonnet 5 快逾 30%",
+      "url": "https://www.youtube.com/watch?v=s5nkj-L2vAw",
+      "source": "Claude：YouTube（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:04:19+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5，速度比 Sonnet 5 快超 30%",
+      "url": "https://www.youtube.com/shorts/u-3cPWPvRUE",
+      "source": "Claude：YouTube（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:04:08+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5",
+      "url": "https://x.com/AnthropicAI/status/2104633259925630995",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:04:06+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Sonnet 5.5 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T18:03:57+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5，为 Claude 5.5 家族第二款模型",
+      "url": "https://x.com/claudeai/status/2104633115620823187",
+      "source": "X：Claude (@claudeai)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:03:31+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Opus 5.5 (High) 在 Agent Arena 排名第二并重塑 Pareto 前沿",
+      "url": "https://x.com/arena/status/2104632801740132772",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:02:16+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5，基准接近 Opus 5.5 且单任务成本最多降 30%",
+      "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:02:10+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch",
+        "paper",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.284",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-28T18:02:03+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-28T18:00:00+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Opus 5.5 (High) 在 Agent Arena 排名第 2 并重塑 Pareto 前沿",
+      "url": "https://x.com/arena/status/2104618173966504429",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T17:04:09+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Opus 5.5 (High) 进入 Agent Arena 第 2 名，成本比 Opus 5 (Max) 低 56%",
+      "url": "https://x.com/arena/status/2104617283679379704",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T17:00:36+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026",
+      "source": "TechCrunch",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T15:30:00+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "AI research leaders at OpenAI, Anthropic, Microsoft, and Meta warn of an impending \"intelligence explosion\" and call for oversight into automated AI research (Maxwell Zeff/Wall Street Journal)",
       "url": "https://www.techmeme.com/260928/p24",
@@ -13,7 +413,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-28T14:15:01+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -29,7 +429,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T10:51:57.660000+00:00",
       "source_count": 2,
-      "score": 82,
+      "score": 80,
       "official": false,
       "topics": [
         "anthropic",
@@ -45,7 +445,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-28T10:05:15+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -61,7 +461,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T06:58:30+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -78,7 +478,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-28T06:49:26.101253+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -94,7 +494,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-28T06:49:26.101253+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -111,7 +511,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-28T06:49:26.101253+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -128,7 +528,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-28T01:20:50+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -144,7 +544,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T22:12:24+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -159,7 +559,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-27T22:06:47.415249+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic",
@@ -175,115 +575,8 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T22:00:00+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic首席执行官即将与特朗普总统共进晚餐",
-      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T20:34:28+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "《周六夜现场》“周末快讯”：Anthropic首席执行官达里奥·阿莫德伊谈人工智能对人类的威胁 [视频]",
-      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
-      "source": "www.youtube.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-27T18:54:12.868000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "据 Axios 报道，特朗普将在白宫晚宴上接待 Anthropic 的达里奥·阿莫代 (Dario Amodei)",
-      "url": "https://thenextweb.com/news/trump-amodei-anthropic-white-house-dinner",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-27T18:39:02+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic/OpenAI 对人工智能安全发出警报，并寻求如何控制它",
-      "url": "https://apnews.com/article/ai-slowdown-midterms-anthropic-openai-ipo-9a057de94eb8f30a2fdb5b938918627e",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-27T18:34:38+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "A profile of Jaan Tallinn, who led Anthropic's $124M Series A in 2021, has advocated for AI safety for over a decade, and donated ~$170M to safety initiatives (Kate Clark/Wall Street Journal)",
-      "url": "https://www.techmeme.com/260927/p9",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-27T17:55:01+00:00",
-      "source_count": 1,
       "score": 47,
       "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "“我破坏了一些东西”：Claude Code AI 代理在短短 100 秒内删除了 48,000 个文件，然后为此道歉",
-      "url": "https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just-over-100-seconds-then-apologized-for-doing-so",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-27T17:05:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的 Dario Amodei 接受 SNL 待遇",
-      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T16:30:00+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
       "topics": [
         "anthropic"
       ],

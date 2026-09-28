@@ -1,11 +1,61 @@
 {
-  "generated_at": "2026-09-28T15:24:37.814193+00:00",
+  "generated_at": "2026-09-28T22:23:13.354813+00:00",
   "slug": "paper",
   "label": "论文研究",
   "group": "form",
   "blurb": "论文、基准与评测",
-  "total_items": 4,
+  "total_items": 7,
   "items": [
+    {
+      "title": "UC Berkeley 团队用 AI Agent 审计 13 个基准，发现 45 个无需解题的满分作弊方案",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T21:57:24.773732+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "agent",
+        "paper",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Hinton, Bengio and AI lab scientists warn of an intelligence explosion",
+      "url": "https://thenextweb.com/news/intelligence-explosion-paper-hinton-bengio-pachocki-clark",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T20:45:19+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5，基准接近 Opus 5.5 且单任务成本最多降 30%",
+      "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:02:10+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch",
+        "paper",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "AI agent startup Instinct raised a $1B Series C from Sequoia, Benchmark, and Coatue at a $10B valuation and details recent products, such as a concierge service (Utkarsh Shetti/Reuters)",
       "url": "https://www.techmeme.com/260928/p19",
@@ -13,7 +63,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-28T12:53:05+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
@@ -29,7 +79,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-28T10:06:14.359000+00:00",
       "source_count": 4,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "paper"
@@ -44,7 +94,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-27T23:49:58.724000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "paper"
@@ -59,7 +109,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-27T22:06:47.415249+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "paper"
