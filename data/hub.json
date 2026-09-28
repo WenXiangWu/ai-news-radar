@@ -1,24 +1,55 @@
 {
-  "generated_at": "2026-09-28T06:55:46.452739+00:00",
+  "generated_at": "2026-09-28T15:24:37.814193+00:00",
   "today": "2026-09-28",
-  "lead": "Quoting Muse AI Agent；2026 in LLMs (so far)；Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+  "lead": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本；NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离；NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "Thinking Fast and Slow in AI: The Role of Metacognition",
+      "title": "人工智能中的“快思”与“慢思”：元认知的作用（2021）",
       "url": "https://arxiv.org/abs/2110.01834",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-28T03:23:53+00:00",
-      "source_count": 3,
-      "score": 56,
+      "source": "arxiv.org",
+      "site_id": "buzzing",
+      "published_at": "2026-09-28T10:06:14.359000+00:00",
+      "source_count": 4,
+      "score": 58,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 89
+      "hot_score": 100
+    },
+    {
+      "title": "人工智能公司竞相展示其对人类威胁最大的模型",
+      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity",
+      "source": "thecivilian.co.nz",
+      "site_id": "buzzing",
+      "published_at": "2026-09-28T12:11:05.564000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 92
+    },
+    {
+      "title": "Claude Opus 5.5 提示词指南：与 Opus 5 的行为差异及迁移模式",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T10:51:57.660000+00:00",
+      "source_count": 2,
+      "score": 82,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 41
     },
     {
       "title": "Show HN: TinyAIArena：观看AI代理之间的激战",
@@ -27,28 +58,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-28T02:12:19.167000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 81
-    },
-    {
-      "title": "“作为语言模型”：聊天模板切换了大语言模型的自指代语气",
-      "url": "https://arxiv.org/abs/2609.25021",
-      "source": "arxiv.org",
-      "site_id": "buzzing",
-      "published_at": "2026-09-27T23:49:58.724000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 66
+      "hot_score": 40
     },
     {
       "title": "随着人工智能提升了律师事务所的效率，客户们不禁问道：“我的折扣呢？”",
@@ -57,28 +72,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-28T05:36:13.514000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 54
-    },
-    {
-      "title": "《周六夜现场》“周末快讯”：Anthropic首席执行官达里奥·阿莫德伊谈人工智能对人类的威胁 [视频]",
-      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
-      "source": "www.youtube.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-27T18:54:12.868000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 44
+      "hot_score": 26
     }
   ],
   "topics": [
@@ -87,14 +86,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 18
+      "count": 20
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "google",
@@ -108,63 +107,63 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 8
+      "count": 14
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 1
+      "count": 4
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 2
+      "count": 5
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 3
+      "count": 11
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 24
+      "count": 37
     }
   ],
   "days": [

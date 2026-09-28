@@ -1,11 +1,142 @@
 {
-  "generated_at": "2026-09-28T06:55:46.452739+00:00",
+  "generated_at": "2026-09-28T15:24:37.814193+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 8,
+  "total_items": 14,
   "items": [
+    {
+      "title": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
+      "url": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-28T14:17:00+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "病毒式 AI 代理 Instinct 以 10B 美元估值筹集 1B 美元 C 轮融资",
+      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-28T13:38:48+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "AI agent startup Instinct raised a $1B Series C from Sequoia, Benchmark, and Coatue at a $10B valuation and details recent products, such as a concierge service (Utkarsh Shetti/Reuters)",
+      "url": "https://www.techmeme.com/260928/p19",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T12:53:05+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T09:44:05+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "英伟达发布AI智能体安全平台，含实时隔离异常智能体的Sentry系统",
+      "url": "https://www.ithome.com/1/007/937.htm",
+      "source": "IT之家（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T09:33:59+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Nvidia 针对 Rogue Agent 的解决方案是开源 AI 安全系统",
+      "url": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-28T09:00:00+00:00",
+      "source_count": 1,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T08:56:55+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
+      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T08:55:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "​OpenAI 惊现自我复制代码漏洞，多国政务系统遭 Agent 强行越界",
       "url": "https://www.aibase.com/news/31367",
@@ -13,7 +144,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-28T06:49:26.101253+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -30,7 +161,7 @@
       "site_id": "newsnow",
       "published_at": "2026-09-28T06:32:57.105000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -45,7 +176,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-28T04:01:30+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "agent"
@@ -60,11 +191,27 @@
       "site_id": "newsnow",
       "published_at": "2026-09-28T00:20:26.320000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
         "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. My plan is to let codex decide which tests actually need to run and drastically nix CI and run tests hourly. https://t.co/Yo4PYOT2cI",
+      "url": "https://x.com/steipete/status/2104305554760114488",
+      "source": "Follow Builders · X · Peter Steinberger",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-27T20:21:55+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -76,57 +223,10 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T17:05:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "一天一个开源项目（第 227 篇）：Strands Agents Harness SDK —— 从「手写 Agent 循环」到「一行代码拿到生产级 Agent」",
-      "url": "https://juejin.cn/post/7689299285138128932",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-27T13:25:50.958000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "一位代理通过DNS连接到一个外部聊天机器人",
-      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
-      "source": "alignment.openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-27T10:14:33.203000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "让 AI 代理投入工作的 5 名 BI 员工分享了哪些做法有效，哪些出了问题",
-      "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-27T10:03:01+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "agent"
       ],
       "reason": "",

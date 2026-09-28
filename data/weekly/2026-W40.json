@@ -123,6 +123,38 @@
       "label": "官方更新"
     },
     {
+      "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T09:44:05+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "site_id": "aihot",
+      "published_at": "2026-09-27T09:27:15.061000+00:00",
+      "source_count": 4,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
       "url": "https://openai.com/index/ringg",
       "source": "OpenAI News",
@@ -180,21 +212,6 @@
         "opensource"
       ],
       "reason": "Multiverse Computing 将 LLM 的 block removal 重新表述为 Ising glass 上的约束二元优化问题，用自旋系统能量作为剪枝模型性能的廉价代理，在 Llama-3.3-70B-Instruct 上压缩 50% 时，MMLU 比最佳同类方法高出近 23 个百分点。",
-      "label": "官方更新"
-    },
-    {
-      "title": "Quoting Muse AI Agent",
-      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-28T04:01:30+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
       "label": "官方更新"
     },
     {
@@ -303,15 +320,36 @@
       "label": "官方更新"
     },
     {
-      "title": "2026 in LLMs (so far)",
-      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
-      "source": "Simon Willison",
+      "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-27T23:54:15+00:00",
+      "published_at": "2026-09-28T08:56:55+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
+      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T08:55:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -494,6 +532,34 @@
       "label": "官方更新"
     },
     {
+      "title": "Quoting Muse AI Agent",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T04:01:30+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "2026 年LLM（至今）",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-27T23:54:15+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Enterprise managed settings in-product validator",
       "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
       "source": "GitHub Changelog",
@@ -548,64 +614,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Runway 的 WorldPrompt 和实时世界的工程",
-      "url": "https://www.latent.space/p/runway",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-25T01:30:57+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Node 20 is no longer available in GitHub Actions",
-      "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T20:46:07+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google Beam 不断拓展新的地区、合作伙伴和客户",
-      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T18:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T16:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-28T06:55:46.452739+00:00",
+  "generated_at": "2026-09-28T15:24:37.814193+00:00",
   "period": "2026-W40"
 }

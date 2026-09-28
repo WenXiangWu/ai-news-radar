@@ -1,46 +1,80 @@
 {
-  "generated_at": "2026-09-28T06:55:46.452739+00:00",
+  "generated_at": "2026-09-28T15:24:37.814193+00:00",
   "date": "2026-09-28",
   "timezone": "Asia/Shanghai",
-  "lead": "Quoting Muse AI Agent；2026 in LLMs (so far)；Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+  "lead": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本；NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离；NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
     {
-      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-27T09:27:15.061000+00:00",
-      "source_count": 2,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 10
-    },
-    {
-      "title": "Microsoft drops Copilot+ branding from its new laptops",
+      "title": "微软从其新笔记本电脑中删除了 Copilot+ 品牌",
       "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-28T02:46:27+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": true,
       "topics": [
         "coding"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 42
+      "hot_score": 21
     }
   ],
   "items": [
+    {
+      "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T09:44:05+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T08:56:55+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
+      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T08:55:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Quoting Muse AI Agent",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent",
@@ -48,7 +82,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-28T04:01:30+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "agent"
@@ -57,33 +91,43 @@
       "label": "官方更新"
     },
     {
-      "title": "2026 in LLMs (so far)",
+      "title": "2026 年LLM（至今）",
       "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
       "source": "Simon Willison",
       "site_id": "official_ai",
       "published_at": "2026-09-27T23:54:15+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "site_id": "aihot",
-      "published_at": "2026-09-27T09:27:15.061000+00:00",
-      "source_count": 2,
-      "score": 76,
+      "title": "英伟达希望通过其芯片中内置的看门狗来控制人工智能代理",
+      "url": "https://the-decoder.com/nvidia-wants-to-keep-ai-agents-on-a-short-leash-with-a-watchdog-built-into-its-chips",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-28T14:32:00+00:00",
+      "source_count": 1,
+      "score": 63,
       "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
+      "topics": [],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
+    },
+    {
+      "title": "英伟达表示，其新的人工智能安全平台可以在“几毫秒”内遏制流氓代理",
+      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-28T13:36:06+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "Anthropic首席执行官即将与特朗普总统共进晚餐",
@@ -92,7 +136,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T20:34:28+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -107,7 +151,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T16:30:00+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -116,60 +160,33 @@
       "label": "值得关注"
     },
     {
-      "title": "据报道，一些人类退伍军人正在购买偏远土地，以防“人工智能出现问题”",
-      "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T13:03:05+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 表示其 80% 到 90% 的研究已经针对 GPT 7 及更高版本",
-      "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T10:36:29+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "数万次安全调查显示OpenAI抱脸事件只是一个开始",
-      "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T09:23:36+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia 推出免费的 1 亿参数模型，可实时识别多达 8 个扬声器",
-      "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T11:01:13+00:00",
+      "title": "流氓特工瞄准政府后，OpenAI 暂停训练其最强大的模型",
+      "url": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-28T11:32:19+00:00",
       "source_count": 1,
       "score": 58,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Nvidia 针对 Rogue Agent 的解决方案是开源 AI 安全系统",
+      "url": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-28T09:00:00+00:00",
+      "source_count": 1,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -180,7 +197,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-27T17:21:07+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 55,
       "official": true,
       "topics": [
         "openai"
@@ -189,13 +206,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Microsoft drops Copilot+ branding from its new laptops",
+      "title": "微软从其新笔记本电脑中删除了 Copilot+ 品牌",
       "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-28T02:46:27+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": true,
       "topics": [
         "coding"
@@ -204,13 +221,88 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI pauses training of latest models after agents probed US Government sites",
+      "title": "Microsoft Copilot",
+      "url": "https://www.producthunt.com/products/microsoft-copilot",
+      "source": "producthunt",
+      "site_id": "newsnow",
+      "published_at": "2026-09-28T15:05:10.653000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "黄仁勋表示，人工智能的蒸馏是“竞争”。",
+      "url": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-28T14:55:34+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 称其流氓代理在网上发布了 53 张 ChatGPT 用户的图像",
+      "url": "https://thenextweb.com/news/openai-rogue-agents-53-user-images-government-sites",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T14:18:05+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "据称 OpenAI 特工在短短三个月内扫描了联合国数据中心 16,000 多次",
+      "url": "https://www.techradar.com/pro/openai-agents-allegedly-scanned-a-un-data-hub-over-16-000-times-in-just-three-months",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T12:05:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Domyn 首席执行官表示 OpenAI 和 Anthropic 在安全问题上撒谎",
+      "url": "https://www.axios.com/2026/09/28/ai-domyn-uljan-sharka-openai-anthropic-safety-lying",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-28T10:05:15+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "在特工调查美国政府网站后，OpenAI 暂停了最新模型的训练",
       "url": "https://apnews.com/article/ai-openai-anthropic-agents-rogue-hack-2f8a2b9024d4f06793bcca12f8089d20",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-09-28T01:20:50+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -226,117 +318,11 @@
       "site_id": "techurls",
       "published_at": "2026-09-27T22:12:24+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "据 Axios 报道，特朗普将在白宫晚宴上接待 Anthropic 的达里奥·阿莫代 (Dario Amodei)",
-      "url": "https://thenextweb.com/news/trump-amodei-anthropic-white-house-dinner",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-27T18:39:02+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic/OpenAI 对人工智能安全发出警报，并寻求如何控制它",
-      "url": "https://apnews.com/article/ai-slowdown-midterms-anthropic-openai-ipo-9a057de94eb8f30a2fdb5b938918627e",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-27T18:34:38+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 停止了最新模型的训练，因为有报道称 AI 代理越来越多地出现问题",
-      "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-27T16:29:38+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "在 OpenAI 和 Anthropic 发生数十起事件后，OpenAI 暂停模型训练以建立更多保障措施",
-      "url": "https://slashdot.org/story/26/09/27/078251/after-dozens-of-incidents-at-openai-and-anthropic-openai-pauses-model-training-to-build-more-safeguards",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-09-27T14:34:00+00:00",
-      "source_count": 1,
       "score": 48,
       "official": true,
       "topics": [
-        "openai",
         "anthropic"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GPT-6 Sol & Luna",
-      "url": "https://www.producthunt.com/products/openai",
-      "source": "producthunt",
-      "site_id": "newsnow",
-      "published_at": "2026-09-27T13:25:42.249000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "一位代理通过DNS连接到一个外部聊天机器人",
-      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
-      "source": "alignment.openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-27T10:14:33.203000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Muse 能克服 Meta 的信任问题吗？",
-      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-27T19:57:30+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
