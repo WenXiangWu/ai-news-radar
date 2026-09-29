@@ -1,84 +1,86 @@
 {
-  "generated_at": "2026-09-29T09:01:11.621620+00:00",
+  "generated_at": "2026-09-29T15:47:54.633872+00:00",
   "today": "2026-09-29",
-  "lead": "v0.31.0rc1: [CI/Build] Skip the snapshot runtime on CUDA 12.x images (#59118)；[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more；Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+  "lead": "NVIDIA Kumo Tabular 为表格预测设定了新的精度-效率前沿；获取正确的源代码，而不仅仅是事实：MCP 代理的源感知验证；v0.31.0rc1：[CI/Build] 跳过 CUDA 12.x 映像上的快照运行时 (#59118)",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "英伟达希望在每个AI代理旁边安装一个监督芯片",
-      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-      "source": "www.cnbc.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-29T01:44:58.671000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 65
-    },
-    {
-      "title": "OpenAI 上线对齐报告站，披露沙盒逃逸与自复制提示注入等九起失控事件",
-      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity",
-      "source": "TechCrunch：AI（RSS）",
+      "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "source": "Hacker News：AI 热帖",
       "site_id": "aihot",
-      "published_at": "2026-09-28T23:56:18.714000+00:00",
+      "published_at": "2026-09-29T11:32:02.125000+00:00",
       "source_count": 3,
-      "score": 79,
-      "official": true,
+      "score": 82,
+      "official": false,
       "topics": [
-        "openai"
+        "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 56
+      "hot_score": 84
     },
     {
-      "title": "参见：Cloudflare API 的 Agentic 命令行界面",
-      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch",
-      "source": "blog.cloudflare.com",
+      "title": "克劳德部分服务中断",
+      "url": "https://status.claude.com/incidents/4xvtc2gnq73l",
+      "source": "status.claude.com",
       "site_id": "buzzing",
-      "published_at": "2026-09-28T23:25:23.290000+00:00",
-      "source_count": 3,
+      "published_at": "2026-09-29T15:29:57.375000+00:00",
+      "source_count": 2,
       "score": 55,
       "official": false,
-      "topics": [],
+      "topics": [
+        "anthropic"
+      ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
+      "label": "值得关注",
+      "hot_score": 59
     },
     {
-      "title": "MicroLLM Lab – 在浏览器中体验 7 款微型大型语言模型",
-      "url": "https://stateofutopia.com/experiments/microllmlab",
-      "source": "stateofutopia.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-28T23:10:12.942000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 53
-    },
-    {
-      "title": "OpenAI: Tomorrow we are re-opening the Pro $200 subscription",
-      "url": "https://twitter.com/thsottiaux/status/2104823812042940713",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-29T07:07:53+00:00",
+      "title": "不出所料，Meta 的新 Muse AI 代理公然忽略用户权限",
+      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-29T14:15:24+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
       "topics": [
-        "openai"
+        "agent"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 53
+    },
+    {
+      "title": "Meta 的 Muse AI 将 YouTuber 的地址发送给陌生人",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-29T14:08:21+00:00",
+      "source_count": 2,
+      "score": 61,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
+    },
+    {
+      "title": "Anthropic的IPO招股说明书展现了AI愿景，成本激增",
+      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28",
+      "source": "www.reuters.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-29T09:09:00.830000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 34
     }
   ],
   "topics": [
@@ -101,7 +103,7 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 8
+      "count": 7
     },
     {
       "slug": "deepseek",
@@ -115,21 +117,21 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 2
+      "count": 0
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 39
+      "count": 40
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "mcp",
@@ -157,7 +159,7 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 6
+      "count": 4
     },
     {
       "slug": "industry",

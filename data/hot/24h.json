@@ -1,23 +1,85 @@
 {
-  "generated_at": "2026-09-29T09:01:11.621620+00:00",
+  "generated_at": "2026-09-29T15:47:54.633872+00:00",
   "window_hours": 24,
-  "total_items": 19,
+  "total_items": 20,
   "items": [
     {
-      "title": "英伟达希望在每个AI代理旁边安装一个监督芯片",
-      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-      "source": "www.cnbc.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-29T01:44:58.671000+00:00",
+      "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-29T11:32:02.125000+00:00",
       "source_count": 3,
-      "score": 55,
-      "official": true,
+      "score": 82,
+      "official": false,
       "topics": [
-        "launch"
+        "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 65
+      "hot_score": 84
+    },
+    {
+      "title": "克劳德部分服务中断",
+      "url": "https://status.claude.com/incidents/4xvtc2gnq73l",
+      "source": "status.claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-29T15:29:57.375000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 59
+    },
+    {
+      "title": "不出所料，Meta 的新 Muse AI 代理公然忽略用户权限",
+      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-29T14:15:24+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 53
+    },
+    {
+      "title": "Meta 的 Muse AI 将 YouTuber 的地址发送给陌生人",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-29T14:08:21+00:00",
+      "source_count": 2,
+      "score": 61,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
+    },
+    {
+      "title": "Anthropic的IPO招股说明书展现了AI愿景，成本激增",
+      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28",
+      "source": "www.reuters.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-29T09:09:00.830000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 34
     },
     {
       "title": "OpenAI 上线对齐报告站，披露沙盒逃逸与自复制提示注入等九起失控事件",
@@ -26,28 +88,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T23:56:18.714000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 56
-    },
-    {
-      "title": "参见：Cloudflare API 的 Agentic 命令行界面",
-      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch",
-      "source": "blog.cloudflare.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-28T23:25:23.290000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
+      "hot_score": 32
     },
     {
       "title": "MicroLLM Lab – 在浏览器中体验 7 款微型大型语言模型",
@@ -56,28 +104,28 @@
       "site_id": "buzzing",
       "published_at": "2026-09-28T23:10:12.942000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 53
+      "hot_score": 30
     },
     {
-      "title": "OpenAI: Tomorrow we are re-opening the Pro $200 subscription",
+      "title": "OpenAI：明天我们将重新开放 Pro 200 美元订阅",
       "url": "https://twitter.com/thsottiaux/status/2104823812042940713",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-09-29T07:07:53+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 29
     },
     {
       "title": "是时候对人工智能实验室展开调查了",
@@ -86,12 +134,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-28T22:08:11.961000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 48
+      "hot_score": 28
     },
     {
       "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
@@ -100,7 +148,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T18:28:19.833000+00:00",
       "source_count": 3,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "anthropic",
@@ -108,23 +156,23 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 36
+      "hot_score": 20
     },
     {
-      "title": "OpenAI scraps rollout of new model over safety concerns",
+      "title": "出于安全考虑，OpenAI 放弃推出新模型",
       "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "site_id": "techurls",
       "published_at": "2026-09-29T01:18:24+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 18
     },
     {
       "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
@@ -133,7 +181,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-29T00:55:47+00:00",
       "source_count": 2,
-      "score": 76,
+      "score": 74,
       "official": true,
       "topics": [
         "agent",
@@ -142,16 +190,16 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 31
+      "hot_score": 17
     },
     {
-      "title": "OpenAI Says It Will Not Release Newest A.I. Model Over Safety Concerns",
+      "title": "OpenAI 表示不会发布最新的人工智能模型高于安全问题",
       "url": "https://news.ycombinator.com/item?id=49886416",
       "source": "hackernews",
       "site_id": "newsnow",
       "published_at": "2026-09-29T00:34:27+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -159,7 +207,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 30
+      "hot_score": 17
     },
     {
       "title": "World Labs 宣布加入 AMD，李飞飞将出任 AMD 执行副总裁兼首席科学家",
@@ -168,56 +216,28 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T22:08:12.115000+00:00",
       "source_count": 2,
-      "score": 80,
+      "score": 79,
       "official": false,
       "topics": [
         "industry"
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 24
+      "hot_score": 14
     },
     {
       "title": "Pacing the Frontier is not the actual goal for AI labs",
       "url": "https://www.lesswrong.com/posts/Nm4ewbYovtjq69dvH/pacing-the-frontier-is-not-the-actual-goal-for-ai-labs",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-28T20:47:26+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 22
-    },
-    {
-      "title": "人工智能公司竞相展示其对人类威胁最大的模型",
-      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity",
-      "source": "thecivilian.co.nz",
-      "site_id": "buzzing",
-      "published_at": "2026-09-28T12:11:05.564000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 21
-    },
-    {
-      "title": "一款真正严肃的人工智能产品会是什么样子？",
-      "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
-      "source": "blog.glyph.im",
-      "site_id": "buzzing",
-      "published_at": "2026-09-28T20:34:19.335000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 21
+      "hot_score": 12
     },
     {
       "title": "Claude Sonnet 5.5 发布：比 Sonnet 5 快 30% 以上，多数工作成本降低至多 30%",
@@ -226,7 +246,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T19:54:02+00:00",
       "source_count": 2,
-      "score": 76,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -235,7 +255,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 20
+      "hot_score": 11
     },
     {
       "title": "Claude Sonnet 5.5 发布，作者演示其修复 Claude Code 中的 bug",
@@ -244,7 +264,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T18:25:49+00:00",
       "source_count": 2,
-      "score": 76,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -254,7 +274,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 18
+      "hot_score": 10
     },
     {
       "title": "I made a visual workspace for AI Automations",
@@ -263,12 +283,12 @@
       "site_id": "zeli",
       "published_at": "2026-09-28T17:53:14+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
+      "hot_score": 10
     },
     {
       "title": "Launch HN: Vespper (YC F24) – SOTA Docx MCP",
@@ -277,14 +297,14 @@
       "site_id": "zeli",
       "published_at": "2026-09-28T17:34:36+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "mcp"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
+      "hot_score": 9
     },
     {
       "title": "问题不在于人工智能代码，而在于现在谁都一无所知了",
@@ -293,12 +313,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-28T16:54:11.097000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 16
+      "hot_score": 9
     }
   ]
 }

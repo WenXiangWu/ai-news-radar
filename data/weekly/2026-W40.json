@@ -60,6 +60,37 @@
       "label": "官方更新"
     },
     {
+      "title": "NVIDIA Kumo Tabular 为表格预测设定了新的精度-效率前沿",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T15:30:38+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "获取正确的源代码，而不仅仅是事实：MCP 代理的源感知验证",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T13:07:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "mcp",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "langgraph-cli==0.4.32.dev0",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
       "source": "LangGraph Releases",
@@ -123,15 +154,17 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.31.0rc1: [CI/Build] Skip the snapshot runtime on CUDA 12.x images (#59118)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1",
-      "source": "vLLM Releases",
+      "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T03:18:39+00:00",
+      "published_at": "2026-09-28T09:44:05+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
+        "agent",
+        "opensource",
         "launch"
       ],
       "reason": "",
@@ -178,35 +211,6 @@
       "official": true,
       "topics": [
         "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
-      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T02:55:27+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
-      "url": "https://www.latent.space/p/thariq",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T01:48:18+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
       ],
       "reason": "",
       "label": "官方更新"
@@ -274,11 +278,26 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Opus 5.5 is good at explainer videos",
-      "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+      "title": "v0.31.0rc1：[CI/Build] 跳过 CUDA 12.x 映像上的快照运行时 (#59118)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T03:18:39+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] AMD 以 $8.2B 收购 World Labs，Atlas 解决了机器人、设计等领域的稀疏重建问题",
+      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
       "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T02:44:29+00:00",
+      "published_at": "2026-09-29T02:55:27+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -287,26 +306,11 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "source": "OpenAI News",
+      "title": "Claude·科德的下一个时代——Thariq Shihipar，Anthropic",
+      "url": "https://www.latent.space/p/thariq",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T01:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Sonnet 5.5",
-      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-28T22:07:38+00:00",
+      "published_at": "2026-09-29T01:48:18+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -317,33 +321,35 @@
       "label": "官方更新"
     },
     {
-      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:28:19.833000+00:00",
-      "source_count": 3,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Claude Sonnet 5.5 in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
-      "source": "GitHub Changelog",
+      "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-28T18:03:57+00:00",
+      "published_at": "2026-09-28T08:56:55+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "anthropic",
-        "coding"
+        "agent",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
+      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T08:55:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -482,31 +488,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "title": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-28T19:00:00+00:00",
+      "published_at": "2026-09-29T01:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -607,8 +598,21 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Node 20 is no longer available in GitHub Actions",
+      "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T20:46:07+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-29T09:01:11.621620+00:00",
+  "generated_at": "2026-09-29T15:47:54.633872+00:00",
   "period": "2026-W40"
 }
