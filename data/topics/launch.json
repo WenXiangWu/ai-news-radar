@@ -1,11 +1,62 @@
 {
-  "generated_at": "2026-09-29T15:47:54.633872+00:00",
+  "generated_at": "2026-09-29T21:15:51.697803+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 35,
+  "total_items": 22,
   "items": [
+    {
+      "title": "v2.1.285",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-09-29T19:27:30+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6.1 Sol，强化智能体编码与 computer use",
+      "url": "https://x.com/OpenAIDevs/status/2104993035507712318",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "site_id": "aihot",
+      "published_at": "2026-09-29T17:53:43+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI releases GPT-6.1 Sol at a fifth of GPT-6 Astra’s token prices",
+      "url": "https://thenextweb.com/news/openai-gpt-6-1-sol-price-astra-devday",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-09-29T17:33:05+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "DeepSeek Harness 桌面端发布：一手体验",
       "url": "https://waytoagi.feishu.cn/wiki/TVoDwH5mNiEwRvktypDcdUOnnxg?from=from_copylink",
@@ -13,7 +64,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-29T15:46:53.883018+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "deepseek",
@@ -23,20 +74,37 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 表示计划中的 GPT-6.1 太不安全，无法发布",
-      "url": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release",
-      "source": "Ars Technica",
-      "site_id": "techurls",
-      "published_at": "2026-09-29T14:22:31+00:00",
+      "title": "NVIDIA 发布开源表格基础模型 Kumo Tabular，在 TabArena 等四项基准排名第一",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T15:30:38+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 85,
       "official": true,
       "topics": [
-        "openai",
+        "opensource",
         "launch"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 取消 GPT-6.1 下月发布计划，称其安全性未达标",
+      "url": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release",
+      "source": "Ars Technica：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-09-29T14:22:31+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
     },
     {
       "title": "Microsoft Research 发布 AI 生物研究系统 Quine，并开放 Quine Fellows 项目申请",
@@ -45,14 +113,13 @@
       "site_id": "aihot",
       "published_at": "2026-09-29T14:00:02+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "出于安全考虑，OpenAI 推迟发布最新模型",
@@ -61,7 +128,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-29T10:36:22+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai",
@@ -71,13 +138,30 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T10:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "OpenAI 因欺骗性问题叫停 GPT-6.1 Astra 发布",
       "url": "https://the-decoder.com/gpt-6-1-astra-is-too-deceptive-for-release-marking-openais-most-dramatic-safety-intervention-yet",
       "source": "The Decoder：AI News（RSS）",
       "site_id": "aihot",
       "published_at": "2026-09-29T08:26:38+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "openai",
@@ -94,7 +178,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-29T08:25:17.723477+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "agent",
@@ -111,7 +195,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-29T03:18:39+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -126,7 +210,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-29T01:54:26.216175+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -143,7 +227,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-29T01:54:26.216175+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -160,7 +244,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-29T01:54:26.216175+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -177,7 +261,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-29T01:54:26.216175+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
@@ -194,7 +278,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-29T01:44:58.671000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "launch"
@@ -209,7 +293,7 @@
       "site_id": "hackernews",
       "published_at": "2026-09-29T00:38:41+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -220,19 +304,19 @@
     },
     {
       "title": "OpenAI 表示不会发布最新的人工智能模型高于安全问题",
-      "url": "https://news.ycombinator.com/item?id=49886416",
-      "source": "hackernews",
-      "site_id": "newsnow",
+      "url": "https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-29T00:34:27+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
+      "source_count": 3,
+      "score": 53,
+      "official": true,
       "topics": [
         "openai",
         "launch"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
     },
     {
       "title": "消息称 OpenAI 因安全隐患取消发布 GPT‑6.1 Astra",
@@ -241,7 +325,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-29T00:12:31+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -258,7 +342,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-29T00:11:16+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -274,307 +358,10 @@
       "site_id": "techurls",
       "published_at": "2026-09-28T22:29:14+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Databricks 如何让 1.4 万名员工在模型发布首日用上新模型",
-      "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
-      "source": "Databricks：Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T20:11:23+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Sonnet 5.5 发布：比 Sonnet 5 快 30% 以上，多数工作成本降低至多 30%",
-      "url": "https://x.com/trq212/status/2104660926373023830",
-      "source": "X：Thariq (@trq212)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T19:54:02+00:00",
-      "source_count": 2,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic releases Claude Sonnet 5.5, a faster and cheaper follow-up to Opus 5.5",
-      "url": "https://mashable.com/tech/anthropic-claude-sonnet-launch-cheaper-opus-model",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-09-28T19:16:24+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Sonnet 5.5 发布，Terminal-Bench 4.0 得分 70.6% 且价格不变",
-      "url": "https://x.com/rohanpaul_ai/status/2104649406536683789",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T19:08:15+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Claude Sonnet 5.5 发布，比 Sonnet 5 快超 30%、多数工作成本最多低 30%",
-      "url": "https://x.com/ClaudeDevs/status/2104641318555353400",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:36:07+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5，Artificial Analysis 智能指数得分 56，仅次于 Opus 5.5",
-      "url": "https://x.com/ArtificialAnlys/status/2104640155843989864",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:31:30+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic releases Claude Sonnet 5.5 with the cyber limits it reserved for its best models",
-      "url": "https://thenextweb.com/news/sonnet-5-5-cyber-distillation",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-28T18:30:03+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:28:19.833000+00:00",
-      "source_count": 3,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Claude Sonnet 5.5 发布，作者演示其修复 Claude Code 中的 bug",
-      "url": "https://x.com/bcherny/status/2104638725317923228",
-      "source": "X：Boris Cherny (@bcherny)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:25:49+00:00",
-      "source_count": 2,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5：比 Sonnet 5 快超 30% 且成本最多降 30%",
-      "url": "https://x.com/dongxi_nlp/status/2104634260934054237",
-      "source": "X：马东锡 NLP (@dongxi_nlp)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:08:04+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic releases Sonnet 5.5, saying it generates outputs 30%+ faster than Sonnet 5 and costs up to 30% less per task, and plans to release Haiku 5.5 soon (Anthropic)",
-      "url": "https://www.techmeme.com/260928/p32",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-28T18:07:28+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5，速度比 Sonnet 5 快逾 30%",
-      "url": "https://www.youtube.com/watch?v=s5nkj-L2vAw",
-      "source": "Claude：YouTube（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:04:19+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5，速度比 Sonnet 5 快超 30%",
-      "url": "https://www.youtube.com/shorts/u-3cPWPvRUE",
-      "source": "Claude：YouTube（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:04:08+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5",
-      "url": "https://x.com/AnthropicAI/status/2104633259925630995",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:04:06+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5，为 Claude 5.5 家族第二款模型",
-      "url": "https://x.com/claudeai/status/2104633115620823187",
-      "source": "X：Claude (@claudeai)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:03:31+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5，基准接近 Opus 5.5 且单任务成本最多降 30%",
-      "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task",
-      "source": "The Decoder：AI News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:02:10+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch",
-        "paper",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "v2.1.284",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-28T18:02:03+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
-      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-28T18:00:00+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
         "launch"
       ],
       "reason": "",

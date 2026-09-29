@@ -1,23 +1,115 @@
 {
-  "generated_at": "2026-09-29T15:47:54.633872+00:00",
+  "generated_at": "2026-09-29T21:15:51.697803+00:00",
   "window_hours": 168,
-  "total_items": 20,
+  "total_items": 15,
   "items": [
+    {
+      "title": "圆点",
+      "url": "https://openai.com/index/introducing-dots",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T17:36:13.593000+00:00",
+      "source_count": 4,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 100
+    },
+    {
+      "title": "DraftKings 正利用人工智能针对长期赌徒进行行为定向营销",
+      "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+      "source": "www.eff.org",
+      "site_id": "buzzing",
+      "published_at": "2026-09-29T17:36:13.589000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 88
+    },
+    {
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T17:20:30.075000+00:00",
+      "source_count": 3,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 87
+    },
     {
       "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
       "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
       "source": "Hacker News：AI 热帖",
       "site_id": "aihot",
       "published_at": "2026-09-29T11:32:02.125000+00:00",
-      "source_count": 3,
-      "score": 82,
+      "source_count": 4,
+      "score": 83,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 84
+      "hot_score": 80
+    },
+    {
+      "title": "不出所料，Meta的新款Muse AI智能助手公然无视用户的权限设置",
+      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+      "source": "appleinsider.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-29T15:46:20.708000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 76
+    },
+    {
+      "title": "Show HN: TurboGPT: train 22KiB transformer in 13s",
+      "url": "https://github.com/lostmsu/TurboGPT",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-29T19:20:02+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
+    },
+    {
+      "title": "AI needs $6T in annual revenue to justify data centre boom",
+      "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres",
+      "source": "Hacker News",
+      "site_id": "techurls",
+      "published_at": "2026-09-29T19:21:25+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
     },
     {
       "title": "克劳德部分服务中断",
@@ -26,30 +118,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-29T15:29:57.375000+00:00",
       "source_count": 2,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 59
-    },
-    {
-      "title": "不出所料，Meta 的新 Muse AI 代理公然忽略用户权限",
-      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-29T14:15:24+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 53
+      "hot_score": 37
     },
     {
       "title": "Meta 的 Muse AI 将 YouTuber 的地址发送给陌生人",
@@ -58,12 +134,12 @@
       "site_id": "curated_media",
       "published_at": "2026-09-29T14:08:21+00:00",
       "source_count": 2,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
+      "hot_score": 33
     },
     {
       "title": "Anthropic的IPO招股说明书展现了AI愿景，成本激增",
@@ -72,98 +148,38 @@
       "site_id": "buzzing",
       "published_at": "2026-09-29T09:09:00.830000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 34
+      "hot_score": 22
     },
     {
-      "title": "OpenAI 上线对齐报告站，披露沙盒逃逸与自复制提示注入等九起失控事件",
-      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity",
-      "source": "TechCrunch：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T23:56:18.714000+00:00",
-      "source_count": 3,
-      "score": 78,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 32
-    },
-    {
-      "title": "MicroLLM Lab – 在浏览器中体验 7 款微型大型语言模型",
-      "url": "https://stateofutopia.com/experiments/microllmlab",
-      "source": "stateofutopia.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-28T23:10:12.942000+00:00",
+      "title": "OpenAI 表示不会发布最新的人工智能模型高于安全问题",
+      "url": "https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-29T00:34:27+00:00",
       "source_count": 3,
       "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 30
-    },
-    {
-      "title": "OpenAI：明天我们将重新开放 Pro 200 美元订阅",
-      "url": "https://twitter.com/thsottiaux/status/2104823812042940713",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-29T07:07:53+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 29
-    },
-    {
-      "title": "是时候对人工智能实验室展开调查了",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs",
-      "source": "calnewport.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-28T22:08:11.961000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 28
-    },
-    {
-      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:28:19.833000+00:00",
-      "source_count": 3,
-      "score": 81,
       "official": true,
       "topics": [
-        "anthropic",
+        "openai",
         "launch"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 20
+      "hot_score": 21
     },
     {
-      "title": "出于安全考虑，OpenAI 放弃推出新模型",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "site_id": "techurls",
-      "published_at": "2026-09-29T01:18:24+00:00",
+      "title": "OpenAI：明天我们将重新开放 Pro 200 美元订阅",
+      "url": "https://twitter.com/thsottiaux/status/2104823812042940713",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-09-29T07:07:53+00:00",
       "source_count": 2,
       "score": 51,
       "official": false,
@@ -175,150 +191,52 @@
       "hot_score": 18
     },
     {
-      "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
-      "source": "GitHub Blog",
-      "site_id": "aihot",
-      "published_at": "2026-09-29T00:55:47+00:00",
+      "title": "出于安全考虑，OpenAI 放弃推出新模型",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "site_id": "techurls",
+      "published_at": "2026-09-29T01:18:24+00:00",
       "source_count": 2,
-      "score": 74,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 17
-    },
-    {
-      "title": "OpenAI 表示不会发布最新的人工智能模型高于安全问题",
-      "url": "https://news.ycombinator.com/item?id=49886416",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-09-29T00:34:27+00:00",
-      "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
-        "openai",
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
+      "hot_score": 11
     },
     {
-      "title": "World Labs 宣布加入 AMD，李飞飞将出任 AMD 执行副总裁兼首席科学家",
-      "url": "https://www.worldlabs.ai/blog/amd-announcement",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T22:08:12.115000+00:00",
+      "title": "Codex CLI 0.159.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T00:00:00+00:00",
       "source_count": 2,
-      "score": 79,
-      "official": false,
+      "score": 84,
+      "official": true,
       "topics": [
-        "industry"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
-      "label": "行业动态",
-      "hot_score": 14
+      "label": "官方更新",
+      "hot_score": 10
     },
     {
-      "title": "Pacing the Frontier is not the actual goal for AI labs",
+      "title": "引领前沿并不是人工智能实验室的实际目标",
       "url": "https://www.lesswrong.com/posts/Nm4ewbYovtjq69dvH/pacing-the-frontier-is-not-the-actual-goal-for-ai-labs",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-09-28T20:47:26+00:00",
       "source_count": 2,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "Claude Sonnet 5.5 发布：比 Sonnet 5 快 30% 以上，多数工作成本降低至多 30%",
-      "url": "https://x.com/trq212/status/2104660926373023830",
-      "source": "X：Thariq (@trq212)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T19:54:02+00:00",
-      "source_count": 2,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 11
-    },
-    {
-      "title": "Claude Sonnet 5.5 发布，作者演示其修复 Claude Code 中的 bug",
-      "url": "https://x.com/bcherny/status/2104638725317923228",
-      "source": "X：Boris Cherny (@bcherny)",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:25:49+00:00",
-      "source_count": 2,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 10
-    },
-    {
-      "title": "I made a visual workspace for AI Automations",
-      "url": "https://www.biom.dev",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-28T17:53:14+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
-    },
-    {
-      "title": "Launch HN: Vespper (YC F24) – SOTA Docx MCP",
-      "url": "https://www.vespper.com/blog/launching-vespper-docx-mcp",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-28T17:34:36+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
-    },
-    {
-      "title": "问题不在于人工智能代码，而在于现在谁都一无所知了",
-      "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore",
-      "source": "www.ssp.sh",
-      "site_id": "buzzing",
-      "published_at": "2026-09-28T16:54:11.097000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 8
     }
   ]
 }

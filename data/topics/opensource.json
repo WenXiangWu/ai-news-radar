@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:47:54.633872+00:00",
+  "generated_at": "2026-09-29T21:15:51.697803+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
@@ -7,16 +7,33 @@
   "total_items": 4,
   "items": [
     {
-      "title": "NVIDIA Kumo Tabular 为表格预测设定了新的精度-效率前沿",
+      "title": "Hugging Face CEO 称被 NVIDIA 收购后可招募人才并用十年推动开源 AI 取胜",
+      "url": "https://x.com/ClementDelangue/status/2104960836796342729",
+      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+      "site_id": "aihot",
+      "published_at": "2026-09-29T15:45:46+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": false,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "NVIDIA 发布开源表格基础模型 Kumo Tabular，在 TabArena 等四项基准排名第一",
       "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-09-29T15:30:38+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
-        "opensource"
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -28,7 +45,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-29T13:07:00+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "mcp",
@@ -38,32 +55,16 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
+      "title": "We found 24 Android vulnerabilities using our open source AI security agent",
       "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
-      "source": "GitHub Blog",
-      "site_id": "aihot",
+      "source": "Hacker News",
+      "site_id": "techurls",
       "published_at": "2026-09-29T00:55:47+00:00",
-      "source_count": 2,
-      "score": 74,
+      "source_count": 1,
+      "score": 48,
       "official": true,
       "topics": [
         "agent",
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Europe and UAE plan $1 billion orbital data center with 50 connected \"computers\" and a central \"LLM store\" that allows users to select what open source model to use on data collected by satellite sensors",
-      "url": "https://www.techradar.com/pro/europe-and-uae-plan-usd1-billion-orbital-data-center-with-50-connected-computers-and-a-central-llm-store-that-allows-users-to-select-what-open-source-model-to-use-on-data-collected-by-satellite-sensors",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-09-28T19:15:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "opensource"
       ],
       "reason": "",
