@@ -1,11 +1,125 @@
 {
-  "generated_at": "2026-09-29T02:24:14.083086+00:00",
+  "generated_at": "2026-09-29T09:01:11.621620+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 32,
+  "total_items": 39,
   "items": [
+    {
+      "title": "Meta AI 智能体 Muse 擅自泄露用户住址并约买家上门，当事人全程不知情",
+      "url": "https://www.aibase.com/news/31405",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-29T08:25:17.723477+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Meta 智能体 Muse 翻车：没经本人同意就报住址，把买家骗到家门口",
+      "url": "https://www.aibase.com/news/31400",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-29T08:25:17.723477+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "xAI推出Team Bots：能跟团队一起学、一起干的Grok智能体， 24 小时帮保险公司挽回 12 万美元",
+      "url": "https://www.aibase.com/news/31414",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-29T08:25:17.723477+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "英伟达发布 AI 智能体安全工具 OpenShell，称可阻止 Hugging Face 入侵事件重演",
+      "url": "https://www.aibase.com/news/31409",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-09-29T08:25:17.723477+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Folks on X are so fickle about “omg openai is getting mogged by Claude 5.5” or just a few months ago “anthropic is so cooked by codex.” I’m just glad there are 2 (and soon more) competitors pushing the frontier so we...",
+      "url": "https://x.com/petergyang/status/2104809410040336784",
+      "source": "Follow Builders · X · Peter Yang",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-29T05:44:03+00:00",
+      "source_count": 1,
+      "score": 70,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Fable Decides, Opus and Sonnet Do the Work: How I Route Claude Code Subagents",
+      "url": "https://www.practicalsystems.io/blog/fable-opus-sonnet-claude-code-subagent-routing",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-29T05:42:53+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
+      "url": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-09-29T02:36:23+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "蝴蝶效应发布 Manus2.0:成本降三成 Agent还能组队打工",
       "url": "https://www.aibase.com/news/31399",
@@ -13,7 +127,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-29T01:54:26.216175+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -30,7 +144,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-29T01:48:18+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 84,
       "official": true,
       "topics": [
         "anthropic",
@@ -46,10 +160,27 @@
       "site_id": "aihot",
       "published_at": "2026-09-29T00:58:38+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 77,
       "official": false,
       "topics": [
         "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
+      "source": "GitHub Blog",
+      "site_id": "aihot",
+      "published_at": "2026-09-29T00:55:47+00:00",
+      "source_count": 2,
+      "score": 76,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
         "industry"
       ],
       "reason": "",
@@ -62,7 +193,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T23:21:48+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 76,
       "official": false,
       "topics": [
         "openai",
@@ -79,7 +210,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-28T22:05:46+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -94,7 +225,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T21:57:24.773732+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -111,7 +242,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-09-28T21:57:24.773732+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 54,
       "official": false,
       "topics": [
         "agent",
@@ -127,7 +258,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T20:44:16+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -138,13 +269,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Manus debuts Manus 2.0, its latest AI agent, and Cue, a new standalone app for personal agents, each with its own email, phone number, wallet, and computer (Micah Barkley/Bloomberg)",
-      "url": "https://www.techmeme.com/260928/p33",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-28T19:00:01+00:00",
+      "title": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content. Across the board we saw...",
+      "url": "https://x.com/levie/status/2104648654074343480",
+      "source": "Follow Builders · X · Aaron Levie",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-28T19:05:16+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -153,21 +284,19 @@
       "label": "值得关注"
     },
     {
-      "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
-      "source": "GitHub Blog",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T19:00:00+00:00",
+      "title": "Manus debuts Manus 2.0, its latest AI agent, and Cue, a new standalone app for personal agents, each with its own email, phone number, wallet, and computer (Micah Barkley/Bloomberg)",
+      "url": "https://www.techmeme.com/260928/p33",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-09-28T19:00:01+00:00",
       "source_count": 1,
-      "score": 75,
-      "official": true,
+      "score": 49,
+      "official": false,
       "topics": [
-        "agent",
-        "opensource",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "OpenAI’s AI agents need to catch up",
@@ -176,7 +305,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-28T18:45:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": true,
       "topics": [
         "openai",
@@ -192,7 +321,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T18:30:55+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -203,13 +332,29 @@
       "label": "行业动态"
     },
     {
+      "title": "Sonnet 5.5 is here! In Claude Code, users get ~30% more tasks done compared to Sonnet 5. It's smarter, so it needs fewer tokens for the same work. Here it rakes a yard of leaves using tool calls. 24s faster than Sonne...",
+      "url": "https://x.com/_catwu/status/2104639552170377399",
+      "source": "Follow Builders · X · Cat Wu",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-28T18:29:06+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Claude Sonnet 5.5 发布，作者演示其修复 Claude Code 中的 bug",
       "url": "https://x.com/bcherny/status/2104638725317923228",
       "source": "X：Boris Cherny (@bcherny)",
       "site_id": "aihot",
       "published_at": "2026-09-28T18:25:49+00:00",
-      "source_count": 1,
-      "score": 75,
+      "source_count": 2,
+      "score": 76,
       "official": false,
       "topics": [
         "anthropic",
@@ -227,7 +372,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T18:02:16+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
@@ -244,7 +389,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-28T18:02:03+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -261,7 +406,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-28T18:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "agent"
@@ -276,7 +421,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-28T17:50:28+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -291,7 +436,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T17:04:09+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -308,7 +453,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T17:00:36+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -325,7 +470,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-28T16:58:32+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "agent"
@@ -340,7 +485,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T16:43:18+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -351,13 +496,28 @@
       "label": "行业动态"
     },
     {
+      "title": "it's basically impossible for someone to just \"show you their prompt\" now, because everything is about references, skills and examples I often ask my agent to look at 3 other repos I've made first, search the web for...",
+      "url": "https://x.com/trq212/status/2104608785696440510",
+      "source": "Follow Builders · X · Thariq",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-28T16:26:50+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "An OpenAI agent security executive discusses the Hugging Face incident, OpenAI's response, sandboxing improvements, alignment, \"reasonable paranoia\", and more (Joe/@joedaroo)",
       "url": "https://www.techmeme.com/260928/p25",
       "source": "Techmeme",
       "site_id": "techurls",
       "published_at": "2026-09-28T14:25:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -373,7 +533,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-28T14:17:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -388,7 +548,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-28T13:38:48+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "agent",
@@ -404,7 +564,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-28T12:53:05+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
@@ -420,7 +580,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-28T09:44:05+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "agent",
@@ -437,7 +597,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T09:33:59+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -454,7 +614,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-09-28T09:00:00+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "agent",
@@ -469,53 +629,6 @@
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
       "published_at": "2026-09-28T08:56:55+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "​OpenAI 惊现自我复制代码漏洞，多国政务系统遭 Agent 强行越界",
-      "url": "https://www.aibase.com/news/31367",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-28T06:49:26.101253+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Agent Sandbox 怎么选",
-      "url": "https://juejin.cn/post/7689051019112857654",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-09-28T06:32:57.105000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Quoting Muse AI Agent",
-      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-09-28T04:01:30+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,

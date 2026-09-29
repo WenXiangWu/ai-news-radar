@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T02:24:14.083086+00:00",
+  "generated_at": "2026-09-29T09:01:11.621620+00:00",
   "today": "2026-09-29",
-  "lead": "Claude Code’s Next Era — Thariq Shihipar, Anthropic；OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施；Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
+  "lead": "v0.31.0rc1: [CI/Build] Skip the snapshot runtime on CUDA 12.x images (#59118)；[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more；Claude Code’s Next Era — Thariq Shihipar, Anthropic",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,14 +11,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-29T01:44:58.671000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 65
     },
     {
       "title": "OpenAI 上线对齐报告站，披露沙盒逃逸与自复制提示注入等九起失控事件",
@@ -27,14 +27,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-28T23:56:18.714000+00:00",
       "source_count": 3,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 98
+      "hot_score": 56
     },
     {
       "title": "参见：Cloudflare API 的 Agentic 命令行界面",
@@ -43,12 +43,12 @@
       "site_id": "buzzing",
       "published_at": "2026-09-28T23:25:23.290000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 94
+      "hot_score": 54
     },
     {
       "title": "MicroLLM Lab – 在浏览器中体验 7 款微型大型语言模型",
@@ -57,26 +57,28 @@
       "site_id": "buzzing",
       "published_at": "2026-09-28T23:10:12.942000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 92
+      "hot_score": 53
     },
     {
-      "title": "是时候对人工智能实验室展开调查了",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs",
-      "source": "calnewport.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-28T22:08:11.961000+00:00",
-      "source_count": 3,
-      "score": 56,
+      "title": "OpenAI: Tomorrow we are re-opening the Pro $200 subscription",
+      "url": "https://twitter.com/thsottiaux/status/2104823812042940713",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-09-29T07:07:53+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": false,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 84
+      "label": "值得关注",
+      "hot_score": 51
     }
   ],
   "topics": [
@@ -92,14 +94,14 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 39
+      "count": 40
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 9
+      "count": 8
     },
     {
       "slug": "deepseek",
@@ -113,21 +115,21 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 4
+      "count": 2
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 32
+      "count": 39
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 7
     },
     {
       "slug": "mcp",
@@ -141,21 +143,21 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 34
+      "count": 35
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "industry",
