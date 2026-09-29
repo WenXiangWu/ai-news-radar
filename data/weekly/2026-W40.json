@@ -60,6 +60,22 @@
       "label": "官方更新"
     },
     {
+      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+      "url": "https://www.latent.space/p/thariq",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T01:48:18+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "langgraph-cli==0.4.32.dev0",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
       "source": "LangGraph Releases",
@@ -123,33 +139,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-09-28T18:28:19.833000+00:00",
-      "source_count": 3,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Claude Sonnet 5.5 in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
-      "source": "GitHub Changelog",
+      "title": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-28T18:03:57+00:00",
+      "published_at": "2026-09-29T01:00:00+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "anthropic",
-        "coding"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -200,29 +199,65 @@
       "label": "官方更新"
     },
     {
-      "title": "Self-hosted runner version enforcement date has moved",
-      "url": "https://github.blog/changelog/2026-09-28-self-hosted-runner-version-enforcement-date-has-moved",
-      "source": "GitHub Changelog",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-28T19:22:46+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-28T19:00:00+00:00",
+      "published_at": "2026-09-28T22:07:38+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "google"
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-09-28T18:28:19.833000+00:00",
+      "source_count": 3,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Claude Sonnet 5.5 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T18:03:57+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.157.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-26T00:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -273,18 +308,29 @@
       "label": "官方更新"
     },
     {
-      "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
-      "url": "https://huggingface.co/blog/Hcompany/holo4",
-      "source": "Hugging Face Blog",
+      "title": "Self-hosted runner version enforcement date has moved",
+      "url": "https://github.blog/changelog/2026-09-28-self-hosted-runner-version-enforcement-date-has-moved",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-28T09:44:05+00:00",
+      "published_at": "2026-09-28T19:22:46+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-28T19:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "agent",
-        "opensource",
-        "launch"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -423,62 +469,32 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
-      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
-      "source": "NVIDIA Developer Blog",
+      "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-28T08:56:55+00:00",
+      "published_at": "2026-09-28T09:44:05+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "agent"
+        "agent",
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Add Runtime Controls to AI Agents with NVIDIA OpenShell",
-      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
-      "source": "NVIDIA Developer Blog",
+      "title": "2026 年LLM（至今）",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-09-28T08:55:00+00:00",
+      "published_at": "2026-09-27T23:54:15+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-28T07:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Codex CLI 0.158.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -593,23 +609,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "**了解谁在何时说话：使用 NVIDIA Nemotron 3 Diarization 构建实时多说话者 AI**",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-23T13:17:01+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-28T22:23:13.354813+00:00",
+  "generated_at": "2026-09-29T02:24:14.083086+00:00",
   "period": "2026-W40"
 }
