@@ -35,19 +35,15 @@
   "total_items": 40,
   "items": [
     {
-      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
-      "url": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "site_id": "aihot",
-      "published_at": "2026-09-29T17:36:13.593000+00:00",
-      "source_count": 4,
-      "score": 89,
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T18:27:48+00:00",
+      "source_count": 5,
+      "score": 91,
       "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -114,6 +110,23 @@
       "label": "官方更新"
     },
     {
+      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
+      "url": "https://openai.com/index/introducing-dots",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "site_id": "aihot",
+      "published_at": "2026-09-29T17:36:13.593000+00:00",
+      "source_count": 4,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
       "source": "Google DeepMind",
@@ -162,32 +175,17 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
-      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-      "source": "Latent Space",
+      "title": "获取正确的源代码，而不仅仅是事实：MCP 代理的源感知验证",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-30T05:53:10+00:00",
+      "published_at": "2026-09-29T13:07:00+00:00",
       "source_count": 1,
       "score": 86,
       "official": true,
       "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T17:20:30.075000+00:00",
-      "source_count": 3,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
+        "mcp",
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -334,15 +332,17 @@
       "label": "官方更新"
     },
     {
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129",
-      "source": "Simon Willison",
+      "title": "proto-v0.4.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T18:27:48+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-30T12:52:24+00:00",
+      "source_count": 1,
       "score": 85,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -530,16 +530,16 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.31.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2",
-      "source": "vLLM Releases",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-30T00:33:58+00:00",
+      "published_at": "2026-09-30T05:53:10+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -650,6 +650,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-30T07:20:49.863388+00:00",
+  "generated_at": "2026-09-30T14:30:31.157120+00:00",
   "period": "2026-09"
 }
