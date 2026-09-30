@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-09-30T20:03:36.868435+00:00",
+  "generated_at": "2026-09-30T23:51:13.078307+00:00",
   "today": "2026-10-01",
-  "lead": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK；GitHub Advanced Security trials for GitHub Team；Tracing Agent Harness Behavior with NVIDIA NeMo Relay",
+  "lead": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week；Opt-in dist-tag permissions for npm trusted publishing；Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "Launch HN: Magnitude (YC S25) – 面向智能体的自优化推理引擎",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-30T22:11:06.205000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "Pi.dev：你说过不搞MCP",
       "url": "https://earendil.com/posts/you-said-no-mcp",
@@ -11,14 +27,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-30T11:24:17.398000+00:00",
       "source_count": 5,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "mcp"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 85
     },
     {
       "title": "Show HN: Strata – an expressive semantic layer that can say no to your LLM",
@@ -27,54 +43,44 @@
       "site_id": "techurls",
       "published_at": "2026-09-30T14:59:57+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 79
+      "hot_score": 57
     },
     {
-      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
-      "url": "https://github.com/magnitudedev/magnitude",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-09-30T17:37:40+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 49
-    },
-    {
-      "title": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T17:15:49+00:00",
-      "source_count": 2,
-      "score": 61,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
-    },
-    {
-      "title": "Bild AI (YC W25) 正在招聘一名创始产品工程师",
-      "url": "https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer",
+      "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/gemini-4-argon",
       "source": "Hacker News",
       "site_id": "techurls",
-      "published_at": "2026-09-30T17:00:20+00:00",
+      "published_at": "2026-09-30T20:50:28+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
-      "topics": [],
+      "topics": [
+        "google"
+      ],
       "reason": "",
       "label": "值得关注",
       "hot_score": 47
+    },
+    {
+      "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
+      "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-30T20:41:41+00:00",
+      "source_count": 2,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 46
     }
   ],
   "topics": [
@@ -90,14 +96,14 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 27
+      "count": 21
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 8
+      "count": 21
     },
     {
       "slug": "deepseek",
@@ -118,14 +124,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 21
+      "count": 24
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "mcp",
@@ -153,7 +159,7 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 0
+      "count": 2
     },
     {
       "slug": "industry",
