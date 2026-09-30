@@ -1,23 +1,41 @@
 {
-  "generated_at": "2026-09-29T21:15:51.697803+00:00",
+  "generated_at": "2026-09-30T00:59:50.688686+00:00",
   "window_hours": 24,
-  "total_items": 14,
+  "total_items": 16,
   "items": [
     {
-      "title": "圆点",
+      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
       "url": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "site_id": "aihot",
       "published_at": "2026-09-29T17:36:13.593000+00:00",
       "source_count": 4,
-      "score": 88,
+      "score": 90,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 100
+      "hot_score": 97
+    },
+    {
+      "title": "人工智能需要6万亿美元的年收入，才能支撑数据中心的蓬勃发展",
+      "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres",
+      "source": "www.thenationalnews.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-29T20:43:58.739000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 84
     },
     {
       "title": "DraftKings 正利用人工智能针对长期赌徒进行行为定向营销",
@@ -26,15 +44,15 @@
       "site_id": "buzzing",
       "published_at": "2026-09-29T17:36:13.589000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 88
+      "hot_score": 65
     },
     {
-      "title": "Introducing GPT-6.1 Sol",
+      "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "source": "OpenAI News",
       "site_id": "official_ai",
@@ -43,11 +61,12 @@
       "score": 88,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 87
+      "hot_score": 63
     },
     {
       "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
@@ -56,14 +75,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-29T11:32:02.125000+00:00",
       "source_count": 4,
-      "score": 83,
+      "score": 82,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 80
+      "hot_score": 59
     },
     {
       "title": "不出所料，Meta的新款Muse AI智能助手公然无视用户的权限设置",
@@ -72,14 +91,74 @@
       "site_id": "buzzing",
       "published_at": "2026-09-29T15:46:20.708000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 76
+      "hot_score": 56
+    },
+    {
+      "title": "OpenAI launches always-on Dots agents to rival Meta's Muse",
+      "url": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-09-29T22:45:10+00:00",
+      "source_count": 2,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "Elon Musk&#8217;s AI-powered Grokipedia is updating again",
+      "url": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-09-29T21:49:09+00:00",
+      "source_count": 2,
+      "score": 62,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 46
+    },
+    {
+      "title": "GLM-5.3 与先进网络能力的扩散",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-29T21:30:27.650000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 45
+    },
+    {
+      "title": "McDonald's Is Reportedly Using AI To \"Dynamically\" Price Its Burgers",
+      "url": "https://www.reddit.com/r/technology/comments/1wtm5mp/mcdonalds_is_reportedly_using_ai_to_dynamically",
+      "source": "Reddit (热门)",
+      "site_id": "iris",
+      "published_at": "2026-09-29T21:06:04+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 43
     },
     {
       "title": "Show HN: TurboGPT: train 22KiB transformer in 13s",
@@ -88,28 +167,26 @@
       "site_id": "iris",
       "published_at": "2026-09-29T19:20:02+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 37
     },
     {
-      "title": "AI needs $6T in annual revenue to justify data centre boom",
-      "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-29T19:21:25+00:00",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T18:27:48+00:00",
       "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
+      "score": 86,
+      "official": true,
+      "topics": [],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
+      "label": "官方更新",
+      "hot_score": 35
     },
     {
       "title": "克劳德部分服务中断",
@@ -118,14 +195,14 @@
       "site_id": "buzzing",
       "published_at": "2026-09-29T15:29:57.375000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 37
+      "hot_score": 27
     },
     {
       "title": "Meta 的 Muse AI 将 YouTuber 的地址发送给陌生人",
@@ -134,45 +211,12 @@
       "site_id": "curated_media",
       "published_at": "2026-09-29T14:08:21+00:00",
       "source_count": 2,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 33
-    },
-    {
-      "title": "Anthropic的IPO招股说明书展现了AI愿景，成本激增",
-      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28",
-      "source": "www.reuters.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-29T09:09:00.830000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 22
-    },
-    {
-      "title": "OpenAI 表示不会发布最新的人工智能模型高于安全问题",
-      "url": "https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-29T00:34:27+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 21
+      "hot_score": 24
     },
     {
       "title": "OpenAI：明天我们将重新开放 Pro 200 美元订阅",
@@ -188,40 +232,23 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 18
+      "hot_score": 14
     },
     {
-      "title": "出于安全考虑，OpenAI 放弃推出新模型",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "site_id": "techurls",
-      "published_at": "2026-09-29T01:18:24+00:00",
+      "title": "出于安全考虑，OpenAI 放弃发布新的人工智能模型",
+      "url": "https://www.cbc.ca/news/world/openai-scraps-planned-release-gpt-6-1-astra-9.7361910",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-09-29T03:19:47+00:00",
       "source_count": 2,
       "score": 50,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 11
-    },
-    {
-      "title": "Codex CLI 0.159.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T00:00:00+00:00",
-      "source_count": 2,
-      "score": 84,
       "official": true,
       "topics": [
         "openai",
-        "agent",
-        "coding"
+        "launch"
       ],
       "reason": "",
-      "label": "官方更新",
+      "label": "值得关注",
       "hot_score": 10
     }
   ]

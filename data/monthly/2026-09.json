@@ -35,6 +35,23 @@
   "total_items": 40,
   "items": [
     {
+      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
+      "url": "https://openai.com/index/introducing-dots",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "site_id": "aihot",
+      "published_at": "2026-09-29T17:36:13.593000+00:00",
+      "source_count": 4,
+      "score": 90,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Claude 协作和聊天现已合而为一 Claude",
       "url": "https://simonwillison.net/2026/Sep/16/one-claude",
       "source": "Simon Willison",
@@ -50,22 +67,7 @@
       "label": "官方更新"
     },
     {
-      "title": "圆点",
-      "url": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T17:36:13.593000+00:00",
-      "source_count": 4,
-      "score": 88,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Introducing GPT-6.1 Sol",
+      "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "source": "OpenAI News",
       "site_id": "official_ai",
@@ -74,7 +76,8 @@
       "score": 88,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -171,6 +174,19 @@
         "anthropic",
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T18:27:48+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -310,67 +326,6 @@
       "score": 86,
       "official": true,
       "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Diffusion Controller unifies and simplifies AI image generation",
-      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T18:38:27+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Sol in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T17:02:27+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA 发布开源表格基础模型 Kumo Tabular，在 TabArena 等四项基准排名第一",
-      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T15:30:38+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "获取正确的源代码，而不仅仅是事实：MCP 代理的源感知验证",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T13:07:00+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "mcp",
         "opensource"
       ],
       "reason": "",
@@ -560,11 +515,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Repository custom runner settings for Dependabot",
-      "url": "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot",
-      "source": "GitHub Changelog",
+      "title": "Why content extraction still matters in the GenAI era",
+      "url": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era",
+      "source": "Azure AI Foundry Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T19:10:00+00:00",
+      "published_at": "2026-09-29T21:30:42+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -586,6 +541,19 @@
       "label": "官方更新"
     },
     {
+      "title": "How Diffusion Controller unifies and simplifies AI image generation",
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T18:38:27+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
       "url": "https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3",
       "source": "NVIDIA Developer Blog",
@@ -599,27 +567,60 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog",
-      "source": "Simon Willison",
+      "title": "GPT-6.1 Sol in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T15:55:13+00:00",
+      "published_at": "2026-09-29T17:02:27+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Codex CLI 0.159.0",
+      "title": "NVIDIA 发布开源表格基础模型 Kumo Tabular，在 TabArena 等四项基准排名第一",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T15:30:38+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "获取正确的源代码，而不仅仅是事实：MCP 代理的源感知验证",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T13:07:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "mcp",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.157.1",
       "url": "https://developers.openai.com/codex/changelog",
       "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T00:00:00+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-26T00:00:00+00:00",
+      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
@@ -646,6 +647,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-29T21:15:51.697803+00:00",
+  "generated_at": "2026-09-30T00:59:50.688686+00:00",
   "period": "2026-09"
 }

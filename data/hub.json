@@ -1,24 +1,42 @@
 {
-  "generated_at": "2026-09-29T21:15:51.697803+00:00",
+  "generated_at": "2026-09-30T00:59:50.688686+00:00",
   "today": "2026-09-30",
-  "lead": "圆点；Introducing GPT-6.1 Sol；How Diffusion Controller unifies and simplifies AI image generation",
+  "lead": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动；OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能；GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "圆点",
+      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
       "url": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "site_id": "aihot",
       "published_at": "2026-09-29T17:36:13.593000+00:00",
       "source_count": 4,
-      "score": 88,
+      "score": 90,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 100
+      "hot_score": 97
+    },
+    {
+      "title": "人工智能需要6万亿美元的年收入，才能支撑数据中心的蓬勃发展",
+      "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres",
+      "source": "www.thenationalnews.com",
+      "site_id": "buzzing",
+      "published_at": "2026-09-29T20:43:58.739000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 84
     },
     {
       "title": "DraftKings 正利用人工智能针对长期赌徒进行行为定向营销",
@@ -27,15 +45,15 @@
       "site_id": "buzzing",
       "published_at": "2026-09-29T17:36:13.589000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 88
+      "hot_score": 65
     },
     {
-      "title": "Introducing GPT-6.1 Sol",
+      "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "source": "OpenAI News",
       "site_id": "official_ai",
@@ -44,11 +62,12 @@
       "score": 88,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 87
+      "hot_score": 63
     },
     {
       "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
@@ -57,30 +76,14 @@
       "site_id": "aihot",
       "published_at": "2026-09-29T11:32:02.125000+00:00",
       "source_count": 4,
-      "score": 83,
+      "score": 82,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 80
-    },
-    {
-      "title": "不出所料，Meta的新款Muse AI智能助手公然无视用户的权限设置",
-      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
-      "source": "appleinsider.com",
-      "site_id": "buzzing",
-      "published_at": "2026-09-29T15:46:20.708000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 76
+      "hot_score": 59
     }
   ],
   "topics": [
@@ -103,7 +106,7 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "deepseek",
@@ -152,14 +155,14 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 22
+      "count": 26
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 1
     },
     {
       "slug": "industry",

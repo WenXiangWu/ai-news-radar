@@ -12,22 +12,24 @@
   "total_items": 40,
   "items": [
     {
-      "title": "圆点",
+      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
       "url": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "site_id": "aihot",
       "published_at": "2026-09-29T17:36:13.593000+00:00",
       "source_count": 4,
-      "score": 88,
+      "score": 90,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Introducing GPT-6.1 Sol",
+      "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "source": "OpenAI News",
       "site_id": "official_ai",
@@ -36,7 +38,8 @@
       "score": 88,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -54,6 +57,19 @@
         "google",
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T18:27:48+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -99,67 +115,6 @@
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Diffusion Controller unifies and simplifies AI image generation",
-      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T18:38:27+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Sol in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T17:02:27+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA 发布开源表格基础模型 Kumo Tabular，在 TabArena 等四项基准排名第一",
-      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T15:30:38+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "获取正确的源代码，而不仅仅是事实：MCP 代理的源感知验证",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T13:07:00+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "mcp",
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -227,11 +182,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Repository custom runner settings for Dependabot",
-      "url": "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot",
-      "source": "GitHub Changelog",
+      "title": "Why content extraction still matters in the GenAI era",
+      "url": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era",
+      "source": "Azure AI Foundry Blog",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T19:10:00+00:00",
+      "published_at": "2026-09-29T21:30:42+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -253,6 +208,19 @@
       "label": "官方更新"
     },
     {
+      "title": "How Diffusion Controller unifies and simplifies AI image generation",
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T18:38:27+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
       "url": "https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3",
       "source": "NVIDIA Developer Blog",
@@ -266,27 +234,60 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog",
-      "source": "Simon Willison",
+      "title": "GPT-6.1 Sol in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T15:55:13+00:00",
+      "published_at": "2026-09-29T17:02:27+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Codex CLI 0.159.0",
+      "title": "NVIDIA 发布开源表格基础模型 Kumo Tabular，在 TabArena 等四项基准排名第一",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T15:30:38+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "获取正确的源代码，而不仅仅是事实：MCP 代理的源感知验证",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T13:07:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "mcp",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.157.1",
       "url": "https://developers.openai.com/codex/changelog",
       "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T00:00:00+00:00",
-      "source_count": 2,
+      "published_at": "2026-09-26T00:00:00+00:00",
+      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
@@ -313,18 +314,29 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "source": "OpenAI News",
+      "title": "Repository custom runner settings for Dependabot",
+      "url": "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T10:00:00+00:00",
+      "published_at": "2026-09-29T19:10:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI DevDay 2026 live blog",
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T15:55:13+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -452,62 +464,33 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI 发布 GPT-6.1 Sol，强化智能体编码与 computer use",
-      "url": "https://x.com/OpenAIDevs/status/2104993035507712318",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "site_id": "aihot",
-      "published_at": "2026-09-29T17:53:43+00:00",
+      "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-29T10:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
         "openai",
         "agent",
-        "coding",
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "v0.31.0rc1：[CI/Build] 跳过 CUDA 12.x 映像上的快照运行时 (#59118)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1",
-      "source": "vLLM Releases",
+      "title": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-09-29T03:18:39+00:00",
+      "published_at": "2026-09-29T01:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] AMD 以 $8.2B 收购 World Labs，Atlas 解决了机器人、设计等领域的稀疏重建问题",
-      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T02:55:27+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude·科德的下一个时代——Thariq Shihipar，Anthropic",
-      "url": "https://www.latent.space/p/thariq",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T01:48:18+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -608,8 +591,21 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Node 20 is no longer available in GitHub Actions",
+      "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-23T20:46:07+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-29T21:15:51.697803+00:00",
+  "generated_at": "2026-09-30T00:59:50.688686+00:00",
   "period": "2026-W40"
 }
