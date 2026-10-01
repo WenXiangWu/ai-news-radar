@@ -1,19 +1,99 @@
 {
-  "generated_at": "2026-10-01T16:48:09.538604+00:00",
+  "generated_at": "2026-10-01T21:54:58.388266+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 21,
+  "total_items": 22,
   "items": [
     {
-      "title": "美国联邦贸易委员会（FTC）正在就产品风险问题对OpenAI、Anthropic及其他人工智能公司展开调查",
-      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-      "source": "www.cnbc.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-01T15:42:33.319000+00:00",
-      "source_count": 3,
-      "score": 57,
+      "title": "Etymon – Get rid of all your Claude.md, AGENTS.md, cursor/rules, mcp.json, etc.",
+      "url": "https://github.com/landoncrabtree/etymon",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-01T19:35:49+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding",
+        "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic urges Australia to consider \"conditional approval\" for Big Tech to train models on copyrighted works, giving copyright holders a choice to opt out (Josh Butler/The Guardian)",
+      "url": "https://www.techmeme.com/261001/p35",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T19:25:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.287",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-01T18:43:19+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Code 推出 mods 功能，可用 TypeScript 定制行为与 UI",
+      "url": "https://x.com/ClaudeDevs/status/2105721434807083061",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T18:08:07+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Sources: Anthropic could start formal marketing for its IPO as soon as the week of November 9, putting it in line to begin trading before Thanksgiving (Bailey Lipschultz/Bloomberg)",
+      "url": "https://www.techmeme.com/261001/p31",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T17:37:27+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "FTC Is Investigating OpenAI, Anthropic and Other AI Companies Over Product Risks",
+      "url": "https://yro.slashdot.org/story/26/10/01/1720206/ftc-is-investigating-openai-anthropic-and-other-ai-companies-over-product-risks",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T17:22:00+00:00",
+      "source_count": 4,
+      "score": 58,
       "official": true,
       "topics": [
         "openai",
@@ -23,13 +103,60 @@
       "label": "多源热议"
     },
     {
-      "title": "Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
+      "title": "Claude Sonnet 5.5 (xHigh) 以 1786 分登 Code Arena: WebDev 第 3 名",
+      "url": "https://x.com/arena/status/2105702037849841954",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T16:51:02+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "特朗普告诉《时代》杂志，美国可能会入股 OpenAI 和 Anthropic",
+      "url": "https://thenextweb.com/news/trump-time-interview-stake-openai-anthropic",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T16:06:55+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Sources: Anthropic has taken the unusual step of ending customers' discounts, which typically reach ~15%, once they hit the usage limits, forcing renegotiations (Kevin McLaughlin/The Information)",
+      "url": "https://www.techmeme.com/261001/p26",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T16:00:13+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "随着与五角大楼的斗争持续不断，Anthropic 将Claude带到了民事机构",
       "url": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-10-01T14:26:54+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -38,13 +165,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI’s 2017 plan to auction AGI to China and Russia, per The Atlantic",
+      "title": "据《大西洋月刊》报道，OpenAI 2017 年计划将 AGI 拍卖给中国和俄罗斯",
       "url": "https://thenextweb.com/news/openai-agi-auction-countries-plan-amodei-anthropic-atlantic",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-10-01T13:40:47+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -60,7 +187,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T13:20:03+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -69,13 +196,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Do you guys also still use Claude Code's plan mode?",
+      "title": "你们还用Claude Code的计划模式吗？",
       "url": "https://news.ycombinator.com/item?id=49920876",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-01T12:42:55+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -85,13 +212,30 @@
       "label": "值得关注"
     },
     {
-      "title": "Codex Users Are Fleeing to Claude Code",
+      "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
+      "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
+      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T12:00:00+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Codex 用户正在转向 Claude Code",
       "url": "https://www.vincentschmalbach.com/codex-users-are-fleeing-to-claude-code",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-01T10:38:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -108,7 +252,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-01T08:51:38.058283+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic"
@@ -123,7 +267,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T07:13:50+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -140,7 +284,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T06:30:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -155,7 +299,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T06:10:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -165,13 +309,13 @@
       "label": "值得关注"
     },
     {
-      "title": "FTC opens probe of Anthropic, OpenAI",
+      "title": "FTC 对 Anthropic 和 OpenAI 展开调查",
       "url": "https://nypost.com/2026/09/30/us-news/ftc-opens-sweeping-probe-of-anthropic-openai-and-other-super-intelligence-models",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-01T05:42:45+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -187,7 +331,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-30T23:00:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -205,138 +349,12 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T22:06:30+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai",
         "anthropic",
         "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的 IPO 招股说明书真是太疯狂了",
-      "url": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
-      "source": "Daring Fireball",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T19:23:42+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.286",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T19:10:13+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "旧金山注册：https://t.co/B6aqG8jBo7 斯德哥尔摩注册：https://t.co/FtLED2aeoo",
-      "url": "https://x.com/claudeai/status/2105370681613672773",
-      "source": "Follow Builders · X · Claude",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-30T18:54:21+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Founder House is coming to SF Tech Week (Oct 6–8) and Stockholm (Oct 14). Come for talks, workshops, and office hours with our team, plus time to meet others building with Claude. Whether you're a founder, a CE...",
-      "url": "https://x.com/claudeai/status/2105370680485417401",
-      "source": "Follow Builders · X · Claude",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-30T18:54:20+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌放弃了 Gems for Skills，加入 OpenAI 和 Anthropic 的行列，转向代理就绪的提示格式",
-      "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T18:16:04+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Says",
-      "url": "https://ohhfishal.net/Posts/claude",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-30T17:32:06+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "FTC 对 Anthropic 和 OpenAI 等人工智能巨头展开调查",
-      "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-09-30T16:59:37+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "迈克尔·伯里 (Michael Burry) 表示，如果市场崩溃阻止 OpenAI 和 Anthropic 上市，这将是为了“人类的利益”",
-      "url": "https://www.businessinsider.com/michael-burry-warns-against-openai-anthropic-going-public-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T16:47:30+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"

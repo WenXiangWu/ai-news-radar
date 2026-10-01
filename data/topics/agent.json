@@ -1,35 +1,19 @@
 {
-  "generated_at": "2026-10-01T16:48:09.538604+00:00",
+  "generated_at": "2026-10-01T21:54:58.388266+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 15,
+  "total_items": 18,
   "items": [
     {
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-01T14:36:50+00:00",
+      "title": "Trump’s ‘Morally Binding’ AI ‘Accord,’ the Rise of AI Agents, and Extremists on the Ballot",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-trumps-pinky-swear-ai-safety-accord-an-ai-agent-worth-the-risk",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-01T19:58:31+00:00",
       "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "If an AI agent is attesting your controls, who’s attesting the agent?",
-      "url": "https://www.techradar.com/pro/if-an-ai-agent-is-attesting-your-controls-whos-attesting-the-agent",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-01T13:51:03+00:00",
-      "source_count": 1,
-      "score": 51,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -38,13 +22,109 @@
       "label": "值得关注"
     },
     {
-      "title": "Do you guys also still use Claude Code's plan mode?",
+      "title": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
+      "url": "https://x.com/arena/status/2105733983250301224",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T18:57:58+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.287",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-01T18:43:19+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
+      "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-01T18:13:29+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude Code 推出 mods 功能，可用 TypeScript 定制行为与 UI",
+      "url": "https://x.com/ClaudeDevs/status/2105721434807083061",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T18:08:07+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "LangChain 讲解如何在 Agent Harness 中构建模型路由器",
+      "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+      "source": "LangChain：Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T17:01:32+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "如果人工智能代理正在证明您的控制权，那么谁来证明该代理？",
+      "url": "https://www.techradar.com/pro/if-an-ai-agent-is-attesting-your-controls-whos-attesting-the-agent",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T13:51:03+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "你们还用Claude Code的计划模式吗？",
       "url": "https://news.ycombinator.com/item?id=49920876",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-01T12:42:55+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -54,15 +134,16 @@
       "label": "值得关注"
     },
     {
-      "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
-      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
+      "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
+      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
       "site_id": "aihot",
-      "published_at": "2026-10-01T10:54:12+00:00",
+      "published_at": "2026-10-01T12:00:00+00:00",
       "source_count": 1,
       "score": 73,
-      "official": false,
+      "official": true,
       "topics": [
+        "anthropic",
         "agent",
         "industry"
       ],
@@ -70,13 +151,28 @@
       "label": "行业动态"
     },
     {
-      "title": "Codex Users Are Fleeing to Claude Code",
+      "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T10:54:12+00:00",
+      "source_count": 1,
+      "score": 72,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex 用户正在转向 Claude Code",
       "url": "https://www.vincentschmalbach.com/codex-users-are-fleeing-to-claude-code",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-01T10:38:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -93,7 +189,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T06:10:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -109,7 +205,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-01T01:55:02.685000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -124,7 +220,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-01T01:06:15+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "openai",
@@ -135,13 +231,46 @@
       "label": "值得关注"
     },
     {
+      "title": "Codex CLI 0.160.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
       "url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models",
       "source": "OpenRouter：Announcements（RSS）",
       "site_id": "aihot",
       "published_at": "2026-10-01T00:00:00+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Modal 正式发布 VM Sandboxes：给 Agent 一台完整的 Linux 虚拟机",
+      "url": "https://modal.com/blog/vm-sandboxes-agent-computers",
+      "source": "Modal 官方工程博客（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "source_count": 1,
+      "score": 69,
       "official": false,
       "topics": [
         "agent",
@@ -156,94 +285,10 @@
       "source": "github.com",
       "site_id": "buzzing",
       "published_at": "2026-09-30T22:11:06.205000+00:00",
-      "source_count": 3,
-      "score": 53,
+      "source_count": 1,
+      "score": 47,
       "official": true,
       "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
-      "url": "https://x.com/arena/status/2105411271525052418",
-      "source": "X：Arena (@arena)",
-      "site_id": "aihot",
-      "published_at": "2026-09-30T21:35:38+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": false,
-      "topics": [
-        "google",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Codex 定价：Pro 有无限制的 5.6 使用",
-      "url": "https://chatgpt.com/codex/pricing",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T21:13:02+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google cooked on Gemini 4! Now they just need to be more competitive on coding harness (Antigravity) + personal agent (Spark). https://t.co/shCRH678Ow",
-      "url": "https://x.com/petergyang/status/2105393240392585359",
-      "source": "Follow Builders · X · Peter Yang",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-30T20:23:59+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "google",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.286",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T19:10:13+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌放弃了 Gems for Skills，加入 OpenAI 和 Anthropic 的行列，转向代理就绪的提示格式",
-      "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T18:16:04+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
         "agent"
       ],
       "reason": "",
