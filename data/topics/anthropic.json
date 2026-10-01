@@ -1,11 +1,106 @@
 {
-  "generated_at": "2026-10-01T08:52:31.205051+00:00",
+  "generated_at": "2026-10-01T16:48:09.538604+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 24,
+  "total_items": 21,
   "items": [
+    {
+      "title": "美国联邦贸易委员会（FTC）正在就产品风险问题对OpenAI、Anthropic及其他人工智能公司展开调查",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "source": "www.cnbc.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-01T15:42:33.319000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
+      "url": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-01T14:26:54+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI’s 2017 plan to auction AGI to China and Russia, per The Atlantic",
+      "url": "https://thenextweb.com/news/openai-agi-auction-countries-plan-amodei-anthropic-atlantic",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T13:40:47+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "IPO prospectus: Broadcom agreed to lend Anthropic up to $42B via convertible notes that could help finance Anthropic's $125.2B, five-year TPU lease commitment (Reuters)",
+      "url": "https://www.techmeme.com/261001/p21",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T13:20:03+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Do you guys also still use Claude Code's plan mode?",
+      "url": "https://news.ycombinator.com/item?id=49920876",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-01T12:42:55+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex Users Are Fleeing to Claude Code",
+      "url": "https://www.vincentschmalbach.com/codex-users-are-fleeing-to-claude-code",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-01T10:38:02+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Claude Opus 5.5 是怎么做出视频的",
       "url": "https://waytoagi.feishu.cn/wiki/Xz60wH0TMim27qkszjGctYHOnGJ?from=from_copylink",
@@ -13,7 +108,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-01T08:51:38.058283+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
         "anthropic"
@@ -28,7 +123,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T07:13:50+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -45,7 +140,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T06:30:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -60,11 +155,27 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T06:10:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
         "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "FTC opens probe of Anthropic, OpenAI",
+      "url": "https://nypost.com/2026/09/30/us-news/ftc-opens-sweeping-probe-of-anthropic-openai-and-other-super-intelligence-models",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-01T05:42:45+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -76,7 +187,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-30T23:00:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -94,7 +205,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T22:06:30+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
@@ -111,7 +222,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-30T19:23:42+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -126,7 +237,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T19:10:13+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -143,7 +254,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-30T18:54:21+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "anthropic"
@@ -158,7 +269,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-30T18:54:20+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "anthropic"
@@ -173,7 +284,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T18:16:04+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "openai",
@@ -190,7 +301,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-30T17:32:06+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic"
@@ -205,7 +316,7 @@
       "site_id": "zeli",
       "published_at": "2026-09-30T16:59:37+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -221,166 +332,8 @@
       "site_id": "techurls",
       "published_at": "2026-09-30T16:47:30+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "FTC 对 OpenAI、Anthropic 和其他人工智能实验室展开调查",
-      "url": "https://thenextweb.com/news/ftc-probe-openai-anthropic-ai-labs-metr",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T16:24:16+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
-      "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns",
-      "source": "The Decoder：AI News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-09-30T16:20:04+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "F.T.C. Investigates OpenAI and Anthropic Over Potential Consumer Harms",
-      "url": "https://www.nytimes.com/2026/09/30/technology/ftc-openai-anthropic-investigation.html",
-      "source": "New York Times",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T15:58:41+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Arena 开放限时测试 Claude Sonnet 5.5，Direct Mode 可用 48 小时",
-      "url": "https://x.com/arena/status/2105311267619848419",
-      "source": "X：Arena (@arena)",
-      "site_id": "aihot",
-      "published_at": "2026-09-30T14:58:15+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Sources: the US FTC is expanding a sweeping probe of Anthropic, OpenAI, and other frontier AI labs, and plans to issue formal demands to turn over information (New York Post)",
-      "url": "https://www.techmeme.com/260930/p28",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T14:15:01+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ComposioHQ / Claude技能精选",
-      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-09-30T13:40:26.630000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "亏损超80亿、算力承诺546亿:Anthropic招股书揭开大模型顶流的真实账本",
-      "url": "https://www.aibase.com/news/31438",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-30T13:39:48.130721+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "SaaS companies seeing Anthropic’s ARR growth flatline https://t.co/n03y57emMG https://t.co/k0Iz0PxQ4P",
-      "url": "https://x.com/mattturck/status/2105261211906384132",
-      "source": "Follow Builders · X · Matt Turck",
-      "site_id": "followbuilders",
-      "published_at": "2026-09-30T11:39:21+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic says Zhipu's open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits",
-      "url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T11:05:05+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI and Anthropic-aligned super PACs have spent $55.7M on the US midterms so far; of 95 ads, all avoided reference to data centers and only some mentioned AI (New York Times)",
-      "url": "https://www.techmeme.com/260930/p14",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T10:20:10+00:00",
-      "source_count": 1,
       "score": 47,
-      "official": false,
+      "official": true,
       "topics": [
         "openai",
         "anthropic"

@@ -1,11 +1,91 @@
 {
-  "generated_at": "2026-10-01T08:52:31.205051+00:00",
+  "generated_at": "2026-10-01T16:48:09.538604+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 16,
+  "total_items": 15,
   "items": [
+    {
+      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-01T14:36:50+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "If an AI agent is attesting your controls, who’s attesting the agent?",
+      "url": "https://www.techradar.com/pro/if-an-ai-agent-is-attesting-your-controls-whos-attesting-the-agent",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T13:51:03+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Do you guys also still use Claude Code's plan mode?",
+      "url": "https://news.ycombinator.com/item?id=49920876",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-01T12:42:55+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T10:54:12+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Codex Users Are Fleeing to Claude Code",
+      "url": "https://www.vincentschmalbach.com/codex-users-are-fleeing-to-claude-code",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-01T10:38:02+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Anthropic says Claude for Government is now generally available to federal and state agencies, with Claude Code CLI and Claude for Microsoft 365 in early access (Claude)",
       "url": "https://www.techmeme.com/261001/p7",
@@ -13,7 +93,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-01T06:10:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -29,7 +109,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-01T01:55:02.685000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -44,7 +124,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-01T01:06:15+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 63,
       "official": false,
       "topics": [
         "openai",
@@ -61,15 +141,14 @@
       "site_id": "aihot",
       "published_at": "2026-10-01T00:00:00+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 71,
       "official": false,
       "topics": [
         "agent",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Launch HN: Magnitude (YC S25) – 面向智能体的自优化推理引擎",
@@ -78,7 +157,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-30T22:11:06.205000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 53,
       "official": true,
       "topics": [
         "agent"
@@ -93,7 +172,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-30T21:35:38+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "google",
@@ -110,7 +189,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-30T21:13:02+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -127,7 +206,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-09-30T20:23:59+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "google",
@@ -143,7 +222,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T19:10:13+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -160,101 +239,11 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T18:16:04+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "openai",
         "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DoorDash 推出了在 Apple Messages 中运行的文本订单 AI 代理",
-      "url": "https://thenextweb.com/news/doordash-agent-messages-europe",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T16:23:25+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DoorDash launches an AI agent you can text to order food",
-      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T16:00:24+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay",
-      "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T16:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "All the latest news on Meta’s cute, creepy Muse AI agent",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T15:18:49+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DoorDash opens US waitlists for an Apple Messages-integrated AI agent for ordering and a B2B API allowing assistants like Slack bots to execute bulk orders (Natalie Lung/Bloomberg)",
-      "url": "https://www.techmeme.com/260930/p23",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T13:05:02+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Pharos brings AI agents onchain with an Agent Native upgrade for RealFi",
-      "url": "https://thenextweb.com/news/pharos-agent-native-upgrade-ai-agents-onchain-realfi",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T12:00:47+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "agent"
       ],
       "reason": "",
