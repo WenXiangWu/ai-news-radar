@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-10-01T02:56:13.103254+00:00",
+  "generated_at": "2026-10-01T08:52:31.205051+00:00",
   "today": "2026-10-01",
-  "lead": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week；Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放；Opt-in dist-tag permissions for npm trusted publishing",
+  "lead": "v0.31.0rc3：[Model Runner V2] 支持随机虚拟输入 (#58411)；【AINews】Gemini 4 Argon：GDM 对 Astra/Fable 的回应，1M 输出；v0.5.21",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "CS240 人工智能作弊事件回顾",
+      "url": "https://turkeyland.net/thoughts/ai.php",
+      "source": "turkeyland.net",
+      "site_id": "buzzing",
+      "published_at": "2026-10-01T02:53:17.701000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 73
+    },
     {
       "title": "Launch HN: Magnitude (YC S25) – 面向智能体的自优化推理引擎",
       "url": "https://github.com/magnitudedev/magnitude",
@@ -11,14 +25,32 @@
       "site_id": "buzzing",
       "published_at": "2026-09-30T22:11:06.205000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "agent"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 81
+      "hot_score": 49
+    },
+    {
+      "title": "ChatGPT 现可直接构建并部署 MCP 服务器",
+      "url": "https://x.com/thsottiaux/status/2105519215092584786",
+      "source": "X：Tibo (@thsottiaux)",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T04:44:34+00:00",
+      "source_count": 2,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "mcp",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 43
     },
     {
       "title": "Pi.dev：你说过不搞MCP",
@@ -27,60 +59,28 @@
       "site_id": "buzzing",
       "published_at": "2026-09-30T11:24:17.398000+00:00",
       "source_count": 5,
-      "score": 59,
+      "score": 57,
       "official": true,
       "topics": [
         "mcp"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 66
+      "hot_score": 40
     },
     {
       "title": "Show HN: Strata – an expressive semantic layer that can say no to your LLM",
-      "url": "https://strata.do/try",
-      "source": "Hacker News",
-      "site_id": "techurls",
+      "url": "https://strata.do",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-09-30T14:59:57+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 44
-    },
-    {
-      "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
-      "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-09-30T20:41:41+00:00",
-      "source_count": 2,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 36
-    },
-    {
-      "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
-      "url": "https://artificialanalysis.ai/models/gemini-4-argon",
-      "source": "Hacker News",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T20:50:28+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 36
+      "hot_score": 27
     }
   ],
   "topics": [
@@ -96,21 +96,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 21
+      "count": 24
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 24
+      "count": 30
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 5
+      "count": 3
     },
     {
       "slug": "qwen",
@@ -124,7 +124,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 21
+      "count": 16
     },
     {
       "slug": "coding",
@@ -138,21 +138,21 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 4
+      "count": 6
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 15
+      "count": 18
     },
     {
       "slug": "paper",
@@ -166,7 +166,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 40
+      "count": 25
     }
   ],
   "days": [

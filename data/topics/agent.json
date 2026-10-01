@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-10-01T02:56:13.103254+00:00",
+  "generated_at": "2026-10-01T08:52:31.205051+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 21,
+  "total_items": 16,
   "items": [
+    {
+      "title": "Anthropic says Claude for Government is now generally available to federal and state agencies, with Claude Code CLI and Claude for Microsoft 365 in early access (Claude)",
+      "url": "https://www.techmeme.com/261001/p7",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-01T06:10:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "隔离内网下 AI Agent 工程实战",
       "url": "https://juejin.cn/post/7690505279806373931",
@@ -13,10 +29,27 @@
       "site_id": "newsnow",
       "published_at": "2026-10-01T01:55:02.685000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-6.1 Sol is our most demanded model pretty much ever both across both the API and subscriptions. Within ChatGPT & Codex, we were under heavy load, but have brough more capacity online and the speed should get much...",
+      "url": "https://x.com/thsottiaux/status/2105464274747527543",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-01T01:06:15+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -28,7 +61,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-01T00:00:00+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -45,7 +78,7 @@
       "site_id": "buzzing",
       "published_at": "2026-09-30T22:11:06.205000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "agent"
@@ -60,7 +93,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-30T21:35:38+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 76,
       "official": false,
       "topics": [
         "google",
@@ -71,13 +104,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Codex Pricing: Pro has unlimited 5.6 usage",
+      "title": "Codex 定价：Pro 有无限制的 5.6 使用",
       "url": "https://chatgpt.com/codex/pricing",
       "source": "Hacker News",
       "site_id": "techurls",
       "published_at": "2026-09-30T21:13:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -88,15 +121,16 @@
       "label": "值得关注"
     },
     {
-      "title": "The Battle to Be Your Personal AI Agent Is Here",
-      "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-09-30T19:30:00+00:00",
+      "title": "Google cooked on Gemini 4! Now they just need to be more competitive on coding harness (Antigravity) + personal agent (Spark). https://t.co/shCRH678Ow",
+      "url": "https://x.com/petergyang/status/2105393240392585359",
+      "source": "Follow Builders · X · Peter Yang",
+      "site_id": "followbuilders",
+      "published_at": "2026-09-30T20:23:59+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 62,
       "official": false,
       "topics": [
+        "google",
         "agent"
       ],
       "reason": "",
@@ -109,7 +143,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T19:10:13+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -120,28 +154,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Meta denies its Muse AI agent read a journalist’s private messages",
-      "url": "https://thenextweb.com/news/meta-muse-private-messages-denial-jason-aten",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T18:28:32+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats",
+      "title": "谷歌放弃了 Gems for Skills，加入 OpenAI 和 Anthropic 的行列，转向代理就绪的提示格式",
       "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-09-30T18:16:04+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "openai",
@@ -152,13 +171,13 @@
       "label": "值得关注"
     },
     {
-      "title": "DoorDash launches a text-to-order AI agent that runs inside Apple Messages",
+      "title": "DoorDash 推出了在 Apple Messages 中运行的文本订单 AI 代理",
       "url": "https://thenextweb.com/news/doordash-agent-messages-europe",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-09-30T16:23:25+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -173,7 +192,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T16:00:24+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 58,
       "official": false,
       "topics": [
         "agent"
@@ -188,7 +207,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-30T16:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "agent"
@@ -203,7 +222,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T15:18:49+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -218,7 +237,7 @@
       "site_id": "techurls",
       "published_at": "2026-09-30T13:05:02+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -232,109 +251,6 @@
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-09-30T12:00:47+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
-      "url": "https://www.aibase.com/news/31431",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-30T06:40:00.473712+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 牵手亚马逊云服务 AWS：重磅布局托管智能体，推 500 美元 Pro 顶配套餐",
-      "url": "https://www.aibase.com/news/31427",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-30T06:40:00.473712+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI发布自主智能体“Dots”与企业应用市场，ChatGPT全面向软件分发平台转型",
-      "url": "https://www.aibase.com/news/31421",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-30T06:40:00.473712+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "划时代的全天候 AI 助手正式登场：OpenAI 重磅发布 Dot 智能体，全面引爆 AI 应用商业化元年",
-      "url": "https://www.aibase.com/news/31424",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-09-30T06:40:00.473712+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI named its new agent system Dots. It’s already causing confusion.",
-      "url": "https://www.businessinsider.com/openai-dots-name-causing-tons-confusion-spacexai-grok-cant-wait-2026-9",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-09-30T04:46:53+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ask HN: How do you handle hitting AI coding agent usage limits?",
-      "url": "https://news.ycombinator.com/item?id=49904074",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-09-30T03:35:31+00:00",
       "source_count": 1,
       "score": 47,
       "official": false,
