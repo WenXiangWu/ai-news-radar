@@ -1,11 +1,44 @@
 {
-  "generated_at": "2026-09-30T23:51:13.078307+00:00",
+  "generated_at": "2026-10-01T02:56:13.103254+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 16,
+  "total_items": 15,
   "items": [
+    {
+      "title": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
+      "url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models",
+      "source": "OpenRouter：Announcements（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-09-30T23:43:07+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
       "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price",
@@ -63,7 +96,7 @@
       "site_id": "curated_media",
       "published_at": "2026-09-30T19:10:13+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -111,7 +144,7 @@
       "site_id": "official_ai",
       "published_at": "2026-09-30T12:52:24+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -126,7 +159,7 @@
       "site_id": "aihot",
       "published_at": "2026-09-30T12:30:49+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "launch",
@@ -142,7 +175,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-30T06:40:00.473712+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -161,7 +194,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-30T06:40:00.473712+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -179,7 +212,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-30T06:40:00.473712+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
@@ -197,7 +230,7 @@
       "site_id": "aibase",
       "published_at": "2026-09-30T06:40:00.473712+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "launch",
@@ -213,61 +246,13 @@
       "site_id": "zeli",
       "published_at": "2026-09-30T02:36:12+00:00",
       "source_count": 2,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "v0.31.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T00:33:58+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Trump releases a voluntary AI accord with tech leaders, asking companies to partner with external auditors and set up internal controls to monitor AI alignment (Kanishka Singh/Reuters)",
-      "url": "https://www.techmeme.com/260929/p55",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-09-29T23:50:01+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6.1 Sol，主打智能体编码与跨应用工作流",
-      "url": "https://x.com/OpenAIDevs/status/2105073621144338660",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "site_id": "aihot",
-      "published_at": "2026-09-29T23:13:56+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }

@@ -58,21 +58,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
-      "url": "https://www.latent.space/p/devday-2026",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T22:23:40+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
       "url": "https://huggingface.co/blog/Hcompany/holo4",
       "source": "Hugging Face Blog",
@@ -105,15 +90,17 @@
       "label": "多源热议"
     },
     {
-      "title": "Opt-in dist-tag permissions for npm trusted publishing",
-      "url": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
-      "source": "GitHub Changelog",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-09-30T21:03:09+00:00",
+      "published_at": "2026-09-30T22:23:40+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -130,19 +117,6 @@
         "google",
         "launch"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK",
-      "url": "https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T19:13:02+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -179,11 +153,24 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Advanced Security trials for GitHub Team",
-      "url": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
+      "title": "Opt-in dist-tag permissions for npm trusted publishing",
+      "url": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-30T16:48:24+00:00",
+      "published_at": "2026-09-30T21:03:09+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK",
+      "url": "https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T19:13:02+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -202,36 +189,6 @@
       "official": true,
       "topics": [
         "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "HydraFusion in VS Code and the GitHub Copilot app",
-      "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T14:31:19+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "proto-v0.4.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T12:52:24+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -342,6 +299,19 @@
       "label": "官方更新"
     },
     {
+      "title": "GitHub Advanced Security trials for GitHub Team",
+      "url": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T16:48:24+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
       "url": "https://deepmind.google/blog/introducing-synthid-bio",
       "source": "Google DeepMind",
@@ -358,15 +328,32 @@
       "label": "官方更新"
     },
     {
-      "title": "X25519-only TLS ends for GHE.com on October 7",
-      "url": "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15",
+      "title": "HydraFusion in VS Code and the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-09-30T13:30:24+00:00",
+      "published_at": "2026-09-30T14:31:19+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "proto-v0.4.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T12:52:24+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -386,46 +373,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "source": "OpenAI News",
+      "title": "v0.31.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-09-30T10:00:00+00:00",
+      "published_at": "2026-09-30T00:33:58+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
-      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T05:53:10+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -543,6 +500,64 @@
       "label": "官方更新"
     },
     {
+      "title": "X25519-only TLS ends for GHE.com on October 7",
+      "url": "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T13:30:24+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T10:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude’s new auto eval tool",
+      "url": "https://hamel.dev/blog/posts/claude-auto-evals",
+      "source": "Hamel Husain",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T07:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T05:53:10+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Why content extraction still matters in the GenAI era",
       "url": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era",
       "source": "Azure AI Foundry Blog",
@@ -580,21 +595,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
-      "url": "https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-29T18:35:09+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-09-30T23:51:13.078307+00:00",
+  "generated_at": "2026-10-01T02:56:13.103254+00:00",
   "period": "2026-W40"
 }
