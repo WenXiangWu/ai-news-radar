@@ -1,11 +1,42 @@
 {
-  "generated_at": "2026-10-02T01:55:18.879692+00:00",
+  "generated_at": "2026-10-02T08:31:36.981076+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 12,
+  "total_items": 11,
   "items": [
+    {
+      "title": "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra",
+      "url": "https://juejin.cn/post/7690930433831895050",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-02T08:07:39.006000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v0.31.0rc4",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc4",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-02T06:06:56+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "VS Code 中的 GitHub Copilot，2026 年 9 月发布",
       "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
@@ -13,7 +44,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-01T19:09:10+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "coding",
@@ -29,7 +60,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-01T18:43:19+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -40,13 +71,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Amazon releases its own Jev clone as decision models flood the web",
+      "title": "随着决策模型充斥网络，亚马逊发布了自己的 Jev 克隆版",
       "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-10-01T16:49:22+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "launch"
@@ -61,7 +92,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-01T13:05:00.027000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "launch"
@@ -76,7 +107,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-01T13:01:31+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -91,26 +122,9 @@
       "site_id": "buzzing",
       "published_at": "2026-10-01T12:49:03.584000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
-      "url": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-01T11:00:00+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
-        "openai",
-        "google",
         "launch"
       ],
       "reason": "",
@@ -123,7 +137,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-01T08:51:38.058283+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "launch"
@@ -138,7 +152,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-01T08:51:38.058283+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "openai",
@@ -155,7 +169,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-01T08:51:38.058283+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "google",
@@ -163,36 +177,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "v0.31.0rc3：[Model Runner V2] 支持随机虚拟输入 (#58411)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T07:54:39+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.5.21",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
-      "source": "SGLang Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T06:22:41+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
