@@ -1,11 +1,42 @@
 {
-  "generated_at": "2026-10-02T08:31:36.981076+00:00",
+  "generated_at": "2026-10-02T15:46:42.112253+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 11,
+  "total_items": 7,
   "items": [
+    {
+      "title": "Claude Opus 5.5 最新焚诀发布了！",
+      "url": "https://juejin.cn/post/7690930433831354378",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-02T15:33:38.037000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "微软 AI 发布用于语音代理的新转录和文本转语音模型",
+      "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-02T09:20:39+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra",
       "url": "https://juejin.cn/post/7690930433831895050",
@@ -13,7 +44,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-02T08:07:39.006000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -29,7 +60,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-02T06:06:56+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "launch"
@@ -44,7 +75,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-01T19:09:10+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "coding",
@@ -60,7 +91,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-01T18:43:19+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -77,102 +108,9 @@
       "site_id": "curated_media",
       "published_at": "2026-10-01T16:49:22+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": false,
       "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "随着谷歌发布一款功能强大的新模型，关于人工智能责任的争论已蔓延至参议院 - foxnews.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR3FLeXhoUkNGZll5QUlXTkpZdEU4WnJNNHVoeUNnS1ByZjlGMndVWXk3cEFRM0hHTmhGdkoxdTlhMi14V0xIaGQwZkFxenA2d295QUlKcHc3Nnk3bFAyeXpNU2wxMC1EVTR1SlJndnotclVselVaNzdJeGxzT2FHOUk5Vlplb1lGT2hPSTctZmdXUzRtWVI4?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-01T13:05:00.027000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Actions Runner 控制器版本 0.15.0",
-      "url": "https://github.blog/changelog/2026-10-01-actions-runner-controller-release-0-15-0",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T13:01:31+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "人工智能生成的数学内容的负责任发布",
-      "url": "https://agmai.org/general-sep29",
-      "source": "agmai.org",
-      "site_id": "buzzing",
-      "published_at": "2026-10-01T12:49:03.584000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群",
-      "url": "https://modal.com/blog/modal-clusters-generally-available",
-      "source": "Modal 官方工程博客（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-01T08:51:38.058283+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 重磅发布 dots，我在 GitHub 找到了一个开源版",
-      "url": "https://waytoagi.feishu.cn/wiki/I7hRwtLsBimk90kJbUCceQJunue?from=from_copylink",
-      "source": "社区更新 · 2026-09-30",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-01T08:51:38.058283+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "openai",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "还得是谷歌，Gemini 4 发布，猛的离谱。。。",
-      "url": "https://waytoagi.feishu.cn/wiki/TurDwLhmKiqocikKBOBctmqfnbh?from=from_copylink",
-      "source": "社区更新 · 2026-09-30",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-01T08:51:38.058283+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "google",
         "launch"
       ],
       "reason": "",
