@@ -1,11 +1,75 @@
 {
-  "generated_at": "2026-10-02T15:46:42.112253+00:00",
+  "generated_at": "2026-10-02T21:01:20.820647+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 7,
+  "total_items": 8,
   "items": [
+    {
+      "title": "Google 发布基于 TEE 的下一代联邦学习系统，Gboard 已部署",
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data",
+      "source": "Google Research：Blog（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-10-02T20:41:45.148602+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Prime Intellect 发布推理平台 Prime Inference，已上线 GLM-5.3 端点",
+      "url": "https://www.primeintellect.ai/blog/prime-inference",
+      "source": "Prime Intellect（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-10-02T20:41:45.148602+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.288",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-02T20:19:57+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-02T16:15:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Claude Opus 5.5 最新焚诀发布了！",
       "url": "https://juejin.cn/post/7690930433831354378",
@@ -13,7 +77,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-02T15:33:38.037000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic",
@@ -29,7 +93,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-02T09:20:39+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "launch"
@@ -44,7 +108,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-02T08:07:39.006000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -60,61 +124,13 @@
       "site_id": "official_ai",
       "published_at": "2026-10-02T06:06:56+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "VS Code 中的 GitHub Copilot，2026 年 9 月发布",
-      "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T19:09:10+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v2.1.287",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-01T18:43:19+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "随着决策模型充斥网络，亚马逊发布了自己的 Jev 克隆版",
-      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-01T16:49:22+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
