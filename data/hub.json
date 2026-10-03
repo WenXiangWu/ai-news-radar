@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:15:11.954151+00:00",
+  "generated_at": "2026-10-03T19:50:56.642750+00:00",
   "today": "2026-10-04",
   "lead": "[AINews] 今天没什么事发生；v0.31.0：[Misc] 在要求中添加 Transformers 版本上限 (#59614)；无状态 GitHub 应用程序安装令牌推出",
   "brief_count": 20,
@@ -16,7 +16,21 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 97
+      "hot_score": 78
+    },
+    {
+      "title": "Pop!_OS 禁止其大部分代码库中人工智能生成的代码",
+      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-03T17:57:03+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
     },
     {
       "title": "Show HN: 开发了一个开源的乐高AI生成器",
@@ -25,28 +39,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-03T06:39:44.372000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 50
-    },
-    {
-      "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
-      "url": "https://dwarfstar.sh",
-      "source": "dwarfstar.sh",
-      "site_id": "buzzing",
-      "published_at": "2026-10-02T22:49:45.900000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 26
+      "hot_score": 40
     },
     {
       "title": "如果 AI 以每秒 1,000,000 个代币的速度运行会怎样？",
@@ -55,26 +55,12 @@
       "site_id": "iris",
       "published_at": "2026-10-03T04:22:21+00:00",
       "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 21
-    },
-    {
-      "title": "Muse 智能设备",
-      "url": "https://gadgets.muse.ai",
-      "source": "gadgets.muse.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-03T00:08:54.342000+00:00",
-      "source_count": 2,
       "score": 51,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 14
+      "hot_score": 17
     }
   ],
   "topics": [
@@ -83,21 +69,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 24
+      "count": 20
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 17
+      "count": 13
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "deepseek",
@@ -118,14 +104,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 13
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 3
     },
     {
       "slug": "mcp",
@@ -153,14 +139,14 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 7
+      "count": 6
     }
   ],
   "days": [

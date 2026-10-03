@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:15:11.954151+00:00",
+  "generated_at": "2026-10-03T19:50:56.642750+00:00",
   "date": "2026-10-04",
   "timezone": "Asia/Shanghai",
   "lead": "[AINews] 今天没什么事发生；v0.31.0：[Misc] 在要求中添加 Transformers 版本上限 (#59614)；无状态 GitHub 应用程序安装令牌推出",
@@ -13,14 +13,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-03T06:39:44.372000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 50
+      "hot_score": 40
     }
   ],
   "items": [
@@ -44,7 +44,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-02T22:18:12+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -66,36 +66,6 @@
       "label": "官方更新"
     },
     {
-      "title": "Copilot 代码审查：API 支持和新的默认工作级别",
-      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T19:13:50+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "已弃用 GitHub Copilot 中的选定模型",
-      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T18:24:19+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Google 发布基于 TEE 的下一代联邦学习系统，Gboard 已部署",
       "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data",
       "source": "Google Research：Blog（网页）",
@@ -109,6 +79,21 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "显然，OpenAI 不再试图构建“天空中的神奇智能”",
+      "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-03T18:56:30+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "OpenAI 安全员工辞职，声称公司“文化被破坏”",
@@ -132,25 +117,10 @@
       "site_id": "curated_media",
       "published_at": "2026-10-03T14:01:14+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Deepmind 研究人员提出“人工智能共生智能”作为奇点的替代方案",
-      "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-03T10:21:23+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "google"
       ],
       "reason": "",
       "label": "值得关注"
@@ -171,13 +141,28 @@
       "label": "值得关注"
     },
     {
+      "title": "Deepmind 研究人员提出“人工智能共生智能”作为奇点的替代方案",
+      "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-03T10:21:23+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "OpenAI 安全员工辞职并敲响警钟",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-10-03T14:31:56+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -192,27 +177,12 @@
       "site_id": "curated_media",
       "published_at": "2026-10-02T20:19:57+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
         "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "据报道，人类联合创始人告诉宗教领袖，他担心自己创造了“永远受苦”的东西",
-      "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-02T19:41:05+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -224,7 +194,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-03T06:39:44.372000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "opensource"
@@ -233,17 +203,31 @@
       "label": "多源热议"
     },
     {
-      "title": "OpenAI 的 Dot Agent 是一款企业软件，也可以为你订餐",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-02T18:00:00+00:00",
+      "title": "OpenAI 安全人员辞职，称人工智能实验室应该像核电站一样运行",
+      "url": "https://thenextweb.com/news/openai-david-robinson-quits-nuclear-safeguards",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-03T18:35:53+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 52,
       "official": true,
       "topics": [
-        "openai",
-        "agent"
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN：Claude 代码例行会话清理技巧",
+      "url": "https://github.com/naw103/claude-routine-cleanup",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-03T18:20:21+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -255,10 +239,25 @@
       "site_id": "newsnow",
       "published_at": "2026-10-03T17:02:44.409000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Gemini 模型访问和限制的更改",
+      "url": "https://support.google.com/gemini/answer/17004136?hl=en",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-03T16:29:12+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
@@ -270,7 +269,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-03T16:25:15+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
@@ -301,7 +300,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-03T13:00:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "google"
@@ -316,7 +315,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-03T11:05:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [],
       "reason": "",
