@@ -1,9 +1,65 @@
 {
-  "generated_at": "2026-10-02T21:01:20.820647+00:00",
+  "generated_at": "2026-10-03T00:48:29.178745+00:00",
   "today": "2026-10-03",
-  "lead": "Selected models in GitHub Copilot deprecated；OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理；开源 AstaBrief，Asta 中的快速报告生成模型",
+  "lead": "v0.31.0rc5: [Misc] Add Transformers version upper bound in requirements (#59614)；Stateless GitHub App installation tokens rolled out；Copilot code review: API support and new default effort level",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
+      "url": "https://dwarfstar.sh",
+      "source": "dwarfstar.sh",
+      "site_id": "buzzing",
+      "published_at": "2026-10-02T22:49:45.900000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "由于大部分信息被隐藏，直到现在，“战略棋”（Stratego）这款游戏一直让人工智能束手无策",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+      "source": "arstechnica.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-02T21:14:53.842000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 89
+    },
+    {
+      "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频]",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "source": "www.youtube.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-02T20:59:54.195000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 87
+    },
+    {
+      "title": "Muse 智能设备",
+      "url": "https://gadgets.muse.ai",
+      "source": "gadgets.muse.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-03T00:08:54.342000+00:00",
+      "source_count": 2,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
+    },
     {
       "title": "Show HN: Made an open-source Lego AI generator",
       "url": "https://github.com/anteloc/ldraw-nova",
@@ -11,74 +67,14 @@
       "site_id": "iris",
       "published_at": "2026-10-02T20:00:15+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 55
-    },
-    {
-      "title": "ChatGPT 中的网站",
-      "url": "https://chatgpt.com/features/sites",
-      "source": "chatgpt.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-02T19:25:50.258000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 53
-    },
-    {
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "url": "https://dwarfstar.sh",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-02T18:01:16+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 47
-    },
-    {
-      "title": "人工智能让我感到难过",
-      "url": "https://mondobe.com/ai-makes-me-sad",
-      "source": "mondobe.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-02T16:16:42.657000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
       "hot_score": 40
-    },
-    {
-      "title": "DeepSeek 束带",
-      "url": "https://www.deepseek.com/en/harness",
-      "source": "www.deepseek.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-02T06:05:38.511000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 35
     }
   ],
   "topics": [
@@ -87,21 +83,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 33
+      "count": 23
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 21
+      "count": 22
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 8
+      "count": 7
     },
     {
       "slug": "deepseek",
@@ -115,21 +111,21 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 19
+      "count": 16
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "mcp",
@@ -150,7 +146,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "paper",
@@ -164,7 +160,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 10
+      "count": 9
     }
   ],
   "days": [
