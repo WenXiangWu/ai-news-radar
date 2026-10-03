@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-10-03T12:31:20.809314+00:00",
+  "generated_at": "2026-10-03T17:15:11.954151+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 6,
+  "total_items": 5,
   "items": [
+    {
+      "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
+      "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "site_id": "aihot",
+      "published_at": "2026-10-03T17:14:19.189846+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "v0.31.0：[Misc] 在要求中添加 Transformers 版本上限 (#59614)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
@@ -13,7 +30,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-02T22:18:12+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -28,7 +45,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-02T20:41:45.148602+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "launch"
@@ -43,7 +60,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-02T20:41:45.148602+00:00",
       "source_count": 1,
-      "score": 70,
+      "score": 69,
       "official": false,
       "topics": [
         "launch"
@@ -58,43 +75,11 @@
       "site_id": "curated_media",
       "published_at": "2026-10-02T20:19:57+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T16:15:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Opus 5.5 最新焚诀发布了！",
-      "url": "https://juejin.cn/post/7690930433831354378",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-02T15:33:38.037000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
         "launch"
       ],
       "reason": "",
