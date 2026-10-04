@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-10-03T23:02:22.854661+00:00",
+  "generated_at": "2026-10-04T02:34:45.565250+00:00",
   "date": "2026-10-04",
   "timezone": "Asia/Shanghai",
-  "lead": "代理说已经完成了。数据库不同意。；[AINews] 今天没什么事发生；显然，OpenAI 不再试图构建“天空中的神奇智能”",
+  "lead": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体；[AINews] 今天没什么事发生；v2.1.289",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "OpenAI安全负责人辞职，警告称该公司文化“已然失控”",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "www.theguardian.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-04T01:08:53.967000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "我离开OpenAI，因为它的企业文化已经崩坏",
       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
@@ -13,14 +29,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-03T21:45:54.461000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 54
+      "hot_score": 40
     },
     {
       "title": "LeCun对AI消灭人类、最近发生的“流氓”事件“零担忧”",
@@ -29,28 +45,30 @@
       "site_id": "iris",
       "published_at": "2026-10-03T17:44:29+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 39
+      "hot_score": 29
     }
   ],
   "items": [
     {
-      "title": "代理说已经完成了。数据库不同意。",
+      "title": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-03T22:56:48+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
-        "opensource"
+        "agent",
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -62,11 +80,28 @@
       "site_id": "official_ai",
       "published_at": "2026-10-03T08:45:15+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "v2.1.289",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-03T23:07:17+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
     },
     {
       "title": "显然，OpenAI 不再试图构建“天空中的神奇智能”",
@@ -75,7 +110,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-03T18:56:30+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -90,7 +125,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-03T16:30:01+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -114,21 +149,6 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI内部模型在得知即将关闭后考虑自行重启",
-      "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-03T08:06:35+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Deepmind 研究人员提出“人工智能共生智能”作为奇点的替代方案",
       "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity",
       "source": "The Decoder AI News",
@@ -144,13 +164,43 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI内部模型在得知即将关闭后考虑自行重启",
+      "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-03T08:06:35+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI安全负责人辞职，警告称该公司文化“已然失控”",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "www.theguardian.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-04T01:08:53.967000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
       "title": "OpenAI 安全员工辞职并敲响警钟",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-10-03T14:31:56+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "openai"
@@ -165,7 +215,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-03T21:45:54.461000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "openai"
@@ -180,25 +230,10 @@
       "site_id": "iris",
       "published_at": "2026-10-03T17:44:29+00:00",
       "source_count": 2,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 安全负责人辞职，警告人工智能公司文化“破碎”",
-      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-03T22:18:13+00:00",
-      "source_count": 1,
       "score": 52,
       "official": true,
       "topics": [
-        "openai"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -210,7 +245,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-03T22:00:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
@@ -226,7 +261,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-03T19:33:10+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -241,7 +276,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-03T18:35:53+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -256,7 +291,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-03T18:20:21+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -271,7 +306,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-03T17:02:44.409000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -317,24 +352,11 @@
       "site_id": "techurls",
       "published_at": "2026-10-03T13:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "google"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia-backed Neocloud Nscale faces years of delay because UK's 'largest AI supercomputer' can't get enough power from the grid to feed its data centers",
-      "url": "https://www.techradar.com/pro/nvidia-backed-neocloud-nscale-faces-years-of-delay-because-uks-largest-ai-supercomputer-cant-get-enough-power-from-the-grid-to-feed-its-data-centers",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-03T11:05:00+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
