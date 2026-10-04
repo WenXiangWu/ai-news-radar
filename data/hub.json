@@ -1,24 +1,54 @@
 {
-  "generated_at": "2026-10-04T09:44:53.463176+00:00",
+  "generated_at": "2026-10-04T15:28:34.409691+00:00",
   "today": "2026-10-04",
-  "lead": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体；Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro；v2.1.289",
+  "lead": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体；Google researchers find a way to keep self-improving AI agents from memorizing their tests；Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "我离开OpenAI，因为它的企业文化已经崩坏",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
-      "source": "www.theatlantic.com",
+      "title": "宗教学者与Anthropic公司进行了会面",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "source": "www.nytimes.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-03T21:45:54.461000+00:00",
-      "source_count": 4,
-      "score": 57,
+      "published_at": "2026-10-04T12:57:08.561000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": true,
       "topics": [
-        "openai"
+        "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 66
+      "hot_score": 97
+    },
+    {
+      "title": "AI“教父”勒库恩对人类灭绝“毫无担忧”",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "source": "fortune.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-04T09:46:05.311000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 75
+    },
+    {
+      "title": "Pop!_OS 禁止在其大部分代码库中使用 AI 生成的代码",
+      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases",
+      "source": "www.neowin.net",
+      "site_id": "buzzing",
+      "published_at": "2026-10-04T09:46:05.315000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 75
     },
     {
       "title": "OpenAI安全负责人辞职，警告称该公司文化“已然失控”",
@@ -27,61 +57,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-04T01:08:53.967000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 59
+      "hot_score": 36
     },
     {
-      "title": "在机器人监狱“折磨”LLM引发了人工智能领域迄今为止最愚蠢的争论",
-      "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-04T08:02:33+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 52
-    },
-    {
-      "title": "在 Claude 和 Claude Code 中充分利用 Opus 5.5",
-      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
-      "source": "claude.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-10-03T22:31:58.644000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 47
-    },
-    {
-      "title": "宗教学者会见人类",
-      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-04T02:34:22+00:00",
+      "published_at": "2026-10-04T09:24:52+00:00",
       "source_count": 2,
       "score": 53,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 33
+      "hot_score": 36
     }
   ],
   "topics": [
@@ -90,14 +87,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 16
+      "count": 15
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 10
+      "count": 12
     },
     {
       "slug": "google",
@@ -132,7 +129,7 @@
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "mcp",

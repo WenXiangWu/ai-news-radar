@@ -1,26 +1,42 @@
 {
-  "generated_at": "2026-10-04T09:44:53.463176+00:00",
+  "generated_at": "2026-10-04T15:28:34.409691+00:00",
   "date": "2026-10-04",
   "timezone": "Asia/Shanghai",
-  "lead": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体；Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro；v2.1.289",
+  "lead": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体；Google researchers find a way to keep self-improving AI agents from memorizing their tests；Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
     {
-      "title": "我离开OpenAI，因为它的企业文化已经崩坏",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
-      "source": "www.theatlantic.com",
+      "title": "宗教学者与Anthropic公司进行了会面",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "source": "www.nytimes.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-03T21:45:54.461000+00:00",
-      "source_count": 4,
-      "score": 57,
+      "published_at": "2026-10-04T12:57:08.561000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": true,
       "topics": [
-        "openai"
+        "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 66
+      "hot_score": 97
+    },
+    {
+      "title": "AI“教父”勒库恩对人类灭绝“毫无担忧”",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "source": "fortune.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-04T09:46:05.311000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 75
     },
     {
       "title": "OpenAI安全负责人辞职，警告称该公司文化“已然失控”",
@@ -29,46 +45,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-04T01:08:53.967000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 59
+      "hot_score": 36
     },
     {
-      "title": "宗教学者会见人类",
-      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-04T02:34:22+00:00",
+      "published_at": "2026-10-04T09:24:52+00:00",
       "source_count": 2,
       "score": 53,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 33
-    },
-    {
-      "title": "LeCun对AI消灭人类、最近发生的“流氓”事件“零担忧”",
-      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-03T17:44:29+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 16
+      "hot_score": 36
     }
   ],
   "items": [
@@ -79,7 +77,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-03T22:56:48+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "agent",
@@ -90,13 +88,26 @@
       "label": "官方更新"
     },
     {
+      "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+      "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-04T12:40:37+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
       "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-10-04T07:28:54+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "google"
@@ -111,7 +122,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-03T23:07:17+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -128,7 +139,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-03T18:56:30+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -143,7 +154,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-03T16:30:01+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -158,27 +169,12 @@
       "site_id": "curated_media",
       "published_at": "2026-10-04T04:49:42+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "deepseek",
         "agent",
         "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 的又一次安全背离加剧了研究人员在公开警告下离开的模式",
-      "url": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-03T14:01:14+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -190,56 +186,41 @@
       "site_id": "curated_media",
       "published_at": "2026-10-04T07:29:59+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "我离开OpenAI，因为它的企业文化已经崩坏",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
-      "source": "www.theatlantic.com",
+      "title": "宗教学者与Anthropic公司进行了会面",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "source": "www.nytimes.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-03T21:45:54.461000+00:00",
-      "source_count": 4,
-      "score": 57,
+      "published_at": "2026-10-04T12:57:08.561000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": true,
       "topics": [
-        "openai"
+        "anthropic"
       ],
       "reason": "",
       "label": "多源热议"
     },
     {
-      "title": "Deepmind 研究人员提出“人工智能共生智能”作为奇点的替代方案",
-      "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-03T10:21:23+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 安全员工辞职并敲响警钟",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-03T14:31:56+00:00",
-      "source_count": 1,
+      "title": "AI“教父”勒库恩对人类灭绝“毫无担忧”",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "source": "fortune.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-04T09:46:05.311000+00:00",
+      "source_count": 3,
       "score": 56,
       "official": true,
       "topics": [
-        "openai"
+        "anthropic"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
     },
     {
       "title": "OpenAI安全负责人辞职，警告称该公司文化“已然失控”",
@@ -248,7 +229,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-04T01:08:53.967000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "openai"
@@ -257,16 +238,44 @@
       "label": "多源热议"
     },
     {
-      "title": "宗教学者会见人类",
-      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-04T02:34:22+00:00",
+      "published_at": "2026-10-04T09:24:52+00:00",
       "source_count": 2,
       "score": 53,
       "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic asks Claude users to share voice data for AI model training",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-04T13:44:26+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Free and Plus Google AI users are losing access to some Gemini models",
+      "url": "https://www.techradar.com/ai-platforms-assistants/gemini/if-youre-on-the-free-or-plus-tiers-for-google-ai-youre-about-to-lose-access-to-some-gemini-models-heres-whats-changing",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-04T13:30:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
@@ -278,7 +287,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-04T09:44:30.765000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "mcp"
@@ -287,16 +296,16 @@
       "label": "值得关注"
     },
     {
-      "title": "LeCun对AI消灭人类、最近发生的“流氓”事件“零担忧”",
-      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "title": "Sam Altman 的妹妹修改了指控 OpenAI 首席执行官性虐待的诉讼",
+      "url": "https://www.reuters.com/legal/government/judge-now-dismisses-lawsuit-by-sam-altmans-sister-accusing-openai-ceo-sexual-2026-03-20",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
-      "published_at": "2026-10-03T17:44:29+00:00",
-      "source_count": 2,
-      "score": 51,
+      "published_at": "2026-10-03T22:55:00+00:00",
+      "source_count": 1,
+      "score": 48,
       "official": true,
       "topics": [
-        "anthropic"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -308,11 +317,26 @@
       "site_id": "techurls",
       "published_at": "2026-10-03T22:00:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
         "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "我离开OpenAI，因为它的企业文化已经崩坏",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+      "source": "www.theatlantic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-03T21:45:54.461000+00:00",
+      "source_count": 1,
+      "score": 48,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -324,7 +348,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-03T19:33:10+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -339,40 +363,10 @@
       "site_id": "techurls",
       "published_at": "2026-10-03T18:35:53+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN：Claude 代码例行会话清理技巧",
-      "url": "https://github.com/naw103/claude-routine-cleanup",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-03T18:20:21+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "塞多马克 / Claude·梅姆",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-10-03T17:02:44.409000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
