@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-06",
     "2026-10-05",
     "2026-10-04",
     "2026-10-03",
@@ -25,21 +26,6 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.31.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T06:45:40+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "【AINews】Gemini 4 Argon：GDM 对 Astra/Fable 的回应，1M 输出",
       "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
       "source": "Latent Space",
@@ -50,6 +36,52 @@
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph==1.2.13",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T17:51:32+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ReviewBench：人工智能代码审查的开放基准",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T15:59:40+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding",
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T15:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -79,6 +111,21 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T10:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -136,6 +183,21 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.31.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T06:45:40+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -528,64 +590,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "X25519-only TLS ends for GHE.com on October 7",
-      "url": "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T13:30:24+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 披露并处置一起有组织的模型蒸馏攻击行动",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T10:30:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-09-30T10:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "由内而外的人工智能：在幕后和整个宾客体验中重建 Airbnb",
-      "url": "https://www.latent.space/p/airbnb",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T14:04:49+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-05T08:58:50.097587+00:00",
+  "generated_at": "2026-10-05T18:24:15.071995+00:00",
   "period": "2026-10"
 }

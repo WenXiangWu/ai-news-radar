@@ -1,11 +1,91 @@
 {
-  "generated_at": "2026-10-05T08:58:50.097587+00:00",
+  "generated_at": "2026-10-05T18:24:15.071995+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 8,
+  "total_items": 11,
   "items": [
+    {
+      "title": "OpenAI 正在 ChatGPT 和 Codex 中添加文本水印",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T18:08:39+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "维基媒体项目中发现 OpenAI“流氓”代理活动",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-05T17:53:35+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "To comply with the EU AI Act, OpenAI plans to add text watermarking for ChatGPT and Codex users in the EU and an opt-in setting for API customers globally (OpenAI)",
+      "url": "https://www.techmeme.com/261005/p24",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T16:21:02+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "研究人员正在追踪中国人工智能“代理舰队”",
+      "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T14:35:09+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Cohere launches North 2, an update to its enterprise agent platform with cross-session memory and a redesigned harness, available across cloud and on-premises (Sean Michael Kerner/VentureBeat)",
+      "url": "https://www.techmeme.com/261005/p18",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T13:40:03+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Android CLI 支持 AI Agent 通过 Device Streaming 调试云真机",
       "url": "https://juejin.cn/post/7692379120273899560",
@@ -13,7 +93,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-05T08:58:33.748000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -28,7 +108,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-05T01:58:25+00:00",
       "source_count": 1,
-      "score": 67,
+      "score": 65,
       "official": false,
       "topics": [
         "openai",
@@ -45,10 +125,27 @@
       "site_id": "newsnow",
       "published_at": "2026-10-05T01:41:51.744000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
+      "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+      "source": "Together AI 研究与产品博客（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-05T00:00:00+00:00",
+      "source_count": 1,
+      "score": 69,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding",
         "opensource"
       ],
       "reason": "",
@@ -61,7 +158,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-04T23:42:58+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": false,
       "topics": [
         "openai",
@@ -77,57 +174,11 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-04T20:33:43+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Code Mods 是什么：给 Claude 加工具、在终端画界面",
-      "url": "https://juejin.cn/post/7691498553260884008",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-04T15:10:05.733000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ai agent --- mem0 外挂记忆系统",
-      "url": "https://juejin.cn/post/7691517675236556854",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-04T15:10:05.733000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "'The agent itself has become its own entity to secure': Bitdefender's new free Mac tool goes after flaws that let attackers fool AI models",
-      "url": "https://www.techradar.com/pro/phone-communications/the-agent-itself-has-become-its-own-entity-to-secure-bitdefenders-new-free-mac-tool-goes-after-flaws-that-let-attackers-fool-ai-models",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-04T15:05:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"

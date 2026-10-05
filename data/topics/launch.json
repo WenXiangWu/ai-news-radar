@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-10-05T08:58:50.097587+00:00",
+  "generated_at": "2026-10-05T18:24:15.071995+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 2,
+  "total_items": 5,
   "items": [
+    {
+      "title": "langgraph==1.2.13",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T17:51:32+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Aleph Alpha 发布了 Kolibri，一个开放权重模型，为欧洲人工智能主权提供了依据",
+      "url": "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T14:12:50+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "埃隆·马斯克表示，在特朗普发布人工智能命令后，SpaceXAI 将更名为 SpaceXSI",
       "url": "https://thenextweb.com/news/musk-spacexai-renamed-spacexsi",
@@ -13,7 +43,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T07:41:07+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "launch"
@@ -28,13 +58,28 @@
       "site_id": "official_ai",
       "published_at": "2026-10-05T06:45:40+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
+      "url": "https://www.liquid.ai/blog/d1-decision-model",
+      "source": "Liquid AI 模型与工程博客（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-10-05T00:00:00+00:00",
+      "source_count": 1,
+      "score": 72,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
     }
   ]
 }
