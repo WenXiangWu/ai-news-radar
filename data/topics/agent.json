@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-10-05T02:03:08.594733+00:00",
+  "generated_at": "2026-10-05T08:58:50.097587+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 7,
+  "total_items": 8,
   "items": [
+    {
+      "title": "Android CLI 支持 AI Agent 通过 Device Streaming 调试云真机",
+      "url": "https://juejin.cn/post/7692379120273899560",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-05T08:58:33.748000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's a clip from my dots review about this. What I'd simplify: 1. Work vs. Codex 2. Spaces vs. Pages vs. Sites 3. The model an...",
+      "url": "https://x.com/petergyang/status/2106926956554195018",
+      "source": "Follow Builders · X · Peter Yang",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-05T01:58:25+00:00",
+      "source_count": 1,
+      "score": 67,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Muse 登顶 App Store 第一，SDK 直接开源：AI Agent 开始进入下一个阶段",
       "url": "https://juejin.cn/post/7692296625806508072",
@@ -13,11 +45,43 @@
       "site_id": "newsnow",
       "published_at": "2026-10-05T01:41:51.744000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
         "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's cute! in a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo wi...",
+      "url": "https://x.com/danshipper/status/2106892868564431255",
+      "source": "Follow Builders · X · Dan Shipper",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-04T23:42:58+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-04T20:33:43+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -29,7 +93,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-04T15:10:05.733000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -45,7 +109,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-04T15:10:05.733000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -60,54 +124,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-04T15:05:00+00:00",
       "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DeepSeek Harness v0.2 将官方桌面应用程序引入其开源代理 Harness",
-      "url": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-04T04:49:42+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Q&A with Brian Chesky on Airbnb's plans for agent-to-agent interactions, why chatbots fail at travel e-commerce, the need for an AI-native OS, and more (Ivan Mehta/TechCrunch)",
-      "url": "https://www.techmeme.com/261004/p1",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-04T04:00:50+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI agent adoption is still very bimodal right now. You have coding and coding adjacent tasks which have taken off, and then everything else. And even within coding, you have a very wide continuum of adoption patterns,...",
-      "url": "https://x.com/levie/status/2106583814709633413",
-      "source": "Follow Builders · X · Aaron Levie",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-04T03:14:54+00:00",
-      "source_count": 1,
-      "score": 59,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T02:03:08.594733+00:00",
+  "generated_at": "2026-10-05T08:58:50.097587+00:00",
   "today": "2026-10-05",
-  "lead": "由于人工智能提交量“显着增加”，谷歌冻结了其开源漏洞赏金计划；谷歌研究人员找到了一种方法来阻止自我改进的人工智能代理记住他们的测试；Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
+  "lead": "v0.31.0；由于人工智能提交量“显着增加”，谷歌冻结了其开源漏洞赏金计划；Qwen的故事：阿里巴巴AI模型从7B到2.4T",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,27 +11,25 @@
       "site_id": "buzzing",
       "published_at": "2026-10-04T19:42:50.983000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 54,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 71
+      "hot_score": 40
     },
     {
-      "title": "宗教学者与Anthropic公司进行了会面",
-      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-      "source": "www.nytimes.com",
+      "title": "朝鲜发射中程导弹，称其具备规避飞行和人工智能功能 - Euronews",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "source": "news.google.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-04T12:57:08.561000+00:00",
-      "source_count": 3,
-      "score": 54,
+      "published_at": "2026-10-05T04:05:55.362000+00:00",
+      "source_count": 2,
+      "score": 53,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
-      "label": "多源热议",
+      "label": "值得关注",
       "hot_score": 40
     },
     {
@@ -41,40 +39,12 @@
       "site_id": "iris",
       "published_at": "2026-10-04T19:42:25+00:00",
       "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 35
-    },
-    {
-      "title": "如何利用 AI 衡量意图、质量和艺术性 [视频]",
-      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-04T08:41:58+00:00",
-      "source_count": 2,
       "score": 51,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 14
-    },
-    {
-      "title": "在机器人监狱“折磨”LLM引发了人工智能领域迄今为止最愚蠢的争论",
-      "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-04T08:02:33+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 13
+      "hot_score": 20
     }
   ],
   "topics": [
@@ -83,70 +53,70 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 7
+      "count": 9
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 10
+      "count": 14
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 8
+      "count": 7
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 0
+      "count": 3
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "paper",
@@ -160,7 +130,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 3
+      "count": 2
     }
   ],
   "days": [
