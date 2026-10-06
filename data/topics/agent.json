@@ -1,11 +1,104 @@
 {
-  "generated_at": "2026-10-06T01:05:14.226606+00:00",
+  "generated_at": "2026-10-06T07:32:22.055304+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 18,
+  "total_items": 19,
   "items": [
+    {
+      "title": "AI 编程智能体 04：一文看懂智能体的核心能力与概念辨析",
+      "url": "https://juejin.cn/post/7692059206255951881",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-06T07:32:02.050000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "ai agent --- 文件存储",
+      "url": "https://juejin.cn/post/7692274273326579748",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-06T07:32:02.050000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "从零用 Java 构建 AI Agent 框架：JavaManus 设计与实现深度解析",
+      "url": "https://juejin.cn/post/7692742889198387200",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-06T07:32:02.050000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "用 Codex 加速 Java 开发：从代码生成到测试覆盖的完整实战",
+      "url": "https://juejin.cn/post/7692058641252237322",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-06T07:32:02.050000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.291",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-06T03:55:19+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "The most common mistake teams make is to treat evals as an additional QA step once the agent is built. AI products are fundamentally different. Your evals are your product spec.",
+      "url": "https://x.com/realmadhuguru/status/2107292113214091355",
+      "source": "Follow Builders · X · Madhu Guru",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-06T02:09:26+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "v2.1.290",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
@@ -13,7 +106,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T23:33:17+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -30,7 +123,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T22:51:05+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": false,
       "topics": [
         "anthropic",
@@ -41,45 +134,13 @@
       "label": "值得关注"
     },
     {
-      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp",
-      "source": "Ars Technica",
-      "site_id": "techurls",
-      "published_at": "2026-10-05T22:26:35+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "agent",
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Engineer says Claude Code has made his job \"soul-sucking\"",
-      "url": "https://www.techspot.com/news/113937-engineer-claude-code-has-made-job-soul-sucking.html",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-05T22:01:35+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI starts watermarking ChatGPT and Codex text in the EU",
+      "title": "OpenAI 开始在欧盟为 ChatGPT 和 Codex 文本添加水印",
       "url": "https://thenextweb.com/news/openai-text-watermarking-chatgpt-codex-eu-ai-act",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-10-05T21:12:29+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -96,7 +157,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T20:05:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -111,7 +172,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-05T19:20:27.931000+00:00",
       "source_count": 3,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "openai",
@@ -121,13 +182,13 @@
       "label": "多源热议"
     },
     {
-      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "title": "Instinct 将其人工智能代理引入群聊，即使是没有帐户的朋友",
       "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-10-05T18:54:30+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": false,
       "topics": [
         "agent"
@@ -142,7 +203,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T18:30:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -158,7 +219,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T18:08:39+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai",
@@ -169,13 +230,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Amazon hires Microsoft's former Copilot CTO",
+      "title": "亚马逊聘请微软前 Copilot CTO",
       "url": "https://www.businessinsider.com/amazon-hires-former-microsoft-copilot-cto-ai-agent-push-2026-10",
       "source": "Business Insider",
       "site_id": "techurls",
       "published_at": "2026-10-05T17:45:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "agent",
@@ -191,7 +252,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T16:21:02+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -208,7 +269,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T14:35:09+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 58,
       "official": false,
       "topics": [
         "agent"
@@ -223,25 +284,9 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T13:40:03+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Tell HN: Claude Code refuses to login to any website not running on localhost",
-      "url": "https://news.ycombinator.com/item?id=49964064",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-05T12:38:01+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "anthropic",
         "agent"
       ],
       "reason": "",
@@ -254,43 +299,10 @@
       "site_id": "newsnow",
       "published_at": "2026-10-05T08:58:33.748000+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's a clip from my dots review about this. What I'd simplify: 1. Work vs. Codex 2. Spaces vs. Pages vs. Sites 3. The model an...",
-      "url": "https://x.com/petergyang/status/2106926956554195018",
-      "source": "Follow Builders · X · Peter Yang",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-05T01:58:25+00:00",
-      "source_count": 1,
-      "score": 64,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Muse 登顶 App Store 第一，SDK 直接开源：AI Agent 开始进入下一个阶段",
-      "url": "https://juejin.cn/post/7692296625806508072",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-05T01:41:51.744000+00:00",
-      "source_count": 1,
       "score": 47,
       "official": false,
       "topics": [
-        "agent",
-        "opensource"
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"

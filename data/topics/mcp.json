@@ -1,22 +1,36 @@
 {
-  "generated_at": "2026-10-06T01:05:14.226606+00:00",
+  "generated_at": "2026-10-06T07:32:22.055304+00:00",
   "slug": "mcp",
   "label": "MCP 与工具",
   "group": "tech",
   "blurb": "MCP、function calling、工具链",
-  "total_items": 1,
+  "total_items": 2,
   "items": [
     {
-      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+      "title": "谷歌、摩根大通和两国政府修复了相同的 MCP 缺陷",
+      "url": "https://thenextweb.com/news/mcp-flaw-ssrf-google-jpmorgan-dinum-protocol-pivoting",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-06T00:00:38+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "用于代理间通信的 MCP 可能是您从未听说过的风险最高的协议",
       "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp",
       "source": "Ars Technica",
       "site_id": "techurls",
       "published_at": "2026-10-05T22:26:35+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
-        "agent",
         "mcp"
       ],
       "reason": "",

@@ -11,6 +11,21 @@
   "total_items": 40,
   "items": [
     {
+      "title": "猎鹰阿联酋：当LLM学习方言、文化和细微差别时",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T06:44:39+00:00",
+      "source_count": 1,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "v0.31.0rc3：[Model Runner V2] 支持随机虚拟输入 (#58411)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3",
       "source": "vLLM Releases",
@@ -18,6 +33,21 @@
       "published_at": "2026-10-01T07:54:39+00:00",
       "source_count": 1,
       "score": 86,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.31.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T06:45:40+00:00",
+      "source_count": 1,
+      "score": 85,
       "official": true,
       "topics": [
         "launch"
@@ -41,28 +71,19 @@
       "label": "官方更新"
     },
     {
-      "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
-      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-      "source": "GitHub Changelog",
+      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-05T22:42:14+00:00",
+      "published_at": "2026-10-06T06:28:43+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
-      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T21:08:31+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
+      "topics": [
+        "coding",
+        "opensource",
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -91,52 +112,6 @@
       "score": 84,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.13",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T17:51:32+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "ReviewBench：人工智能代码审查的开放基准",
-      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T15:59:40+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding",
-        "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T15:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -199,33 +174,28 @@
       "label": "官方更新"
     },
     {
-      "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
-      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-10-05T19:20:27.931000+00:00",
-      "source_count": 3,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "source": "OpenAI News",
+      "title": "秘密扫描添加了 Lovable、Supabase 等探测器",
+      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-05T10:00:00+00:00",
+      "published_at": "2026-10-05T22:42:14+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "代理隐私和安全中的开放和紧急问题：上下文角度",
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T21:08:31+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -304,16 +274,47 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.31.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-      "source": "vLLM Releases",
+      "title": "langgraph==1.2.13",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-05T06:45:40+00:00",
+      "published_at": "2026-10-05T17:51:32+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ReviewBench：人工智能代码审查的开放基准",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T15:59:40+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T15:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -510,6 +511,37 @@
       "label": "官方更新"
     },
     {
+      "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-10-05T19:20:27.931000+00:00",
+      "source_count": 3,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-05T10:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "人工智能正在改写开发者的职业阶梯。以下是如何脱颖而出。",
       "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
       "source": "GitHub AI & ML",
@@ -562,34 +594,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "GitHub Actions：macOS 14 运行程序图像停用",
-      "url": "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T19:11:23+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "代码仓库概述中突出显示的可访问性声明",
-      "url": "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T19:04:32+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-06T01:05:14.226606+00:00",
+  "generated_at": "2026-10-06T07:32:22.055304+00:00",
   "period": "2026-10"
 }

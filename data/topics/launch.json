@@ -1,17 +1,34 @@
 {
-  "generated_at": "2026-10-06T01:05:14.226606+00:00",
+  "generated_at": "2026-10-06T07:32:22.055304+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 5,
+  "total_items": 7,
   "items": [
     {
-      "title": "v2.1.290",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T06:28:43+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v2.1.291",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
       "source": "Claude Code Releases",
       "site_id": "curated_media",
-      "published_at": "2026-10-05T23:33:17+00:00",
+      "published_at": "2026-10-06T03:55:19+00:00",
       "source_count": 1,
       "score": 63,
       "official": true,
@@ -24,13 +41,45 @@
       "label": "值得关注"
     },
     {
+      "title": "v2.1.290",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T23:33:17+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "这家初创公司正在发布人工智能生成的痤疮处方",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T20:14:57+00:00",
+      "source_count": 1,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "langgraph==1.2.13",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
       "source": "LangGraph Releases",
       "site_id": "official_ai",
       "published_at": "2026-10-05T17:51:32+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -45,7 +94,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T14:12:50+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 58,
       "official": false,
       "topics": [
         "launch"
@@ -60,28 +109,13 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T07:41:07+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "v0.31.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T06:45:40+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
