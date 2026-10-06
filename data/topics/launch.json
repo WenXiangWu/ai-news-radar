@@ -1,11 +1,102 @@
 {
-  "generated_at": "2026-10-06T07:32:22.055304+00:00",
+  "generated_at": "2026-10-06T15:07:57.408820+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 7,
+  "total_items": 11,
   "items": [
+    {
+      "title": "langgraph==1.2.14",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.14",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T14:41:37+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Mistral 发布 Large 4 公开预览版，1 万亿参数将开放权重",
+      "url": "https://mistral.ai/news/mistral-large-4",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-10-06T14:19:10.507000+00:00",
+      "source_count": 2,
+      "score": 80,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "langgraph-sdk==0.4.6",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.6",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T14:18:08+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Mistral releases Mistral Large 4, dubbed \"le Chonk\", a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Grace Blackwell GPUs (Sabrina Ortiz/The Deep View)",
+      "url": "https://www.techmeme.com/261006/p22",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-06T13:08:33+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "欧洲Mistral推出Large 4挑战中国在开放人工智能模型方面的领先地位",
+      "url": "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-06T13:00:45+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Reka 发布 Rho-1：一种 19B 全推理模型，可同时理解、生成视频和输出机器人动作",
+      "url": "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-06T06:45:31+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
       "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
@@ -13,7 +104,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T06:28:43+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "coding",
@@ -30,7 +121,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-06T03:55:19+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -47,7 +138,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T23:33:17+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -64,7 +155,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T20:14:57+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "launch"
@@ -79,43 +170,13 @@
       "site_id": "official_ai",
       "published_at": "2026-10-05T17:51:32+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Aleph Alpha 发布了 Kolibri，一个开放权重模型，为欧洲人工智能主权提供了依据",
-      "url": "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-05T14:12:50+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "埃隆·马斯克表示，在特朗普发布人工智能命令后，SpaceXAI 将更名为 SpaceXSI",
-      "url": "https://thenextweb.com/news/musk-spacexai-renamed-spacexsi",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-05T07:41:07+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
