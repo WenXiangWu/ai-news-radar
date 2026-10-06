@@ -1,11 +1,172 @@
 {
-  "generated_at": "2026-10-05T18:24:15.071995+00:00",
+  "generated_at": "2026-10-06T01:05:14.226606+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 15,
+  "total_items": 21,
   "items": [
+    {
+      "title": "Anthropic Cowork 改为云端运行模型推理与 VM",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg",
+      "source": "Simon Willison 博客",
+      "site_id": "aihot",
+      "published_at": "2026-10-05T23:56:47+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.290",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T23:33:17+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode",
+      "url": "https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T22:51:05+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Senator Bernie Moreno accuses Anthropic’s Amodei of ‘alarmist’ AI talk",
+      "url": "https://thenextweb.com/news/bernie-moreno-letter-dario-amodei-anthropic-alarmist",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T22:43:35+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol (SemiAnalysis)",
+      "url": "https://www.techmeme.com/261005/p33",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T22:20:02+00:00",
+      "source_count": 1,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Engineer says Claude Code has made his job \"soul-sucking\"",
+      "url": "https://www.techspot.com/news/113937-engineer-claude-code-has-made-job-soul-sucking.html",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-05T22:01:35+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
+      "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+      "source": "SemiAnalysis 长文 RSS（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-05T20:01:09+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor",
+      "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T18:59:19+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Sources: Meta and Microsoft are working to cut their employees' use of Claude; Meta employees using Claude Code have dropped to ~30K from ~60K earlier this year (The Information)",
+      "url": "https://www.techmeme.com/261005/p29",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T18:30:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Former Anthropic researcher Jacob Coxon and representatives from Anthropic, Google, OpenAI, and Meta testified at a New York City Council hearing on AI safety (Bloomberg)",
+      "url": "https://www.techmeme.com/261005/p27",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T17:51:09+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "人类报告佛罗里达州妇女Claude的“日记”对执法部门的威胁",
       "url": "https://yro.slashdot.org/story/26/10/05/1733245/anthropic-reports-florida-womans-claude-diary-threat-to-law-enforcement",
@@ -13,7 +174,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T17:35:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -28,7 +189,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-05T17:00:08.955000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": true,
       "topics": [
         "anthropic"
@@ -43,7 +204,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T16:30:01+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -58,7 +219,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T16:13:21+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -73,10 +234,26 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T16:00:12+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Tell HN: Claude Code refuses to login to any website not running on localhost",
+      "url": "https://news.ycombinator.com/item?id=49964064",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-05T12:38:01+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -88,7 +265,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-05T12:21:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -103,7 +280,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T08:28:41+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -118,7 +295,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T08:10:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic"
@@ -133,7 +310,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T06:10:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic"
@@ -148,87 +325,8 @@
       "site_id": "newsnow",
       "published_at": "2026-10-05T01:41:45.800000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: EditUI – Cursor/Claude 设计风格的 UI 直接在浏览器中编辑",
-      "url": "https://www.editui.app",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-04T23:33:02+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Sam Altman says OpenAI and Anthropic still hold fundamentally different worldviews on AI regulation, arguing that AI's benefits justify accepting some risks (Politico)",
-      "url": "https://www.techmeme.com/261004/p19",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-04T21:55:01+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Sources: Anthropic's stock match of employee charity gifts hit $660M+ in the six months through March, likely to reach billions post-IPO, diluting shareholders (Cory Weinberg/The Information)",
-      "url": "https://www.techmeme.com/261004/p18",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-04T21:35:10+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1：哪种前沿模型适合哪种工作",
-      "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-04T20:59:56+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "我要求Claude建造一个物理精确的奥尼尔圆柱体，你可以四处走动",
-      "url": "https://island-three.gruberbuilds.workers.dev",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-04T19:49:12+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
       "topics": [
         "anthropic"
       ],

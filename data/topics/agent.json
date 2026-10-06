@@ -1,19 +1,85 @@
 {
-  "generated_at": "2026-10-05T18:24:15.071995+00:00",
+  "generated_at": "2026-10-06T01:05:14.226606+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 11,
+  "total_items": 18,
   "items": [
     {
-      "title": "OpenAI 正在 ChatGPT 和 Codex 中添加文本水印",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "source": "The Verge",
+      "title": "v2.1.290",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+      "source": "Claude Code Releases",
       "site_id": "curated_media",
-      "published_at": "2026-10-05T18:08:39+00:00",
+      "published_at": "2026-10-05T23:33:17+00:00",
       "source_count": 1,
       "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode",
+      "url": "https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T22:51:05+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp",
+      "source": "Ars Technica",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T22:26:35+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "agent",
+        "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Engineer says Claude Code has made his job \"soul-sucking\"",
+      "url": "https://www.techspot.com/news/113937-engineer-claude-code-has-made-job-soul-sucking.html",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-05T22:01:35+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI starts watermarking ChatGPT and Codex text in the EU",
+      "url": "https://thenextweb.com/news/openai-text-watermarking-chatgpt-codex-eu-ai-act",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T21:12:29+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
@@ -24,17 +90,96 @@
       "label": "值得关注"
     },
     {
-      "title": "维基媒体项目中发现 OpenAI“流氓”代理活动",
+      "title": "TikTok debuts Shopping Assistant, a conversational AI agent that helps users find and buy products, and Buy Direct for one-click purchases from the For You feed (Aisha Malik/TechCrunch)",
+      "url": "https://www.techmeme.com/261005/p31",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T20:05:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
       "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-05T17:53:35+00:00",
-      "source_count": 2,
-      "score": 54,
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-10-05T19:20:27.931000+00:00",
+      "source_count": 3,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
         "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T18:54:30+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Sources: Meta and Microsoft are working to cut their employees' use of Claude; Meta employees using Claude Code have dropped to ~30K from ~60K earlier this year (The Information)",
+      "url": "https://www.techmeme.com/261005/p29",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T18:30:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 正在 ChatGPT 和 Codex 中添加文本水印",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T18:08:39+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Amazon hires Microsoft's former Copilot CTO",
+      "url": "https://www.businessinsider.com/amazon-hires-former-microsoft-copilot-cto-ai-agent-push-2026-10",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T17:45:01+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -46,7 +191,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T16:21:02+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -63,7 +208,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T14:35:09+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "agent"
@@ -78,9 +223,25 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T13:40:03+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Tell HN: Claude Code refuses to login to any website not running on localhost",
+      "url": "https://news.ycombinator.com/item?id=49964064",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-05T12:38:01+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": false,
+      "topics": [
+        "anthropic",
         "agent"
       ],
       "reason": "",
@@ -93,7 +254,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-05T08:58:33.748000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -108,7 +269,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-05T01:58:25+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": false,
       "topics": [
         "openai",
@@ -125,60 +286,11 @@
       "site_id": "newsnow",
       "published_at": "2026-10-05T01:41:51.744000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent",
         "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
-      "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
-      "source": "Together AI 研究与产品博客（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-05T00:00:00+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's cute! in a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo wi...",
-      "url": "https://x.com/danshipper/status/2106892868564431255",
-      "source": "Follow Builders · X · Dan Shipper",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-04T23:42:58+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
-      "url": "https://x.com/thsottiaux/status/2106845241357824205",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-04T20:33:43+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

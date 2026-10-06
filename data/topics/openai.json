@@ -1,19 +1,80 @@
 {
-  "generated_at": "2026-10-05T18:24:15.071995+00:00",
+  "generated_at": "2026-10-06T01:05:14.226606+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 22,
+  "total_items": 34,
   "items": [
     {
-      "title": "OpenAI 正在 ChatGPT 和 Codex 中添加文本水印",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-05T18:08:39+00:00",
+      "title": "ChatGPT正在将真实漫画家的签名添加到伪造的《纽约客》漫画中",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
+      "source": "www.niemanlab.org",
+      "site_id": "buzzing",
+      "published_at": "2026-10-06T00:19:39.500000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "OpenAI Announces Their Text Watermarking Plans",
+      "url": "https://daringfireball.net/linked/2026/10/05/openai-announces-their-text-watermarking-plans",
+      "source": "Daring Fireball",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T22:59:14+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol (SemiAnalysis)",
+      "url": "https://www.techmeme.com/261005/p33",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T22:20:02+00:00",
+      "source_count": 1,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI is in talks with Abu Dhabi’s MGX and BlackRock for a $30B round",
+      "url": "https://thenextweb.com/news/openai-30bn-mgx-blackrock-europe",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T21:52:45+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI starts watermarking ChatGPT and Codex text in the EU",
+      "url": "https://thenextweb.com/news/openai-text-watermarking-chatgpt-codex-eu-ai-act",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T21:12:29+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
@@ -24,17 +85,187 @@
       "label": "值得关注"
     },
     {
-      "title": "维基媒体项目中发现 OpenAI“流氓”代理活动",
+      "title": "Wikipedia Operator Says OpenAI's 'Rogue' Bots May Be Linked to a May Outage",
+      "url": "https://news.slashdot.org/story/26/10/05/1932228/wikipedia-operator-says-openais-rogue-bots-may-be-linked-to-a-may-outage",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T21:00:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Wikimedia says rogue OpenAI agents edited its wikis without approval",
+      "url": "https://thenextweb.com/news/wikimedia-openai-agents-wiki-edits-wikidata-outage",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T20:56:29+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T20:36:48+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
+      "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+      "source": "SemiAnalysis 长文 RSS（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-05T20:01:09+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Wikimedia links OpenAI agents to an outage and unauthorized activity",
+      "url": "https://www.engadget.com/2278051/wikimedia-links-openai-agents-to-an-outage-and-unauthorized-activity",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T19:55:11+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "All the drama around AI&#8217;s takeover of mathematics",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T19:28:59+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
       "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-05T17:53:35+00:00",
-      "source_count": 2,
-      "score": 54,
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-10-05T19:20:27.931000+00:00",
+      "source_count": 3,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
         "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Wikipedia operator says OpenAI&#8217;s &#8216;rogue&#8217; bots may be linked to a May outage",
+      "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T19:05:19+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "A Series of Unfortunate Events for OpenAI Users",
+      "url": "https://insufferable.dev/posts/a-series-of-unfortunate-events-for-openai-users",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-05T18:58:26+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI will add a digital watermark to text and code generated in the EU",
+      "url": "https://www.engadget.com/2277866/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T18:55:40+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 正在 ChatGPT 和 Codex 中添加文本水印",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-05T18:08:39+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Former Anthropic researcher Jacob Coxon and representatives from Anthropic, Google, OpenAI, and Meta testified at a New York City Council hearing on AI safety (Bloomberg)",
+      "url": "https://www.techmeme.com/261005/p27",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-05T17:51:09+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -46,7 +277,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T17:32:42+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 63,
       "official": true,
       "topics": [
         "openai"
@@ -61,7 +292,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T16:55:42+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -76,7 +307,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T16:44:21+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": true,
       "topics": [
         "openai"
@@ -91,7 +322,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T16:21:02+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -108,10 +339,26 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T15:45:40+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-6 Astra cracks 217-year-old Napoleonic code in six hours",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-217-year-old-napoleonic-code-in-just-six-hours-single-prompt-ai-run-solves-24-rows-of-custom-symbols-from-a-single-image-reveals-lost-troop-orders",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-05T15:37:37+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
       ],
       "reason": "",
       "label": "值得关注"
@@ -123,7 +370,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T15:14:24+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -137,8 +384,8 @@
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-10-05T15:06:27+00:00",
-      "source_count": 1,
-      "score": 51,
+      "source_count": 2,
+      "score": 52,
       "official": false,
       "topics": [
         "openai"
@@ -153,7 +400,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-05T15:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -168,7 +415,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T14:38:31+00:00",
       "source_count": 2,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -183,7 +430,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T14:17:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -198,7 +445,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-05T12:56:18+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "openai"
@@ -213,7 +460,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-05T12:37:32+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "openai"
@@ -228,7 +475,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-05T11:28:04+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai"
@@ -243,7 +490,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-05T10:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -258,7 +505,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-05T01:58:25+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": false,
       "topics": [
         "openai",
@@ -274,70 +521,6 @@
       "source": "Slashdot",
       "site_id": "techurls",
       "published_at": "2026-10-05T00:51:00+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's cute! in a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo wi...",
-      "url": "https://x.com/danshipper/status/2106892868564431255",
-      "source": "Follow Builders · X · Dan Shipper",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-04T23:42:58+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Sam Altman says OpenAI and Anthropic still hold fundamentally different worldviews on AI regulation, arguing that AI's benefits justify accepting some risks (Politico)",
-      "url": "https://www.techmeme.com/261004/p19",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-04T21:55:01+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1：哪种前沿模型适合哪种工作",
-      "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-04T20:59:56+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "认识一下 OpenAI 安全领导者 David Robinson，他辞职并警告公司不够谨慎",
-      "url": "https://www.businessinsider.com/david-robinson-the-openai-safety-leader-who-quit-the-company-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-04T19:36:56+00:00",
       "source_count": 1,
       "score": 47,
       "official": true,
