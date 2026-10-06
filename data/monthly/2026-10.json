@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-07",
     "2026-10-06",
     "2026-10-05",
     "2026-10-04",
@@ -10,6 +11,21 @@
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "v0.31.1rc0: [Metrics] Expose cached prompt tokens by cache tier (#56318)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T18:52:05+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "v0.31.0rc3：[Model Runner V2] 支持随机虚拟输入 (#58411)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3",
@@ -21,21 +37,6 @@
       "official": true,
       "topics": [
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "猎鹰阿联酋：当LLM学习方言、文化和细微差别时",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T06:44:39+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -71,57 +72,46 @@
       "label": "官方更新"
     },
     {
-      "title": "解锁地球人工智能的全球公共卫生行星地理空间基础模型",
-      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health",
-      "source": "Google Research Blog",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "source": "Google DeepMind",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T15:05:11+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.14",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.14",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T14:41:37+00:00",
+      "published_at": "2026-10-06T19:57:04+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "launch"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "网络风险话语被打破",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-      "source": "Interconnects",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T14:22:41+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.6",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.6",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T14:18:08+00:00",
+      "published_at": "2026-10-06T16:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "launch"
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "猎鹰阿联酋：当LLM学习方言、文化和细微差别时",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T06:44:39+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -155,15 +145,73 @@
       "label": "官方更新"
     },
     {
-      "title": "安全概览中的代码扫描 AI Scan 启用状态",
-      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-      "source": "GitHub Changelog",
+      "title": "解锁地球人工智能的全球公共卫生行星地理空间基础模型",
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health",
+      "source": "Google Research Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T10:23:38+00:00",
+      "published_at": "2026-10-06T15:05:11+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph==1.2.14",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.14",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T14:41:37+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "网络风险话语被打破",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T14:22:41+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.6",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.6",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T14:18:08+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T10:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -226,19 +274,15 @@
       "label": "官方更新"
     },
     {
-      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
-      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "source": "Latent Space",
+      "title": "安全概览中的代码扫描 AI Scan 启用状态",
+      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T06:28:43+00:00",
+      "published_at": "2026-10-06T10:23:38+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "coding",
-        "opensource",
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -317,28 +361,19 @@
       "label": "官方更新"
     },
     {
-      "title": "秘密扫描添加了 Lovable、Supabase 等探测器",
-      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-      "source": "GitHub Changelog",
+      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-05T22:42:14+00:00",
+      "published_at": "2026-10-06T06:28:43+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "代理隐私和安全中的开放和紧急问题：上下文角度",
-      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T21:08:31+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
+      "topics": [
+        "coding",
+        "opensource",
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -534,42 +569,11 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph==1.2.13",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
-      "source": "LangGraph Releases",
+      "title": "秘密扫描添加了 Lovable、Supabase 等探测器",
+      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-05T17:51:32+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "ReviewBench：人工智能代码审查的开放基准",
-      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T15:59:40+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding",
-        "paper"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "人工智能正在改写开发者的职业阶梯。以下是如何脱颖而出。",
-      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T15:00:00+00:00",
+      "published_at": "2026-10-05T22:42:14+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
@@ -578,21 +582,19 @@
       "label": "官方更新"
     },
     {
-      "title": "我们于 2026 年 9 月公布的最新 AI 新闻",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-      "source": "Google AI Blog",
+      "title": "代理隐私和安全中的开放和紧急问题：上下文角度",
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
+      "source": "Google Research Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-02T15:00:00+00:00",
+      "published_at": "2026-10-05T21:08:31+00:00",
       "source_count": 1,
       "score": 80,
       "official": true,
-      "topics": [
-        "google"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-06T15:07:57.408820+00:00",
+  "generated_at": "2026-10-06T20:28:46.042840+00:00",
   "period": "2026-10"
 }
