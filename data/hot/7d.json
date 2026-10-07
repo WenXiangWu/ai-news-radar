@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T20:28:46.042840+00:00",
+  "generated_at": "2026-10-07T00:10:23.529191+00:00",
   "window_hours": 168,
-  "total_items": 9,
+  "total_items": 10,
   "items": [
     {
       "title": "人工智能现已具备自主开发推理硬件的能力",
@@ -9,13 +9,77 @@
       "source": "github.com",
       "site_id": "buzzing",
       "published_at": "2026-10-06T18:01:39.389000+00:00",
-      "source_count": 3,
-      "score": 57,
+      "source_count": 4,
+      "score": 58,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 98
+      "hot_score": 100
+    },
+    {
+      "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T23:01:09.228000+00:00",
+      "source_count": 2,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 54
+    },
+    {
+      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "url": "https://penguin-mail.com",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-06T21:59:43+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-06T18:00:34+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 36
+    },
+    {
+      "title": "LibreOffice 称“无人工智能”现已成为一项软件功能",
+      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-06T16:40:58+00:00",
+      "source_count": 2,
+      "score": 63,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 32
     },
     {
       "title": "Mistral 发布 Large 4 公开预览版，1 万亿参数将开放权重",
@@ -24,7 +88,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-06T14:19:10.507000+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": false,
       "topics": [
         "launch",
@@ -32,7 +96,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 36
+      "hot_score": 26
     },
     {
       "title": "米斯特拉尔 大号 4",
@@ -41,70 +105,40 @@
       "site_id": "buzzing",
       "published_at": "2026-10-06T13:32:16.752000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 34
+      "hot_score": 25
     },
     {
-      "title": "Erdosproblems.com Succumbs to the AI Onslaught",
+      "title": "Erdosproblems.com 屈服于人工智能的攻击",
       "url": "https://www.erdosproblems.com/forum/thread/blog:9",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-06T12:53:58+00:00",
       "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 32
-    },
-    {
-      "title": "Dust：无需反向传播的Transformer预训练",
-      "url": "https://qlabs.sh/research/dust",
-      "source": "qlabs.sh",
-      "site_id": "buzzing",
-      "published_at": "2026-10-06T02:07:52.842000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 26
-    },
-    {
-      "title": "ChatGPT正在将真实漫画家的签名添加到伪造的《纽约客》漫画中",
-      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
-      "source": "www.niemanlab.org",
-      "site_id": "buzzing",
-      "published_at": "2026-10-06T00:19:39.500000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 22
-    },
-    {
-      "title": "Opus 5.5的研究人员发现了两种室温磁性半导体候选材料",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "source": "www.vals.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-05T22:12:05.081000+00:00",
-      "source_count": 3,
       "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 19
+      "label": "值得关注",
+      "hot_score": 23
+    },
+    {
+      "title": "LLMs may have helped my RSI",
+      "url": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-06T03:01:04+00:00",
+      "source_count": 2,
+      "score": 50,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 10
     },
     {
       "title": "Khanmigo 在为期两年的学校实验中进行人工智能辅导",
@@ -113,30 +147,14 @@
       "site_id": "iris",
       "published_at": "2026-10-06T00:00:45+00:00",
       "source_count": 2,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 11
-    },
-    {
-      "title": "Gemini打电话给我可能会告诉你妈妈你迟到了",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-05T23:09:55+00:00",
-      "source_count": 2,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
+      "hot_score": 8
     }
   ]
 }
