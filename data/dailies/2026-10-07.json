@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T00:10:23.529191+00:00",
+  "generated_at": "2026-10-07T05:54:16.629439+00:00",
   "date": "2026-10-07",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI 发布内部前沿模型产出的数学研究成果；llm-mistral 0.16；v0.31.1rc0: [Metrics] Expose cached prompt tokens by cache tier (#56318)",
+  "lead": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics；OpenAI 发布内部前沿模型产出的数学研究成果；维基媒体项目中发现 OpenAI“流氓”代理活动",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T23:01:09.228000+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -21,10 +21,26 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 54
+      "hot_score": 34
     }
   ],
   "items": [
+    {
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T04:55:44+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
@@ -32,7 +48,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T23:01:09.228000+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -42,26 +58,72 @@
       "label": "官方更新"
     },
     {
-      "title": "llm-mistral 0.16",
+      "title": "维基媒体项目中发现 OpenAI“流氓”代理活动",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T00:16:45+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "更新您的 IDE 以恢复 Copilot 使用指标中的代理活动",
+      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T23:43:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T23:04:13+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "伊尔米-米斯特拉尔 0.16",
       "url": "https://simonwillison.net/2026/Oct/6/llm-mistral",
       "source": "Simon Willison",
       "site_id": "official_ai",
       "published_at": "2026-10-06T21:32:34+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "v0.31.1rc0: [Metrics] Expose cached prompt tokens by cache tier (#56318)",
+      "title": "v0.31.1rc0：[指标] 按缓存层公开缓存的提示令牌 (#56318)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
       "source": "vLLM Releases",
       "site_id": "official_ai",
       "published_at": "2026-10-06T18:52:05+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "launch"
@@ -70,13 +132,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Stacked pull requests generally available",
+      "title": "堆叠拉取请求现已普遍可用",
       "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-10-06T20:16:41+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -89,7 +151,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T19:57:04+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google",
@@ -106,7 +168,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T16:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -115,13 +177,13 @@
       "label": "官方更新"
     },
     {
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模",
       "url": "https://openai.com/index/jump-trading",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-10-06T12:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -136,7 +198,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T06:44:39+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -151,7 +213,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T15:05:11+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -164,7 +226,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T14:41:37+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -179,7 +241,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T14:22:41+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -192,7 +254,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T14:18:08+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -207,7 +269,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T10:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -222,7 +284,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T10:23:38+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -235,7 +297,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T06:28:43+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "coding",
@@ -252,7 +314,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-06T12:00:00+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -261,70 +323,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "GitHub 重建 Git 基础设施，应对智能体规模开发",
-      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development",
-      "source": "GitHub Blog",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T20:57:56+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2",
-      "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2",
-      "source": "Google Developers Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google 发布 EmbeddingGemma 2：基于 Gemma 4 的开源多模态嵌入模型",
-      "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide",
-      "source": "Google Developers Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Gemini Nano Banana 2.1 正式发布，gemini-3.1-flash-image 将于 2026 年 10 月 29 日停用",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "source": "Gemini API：更新日志（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }

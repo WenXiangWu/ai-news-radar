@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:10:23.529191+00:00",
+  "generated_at": "2026-10-07T05:54:16.629439+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
@@ -7,16 +7,64 @@
   "total_items": 22,
   "items": [
     {
-      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "title": "GLM-5.3's open release has yet to produce major attacks despite Anthropic's warnings about its Mythos-level cyber risk, undercutting calls to ban open models (Nathan Lambert/Interconnects AI)",
+      "url": "https://www.techmeme.com/261006/p48",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-07T01:05:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 刚刚发布了 700 份数学证明和反例的预印本",
+      "url": "https://github.com/openai/math/tree/main/preprints",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-06T23:37:02+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 又取得了一批数学突破",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-10-06T23:26:38+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions \"across the board\"; pricing is ~50% lower vs. Nano Banana 2 (Matthias Bastian/The Decoder)",
+      "url": "https://www.techmeme.com/261006/p45",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-06T23:20:01+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "google",
         "launch"
       ],
       "reason": "",
@@ -29,7 +77,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T23:01:09.228000+00:00",
       "source_count": 2,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "openai",
@@ -45,7 +93,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T22:30:01+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -61,7 +109,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T20:03:55+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "launch"
@@ -76,7 +124,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T19:57:04+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google",
@@ -93,7 +141,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-06T18:59:30+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -104,13 +152,13 @@
       "label": "值得关注"
     },
     {
-      "title": "v0.31.1rc0: [Metrics] Expose cached prompt tokens by cache tier (#56318)",
+      "title": "v0.31.1rc0：[指标] 按缓存层公开缓存的提示令牌 (#56318)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
       "source": "vLLM Releases",
       "site_id": "official_ai",
       "published_at": "2026-10-06T18:52:05+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "launch"
@@ -119,13 +167,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4",
+      "title": "Google DeepMind 发布 EmbeddingGemma 2，这是一个基于 Gemma 4 构建的 740M 开放多模态嵌入模型",
       "url": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-06T18:36:08+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": true,
       "topics": [
         "google",
@@ -135,13 +183,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Hark releases an AI personal assistant with a focus on privacy",
+      "title": "Hark发布人工智能个人助理，专注于隐私",
       "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-10-06T18:22:45+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [
         "launch"
@@ -156,24 +204,38 @@
       "site_id": "aihot",
       "published_at": "2026-10-06T17:32:00+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
         "agent",
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
-      "title": "Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model",
+      "title": "微软发布诺贝尔经济学奖的悲观人工智能预测：十年内 GDP 仅增长 1.5%",
+      "url": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-06T17:31:51+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Mistral AI 发布 Mistral Large 4 (Le Chonk)：1.05T 参数多模态 MoE 模型",
       "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-06T17:30:46+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "launch"
@@ -188,7 +250,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T14:41:37+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -203,7 +265,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-06T14:19:10.507000+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "launch",
@@ -219,7 +281,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T14:18:08+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -234,7 +296,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T13:08:33+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "launch"
@@ -249,7 +311,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T13:00:45+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "launch"
@@ -264,7 +326,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-06T06:45:31+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "launch"
@@ -279,7 +341,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-06T06:28:43+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "coding",
@@ -288,71 +350,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "v2.1.291",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-06T03:55:19+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2",
-      "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2",
-      "source": "Google Developers Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google 发布 EmbeddingGemma 2：基于 Gemma 4 的开源多模态嵌入模型",
-      "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide",
-      "source": "Google Developers Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Gemini Nano Banana 2.1 正式发布，gemini-3.1-flash-image 将于 2026 年 10 月 29 日停用",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "source": "Gemini API：更新日志（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
