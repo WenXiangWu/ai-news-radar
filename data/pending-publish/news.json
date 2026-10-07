@@ -1,6 +1,6 @@
 {
   "schema": "radar-pending-publish/v1",
-  "ready": true,
+  "ready": false,
   "workflow_id": "update-news",
   "source_ids": [
     "official_ai",
@@ -18,5 +18,6 @@
     "aihot",
     "newsnow"
   ],
-  "finished_at": "2026-10-07T13:16:59.177414+00:00"
+  "finished_at": "2026-10-07T13:16:59.177414+00:00",
+  "published_at": "2026-10-07T13:18:42.105505+00:00"
 }
