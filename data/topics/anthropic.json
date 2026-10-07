@@ -1,11 +1,262 @@
 {
-  "generated_at": "2026-10-07T13:16:58.701860+00:00",
+  "generated_at": "2026-10-07T19:23:24.524038+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 22,
+  "total_items": 29,
   "items": [
+    {
+      "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 智能指数得分 43",
+      "url": "https://x.com/ArtificialAnlys/status/2107911905822351609",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "site_id": "aihot",
+      "published_at": "2026-10-07T19:12:16+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Meta 和微软限制员工使用 Claude AI 工具",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-07T18:49:40+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Haiku 5.5 大幅降价，证明人工智能定价军备竞赛远未结束",
+      "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-07T18:49:23+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5 (Frederic Lardinois/The New Stack)",
+      "url": "https://www.techmeme.com/261007/p33",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-07T18:45:30+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "克劳德·俳句 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-07T18:29:24.046000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks like summaries and classification (Anthropic)",
+      "url": "https://www.techmeme.com/261007/p31",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-07T18:22:12+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "我不会为 ChatGPT 或 Claude 支付 20 美元，因为免费的本地LLM可以",
+      "url": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-07T18:19:03+00:00",
+      "source_count": 1,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格",
+      "url": "https://x.com/cursor_ai/status/2107897257651769464",
+      "source": "X：Cursor (@cursor_ai)",
+      "site_id": "aihot",
+      "published_at": "2026-10-07T18:14:03+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-07T18:10:20+00:00",
+      "source_count": 2,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
+      "url": "https://x.com/ClaudeDevs/status/2107895957933408429",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "site_id": "aihot",
+      "published_at": "2026-10-07T18:08:53+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude Haiku 5.5",
+      "url": "https://news.ycombinator.com/item?id=49996437",
+      "source": "hackernews",
+      "site_id": "newsnow",
+      "published_at": "2026-10-07T18:01:32+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 将 Claude Sonnet 5.5 缓存读取价格减半至每百万 token $0.10",
+      "url": "https://x.com/claudeai/status/2107894060229034197",
+      "source": "X：Claude (@claudeai)",
+      "site_id": "aihot",
+      "published_at": "2026-10-07T18:01:21+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "为什么人工智能开发者创造了令他们恐惧的技术",
+      "url": "https://www.businessinsider.com/openai-anthropic-trump-regulation-kevin-roose-ai-book-podcast-kafka-2026-10",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-10-07T16:54:56+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "研究：Claude、ChatGPT 根据财富提供不同的购物价格",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-07T16:07:08+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude·科德的提示建议的创造者？像同事一样与你的人工智能交谈",
+      "url": "https://www.businessinsider.com/claude-code-creator-boris-cherny-ai-prompt-advice-2026-10",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-10-07T16:02:34+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno\" (Grace Kay/The Information)",
+      "url": "https://www.techmeme.com/261007/p23",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-07T14:40:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Claude Opus 5.5 做视频：从口播稿到成片，全流程跑通",
       "url": "https://juejin.cn/post/7693225151680774154",
@@ -13,7 +264,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-07T13:05:02.023000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
@@ -28,7 +279,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-07T12:05:20+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -43,7 +294,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-07T05:34:04.617000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -59,7 +310,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-07T01:23:13.207000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -76,7 +327,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-07T01:05:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -92,7 +343,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-06T21:16:31+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "anthropic"
@@ -107,7 +358,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-06T21:16:30+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "anthropic"
@@ -122,7 +373,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-06T20:53:52+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "anthropic",
@@ -138,7 +389,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-06T20:50:20+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "anthropic"
@@ -153,7 +404,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-06T20:50:19+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "anthropic",
@@ -169,7 +420,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-06T20:15:19+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "anthropic"
@@ -184,7 +435,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T20:00:49+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic"
@@ -199,152 +450,10 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T19:35:03+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.292",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-06T18:59:30+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude·科德提出的消息功能：我认为真正的客户是模型",
-      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-06T18:00:34+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "这位由人类研究员转型的举报人表示，他正在“努力实现自动化”",
-      "url": "https://www.businessinsider.com/former-anthropic-openai-jacob-coxon-self-automatation-research-work-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-06T17:29:18+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "In Claude, paste a Google file link or ask for a new doc, sheet, or deck, and it opens beside the chat for you and Claude to edit together. Access follows your Google sharing permissions. In beta on all paid plans. Gi...",
-      "url": "https://x.com/claudeai/status/2107522599530139767",
-      "source": "Follow Builders · X · Claude",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-06T17:25:18+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
-      "url": "https://www.youtube.com/watch?v=idJQMJwHtyM",
-      "source": "Claude：YouTube（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T17:02:37+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz)",
-      "url": "https://www.techmeme.com/261006/p28",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-06T16:50:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic expands its Claude Startups program, including up to $45K in discounts and credits via the Claude Startup Stack and a one-time $1,000 API credit (Ashley Capoot/CNBC)",
-      "url": "https://www.techmeme.com/261006/p26",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-06T16:30:02+00:00",
-      "source_count": 1,
       "score": 47,
       "official": false,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 为初创公司提供一年免费的 Claude Team 和 1,000 美元的积分",
-      "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-06T16:00:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "询问 HN：您使用的哪些模型和安全带不是 Claude 或 Codex 的？",
-      "url": "https://news.ycombinator.com/item?id=49978163",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-06T13:30:15+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

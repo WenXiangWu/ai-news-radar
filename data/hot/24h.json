@@ -1,21 +1,103 @@
 {
-  "generated_at": "2026-10-07T13:16:58.701860+00:00",
+  "generated_at": "2026-10-07T19:23:24.524038+00:00",
   "window_hours": 24,
-  "total_items": 13,
+  "total_items": 14,
   "items": [
     {
-      "title": "犹他州将允许人工智能在无人监督的情况下为患者进行检查并开具处方",
-      "url": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
-      "source": "www.techspot.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-07T04:32:45.585000+00:00",
+      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T19:00:15.099000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 100
+    },
+    {
+      "title": "Meta 和微软限制员工使用 Claude AI 工具",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-07T18:49:40+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
+    },
+    {
+      "title": "克劳德·俳句 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-07T18:29:24.046000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-07T18:10:20+00:00",
+      "source_count": 2,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 54
+    },
+    {
+      "title": "Show HN：Agent.reviews – AI 代理在工具上阅读和撰写评论",
+      "url": "https://agent.reviews",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-07T16:59:11+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 49
+    },
+    {
+      "title": "AI 辅助证明 11 个方格的最佳包装",
+      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-07T14:10:55+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
       "topics": [],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 58
+      "label": "值得关注",
+      "hot_score": 39
     },
     {
       "title": "Penguin Mail——一款适用于 Linux 的开源 Rust 电子邮件客户端，支持人工智能",
@@ -24,14 +106,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-07T03:59:52.382000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 55
+      "hot_score": 33
     },
     {
       "title": "像 1866 年一样写作：LLM重新学习电报语",
@@ -40,12 +122,12 @@
       "site_id": "iris",
       "published_at": "2026-10-07T12:04:36+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 54
+      "hot_score": 33
     },
     {
       "title": "LLM和数据中毒被武器化以达成共识",
@@ -54,12 +136,12 @@
       "site_id": "iris",
       "published_at": "2026-10-07T11:23:55+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 31
     },
     {
       "title": "Forever Junior：人工智能无法为你培养的技能",
@@ -68,12 +150,12 @@
       "site_id": "iris",
       "published_at": "2026-10-07T08:00:06+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 39
+      "hot_score": 23
     },
     {
       "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
@@ -82,7 +164,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-06T23:01:09.228000+00:00",
       "source_count": 3,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
@@ -90,37 +172,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 37
-    },
-    {
-      "title": "人工智能现已具备自主开发推理硬件的能力",
-      "url": "https://github.com/FeSens/openTPU",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-06T18:01:39.389000+00:00",
-      "source_count": 4,
-      "score": 55,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 36
-    },
-    {
-      "title": "Show HN：NanoMuse – 适用于您的手机和计算机的开源 AI 代理",
-      "url": "https://github.com/nano-muse/nanoMuse",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-07T03:30:44+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 22
     },
     {
       "title": "韩国称人工智能代理可能已被用来入侵该国的银行",
@@ -129,12 +181,28 @@
       "site_id": "techurls",
       "published_at": "2026-10-07T03:30:00+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 16
+    },
+    {
+      "title": "Show HN：NanoMuse – 适用于您的手机和计算机的开源 AI 代理",
+      "url": "https://github.com/nano-muse/nanoMuse",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-07T03:30:44+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 16
     },
     {
       "title": "Decisions API 已进入公开测试阶段",
@@ -143,61 +211,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-07T00:03:31.762000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 20
-    },
-    {
-      "title": "Claude·科德提出的消息功能：我认为真正的客户是模型",
-      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-06T18:00:34+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
       "hot_score": 12
-    },
-    {
-      "title": "LibreOffice 称“无人工智能”现已成为一项软件功能",
-      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-06T16:40:58+00:00",
-      "source_count": 2,
-      "score": 60,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 11
-    },
-    {
-      "title": "Mistral 发布 Large 4 公开预览版，1 万亿参数将开放权重",
-      "url": "https://mistral.ai/news/mistral-large-4",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T14:19:10.507000+00:00",
-      "source_count": 2,
-      "score": 76,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 9
     }
   ]
 }
