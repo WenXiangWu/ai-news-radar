@@ -1,51 +1,34 @@
 {
-  "generated_at": "2026-10-07T05:54:16.629439+00:00",
+  "generated_at": "2026-10-07T13:16:58.701860+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 5,
+  "total_items": 7,
   "items": [
     {
-      "title": "Penguin Mail——一款适用于 Linux 的开源 Rust 电子邮件客户端，支持人工智能",
-      "url": "https://penguin-mail.com",
-      "source": "penguin-mail.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-07T03:59:52.382000+00:00",
-      "source_count": 3,
-      "score": 57,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
-      "source": "Google DeepMind",
+      "title": "一个模型系列，两项黄金级成果：针对 IOI 和 IMO 微调 Nemotron",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T19:57:04+00:00",
+      "published_at": "2026-10-07T12:45:31+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 86,
       "official": true,
       "topics": [
-        "google",
-        "opensource",
-        "launch"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Mistral 表示，其新的人工智能模型“Le Chonk”是中国以外最好的开放式重量产品",
-      "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-06T13:15:23+00:00",
+      "title": "Meta AI 开源 Rebalancer：每天运行约 4000 万个布局问题的 C++ 分配求解器",
+      "url": "https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-07T06:29:14+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 57,
       "official": false,
       "topics": [
         "opensource"
@@ -54,31 +37,76 @@
       "label": "值得关注"
     },
     {
-      "title": "猎鹰阿联酋：当LLM学习方言、文化和细微差别时",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T06:44:39+00:00",
+      "title": "Strands Decider 2B：一个小型开源决策模型",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider",
+      "source": "strandsagents.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-07T05:49:51.293000+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Penguin Mail——一款适用于 Linux 的开源 Rust 电子邮件客户端，支持人工智能",
+      "url": "https://penguin-mail.com",
+      "source": "penguin-mail.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-07T03:59:52.382000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Show HN：NanoMuse – 适用于您的手机和计算机的开源 AI 代理",
+      "url": "https://github.com/nano-muse/nanoMuse",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-07T03:30:44+00:00",
+      "source_count": 2,
+      "score": 52,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "值得关注"
     },
     {
-      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
-      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T06:28:43+00:00",
+      "title": "What’s happening in the AI-powered reverse engineering and decompilation is absolutely insane. Pretty soon all software will be de facto open-source. AI is coming for everything and everyone.",
+      "url": "https://x.com/amasad/status/2107671204639465961",
+      "source": "Follow Builders · X · Amjad Masad",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-07T03:15:48+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T19:57:04+00:00",
+      "source_count": 1,
+      "score": 80,
       "official": true,
       "topics": [
-        "coding",
+        "google",
         "opensource",
         "launch"
       ],

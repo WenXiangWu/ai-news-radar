@@ -12,6 +12,21 @@
   "total_items": 40,
   "items": [
     {
+      "title": "一个模型系列，两项黄金级成果：针对 IOI 和 IMO 微调 Nemotron",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T12:45:31+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "v0.31.0rc3：[Model Runner V2] 支持随机虚拟输入 (#58411)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3",
       "source": "vLLM Releases",
@@ -27,17 +42,16 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "source": "Latent Space",
+      "title": "猎鹰阿联酋：当LLM学习方言、文化和细微差别时",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T04:55:44+00:00",
+      "published_at": "2026-10-06T06:44:39+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "openai",
-        "paper"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -73,63 +87,33 @@
       "label": "官方更新"
     },
     {
-      "title": "维基媒体项目中发现 OpenAI“流氓”代理活动",
-      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
-      "source": "Simon Willison",
+      "title": "Playground 简介：创建和玩自定义游戏",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T00:16:45+00:00",
+      "published_at": "2026-10-07T12:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "更新您的 IDE 以恢复 Copilot 使用指标中的代理活动",
-      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
-      "source": "GitHub Changelog",
+      "title": "适用于 iOS 的 ChatGPT 1.2026.272",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T23:43:00+00:00",
+      "published_at": "2026-10-07T00:00:00+00:00",
       "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T23:04:13+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T23:01:09.228000+00:00",
-      "source_count": 2,
       "score": 84,
       "official": true,
       "topics": [
         "openai",
-        "launch"
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -163,30 +147,62 @@
       "label": "官方更新"
     },
     {
-      "title": "伊尔米-米斯特拉尔 0.16",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral",
-      "source": "Simon Willison",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T21:32:34+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.31.1rc0：[指标] 按缓存层公开缓存的提示令牌 (#56318)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T18:52:05+00:00",
+      "published_at": "2026-10-07T04:55:44+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
+        "openai",
+        "paper"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T23:04:13+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "site_id": "aihot",
+      "published_at": "2026-10-06T23:01:09.228000+00:00",
+      "source_count": 3,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "安全概览中的代码扫描 AI Scan 启用状态",
+      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T10:23:38+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -249,11 +265,42 @@
       "label": "官方更新"
     },
     {
-      "title": "堆叠拉取请求现已普遍可用",
-      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+      "title": "维基媒体项目中发现 OpenAI“流氓”代理活动",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T00:16:45+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "更新您的 IDE 以恢复 Copilot 使用指标中的代理活动",
+      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T20:16:41+00:00",
+      "published_at": "2026-10-06T23:43:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "伊尔米-米斯特拉尔 0.16",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-06T21:32:34+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -262,63 +309,33 @@
       "label": "官方更新"
     },
     {
-      "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
-      "source": "Google DeepMind",
+      "title": "v0.31.1rc0：[指标] 按缓存层公开缓存的提示令牌 (#56318)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T19:57:04+00:00",
+      "published_at": "2026-10-06T18:52:05+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "google",
-        "opensource",
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "source": "OpenAI News",
+      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T16:00:00+00:00",
+      "published_at": "2026-10-06T06:28:43+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模",
-      "url": "https://openai.com/index/jump-trading",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "猎鹰阿联酋：当LLM学习方言、文化和细微差别时",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T06:44:39+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
+        "coding",
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -394,77 +411,6 @@
       "score": 82,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "解锁地球人工智能的全球公共卫生行星地理空间基础模型",
-      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T15:05:11+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.14",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.14",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T14:41:37+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "网络风险话语被打破",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T14:22:41+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.6",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.6",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T14:18:08+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "通过 Ironclad 促进计算机的使用",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T10:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -595,8 +541,67 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "VS Code 中的 GitHub Copilot，2026 年 9 月发布",
+      "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-01T19:09:10+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "利用 NVIDIA DOCA Agent 技能在 NVIDIA BlueField 上更快地构建应用程序",
+      "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-01T18:13:29+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub 团队的 GitHub 高级安全试用",
+      "url": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T16:48:24+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay",
+      "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-09-30T16:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-07T05:54:16.629439+00:00",
+  "generated_at": "2026-10-07T13:16:58.701860+00:00",
   "period": "2026-10"
 }

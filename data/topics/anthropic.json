@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-10-07T05:54:16.629439+00:00",
+  "generated_at": "2026-10-07T13:16:58.701860+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 19,
+  "total_items": 22,
   "items": [
+    {
+      "title": "Claude Opus 5.5 做视频：从口播稿到成片，全流程跑通",
+      "url": "https://juejin.cn/post/7693225151680774154",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-07T13:05:02.023000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 让更多安全团队能够以更少的安全限制接触 Claude",
+      "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-07T12:05:20+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "一段需求、零素材，Claude Code 派了 33 个代理给我做了个 3D 动作游戏",
       "url": "https://juejin.cn/post/7692498648035819563",
@@ -13,7 +43,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-07T05:34:04.617000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -29,7 +59,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-07T01:23:13.207000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -46,11 +76,103 @@
       "site_id": "techurls",
       "published_at": "2026-10-07T01:05:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
         "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "there are some tricky technical problems to figure out! if Claude can only access your files when your computer is online, it might be effectively blocked on doing work until your computer is back on, so perhaps you w...",
+      "url": "https://x.com/trq212/status/2107580787277340835",
+      "source": "Follow Builders · X · Thariq",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-06T21:16:31+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "we're increasingly going to be moving towards Claude's \"brains\" in the cloud and giving Claude \"local hands\" to operate on your computer I talked about this a bit on latent space https://t.co/m6NVHyweBp",
+      "url": "https://x.com/trq212/status/2107580785456976085",
+      "source": "Follow Builders · X · Thariq",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-06T21:16:30+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "we couldn't have built the @every agent without Claude Managed Agents extremely fun to get to sit down and chat about it: https://t.co/RAsiCZwlZd",
+      "url": "https://x.com/danshipper/status/2107575089441181861",
+      "source": "Follow Builders · X · Dan Shipper",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-06T20:53:52+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "观看与 @danshipper 和 Willie Williams 关于他们如何构建它的完整对话：https://t.co/PUfvXR90Ox",
+      "url": "https://x.com/claudeai/status/2107574198482927900",
+      "source": "Follow Builders · X · Claude",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-06T20:50:20+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "The Every team runs as much work as possible through agents. To help the whole team share skills when a new model comes out, they built a company agent on Claude Managed Agents that everyone uses in Slack. Once it cau...",
+      "url": "https://x.com/claudeai/status/2107574195978641911",
+      "source": "Follow Builders · X · Claude",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-06T20:50:19+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "I am surprised that people are surprised this is how I prompt Claude. Talk to Claude the way you would a coworker. There's no secret to prompting. There's no need to be overly scaffolded or prescriptive for most tasks...",
+      "url": "https://x.com/bcherny/status/2107565388250874193",
+      "source": "Follow Builders · X · Boris Cherny",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-06T20:15:19+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": false,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -62,7 +184,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T20:00:49+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic"
@@ -77,7 +199,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T19:35:03+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic"
@@ -92,7 +214,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-06T18:59:30+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -109,7 +231,7 @@
       "site_id": "iris",
       "published_at": "2026-10-06T18:00:34+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -124,10 +246,25 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T17:29:18+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "In Claude, paste a Google file link or ask for a new doc, sheet, or deck, and it opens beside the chat for you and Claude to edit together. Access follows your Google sharing permissions. In beta on all paid plans. Gi...",
+      "url": "https://x.com/claudeai/status/2107522599530139767",
+      "source": "Follow Builders · X · Claude",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-06T17:25:18+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
         "anthropic"
       ],
       "reason": "",
@@ -140,14 +277,13 @@
       "site_id": "aihot",
       "published_at": "2026-10-06T17:02:37+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "anthropic",
-        "industry"
+        "anthropic"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz)",
@@ -156,7 +292,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T16:50:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",
@@ -173,7 +309,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-06T16:30:02+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic"
@@ -188,7 +324,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-06T16:00:00+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
@@ -203,106 +339,12 @@
       "site_id": "hackernews",
       "published_at": "2026-10-06T13:30:15+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta 和微软希望阻止他们的员工使用 Claude",
-      "url": "https://www.techradar.com/pro/meta-and-microsoft-want-to-stop-their-employees-using-claude",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-06T13:10:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M (Reuters)",
-      "url": "https://www.techmeme.com/261006/p19",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-06T12:05:01+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
-      "url": "https://claude.dev/blog/claude-code-in-the-cloud",
-      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic IPO 文件显示，首席执行官 Dario Amodei 去年赚取了 1800 万美元",
-      "url": "https://thenextweb.com/news/anthropic-dario-amodei-pay-18m-ipo-filing",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-06T11:01:47+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "At an Australian hearing, OpenAI Chief Strategy Officer Jason Kwon pledged faster safety incident disclosures; Anthropic representatives made similar pledges (ABC)",
-      "url": "https://www.techmeme.com/261006/p9",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-06T10:11:38+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 订阅提供的价值比 OpenAI 高 5 倍以上",
-      "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-06T07:29:50+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
