@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-09",
     "2026-10-08",
     "2026-10-07",
     "2026-10-06",
@@ -23,6 +24,23 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟",
+      "url": "https://openai.com/index/oracle",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T16:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -58,18 +76,15 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Claude Haiku 5.5 — 在相同价格下优于 GPT-6 Luna",
-      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-      "source": "Latent Space",
+      "title": "构建可靠的数据分析代理：KDD 杯的经验教训",
+      "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-08T07:27:51+00:00",
+      "published_at": "2026-10-08T18:30:02+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -119,6 +134,19 @@
       "label": "官方更新"
     },
     {
+      "title": "综合超级智能：从半导体到超导体——Periodic Labs 的 Liam Fedus 和 Ekin Dogus Cubuk",
+      "url": "https://www.latent.space/p/periodic",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T16:27:54+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Playground 简介：创建和玩自定义游戏",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
       "source": "Google AI Blog",
@@ -129,23 +157,6 @@
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "适用于 iOS 的 ChatGPT 1.2026.272",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -175,6 +186,63 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "屏幕阅读器可以以列表的形式浏览时间线",
+      "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T16:00:56+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "草稿拉取请求计入拉取请求限制",
+      "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T14:25:53+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Pollo AI 通过 OpenAI 将创意转化为活动",
+      "url": "https://openai.com/index/pollo-ai",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Claude Haiku 5.5 — 在相同价格下优于 GPT-6 Luna",
+      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T07:27:51+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -297,16 +365,17 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot 中的Claude俳句 5.5",
-      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "source": "GitHub Changelog",
+      "title": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T20:12:18+00:00",
+      "published_at": "2026-10-08T00:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "anthropic",
+        "openai",
+        "agent",
         "coding"
       ],
       "reason": "",
@@ -463,16 +532,32 @@
       "label": "官方更新"
     },
     {
-      "title": "Claude Haiku 5.5",
-      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
-      "source": "Simon Willison",
+      "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T20:56:21+00:00",
+      "published_at": "2026-10-08T00:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "anthropic"
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 中的Claude俳句 5.5",
+      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T20:12:18+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -519,95 +604,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "代理隐私和安全中的开放和紧急问题：上下文角度",
-      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T21:08:31+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "无状态 GitHub 应用程序安装令牌推出",
-      "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T22:18:23+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 代码审查：API 支持和新的默认工作级别",
-      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T19:13:50+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "已弃用 GitHub Copilot 中的选定模型",
-      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T18:24:19+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T16:15:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "开源 AstaBrief，Asta 中的快速报告生成模型",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T15:19:50+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-08T13:23:23.589688+00:00",
+  "generated_at": "2026-10-08T19:55:59.150544+00:00",
   "period": "2026-10"
 }

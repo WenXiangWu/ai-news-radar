@@ -1,11 +1,59 @@
 {
-  "generated_at": "2026-10-08T13:23:23.589688+00:00",
+  "generated_at": "2026-10-08T19:55:59.150544+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 20,
+  "total_items": 16,
   "items": [
+    {
+      "title": "v2.1.295",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-08T19:48:38+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-10-08T17:20:58.677000+00:00",
+      "source_count": 3,
+      "score": 79,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "JetBrains 发布 Mellum2.1：用于编码代理的 12B MoE 开放模型",
+      "url": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-08T16:17:35+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Anthropic 重磅发布 Claude Haiku 5.5！价格暴降 90% 但面临隐性成本",
       "url": "https://www.aibase.com/news/31467",
@@ -13,7 +61,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-08T13:22:28.375948+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -30,7 +78,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-08T13:22:28.375948+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -46,7 +94,7 @@
       "site_id": "iris",
       "published_at": "2026-10-08T09:29:48+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": false,
       "topics": [
         "openai",
@@ -62,7 +110,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-08T06:38:33+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 63,
       "official": false,
       "topics": [
         "agent",
@@ -79,7 +127,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-08T05:57:21.783220+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "coding",
@@ -96,7 +144,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-08T05:57:21.783220+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "launch",
@@ -112,7 +160,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-08T05:57:21.783220+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "launch",
@@ -128,7 +176,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-08T05:57:21.783220+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -145,7 +193,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-08T05:39:09+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "launch"
@@ -160,7 +208,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-08T05:03:54+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -171,15 +219,16 @@
       "label": "值得关注"
     },
     {
-      "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
-      "url": "https://github.com/pingdotgg/ts-rust",
-      "source": "Hacker News：AI 热帖",
+      "title": "OpenAI 在 GitHub 发布 openai/math 仓库，722 份数学手稿引发数学界震荡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686908&idx=1&sn=29a97b5ff695871a7bf219d3d6bd6487",
+      "source": "公众号：数字生命卡兹克",
       "site_id": "aihot",
-      "published_at": "2026-10-08T00:46:00+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": true,
+      "published_at": "2026-10-08T00:36:00+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
       "topics": [
+        "openai",
         "launch",
         "industry"
       ],
@@ -193,7 +242,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-07T20:38:30+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": true,
       "topics": [
         "anthropic",
@@ -209,127 +258,13 @@
       "site_id": "curated_media",
       "published_at": "2026-10-07T20:22:37+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Google发布开源多模态向量模型",
-      "url": "https://waytoagi.feishu.cn/wiki/Al1cw6cjCiOqv1kX99Xcqibfnud?from=from_copylink",
-      "source": "社区更新 · 2026-10-07",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-07T19:21:01.591244+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 智能指数得分 43",
-      "url": "https://x.com/ArtificialAnlys/status/2107911905822351609",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "site_id": "aihot",
-      "published_at": "2026-10-07T19:12:16+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "NVIDIA 与 Microsoft 发布 RTX Spark 及 DGX Station for Windows，推动 AI Agent 落地 Windows PC",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
-      "source": "NVIDIA Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-07T18:45:28+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Liquid AI 发布 Open-Weight d1-3B 和 d1-omni-600M：零输出代币的多模态决策模型",
-      "url": "https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-07T18:23:45+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-07T18:10:20+00:00",
-      "source_count": 2,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 发表了 722 篇由其尚未发布的模型撰写的数学论文",
-      "url": "https://thenextweb.com/news/openai-maths-722-papers-unreleased-model-github",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-07T16:10:10+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "langgraph-cli==0.4.33",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T13:38:46+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
