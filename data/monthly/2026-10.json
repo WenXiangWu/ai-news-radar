@@ -19,10 +19,25 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T19:00:15.099000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 89,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "一个模型系列，两项黄金级成果：针对 IOI 和 IMO 微调 Nemotron",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T12:45:31+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -38,6 +53,22 @@
       "official": true,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Claude Haiku 5.5 — 在相同价格下优于 GPT-6 Luna",
+      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T07:27:51+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -88,17 +119,16 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot 中的Claude俳句 5.5",
-      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "source": "GitHub Changelog",
+      "title": "Playground 简介：创建和玩自定义游戏",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T20:12:18+00:00",
+      "published_at": "2026-10-07T12:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "anthropic",
-        "coding"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -145,36 +175,6 @@
       "score": 84,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Haiku 5.5",
-      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T20:56:21+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "边缘的多模态开放 d1 决策模型",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T16:54:33+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -297,72 +297,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Azure 文档智能和 Azure 内容理解：实用指南",
-      "url": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T18:45:01+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用数字孪生和 AI 代理验证 AI 工厂变更",
-      "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T16:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 的本地沙箱现已普遍可用",
-      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "title": "GitHub Copilot 中的Claude俳句 5.5",
+      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T15:46:17+00:00",
+      "published_at": "2026-10-07T20:12:18+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
+        "anthropic",
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在 GitHub Copilot CLI 中发现本地模型",
-      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T15:46:13+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Nemotron 系列微调后达到 IOI 2026 与 IMO 2026 金牌水平",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T12:45:31+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -518,11 +463,41 @@
       "label": "官方更新"
     },
     {
-      "title": "秘密保护必须与软件一起扩展",
-      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software",
-      "source": "GitHub AI & ML",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T17:45:34+00:00",
+      "published_at": "2026-10-07T20:56:21+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "边缘的多模态开放 d1 决策模型",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T16:54:33+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 的本地沙箱现已普遍可用",
+      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T15:46:17+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -533,11 +508,11 @@
       "label": "官方更新"
     },
     {
-      "title": "用于泄露秘密检测的专用模型",
-      "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
+      "title": "秘密扫描添加了 Lovable、Supabase 等探测器",
+      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T16:13:56+00:00",
+      "published_at": "2026-10-05T22:42:14+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -546,11 +521,11 @@
       "label": "官方更新"
     },
     {
-      "title": "云原生工具能否使代理在桌面之外变得可靠？",
-      "url": "https://www.latent.space/p/stacklok",
-      "source": "Latent Space",
+      "title": "代理隐私和安全中的开放和紧急问题：上下文角度",
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
+      "source": "Google Research Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T14:10:45+00:00",
+      "published_at": "2026-10-05T21:08:31+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -559,51 +534,80 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph-cli==0.4.33",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
-      "source": "LangGraph Releases",
+      "title": "无状态 GitHub 应用程序安装令牌推出",
+      "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T13:38:46+00:00",
+      "published_at": "2026-10-02T22:18:23+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 代码审查：API 支持和新的默认工作级别",
+      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-02T19:13:50+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "已弃用 GitHub Copilot 中的选定模型",
+      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-02T18:24:19+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-02T16:15:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "帮助青少年学习、规划和塑造人工智能的未来",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "source": "OpenAI News",
+      "title": "开源 AstaBrief，Asta 中的快速报告生成模型",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T12:00:00+00:00",
+      "published_at": "2026-10-02T15:19:50+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "丽笙酒店集团将酒店发现带入 ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T07:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-08T05:58:28.505073+00:00",
+  "generated_at": "2026-10-08T13:23:23.589688+00:00",
   "period": "2026-10"
 }

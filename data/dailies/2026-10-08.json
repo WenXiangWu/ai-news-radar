@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T05:58:28.505073+00:00",
+  "generated_at": "2026-10-08T13:23:23.589688+00:00",
   "date": "2026-10-08",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI；GitHub Copilot 中的Claude俳句 5.5；Claude Haiku 5.5",
+  "lead": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI；[AINews] Claude Haiku 5.5 — 在相同价格下优于 GPT-6 Luna；GitHub Copilot 中的Claude俳句 5.5",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,14 +13,31 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T19:00:15.099000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 89,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 72
+      "hot_score": 39
+    },
+    {
+      "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-10-08T00:46:00+00:00",
+      "source_count": 2,
+      "score": 77,
+      "official": true,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 21
     },
     {
       "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
@@ -29,7 +46,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T18:10:20+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -38,7 +55,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 22
+      "hot_score": 12
     }
   ],
   "items": [
@@ -49,10 +66,26 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T19:00:15.099000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 89,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Claude Haiku 5.5 — 在相同价格下优于 GPT-6 Luna",
+      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T07:27:51+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -64,7 +97,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-07T20:12:18+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "anthropic",
@@ -80,7 +113,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-07T20:56:21+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "anthropic"
@@ -95,10 +128,25 @@
       "site_id": "official_ai",
       "published_at": "2026-10-07T16:54:33+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 的本地沙箱现已普遍可用",
+      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T15:46:17+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -110,67 +158,9 @@
       "site_id": "official_ai",
       "published_at": "2026-10-07T18:45:01+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用数字孪生和 AI 代理验证 AI 工厂变更",
-      "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T16:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 的本地沙箱现已普遍可用",
-      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T15:46:17+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在 GitHub Copilot CLI 中发现本地模型",
-      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T15:46:13+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Nemotron 系列微调后达到 IOI 2026 与 IMO 2026 金牌水平",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T12:45:31+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -181,7 +171,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-07T17:45:34+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "coding"
@@ -196,9 +186,37 @@
       "site_id": "official_ai",
       "published_at": "2026-10-07T16:13:56+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用数字孪生和 AI 代理验证 AI 工厂变更",
+      "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T16:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在 GitHub Copilot CLI 中发现本地模型",
+      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T15:46:13+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -209,7 +227,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-07T14:10:45+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -222,7 +240,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-07T13:38:46+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [
         "launch"
@@ -231,49 +249,20 @@
       "label": "官方更新"
     },
     {
-      "title": "帮助青少年学习、规划和塑造人工智能的未来",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T12:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
+      "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-10-08T00:46:00+00:00",
+      "source_count": 2,
+      "score": 77,
       "official": true,
       "topics": [
-        "openai"
+        "launch",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "丽笙酒店集团将酒店发现带入 ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T07:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Playground 简介：创建和玩自定义游戏",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T12:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
@@ -282,7 +271,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T18:10:20+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -299,7 +288,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T18:45:28+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": true,
       "topics": [
         "agent",
@@ -316,15 +305,14 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T16:00:00+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 71,
       "official": true,
       "topics": [
         "agent",
-        "opensource",
-        "industry"
+        "opensource"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Google 开放 SynthID Detector 门户，可检测图片、视频和音频是否由 AI 生成",
@@ -333,9 +321,39 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T14:12:16+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 70,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "LangChain 重构 Deep Agents 的 Skills 支持，新增工具绑定、固定技能与线程内重载",
+      "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+      "source": "LangChain：Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-07T18:49:50+00:00",
+      "source_count": 1,
+      "score": 69,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.294",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-08T05:03:54+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
       "reason": "",
       "label": "值得关注"
     }

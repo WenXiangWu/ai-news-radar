@@ -18,10 +18,41 @@
       "site_id": "aihot",
       "published_at": "2026-10-07T19:00:15.099000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 89,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "一个模型系列，两项黄金级成果：针对 IOI 和 IMO 微调 Nemotron",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T12:45:31+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Claude Haiku 5.5 — 在相同价格下优于 GPT-6 Luna",
+      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T07:27:51+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -57,17 +88,16 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot 中的Claude俳句 5.5",
-      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "source": "GitHub Changelog",
+      "title": "Playground 简介：创建和玩自定义游戏",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T20:12:18+00:00",
+      "published_at": "2026-10-07T12:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "anthropic",
-        "coding"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -85,36 +115,6 @@
         "openai",
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Haiku 5.5",
-      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T20:56:21+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "边缘的多模态开放 d1 决策模型",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T16:54:33+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -223,72 +223,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Azure 文档智能和 Azure 内容理解：实用指南",
-      "url": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T18:45:01+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用数字孪生和 AI 代理验证 AI 工厂变更",
-      "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T16:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 的本地沙箱现已普遍可用",
-      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "title": "GitHub Copilot 中的Claude俳句 5.5",
+      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T15:46:17+00:00",
+      "published_at": "2026-10-07T20:12:18+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
+        "anthropic",
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在 GitHub Copilot CLI 中发现本地模型",
-      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T15:46:13+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Nemotron 系列微调后达到 IOI 2026 与 IMO 2026 金牌水平",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T12:45:31+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -400,87 +345,46 @@
       "label": "官方更新"
     },
     {
-      "title": "秘密保护必须与软件一起扩展",
-      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software",
-      "source": "GitHub AI & ML",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-10-07T17:45:34+00:00",
+      "published_at": "2026-10-07T20:56:21+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "边缘的多模态开放 d1 决策模型",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T16:54:33+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 的本地沙箱现已普遍可用",
+      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T15:46:17+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
         "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "用于泄露秘密检测的专用模型",
-      "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T16:13:56+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "云原生工具能否使代理在桌面之外变得可靠？",
-      "url": "https://www.latent.space/p/stacklok",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T14:10:45+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-cli==0.4.33",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T13:38:46+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "帮助青少年学习、规划和塑造人工智能的未来",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T12:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "丽笙酒店集团将酒店发现带入 ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T07:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -597,8 +501,108 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 现在可以通过计算机与桌面应用程序交互",
+      "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-01T19:11:26+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "VS Code 中的 GitHub Copilot，2026 年 9 月发布",
+      "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-01T19:09:10+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "利用 NVIDIA DOCA Agent 技能在 NVIDIA BlueField 上更快地构建应用程序",
+      "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-01T18:13:29+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Azure 文档智能和 Azure 内容理解：实用指南",
+      "url": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T18:45:01+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "秘密保护必须与软件一起扩展",
+      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T17:45:34+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用于泄露秘密检测的专用模型",
+      "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T16:13:56+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用数字孪生和 AI 代理验证 AI 工厂变更",
+      "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T16:00:00+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-08T05:58:28.505073+00:00",
+  "generated_at": "2026-10-08T13:23:23.589688+00:00",
   "period": "2026-W41"
 }
