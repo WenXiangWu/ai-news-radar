@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T19:55:59.150544+00:00",
+  "generated_at": "2026-10-09T00:21:15.054621+00:00",
   "date": "2026-10-09",
   "timezone": "Asia/Shanghai",
-  "lead": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟；构建可靠的数据分析代理：KDD 杯的经验教训；综合超级智能：从半导体到超导体——Periodic Labs 的 Liam Fedus 和 Ekin Dogus Cubuk",
+  "lead": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟；[AINews] 今天没什么事发生；构建可靠的数据分析代理：KDD 杯的经验教训",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,14 +13,14 @@
       "site_id": "aihot",
       "published_at": "2026-10-08T17:20:58.677000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 97
+      "hot_score": 67
     },
     {
       "title": "人类禁止对Claude的“虐待或残忍行为”",
@@ -29,7 +29,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-08T17:08:02+00:00",
       "source_count": 2,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -37,7 +37,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 48
+      "hot_score": 33
     }
   ],
   "items": [
@@ -48,7 +48,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-08T16:00:00+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "openai",
@@ -59,13 +59,39 @@
       "label": "官方更新"
     },
     {
+      "title": "[AINews] 今天没什么事发生",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T23:29:43+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "构建可靠的数据分析代理：KDD 杯的经验教训",
       "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup",
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-08T18:30:02+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "分类角色用户或更高级别现在可以存档拉取请求",
+      "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T19:01:42+00:00",
+      "source_count": 1,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -78,9 +104,26 @@
       "site_id": "official_ai",
       "published_at": "2026-10-08T16:27:54+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "LegalOn 将 Codex 成本减半，同时保持开发速度",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -91,7 +134,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-08T16:00:56+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -104,7 +147,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-08T14:25:53+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -117,7 +160,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-08T12:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -132,73 +175,10 @@
       "site_id": "official_ai",
       "published_at": "2026-10-08T07:27:51+00:00",
       "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T00:00:00+00:00",
-      "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
         "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 中的Claude俳句 5.5",
-      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T20:12:18+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude Haiku 5.5",
-      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T20:56:21+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
         "anthropic"
       ],
       "reason": "",
@@ -211,7 +191,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-08T17:20:58.677000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "launch"
@@ -226,7 +206,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-08T18:17:07+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "openai",
@@ -236,44 +216,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Google 开源 ML Drift 端侧 GPU 推理引擎，接替 TFLite GPU delegate",
-      "url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge",
-      "source": "Google Developers Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-08T00:00:00+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
-      "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
-      "source": "Google Developers Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-08T00:00:00+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
       "url": "https://claude.dev/blog/building-effective-agent-automations",
       "source": "Anthropic：Claude.dev 开发者博客（RSS）",
       "site_id": "aihot",
       "published_at": "2026-10-08T12:00:00+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "anthropic",
@@ -290,14 +239,13 @@
       "site_id": "aihot",
       "published_at": "2026-10-08T16:21:08+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "根据 Anthropic 的新 TOS，对 Claude 不友善现在可能会导致您的帐户被暂停",
@@ -306,7 +254,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-08T19:03:14+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "anthropic"
@@ -315,18 +263,16 @@
       "label": "值得关注"
     },
     {
-      "title": "v2.1.295",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
-      "source": "Claude Code Releases",
+      "title": "被解雇的 OpenAI 安全研究人员对不当行为指控提出异议，警告会产生寒蝉效应",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-10-08T19:48:38+00:00",
+      "published_at": "2026-10-08T20:04:26+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
-        "anthropic",
-        "agent",
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -338,11 +284,58 @@
       "site_id": "curated_media",
       "published_at": "2026-10-08T17:08:02+00:00",
       "source_count": 2,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
         "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.295",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-08T19:48:38+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "据报道 OpenAI 的收入比之前预计少了 200 亿美元",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-08T18:19:42+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "谷歌为 Gemini 带来代理人工智能，从企业开始",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-08T18:18:00+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "值得关注"

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T19:55:59.150544+00:00",
+  "generated_at": "2026-10-09T00:21:15.054621+00:00",
   "window_hours": 24,
-  "total_items": 10,
+  "total_items": 13,
   "items": [
     {
       "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
@@ -10,14 +10,14 @@
       "site_id": "aihot",
       "published_at": "2026-10-08T17:20:58.677000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 97
+      "hot_score": 67
     },
     {
       "title": "OpenAI 撤回三项数学研究成果",
@@ -26,71 +26,21 @@
       "site_id": "buzzing",
       "published_at": "2026-10-08T16:48:49.605000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 93
+      "hot_score": 64
     },
     {
-      "title": "OpenAI 撤回了 3 篇数学论文",
-      "url": "https://github.com/openai/math/blob/main/history.md",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-08T13:12:13.889000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "openai",
-        "paper"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 68
-    },
-    {
-      "title": "“我想我发现了一颗没人知道存在的行星。我使用Claude密码找到了它”",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzw8zd/i_think_i_found_a_planet_nobody_knew_existed_i",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-08T10:24:01+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 54
-    },
-    {
-      "title": "人类禁止对Claude的“虐待或残忍行为”",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-08T17:08:02+00:00",
-      "source_count": 2,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
-    },
-    {
-      "title": "OpenAI 年化收入比之前预测的少 20B 美元",
-      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "title": "OpenAI、划分原理和数学",
+      "url": "https://karagila.org/2026/openai-pp",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-08T16:45:58+00:00",
+      "published_at": "2026-10-08T23:29:43+00:00",
       "source_count": 2,
       "score": 54,
       "official": true,
@@ -99,7 +49,103 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 46
+      "hot_score": 56
+    },
+    {
+      "title": "OpenAI 撤回了 3 篇数学论文",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-08T13:12:13.889000+00:00",
+      "source_count": 3,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 47
+    },
+    {
+      "title": "AI 就绪的生物数据：$1.8B 全球承诺",
+      "url": "https://biohub.org/news/virtual-biology-initiative-expansion",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-08T20:46:25+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 45
+    },
+    {
+      "title": "“我想我发现了一颗没人知道存在的行星。我使用Claude密码找到了它”",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzw8zd/i_think_i_found_a_planet_nobody_knew_existed_i",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-08T10:24:01+00:00",
+      "source_count": 3,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 38
+    },
+    {
+      "title": "LGTM（对我来说看起来不错） – Claude Opus 5.5 音乐视频",
+      "url": "https://www.youtube.com/watch?v=3TNpOD6bov8",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-08T18:55:18+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 38
+    },
+    {
+      "title": "人类禁止对Claude的“虐待或残忍行为”",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-08T17:08:02+00:00",
+      "source_count": 2,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 33
+    },
+    {
+      "title": "OpenAI 年化收入比之前预测的少 20B 美元",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-08T16:45:58+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 32
     },
     {
       "title": "通过潜在分解进行亚 1 位 LLM 压缩",
@@ -108,12 +154,12 @@
       "site_id": "iris",
       "published_at": "2026-10-08T13:29:46+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 35
+      "hot_score": 24
     },
     {
       "title": "我给了 Opus 5.5 一个提示和六个小时来可视化《看不见的城市》",
@@ -122,21 +168,21 @@
       "site_id": "iris",
       "published_at": "2026-10-08T12:00:20+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 31
+      "hot_score": 21
     },
     {
       "title": "AHM 关于 OpenAI 10 月 6 日发布数学文档的声明",
       "url": "https://www.ahmath.org/statements",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-10-08T09:29:48+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -144,7 +190,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 25
+      "hot_score": 17
     },
     {
       "title": "陶哲轩就OpenAI数学成绩下滑一事作出回应",
@@ -153,14 +199,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-08T06:22:55.707000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 19
+      "hot_score": 13
     }
   ]
 }

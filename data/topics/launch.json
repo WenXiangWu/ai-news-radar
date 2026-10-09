@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T19:55:59.150544+00:00",
+  "generated_at": "2026-10-09T00:21:15.054621+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
@@ -7,13 +7,46 @@
   "total_items": 16,
   "items": [
     {
+      "title": "Tibo 宣布发布 ChatGPT",
+      "url": "https://x.com/thsottiaux/status/2108349826727588000",
+      "source": "X：Tibo (@thsottiaux)",
+      "site_id": "aihot",
+      "published_at": "2026-10-09T00:12:24+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+      "url": "https://x.com/arena/status/2108310714423423254",
+      "source": "X：Arena (@arena)",
+      "site_id": "aihot",
+      "published_at": "2026-10-08T21:36:59+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "v2.1.295",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
       "source": "Claude Code Releases",
       "site_id": "curated_media",
       "published_at": "2026-10-08T19:48:38+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -30,7 +63,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-08T17:20:58.677000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "launch"
@@ -45,7 +78,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-08T16:17:35+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "coding",
@@ -61,7 +94,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-08T13:22:28.375948+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -78,7 +111,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-08T13:22:28.375948+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "launch",
@@ -90,11 +123,11 @@
     {
       "title": "AHM 关于 OpenAI 10 月 6 日发布数学文档的声明",
       "url": "https://www.ahmath.org/statements",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-10-08T09:29:48+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -193,7 +226,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-08T05:39:09+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "launch"
@@ -208,7 +241,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-08T05:03:54+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -225,7 +258,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-08T00:36:00+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -234,37 +267,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Anthropic 发布 Claude Haiku 5.5：具有 100 万上下文的小型模型，售价为每百万输入代币 0.10 美元",
-      "url": "https://www.marktechpost.com/2026/10/07/anthropic-releases-claude-haiku-5-5-a-small-model-with-1m-context-priced-at-0-10-per-million-input-tokens",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-07T20:38:30+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软发布新的 Nvidia 芯片 AI PC，搭载改进的 Windows 11",
-      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-07T20:22:37+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
