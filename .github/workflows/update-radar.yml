@@ -11,6 +11,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   gate:
@@ -172,26 +173,72 @@ jobs:
             exit "$radar_exit"
           fi
 
-      - name: Commit pending group
+      - name: Upload pending group
         if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-pending-${{ matrix.group_id }}
+          path: |
+            data/pending-publish/${{ matrix.group_id }}.json
+            data/workflow-status/update-radar-${{ matrix.group_id }}.json
+          if-no-files-found: ignore
+          retention-days: 1
+
+  record:
+    needs: [gate, fetch]
+    if: always() && needs.gate.outputs.run == 'true' && needs.fetch.result != 'cancelled'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Download pending groups
+        uses: actions/download-artifact@v4
+        with:
+          path: /tmp/radar-pending
+          pattern: radar-pending-*
+          merge-multiple: true
+
+      - name: Commit pending groups
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/pending-publish data/workflow-status || true
+          mkdir -p data/pending-publish data/workflow-status
+          found=0
+          while IFS= read -r -d '' file; do
+            base="$(basename "$file")"
+            case "$base" in
+              update-radar-*.json) dest="data/workflow-status/$base" ;;
+              *.json) dest="data/pending-publish/$base" ;;
+              *) continue ;;
+            esac
+            cp "$file" "$dest"
+            found=1
+          done < <(find /tmp/radar-pending -type f -name '*.json' -print0)
+          if [ "$found" -eq 0 ]; then
+            echo "No pending files"
+            exit 0
+          fi
+          git add data/pending-publish data/workflow-status
           if git diff --cached --quiet; then
             echo "No pending files"
             exit 0
           fi
-          git commit -m "chore: record radar group ${{ matrix.group_id }}"
-          for attempt in 1 2 3; do
-            git push && exit 0
+          git commit -m "chore: record radar groups"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), waiting before rebase"
+            sleep $((attempt * 3))
             git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort || true; exit 1; }
           done
-          git push
+          exit 1
 
   publish:
-    needs: [gate, fetch]
-    if: needs.gate.outputs.run == 'true' && (needs.fetch.result == 'success' || needs.fetch.result == 'failure')
+    needs: [gate, record]
+    if: always() && needs.gate.outputs.run == 'true' && needs.record.result == 'success'
     uses: ./.github/workflows/update-publish.yml
     with:
       owner: radar

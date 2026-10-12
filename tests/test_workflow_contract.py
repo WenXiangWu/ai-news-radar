@@ -46,6 +46,23 @@ def test_publish_follows_finished_fetches_and_is_the_only_gitee_push():
     assert "Way did not pull the new snapshot" in publish
 
 
+def test_radar_groups_upload_and_one_job_commits():
+    radar = Path(".github/workflows/update-radar.yml").read_text(encoding="utf-8")
+    fetch, record_marker, rest = radar.partition("\n  record:\n")
+    assert record_marker
+    record, publish_marker, publish = rest.partition("\n  publish:\n")
+    assert publish_marker
+    assert "git push" not in fetch
+    assert "actions/upload-artifact@v4" in fetch
+    assert "actions: write" in fetch
+    assert "actions/download-artifact@v4" in record
+    assert "git push" in record
+    assert "sleep" in record
+    assert "always() && needs.gate.outputs.run == 'true' && needs.fetch.result != 'cancelled'" in record
+    assert "needs: [gate, record]" in publish
+    assert "always() && needs.gate.outputs.run == 'true' && needs.record.result == 'success'" in publish
+
+
 def test_every_gitee_clone_carries_the_token():
     clones = []
     for path in sorted(Path(".github/workflows").glob("*.yml")):
