@@ -1,0 +1,44 @@
+{
+  "schema": "radar-workflow-status/v1",
+  "workflow_id": "update-radar",
+  "name": "资料抓取",
+  "schedule": "17 1,7,13,19 * * *",
+  "combined_lanes": [],
+  "groups": [
+    "docs-07"
+  ],
+  "run_id": "38200261977",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38200261977",
+  "conclusion": "success",
+  "started_at": "2026-10-12T03:35:23.722156+00:00",
+  "finished_at": "2026-10-12T03:35:23.722156+00:00",
+  "push": {
+    "attempted": false
+  },
+  "sources": [
+    {
+      "source_id": "docs.ragas",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.ragflow",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.spring-ai",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "docs.weaviate",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    }
+  ]
+}
