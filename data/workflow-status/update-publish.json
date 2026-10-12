@@ -5,11 +5,11 @@
   "schedule": "after-fetch",
   "combined_lanes": [],
   "groups": [],
-  "run_id": "38200269535",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38200269535",
+  "run_id": "38206779087",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38206779087",
   "conclusion": "success",
-  "started_at": "2026-10-12T03:49:56.656531+00:00",
-  "finished_at": "2026-10-12T03:49:56.656531+00:00",
+  "started_at": "2026-10-12T06:01:06.889633+00:00",
+  "finished_at": "2026-10-12T06:01:06.889633+00:00",
   "push": {
     "attempted": true,
     "ok": true,
@@ -27,7 +27,82 @@
       "aihubtoday",
       "aibase",
       "aihot",
-      "newsnow"
+      "newsnow",
+      "docs.a2a",
+      "docs.anthropic-skills",
+      "docs.autogen",
+      "docs.chroma",
+      "docs.codex-sdk",
+      "docs.codex",
+      "docs.crewai",
+      "docs.cursor",
+      "docs.deepeval",
+      "docs.dspy",
+      "docs.faiss",
+      "docs.fastmcp",
+      "docs.guardrails-ai",
+      "docs.guidance",
+      "docs.humanlayer",
+      "docs.instructor",
+      "docs.jarvis-registry",
+      "docs.langchain",
+      "docs.langfuse",
+      "docs.letta",
+      "docs.llamaindex",
+      "docs.mem0",
+      "docs.microsoft-agent-framework",
+      "docs.milvus",
+      "docs.neo4j-graphrag",
+      "docs.ollama",
+      "docs.openai-agents-sdk",
+      "docs.opencode-sdk",
+      "docs.opik",
+      "docs.pgvector",
+      "docs.phoenix",
+      "docs.pi-sdk",
+      "docs.pinecone",
+      "docs.pydantic-ai",
+      "docs.qdrant",
+      "docs.ragas",
+      "docs.ragflow",
+      "docs.spring-ai",
+      "docs.weaviate",
+      "source.anthropic.news",
+      "source.chip-huyen.blog",
+      "source.eugene-yan.blog",
+      "source.google.research",
+      "source.hamel.blog",
+      "source.knowledge.anthropic.cookbook",
+      "source.knowledge.anthropic.docs",
+      "source.knowledge.anthropic.engineering",
+      "source.huggingface.blog",
+      "source.interconnects.blog",
+      "source.jxnl.blog",
+      "source.knowledge.langchain.blog",
+      "source.knowledge.llamaindex.docs",
+      "source.knowledge.mcp.docs",
+      "source.knowledge.openai.cookbook",
+      "source.knowledge.openai.docs",
+      "source.latent-space.blog",
+      "source.lilian-weng.blog",
+      "source.microsoft.foundry",
+      "source.nvidia.blog",
+      "source.openai.news",
+      "source.qwen.blog",
+      "source.simon-willison.blog",
+      "wiki.chroma",
+      "wiki.crewai",
+      "wiki.dspy",
+      "wiki.fastmcp",
+      "wiki.jarvis-registry",
+      "wiki.langchain",
+      "wiki.langfuse",
+      "wiki.langgraph",
+      "wiki.llamaindex",
+      "wiki.mem0",
+      "wiki.openai-agents-sdk",
+      "wiki.pydantic-ai",
+      "wiki.qdrant"
     ],
     "by_owner": {
       "update-news": [
@@ -45,6 +120,83 @@
         "aibase",
         "aihot",
         "newsnow"
+      ],
+      "update-radar": [
+        "docs.a2a",
+        "docs.anthropic-skills",
+        "docs.autogen",
+        "docs.chroma",
+        "docs.codex-sdk",
+        "docs.codex",
+        "docs.crewai",
+        "docs.cursor",
+        "docs.deepeval",
+        "docs.dspy",
+        "docs.faiss",
+        "docs.fastmcp",
+        "docs.guardrails-ai",
+        "docs.guidance",
+        "docs.humanlayer",
+        "docs.instructor",
+        "docs.jarvis-registry",
+        "docs.langchain",
+        "docs.langfuse",
+        "docs.letta",
+        "docs.llamaindex",
+        "docs.mem0",
+        "docs.microsoft-agent-framework",
+        "docs.milvus",
+        "docs.neo4j-graphrag",
+        "docs.ollama",
+        "docs.openai-agents-sdk",
+        "docs.opencode-sdk",
+        "docs.opik",
+        "docs.pgvector",
+        "docs.phoenix",
+        "docs.pi-sdk",
+        "docs.pinecone",
+        "docs.pydantic-ai",
+        "docs.qdrant",
+        "docs.ragas",
+        "docs.ragflow",
+        "docs.spring-ai",
+        "docs.weaviate",
+        "source.anthropic.news",
+        "source.chip-huyen.blog",
+        "source.eugene-yan.blog",
+        "source.google.research",
+        "source.hamel.blog",
+        "source.knowledge.anthropic.cookbook",
+        "source.knowledge.anthropic.docs",
+        "source.knowledge.anthropic.engineering",
+        "source.huggingface.blog",
+        "source.interconnects.blog",
+        "source.jxnl.blog",
+        "source.knowledge.langchain.blog",
+        "source.knowledge.llamaindex.docs",
+        "source.knowledge.mcp.docs",
+        "source.knowledge.openai.cookbook",
+        "source.knowledge.openai.docs",
+        "source.latent-space.blog",
+        "source.lilian-weng.blog",
+        "source.microsoft.foundry",
+        "source.nvidia.blog",
+        "source.openai.news",
+        "source.qwen.blog",
+        "source.simon-willison.blog",
+        "wiki.chroma",
+        "wiki.crewai",
+        "wiki.dspy",
+        "wiki.fastmcp",
+        "wiki.jarvis-registry",
+        "wiki.langchain",
+        "wiki.langfuse",
+        "wiki.langgraph",
+        "wiki.llamaindex",
+        "wiki.mem0",
+        "wiki.openai-agents-sdk",
+        "wiki.pydantic-ai",
+        "wiki.qdrant"
       ]
     }
   },
@@ -116,6 +268,381 @@
     },
     {
       "source_id": "newsnow",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.a2a",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.anthropic-skills",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.autogen",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.chroma",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.codex-sdk",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.codex",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.crewai",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.cursor",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.deepeval",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.dspy",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.faiss",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.fastmcp",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.guardrails-ai",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.guidance",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.humanlayer",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.instructor",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.jarvis-registry",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.langchain",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.langfuse",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.letta",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.llamaindex",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.mem0",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.microsoft-agent-framework",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.milvus",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.neo4j-graphrag",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.ollama",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.openai-agents-sdk",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.opencode-sdk",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.opik",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.pgvector",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.phoenix",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.pi-sdk",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.pinecone",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.pydantic-ai",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.qdrant",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.ragas",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.ragflow",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.spring-ai",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "docs.weaviate",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.anthropic.news",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.chip-huyen.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.eugene-yan.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.google.research",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.hamel.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.anthropic.cookbook",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.anthropic.docs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.anthropic.engineering",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.huggingface.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.interconnects.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.jxnl.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.langchain.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.llamaindex.docs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.mcp.docs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.openai.cookbook",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.openai.docs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.latent-space.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.lilian-weng.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.microsoft.foundry",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.nvidia.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.openai.news",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.qwen.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.simon-willison.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.chroma",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.crewai",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.dspy",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.fastmcp",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.jarvis-registry",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.langchain",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.langfuse",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.langgraph",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.llamaindex",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.mem0",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.openai-agents-sdk",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.pydantic-ai",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "wiki.qdrant",
       "status": "success",
       "run_kind": "incremental"
     }
