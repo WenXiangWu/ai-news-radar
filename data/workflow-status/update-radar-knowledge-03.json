@@ -1,0 +1,56 @@
+{
+  "schema": "radar-workflow-status/v1",
+  "workflow_id": "update-radar",
+  "name": "资料抓取",
+  "schedule": "17 1,7,13,19 * * *",
+  "combined_lanes": [],
+  "groups": [
+    "knowledge-03"
+  ],
+  "run_id": "38200261977",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38200261977",
+  "conclusion": "failure",
+  "started_at": "2026-10-12T03:35:24.191583+00:00",
+  "finished_at": "2026-10-12T03:35:24.191583+00:00",
+  "push": {
+    "attempted": false
+  },
+  "sources": [
+    {
+      "source_id": "source.knowledge.langchain.blog",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.langchain.langgraph",
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "llms_txt request failed with HTTP 404 for https://docs.langchain.com/oss/python/langgraph/llms.txt"
+    },
+    {
+      "source_id": "source.knowledge.llamaindex.docs",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.mcp.docs",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.openai.cookbook",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "source.knowledge.openai.docs",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    }
+  ]
+}

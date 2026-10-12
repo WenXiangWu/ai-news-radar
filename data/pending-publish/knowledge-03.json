@@ -1,0 +1,17 @@
+{
+  "schema": "radar-pending-publish/v1",
+  "ready": true,
+  "workflow_id": "update-radar",
+  "group_id": "knowledge-03",
+  "source_ids": [
+    "source.knowledge.langchain.blog",
+    "source.knowledge.llamaindex.docs",
+    "source.knowledge.mcp.docs",
+    "source.knowledge.openai.cookbook",
+    "source.knowledge.openai.docs"
+  ],
+  "excluded": [
+    "source.knowledge.langchain.langgraph"
+  ],
+  "finished_at": "2026-10-12T03:35:24.162041+00:00"
+}
