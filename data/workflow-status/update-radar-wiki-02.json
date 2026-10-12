@@ -1,0 +1,56 @@
+{
+  "schema": "radar-workflow-status/v1",
+  "workflow_id": "update-radar",
+  "name": "资料抓取",
+  "schedule": "17 1,7,13,19 * * *",
+  "combined_lanes": [],
+  "groups": [
+    "wiki-02"
+  ],
+  "run_id": "38206779087",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38206779087",
+  "conclusion": "success",
+  "started_at": "2026-10-12T05:11:41.682994+00:00",
+  "finished_at": "2026-10-12T05:11:41.682994+00:00",
+  "push": {
+    "attempted": false
+  },
+  "sources": [
+    {
+      "source_id": "wiki.langfuse",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.langgraph",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.llamaindex",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.mem0",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.openai-agents-sdk",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    },
+    {
+      "source_id": "wiki.pydantic-ai",
+      "status": "success",
+      "run_kind": "baseline_only",
+      "error": null
+    }
+  ]
+}

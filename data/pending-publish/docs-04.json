@@ -1,0 +1,17 @@
+{
+  "schema": "radar-pending-publish/v1",
+  "ready": true,
+  "workflow_id": "update-radar",
+  "group_id": "docs-04",
+  "source_ids": [
+    "docs.langfuse",
+    "docs.letta",
+    "docs.llamaindex",
+    "docs.mem0",
+    "docs.microsoft-agent-framework"
+  ],
+  "excluded": [
+    "docs.langsmith"
+  ],
+  "finished_at": "2026-10-12T05:11:35.059938+00:00"
+}

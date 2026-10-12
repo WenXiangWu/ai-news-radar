@@ -7,20 +7,20 @@
   "groups": [
     "knowledge-05"
   ],
-  "run_id": "38200261977",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38200261977",
-  "conclusion": "success",
-  "started_at": "2026-10-12T03:35:19.367633+00:00",
-  "finished_at": "2026-10-12T03:35:19.367633+00:00",
+  "run_id": "38206779087",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38206779087",
+  "conclusion": "failure",
+  "started_at": "2026-10-12T05:14:56.100203+00:00",
+  "finished_at": "2026-10-12T05:14:56.100203+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "source.simon-willison.blog",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "partial",
+      "run_kind": "incremental",
+      "error": "https://simonwillison.net/2026/Oct/1/matthew-green/: translation unavailable or failed quality gate"
     }
   ]
 }

@@ -7,50 +7,50 @@
   "groups": [
     "docs-01"
   ],
-  "run_id": "38200261977",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38200261977",
-  "conclusion": "success",
-  "started_at": "2026-10-12T03:35:28.116647+00:00",
-  "finished_at": "2026-10-12T03:35:28.116647+00:00",
+  "run_id": "38206779087",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38206779087",
+  "conclusion": "failure",
+  "started_at": "2026-10-12T05:59:32.226083+00:00",
+  "finished_at": "2026-10-12T05:59:32.226083+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.a2a",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.anthropic-skills",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.autogen",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.chroma",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.codex-sdk",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.codex",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     }
   ]
 }
