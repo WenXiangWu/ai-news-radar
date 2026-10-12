@@ -1,0 +1,16 @@
+{
+  "schema": "radar-pending-publish/v1",
+  "ready": true,
+  "workflow_id": "update-radar",
+  "group_id": "knowledge-02",
+  "source_ids": [
+    "source.knowledge.anthropic.cookbook",
+    "source.knowledge.anthropic.docs",
+    "source.knowledge.anthropic.engineering",
+    "source.huggingface.blog",
+    "source.interconnects.blog",
+    "source.jxnl.blog"
+  ],
+  "excluded": [],
+  "finished_at": "2026-10-12T03:35:50.977528+00:00"
+}
