@@ -1,13 +1,13 @@
 {
   "title": "2026-W42 周报",
   "dates": [
+    "2026-10-13",
     "2026-10-12",
     "2026-10-11",
     "2026-10-10",
     "2026-10-09",
     "2026-10-08",
-    "2026-10-07",
-    "2026-10-06"
+    "2026-10-07"
   ],
   "total_items": 40,
   "items": [
@@ -42,6 +42,21 @@
       "label": "官方更新"
     },
     {
+      "title": "Anthropic 的动态工作流程如何协调 Claude 代理",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T18:18:17+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟",
       "url": "https://openai.com/index/oracle",
       "source": "OpenAI News",
@@ -59,17 +74,30 @@
       "label": "官方更新"
     },
     {
-      "title": "猎鹰阿联酋：当LLM学习方言、文化和细微差别时",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "source": "Hugging Face Blog",
+      "title": "适合初学者的 GitHub Copilot 应用程序：如何向 Copilot 教授您的代码库",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+      "source": "GitHub AI & ML",
       "site_id": "official_ai",
-      "published_at": "2026-10-06T06:44:39+00:00",
+      "published_at": "2026-10-12T17:43:59+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
-        "opensource"
+        "coding"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ReplaySSM：重新思考状态存储以实现更快的混合模型解码",
+      "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T16:00:54+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -128,6 +156,19 @@
         "agent",
         "coding"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在有限的公开预览中推送提交的归因",
+      "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T16:30:11+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -222,17 +263,22 @@
       "label": "官方更新"
     },
     {
-      "title": "安全概览中的代码扫描 AI Scan 启用状态",
-      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T10:23:38+00:00",
-      "source_count": 1,
-      "score": 83,
+      "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "source": "Codex：GitHub Releases（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-12T19:25:54.721000+00:00",
+      "source_count": 4,
+      "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai",
+        "agent",
+        "coding",
+        "launch"
+      ],
       "reason": "",
-      "label": "官方更新"
+      "label": "多源热议"
     },
     {
       "title": "屏幕阅读器可以以列表的形式浏览时间线",
@@ -367,21 +413,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
-      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T06:28:43+00:00",
-      "source_count": 1,
-      "score": 82,
+      "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "source": "Hacker News：AI 热帖",
+      "site_id": "aihot",
+      "published_at": "2026-10-12T12:48:18.792000+00:00",
+      "source_count": 3,
+      "score": 81,
       "official": true,
-      "topics": [
-        "coding",
-        "opensource",
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
-      "label": "官方更新"
+      "label": "多源热议"
     },
     {
       "title": "Claude Haiku 5.5",
@@ -425,32 +467,6 @@
       "topics": [
         "coding"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "秘密扫描添加了 Lovable、Supabase 等探测器",
-      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T22:42:14+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "代理隐私和安全中的开放和紧急问题：上下文角度",
-      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T21:08:31+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -580,23 +596,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.13",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-05T17:51:32+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-12T11:59:23.635340+00:00",
+  "generated_at": "2026-10-12T21:16:53.778378+00:00",
   "period": "2026-W42"
 }
