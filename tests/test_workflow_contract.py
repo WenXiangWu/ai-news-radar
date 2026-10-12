@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 
@@ -19,7 +20,7 @@ def test_news_workflow_does_not_run_radar():
     assert radar.count("- docs-0") == 7
     assert radar.count("- knowledge-0") == 5
     assert radar.count("- wiki-0") == 3
-    assert "GITEE_REPO" not in radar
+    assert "${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" in radar
 
 
 def test_textbook_workflow_is_removed():
@@ -37,9 +38,23 @@ def test_publish_follows_finished_fetches_and_is_the_only_gitee_push():
     assert "cancel-in-progress: false" in publish
     assert "GITEE_REPO" in publish
     assert "GITEE_REPO" not in news
-    assert "GITEE_REPO" not in radar
+    assert 'push origin "HEAD:$branch"' not in radar
     assert "owner: news" in news
     assert "owner: radar" in radar
     assert "WAY_SITE_SYNC_URL" in publish
     assert "secrets.WAY_SITE_SYNC_TOKEN" in publish
     assert "Way did not pull the new snapshot" in publish
+
+
+def test_every_gitee_clone_carries_the_token():
+    clones = []
+    for path in sorted(Path(".github/workflows").glob("*.yml")):
+        text = path.read_text(encoding="utf-8")
+        clones.extend(
+            (path.name, snippet)
+            for snippet in re.findall(r"git clone[\s\S]{0,400}?gitee\.com/\$\{GITEE_REPO\}", text)
+        )
+        assert "https://gitee.com/" not in text
+    assert clones
+    for name, snippet in clones:
+        assert "${GITEE_TOKEN}" in snippet, name

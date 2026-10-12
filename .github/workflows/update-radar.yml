@@ -72,10 +72,20 @@ jobs:
             radar-ledger-${{ matrix.group_id }}
 
       - name: Fetch group
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_REPO: ${{ vars.GITEE_REPO }}
+          GITEE_BRANCH: ${{ vars.GITEE_BRANCH }}
         run: |
           set -euo pipefail
           group="${{ matrix.group_id }}"
-          git clone --depth 1 https://gitee.com/Michaelwwx/way-to-agentic.git /tmp/way
+          if [ -z "${GITEE_TOKEN:-}" ] || [ -z "${GITEE_REPO:-}" ]; then
+            echo "GITEE_TOKEN and GITEE_REPO are required to read the Way registry"
+            exit 1
+          fi
+          branch="${GITEE_BRANCH:-master}"
+          git clone --depth 1 --branch "$branch" \
+            "https://Michaelwwx:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git" /tmp/way
           state="/tmp/radar-ledger-${group}.sqlite3"
           report="/tmp/radar-run-report.json"
           rm -f "$report"
