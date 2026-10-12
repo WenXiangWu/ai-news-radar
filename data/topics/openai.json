@@ -1,19 +1,51 @@
 {
-  "generated_at": "2026-10-09T00:21:15.054621+00:00",
+  "generated_at": "2026-10-12T03:20:47.653362+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 40,
+  "total_items": 9,
   "items": [
     {
-      "title": "Tibo 宣布发布 ChatGPT",
-      "url": "https://x.com/thsottiaux/status/2108349826727588000",
-      "source": "X：Tibo (@thsottiaux)",
-      "site_id": "aihot",
-      "published_at": "2026-10-09T00:12:24+00:00",
+      "title": "AI 购物新玩法引发争议！马斯克称拍信用卡即可下单，遭 OpenAI 高管公开嘲讽",
+      "url": "https://www.aibase.com/news/31549",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-12T03:07:23.597207+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI 给 GPT-6.1 Sol 扩容：默认上下文 272k 飙到 500k，长文本还免费",
+      "url": "https://www.aibase.com/news/31560",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-12T03:07:23.597207+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "OpenAI悄悄挂出未发布生命科学模型gpt-rosalind-discovery，要给药企当\"工具贩子\"",
+      "url": "https://www.aibase.com/news/31554",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-12T03:07:23.597207+00:00",
+      "source_count": 1,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -24,28 +56,13 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenAI、划分原理和数学",
-      "url": "https://karagila.org/2026/openai-pp",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-08T23:29:43+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
-      "url": "https://www.ithome.com/1/010/751.htm",
-      "source": "IT之家·人工智能",
-      "site_id": "aihot",
-      "published_at": "2026-10-08T23:02:44.683000+00:00",
+      "title": "OpenAI给GPT-6.1 Sol扩容记忆：默认上下文顶到 50 万，长文本不再单独计费",
+      "url": "https://www.aibase.com/news/31548",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-12T03:07:23.597207+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "openai",
@@ -55,60 +72,13 @@
       "label": "行业动态"
     },
     {
-      "title": "AI researcher Mikita Balesni says he believes OpenAI fired him, Tomek Korbak, and Jasmine Wang for \"prioritizing safety over the near-term interests of OpenAI\" (Mikita Balesni/@balesni)",
-      "url": "https://www.techmeme.com/261008/p49",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T23:01:29+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Deal Days 终身只需 59.97 美元即可获得 ChatGPT、Claude、Gemini 等",
-      "url": "https://mashable.com/tech/oct-8-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T22:00:00+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic",
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "儿童安全组织称 ChatGPT for Teens 存在不可接受的风险",
-      "url": "https://www.engadget.com/2281719/child-safety-group-calls-chatgpt-for-teens-an-unacceptable-risk",
+      "title": "OpenAI Dot vs. Meta Muse: How do these AI agents compare?",
+      "url": "https://www.engadget.com/2281289/openai-dot-vs-meta-muse-ai-agents-comparison",
       "source": "Engadget",
       "site_id": "techurls",
-      "published_at": "2026-10-08T20:36:46+00:00",
+      "published_at": "2026-10-12T00:00:00+00:00",
       "source_count": 1,
       "score": 51,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "被解雇的 OpenAI 安全研究人员对不当行为指控提出异议，警告会产生寒蝉效应",
-      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-08T20:04:26+00:00",
-      "source_count": 1,
-      "score": 63,
       "official": true,
       "topics": [
         "openai"
@@ -117,228 +87,31 @@
       "label": "值得关注"
     },
     {
-      "title": "ChatGPT 上线【交互 UI】，让每个回答都能交互",
-      "url": "https://waytoagi.feishu.cn/wiki/ST1YwNO0qi3ba0kxfcmcoVP4nUf?from=from_copylink",
-      "source": "社区更新 · 2026-10-08",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-08T19:55:00.864446+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia, Oracle, CoreWeave, and other AI stocks fell after a report that OpenAI's annualized revenue at September's end was $20B less than previously reported (CNBC)",
-      "url": "https://www.techmeme.com/261008/p42",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T19:20:01+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI的年化营收比此前预期的低200亿美元",
-      "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a",
-      "source": "www.ft.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-08T18:40:05.684000+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "据报道 OpenAI 的收入比之前预计少了 200 亿美元",
-      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-08T18:19:42+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
-      "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
-      "source": "The Decoder：AI News（RSS）",
+      "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+      "url": "https://x.com/thsottiaux/status/2109430343346581527",
+      "source": "X：Tibo (@thsottiaux)",
       "site_id": "aihot",
-      "published_at": "2026-10-08T18:17:07+00:00",
+      "published_at": "2026-10-11T23:45:59+00:00",
       "source_count": 1,
-      "score": 78,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 的数学解决方案尚未达到该领域的标准",
-      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-08T18:10:55+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "《今日美国》成为最新一家起诉 OpenAI 的出版商",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-08T17:58:33+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": ".chatgpt 和 .claude 会成为下一代网络域名吗？ ICANN 公布了新增项目的投标",
-      "url": "https://www.techradar.com/pro/could-chatgpt-and-claude-be-the-next-generation-of-web-domains-icann-reveals-bids-for-new-additions",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T17:00:00+00:00",
-      "source_count": 1,
-      "score": 50,
+      "score": 72,
       "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Docs: OpenAI told investors its annualized revenue was nearing $50B at the end of September, well below the $70B reported by media based on investor docs (Financial Times)",
-      "url": "https://www.techmeme.com/261008/p37",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T16:51:53+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 撤回三项数学研究成果",
-      "url": "https://twitter.com/danintheory/status/2108065033070789090",
-      "source": "twitter.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-08T16:48:49.605000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "OpenAI 年化收入比之前预测的少 20B 美元",
-      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-08T16:45:58+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Muse, Instinct, Claude, Grokbot, and ChatGPT (Aisha Malik/TechCrunch)",
-      "url": "https://www.techmeme.com/261008/p36",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T16:25:01+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Hone, founded by former OpenAI and Cognition staffers to create AI agents that can help run a business, raised a $60M seed at a $285M valuation (Bloomberg)",
-      "url": "https://www.techmeme.com/261008/p32",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T16:01:39+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟",
-      "url": "https://openai.com/index/oracle",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T16:00:00+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
       "topics": [
         "openai",
         "agent",
-        "coding"
+        "coding",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
-      "title": "OpenAI刚把多Agent做成产品，o1奠基人却说：1万个Agent解出世界级难题，多Agent贡献不到10%",
-      "url": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-08T14:11:21+00:00",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-11T14:00:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 61,
       "official": false,
       "topics": [
         "openai"
@@ -347,289 +120,35 @@
       "label": "值得关注"
     },
     {
-      "title": "你能相信 Meta 的 Muse 或 OpenAI 的 Dots 来掌控你的生活吗？",
-      "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-      "source": "The Verge",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T14:00:00+00:00",
+      "title": "Microsoft's Nadella bows to Trump's language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic",
+      "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-11T09:08:35+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI圈国庆大动作：DeepSeek拟募 800 亿，OpenAI立下 28 天连更军令状",
-      "url": "https://www.aibase.com/news/31469",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-08T13:22:28.375948+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "deepseek",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "ChatGPT 迎来 GPT-6 与全新智能界面：回答不再只是文字，还能直接生成可交互工具",
-      "url": "https://www.aibase.com/news/31473",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-08T13:22:28.375948+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "美国地方媒体组团起诉微软OpenAI：数万篇文章被喂进模型，一文钱没给",
-      "url": "https://www.aibase.com/news/31466",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-08T13:22:28.375948+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI 撤回了 3 篇数学论文",
-      "url": "https://github.com/openai/math/blob/main/history.md",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-08T13:12:13.889000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai",
-        "paper"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "LegalOn 将 Codex 成本减半，同时保持开发速度",
-      "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T12:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Pollo AI 通过 OpenAI 将创意转化为活动",
-      "url": "https://openai.com/index/pollo-ai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T12:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 聘请了 Cursor 的欧洲主管，这是该公司从 SpaceX 聘请的第二位销售人员",
-      "url": "https://thenextweb.com/news/openai-ismail-elmas-emea-sales-spacex-cursor",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T11:50:29+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ICANN receives 1,615 TLD applications from 481 applicants; Meta, OpenAI, and eight others applied for .agent, seven companies applied for .agi, and six for .asi (David Pierce/The Verge)",
-      "url": "https://www.techmeme.com/261008/p13",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T09:45:00+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AHM 关于 OpenAI 10 月 6 日发布数学文档的声明",
-      "url": "https://www.ahmath.org/statements",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-08T09:29:48+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GPT-6 即将应用于 ChatGPT 的所有级别",
-      "url": "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T08:45:16+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "[AINews] Claude Haiku 5.5 — 在相同价格下优于 GPT-6 Luna",
-      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T07:27:51+00:00",
-      "source_count": 1,
-      "score": 82,
+      "score": 61,
       "official": true,
       "topics": [
         "openai",
         "anthropic"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 在已经震惊的领域释放了数百个数学结果",
-      "url": "https://science.slashdot.org/story/26/10/07/1653233/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-10-08T07:00:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "The Association for Human Mathematics says OpenAI's new math documents show power, not scholarship, and urges mathematicians to stop working with the company (AHM)",
-      "url": "https://www.techmeme.com/261008/p9",
+      "title": "Microsoft unveils Microsoft-Decision-1, a fast decision-scoring model trained on Qwen3.5-9B, and says it will soon rebase it on MAI, OpenAI, and other models (Achint Srivastava/Command Line)",
+      "url": "https://www.techmeme.com/261011/p2",
       "source": "Techmeme",
       "site_id": "techurls",
-      "published_at": "2026-10-08T06:25:07+00:00",
+      "published_at": "2026-10-11T05:05:02+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "陶哲轩就OpenAI数学成绩下滑一事作出回应",
-      "url": "https://mathstodon.xyz/@tao/117395269325940185",
-      "source": "mathstodon.xyz",
-      "site_id": "buzzing",
-      "published_at": "2026-10-08T06:22:55.707000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI 算力需求强劲！博通计划筹集数百亿美元支持 OpenAI 芯片项目",
-      "url": "https://www.aibase.com/news/31457",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-08T05:57:21.783220+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI全量推送GPT-6：聊天框长出交互界面，免费用户也能玩上智能UI",
-      "url": "https://www.aibase.com/news/31451",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-08T05:57:21.783220+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "OpenAI随GPT-6推出“智能UI”，ChatGPT全面升级交互式视觉体验",
-      "url": "https://www.aibase.com/news/31446",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-08T05:57:21.783220+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }
