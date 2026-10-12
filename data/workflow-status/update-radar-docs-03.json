@@ -7,50 +7,50 @@
   "groups": [
     "docs-03"
   ],
-  "run_id": "38206779087",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38206779087",
-  "conclusion": "success",
-  "started_at": "2026-10-12T05:11:43.563273+00:00",
-  "finished_at": "2026-10-12T05:11:43.563273+00:00",
+  "run_id": "38279576180",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38279576180",
+  "conclusion": "failure",
+  "started_at": "2026-10-12T17:13:50.471498+00:00",
+  "finished_at": "2026-10-12T17:13:50.471498+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.guardrails-ai",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "partial",
+      "run_kind": "incremental",
+      "error": "https://www.guardrailsai.com/: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.guidance",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "partial",
+      "run_kind": "incremental",
+      "error": "docs/api.rst: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.humanlayer",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "partial",
+      "run_kind": "incremental",
+      "error": "https://docs.humanlayer.com/explanation/remote-daemons: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.instructor",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.jarvis-registry",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.langchain",
-      "status": "success",
-      "run_kind": "baseline_only",
-      "error": null
+      "status": "failed",
+      "run_kind": "incremental",
+      "error": "operation timed out after 480.00s"
     }
   ]
 }
