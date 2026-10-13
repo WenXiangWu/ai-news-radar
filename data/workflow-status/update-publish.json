@@ -5,11 +5,11 @@
   "schedule": "after-fetch",
   "combined_lanes": [],
   "groups": [],
-  "run_id": "38309485645",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38309485645",
+  "run_id": "38331819796",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38331819796",
   "conclusion": "success",
-  "started_at": "2026-10-12T21:18:29.576820+00:00",
-  "finished_at": "2026-10-12T21:18:29.576820+00:00",
+  "started_at": "2026-10-13T02:13:14.775743+00:00",
+  "finished_at": "2026-10-13T02:13:14.775743+00:00",
   "push": {
     "attempted": true,
     "ok": true,
@@ -33,12 +33,6 @@
       "docs.llamaindex",
       "docs.mem0",
       "docs.microsoft-agent-framework",
-      "source.anthropic.news",
-      "source.chip-huyen.blog",
-      "source.deepmind.blog",
-      "source.eugene-yan.blog",
-      "source.google.research",
-      "source.hamel.blog",
       "source.knowledge.langchain.blog",
       "source.knowledge.llamaindex.docs",
       "source.knowledge.mcp.docs",
@@ -68,12 +62,6 @@
         "docs.llamaindex",
         "docs.mem0",
         "docs.microsoft-agent-framework",
-        "source.anthropic.news",
-        "source.chip-huyen.blog",
-        "source.deepmind.blog",
-        "source.eugene-yan.blog",
-        "source.google.research",
-        "source.hamel.blog",
         "source.knowledge.langchain.blog",
         "source.knowledge.llamaindex.docs",
         "source.knowledge.mcp.docs",
@@ -175,36 +163,6 @@
     },
     {
       "source_id": "docs.microsoft-agent-framework",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.anthropic.news",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.chip-huyen.blog",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.deepmind.blog",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.eugene-yan.blog",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.google.research",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.hamel.blog",
       "status": "success",
       "run_kind": "incremental"
     },
