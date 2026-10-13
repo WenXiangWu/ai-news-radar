@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:16:53.778378+00:00",
+  "generated_at": "2026-10-13T02:48:39.031342+00:00",
   "today": "2026-10-13",
-  "lead": "Anthropic 的动态工作流程如何协调 Claude 代理；适合初学者的 GitHub Copilot 应用程序：如何向 Copilot 教授您的代码库；ReplaySSM：重新思考状态存储以实现更快的混合模型解码",
+  "lead": "langgraph-checkpoint-postgres==3.1.3；Anthropic 的动态工作流程如何协调 Claude 代理；langgraph-checkpoint-sqlite==3.1.2",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,7 +11,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T19:25:54.721000+00:00",
       "source_count": 4,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 97
     },
     {
       "title": "AI编程代理生成的代码更多，但并不意味着生成的软件更多",
@@ -30,42 +30,40 @@
       "site_id": "buzzing",
       "published_at": "2026-10-12T19:09:55.137000+00:00",
       "source_count": 4,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 95
     },
     {
-      "title": "研究机构称Anthropic的IPO是“对投资者轻信程度的史无前例的考验”",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "source": "www.cnbc.com",
+      "title": "人工智能是一种工具。要善用它，需要技巧。",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool",
+      "source": "yyhh.org",
       "site_id": "buzzing",
-      "published_at": "2026-10-12T11:44:08.530000+00:00",
-      "source_count": 4,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 81
-    },
-    {
-      "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
-      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-10-12T12:48:18.792000+00:00",
+      "published_at": "2026-10-12T22:51:56.438000+00:00",
       "source_count": 3,
-      "score": 81,
-      "official": true,
+      "score": 56,
+      "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 59
+      "hot_score": 86
+    },
+    {
+      "title": "凯文·凯利2016年对人工智能的预测，10年后回顾",
+      "url": "https://taylor.town/kk-ai-2026",
+      "source": "taylor.town",
+      "site_id": "buzzing",
+      "published_at": "2026-10-12T21:48:54.856000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 79
     },
     {
       "title": "介绍 OpenFatigue",
@@ -73,13 +71,13 @@
       "source": "openfatigue.ai",
       "site_id": "buzzing",
       "published_at": "2026-10-12T20:46:13.081000+00:00",
-      "source_count": 2,
-      "score": 54,
+      "source_count": 3,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 57
+      "label": "多源热议",
+      "hot_score": 73
     }
   ],
   "topics": [
@@ -88,42 +86,42 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 16
+      "count": 20
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 23
+      "count": 24
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 3
+      "count": 6
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 0
+      "count": 2
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "coding",
@@ -137,21 +135,21 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 10
+      "count": 16
     },
     {
       "slug": "paper",

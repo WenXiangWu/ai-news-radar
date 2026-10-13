@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T21:16:53.778378+00:00",
+  "generated_at": "2026-10-13T02:48:39.031342+00:00",
   "date": "2026-10-13",
   "timezone": "Asia/Shanghai",
-  "lead": "Anthropic 的动态工作流程如何协调 Claude 代理；适合初学者的 GitHub Copilot 应用程序：如何向 Copilot 教授您的代码库；ReplaySSM：重新思考状态存储以实现更快的混合模型解码",
+  "lead": "langgraph-checkpoint-postgres==3.1.3；Anthropic 的动态工作流程如何协调 Claude 代理；langgraph-checkpoint-sqlite==3.1.2",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T19:25:54.721000+00:00",
       "source_count": 4,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -23,7 +23,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 97
     },
     {
       "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
@@ -32,48 +32,30 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T12:48:18.792000+00:00",
       "source_count": 3,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 59
-    },
-    {
-      "title": "研究机构称Anthropic的IPO是“对投资者轻信程度的史无前例的考验”",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "source": "www.cnbc.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T11:44:08.530000+00:00",
-      "source_count": 4,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 81
-    },
-    {
-      "title": "对OpenAI和Anthropic说“不”",
-      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic",
-      "source": "micahflee.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T19:25:54.718000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 37
     }
   ],
   "items": [
+    {
+      "title": "langgraph-checkpoint-postgres==3.1.3",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T23:05:31+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Anthropic 的动态工作流程如何协调 Claude 代理",
       "url": "https://www.latent.space/p/claude-dynamic-workflows",
@@ -81,10 +63,70 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T18:18:17+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-checkpoint-sqlite==3.1.2",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.2",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T22:54:47+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.7",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.7",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T22:54:19+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph==1.2.15",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.15",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T22:38:26+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-checkpoint==4.3.0",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.0",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T22:26:41+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -96,24 +138,11 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T17:43:59+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "coding"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "ReplaySSM：重新思考状态存储以实现更快的混合模型解码",
-      "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T16:00:54+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -124,7 +153,20 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T16:30:11+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ReplaySSM：重新思考状态存储以实现更快的混合模型解码",
+      "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T16:00:54+00:00",
+      "source_count": 1,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -137,7 +179,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T19:25:54.721000+00:00",
       "source_count": 4,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai",
@@ -149,13 +191,26 @@
       "label": "多源热议"
     },
     {
+      "title": "Anonymous organization-level registries for Dependabot",
+      "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T14:04:16+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
       "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
       "source": "Hacker News：AI 热帖",
       "site_id": "aihot",
       "published_at": "2026-10-12T12:48:18.792000+00:00",
       "source_count": 3,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
@@ -168,7 +223,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T18:21:36+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "anthropic",
@@ -184,7 +239,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T09:35:54+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "google",
@@ -200,24 +255,9 @@
       "site_id": "curated_media",
       "published_at": "2026-10-12T15:24:03+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的安德烈·卡帕西 (Andrej Karpathy) 表示，“外部世界已经看到了”人工智能实际能力的预览",
-      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-12T12:51:21+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -228,10 +268,40 @@
       "site_id": "curated_media",
       "published_at": "2026-10-12T15:31:19+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 的安德烈·卡帕西 (Andrej Karpathy) 表示，“外部世界已经看到了”人工智能实际能力的预览",
+      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-12T12:51:21+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+      "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-12T21:41:50+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": true,
+      "topics": [
+        "qwen"
       ],
       "reason": "",
       "label": "值得关注"
@@ -243,26 +313,11 @@
       "site_id": "curated_media",
       "published_at": "2026-10-12T13:00:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "研究机构称Anthropic的IPO是“对投资者轻信程度的史无前例的考验”",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "source": "www.cnbc.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T11:44:08.530000+00:00",
-      "source_count": 4,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议"
     },
     {
       "title": "隆重推出微软最新定制芯片：Maia 300",
@@ -271,101 +326,9 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-12T13:14:40+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "对OpenAI和Anthropic说“不”",
-      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic",
-      "source": "micahflee.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T19:25:54.718000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软总裁警告人工智能比牛奶和洗衣机受到的监管更少",
-      "url": "https://mashable.com/tech/microsoft-brad-smith-ai-regulation-milk",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-10-12T20:35:17+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "人工智能模型可能能够自我复制，无需访问数据中心",
-      "url": "https://www.anthropic.com/research/self-replicating-ai",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-12T19:25:29+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Has OpenAI started the 'mathpocalypse'? Experts say AI's solving of iconic math problems may cause huge issues in the long run",
-      "url": "https://www.techradar.com/pro/has-openai-started-the-mathpocalypse-experts-say-ais-solving-of-iconic-math-problems-may-cause-huge-issues-in-the-long-run",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-12T19:05:00+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Meta 表示，它将推出有史以来最大、最好的人工智能模型",
-      "url": "https://www.businessinsider.com/meta-launches-muse-wonder-series-to-rival-anthropic-openai-models-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-12T18:46:45+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 在都柏林增加了 200 个工作岗位并建立了第二个应用人工智能实验室",
-      "url": "https://thenextweb.com/news/openai-dublin-applied-ai-lab",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-12T18:07:53+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "值得关注"
     }
