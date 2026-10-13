@@ -1,17 +1,17 @@
 {
   "schema": "radar-pending-publish/v1",
-  "ready": false,
+  "ready": true,
   "workflow_id": "update-radar",
   "group_id": "docs-03",
   "source_ids": [
+    "docs.guidance"
+  ],
+  "excluded": [
     "docs.guardrails-ai",
-    "docs.guidance",
     "docs.humanlayer",
     "docs.instructor",
     "docs.jarvis-registry",
     "docs.langchain"
   ],
-  "excluded": [],
-  "finished_at": "2026-10-12T05:11:43.527502+00:00",
-  "published_at": "2026-10-12T06:01:06.844041+00:00"
+  "finished_at": "2026-10-13T15:33:11.330291+00:00"
 }
