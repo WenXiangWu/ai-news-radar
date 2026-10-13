@@ -1,24 +1,56 @@
 {
-  "generated_at": "2026-10-13T10:36:24.101721+00:00",
+  "generated_at": "2026-10-13T23:23:05.253283+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 4,
+  "total_items": 8,
   "items": [
     {
-      "title": "开源项目第233期：Open-XiaoAI — 刷机接管小米小爱音箱，接入 ChatGPT/小智 AI/Gemini Live",
-      "url": "https://juejin.cn/post/7694961880853495808",
+      "title": "Codex 生成 “Claude感”动画skill（已开源）",
+      "url": "https://waytoagi.feishu.cn/wiki/BqDcwbQDMi5loikpW4vceIVInye?from=from_copylink",
+      "source": "社区更新 · 2026-10-13",
+      "site_id": "waytoagi",
+      "published_at": "2026-10-13T22:49:59.251658+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "开源GIS老大翻脸了：两条规定，AI辅助代码彻底出局",
+      "url": "https://juejin.cn/post/7695725609003778111",
       "source": "juejin",
       "site_id": "newsnow",
-      "published_at": "2026-10-13T10:03:33.423000+00:00",
+      "published_at": "2026-10-13T22:36:05.944000+00:00",
       "source_count": 1,
       "score": 52,
       "official": false,
       "topics": [
-        "openai",
-        "google",
         "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-13T19:50:31+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "opensource",
+        "paper"
       ],
       "reason": "",
       "label": "值得关注"
@@ -28,9 +60,9 @@
       "url": "https://www.infoq.cn/article/R7OkT6DCUifdCQqAvwtJ",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-10-13T09:25:00+00:00",
+      "published_at": "2026-10-13T17:25:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "opensource"
@@ -39,31 +71,63 @@
       "label": "值得关注"
     },
     {
-      "title": "Show HN：SolidCraft – Rust 中的开源参数化 CAD（支持 MCP）",
-      "url": "https://github.com/bherbruck/solidcraft",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-13T00:11:04+00:00",
-      "source_count": 2,
-      "score": 52,
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T17:05:48+00:00",
+      "source_count": 1,
+      "score": 85,
       "official": true,
       "topics": [
-        "mcp",
         "opensource"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "官方更新"
     },
     {
-      "title": "我把 Jev 部署到了一个开源Agent Harness中",
-      "url": "https://waytoagi.feishu.cn/wiki/NkknwTOIzimajRkwBepc3KbWnwe?from=from_copylink",
-      "source": "社区更新 · 2026-10-12",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-12T21:15:52.422760+00:00",
+      "title": "Show HN: SolidCraft——基于Rust语言的开源参数化CAD（支持MCP）",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T14:29:01.095000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "site_id": "aihot",
+      "published_at": "2026-10-13T10:29:21+00:00",
       "source_count": 1,
-      "score": 54,
+      "score": 73,
       "official": false,
       "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "开源项目第233期：Open-XiaoAI — 刷机接管小米小爱音箱，接入 ChatGPT/小智 AI/Gemini Live",
+      "url": "https://juejin.cn/post/7694961880853495808",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-13T10:03:33.423000+00:00",
+      "source_count": 1,
+      "score": 49,
+      "official": false,
+      "topics": [
+        "openai",
+        "google",
         "opensource"
       ],
       "reason": "",

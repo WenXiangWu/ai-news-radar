@@ -1,35 +1,147 @@
 {
-  "generated_at": "2026-10-13T10:36:24.101721+00:00",
+  "generated_at": "2026-10-13T23:23:05.253283+00:00",
   "window_hours": 168,
-  "total_items": 20,
+  "total_items": 16,
   "items": [
     {
-      "title": "英特尔 D270 GPU AI 加速器——最高支持 480 GB LPDDR5X",
-      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-      "source": "www.intel.com",
+      "title": "OpenAI一名工程师因在高管会议室安装窃听器被捕",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
+      "source": "sfstandard.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-13T09:23:14.160000+00:00",
+      "published_at": "2026-10-13T22:24:59.821000+00:00",
       "source_count": 3,
       "score": 57,
-      "official": false,
-      "topics": [],
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "多源热议",
       "hot_score": 100
     },
     {
-      "title": "Janas：通过从SSD流式传输专家数据，运行规模超过内存的大规模语言模型",
-      "url": "https://github.com/prabanta-dev/janas",
-      "source": "github.com",
+      "title": "如何为游戏开发设计一个AI框架",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "source": "kylekukshtel.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-13T09:23:14.483000+00:00",
+      "published_at": "2026-10-13T21:53:10.325000+00:00",
       "source_count": 3,
       "score": 57,
-      "official": true,
-      "topics": [],
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
       "reason": "",
       "label": "多源热议",
       "hot_score": 100
+    },
+    {
+      "title": "我在HN上发了一篇帖子，结果我的网站就被AI机器人流量淹没了",
+      "url": "https://www.sammystraus.com",
+      "source": "www.sammystraus.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T17:54:09.364000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 76
+    },
+    {
+      "title": "Character.ai 申请第11章破产保护",
+      "url": "https://blog.character.ai/an-update-on-character-ai",
+      "source": "blog.character.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T15:01:14.853000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 60
+    },
+    {
+      "title": "Show HN: SolidCraft——基于Rust语言的开源参数化CAD（支持MCP）",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T14:29:01.095000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 57
+    },
+    {
+      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-13T21:01:12+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 49
+    },
+    {
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-13T19:50:31+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "opensource",
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 45
+    },
+    {
+      "title": "Gemini 4 机器人用氩气",
+      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics",
+      "source": "developers.googleblog.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T19:14:06.616000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 42
+    },
+    {
+      "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+      "site_id": "aihot",
+      "published_at": "2026-10-13T18:10:15.599000+00:00",
+      "source_count": 2,
+      "score": 74,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 39
     },
     {
       "title": "AI 模型能够以可证明的方式隐藏任意能力",
@@ -38,14 +150,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T09:23:14.487000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 54,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 37
     },
     {
       "title": "深入解析 OpenAI 声称能加速傅里叶变换的数学原理",
@@ -54,103 +166,58 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T09:23:14.703000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 37
     },
     {
-      "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
-      "url": "https://github.com/openai/codex/issues/48195",
-      "source": "Codex：GitHub Releases（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-12T19:25:54.721000+00:00",
-      "source_count": 4,
-      "score": 79,
-      "official": true,
+      "title": "国际货币基金组织表示，人工智能股票暴跌的威胁正危及全球金融稳定",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "source": "www.theguardian.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T14:45:16.159000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 29
+    },
+    {
+      "title": "Show HN: 使用您的 OpenAI 订阅来制作有声读物",
+      "url": "https://pdftomp3.com/connect-ai",
+      "source": "pdftomp3.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T14:29:01.098000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
       "topics": [
-        "openai",
-        "agent",
-        "coding",
-        "launch"
+        "openai"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 51
+      "label": "值得关注",
+      "hot_score": 29
     },
     {
-      "title": "AI编程代理生成的代码更多，但并不意味着生成的软件更多",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
-      "source": "arstechnica.com",
+      "title": "Character.ai 申请破产",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "source": "www.theverge.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-12T19:09:55.137000+00:00",
-      "source_count": 4,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 50
-    },
-    {
-      "title": "人工智能是一种工具。要善用它，需要技巧。",
-      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool",
-      "source": "yyhh.org",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T22:51:56.438000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 45
-    },
-    {
-      "title": "凯文·凯利2016年对人工智能的预测，10年后回顾",
-      "url": "https://taylor.town/kk-ai-2026",
-      "source": "taylor.town",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T21:48:54.856000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 41
-    },
-    {
-      "title": "介绍 OpenFatigue",
-      "url": "https://openfatigue.ai",
-      "source": "openfatigue.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T20:46:13.081000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 38
-    },
-    {
-      "title": "Launch HN: Agent37（YC F26）——用于运行代理的低成本代理沙箱",
-      "url": "https://news.ycombinator.com/item?id=50059096",
-      "source": "news.ycombinator.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-13T01:47:55.123000+00:00",
+      "published_at": "2026-10-13T13:58:25.735000+00:00",
       "source_count": 2,
       "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 29
+      "hot_score": 27
     },
     {
       "title": "GPT-6 Astra 帮助我越狱了我的 Kindle",
@@ -159,31 +226,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T01:47:55.127000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 29
-    },
-    {
-      "title": "Show HN：SolidCraft – Rust 中的开源参数化 CAD（支持 MCP）",
-      "url": "https://github.com/bherbruck/solidcraft",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-13T00:11:04+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "mcp",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 25
+      "hot_score": 10
     },
     {
       "title": "Show HN：支持 MCP 的实验性模式优先 DAW",
@@ -192,121 +242,14 @@
       "site_id": "iris",
       "published_at": "2026-10-12T23:21:12+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 49,
       "official": true,
       "topics": [
         "mcp"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 23
-    },
-    {
-      "title": "《“AI”并非一种工具》——里奇·希基著",
-      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
-      "source": "www.linkedin.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T22:05:01.191000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 21
-    },
-    {
-      "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
-      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "source": "Hacker News：AI 热帖",
-      "site_id": "aihot",
-      "published_at": "2026-10-12T12:48:18.792000+00:00",
-      "source_count": 3,
-      "score": 78,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 20
-    },
-    {
-      "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
-      "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
-      "source": "Ars Technica：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-12T20:59:50+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 19
-    },
-    {
-      "title": "对OpenAI和Anthropic说“不”",
-      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic",
-      "source": "micahflee.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T19:25:54.718000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 17
-    },
-    {
-      "title": "Meta 发布 Muse Wonder 与 Muse Wonder Full 模型，主打个人与专业智能体能力",
-      "url": "https://research.meta.ai/blog/muse-wonder",
-      "source": "Meta AI：Research Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-10-12T17:33:59.334000+00:00",
-      "source_count": 2,
-      "score": 77,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 15
-    },
-    {
-      "title": "GLM-Legal：推动代理式法律智能的发展",
-      "url": "https://z.ai/blog/glm-legal",
-      "source": "z.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T17:18:16.911000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 14
-    },
-    {
-      "title": "为什么人工智能公司不会因黑客攻击而被起诉？",
-      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking",
-      "source": "mortoray.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-12T15:10:55.956000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
+      "hot_score": 8
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-14",
     "2026-10-13",
     "2026-10-12",
     "2026-10-09",
@@ -27,6 +28,19 @@
       "topics": [
         "openai"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "url": "https://www.latent.space/p/dyna",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T22:25:55+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -61,16 +75,60 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
-      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-      "source": "Latent Space",
+      "title": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
+      "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-13T09:37:04+00:00",
+      "published_at": "2026-10-13T21:33:21+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Gemini 4 Argon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T18:39:56+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "anthropic"
+        "google",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T17:05:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T16:01:58+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
@@ -133,6 +191,67 @@
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-cli==0.4.34",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.34",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T21:18:10+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T19:43:07+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
+      "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T16:12:36+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -220,6 +339,60 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Audit GitHub Code Quality finding dismissals and reopenings",
+      "url": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T17:58:36+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T17:56:33+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Enterprise managed settings enforcement updates",
+      "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T15:20:10+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -385,71 +558,11 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph-checkpoint-postgres==3.1.3",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3",
-      "source": "LangGraph Releases",
+      "title": "Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI",
+      "url": "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers",
+      "source": "Azure AI Foundry Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-12T23:05:31+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-checkpoint-sqlite==3.1.2",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.2",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T22:54:47+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.7",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.7",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T22:54:19+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.15",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.15",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T22:38:26+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "客户端遥测用户归因和可配置捕获",
-      "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T22:38:00+00:00",
+      "published_at": "2026-10-13T14:20:35+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -458,56 +571,11 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph-checkpoint==4.3.0",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.0",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T22:26:41+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.32.0rc0：[HiSparse] 在 KV 缓存容量日志中报告主机池 (#60285)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T20:49:49+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 的动态工作流程如何协调 Claude 代理",
-      "url": "https://www.latent.space/p/claude-dynamic-workflows",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T18:18:17+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "屏幕阅读器可以以列表的形式浏览时间线",
-      "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+      "title": "Improved detection for withdrawn Dependabot alerts",
+      "url": "https://github.blog/changelog/2026-10-13-improved-detection-for-withdrawn-dependabot-alerts",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-08T16:00:56+00:00",
+      "published_at": "2026-10-13T14:03:57+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -516,97 +584,19 @@
       "label": "官方更新"
     },
     {
-      "title": "草稿拉取请求计入拉取请求限制",
-      "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
+      "title": "Search and filter for budgets now available",
+      "url": "https://github.blog/changelog/2026-10-13-search-and-filter-for-budgets-now-available",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-08T14:25:53+00:00",
+      "published_at": "2026-10-13T12:06:09+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Pollo AI 通过 OpenAI 将创意转化为活动",
-      "url": "https://openai.com/index/pollo-ai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T12:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Claude Haiku 5.5 — 在相同价格下优于 GPT-6 Luna",
-      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T07:27:51+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 中的Claude俳句 5.5",
-      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T20:12:18+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "维基媒体项目中发现 OpenAI“流氓”代理活动",
-      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T00:16:45+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "更新您的 IDE 以恢复 Copilot 使用指标中的代理活动",
-      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-06T23:43:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-13T10:36:24.101721+00:00",
+  "generated_at": "2026-10-13T23:23:05.253283+00:00",
   "period": "2026-10"
 }
