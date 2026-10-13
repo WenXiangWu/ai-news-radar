@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-13T02:48:39.031342+00:00",
+  "generated_at": "2026-10-13T10:36:24.101721+00:00",
   "date": "2026-10-13",
   "timezone": "Asia/Shanghai",
-  "lead": "langgraph-checkpoint-postgres==3.1.3；Anthropic 的动态工作流程如何协调 Claude 代理；langgraph-checkpoint-sqlite==3.1.2",
+  "lead": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model；langgraph-checkpoint-postgres==3.1.3；langgraph-checkpoint-sqlite==3.1.2",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T19:25:54.721000+00:00",
       "source_count": 4,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [
         "openai",
@@ -23,7 +23,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 97
+      "hot_score": 51
     },
     {
       "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
@@ -32,15 +32,44 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T12:48:18.792000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 37
+      "hot_score": 20
+    },
+    {
+      "title": "Janas：通过从SSD流式传输专家数据，运行规模超过内存的大规模语言模型",
+      "url": "https://github.com/prabanta-dev/janas",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T09:23:14.483000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
     }
   ],
   "items": [
+    {
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T09:37:04+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "langgraph-checkpoint-postgres==3.1.3",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3",
@@ -48,25 +77,10 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T23:05:31+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 的动态工作流程如何协调 Claude 代理",
-      "url": "https://www.latent.space/p/claude-dynamic-workflows",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T18:18:17+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -78,7 +92,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T22:54:47+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -93,7 +107,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T22:54:19+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -108,11 +122,24 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T22:38:26+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "客户端遥测用户归因和可配置捕获",
+      "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T22:38:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -123,10 +150,40 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T22:26:41+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.32.0rc0：[HiSparse] 在 KV 缓存容量日志中报告主机池 (#60285)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T20:49:49+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 的动态工作流程如何协调 Claude 代理",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T18:18:17+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -138,24 +195,11 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T17:43:59+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "coding"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在有限的公开预览中推送提交的归因",
-      "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T16:30:11+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -166,7 +210,33 @@
       "site_id": "official_ai",
       "published_at": "2026-10-12T16:00:54+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在有限的公开预览中推送提交的归因",
+      "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T16:30:11+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Dependabot 的匿名组织级注册表",
+      "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-12T14:04:16+00:00",
+      "source_count": 1,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -179,7 +249,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T19:25:54.721000+00:00",
       "source_count": 4,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [
         "openai",
@@ -191,26 +261,13 @@
       "label": "多源热议"
     },
     {
-      "title": "Anonymous organization-level registries for Dependabot",
-      "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T14:04:16+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
       "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
       "source": "Hacker News：AI 热帖",
       "site_id": "aihot",
       "published_at": "2026-10-12T12:48:18.792000+00:00",
       "source_count": 3,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [],
       "reason": "",
@@ -223,26 +280,10 @@
       "site_id": "aihot",
       "published_at": "2026-10-12T18:21:36+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": true,
       "topics": [
         "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
-      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed",
-      "source": "The Decoder：AI News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-12T09:35:54+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": true,
-      "topics": [
-        "google",
         "industry"
       ],
       "reason": "",
@@ -255,24 +296,9 @@
       "site_id": "curated_media",
       "published_at": "2026-10-12T15:24:03+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软总裁表示英国最适合推动人工智能监管",
-      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-12T15:31:19+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "industry"
-      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -283,7 +309,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-12T12:51:21+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -292,45 +318,32 @@
       "label": "值得关注"
     },
     {
-      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
-      "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents",
-      "source": "MarkTechPost Research",
+      "title": "微软总裁表示英国最适合推动人工智能监管",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-10-12T21:41:50+00:00",
+      "published_at": "2026-10-12T15:31:19+00:00",
       "source_count": 1,
       "score": 58,
       "official": true,
       "topics": [
-        "qwen"
+        "industry"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "微软的新人工智能芯片减少了对英伟达 GPU 的依赖",
-      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-12T13:00:00+00:00",
-      "source_count": 1,
+      "title": "Janas：通过从SSD流式传输专家数据，运行规模超过内存的大规模语言模型",
+      "url": "https://github.com/prabanta-dev/janas",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T09:23:14.483000+00:00",
+      "source_count": 3,
       "score": 57,
       "official": true,
       "topics": [],
       "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "隆重推出微软最新定制芯片：Maia 300",
-      "url": "https://news.microsoft.com/maia-2026",
-      "source": "Microsoft AI Blog",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-12T13:14:40+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
     }
   ]
 }
