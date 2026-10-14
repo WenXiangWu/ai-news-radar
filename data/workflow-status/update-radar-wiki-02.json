@@ -7,11 +7,11 @@
   "groups": [
     "wiki-02"
   ],
-  "run_id": "38611655666",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38611655666",
+  "run_id": "38646774744",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38646774744",
   "conclusion": "failure",
-  "started_at": "2026-10-14T18:03:46.781519+00:00",
-  "finished_at": "2026-10-14T18:03:46.781519+00:00",
+  "started_at": "2026-10-14T22:20:47.052358+00:00",
+  "finished_at": "2026-10-14T22:20:47.052358+00:00",
   "push": {
     "attempted": false
   },
@@ -38,19 +38,19 @@
       "source_id": "wiki.mem0",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/mem0ai/mem0"
+      "error": ".github/AGENTS.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/mem0ai/mem0/.github/AGENTS"
     },
     {
       "source_id": "wiki.openai-agents-sdk",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/openai/openai-agents-python"
+      "error": ".agents/references/README.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/openai/openai-agents-python/.agents/references/README"
     },
     {
       "source_id": "wiki.pydantic-ai",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/pydantic/pydantic-ai"
+      "error": ".agents/skills/add-new-model/SKILL.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/pydantic/pydantic-ai/.agents/skills/add-new-model/SKILL"
     }
   ]
 }

@@ -7,20 +7,20 @@
   "groups": [
     "knowledge-01"
   ],
-  "run_id": "38611655666",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38611655666",
+  "run_id": "38646774744",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38646774744",
   "conclusion": "failure",
-  "started_at": "2026-10-14T18:30:44.577916+00:00",
-  "finished_at": "2026-10-14T18:30:44.577916+00:00",
+  "started_at": "2026-10-14T22:49:09.104186+00:00",
+  "finished_at": "2026-10-14T22:49:09.104186+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "source.anthropic.news",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "https://www.anthropic.com/news/2026-usage-policy-update: translation unavailable or failed quality gate"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "source.chip-huyen.blog",
