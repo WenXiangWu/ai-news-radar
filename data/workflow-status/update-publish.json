@@ -5,11 +5,11 @@
   "schedule": "after-fetch",
   "combined_lanes": [],
   "groups": [],
-  "run_id": "38480349883",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38480349883",
+  "run_id": "38483269613",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38483269613",
   "conclusion": "success",
-  "started_at": "2026-10-13T23:24:40.917995+00:00",
-  "finished_at": "2026-10-13T23:24:40.917995+00:00",
+  "started_at": "2026-10-14T00:07:56.001606+00:00",
+  "finished_at": "2026-10-14T00:07:56.001606+00:00",
   "push": {
     "attempted": true,
     "ok": true,
@@ -28,17 +28,11 @@
       "aibase",
       "aihot",
       "newsnow",
-      "docs.guidance",
       "docs.langfuse",
       "docs.letta",
       "docs.llamaindex",
       "docs.mem0",
-      "docs.microsoft-agent-framework",
-      "source.knowledge.langchain.blog",
-      "source.knowledge.llamaindex.docs",
-      "source.knowledge.mcp.docs",
-      "source.knowledge.openai.cookbook",
-      "source.knowledge.openai.docs"
+      "docs.microsoft-agent-framework"
     ],
     "by_owner": {
       "update-news": [
@@ -58,17 +52,11 @@
         "newsnow"
       ],
       "update-radar": [
-        "docs.guidance",
         "docs.langfuse",
         "docs.letta",
         "docs.llamaindex",
         "docs.mem0",
-        "docs.microsoft-agent-framework",
-        "source.knowledge.langchain.blog",
-        "source.knowledge.llamaindex.docs",
-        "source.knowledge.mcp.docs",
-        "source.knowledge.openai.cookbook",
-        "source.knowledge.openai.docs"
+        "docs.microsoft-agent-framework"
       ]
     }
   },
@@ -144,11 +132,6 @@
       "run_kind": "incremental"
     },
     {
-      "source_id": "docs.guidance",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
       "source_id": "docs.langfuse",
       "status": "success",
       "run_kind": "incremental"
@@ -170,31 +153,6 @@
     },
     {
       "source_id": "docs.microsoft-agent-framework",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.knowledge.langchain.blog",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.knowledge.llamaindex.docs",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.knowledge.mcp.docs",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.knowledge.openai.cookbook",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "source.knowledge.openai.docs",
       "status": "success",
       "run_kind": "incremental"
     }
