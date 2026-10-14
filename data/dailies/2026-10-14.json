@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-10-13T23:23:05.253283+00:00",
+  "generated_at": "2026-10-14T02:23:48.228433+00:00",
   "date": "2026-10-14",
   "timezone": "Asia/Shanghai",
-  "lead": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics；How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents；Gemini 4 Argon in GitHub Copilot",
+  "lead": "llm-gemini 0.35；Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics；GitHub App improvements for least privilege and management",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [],
   "items": [
+    {
+      "title": "llm-gemini 0.35",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T22:28:54+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
       "url": "https://www.latent.space/p/dyna",
@@ -14,7 +29,20 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T22:25:55+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub App improvements for least privilege and management",
+      "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T23:17:55+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [],
       "reason": "",
@@ -27,70 +55,9 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T21:33:21+00:00",
       "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Gemini 4 Argon in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-13T18:39:56+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "google",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-13T17:05:48+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-10-13T16:01:58+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-cli==0.4.34",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.34",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-13T21:18:10+00:00",
-      "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -110,13 +77,74 @@
       "label": "官方更新"
     },
     {
+      "title": "Gemini 4 Argon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T18:39:56+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T17:05:48+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T16:01:58+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-cli==0.4.34",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.34",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T21:18:10+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
       "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-10-13T16:12:36+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "anthropic"
@@ -131,7 +159,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T16:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "google",
@@ -147,7 +175,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T17:58:36+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -160,7 +188,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T17:56:33+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -173,24 +201,9 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T15:20:10+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-13T12:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -221,13 +234,28 @@
       "label": "官方更新"
     },
     {
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-13T12:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Search and filter for budgets now available",
       "url": "https://github.blog/changelog/2026-10-13-search-and-filter-for-budgets-now-available",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-10-13T12:06:09+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -240,7 +268,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T12:03:17+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -253,38 +281,10 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T09:37:04+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T23:58:46+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-checkpoint-postgres==3.1.3",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T23:05:31+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"

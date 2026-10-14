@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T23:23:05.253283+00:00",
+  "generated_at": "2026-10-14T02:23:48.228433+00:00",
   "window_hours": 24,
   "total_items": 15,
   "items": [
@@ -10,14 +10,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T22:24:59.821000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 86
     },
     {
       "title": "如何为游戏开发设计一个AI框架",
@@ -26,14 +26,30 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T21:53:10.325000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 82
+    },
+    {
+      "title": "Anthropic 的源代码管理重构",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-13T18:10:15.599000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 60
     },
     {
       "title": "我在HN上发了一篇帖子，结果我的网站就被AI机器人流量淹没了",
@@ -42,12 +58,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T17:54:09.364000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 76
+      "hot_score": 59
     },
     {
       "title": "Character.ai 申请第11章破产保护",
@@ -56,28 +72,40 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T15:01:14.853000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 47
     },
     {
-      "title": "Show HN: SolidCraft——基于Rust语言的开源参数化CAD（支持MCP）",
-      "url": "https://github.com/bherbruck/solidcraft",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-13T14:29:01.095000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "url": "https://pulseos.finance",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-13T23:13:23+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 57
+      "label": "值得关注",
+      "hot_score": 46
+    },
+    {
+      "title": "Physical Intelligence API Beta: Frontier Models for Every Robot",
+      "url": "https://www.pi.website/blog/api-beta",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-13T21:55:25+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 41
     },
     {
       "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
@@ -86,12 +114,12 @@
       "site_id": "iris",
       "published_at": "2026-10-13T21:01:12+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 38
     },
     {
       "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
@@ -100,7 +128,7 @@
       "site_id": "iris",
       "published_at": "2026-10-13T19:50:31+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "opensource",
@@ -108,7 +136,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 45
+      "hot_score": 35
     },
     {
       "title": "Gemini 4 机器人用氩气",
@@ -117,31 +145,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T19:14:06.616000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "google"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 42
-    },
-    {
-      "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-      "site_id": "aihot",
-      "published_at": "2026-10-13T18:10:15.599000+00:00",
-      "source_count": 2,
-      "score": 74,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态",
-      "hot_score": 39
+      "hot_score": 33
     },
     {
       "title": "AI 模型能够以可证明的方式隐藏任意能力",
@@ -150,14 +161,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T09:23:14.487000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 37
+      "hot_score": 29
     },
     {
       "title": "深入解析 OpenAI 声称能加速傅里叶变换的数学原理",
@@ -166,14 +177,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T09:23:14.703000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 37
+      "hot_score": 29
     },
     {
       "title": "国际货币基金组织表示，人工智能股票暴跌的威胁正危及全球金融稳定",
@@ -182,12 +193,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T14:45:16.159000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 29
+      "hot_score": 23
     },
     {
       "title": "Show HN: 使用您的 OpenAI 订阅来制作有声读物",
@@ -196,14 +207,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-13T14:29:01.098000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 29
+      "hot_score": 22
     },
     {
       "title": "Character.ai 申请破产",
@@ -217,23 +228,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
-    },
-    {
-      "title": "GPT-6 Astra 帮助我越狱了我的 Kindle",
-      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
-      "source": "nirajrajgor.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-13T01:47:55.127000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
+      "hot_score": 21
     }
   ]
 }
