@@ -1,11 +1,75 @@
 {
-  "generated_at": "2026-10-14T13:43:31.294888+00:00",
+  "generated_at": "2026-10-14T19:07:16.729150+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 12,
+  "total_items": 14,
   "items": [
+    {
+      "title": "v2.1.300",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-14T18:24:25+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-14T16:43:24+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "langgraph-cli==0.4.35",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T16:11:12+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Filing: OpenAI says a staffer who joined Apple sent 100+ files to a personal account and made a presentation about an unreleased product to Apple leadership (Reuters)",
+      "url": "https://www.techmeme.com/261014/p32",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-14T15:45:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "阶跃终端发布首款Agent手机STEPX Neo，大模型接管手机操作系统",
       "url": "https://www.aibase.com/news/31642",
@@ -13,7 +77,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-14T13:42:25.046456+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "launch",
@@ -29,7 +93,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-14T10:21:09+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic",
@@ -46,7 +110,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-14T07:50:40+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
         "launch"
@@ -61,7 +125,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-14T07:36:14.576084+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "google",
@@ -78,11 +142,42 @@
       "site_id": "curated_media",
       "published_at": "2026-10-14T02:49:42+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review",
+      "source": "Google Research：Blog（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-10-14T00:00:00+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "xAI 发布 Grok Voice 3.0 语音模型",
+      "url": "https://x.ai/news/grok-voice-3",
+      "source": "xAI：News（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-10-14T00:00:00+00:00",
+      "source_count": 1,
+      "score": 71,
+      "official": false,
+      "topics": [
         "launch"
       ],
       "reason": "",
@@ -95,7 +190,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-13T22:53:44+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "launch"
@@ -110,7 +205,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-13T21:18:10+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -125,73 +220,10 @@
       "site_id": "techurls",
       "published_at": "2026-10-13T18:58:39+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌表示 Gemini 4 Argon 是一款“强大”的人工智能模型，任何人都可以付费购买",
-      "url": "https://thenextweb.com/news/gemini-4-argon-public-release",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-13T18:12:35+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-13T16:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "谷歌终于发布Gemini 4 Argon",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-      "source": "The Verge",
-      "site_id": "techurls",
-      "published_at": "2026-10-13T16:00:00+00:00",
-      "source_count": 1,
       "score": 47,
       "official": true,
       "topics": [
         "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软发布 Maia 300 AI 芯片，致力于减少对 Nvidia 的依赖",
-      "url": "https://hardware.slashdot.org/story/26/10/13/0443232/microsoft-reveals-maia-300-ai-chip-as-it-works-to-reduce-dependence-on-nvidia",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-10-13T15:00:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
         "launch"
       ],
       "reason": "",
