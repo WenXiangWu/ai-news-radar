@@ -7,11 +7,11 @@
   "groups": [
     "docs-07"
   ],
-  "run_id": "38483269613",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38483269613",
+  "run_id": "38520656766",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38520656766",
   "conclusion": "failure",
-  "started_at": "2026-10-13T23:47:58.263563+00:00",
-  "finished_at": "2026-10-13T23:47:58.263563+00:00",
+  "started_at": "2026-10-14T06:25:26.373806+00:00",
+  "finished_at": "2026-10-14T06:25:26.373806+00:00",
   "push": {
     "attempted": false
   },
@@ -32,13 +32,13 @@
       "source_id": "docs.spring-ai",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/spring-projects/spring-ai/git/trees/main"
     },
     {
       "source_id": "docs.weaviate",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/weaviate/docs/git/trees/main"
     }
   ]
 }
