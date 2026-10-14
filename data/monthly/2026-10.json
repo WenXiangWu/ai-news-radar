@@ -33,6 +33,22 @@
       "label": "官方更新"
     },
     {
+      "title": "跨越门槛：OpenAI 和 Anthropic 如何实现金融代理的自主性和安全性",
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T21:40:52+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "一个模型系列，两项黄金级成果：针对 IOI 和 IMO 微调 Nemotron",
       "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
       "source": "Hugging Face Blog",
@@ -58,36 +74,6 @@
       "official": true,
       "topics": [
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-14T16:12:42+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
-      "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-14T16:10:45+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "agent"
       ],
       "reason": "",
       "label": "官方更新"
@@ -170,11 +156,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges",
-      "source": "Google Research Blog",
+      "title": "以计算速度进行的循环实验室 — Ian Quigley，Leash Bio",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-14T16:14:00+00:00",
+      "published_at": "2026-10-14T20:35:09+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -183,11 +169,24 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph-cli==0.4.35",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35",
+      "title": "HydraFusion 更新和新的 Max 选项",
+      "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T20:01:35+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-checkpoint-postgres==3.2.0",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.0",
       "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-14T16:11:12+00:00",
+      "published_at": "2026-10-14T19:54:57+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -198,44 +197,31 @@
       "label": "官方更新"
     },
     {
-      "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
-      "url": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl",
-      "source": "Azure AI Foundry Blog",
+      "title": "HiRO-ACEv2：以 3 公里分辨率模拟极端天气，而成本仅为一小部分",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-14T15:38:56+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-14T12:00:00+00:00",
+      "published_at": "2026-10-14T16:12:42+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "url": "https://openai.com/index/sentinelone",
-      "source": "OpenAI News",
+      "title": "使用 NVIDIA NeMo Gym 优化芯片设计的代理可靠性和工具调用效率",
+      "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-14T12:00:00+00:00",
+      "published_at": "2026-10-14T16:10:45+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "agent"
       ],
       "reason": "",
       "label": "官方更新"
@@ -282,23 +268,6 @@
       "label": "官方更新"
     },
     {
-      "title": "适用于 iOS 的 ChatGPT 1.2026.272",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "v0.5.21",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
       "source": "SGLang Releases",
@@ -327,11 +296,11 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Actions workflow lockfiles in public preview",
-      "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
-      "source": "GitHub Changelog",
+      "title": "让地球人工智能发挥作用：地理空间代理应对地球面临的最大挑战",
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges",
+      "source": "Google Research Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-14T13:49:15+00:00",
+      "published_at": "2026-10-14T16:14:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -340,16 +309,59 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 纽约 AI 工程师：Gemini 4 Argon、Vals AI 基准测试",
-      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
-      "source": "Latent Space",
+      "title": "langgraph-cli==0.4.35",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-14T05:40:28+00:00",
+      "published_at": "2026-10-14T16:11:12+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "google"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "从提取到行动：利用基础和信心来构建可靠的文档工作流程",
+      "url": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T15:38:56+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -516,6 +528,19 @@
       "label": "官方更新"
     },
     {
+      "title": "GitHub Actions workflow lockfiles in public preview",
+      "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T13:49:15+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
       "url": "https://openai.com/index/third-moment-research",
       "source": "OpenAI News",
@@ -531,11 +556,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Gemini 4 Argon 用于机器人",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
-      "source": "Google DeepMind",
+      "title": "[AINews] 纽约 AI 工程师：Gemini 4 Argon、Vals AI 基准测试",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-13T16:01:58+00:00",
+      "published_at": "2026-10-14T05:40:28+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -546,66 +571,36 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph-checkpoint-postgres==3.1.3",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3",
-      "source": "LangGraph Releases",
+      "title": "GPT-5.5 retirement in Codex",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-12T23:05:31+00:00",
+      "published_at": "2026-10-14T00:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "launch"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "langgraph-checkpoint-sqlite==3.1.2",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.2",
-      "source": "LangGraph Releases",
+      "title": "如何使用 AI 代理重写 Apache Spark UDF 以实现 GPU 加速",
+      "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-12T22:54:47+00:00",
+      "published_at": "2026-10-13T21:33:21+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.7",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.7",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T22:54:19+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.15",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.15",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-12T22:38:26+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-14T19:07:16.729150+00:00",
+  "generated_at": "2026-10-14T22:19:11.461587+00:00",
   "period": "2026-10"
 }

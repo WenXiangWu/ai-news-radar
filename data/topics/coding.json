@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T19:07:16.729150+00:00",
+  "generated_at": "2026-10-14T22:19:11.461587+00:00",
   "slug": "coding",
   "label": "AI 编码",
   "group": "tech",
   "blurb": "编码助手与开发工作流",
-  "total_items": 8,
+  "total_items": 7,
   "items": [
     {
       "title": "据称 OpenAI 间谍使用其妻子的聊天机器人帐户对监控设备进行了振动编码",
@@ -13,7 +13,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-14T12:37:05+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai",
@@ -40,13 +40,30 @@
       "label": "值得关注"
     },
     {
+      "title": "GPT-5.5 retirement in Codex",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Day 9/ We've rolled out optimizations to how we store state on disk for the chatgpt &amp; codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power u...",
       "url": "https://x.com/thsottiaux/status/2110151780478927344",
       "source": "Follow Builders · X · Thibault Sottiaux",
       "site_id": "followbuilders",
       "published_at": "2026-10-13T23:32:43+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "openai",
@@ -105,38 +122,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Visual Studio Copilot 与 SSMS 远程代码执行漏洞（CVE-2026-103572）技术分析",
-      "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution",
-      "source": "Johann Rehberger / Embrace The Red（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-13T22:00:40+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Gemini 4 Argon in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-13T18:39:56+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "google",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
