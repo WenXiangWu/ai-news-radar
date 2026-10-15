@@ -7,11 +7,11 @@
   "groups": [
     "docs-03"
   ],
-  "run_id": "38646774744",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38646774744",
+  "run_id": "38689440737",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38689440737",
   "conclusion": "failure",
-  "started_at": "2026-10-14T22:37:25.342158+00:00",
-  "finished_at": "2026-10-14T22:37:25.342158+00:00",
+  "started_at": "2026-10-15T06:24:22.246766+00:00",
+  "finished_at": "2026-10-15T06:24:22.246766+00:00",
   "push": {
     "attempted": false
   },
@@ -24,9 +24,9 @@
     },
     {
       "source_id": "docs.guidance",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/guidance-ai/guidance/git/trees/main"
+      "error": "docs/api.rst: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.humanlayer",
@@ -44,7 +44,7 @@
       "source_id": "docs.jarvis-registry",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/ascending-llc/jarvis-registry/git/trees/main"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.langchain",
