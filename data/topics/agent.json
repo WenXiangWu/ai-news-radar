@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-10-14T22:19:11.461587+00:00",
+  "generated_at": "2026-10-15T01:42:18.641174+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 23,
+  "total_items": 18,
   "items": [
+    {
+      "title": "借助 Codex 和可视化工作流，从调研到完整实现，3D 大屏竟然可以这么简单",
+      "url": "https://juejin.cn/post/7695939202564997154",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-15T01:28:34.721000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
       "url": "https://x.com/lydiahallie/status/2110484841926152622",
@@ -13,7 +29,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-14T21:36:11+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "anthropic",
@@ -46,7 +62,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-14T18:24:25+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -63,7 +79,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-14T16:34:53+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -78,7 +94,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-14T16:10:45+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "agent"
@@ -102,16 +118,18 @@
       "label": "值得关注"
     },
     {
-      "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
-      "url": "https://www.infoq.cn/article/PuGS7Qxy4AFOal4wVR22",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-14T14:52:06+00:00",
+      "title": "Show HN: Merlin, Run Your Claude Code and Codex from Slack, Linear and GitHub",
+      "url": "https://usemerlin.ai",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-14T14:13:33+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 49,
       "official": false,
       "topics": [
-        "agent"
+        "anthropic",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -123,7 +141,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-14T13:25:05.078000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -139,7 +157,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-14T13:24:07.108000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "agent"
@@ -154,7 +172,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-14T12:15:14+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai",
@@ -203,12 +221,27 @@
       "site_id": "newsnow",
       "published_at": "2026-10-14T07:17:31.174000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
+      "url": "https://www.infoq.cn/article/PuGS7Qxy4AFOal4wVR22",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-14T06:52:06+00:00",
+      "source_count": 1,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -220,7 +253,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-14T03:10:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -253,122 +286,6 @@
       "published_at": "2026-10-14T01:54:23.118071+00:00",
       "source_count": 1,
       "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "GPT-5.5 retirement in Codex",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-14T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
-      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review",
-      "source": "Google Research：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-10-14T00:00:00+00:00",
-      "source_count": 1,
-      "score": 77,
-      "official": true,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Day 9/ We've rolled out optimizations to how we store state on disk for the chatgpt &amp; codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power u...",
-      "url": "https://x.com/thsottiaux/status/2110151780478927344",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-13T23:32:43+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex 生成 “Claude感”动画skill（已开源）",
-      "url": "https://waytoagi.feishu.cn/wiki/BqDcwbQDMi5loikpW4vceIVInye?from=from_copylink",
-      "source": "社区更新 · 2026-10-13",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-13T22:49:59.251658+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex 软件开发完整工作流，1:1 复刻任何软件（REA+PentAGI+ReverseSkill）",
-      "url": "https://waytoagi.feishu.cn/wiki/YlcQwzSD6iCJnXkdxn8cifsmnfg?from=from_copylink",
-      "source": "社区更新 · 2026-10-13",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-13T22:49:59.251658+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "给Codex装上这3个Skill，让它从理工男变成专属视觉设计师",
-      "url": "https://waytoagi.feishu.cn/wiki/In4cwfJ1viv6FXk7N7bcLTWPnSd?from=from_copylink",
-      "source": "社区更新 · 2026-10-13",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-13T22:49:59.251658+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999",
-      "url": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-13T22:26:45+00:00",
-      "source_count": 1,
-      "score": 53,
       "official": false,
       "topics": [
         "agent"

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T22:19:11.461587+00:00",
+  "generated_at": "2026-10-15T01:42:18.641174+00:00",
   "today": "2026-10-15",
-  "lead": "跨越门槛：OpenAI 和 Anthropic 如何实现金融代理的自主性和安全性；以计算速度进行的循环实验室 — Ian Quigley，Leash Bio；HydraFusion 更新和新的 Max 选项",
+  "lead": "proto-v0.6.0；v0.32.0rc1: [Dependency] Update Humming and remove NVFP4 scale workaround (#61556)；跨越门槛：OpenAI 和 Anthropic 如何实现金融代理的自主性和安全性",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,12 +11,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-14T18:34:59.291000+00:00",
       "source_count": 4,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 99
     },
     {
       "title": "Anthropic公司的《Scion》深受《幽灵公主》的影响",
@@ -25,14 +25,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-14T21:27:45.913000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 84
     },
     {
       "title": "各家银行目前正试图甩掉它们刚刚承销的AI数据中心债务",
@@ -41,12 +41,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-14T20:09:59.240000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 76
     },
     {
       "title": "林纳斯·托瓦兹首个由大型语言模型辅助的补丁系列",
@@ -60,7 +60,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 92
+      "hot_score": 69
     },
     {
       "title": "为什么LLM鹈鹕长这样？",
@@ -69,12 +69,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-14T17:46:41.285000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 82
+      "hot_score": 62
     }
   ],
   "topics": [
@@ -90,14 +90,14 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 24
+      "count": 27
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 14
+      "count": 11
     },
     {
       "slug": "deepseek",
@@ -111,49 +111,49 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 23
+      "count": 18
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 4
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 8
+      "count": 5
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 16
+      "count": 18
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "industry",
