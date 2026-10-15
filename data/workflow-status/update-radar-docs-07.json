@@ -7,11 +7,11 @@
   "groups": [
     "docs-07"
   ],
-  "run_id": "38689440737",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38689440737",
+  "run_id": "38736448159",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38736448159",
   "conclusion": "failure",
-  "started_at": "2026-10-15T06:26:42.950115+00:00",
-  "finished_at": "2026-10-15T06:26:42.950115+00:00",
+  "started_at": "2026-10-15T12:51:52.182324+00:00",
+  "finished_at": "2026-10-15T12:51:52.182324+00:00",
   "push": {
     "attempted": false
   },
@@ -26,19 +26,19 @@
       "source_id": "docs.ragflow",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/infiniflow/ragflow/git/trees/main"
     },
     {
       "source_id": "docs.spring-ai",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/spring-projects/spring-ai/git/trees/main"
     },
     {
       "source_id": "docs.weaviate",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/weaviate/docs/git/trees/main"
     }
   ]
 }
