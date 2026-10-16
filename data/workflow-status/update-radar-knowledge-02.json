@@ -7,11 +7,11 @@
   "groups": [
     "knowledge-02"
   ],
-  "run_id": "38858099456",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38858099456",
+  "run_id": "38900542730",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38900542730",
   "conclusion": "failure",
-  "started_at": "2026-10-16T06:34:21.616955+00:00",
-  "finished_at": "2026-10-16T06:34:21.616955+00:00",
+  "started_at": "2026-10-16T13:07:53.910147+00:00",
+  "finished_at": "2026-10-16T13:07:53.910147+00:00",
   "push": {
     "attempted": false
   },
@@ -48,9 +48,9 @@
     },
     {
       "source_id": "source.jxnl.blog",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://jxnl.co/writing/2025/09/11/coding-series-index/: translation unavailable or failed quality gate"
     }
   ]
 }
