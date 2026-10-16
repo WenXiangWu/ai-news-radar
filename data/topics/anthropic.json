@@ -1,11 +1,134 @@
 {
-  "generated_at": "2026-10-16T16:37:26.926215+00:00",
+  "generated_at": "2026-10-16T20:10:02.002760+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 29,
+  "total_items": 23,
   "items": [
+    {
+      "title": "克劳德揭示了ECDSA曲线的起源",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-16T19:28:45.361000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
+      "url": "https://x.com/adocomplete/status/2111171735806767558",
+      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+      "site_id": "aihot",
+      "published_at": "2026-10-16T19:05:40+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Code 团队如何进行代码审查",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-16T19:04:47+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-16T18:11:42+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-16T18:00:18+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Shyam Sankar, CTO of Palantir, Says AI Researchers Have Started Smoking Because They’re Convinced AI (Claude, Probably) Is Going to Cure Cancer",
+      "url": "https://daringfireball.net/linked/2026/10/16/sankar-ai-researchers-smoking",
+      "source": "Daring Fireball",
+      "site_id": "techurls",
+      "published_at": "2026-10-16T17:01:22+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Thousands of specialized engineers deployed by AWS, Anthropic to prove AI is worth the investment",
+      "url": "https://www.techradar.com/pro/thousands-of-specialized-engineers-deployed-by-aws-anthropic-to-prove-ai-is-worth-the-investment",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-16T17:00:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Trump’s AI task force starts work and tells labs to report rogue behaviour",
+      "url": "https://thenextweb.com/news/super-intelligence-force-charter-first-meeting-anthropic",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-16T16:33:10+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "埃森哲将员工Claude的支出上限限制为每月 29 美元，404 媒体报道",
       "url": "https://thenextweb.com/news/accenture-claude-29-a-month-cap",
@@ -13,7 +136,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T16:02:42+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
@@ -28,7 +151,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T15:00:14+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -45,7 +168,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-16T14:34:47+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
@@ -75,7 +198,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T13:11:55+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
@@ -90,7 +213,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T13:00:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -115,29 +238,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Claude Code 团队如何进行代码审查",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-16T10:20:48+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "问 HN：有人反编译过 Claude 代码吗？",
       "url": "https://news.ycombinator.com/item?id=50115119",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-16T07:09:04+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -152,7 +259,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T06:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -168,7 +275,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-16T05:50:22.236823+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -184,7 +291,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-16T05:50:22.236823+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -200,7 +307,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-16T00:54:07.827000+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -216,7 +323,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-15T22:45:17+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -231,7 +338,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-15T21:20:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic"
@@ -253,207 +360,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "FTC 因安全故障向 OpenAI 和 Anthropic 发出传票",
-      "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-10-15T19:28:53+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.301",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-15T19:22:06+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 让 METR 研究人员通过员工级别的访问权限了解幕后情况",
-      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-15T19:14:26+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 对人工智能模仿者的打击可能会损害其收入增长",
-      "url": "https://www.businessinsider.com/anthropic-ai-copycats-distillation-revenue-growth-ipo-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-15T19:04:45+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 刚刚向外部安全监管机构敞开了大门。下面是它的工作原理。",
-      "url": "https://www.businessinsider.com/anthropic-ai-safety-watchdogs-metr-dario-amodei-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-15T18:55:46+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "关于Anthropic的《Scion》抄袭《幽灵公主》的更多报道",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke-2",
-      "source": "sunshowers.io",
-      "site_id": "buzzing",
-      "published_at": "2026-10-15T18:29:59.207000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "'还不够好。一切都结束了：人工智能的厄运正在从 Anthropic 的收入数据上揭晓",
-      "url": "https://www.businessinsider.com/anthropic-revenue-ipo-ai-doomer-tech-investing-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-15T18:03:59+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN：刚刚给了 Claude Code 网站和广告预算，看看它会做什么",
-      "url": "https://snitch.alphaventure.com/gate.php",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-15T18:00:51+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "埃森哲要求员工每月仅在Claude身上花费 29 美元",
-      "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-15T17:57:38+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. Really excited to partner with Gray...",
-      "url": "https://x.com/bcherny/status/2110791698611855624",
-      "source": "Follow Builders · X · Boris Cherny",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-15T17:55:32+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Memo: Accenture has told many employees, some of whom had been spending as much as $1,000 monthly, that it will now only spend $29 a month per person on Claude (Joseph Cox/404 Media)",
-      "url": "https://www.techmeme.com/261015/p42",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-15T17:50:39+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic says it is giving employee-like access to METR as part of its pledge to partner with evaluators for assessment of its models and safety practices (Anthropic)",
-      "url": "https://www.techmeme.com/261015/p41",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-15T17:46:31+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "独立评估员的最新情况",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-15T17:30:10+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }

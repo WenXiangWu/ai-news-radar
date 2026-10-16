@@ -1,11 +1,90 @@
 {
-  "generated_at": "2026-10-16T16:37:26.926215+00:00",
+  "generated_at": "2026-10-16T20:10:02.002760+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 14,
+  "total_items": 15,
   "items": [
+    {
+      "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
+      "url": "https://x.com/adocomplete/status/2111171735806767558",
+      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+      "site_id": "aihot",
+      "published_at": "2026-10-16T19:05:40+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Claude Code 团队如何进行代码审查",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-16T19:04:47+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "An OpenAI Research Agent 'Stole' Test Ethereum to Finish a Coding Task",
+      "url": "https://slashdot.org/story/26/10/16/167204/an-openai-research-agent-stole-test-ethereum-to-finish-a-coding-task",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计",
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-16T17:52:24+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
       "url": "https://www.a16z.news/p/this-week-in-charts-agents-denied",
@@ -16,11 +95,10 @@
       "score": 72,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "OpenAI 研究人员“窃取”以太坊测试来完成编码任务",
@@ -29,7 +107,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T12:50:24+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -104,22 +182,6 @@
       "label": "值得关注"
     },
     {
-      "title": "Claude Code 团队如何进行代码审查",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-16T10:20:48+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "我将自己的生活外包给人工智能代理两周。事情变得……很奇怪。",
       "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent",
       "source": "Recode",
@@ -142,7 +204,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-15T21:27:02.252387+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "agent"
@@ -177,55 +239,6 @@
       "topics": [
         "agent",
         "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.301",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-15T19:22:06+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布",
-      "url": "https://x.com/arena/status/2110797782953132049",
-      "source": "X：Arena (@arena)",
-      "site_id": "aihot",
-      "published_at": "2026-10-15T18:19:42+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Show HN：刚刚给了 Claude Code 网站和广告预算，看看它会做什么",
-      "url": "https://snitch.alphaventure.com/gate.php",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-15T18:00:51+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T16:37:26.926215+00:00",
+  "generated_at": "2026-10-16T20:10:02.002760+00:00",
   "date": "2026-10-17",
   "timezone": "Asia/Shanghai",
-  "lead": "Slack 和 Microsoft Teams 中 GitHub Copilot 的多存储库支持和其他改进；开源许可证合规性已普遍可用；扩展 Indic 预训练：2.8 万亿代币和开放数据生成管道",
+  "lead": "Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计；Slack 和 Microsoft Teams 中 GitHub Copilot 的多存储库支持和其他改进；langgraph-cli==0.4.36",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -20,10 +20,25 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 18
+      "hot_score": 14
     }
   ],
   "items": [
+    {
+      "title": "Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计",
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Slack 和 Microsoft Teams 中 GitHub Copilot 的多存储库支持和其他改进",
       "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
@@ -40,13 +55,28 @@
       "label": "官方更新"
     },
     {
+      "title": "langgraph-cli==0.4.36",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-16T16:39:14+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "开源许可证合规性已普遍可用",
       "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-10-16T14:00:32+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "opensource"
@@ -61,10 +91,25 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T01:44:47+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -76,24 +121,9 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T04:36:30+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "欢迎光束：您可以拥有、定制和扩展的 501B 开放模型",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -111,15 +141,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Microsoft Foundry 的新增功能 | 2026 年 9 月",
-      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026",
-      "source": "Azure AI Foundry Blog",
+      "title": "欢迎光束：您可以拥有、定制和扩展的 501B 开放模型",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-16T02:04:50+00:00",
+      "published_at": "2026-10-16T00:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -139,17 +171,15 @@
       "label": "官方更新"
     },
     {
-      "title": "将 GPT-Rosalind 引入学术研究实验室",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "source": "OpenAI News",
+      "title": "Microsoft Foundry 的新增功能 | 2026 年 9 月",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026",
+      "source": "Azure AI Foundry Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-15T19:00:00+00:00",
+      "published_at": "2026-10-16T02:04:50+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -175,54 +205,28 @@
       "site_id": "official_ai",
       "published_at": "2026-10-15T20:11:26+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "即将于 11 月中旬弃用选定的 GitHub Copilot 模型",
-      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-15T19:35:13+00:00",
+      "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
+      "url": "https://x.com/adocomplete/status/2111171735806767558",
+      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+      "site_id": "aihot",
+      "published_at": "2026-10-16T19:05:40+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 75,
       "official": true,
       "topics": [
-        "coding"
+        "anthropic",
+        "agent",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Super VL 通过多模态推理为专业代理提供支持",
-      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-15T18:01:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 Meta 的 Muse Spark Open 在 NVIDIA GB300 NVL72 上扩展代理编码工作流程",
-      "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-15T18:00:01+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
@@ -231,7 +235,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-16T12:00:00+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "industry"
@@ -246,7 +250,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T16:30:00+00:00",
       "source_count": 1,
-      "score": 65,
+      "score": 64,
       "official": true,
       "topics": [
         "openai"
@@ -261,7 +265,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T16:30:00+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [],
       "reason": "",
@@ -274,7 +278,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T15:03:46+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "google"
@@ -289,7 +293,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T13:15:09+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -304,7 +308,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T13:11:55+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
