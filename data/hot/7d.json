@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-10-17T18:30:29.378366+00:00",
+  "generated_at": "2026-10-17T21:27:56.037812+00:00",
   "window_hours": 168,
-  "total_items": 11,
+  "total_items": 9,
   "items": [
+    {
+      "title": "OpenAI披露了另外四起违规事件",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "source": "fortune.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T19:22:11.943000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "亚马逊利用人工智能监测英国仓库的工会风险",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield",
+      "source": "www.opendemocracy.net",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T18:34:06.954000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 94
+    },
     {
       "title": "Show HN: Llmspeed——在购买硬件之前，先体验一下本地 LLM 的运行速度",
       "url": "https://llmspeed.dev",
@@ -15,7 +45,24 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 69
+      "hot_score": 54
+    },
+    {
+      "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-17T18:48:08+00:00",
+      "source_count": 2,
+      "score": 67,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
     },
     {
       "title": "DeepSeek：DeepSeek v4.1 Flash 1017",
@@ -24,44 +71,32 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T10:06:14.023000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 47
     },
     {
-      "title": "OpenAI又披露了四起流氓事件",
-      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "title": "Codex 正在占用我的 Mac 磁盘空间",
+      "url": "https://github.com/openai/codex/issues/25921",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-17T16:31:12+00:00",
+      "published_at": "2026-10-17T17:45:08+00:00",
       "source_count": 2,
       "score": 54,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "亚马逊使用人工智能监控英国仓库的工会风险",
-      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-17T16:04:23+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 44
     },
     {
       "title": "编程的未来——A.I.沃瑟曼和 S.古茨 (1982)",
@@ -70,12 +105,12 @@
       "site_id": "iris",
       "published_at": "2026-10-17T11:20:52+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 33
+      "hot_score": 26
     },
     {
       "title": "DeepSeek-v4.1-Flash-1017",
@@ -92,68 +127,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 28
-    },
-    {
-      "title": "你完全可以凭记忆发明出变形金刚",
-      "url": "https://alexwang.ai/posts/associative-memory",
-      "source": "alexwang.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-17T00:00:23.665000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 26
-    },
-    {
-      "title": "Claude Code 团队如何进行代码审查",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-      "source": "claude.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T21:20:46.796000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 21
-    },
-    {
-      "title": "克劳德揭示了ECDSA曲线的起源",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T19:28:45.361000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 18
-    },
-    {
-      "title": "FLUX 3 图片 克莱因",
-      "url": "https://bfl.ai/blog/flux-3-image-klein",
-      "source": "bfl.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-17T00:48:15.026000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 14
+      "hot_score": 22
     },
     {
       "title": "苹果更新的应用商店规则针对“裸露”人工智能应用",
@@ -167,7 +141,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 12
+      "hot_score": 9
     }
   ]
 }

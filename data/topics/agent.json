@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-10-17T18:30:29.378366+00:00",
+  "generated_at": "2026-10-17T21:27:56.037812+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 8,
+  "total_items": 5,
   "items": [
+    {
+      "title": "Codex 正在占用我的 Mac 磁盘空间",
+      "url": "https://github.com/openai/codex/issues/25921",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-17T17:45:08+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "从Cursor到Codex，从Skills到Harness：AI编程正在经历第三次范式迁移",
       "url": "https://juejin.cn/post/7672696268489408575",
@@ -29,7 +46,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T04:50:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
@@ -67,72 +84,6 @@
       "topics": [
         "anthropic",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Code 团队如何进行代码审查",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-      "source": "claude.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T21:20:46.796000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "v2.1.302",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T20:53:06+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
-      "url": "https://x.com/adocomplete/status/2111171735806767558",
-      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-      "site_id": "aihot",
-      "published_at": "2026-10-16T19:05:40+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 研究代理“窃取”以太坊测试来完成编码任务",
-      "url": "https://slashdot.org/story/26/10/16/167204/an-openai-research-agent-stole-test-ethereum-to-finish-a-coding-task",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-10-16T19:00:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

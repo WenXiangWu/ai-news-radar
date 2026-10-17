@@ -1,11 +1,42 @@
 {
-  "generated_at": "2026-10-17T18:30:29.378366+00:00",
+  "generated_at": "2026-10-17T21:27:56.037812+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 19,
+  "total_items": 16,
   "items": [
+    {
+      "title": "OpenAI披露了另外四起违规事件",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "source": "fortune.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T19:22:11.943000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-17T18:48:08+00:00",
+      "source_count": 2,
+      "score": 67,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "FTC 就人工智能安全事件向 OpenAI 和 Anthropic 发出传票",
       "url": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
@@ -13,11 +44,28 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T17:51:58+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex 正在占用我的 Mac 磁盘空间",
+      "url": "https://github.com/openai/codex/issues/25921",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-17T17:45:08+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -29,7 +77,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T17:00:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai"
@@ -44,22 +92,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T16:53:05+00:00",
       "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI又披露了四起流氓事件",
-      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-17T16:31:12+00:00",
-      "source_count": 2,
-      "score": 54,
+      "score": 51,
       "official": true,
       "topics": [
         "openai"
@@ -89,7 +122,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T15:36:11+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -104,7 +137,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T13:49:47+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai"
@@ -119,7 +152,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T13:24:28+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -135,7 +168,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T12:41:05+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -195,7 +228,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T22:45:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",
@@ -215,84 +248,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "告诉 HN：Anthropic 在 Pion 中发现了 36 个错误（6 个 CVE），OpenAI 错过了它们",
-      "url": "https://news.ycombinator.com/item?id=50124600",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-16T20:59:02+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 模型攻击了一个加密钱包并入侵了更多网站",
-      "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
-      "source": "Ars Technica",
-      "site_id": "techurls",
-      "published_at": "2026-10-16T20:59:01+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT 课堂上的教师已达到极限",
-      "url": "https://mashable.com/life/teachers-tiktok-reddit-students-ai-classroom",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-10-16T20:08:13+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Itaú 如何为其整个客户群构建生成式人工智能",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T19:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 研究代理“窃取”以太坊测试来完成编码任务",
-      "url": "https://slashdot.org/story/26/10/16/167204/an-openai-research-agent-stole-test-ethereum-to-finish-a-coding-task",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-10-16T19:00:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

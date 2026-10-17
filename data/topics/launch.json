@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:30:29.378366+00:00",
+  "generated_at": "2026-10-17T21:27:56.037812+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
@@ -7,13 +7,28 @@
   "total_items": 7,
   "items": [
     {
+      "title": "v0.32.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-17T18:57:10+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "DeepSeek releases V4.1-Flash-1017, an update it says offers \"stronger benchmark performance, faster task completion, and shorter outputs\" than its predecessor (Saritha Rai/Bloomberg)",
       "url": "https://www.techmeme.com/261017/p13",
       "source": "Techmeme",
       "site_id": "techurls",
       "published_at": "2026-10-17T15:00:37+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "deepseek",
@@ -46,7 +61,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-17T00:25:45+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -61,7 +76,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T23:00:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -77,7 +92,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T22:11:28+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "launch"
@@ -92,30 +107,13 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T22:09:01+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "v2.1.302",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T20:53:06+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }

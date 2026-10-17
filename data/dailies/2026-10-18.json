@@ -1,11 +1,44 @@
 {
-  "generated_at": "2026-10-17T18:30:29.378366+00:00",
+  "generated_at": "2026-10-17T21:27:56.037812+00:00",
   "date": "2026-10-18",
   "timezone": "Asia/Shanghai",
-  "lead": "Meta 震撼了开放与封闭的边界；[AINews] 高品味测试者 Ep. 1；v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
+  "lead": "v0.32.0；Meta 震撼了开放与封闭的边界；[AINews] 高品味测试者 Ep. 1",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-17T18:48:08+00:00",
+      "source_count": 2,
+      "score": 67,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
+    },
+    {
+      "title": "OpenAI披露了另外四起违规事件",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "source": "fortune.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T19:22:11.943000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "DeepSeek：DeepSeek v4.1 Flash 1017",
       "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
@@ -13,63 +46,32 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T10:06:14.023000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 47
     },
     {
-      "title": "OpenAI又披露了四起流氓事件",
-      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "title": "Codex 正在占用我的 Mac 磁盘空间",
+      "url": "https://github.com/openai/codex/issues/25921",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-17T16:31:12+00:00",
+      "published_at": "2026-10-17T17:45:08+00:00",
       "source_count": 2,
       "score": 54,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "Claude Code 团队如何进行代码审查",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-      "source": "claude.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T21:20:46.796000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 21
-    },
-    {
-      "title": "克劳德揭示了ECDSA曲线的起源",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T19:28:45.361000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 18
+      "hot_score": 44
     },
     {
       "title": "DeepSeek-v4.1-Flash-1017",
@@ -86,10 +88,25 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 28
+      "hot_score": 22
     }
   ],
   "items": [
+    {
+      "title": "v0.32.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-17T18:57:10+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Meta 震撼了开放与封闭的边界",
       "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
@@ -110,7 +127,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-17T07:47:38+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -123,7 +140,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-17T00:25:45+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -138,7 +155,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T22:11:28+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "launch"
@@ -153,7 +170,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T22:09:01+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "launch"
@@ -162,32 +179,32 @@
       "label": "官方更新"
     },
     {
-      "title": "Itaú 如何为其整个客户群构建生成式人工智能",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T19:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
+      "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-17T18:48:08+00:00",
+      "source_count": 2,
+      "score": 67,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "anthropic"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "值得关注"
     },
     {
-      "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
-      "url": "https://x.com/adocomplete/status/2111171735806767558",
-      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-      "site_id": "aihot",
-      "published_at": "2026-10-16T19:05:40+00:00",
+      "title": "Anthropic 表示，其员工队伍的初级人员数量已有所减少，花在会议上的时间也越来越多",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-17T20:21:19+00:00",
       "source_count": 1,
-      "score": 70,
+      "score": 63,
       "official": true,
       "topics": [
-        "anthropic",
-        "agent"
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -199,7 +216,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T14:42:56+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -214,7 +231,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T15:36:11+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -229,7 +246,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T10:33:28+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "deepseek"
@@ -253,36 +270,19 @@
       "label": "值得关注"
     },
     {
-      "title": "Replit 首席执行官表示不再与 Anthropic 合作",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T21:22:28+00:00",
-      "source_count": 1,
-      "score": 59,
+      "title": "OpenAI披露了另外四起违规事件",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "source": "fortune.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T19:22:11.943000+00:00",
+      "source_count": 3,
+      "score": 57,
       "official": true,
       "topics": [
-        "anthropic"
+        "openai"
       ],
       "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.302",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T20:53:06+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
     },
     {
       "title": "DeepSeek：DeepSeek v4.1 Flash 1017",
@@ -291,7 +291,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T10:06:14.023000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "deepseek"
@@ -300,50 +300,21 @@
       "label": "多源热议"
     },
     {
-      "title": "OpenAI又披露了四起流氓事件",
-      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "title": "Codex 正在占用我的 Mac 磁盘空间",
+      "url": "https://github.com/openai/codex/issues/25921",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-17T16:31:12+00:00",
+      "published_at": "2026-10-17T17:45:08+00:00",
       "source_count": 2,
       "score": 54,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Claude Code 团队如何进行代码审查",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-      "source": "claude.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T21:20:46.796000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "克劳德揭示了ECDSA曲线的起源",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T19:28:45.361000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议"
     },
     {
       "title": "DeepSeek-v4.1-Flash-1017",
@@ -362,13 +333,39 @@
       "label": "值得关注"
     },
     {
+      "title": "随着 CNN 和 FT 的加入，谷歌的人工智能新闻试点项目已增至 400 种出版物",
+      "url": "https://thenextweb.com/news/google-news-ai-pilot-400-publications-cnn-ft",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-17T19:21:18+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Microsoft's Maia 300 swaps raw compute for a 2.5x memory bandwidth gain as it moves to make in-house silicon its main AI engine while claiming a 40% efficiency bump — could going the Google route be the pin that pops the Nvidia AI bubble?",
+      "url": "https://www.techradar.com/pro/microsofts-maia-300-swaps-raw-compute-for-a-2-5x-memory-bandwidth-gain-as-it-moves-to-make-in-house-silicon-its-main-ai-engine-while-claiming-a-40-percent-efficiency-bump-could-going-the-google-route-be-the-pin-that-pops-the-nvidia-ai-bubble",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-17T19:20:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 表示，机器人和人工智能可以完成 80% 的工作，但成本很少",
       "url": "https://thenextweb.com/news/robots-and-ai-could-reach-80-of-work-but-rarely-cheaply-anthropic-says",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-10-17T18:16:16+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
@@ -383,7 +380,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T17:51:58+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "openai",
