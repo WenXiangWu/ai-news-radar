@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17T15:45:09.022373+00:00",
-  "today": "2026-10-17",
-  "lead": "Meta shakes up the frontiers, open and closed；[AINews] 高品味测试者 Ep. 1；v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
+  "generated_at": "2026-10-17T18:30:29.378366+00:00",
+  "today": "2026-10-18",
+  "lead": "Meta 震撼了开放与封闭的边界；[AINews] 高品味测试者 Ep. 1；v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,12 +11,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T11:57:04.792000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 87
+      "hot_score": 69
     },
     {
       "title": "DeepSeek：DeepSeek v4.1 Flash 1017",
@@ -25,61 +25,58 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T10:06:14.023000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 75
+      "hot_score": 60
     },
     {
-      "title": "The future of programming – A.I. Wasserman and S. Gutz (1982)",
-      "url": "https://dl.acm.org/doi/10.1145/358453.358459",
+      "title": "OpenAI又披露了四起流氓事件",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-17T11:20:52+00:00",
+      "published_at": "2026-10-17T16:31:12+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
+    },
+    {
+      "title": "亚马逊使用人工智能监控英国仓库的工会风险",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-17T16:04:23+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 42
+      "hot_score": 49
     },
     {
-      "title": "利用Claude设计更高效的量子电路",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-17T01:52:14.008000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 38
-    },
-    {
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "source": "huggingface.co",
-      "site_id": "buzzing",
-      "published_at": "2026-10-17T09:34:06.239000+00:00",
+      "title": "编程的未来——A.I.沃瑟曼和 S.古茨 (1982)",
+      "url": "https://dl.acm.org/doi/10.1145/358453.358459",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-17T11:20:52+00:00",
       "source_count": 2,
       "score": 53,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "opensource"
-      ],
+      "official": false,
+      "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 36
+      "hot_score": 33
     }
   ],
   "topics": [
@@ -88,28 +85,28 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 17
+      "count": 19
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 33
+      "count": 29
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 8
+      "count": 7
     },
     {
       "slug": "qwen",
@@ -123,14 +120,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 13
+      "count": 8
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "mcp",
@@ -144,31 +141,32 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 8
+      "count": 5
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 10
+      "count": 7
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 9
+      "count": 6
     }
   ],
   "days": [
+    "2026-10-18",
     "2026-10-17",
     "2026-10-16",
     "2026-10-15",
@@ -181,8 +179,7 @@
     "2026-10-06",
     "2026-10-05",
     "2026-10-04",
-    "2026-10-03",
-    "2026-10-02"
+    "2026-10-03"
   ],
   "week": "2026-W42",
   "month": "2026-10"

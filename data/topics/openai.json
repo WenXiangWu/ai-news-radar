@@ -1,17 +1,33 @@
 {
-  "generated_at": "2026-10-17T15:45:09.022373+00:00",
+  "generated_at": "2026-10-17T18:30:29.378366+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 17,
+  "total_items": 19,
   "items": [
     {
-      "title": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
-      "url": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
+      "title": "FTC 就人工智能安全事件向 OpenAI 和 Anthropic 发出传票",
+      "url": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
       "source": "The Next Web",
       "site_id": "techurls",
-      "published_at": "2026-10-17T13:49:47+00:00",
+      "published_at": "2026-10-17T17:51:58+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Oppo 计划进军欧洲智能手机市场，而像 ChatGPT 这样的聊天机器人可能是关键",
+      "url": "https://www.techradar.com/phones/oppo-phones/the-premium-market-is-dominated-by-two-brands-i-believe-consumers-would-be-interested-in-a-third-oppos-european-ceo-explains-his-strategy-for-breaking-the-apple-and-samsung-duopoly-and-how-chatbots-like-chatgpt-could-hold-the-key",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-17T17:00:00+00:00",
       "source_count": 1,
       "score": 52,
       "official": false,
@@ -22,24 +38,98 @@
       "label": "值得关注"
     },
     {
-      "title": "EU investigates OpenAI and Anthropic over agent hacks, Euronews reports",
-      "url": "https://thenextweb.com/news/eu-ai-act-openai-anthropic-ai-office-investigation",
+      "title": "据《卫报》报道，到 2025 年，OpenAI 伦敦员工的平均工资为 230 万英镑",
+      "url": "https://thenextweb.com/news/openai-london-staff-pay-2-3m-accounts",
       "source": "The Next Web",
       "site_id": "techurls",
-      "published_at": "2026-10-17T13:24:28+00:00",
+      "published_at": "2026-10-17T16:53:05+00:00",
       "source_count": 1,
       "score": 52,
       "official": true,
       "topics": [
-        "openai",
-        "anthropic",
-        "agent"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "OpenAI in early talks to buy Trail of Bits, The Information reports",
+      "title": "OpenAI又披露了四起流氓事件",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-17T16:31:12+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "美国八个州起诉 OpenAI，指控 ChatGPT 伤害儿童",
+      "url": "https://thenextweb.com/news/states-sue-openai-chatgpt-children-safety",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-17T15:52:22+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 模型入侵了政府网站，获取了 24 年的医院数据并保密",
+      "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-17T15:36:11+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "XBOW 使用 GPT-5.6 Sol 在六天内构建了价值 250,000 美元的 Chrome 漏洞利用程序",
+      "url": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-17T13:49:47+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "据 Euronews 报道，欧盟对 OpenAI 和 Anthropic 代理黑客攻击事件进行调查",
+      "url": "https://thenextweb.com/news/eu-ai-act-openai-anthropic-ai-office-investigation",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-17T13:24:28+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "据 The Information 报道，OpenAI 正在就收购 Trail of Bits 进行早期谈判",
       "url": "https://thenextweb.com/news/openai-trail-of-bits-acquisition-talks",
       "source": "The Next Web",
       "site_id": "techurls",
@@ -60,7 +150,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T09:00:26+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -75,7 +165,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-17T06:19:44+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai"
@@ -90,7 +180,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-17T00:14:48+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "openai"
@@ -121,7 +211,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T22:00:00+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
@@ -136,7 +226,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-16T20:59:02+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",
@@ -152,7 +242,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T20:59:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
@@ -167,7 +257,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T20:08:13+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "openai"
@@ -182,7 +272,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T19:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "openai"
@@ -203,66 +293,6 @@
         "openai",
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT 成为一个完整的 Chrome 浏览器助手，可以读取您打开的选项卡并对其进行操作",
-      "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T18:10:27+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "军情五处开设人工智能威胁中心，OpenAI 告诉国会议员可能会发生更多事件",
-      "url": "https://thenextweb.com/news/mi5-ai-threat-assessment-centre-openai-mps",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-16T17:02:36+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT 现在可以查看您的 Chrome 标签页",
-      "url": "https://tech.slashdot.org/story/26/10/16/1537233/chatgpt-can-peek-at-your-chrome-tabs-now",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-10-16T17:00:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "一位 Nvidia 内部人士转型为风险投资家，探讨机器人技术尚未达到 ChatGPT 时刻的原因",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T16:30:00+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"

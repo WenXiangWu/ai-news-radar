@@ -1,13 +1,13 @@
 {
   "title": "2026-W42 周报",
   "dates": [
+    "2026-10-18",
     "2026-10-17",
     "2026-10-16",
     "2026-10-15",
     "2026-10-14",
     "2026-10-13",
-    "2026-10-12",
-    "2026-10-11"
+    "2026-10-12"
   ],
   "total_items": 40,
   "items": [
@@ -23,19 +23,6 @@
       "topics": [
         "anthropic"
       ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Meta shakes up the frontiers, open and closed",
-      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-10-17T14:06:54+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -98,6 +85,19 @@
       "label": "官方更新"
     },
     {
+      "title": "Meta 震撼了开放与封闭的边界",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-10-17T14:06:54+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "[AINews] 特工反驳多义性；大大提高可解释性和对齐性",
       "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
       "source": "Latent Space",
@@ -150,21 +150,6 @@
       "score": 82,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-17T00:25:45+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -508,16 +493,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Itaú 如何为其整个客户群构建生成式人工智能",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "source": "OpenAI News",
+      "title": "v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-16T19:00:00+00:00",
+      "published_at": "2026-10-17T00:25:45+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "openai"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -590,8 +575,23 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "使用 NVIDIA NeMo Gym 优化芯片设计的代理可靠性和工具调用效率",
+      "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-14T16:10:45+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-17T15:45:09.022373+00:00",
+  "generated_at": "2026-10-17T18:30:29.378366+00:00",
   "period": "2026-W42"
 }
