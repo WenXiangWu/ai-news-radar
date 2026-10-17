@@ -5,11 +5,11 @@
   "schedule": "after-fetch",
   "combined_lanes": [],
   "groups": [],
-  "run_id": "39045392679",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39045392679",
+  "run_id": "39049388062",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39049388062",
   "conclusion": "success",
-  "started_at": "2026-10-17T15:46:30.958201+00:00",
-  "finished_at": "2026-10-17T15:46:30.958201+00:00",
+  "started_at": "2026-10-17T17:11:46.246958+00:00",
+  "finished_at": "2026-10-17T17:11:46.246958+00:00",
   "push": {
     "attempted": true,
     "ok": true,
@@ -28,12 +28,6 @@
       "aibase",
       "aihot",
       "newsnow",
-      "docs.guidance",
-      "docs.langfuse",
-      "docs.letta",
-      "docs.llamaindex",
-      "docs.mem0",
-      "docs.microsoft-agent-framework",
       "source.knowledge.langchain.blog",
       "source.knowledge.llamaindex.docs",
       "source.knowledge.mcp.docs",
@@ -58,12 +52,6 @@
         "newsnow"
       ],
       "update-radar": [
-        "docs.guidance",
-        "docs.langfuse",
-        "docs.letta",
-        "docs.llamaindex",
-        "docs.mem0",
-        "docs.microsoft-agent-framework",
         "source.knowledge.langchain.blog",
         "source.knowledge.llamaindex.docs",
         "source.knowledge.mcp.docs",
@@ -140,36 +128,6 @@
     },
     {
       "source_id": "newsnow",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.guidance",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.langfuse",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.letta",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.llamaindex",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.mem0",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.microsoft-agent-framework",
       "status": "success",
       "run_kind": "incremental"
     },
