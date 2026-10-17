@@ -1,20 +1,83 @@
 {
-  "generated_at": "2026-10-17T11:40:34.949449+00:00",
+  "generated_at": "2026-10-17T15:45:09.022373+00:00",
   "date": "2026-10-17",
   "timezone": "Asia/Shanghai",
-  "lead": "[AINews] High Taste Testers Ep. 1；v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)；langgraph==1.2.16",
+  "lead": "Meta shakes up the frontiers, open and closed；[AINews] 高品味测试者 Ep. 1；v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
   "total_items": 20,
   "selection": "official_first_then_crossing",
-  "hot": [],
+  "hot": [
+    {
+      "title": "DeepSeek：DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "source": "openrouter.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T10:06:14.023000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 75
+    },
+    {
+      "title": "利用Claude设计更高效的量子电路",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T01:52:14.008000+00:00",
+      "source_count": 3,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 38
+    },
+    {
+      "title": "Claude Code 团队如何进行代码审查",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "source": "claude.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-10-16T21:20:46.796000+00:00",
+      "source_count": 3,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 26
+    }
+  ],
   "items": [
     {
-      "title": "[AINews] High Taste Testers Ep. 1",
+      "title": "Meta shakes up the frontiers, open and closed",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-10-17T14:06:54+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] 高品味测试者 Ep. 1",
       "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-10-17T07:47:38+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -27,37 +90,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-17T00:25:45+00:00",
       "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.16",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T22:11:28+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.8",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T22:09:01+00:00",
-      "source_count": 1,
-      "score": 81,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -81,13 +114,43 @@
       "label": "官方更新"
     },
     {
+      "title": "langgraph==1.2.16",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-16T22:11:28+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.8",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-16T22:09:01+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "将人工智能代理扎根于生物现实：自主湿实验室的构建模块",
       "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs",
       "source": "Google Research Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-16T18:11:34+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -100,43 +163,13 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T16:39:14+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "开源许可证合规性已普遍可用",
-      "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T14:00:32+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-      "source": "NVIDIA：Newsroom（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-16T12:00:00+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": true,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     },
     {
       "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
@@ -161,10 +194,25 @@
       "site_id": "aihot",
       "published_at": "2026-10-16T16:00:00+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": true,
       "topics": [
         "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+      "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-17T14:42:56+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
@@ -176,7 +224,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T10:33:28+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "deepseek"
@@ -185,13 +233,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Mathematicians say OpenAI doesn't understand its own Navier-Stokes proof",
+      "title": "数学家表示 OpenAI 不理解自己的纳维-斯托克斯证明",
       "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-10-17T09:00:26+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -206,7 +254,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T16:30:00+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -221,7 +269,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T21:22:28+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -236,7 +284,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T20:53:06+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -253,56 +301,57 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T16:30:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "谷歌的 Gemini 4 Argon 比几个月来谷歌的任何型号都更接近人工智能前沿",
-      "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T15:03:46+00:00",
-      "source_count": 1,
-      "score": 59,
+      "title": "DeepSeek：DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "source": "openrouter.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T10:06:14.023000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": true,
       "topics": [
-        "google"
+        "deepseek"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
     },
     {
-      "title": "OpenAI 的新 Rosalind 学术计划为研究实验室提供一年最多 30 个免费席位",
-      "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T13:15:09+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 为 METR 提供内部访问权限，以审核其人工智能模型和安全实践",
-      "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T13:11:55+00:00",
-      "source_count": 1,
-      "score": 59,
+      "title": "利用Claude设计更高效的量子电路",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T01:52:14.008000+00:00",
+      "source_count": 3,
+      "score": 54,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "多源热议"
+    },
+    {
+      "title": "Claude Code 团队如何进行代码审查",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "source": "claude.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-10-16T21:20:46.796000+00:00",
+      "source_count": 3,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
     }
   ]
 }

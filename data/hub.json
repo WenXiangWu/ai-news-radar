@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-10-17T11:40:34.949449+00:00",
+  "generated_at": "2026-10-17T15:45:09.022373+00:00",
   "today": "2026-10-17",
-  "lead": "[AINews] High Taste Testers Ep. 1；v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)；langgraph==1.2.16",
+  "lead": "Meta shakes up the frontiers, open and closed；[AINews] 高品味测试者 Ep. 1；v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "Show HN: Llmspeed——在购买硬件之前，先体验一下本地 LLM 的运行速度",
+      "url": "https://llmspeed.dev",
+      "source": "llmspeed.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T11:57:04.792000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 87
+    },
     {
       "title": "DeepSeek：DeepSeek v4.1 Flash 1017",
       "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
@@ -11,14 +25,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T10:06:14.023000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 75
+    },
+    {
+      "title": "The future of programming – A.I. Wasserman and S. Gutz (1982)",
+      "url": "https://dl.acm.org/doi/10.1145/358453.358459",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-17T11:20:52+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 42
     },
     {
       "title": "利用Claude设计更高效的量子电路",
@@ -27,14 +55,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T01:52:14.008000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 53
+      "hot_score": 38
     },
     {
       "title": "DeepSeek-v4.1-Flash-1017",
@@ -43,7 +71,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T09:34:06.239000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "deepseek",
@@ -51,37 +79,6 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
-    },
-    {
-      "title": "你完全可以凭记忆发明出变形金刚",
-      "url": "https://alexwang.ai/posts/associative-memory",
-      "source": "alexwang.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-17T00:00:23.665000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 45
-    },
-    {
-      "title": "Claude Code 团队如何进行代码审查",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-      "source": "claude.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T21:20:46.796000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "多源热议",
       "hot_score": 36
     }
   ],
@@ -98,21 +95,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 34
+      "count": 33
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 6
+      "count": 3
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "qwen",
@@ -126,14 +123,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 14
+      "count": 13
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 3
     },
     {
       "slug": "mcp",
@@ -147,14 +144,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 9
+      "count": 8
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "paper",
@@ -168,7 +165,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 10
+      "count": 9
     }
   ],
   "days": [
