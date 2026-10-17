@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-10-16T23:06:52.677622+00:00",
+  "generated_at": "2026-10-17T01:18:55.115784+00:00",
   "today": "2026-10-17",
-  "lead": "langgraph==1.2.16；langgraph-sdk==0.4.8；Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计",
+  "lead": "v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)；langgraph==1.2.16；langgraph-sdk==0.4.8",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "你完全可以凭记忆发明出变形金刚",
+      "url": "https://alexwang.ai/posts/associative-memory",
+      "source": "alexwang.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T00:00:23.665000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "Claude Code 团队如何进行代码审查",
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
@@ -11,7 +25,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-16T21:20:46.796000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "anthropic",
@@ -19,7 +33,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 86
     },
     {
       "title": "Anthropic于6月被赋予最高级别的垃圾级信用评级",
@@ -35,7 +49,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 97
+      "hot_score": 81
     },
     {
       "title": "克劳德揭示了ECDSA曲线的起源",
@@ -51,7 +65,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 89
+      "hot_score": 74
     },
     {
       "title": "美国90%的工作时间都花在了人工智能基准测试未能充分覆盖的任务上",
@@ -60,30 +74,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-16T18:24:37.246000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 81
-    },
-    {
-      "title": "Show HN: Gemini 4 Argon 玩《星际争霸》",
-      "url": "https://starskirmish.com/bench/v0-2",
-      "source": "starskirmish.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-16T17:52:54.537000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 78
+      "hot_score": 67
     }
   ],
   "topics": [
@@ -99,7 +97,7 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 24
+      "count": 26
     },
     {
       "slug": "google",
@@ -120,21 +118,21 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 13
+      "count": 12
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 7
     },
     {
       "slug": "mcp",
@@ -148,14 +146,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 15
+      "count": 14
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 15
+      "count": 16
     },
     {
       "slug": "paper",
@@ -169,7 +167,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 39
+      "count": 40
     }
   ],
   "days": [

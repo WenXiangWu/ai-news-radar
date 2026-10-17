@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T23:06:52.677622+00:00",
+  "generated_at": "2026-10-17T01:18:55.115784+00:00",
   "date": "2026-10-17",
   "timezone": "Asia/Shanghai",
-  "lead": "langgraph==1.2.16；langgraph-sdk==0.4.8；Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计",
+  "lead": "v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)；langgraph==1.2.16；langgraph-sdk==0.4.8",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -20,10 +20,25 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 11
+      "hot_score": 9
     }
   ],
   "items": [
+    {
+      "title": "v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-17T00:25:45+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "langgraph==1.2.16",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
@@ -55,16 +70,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计",
-      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs",
-      "source": "Google Research Blog",
+      "title": "Itaú 如何为其整个客户群构建生成式人工智能",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-16T18:11:34+00:00",
+      "published_at": "2026-10-16T19:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "agent"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -85,13 +100,26 @@
       "label": "官方更新"
     },
     {
+      "title": "将人工智能代理扎根于生物现实：自主湿实验室的构建模块",
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "langgraph-cli==0.4.36",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36",
       "source": "LangGraph Releases",
       "site_id": "official_ai",
       "published_at": "2026-10-16T16:39:14+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -115,41 +143,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "扩展 Indic 预训练：2.8 万亿代币和开放数据生成管道",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-16T01:44:47+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "欢迎光束：您可以拥有、定制和扩展的 501B 开放模型",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T00:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -192,41 +190,11 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T02:04:50+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "v0.5.22",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22",
-      "source": "SGLang Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-15T23:39:11+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-      "source": "NVIDIA：Newsroom（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-16T12:00:00+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     },
     {
       "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
@@ -246,22 +214,22 @@
       "label": "行业动态"
     },
     {
-      "title": "一位 Nvidia 内部人士转型为风险投资家，探讨机器人技术尚未达到 ChatGPT 时刻的原因",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T16:30:00+00:00",
+      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "source": "NVIDIA：Newsroom（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-16T12:00:00+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 74,
       "official": true,
       "topics": [
-        "openai"
+        "industry"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "行业动态"
     },
     {
-      "title": "Replit is no longer working with Anthropic, CEO says",
+      "title": "Replit 首席执行官表示不再与 Anthropic 合作",
       "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
@@ -293,13 +261,28 @@
       "label": "值得关注"
     },
     {
+      "title": "一位 Nvidia 内部人士转型为风险投资家，探讨机器人技术尚未达到 ChatGPT 时刻的原因",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-16T16:30:00+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "这位正在投资物理人工智能的 Nvidia 资深人士表示，物理人工智能不仅仅是机器人",
       "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-10-16T16:30:00+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [],
       "reason": "",
@@ -312,10 +295,25 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T15:03:46+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 的新 Rosalind 学术计划为研究实验室提供一年最多 30 个免费席位",
+      "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-16T13:15:09+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
