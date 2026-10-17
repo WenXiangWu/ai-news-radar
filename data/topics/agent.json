@@ -1,11 +1,60 @@
 {
-  "generated_at": "2026-10-17T01:18:55.115784+00:00",
+  "generated_at": "2026-10-17T07:06:55.986728+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 12,
+  "total_items": 14,
   "items": [
+    {
+      "title": "Workday agrees to acquire C1.ai, formerly known as ConductorOne, which develops enterprise software to manage human and AI agent identities and has raised $111M (Malia Spencer/Portland Business Journal)",
+      "url": "https://www.techmeme.com/261017/p1",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-17T04:50:01+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
+      "url": "https://x.com/shao__meng/status/2111274173192638932",
+      "source": "X：邵猛 (@shao__meng)",
+      "site_id": "aihot",
+      "published_at": "2026-10-17T01:52:43+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Ask HN: Should I use Claude Code to create a replacement Apple IIGS ROM?",
+      "url": "https://news.ycombinator.com/item?id=50127098",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-17T01:52:37+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Claude Code 团队如何进行代码审查",
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
@@ -13,7 +62,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-16T21:20:46.796000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "anthropic",
@@ -29,7 +78,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T20:53:06+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -46,7 +95,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-16T19:05:40+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": true,
       "topics": [
         "anthropic",
@@ -63,12 +112,28 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T19:00:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "I could not imagine being productive without Claude Code Review. It runs on all of my PRs, and catches almost every bug before it goes it. This is a piece of the secret sauce that lets the team and I move so quickly w...",
+      "url": "https://x.com/bcherny/status/2111158313463525518",
+      "source": "Follow Builders · X · Boris Cherny",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-16T18:12:20+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -80,10 +145,26 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T17:52:24+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": false,
       "topics": [
         "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "at show and tell today @leeknowlton demoing how he turned my Codex piece into a visual novel: https://t.co/phHV01KmoU",
+      "url": "https://x.com/danshipper/status/2111115655647035847",
+      "source": "Follow Builders · X · Dan Shipper",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-16T15:22:49+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -95,7 +176,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-16T14:00:39+00:00",
       "source_count": 1,
-      "score": 70,
+      "score": 69,
       "official": false,
       "topics": [
         "agent"
@@ -110,44 +191,12 @@
       "site_id": "techurls",
       "published_at": "2026-10-16T12:50:24+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
         "agent",
         "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
-      "url": "https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-16T11:53:14+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent",
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Linus用Claude Code改Linux内核，大神也没兜住代码里的Bug",
-      "url": "https://www.infoq.cn/article/hRw4BZQQUW14sqYMo5F6",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-16T11:47:14+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -159,7 +208,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-16T11:20:12.464274+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
@@ -169,29 +218,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Pizza Bot：开源的后台 AI 智能体收件箱",
-      "url": "https://www.infoq.cn/article/aMgWFmwZ2HoZDtw1g0MQ",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-16T11:06:00+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "我将自己的生活外包给人工智能代理两周。事情变得……很奇怪。",
       "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent",
       "source": "Recode",
       "site_id": "techurls",
       "published_at": "2026-10-16T10:00:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",

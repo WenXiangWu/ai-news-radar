@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T01:18:55.115784+00:00",
+  "generated_at": "2026-10-17T07:06:55.986728+00:00",
   "date": "2026-10-17",
   "timezone": "Asia/Shanghai",
   "lead": "v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)；langgraph==1.2.16；langgraph-sdk==0.4.8",
@@ -7,20 +7,53 @@
   "selection": "official_first_then_crossing",
   "hot": [
     {
-      "title": "Slack 和 Microsoft Teams 中 GitHub Copilot 的多存储库支持和其他改进",
-      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T02:16:35+00:00",
-      "source_count": 2,
-      "score": 83,
+      "title": "利用Claude设计更高效的量子电路",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T01:52:14.008000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": true,
       "topics": [
-        "coding"
+        "anthropic"
       ],
       "reason": "",
-      "label": "官方更新",
-      "hot_score": 9
+      "label": "多源热议",
+      "hot_score": 78
+    },
+    {
+      "title": "Claude Code 团队如何进行代码审查",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "source": "claude.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-10-16T21:20:46.796000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 53
+    },
+    {
+      "title": "克劳德揭示了ECDSA曲线的起源",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-16T19:28:45.361000+00:00",
+      "source_count": 3,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 46
     }
   ],
   "items": [
@@ -31,7 +64,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-17T00:25:45+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "launch"
@@ -46,7 +79,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T22:11:28+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -61,7 +94,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T22:09:01+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -76,25 +109,10 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T19:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Slack 和 Microsoft Teams 中 GitHub Copilot 的多存储库支持和其他改进",
-      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T02:16:35+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -106,7 +124,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T18:11:34+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -119,7 +137,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T16:39:14+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -134,7 +152,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-16T14:00:32+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "opensource"
@@ -143,58 +161,19 @@
       "label": "官方更新"
     },
     {
-      "title": "扩展 Indic 预训练：2.8 万亿代币和开放数据生成管道",
-      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T01:44:47+00:00",
+      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "source": "NVIDIA：Newsroom（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-16T12:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 73,
       "official": true,
       "topics": [
-        "opensource"
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Xcode 27 运行程序镜像正式可用",
-      "url": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T04:36:30+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] 特工反驳多义性；大大提高可解释性和对齐性",
-      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T04:16:45+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Microsoft Foundry 的新增功能 | 2026 年 9 月",
-      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T02:04:50+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
@@ -203,7 +182,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-16T19:05:40+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": true,
       "topics": [
         "anthropic",
@@ -214,19 +193,19 @@
       "label": "行业动态"
     },
     {
-      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-      "source": "NVIDIA：Newsroom（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-16T12:00:00+00:00",
+      "title": "一位 Nvidia 内部人士转型为风险投资家，探讨机器人技术尚未达到 ChatGPT 时刻的原因",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-16T16:30:00+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 62,
       "official": true,
       "topics": [
-        "industry"
+        "openai"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Replit 首席执行官表示不再与 Anthropic 合作",
@@ -235,7 +214,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T21:22:28+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -250,27 +229,12 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T20:53:06+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
         "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "一位 Nvidia 内部人士转型为风险投资家，探讨机器人技术尚未达到 ChatGPT 时刻的原因",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-16T16:30:00+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -282,7 +246,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T16:30:00+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [],
       "reason": "",
@@ -295,7 +259,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T15:03:46+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "google"
@@ -310,13 +274,89 @@
       "site_id": "curated_media",
       "published_at": "2026-10-16T13:15:09+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 为 METR 提供内部访问权限，以审核其人工智能模型和安全实践",
+      "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-16T13:11:55+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "利用Claude设计更高效的量子电路",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-17T01:52:14.008000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Claude Code 团队如何进行代码审查",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "source": "claude.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-10-16T21:20:46.796000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "使用 NVIDIA RTX Spark 在一台机器上进行编码、测试和部署",
+      "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark",
+      "source": "NVIDIA Generative AI Blog",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-16T17:00:00+00:00",
+      "source_count": 1,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "克劳德揭示了ECDSA曲线的起源",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-16T19:28:45.361000+00:00",
+      "source_count": 3,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
     }
   ]
 }
