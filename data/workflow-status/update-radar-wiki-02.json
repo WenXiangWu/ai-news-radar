@@ -7,11 +7,11 @@
   "groups": [
     "wiki-02"
   ],
-  "run_id": "38973700221",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38973700221",
+  "run_id": "39006907028",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39006907028",
   "conclusion": "failure",
-  "started_at": "2026-10-16T22:08:24.167025+00:00",
-  "finished_at": "2026-10-16T22:08:24.167025+00:00",
+  "started_at": "2026-10-17T05:38:01.957176+00:00",
+  "finished_at": "2026-10-17T05:38:01.957176+00:00",
   "push": {
     "attempted": false
   },
@@ -20,37 +20,37 @@
       "source_id": "wiki.langfuse",
       "status": "failed",
       "run_kind": "incremental",
-      "error": ".agents/AGENTS.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/langfuse/langfuse/.agents/AGENTS"
+      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/langfuse/langfuse"
     },
     {
       "source_id": "wiki.langgraph",
       "status": "failed",
       "run_kind": "incremental",
-      "error": ".github/PULL_REQUEST_TEMPLATE.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/langchain-ai/langgraph/.github/PULL_REQUEST_TEMPLATE"
+      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/langchain-ai/langgraph"
     },
     {
       "source_id": "wiki.llamaindex",
       "status": "failed",
       "run_kind": "incremental",
-      "error": ".github/pull_request_template.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/run-llama/llama_index/.github/pull_request_template"
+      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/run-llama/llama_index"
     },
     {
       "source_id": "wiki.mem0",
       "status": "failed",
       "run_kind": "incremental",
-      "error": ".github/AGENTS.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/mem0ai/mem0/.github/AGENTS"
+      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/mem0ai/mem0"
     },
     {
       "source_id": "wiki.openai-agents-sdk",
       "status": "failed",
       "run_kind": "incremental",
-      "error": ".agents/references/README.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/openai/openai-agents-python/.agents/references/README"
+      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/openai/openai-agents-python"
     },
     {
       "source_id": "wiki.pydantic-ai",
       "status": "failed",
       "run_kind": "incremental",
-      "error": ".agents/skills/add-new-model/SKILL.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/pydantic/pydantic-ai/.agents/skills/add-new-model/SKILL"
+      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/pydantic/pydantic-ai"
     }
   ]
 }

@@ -7,20 +7,20 @@
   "groups": [
     "docs-07"
   ],
-  "run_id": "38973700221",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/38973700221",
+  "run_id": "39006907028",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39006907028",
   "conclusion": "failure",
-  "started_at": "2026-10-16T22:39:35.726749+00:00",
-  "finished_at": "2026-10-16T22:39:35.726749+00:00",
+  "started_at": "2026-10-17T06:08:43.375641+00:00",
+  "finished_at": "2026-10-17T06:08:43.375641+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.ragas",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://docs.ragas.io/en/stable/concepts/components/eval_dataset/index.md: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.ragflow",
