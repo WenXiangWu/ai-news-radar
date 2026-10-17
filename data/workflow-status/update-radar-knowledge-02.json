@@ -7,20 +7,20 @@
   "groups": [
     "knowledge-02"
   ],
-  "run_id": "39029451240",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39029451240",
+  "run_id": "39049388062",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39049388062",
   "conclusion": "failure",
-  "started_at": "2026-10-17T12:15:17.346935+00:00",
-  "finished_at": "2026-10-17T12:15:17.346935+00:00",
+  "started_at": "2026-10-17T17:07:20.180627+00:00",
+  "finished_at": "2026-10-17T17:07:20.180627+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "source.knowledge.anthropic.cookbook",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "https://platform.claude.com/cookbook/capabilities-classification-guide: translation unavailable or failed quality gate"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "source.knowledge.anthropic.docs",
@@ -48,9 +48,9 @@
     },
     {
       "source_id": "source.jxnl.blog",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "https://jxnl.co/writing/2025/09/11/coding-series-index/: translation unavailable or failed quality gate"
+      "error": "operation timed out after 480.00s"
     }
   ]
 }
