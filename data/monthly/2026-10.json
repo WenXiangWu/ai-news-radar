@@ -143,21 +143,6 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.32.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-17T18:57:10+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "扩展 Indic 预训练：2.8 万亿代币和开放数据生成管道",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "source": "Hugging Face Blog",
@@ -298,6 +283,21 @@
       "score": 84,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.32.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-17T18:57:10+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -506,15 +506,17 @@
       "label": "官方更新"
     },
     {
-      "title": "Meta 震撼了开放与封闭的边界",
-      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
-      "source": "Interconnects",
+      "title": "v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-17T14:06:54+00:00",
+      "published_at": "2026-10-17T00:25:45+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -607,6 +609,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-18T00:02:49.420046+00:00",
+  "generated_at": "2026-10-18T04:29:57.379461+00:00",
   "period": "2026-10"
 }

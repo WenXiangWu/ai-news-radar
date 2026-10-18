@@ -1,19 +1,36 @@
 {
-  "generated_at": "2026-10-18T00:02:49.420046+00:00",
+  "generated_at": "2026-10-18T04:29:57.379461+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 6,
+  "total_items": 5,
   "items": [
     {
-      "title": "Codex Desktop 不断生成 Crashpad 待处理转储",
+      "title": "AI 热点日报（2026-10-15）：谷歌Gemini 4 Argon全球上线，STEPX首款智能体手机发布，无问芯穹C轮23亿刷新国内AI Infra纪录",
+      "url": "https://juejin.cn/post/7696484610026094634",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-18T04:29:40.561000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "google",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
       "url": "https://github.com/openai/codex/issues/25921",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-17T17:45:08+00:00",
-      "source_count": 3,
-      "score": 56,
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-18T04:10:14.045000+00:00",
+      "source_count": 4,
+      "score": 60,
       "official": true,
       "topics": [
         "openai",
@@ -24,13 +41,13 @@
       "label": "多源热议"
     },
     {
-      "title": "Codex 正在占用我的 Mac 磁盘空间",
+      "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
       "url": "https://github.com/openai/codex/issues/25921",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-17T17:45:08+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -47,7 +64,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-17T11:25:51.400000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
@@ -63,44 +80,11 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T04:50:01+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
-      "url": "https://x.com/shao__meng/status/2111274173192638932",
-      "source": "X：邵猛 (@shao__meng)",
-      "site_id": "aihot",
-      "published_at": "2026-10-17T01:52:43+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "问 HN：我应该使用 Claude Code 来创建替换的 Apple IIGS ROM 吗？",
-      "url": "https://news.ycombinator.com/item?id=50127098",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-17T01:52:37+00:00",
-      "source_count": 1,
       "score": 47,
       "official": false,
       "topics": [
-        "anthropic",
-        "agent"
+        "agent",
+        "industry"
       ],
       "reason": "",
       "label": "值得关注"

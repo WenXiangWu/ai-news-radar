@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T00:02:49.420046+00:00",
+  "generated_at": "2026-10-18T04:29:57.379461+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
@@ -7,13 +7,30 @@
   "total_items": 4,
   "items": [
     {
+      "title": "AI 热点日报（2026-10-15）：谷歌Gemini 4 Argon全球上线，STEPX首款智能体手机发布，无问芯穹C轮23亿刷新国内AI Infra纪录",
+      "url": "https://juejin.cn/post/7696484610026094634",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-18T04:29:40.561000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "google",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "v0.32.0",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
       "source": "vLLM Releases",
       "site_id": "official_ai",
       "published_at": "2026-10-17T18:57:10+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "launch"
@@ -28,7 +45,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T15:00:37+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "deepseek",
@@ -45,7 +62,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-17T11:35:45.858575+00:00",
       "source_count": 1,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "deepseek",
@@ -53,21 +70,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "v0.32.0rc3：[错误修复]修复 sm90 上 Mamba2 块扫描内核的 NaN 输出 (#61718)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-17T00:25:45+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
