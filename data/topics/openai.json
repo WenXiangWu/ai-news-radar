@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-10-18T17:21:57.503298+00:00",
+  "generated_at": "2026-10-18T20:40:52.846855+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 10,
+  "total_items": 6,
   "items": [
+    {
+      "title": "有关被捕的沙特 OpenAI 员工的更多详细信息，该员工正在寻求保释",
+      "url": "https://yro.slashdot.org/story/26/10/18/0318232/more-details-on-arrested-saudi-openai-employee-who-is-seeking-release-on-bail",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-10-18T17:34:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Tomo for ChatGPT",
       "url": "https://www.producthunt.com/products/tomo-for-chatgpt",
@@ -13,7 +29,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-18T09:20:05.051000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "openai"
@@ -28,7 +44,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-18T04:34:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai"
@@ -42,8 +58,8 @@
       "source": "github.com",
       "site_id": "buzzing",
       "published_at": "2026-10-18T04:10:14.045000+00:00",
-      "source_count": 4,
-      "score": 56,
+      "source_count": 1,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -51,7 +67,7 @@
         "coding"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "值得关注"
     },
     {
       "title": "OpenAI 正在打造一个人形机器人，但身体并不是真正的挑战",
@@ -60,7 +76,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T23:45:00+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
@@ -75,89 +91,10 @@
       "site_id": "hackernews",
       "published_at": "2026-10-17T21:09:40+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 保留自己的数学知识",
-      "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-17T19:22:52+00:00",
-      "source_count": 1,
       "score": 47,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI披露了另外四起违规事件",
-      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
-      "source": "fortune.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-17T19:22:11.943000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-17T18:48:08+00:00",
-      "source_count": 2,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "FTC 就人工智能安全事件向 OpenAI 和 Anthropic 发出传票",
-      "url": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-17T17:51:58+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
-      "url": "https://github.com/openai/codex/issues/25921",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-17T17:45:08+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

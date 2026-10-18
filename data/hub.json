@@ -1,26 +1,22 @@
 {
-  "generated_at": "2026-10-18T17:21:57.503298+00:00",
+  "generated_at": "2026-10-18T20:40:52.846855+00:00",
   "today": "2026-10-19",
-  "lead": "v0.32.1rc0；v0.32.0；Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+  "lead": "v0.32.1rc0；Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍；德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
-      "url": "https://github.com/openai/codex/issues/25921",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T04:10:14.045000+00:00",
-      "source_count": 4,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
+      "title": "网站正在向人工智能代理关闭大门",
+      "url": "https://slashdot.org/story/26/10/18/1715218/websites-are-closing-their-doors-to-ai-agents",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-10-18T19:24:00+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 100
     },
     {
       "title": "Show HN: Sphinx——一个在发布前通过问答测试你AI代码的钩子",
@@ -29,14 +25,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T08:37:12.715000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 58
+      "hot_score": 44
     },
     {
       "title": "DeepSeek 搜索和获取服务——每 1000 次成功请求 0.75 美元",
@@ -45,28 +41,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T08:37:12.821000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 58
-    },
-    {
-      "title": "网站正在向人工智能代理关闭大门",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-18T14:58:10+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 44
     },
     {
       "title": "Anthropic 提出的人工智能安全法案只有在 50 人死亡或 10 亿美元损失时才会生效",
@@ -75,7 +57,7 @@
       "site_id": "iris",
       "published_at": "2026-10-18T14:30:27+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
@@ -83,7 +65,21 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 47
+      "hot_score": 36
+    },
+    {
+      "title": "拿不到退款，人工智能助理会走多远？",
+      "url": "https://www.vals.ai/blogs/impossible-refund",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-18T12:22:58+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 30
     }
   ],
   "topics": [
@@ -92,7 +88,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 10
+      "count": 6
     },
     {
       "slug": "anthropic",
@@ -106,14 +102,14 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "qwen",
@@ -127,14 +123,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "mcp",
@@ -148,7 +144,7 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 3
+      "count": 5
     },
     {
       "slug": "launch",

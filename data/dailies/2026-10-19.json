@@ -1,46 +1,11 @@
 {
-  "generated_at": "2026-10-18T17:21:57.503298+00:00",
+  "generated_at": "2026-10-18T20:40:52.846855+00:00",
   "date": "2026-10-19",
   "timezone": "Asia/Shanghai",
-  "lead": "v0.32.1rc0；v0.32.0；Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+  "lead": "v0.32.1rc0；Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍；德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
-    {
-      "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-17T18:48:08+00:00",
-      "source_count": 2,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
-    },
-    {
-      "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
-      "url": "https://github.com/openai/codex/issues/25921",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T04:10:14.045000+00:00",
-      "source_count": 4,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 60
-    },
     {
       "title": "DeepSeek 搜索和获取服务——每 1000 次成功请求 0.75 美元",
       "url": "https://api-docs.deepseek.com/guides/search",
@@ -48,14 +13,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T08:37:12.821000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 58
+      "hot_score": 44
     },
     {
       "title": "Anthropic 提出的人工智能安全法案只有在 50 人死亡或 10 亿美元损失时才会生效",
@@ -64,7 +29,7 @@
       "site_id": "iris",
       "published_at": "2026-10-18T14:30:27+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
@@ -72,7 +37,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 47
+      "hot_score": 36
     }
   ],
   "items": [
@@ -92,28 +57,13 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.32.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-17T18:57:10+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
       "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours",
       "source": "The Decoder：AI News（RSS）",
       "site_id": "aihot",
       "published_at": "2026-10-18T13:22:26+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "anthropic",
@@ -130,7 +80,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-18T10:52:39+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "industry"
@@ -139,16 +89,15 @@
       "label": "行业动态"
     },
     {
-      "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "title": "Anthropic 表示将把 5% 的股份捐给“公益基金”",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-10-17T18:48:08+00:00",
-      "source_count": 2,
-      "score": 62,
+      "published_at": "2026-10-18T20:37:40+00:00",
+      "source_count": 1,
+      "score": 64,
       "official": true,
       "topics": [
-        "openai",
         "anthropic"
       ],
       "reason": "",
@@ -161,22 +110,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T09:11:29+00:00",
       "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 表示，其员工队伍的初级人员数量已有所减少，花在会议上的时间也越来越多",
-      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-17T20:21:19+00:00",
-      "source_count": 1,
-      "score": 59,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -191,7 +125,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T08:15:04+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "agent",
@@ -199,23 +133,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
-      "url": "https://github.com/openai/codex/issues/25921",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T04:10:14.045000+00:00",
-      "source_count": 4,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "多源热议"
     },
     {
       "title": "如何使用 NVIDIA 结构化数据模型进行零训练表格预测",
@@ -237,7 +154,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T08:37:12.821000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "deepseek"
@@ -252,11 +169,57 @@
       "site_id": "iris",
       "published_at": "2026-10-18T14:30:27+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
         "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "报告称，Anthropic 正在向国会提交自己的人工智能安全法案",
+      "url": "https://mashable.com/tech/anthropic-pitching-congress-ai-safety-bill",
+      "source": "Mashable",
+      "site_id": "techurls",
+      "published_at": "2026-10-18T19:22:11+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-18T18:15:10+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "有关被捕的沙特 OpenAI 员工的更多详细信息，该员工正在寻求保释",
+      "url": "https://yro.slashdot.org/story/26/10/18/0318232/more-details-on-arrested-saudi-openai-employee-who-is-seeking-release-on-bail",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-10-18T17:34:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -268,7 +231,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-18T16:25:19+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic",
@@ -284,7 +247,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-18T14:01:19.023000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [],
       "reason": "",
@@ -327,10 +290,27 @@
       "site_id": "techurls",
       "published_at": "2026-10-18T04:34:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
+      "url": "https://github.com/openai/codex/issues/25921",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-18T04:10:14.045000+00:00",
+      "source_count": 1,
+      "score": 48,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -342,7 +322,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T23:45:00+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
@@ -356,21 +336,6 @@
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-17T21:09:40+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 保留自己的数学知识",
-      "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-17T19:22:52+00:00",
       "source_count": 1,
       "score": 47,
       "official": true,
