@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T09:36:05.830921+00:00",
+  "generated_at": "2026-10-18T14:01:33.644347+00:00",
   "date": "2026-10-18",
   "timezone": "Asia/Shanghai",
-  "lead": "v0.32.0；Meta 震撼了开放与封闭的边界；Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
+  "lead": "v0.32.1rc0；v0.32.0；Meta 震撼了开放与封闭的边界",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T18:48:08+00:00",
       "source_count": 2,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "openai",
@@ -21,7 +21,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
+      "hot_score": 12
     },
     {
       "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
@@ -30,7 +30,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T04:10:14.045000+00:00",
       "source_count": 4,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "openai",
@@ -39,7 +39,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 79
     },
     {
       "title": "DeepSeek 搜索和获取服务——每 1000 次成功请求 0.75 美元",
@@ -48,14 +48,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T08:37:12.821000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 76
     },
     {
       "title": "OpenAI披露了另外四起违规事件",
@@ -64,17 +64,32 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T19:22:11.943000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 37
+      "hot_score": 25
     }
   ],
   "items": [
+    {
+      "title": "v0.32.1rc0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-18T09:26:56+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "v0.32.0",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
@@ -82,7 +97,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-17T18:57:10+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "launch"
@@ -97,11 +112,43 @@
       "site_id": "official_ai",
       "published_at": "2026-10-17T14:06:54+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 79,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+      "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-18T13:22:26+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-18T10:52:39+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": true,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
     },
     {
       "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
@@ -110,7 +157,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T18:48:08+00:00",
       "source_count": 2,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "openai",
@@ -126,22 +173,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T09:11:29+00:00",
       "source_count": 1,
-      "score": 64,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropics 的 Claude 在 30 分钟内破解了 NSA 长达 25 年的密码学谜团",
-      "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-17T14:42:56+00:00",
-      "source_count": 1,
-      "score": 61,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
@@ -165,13 +197,28 @@
       "label": "值得关注"
     },
     {
+      "title": "Anthropics 的 Claude 在 30 分钟内破解了 NSA 长达 25 年的密码学谜团",
+      "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-17T14:42:56+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "OpenAI 模型入侵了政府网站，获取了 24 年的医院数据并保密",
       "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-10-17T15:36:11+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
@@ -186,26 +233,11 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T08:15:04+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "agent",
         "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
-      "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-17T10:33:28+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "deepseek"
       ],
       "reason": "",
       "label": "值得关注"
@@ -217,7 +249,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T04:10:14.045000+00:00",
       "source_count": 4,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "openai",
@@ -234,7 +266,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T05:56:05+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [],
       "reason": "",
@@ -247,7 +279,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T08:37:12.821000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "deepseek"
@@ -262,7 +294,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T19:22:11.943000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "openai"
@@ -271,13 +303,56 @@
       "label": "多源热议"
     },
     {
+      "title": "Mlabonne / LLM课程",
+      "url": "https://github.com/mlabonne/llm-course",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-10-18T14:01:19.023000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "我把 Google Keep 变成了我和 Gemini 的私人助理；太棒了",
+      "url": "https://www.androidpolice.com/turned-google-keep-into-my-personal-assistant-with-gemini",
+      "source": "Android Police",
+      "site_id": "techurls",
+      "published_at": "2026-10-18T11:00:13+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 的就业正在发生怎样的变化",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-18T10:49:26+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "沙特 OpenAI 员工被捕再次引发人们对美国科技公司雇佣间谍的担忧",
       "url": "https://yro.slashdot.org/story/26/10/18/0323207/saudi-openai-employees-arrest-revives-fears-us-tech-companies-are-hiring-spies",
       "source": "Slashdot",
       "site_id": "techurls",
       "published_at": "2026-10-18T04:34:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -292,81 +367,10 @@
       "site_id": "techurls",
       "published_at": "2026-10-17T23:45:00+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 人工智能模型在统计医院床位时入侵了政府网站",
-      "url": "https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-17T21:09:40+00:00",
-      "source_count": 1,
       "score": 49,
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 保留自己的数学知识",
-      "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-17T19:22:52+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "随着 CNN 和 FT 的加入，谷歌的人工智能新闻试点项目已增至 400 种出版物",
-      "url": "https://thenextweb.com/news/google-news-ai-pilot-400-publications-cnn-ft",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-17T19:21:18+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Microsoft's Maia 300 swaps raw compute for a 2.5x memory bandwidth gain as it moves to make in-house silicon its main AI engine while claiming a 40% efficiency bump — could going the Google route be the pin that pops the Nvidia AI bubble?",
-      "url": "https://www.techradar.com/pro/microsofts-maia-300-swaps-raw-compute-for-a-2-5x-memory-bandwidth-gain-as-it-moves-to-make-in-house-silicon-its-main-ai-engine-while-claiming-a-40-percent-efficiency-bump-could-going-the-google-route-be-the-pin-that-pops-the-nvidia-ai-bubble",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-17T19:20:00+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 表示，机器人和人工智能可以完成 80% 的工作，但成本很少",
-      "url": "https://thenextweb.com/news/robots-and-ai-could-reach-80-of-work-but-rarely-cheaply-anthropic-says",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-17T18:16:16+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
