@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:27:56.037812+00:00",
+  "generated_at": "2026-10-18T00:02:49.420046+00:00",
   "today": "2026-10-18",
   "lead": "v0.32.0；Meta 震撼了开放与封闭的边界；[AINews] 高品味测试者 Ep. 1",
   "brief_count": 20,
@@ -11,14 +11,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T19:22:11.943000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 81
     },
     {
       "title": "亚马逊利用人工智能监测英国仓库的工会风险",
@@ -32,7 +32,25 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 94
+      "hot_score": 76
+    },
+    {
+      "title": "Codex Desktop 不断生成 Crashpad 待处理转储",
+      "url": "https://github.com/openai/codex/issues/25921",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-17T17:45:08+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 71
     },
     {
       "title": "Show HN: Llmspeed——在购买硬件之前，先体验一下本地 LLM 的运行速度",
@@ -41,12 +59,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-17T11:57:04.792000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 54
+      "hot_score": 44
     },
     {
       "title": "Replit 首席执行官表示，将 OpenAI 设为默认值，而不是 Anthropic",
@@ -55,7 +73,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-17T18:48:08+00:00",
       "source_count": 2,
-      "score": 67,
+      "score": 66,
       "official": true,
       "topics": [
         "openai",
@@ -63,23 +81,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 48
-    },
-    {
-      "title": "DeepSeek：DeepSeek v4.1 Flash 1017",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-      "source": "openrouter.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-17T10:06:14.023000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 47
+      "hot_score": 39
     }
   ],
   "topics": [
@@ -88,14 +90,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 16
+      "count": 15
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 20
+      "count": 17
     },
     {
       "slug": "google",
@@ -123,14 +125,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "mcp",
@@ -144,14 +146,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 7
+      "count": 4
     },
     {
       "slug": "paper",
@@ -165,7 +167,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 5
+      "count": 4
     }
   ],
   "days": [
