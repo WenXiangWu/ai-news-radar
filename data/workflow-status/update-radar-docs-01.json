@@ -7,20 +7,20 @@
   "groups": [
     "docs-01"
   ],
-  "run_id": "39145526106",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39145526106",
+  "run_id": "39168237445",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39168237445",
   "conclusion": "failure",
-  "started_at": "2026-10-18T17:22:26.536807+00:00",
-  "finished_at": "2026-10-18T17:22:26.536807+00:00",
+  "started_at": "2026-10-18T22:20:43.241899+00:00",
+  "finished_at": "2026-10-18T22:20:43.241899+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.a2a",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "docs/README.md: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.anthropic-skills",
