@@ -1,6 +1,6 @@
 {
   "schema": "radar-pending-publish/v1",
-  "ready": true,
+  "ready": false,
   "workflow_id": "update-radar",
   "group_id": "docs-04",
   "source_ids": [
@@ -13,5 +13,6 @@
   "excluded": [
     "docs.langsmith"
   ],
-  "finished_at": "2026-10-18T21:33:05.464402+00:00"
+  "finished_at": "2026-10-18T21:33:05.464402+00:00",
+  "published_at": "2026-10-18T22:22:00.993307+00:00"
 }
