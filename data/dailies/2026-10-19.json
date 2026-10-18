@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-10-18T20:40:52.846855+00:00",
+  "generated_at": "2026-10-18T23:10:55.000524+00:00",
   "date": "2026-10-19",
   "timezone": "Asia/Shanghai",
   "lead": "v0.32.1rc0；Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍；德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "Anthropic提出的AI安全法案只有在造成50人死亡或10亿美元损失的情况下才会生效",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "www.tomshardware.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-18T21:17:07.195000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "DeepSeek 搜索和获取服务——每 1000 次成功请求 0.75 美元",
       "url": "https://api-docs.deepseek.com/guides/search",
@@ -20,24 +37,39 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 44
+      "hot_score": 36
     },
     {
-      "title": "Anthropic 提出的人工智能安全法案只有在 50 人死亡或 10 亿美元损失时才会生效",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "title": "显示 HN：WhatsApp MCP 在 Cloudflare 上免费运行",
+      "url": "https://github.com/finereli/whatsapp-mcp",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-18T14:30:27+00:00",
+      "published_at": "2026-10-18T21:36:10+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 54,
       "official": true,
       "topics": [
-        "anthropic",
-        "industry"
+        "mcp"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 36
+      "hot_score": 53
+    },
+    {
+      "title": "Anthropic 的就业形势正在发生怎样的变化",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-18T21:17:07.176000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
     }
   ],
   "items": [
@@ -48,7 +80,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-18T09:26:56+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -63,7 +95,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-18T13:22:26+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -80,7 +112,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-18T10:52:39+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "industry"
@@ -89,13 +121,30 @@
       "label": "行业动态"
     },
     {
+      "title": "v2.1.303",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-18T22:26:54+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 表示将把 5% 的股份捐给“公益基金”",
       "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-10-18T20:37:40+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -110,13 +159,29 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T09:11:29+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注"
+    },
+    {
+      "title": "Anthropic提出的AI安全法案只有在造成50人死亡或10亿美元损失的情况下才会生效",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "www.tomshardware.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-18T21:17:07.195000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议"
     },
     {
       "title": "Google 开源 Harness2，一种递归代理利用框架",
@@ -141,7 +206,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T05:56:05+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [],
       "reason": "",
@@ -163,17 +228,46 @@
       "label": "多源热议"
     },
     {
-      "title": "Anthropic 提出的人工智能安全法案只有在 50 人死亡或 10 亿美元损失时才会生效",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "title": "显示 HN：WhatsApp MCP 在 Cloudflare 上免费运行",
+      "url": "https://github.com/finereli/whatsapp-mcp",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-18T14:30:27+00:00",
+      "published_at": "2026-10-18T21:36:10+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 54,
       "official": true,
       "topics": [
-        "anthropic",
-        "industry"
+        "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 的就业形势正在发生怎样的变化",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-18T21:17:07.176000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "谷歌再次更名为Gemini；这是每个功能现在的作用",
+      "url": "https://www.androidpolice.com/googles-renamed-gemini-features-field-guide",
+      "source": "Android Police",
+      "site_id": "techurls",
+      "published_at": "2026-10-18T21:00:13+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
@@ -185,7 +279,22 @@
       "site_id": "techurls",
       "published_at": "2026-10-18T19:22:11+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 向“公益基金”承诺数十亿美元",
+      "url": "https://www.businessinsider.com/anthropic-public-benefit-fund-2026-10",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-10-18T18:46:01+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
@@ -231,7 +340,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-18T16:25:19+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic",
@@ -260,87 +369,10 @@
       "site_id": "techurls",
       "published_at": "2026-10-18T11:00:13+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的就业正在发生怎样的变化",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-18T10:49:26+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "沙特 OpenAI 员工被捕再次引发人们对美国科技公司雇佣间谍的担忧",
-      "url": "https://yro.slashdot.org/story/26/10/18/0323207/saudi-openai-employees-arrest-revives-fears-us-tech-companies-are-hiring-spies",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-10-18T04:34:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex Desktop 会持续生成 Crashpad 的待处理转储文件",
-      "url": "https://github.com/openai/codex/issues/25921",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T04:10:14.045000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 正在打造一个人形机器人，但身体并不是真正的挑战",
-      "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-10-17T23:45:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 人工智能模型在统计医院床位时入侵了政府网站",
-      "url": "https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-17T21:09:40+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
