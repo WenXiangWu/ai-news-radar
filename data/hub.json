@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-19T19:22:00.165012+00:00",
+  "generated_at": "2026-10-19T23:52:21.724281+00:00",
   "today": "2026-10-20",
-  "lead": "如何在 VS Code 中继续 GitHub Copilot 应用程序会话；langgraph-cli==0.4.37；某些基于 HTTPS 的 Git 可能暂时需要身份验证",
+  "lead": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力；Copilot model policy API for enterprise, orgs, and teams；GitHub Copilot models deprecated on October 19, 2026",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "笼罩在Anthropic首次公开募股（IPO）上空的神秘信托",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+      "source": "www.wsj.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T20:37:07.726000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 91
+    },
     {
       "title": "Tmux 和 Claude Code：会话、Send-Keys 以及上限",
       "url": "https://crystl.dev/guides/tmux-for-ai-agents",
@@ -11,7 +27,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-19T15:02:49.673000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "anthropic",
@@ -19,7 +35,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 84
+      "hot_score": 58
     },
     {
       "title": "线束工程入门：LLM是大脑，线束是身体Simplified Chinese (Mainland)",
@@ -28,49 +44,35 @@
       "site_id": "buzzing",
       "published_at": "2026-10-19T14:47:39.309000+00:00",
       "source_count": 3,
-      "score": 56,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 82
-    },
-    {
-      "title": "Mercury 3：大规模扩散",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "source": "www.inceptionlabs.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-19T18:45:08.587000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 57
-    },
-    {
-      "title": "Show HN: WhatsApp MCP 在 Cloudflare 上免费运行",
-      "url": "https://github.com/finereli/whatsapp-mcp",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-19T08:42:19.266000+00:00",
-      "source_count": 3,
       "score": 55,
       "official": true,
-      "topics": [
-        "mcp"
-      ],
+      "topics": [],
       "reason": "",
       "label": "多源热议",
+      "hot_score": 56
+    },
+    {
+      "title": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-10-19T21:28:20+00:00",
+      "source_count": 2,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注",
       "hot_score": 49
     },
     {
-      "title": "Show HN: Qwen3-4B，已消除AI写作中的怪癖",
-      "url": "https://100toolkit.com/blog/deslop-model",
-      "source": "100toolkit.com",
+      "title": "Ask HN: 如何处理发送自己都不理解的AI生成的代码？",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "source": "news.ycombinator.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-19T16:21:22.098000+00:00",
+      "published_at": "2026-10-19T20:53:30.584000+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
@@ -86,14 +88,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 10
+      "count": 15
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 18
+      "count": 17
     },
     {
       "slug": "google",
@@ -107,7 +109,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 14
+      "count": 16
     },
     {
       "slug": "qwen",
@@ -121,14 +123,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 14
+      "count": 15
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 3
+      "count": 5
     },
     {
       "slug": "mcp",
@@ -142,21 +144,21 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 8
+      "count": 7
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 15
+      "count": 17
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "industry",
