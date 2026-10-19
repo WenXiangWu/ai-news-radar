@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T23:10:55.000524+00:00",
+  "generated_at": "2026-10-19T01:21:09.441201+00:00",
   "today": "2026-10-19",
-  "lead": "v0.32.1rc0；Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍；德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+  "lead": "llm-tools-datasette 0.1.1；llm-echo 0.5；v0.32.1rc0",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -25,14 +25,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T22:42:18.398000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 96
     },
     {
       "title": "Anthropic提出的AI安全法案只有在造成50人死亡或10亿美元损失的情况下才会生效",
@@ -41,7 +41,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T21:17:07.195000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "anthropic",
@@ -49,7 +49,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 86
     },
     {
       "title": "显示 HN：WhatsApp MCP 在 Cloudflare 上免费运行",
@@ -65,7 +65,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 53
+      "hot_score": 44
     },
     {
       "title": "Anthropic 的就业形势正在发生怎样的变化",
@@ -81,7 +81,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 43
     }
   ],
   "topics": [
@@ -90,28 +90,28 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 15
+      "count": 16
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "qwen",
@@ -153,7 +153,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "paper",
@@ -167,7 +167,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 7
+      "count": 13
     }
   ],
   "days": [
