@@ -7,20 +7,20 @@
   "groups": [
     "knowledge-01"
   ],
-  "run_id": "39168237445",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39168237445",
+  "run_id": "39208731305",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39208731305",
   "conclusion": "failure",
-  "started_at": "2026-10-18T22:01:56.882271+00:00",
-  "finished_at": "2026-10-18T22:01:56.882271+00:00",
+  "started_at": "2026-10-19T06:48:10.192772+00:00",
+  "finished_at": "2026-10-19T06:48:10.192772+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "source.anthropic.news",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://www.anthropic.com/news/2026-us-midterms: translation unavailable or failed quality gate"
     },
     {
       "source_id": "source.chip-huyen.blog",
@@ -32,7 +32,7 @@
       "source_id": "source.deepmind.blog",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "rss returned an invalid RSS document"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "source.eugene-yan.blog",
