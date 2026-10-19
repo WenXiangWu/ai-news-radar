@@ -1,11 +1,106 @@
 {
-  "generated_at": "2026-10-19T06:14:48.325931+00:00",
+  "generated_at": "2026-10-19T13:15:11.430127+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 7,
+  "total_items": 12,
   "items": [
+    {
+      "title": "DeepSeek V4.1-Flash-1017 发布：当\"许愿式编程\"成为 API 调用",
+      "url": "https://juejin.cn/post/7697422926362689578",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-19T13:14:49.556000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI发布ChatGPT扩展程序重大升级，支持跨标签页上下文读取与自动化操作",
+      "url": "https://www.aibase.com/news/31728",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-19T13:14:08.778470+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "英特尔杀入大模型推理市场！发布GPU D系列：最高配480GB显存，专为万亿参数推理而生",
+      "url": "https://www.aibase.com/news/31722",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-19T13:14:08.778470+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "AWS 发布 TorchNeuron：Trainium 的原生 PyTorch 后端",
+      "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium",
+      "source": "PyTorch：Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-19T12:45:23+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Timestral：Mistral 发布时间序列基础模型",
+      "url": "https://mistral.ai/news/timestral",
+      "source": "mistral.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T12:39:13.350000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Microsoft Foundry 中的浏览器自动化工具现已正式发布",
+      "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-19T10:32:13+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "DeepSeek发布API网页搜索与抓取服务:每1000次成功请求收费5元",
       "url": "https://www.aibase.com/news/31711",
@@ -13,7 +108,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-19T06:13:42.908849+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "deepseek",
@@ -30,7 +125,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-19T01:18:17+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
         "launch"
@@ -45,7 +140,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-19T01:14:40.936029+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 74,
       "official": false,
       "topics": [
         "launch",
@@ -61,7 +156,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T22:26:54+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -78,7 +173,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-18T17:34:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -88,28 +183,13 @@
       "label": "值得关注"
     },
     {
-      "title": "v0.32.1rc0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-18T09:26:56+00:00",
+      "title": "MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "source": "MiniMax：Blog（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-10-18T16:00:00+00:00",
       "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Show HN: Sphinx——一个在发布前通过问答测试你AI代码的钩子",
-      "url": "https://sphinx-six-theta.vercel.app",
-      "source": "sphinx-six-theta.vercel.app",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T08:37:12.715000+00:00",
-      "source_count": 1,
-      "score": 47,
+      "score": 71,
       "official": false,
       "topics": [
         "launch"

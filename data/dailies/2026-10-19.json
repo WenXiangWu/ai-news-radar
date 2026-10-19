@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-10-19T06:14:48.325931+00:00",
+  "generated_at": "2026-10-19T13:15:11.430127+00:00",
   "date": "2026-10-19",
   "timezone": "Asia/Shanghai",
-  "lead": "llm-工具-数据集 0.1.1；llm-echo 0.5；v0.32.1rc0",
+  "lead": "Microsoft Foundry 中的浏览器自动化工具现已正式发布；macOS 27、Xcode 27 和 Swift 6.4 的 CodeQL 更改；llm-工具-数据集 0.1.1",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
+    {
+      "title": "Show HN: WhatsApp MCP 在 Cloudflare 上免费运行",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T08:42:19.266000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "mcp"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 82
+    },
+    {
+      "title": "线束工程 101：LLM是大脑，线束是身体",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-19T12:07:41+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 55
+    },
     {
       "title": "Anthropic提出的AI安全法案只有在造成50人死亡或10亿美元损失的情况下才会生效",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
@@ -13,7 +43,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T21:17:07.195000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
@@ -21,74 +51,54 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 57
+      "hot_score": 32
     },
     {
       "title": "DeepSeek V4.1 闪存 1017（最大）",
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-19T04:41:46+00:00",
+      "source": "artificialanalysis.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T07:08:12.735000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "deepseek"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 53
-    },
-    {
-      "title": "DeepSeek 搜索和获取服务——每 1000 次成功请求 0.75 美元",
-      "url": "https://api-docs.deepseek.com/guides/search",
-      "source": "api-docs.deepseek.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T08:37:12.821000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 20
-    },
-    {
-      "title": "显示 HN：WhatsApp MCP 在 Cloudflare 上免费运行",
-      "url": "https://github.com/finereli/whatsapp-mcp",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-18T21:36:10+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 29
-    },
-    {
-      "title": "Anthropic 的就业形势正在发生怎样的变化",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T21:17:07.176000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 28
+      "hot_score": 36
     }
   ],
   "items": [
+    {
+      "title": "Microsoft Foundry 中的浏览器自动化工具现已正式发布",
+      "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-19T10:32:13+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "macOS 27、Xcode 27 和 Swift 6.4 的 CodeQL 更改",
+      "url": "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-19T10:29:09+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "llm-工具-数据集 0.1.1",
       "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
@@ -96,7 +106,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-18T23:43:09+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -109,24 +119,9 @@
       "site_id": "official_ai",
       "published_at": "2026-10-18T23:16:16+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.32.1rc0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-18T09:26:56+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -137,7 +132,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-18T13:22:26+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": true,
       "topics": [
         "anthropic",
@@ -148,19 +143,32 @@
       "label": "行业动态"
     },
     {
-      "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
-      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say",
-      "source": "The Decoder：AI News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-18T10:52:39+00:00",
+      "title": "新云洗牌即将到来，英伟达损失最大",
+      "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-19T11:33:36+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 63,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "人类计划为受人工智能威胁的工人提供基金，马斯克以 SpaceX 股票为儿童进行反击",
+      "url": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-19T11:19:12+00:00",
+      "source_count": 1,
+      "score": 63,
       "official": true,
       "topics": [
-        "industry"
+        "anthropic"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "v2.1.303",
@@ -169,7 +177,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T22:26:54+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -186,7 +194,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-18T20:37:40+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
@@ -195,17 +203,30 @@
       "label": "值得关注"
     },
     {
-      "title": "在人工智能代理开始达成交易之前，Anthropic 咨询律师事务所制定公平的谈判规范",
-      "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-18T09:11:29+00:00",
-      "source_count": 1,
-      "score": 59,
+      "title": "Show HN: WhatsApp MCP 在 Cloudflare 上免费运行",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T08:42:19.266000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": true,
       "topics": [
-        "anthropic"
+        "mcp"
       ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "线束工程 101：LLM是大脑，线束是身体",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-19T12:07:41+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     },
@@ -216,7 +237,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-18T21:17:07.195000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
@@ -228,11 +249,11 @@
     {
       "title": "DeepSeek V4.1 闪存 1017（最大）",
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-19T04:41:46+00:00",
+      "source": "artificialanalysis.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T07:08:12.735000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "deepseek"
@@ -241,59 +262,41 @@
       "label": "值得关注"
     },
     {
-      "title": "Google 开源 Harness2，一种递归代理利用框架",
-      "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-18T08:15:04+00:00",
+      "title": "headroomlabs-ai /      headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-10-19T13:02:23.924000+00:00",
       "source_count": 1,
-      "score": 54,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google Gemini 4 代理在没有人为干预的情况下击败了 Minecraft",
+      "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-10-19T09:19:19+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [
-        "agent",
-        "opensource"
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "DeepSeek 搜索和获取服务——每 1000 次成功请求 0.75 美元",
-      "url": "https://api-docs.deepseek.com/guides/search",
-      "source": "api-docs.deepseek.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T08:37:12.821000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "显示 HN：WhatsApp MCP 在 Cloudflare 上免费运行",
-      "url": "https://github.com/finereli/whatsapp-mcp",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-18T21:36:10+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的就业形势正在发生怎样的变化",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T21:17:07.176000+00:00",
-      "source_count": 2,
-      "score": 52,
+      "title": "Anthropic 将其 5% 的股份捐赠给一个新的公益基金",
+      "url": "https://thenextweb.com/news/anthropic-public-benefit-fund-5-percent-shares",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-19T07:39:22+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
@@ -308,7 +311,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-19T04:34:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -323,7 +326,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-19T04:32:07+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [],
       "reason": "",
@@ -336,7 +339,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-19T01:03:50+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic",
@@ -352,39 +355,9 @@
       "site_id": "techurls",
       "published_at": "2026-10-18T23:30:00+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌再次更名为Gemini；这是每个功能现在的作用",
-      "url": "https://www.androidpolice.com/googles-renamed-gemini-features-field-guide",
-      "source": "Android Police",
-      "site_id": "techurls",
-      "published_at": "2026-10-18T21:00:13+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "报告称，Anthropic 正在向国会提交自己的人工智能安全法案",
-      "url": "https://mashable.com/tech/anthropic-pitching-congress-ai-safety-bill",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-10-18T19:22:11+00:00",
-      "source_count": 1,
       "score": 49,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
