@@ -1,8 +1,53 @@
 {
-  "generated_at": "2026-10-19T13:15:11.430127+00:00",
+  "generated_at": "2026-10-19T19:22:00.165012+00:00",
   "window_hours": 168,
-  "total_items": 9,
+  "total_items": 11,
   "items": [
+    {
+      "title": "Tmux 和 Claude Code：会话、Send-Keys 以及上限",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents",
+      "source": "crystl.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T15:02:49.673000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 84
+    },
+    {
+      "title": "线束工程入门：LLM是大脑，线束是身体Simplified Chinese (Mainland)",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T14:47:39.309000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 82
+    },
+    {
+      "title": "Mercury 3：大规模扩散",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "source": "www.inceptionlabs.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T18:45:08.587000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
+    },
     {
       "title": "Show HN: WhatsApp MCP 在 Cloudflare 上免费运行",
       "url": "https://github.com/finereli/whatsapp-mcp",
@@ -10,14 +55,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-19T08:42:19.266000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "mcp"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 82
+      "hot_score": 49
+    },
+    {
+      "title": "Show HN: Qwen3-4B，已消除AI写作中的怪癖",
+      "url": "https://100toolkit.com/blog/deslop-model",
+      "source": "100toolkit.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-19T16:21:22.098000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
     },
     {
       "title": "如果你没有运行自己的 LLM 代理，你怎么知道里面发生了什么？",
@@ -26,12 +85,26 @@
       "site_id": "buzzing",
       "published_at": "2026-10-19T06:20:08.917000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 67
+      "hot_score": 41
+    },
+    {
+      "title": "凯恩：打开人工智能驱动的网络运营的窗口",
+      "url": "https://norforge.com/blog/inside_cairn",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-19T13:35:12+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 37
     },
     {
       "title": "Timestral：Mistral 发布时间序列基础模型",
@@ -40,84 +113,24 @@
       "site_id": "buzzing",
       "published_at": "2026-10-19T12:39:13.350000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 57
+      "hot_score": 34
     },
     {
-      "title": "线束工程 101：LLM是大脑，线束是身体",
-      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "title": "Anthropic 首次公开募股中笼罩着模糊的信任",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-19T12:07:41+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 55
-    },
-    {
-      "title": "网站正纷纷关闭人工智能客服",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "source": "www.theverge.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T21:17:07.202000+00:00",
-      "source_count": 4,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 48
-    },
-    {
-      "title": "混合推理代理：在潜空间中进行推理、通过文本采取行动的大语言模型（LLM）代理",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "source": "arxiv.org",
-      "site_id": "buzzing",
-      "published_at": "2026-10-18T22:42:18.398000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 36
-    },
-    {
-      "title": "DeepSeek V4.1 闪存 1017（最大）",
-      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-      "source": "artificialanalysis.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-19T07:08:12.735000+00:00",
+      "published_at": "2026-10-19T12:06:03+00:00",
       "source_count": 2,
       "score": 53,
       "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 36
-    },
-    {
-      "title": "Tmux 和 Claude 代码：会话、发送密钥和上限",
-      "url": "https://crystl.dev/guides/tmux-for-ai-agents",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-19T05:55:31+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
       "topics": [
         "anthropic"
       ],
@@ -126,21 +139,36 @@
       "hot_score": 33
     },
     {
-      "title": "Anthropic提出的AI安全法案只有在造成50人死亡或10亿美元损失的情况下才会生效",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "source": "www.tomshardware.com",
+      "title": "DeepSeek V4.1 闪存 1017（最大）",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "source": "artificialanalysis.ai",
       "site_id": "buzzing",
-      "published_at": "2026-10-18T21:17:07.195000+00:00",
-      "source_count": 3,
-      "score": 53,
+      "published_at": "2026-10-19T07:08:12.735000+00:00",
+      "source_count": 2,
+      "score": 52,
       "official": true,
       "topics": [
-        "anthropic",
-        "industry"
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 22
+    },
+    {
+      "title": "混合推理代理：在潜空间中进行推理、通过文本采取行动的大语言模型（LLM）代理",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "source": "arxiv.org",
+      "site_id": "buzzing",
+      "published_at": "2026-10-18T22:42:18.398000+00:00",
+      "source_count": 3,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 32
+      "hot_score": 21
     }
   ]
 }
