@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:46:49.162930Z",
+  "generated_at": "2026-10-20T10:01:50.686402Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.85,
-      "importance": 0.85,
-      "importance_score": 0.85,
+      "score": 0.8423,
+      "importance": 0.8423,
+      "importance_score": 0.8423,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 1.0,
+        "recency": 0.9572,
         "story_heat": 0.0
       },
       "category": "official",
@@ -65,8 +65,8 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-20T04:46:49.162930Z",
-      "latest_at": "2026-10-20T04:46:49.162930Z",
+      "earliest_at": "2026-10-20T07:00:00Z",
+      "latest_at": "2026-10-20T07:00:00Z",
       "primary_item": {
         "id": "516ac17e576f2a9d53b81e51ef7f20f4b502a365",
         "title": "How To Use Decision Models for Evals",
@@ -83,12 +83,95 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
+      }
+    },
+    {
+      "story_id": "story_d758892487ff",
+      "title": "[AINews] 今天没什么事发生 / [AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+      "primary_url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+      "source": "Latent Space",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "4eadd0c911f9373520bbb8c3901b3d5960a74161",
+          "title": "[AINews] 今天没什么事发生 / [AINews] not much happened today",
+          "title_zh": "[AINews] 今天没什么事发生",
+          "title_en": "[AINews] not much happened today",
+          "title_original": "[AINews] not much happened today",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-20T05:21:52Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Latent Space"
+      ],
+      "items": [
+        {
+          "id": "4eadd0c911f9373520bbb8c3901b3d5960a74161",
+          "title": "[AINews] 今天没什么事发生 / [AINews] not much happened today",
+          "title_zh": "[AINews] 今天没什么事发生",
+          "title_en": "[AINews] not much happened today",
+          "title_original": "[AINews] not much happened today",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+          "source": "Latent Space",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-20T05:21:52Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8323,
+      "importance": 0.8323,
+      "importance_score": 0.8323,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9348,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-20T05:21:52Z",
+      "latest_at": "2026-10-20T05:21:52Z",
+      "primary_item": {
+        "id": "4eadd0c911f9373520bbb8c3901b3d5960a74161",
+        "title": "[AINews] 今天没什么事发生 / [AINews] not much happened today",
+        "title_zh": "[AINews] 今天没什么事发生",
+        "title_en": "[AINews] not much happened today",
+        "title_original": "[AINews] not much happened today",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+        "source": "Latent Space",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
       "story_id": "story_cf7ab9adb16b",
-      "title": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力 / Advancing coding in low‑resource programming languages",
+      "title": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力 / Advancing coding in low‑resource programming languages",
       "url": "https://openai.com/index/low-resource-programming-languages",
       "primary_url": "https://openai.com/index/low-resource-programming-languages",
       "source": "OpenAI News",
@@ -96,8 +179,8 @@
       "sources": [
         {
           "id": "46221a356faca9b4325a3b93af85149bf1519363",
-          "title": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力 / Advancing coding in low‑resource programming languages",
-          "title_zh": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力",
+          "title": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力 / Advancing coding in low‑resource programming languages",
+          "title_zh": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力",
           "title_en": "Advancing coding in low‑resource programming languages",
           "title_original": "Advancing coding in low‑resource programming languages",
           "summary": null,
@@ -131,8 +214,8 @@
       "items": [
         {
           "id": "46221a356faca9b4325a3b93af85149bf1519363",
-          "title": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力 / Advancing coding in low‑resource programming languages",
-          "title_zh": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力",
+          "title": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力 / Advancing coding in low‑resource programming languages",
+          "title_zh": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力",
           "title_en": "Advancing coding in low‑resource programming languages",
           "title_original": "Advancing coding in low‑resource programming languages",
           "summary": null,
@@ -160,15 +243,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8383,
-      "importance": 0.8383,
-      "importance_score": 0.8383,
+      "score": 0.828,
+      "importance": 0.828,
+      "importance_score": 0.828,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7848,
+        "recency": 0.7275,
         "story_heat": 0.25
       },
       "category": "official",
@@ -182,8 +265,8 @@
       "latest_at": "2026-10-19T12:00:00Z",
       "primary_item": {
         "id": "46221a356faca9b4325a3b93af85149bf1519363",
-        "title": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力 / Advancing coding in low‑resource programming languages",
-        "title_zh": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力",
+        "title": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力 / Advancing coding in low‑resource programming languages",
+        "title_zh": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力",
         "title_en": "Advancing coding in low‑resource programming languages",
         "title_original": "Advancing coding in low‑resource programming languages",
         "summary": null,
@@ -196,7 +279,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -244,15 +327,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8341,
-      "importance": 0.8341,
-      "importance_score": 0.8341,
+      "score": 0.8223,
+      "importance": 0.8223,
+      "importance_score": 0.8223,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9007,
+        "recency": 0.8349,
         "story_heat": 0.0
       },
       "category": "official",
@@ -279,7 +362,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -327,15 +410,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8278,
-      "importance": 0.8278,
-      "importance_score": 0.8278,
+      "score": 0.8164,
+      "importance": 0.8164,
+      "importance_score": 0.8164,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8657,
+        "recency": 0.8024,
         "story_heat": 0.0
       },
       "category": "official",
@@ -362,7 +445,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -410,15 +493,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8096,
-      "importance": 0.8096,
-      "importance_score": 0.8096,
+      "score": 0.799,
+      "importance": 0.799,
+      "importance_score": 0.799,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.809,
+        "recency": 0.75,
         "story_heat": 0.0
       },
       "category": "official",
@@ -445,90 +528,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
-      }
-    },
-    {
-      "story_id": "story_78e3fb73f308",
-      "title": "GitHub Copilot models deprecated on October 19, 2026",
-      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
-      "primary_url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "cd2f4202daeb3171d498e5e04e6d92b27f4fb5ee",
-          "title": "GitHub Copilot models deprecated on October 19, 2026",
-          "title_zh": null,
-          "title_en": "GitHub Copilot models deprecated on October 19, 2026",
-          "title_original": "GitHub Copilot models deprecated on October 19, 2026",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-19T21:27:10Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "cd2f4202daeb3171d498e5e04e6d92b27f4fb5ee",
-          "title": "GitHub Copilot models deprecated on October 19, 2026",
-          "title_zh": null,
-          "title_en": "GitHub Copilot models deprecated on October 19, 2026",
-          "title_original": "GitHub Copilot models deprecated on October 19, 2026",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-19T21:27:10Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8339,
-      "importance": 0.8339,
-      "importance_score": 0.8339,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8996,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-19T21:27:10Z",
-      "latest_at": "2026-10-19T21:27:10Z",
-      "primary_item": {
-        "id": "cd2f4202daeb3171d498e5e04e6d92b27f4fb5ee",
-        "title": "GitHub Copilot models deprecated on October 19, 2026",
-        "title_zh": null,
-        "title_en": "GitHub Copilot models deprecated on October 19, 2026",
-        "title_original": "GitHub Copilot models deprecated on October 19, 2026",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -576,15 +576,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8023,
-      "importance": 0.8023,
-      "importance_score": 0.8023,
+      "score": 0.7922,
+      "importance": 0.7922,
+      "importance_score": 0.7922,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7684,
+        "recency": 0.7123,
         "story_heat": 0.0
       },
       "category": "official",
@@ -611,7 +611,172 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
+      }
+    },
+    {
+      "story_id": "story_78e3fb73f308",
+      "title": "GitHub Copilot models deprecated on October 19, 2026",
+      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "primary_url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "cd2f4202daeb3171d498e5e04e6d92b27f4fb5ee",
+          "title": "GitHub Copilot models deprecated on October 19, 2026",
+          "title_zh": null,
+          "title_en": "GitHub Copilot models deprecated on October 19, 2026",
+          "title_original": "GitHub Copilot models deprecated on October 19, 2026",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-19T21:27:10Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "cd2f4202daeb3171d498e5e04e6d92b27f4fb5ee",
+          "title": "GitHub Copilot models deprecated on October 19, 2026",
+          "title_zh": null,
+          "title_en": "GitHub Copilot models deprecated on October 19, 2026",
+          "title_original": "GitHub Copilot models deprecated on October 19, 2026",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-19T21:27:10Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8221,
+      "importance": 0.8221,
+      "importance_score": 0.8221,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8339,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-19T21:27:10Z",
+      "latest_at": "2026-10-19T21:27:10Z",
+      "primary_item": {
+        "id": "cd2f4202daeb3171d498e5e04e6d92b27f4fb5ee",
+        "title": "GitHub Copilot models deprecated on October 19, 2026",
+        "title_zh": null,
+        "title_en": "GitHub Copilot models deprecated on October 19, 2026",
+        "title_original": "GitHub Copilot models deprecated on October 19, 2026",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-20T10:21:53.303931Z"
+      }
+    },
+    {
+      "story_id": "story_ec99b9afee19",
+      "title": "路透：OpenAI 拟在 Anthropic 上市前加速融资约 300 亿美元，估值超 1.4 万亿美元 / Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+      "url": "https://x.com/rohanpaul_ai/status/2112455383356989598",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2112455383356989598",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "cec532239c2070ca225d3dbd8219ec03cd0cba35",
+          "title": "路透：OpenAI 拟在 Anthropic 上市前加速融资约 300 亿美元，估值超 1.4 万亿美元 / Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+          "title_zh": "路透：OpenAI 拟在 Anthropic 上市前加速融资约 300 亿美元，估值超 1.4 万亿美元",
+          "title_en": "Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+          "title_original": "Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+          "summary": "据 Reuters 报道，OpenAI 正赶在 Anthropic 上市前洽谈融资约 300 亿美元，估值超 1.4 万亿美元，比 3 月的 8520 亿美元至少高 64%。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2112455383356989598",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-20T08:06:25Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "cec532239c2070ca225d3dbd8219ec03cd0cba35",
+          "title": "路透：OpenAI 拟在 Anthropic 上市前加速融资约 300 亿美元，估值超 1.4 万亿美元 / Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+          "title_zh": "路透：OpenAI 拟在 Anthropic 上市前加速融资约 300 亿美元，估值超 1.4 万亿美元",
+          "title_en": "Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+          "title_original": "Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+          "summary": "据 Reuters 报道，OpenAI 正赶在 Anthropic 上市前洽谈融资约 300 亿美元，估值超 1.4 万亿美元，比 3 月的 8520 亿美元至少高 64%。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2112455383356989598",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-20T08:06:25Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7777,
+      "importance": 0.7777,
+      "importance_score": 0.7777,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9726,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-20T08:06:25Z",
+      "latest_at": "2026-10-20T08:06:25Z",
+      "primary_item": {
+        "id": "cec532239c2070ca225d3dbd8219ec03cd0cba35",
+        "title": "路透：OpenAI 拟在 Anthropic 上市前加速融资约 300 亿美元，估值超 1.4 万亿美元 / Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+        "title_zh": "路透：OpenAI 拟在 Anthropic 上市前加速融资约 300 亿美元，估值超 1.4 万亿美元",
+        "title_en": "Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+        "title_original": "Reuters: OpenAI is racing to raise about $30B at a valuation above $1.4T before Anthropic goes public.",
+        "summary": "据 Reuters 报道，OpenAI 正赶在 Anthropic 上市前洽谈融资约 300 亿美元，估值超 1.4 万亿美元，比 3 月的 8520 亿美元至少高 64%。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/rohanpaul_ai/status/2112455383356989598",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -688,15 +853,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7863,
-      "importance": 0.7863,
-      "importance_score": 0.7863,
+      "score": 0.7753,
+      "importance": 0.7753,
+      "importance_score": 0.7753,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8315,
+        "recency": 0.7708,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -723,7 +888,171 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
+      }
+    },
+    {
+      "story_id": "story_75f1482a0a43",
+      "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
+      "source": "公众号：DeepSeek（深度求索）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a7ea37a396c4ed654a39f0ec92929a9aaaf3eb10",
+          "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
+          "title_zh": "DeepSeek 全面开源内部推理框架 DeepInfer",
+          "title_en": null,
+          "title_original": "DeepSeek 全面开源内部推理框架 DeepInfer",
+          "summary": "DeepSeek 宣布将内部推理框架 DeepInfer 全面开源，并同步开源生产级 Token 编解码组件 deepseek-recipe。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
+          "source": "公众号：DeepSeek（深度求索）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-20T08:54:54Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：DeepSeek（深度求索）"
+      ],
+      "items": [
+        {
+          "id": "a7ea37a396c4ed654a39f0ec92929a9aaaf3eb10",
+          "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
+          "title_zh": "DeepSeek 全面开源内部推理框架 DeepInfer",
+          "title_en": null,
+          "title_original": "DeepSeek 全面开源内部推理框架 DeepInfer",
+          "summary": "DeepSeek 宣布将内部推理框架 DeepInfer 全面开源，并同步开源生产级 Token 编解码组件 deepseek-recipe。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
+          "source": "公众号：DeepSeek（深度求索）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-20T08:54:54Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7737,
+      "importance": 0.7737,
+      "importance_score": 0.7737,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.984,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-20T08:54:54Z",
+      "latest_at": "2026-10-20T08:54:54Z",
+      "primary_item": {
+        "id": "a7ea37a396c4ed654a39f0ec92929a9aaaf3eb10",
+        "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
+        "title_zh": "DeepSeek 全面开源内部推理框架 DeepInfer",
+        "title_en": null,
+        "title_original": "DeepSeek 全面开源内部推理框架 DeepInfer",
+        "summary": "DeepSeek 宣布将内部推理框架 DeepInfer 全面开源，并同步开源生产级 Token 编解码组件 deepseek-recipe。",
+        "recommend_reason_zh": null,
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
+        "source": "公众号：DeepSeek（深度求索）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-20T10:21:53.303931Z"
+      }
+    },
+    {
+      "story_id": "story_d8b4fe34f8d1",
+      "title": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+      "url": "https://www.aibase.com/news/31752",
+      "primary_url": "https://www.aibase.com/news/31752",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "18466727d5889dd4ed1df03a30e76e92003fbd48",
+          "title": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+          "title_zh": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+          "title_en": null,
+          "title_original": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31752",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-20T10:01:50.686402Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "18466727d5889dd4ed1df03a30e76e92003fbd48",
+          "title": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+          "title_zh": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+          "title_en": null,
+          "title_original": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31752",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-20T10:01:50.686402Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-20T10:01:50.686402Z",
+      "latest_at": "2026-10-20T10:01:50.686402Z",
+      "primary_item": {
+        "id": "18466727d5889dd4ed1df03a30e76e92003fbd48",
+        "title": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+        "title_zh": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+        "title_en": null,
+        "title_original": "90 天不上线免买单！Mastra 推出全新服务 Launch：以“对赌”承诺加速 AI 智能体企业级落地",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31752",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -771,15 +1100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.774,
-      "importance": 0.774,
-      "importance_score": 0.774,
+      "score": 0.7624,
+      "importance": 0.7624,
+      "importance_score": 0.7624,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8856,
+        "recency": 0.8209,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -805,89 +1134,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
-      }
-    },
-    {
-      "story_id": "story_e07f50dbfbf8",
-      "title": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-      "url": "https://www.aibase.com/news/31743",
-      "primary_url": "https://www.aibase.com/news/31743",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "f9fbecfe497bf2141286a1b318a36d84a119246b",
-          "title": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-          "title_zh": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-          "title_en": null,
-          "title_original": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31743",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-10-20T04:46:49.162930Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "f9fbecfe497bf2141286a1b318a36d84a119246b",
-          "title": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-          "title_zh": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-          "title_en": null,
-          "title_original": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31743",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-10-20T04:46:49.162930Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-20T04:46:49.162930Z",
-      "latest_at": "2026-10-20T04:46:49.162930Z",
-      "primary_item": {
-        "id": "f9fbecfe497bf2141286a1b318a36d84a119246b",
-        "title": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-        "title_zh": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-        "title_en": null,
-        "title_original": "AI 把\"克隆游戏\"门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31743",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -935,15 +1182,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7656,
-      "importance": 0.7656,
-      "importance_score": 0.7656,
+      "score": 0.7533,
+      "importance": 0.7533,
+      "importance_score": 0.7533,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9392,
+        "recency": 0.8706,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -969,229 +1216,170 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
-      "story_id": "story_88a0c6b8e716",
-      "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒 / Diffusion at Scale: Introducing Mercury 3",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "primary_url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "source": "Inception Labs：Blog（网页）",
+      "story_id": "story_9a95c0040d92",
+      "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+      "source": "公众号：面壁智能（MiniCPM）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "b6cd02228ca2d71c18538403d238ba333f93f691",
-          "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒 / Diffusion at Scale: Introducing Mercury 3",
-          "title_zh": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
-          "title_en": "Diffusion at Scale: Introducing Mercury 3",
-          "title_original": "Diffusion at Scale: Introducing Mercury 3",
-          "summary": "Inception Labs 发布扩散式大语言模型 Mercury 3，称其在多项基准上超过 GPT-6 Luna 和 Claude Haiku 5.5，速度达 1068 tokens/秒，参数量较 Mercury 1 扩大 40 倍以上。",
-          "recommend_reason_zh": null,
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "source": "Inception Labs：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-19T07:00:00Z"
-        },
-        {
-          "id": "c300d70689564651b6a90de85ec36214cdc21d4b",
-          "title": "Mercury 3：大规模扩散",
-          "title_zh": "Mercury 3：大规模扩散",
+          "id": "c7a2d955e11f15b98c85f6dc3ffca42eb45e7a29",
+          "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+          "title_zh": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
           "title_en": null,
-          "title_original": "Mercury 3：大规模扩散",
-          "summary": null,
+          "title_original": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+          "summary": "面壁智能 MiniCPM-V 团队介绍支撑 MiniCPM-V 4.7 端侧运行的前瞻专家调度（LES）技术，称首次实现 35B-A3B 规模 MoE 在端侧实时无损运行，iPhone 18 Pro Max 实测解码超 20 token/s。",
           "recommend_reason_zh": null,
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "source": "www.inceptionlabs.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-19T18:45:08.587000Z"
-        },
-        {
-          "id": "b5a3eb8ca3c2d08603451271808b1dd5a2df5c92",
-          "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒 / Mercury 3: Diffusion at scale",
-          "title_zh": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
-          "title_en": "Mercury 3: Diffusion at scale",
-          "title_original": "Mercury 3: Diffusion at scale",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-19T17:27:11Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Inception Labs：Blog（网页）",
-        "www.inceptionlabs.ai"
-      ],
-      "items": [
-        {
-          "id": "b6cd02228ca2d71c18538403d238ba333f93f691",
-          "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒 / Diffusion at Scale: Introducing Mercury 3",
-          "title_zh": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
-          "title_en": "Diffusion at Scale: Introducing Mercury 3",
-          "title_original": "Diffusion at Scale: Introducing Mercury 3",
-          "summary": "Inception Labs 发布扩散式大语言模型 Mercury 3，称其在多项基准上超过 GPT-6 Luna 和 Claude Haiku 5.5，速度达 1068 tokens/秒，参数量较 Mercury 1 扩大 40 倍以上。",
-          "recommend_reason_zh": null,
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "source": "Inception Labs：Blog（网页）",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+          "source": "公众号：面壁智能（MiniCPM）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-19T07:00:00Z"
-        },
-        {
-          "id": "c300d70689564651b6a90de85ec36214cdc21d4b",
-          "title": "Mercury 3：大规模扩散",
-          "title_zh": "Mercury 3：大规模扩散",
-          "title_en": null,
-          "title_original": "Mercury 3：大规模扩散",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "source": "www.inceptionlabs.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-19T18:45:08.587000Z"
-        },
-        {
-          "id": "b5a3eb8ca3c2d08603451271808b1dd5a2df5c92",
-          "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒 / Mercury 3: Diffusion at scale",
-          "title_zh": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
-          "title_en": "Mercury 3: Diffusion at scale",
-          "title_original": "Mercury 3: Diffusion at scale",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-19T17:27:11Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.76,
-      "importance": 0.76,
-      "importance_score": 0.76,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7301,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-19T07:00:00Z",
-      "latest_at": "2026-10-19T18:45:08.587000Z",
-      "primary_item": {
-        "id": "b6cd02228ca2d71c18538403d238ba333f93f691",
-        "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒 / Diffusion at Scale: Introducing Mercury 3",
-        "title_zh": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
-        "title_en": "Diffusion at Scale: Introducing Mercury 3",
-        "title_original": "Diffusion at Scale: Introducing Mercury 3",
-        "summary": "Inception Labs 发布扩散式大语言模型 Mercury 3，称其在多项基准上超过 GPT-6 Luna 和 Claude Haiku 5.5，速度达 1068 tokens/秒，参数量较 Mercury 1 扩大 40 倍以上。",
-        "recommend_reason_zh": null,
-        "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-        "source": "Inception Labs：Blog（网页）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
-      }
-    },
-    {
-      "story_id": "story_f05a4bc1e42d",
-      "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一 / Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-      "url": "https://x.com/arena/status/2112247114944360666",
-      "primary_url": "https://x.com/arena/status/2112247114944360666",
-      "source": "X：Arena (@arena)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6a0a17cbf7f2007efc0b2d395698af88c46a8901",
-          "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一 / Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-          "title_zh": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
-          "title_en": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-          "title_original": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-          "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/arena/status/2112247114944360666",
-          "source": "X：Arena (@arena)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-19T18:18:50Z"
+          "published_at": "2026-10-20T06:22:26Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Arena (@arena)"
+        "公众号：面壁智能（MiniCPM）"
       ],
       "items": [
         {
-          "id": "6a0a17cbf7f2007efc0b2d395698af88c46a8901",
-          "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一 / Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-          "title_zh": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
-          "title_en": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-          "title_original": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-          "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
+          "id": "c7a2d955e11f15b98c85f6dc3ffca42eb45e7a29",
+          "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+          "title_zh": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+          "title_en": null,
+          "title_original": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+          "summary": "面壁智能 MiniCPM-V 团队介绍支撑 MiniCPM-V 4.7 端侧运行的前瞻专家调度（LES）技术，称首次实现 35B-A3B 规模 MoE 在端侧实时无损运行，iPhone 18 Pro Max 实测解码超 20 token/s。",
           "recommend_reason_zh": null,
-          "url": "https://x.com/arena/status/2112247114944360666",
-          "source": "X：Arena (@arena)",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+          "source": "公众号：面壁智能（MiniCPM）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-19T18:18:50Z"
+          "published_at": "2026-10-20T06:22:26Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
+      "score": 0.7463,
+      "importance": 0.7463,
+      "importance_score": 0.7463,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.74,
+        "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8597,
+        "recency": 0.9486,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-10-19T18:18:50Z",
-      "latest_at": "2026-10-19T18:18:50Z",
+      "earliest_at": "2026-10-20T06:22:26Z",
+      "latest_at": "2026-10-20T06:22:26Z",
       "primary_item": {
-        "id": "6a0a17cbf7f2007efc0b2d395698af88c46a8901",
-        "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一 / Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-        "title_zh": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
-        "title_en": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-        "title_original": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
-        "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
+        "id": "c7a2d955e11f15b98c85f6dc3ffca42eb45e7a29",
+        "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+        "title_zh": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+        "title_en": null,
+        "title_original": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+        "summary": "面壁智能 MiniCPM-V 团队介绍支撑 MiniCPM-V 4.7 端侧运行的前瞻专家调度（LES）技术，称首次实现 35B-A3B 规模 MoE 在端侧实时无损运行，iPhone 18 Pro Max 实测解码超 20 token/s。",
         "recommend_reason_zh": null,
-        "url": "https://x.com/arena/status/2112247114944360666",
-        "source": "X：Arena (@arena)",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+        "source": "公众号：面壁智能（MiniCPM）",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
+      }
+    },
+    {
+      "story_id": "story_a61f36df1a54",
+      "title": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+      "url": "https://www.aibase.com/news/31748",
+      "primary_url": "https://www.aibase.com/news/31748",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "3d191780ee065433a7b68958caea94d896f80201",
+          "title": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+          "title_zh": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+          "title_en": null,
+          "title_original": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31748",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-20T10:01:50.686402Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "3d191780ee065433a7b68958caea94d896f80201",
+          "title": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+          "title_zh": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+          "title_en": null,
+          "title_original": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31748",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-20T10:01:50.686402Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-20T10:01:50.686402Z",
+      "latest_at": "2026-10-20T10:01:50.686402Z",
+      "primary_item": {
+        "id": "3d191780ee065433a7b68958caea94d896f80201",
+        "title": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+        "title_zh": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+        "title_en": null,
+        "title_original": "AI 红利怎么分？Anthropic 捐 5% 股份，马斯克给每个孩子送 SpaceX 股票",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31748",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -1239,15 +1427,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.748,
-      "importance": 0.748,
-      "importance_score": 0.748,
+      "score": 0.7373,
+      "importance": 0.7373,
+      "importance_score": 0.7373,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8075,
+        "recency": 0.7486,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1272,7 +1460,88 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
+      }
+    },
+    {
+      "story_id": "story_f05a4bc1e42d",
+      "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一 / Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+      "url": "https://x.com/arena/status/2112247114944360666",
+      "primary_url": "https://x.com/arena/status/2112247114944360666",
+      "source": "X：Arena (@arena)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6a0a17cbf7f2007efc0b2d395698af88c46a8901",
+          "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一 / Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+          "title_zh": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+          "title_en": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+          "title_original": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+          "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/arena/status/2112247114944360666",
+          "source": "X：Arena (@arena)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-19T18:18:50Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Arena (@arena)"
+      ],
+      "items": [
+        {
+          "id": "6a0a17cbf7f2007efc0b2d395698af88c46a8901",
+          "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一 / Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+          "title_zh": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+          "title_en": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+          "title_original": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+          "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/arena/status/2112247114944360666",
+          "source": "X：Arena (@arena)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-19T18:18:50Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7371,
+      "importance": 0.7371,
+      "importance_score": 0.7371,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.797,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-19T18:18:50Z",
+      "latest_at": "2026-10-19T18:18:50Z",
+      "primary_item": {
+        "id": "6a0a17cbf7f2007efc0b2d395698af88c46a8901",
+        "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一 / Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+        "title_zh": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+        "title_en": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+        "title_original": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+        "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/arena/status/2112247114944360666",
+        "source": "X：Arena (@arena)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -1320,15 +1589,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7743,
-      "importance": 0.7743,
-      "importance_score": 0.7743,
+      "score": 0.7635,
+      "importance": 0.7635,
+      "importance_score": 0.7635,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8205,
+        "recency": 0.7606,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1354,7 +1623,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     },
     {
@@ -1402,15 +1671,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8025,
-      "importance": 0.8025,
-      "importance_score": 0.8025,
+      "score": 0.7924,
+      "importance": 0.7924,
+      "importance_score": 0.7924,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7694,
+        "recency": 0.7132,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1437,332 +1706,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
-      }
-    },
-    {
-      "story_id": "story_c58b3706179b",
-      "title": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-      "url": "https://www.aibase.com/news/31739",
-      "primary_url": "https://www.aibase.com/news/31739",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e8674cd3ff9e07bbb73f723c30bf375d3a537592",
-          "title": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-          "title_zh": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-          "title_en": null,
-          "title_original": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31739",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-10-20T04:46:49.162930Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "e8674cd3ff9e07bbb73f723c30bf375d3a537592",
-          "title": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-          "title_zh": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-          "title_en": null,
-          "title_original": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31739",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-10-20T04:46:49.162930Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-20T04:46:49.162930Z",
-      "latest_at": "2026-10-20T04:46:49.162930Z",
-      "primary_item": {
-        "id": "e8674cd3ff9e07bbb73f723c30bf375d3a537592",
-        "title": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-        "title_zh": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-        "title_en": null,
-        "title_original": "AI助手初创公司Town完成1.08亿美元B轮融资，估值突破10亿美元",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31739",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
-      }
-    },
-    {
-      "story_id": "story_3f646f16c678",
-      "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性 / The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-      "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture",
-      "primary_url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture",
-      "source": "Meta Engineering Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "39a3afce0105f395fa17fd374294d359abbca4d2",
-          "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性 / The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-          "title_zh": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
-          "title_en": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-          "title_original": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-          "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
-          "recommend_reason_zh": null,
-          "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture",
-          "source": "Meta Engineering Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-19T15:30:37Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Meta Engineering Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "39a3afce0105f395fa17fd374294d359abbca4d2",
-          "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性 / The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-          "title_zh": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
-          "title_en": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-          "title_original": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-          "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
-          "recommend_reason_zh": null,
-          "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture",
-          "source": "Meta Engineering Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-19T15:30:37Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7302,
-      "importance": 0.7302,
-      "importance_score": 0.7302,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8256,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-19T15:30:37Z",
-      "latest_at": "2026-10-19T15:30:37Z",
-      "primary_item": {
-        "id": "39a3afce0105f395fa17fd374294d359abbca4d2",
-        "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性 / The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-        "title_zh": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
-        "title_en": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-        "title_original": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-        "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
-        "recommend_reason_zh": null,
-        "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture",
-        "source": "Meta Engineering Blog（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
-      }
-    },
-    {
-      "story_id": "story_84e1775d2c48",
-      "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter / Mercury 3 is live on OpenRouter!",
-      "url": "https://x.com/OpenRouter/status/2112225779782398131",
-      "primary_url": "https://x.com/OpenRouter/status/2112225779782398131",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1aa5c7e7d551045b9ab9b985db803a4a3994b69f",
-          "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter / Mercury 3 is live on OpenRouter!",
-          "title_zh": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
-          "title_en": "Mercury 3 is live on OpenRouter!",
-          "title_original": "Mercury 3 is live on OpenRouter!",
-          "summary": "Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/OpenRouter/status/2112225779782398131",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-19T16:54:03Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：OpenRouter (@OpenRouter)"
-      ],
-      "items": [
-        {
-          "id": "1aa5c7e7d551045b9ab9b985db803a4a3994b69f",
-          "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter / Mercury 3 is live on OpenRouter!",
-          "title_zh": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
-          "title_en": "Mercury 3 is live on OpenRouter!",
-          "title_original": "Mercury 3 is live on OpenRouter!",
-          "summary": "Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/OpenRouter/status/2112225779782398131",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-19T16:54:03Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7242,
-      "importance": 0.7242,
-      "importance_score": 0.7242,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8424,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-19T16:54:03Z",
-      "latest_at": "2026-10-19T16:54:03Z",
-      "primary_item": {
-        "id": "1aa5c7e7d551045b9ab9b985db803a4a3994b69f",
-        "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter / Mercury 3 is live on OpenRouter!",
-        "title_zh": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
-        "title_en": "Mercury 3 is live on OpenRouter!",
-        "title_original": "Mercury 3 is live on OpenRouter!",
-        "summary": "Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/OpenRouter/status/2112225779782398131",
-        "source": "X：OpenRouter (@OpenRouter)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
-      }
-    },
-    {
-      "story_id": "story_d95f2ac548b5",
-      "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max / Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-      "url": "https://x.com/fal/status/2112251022047412492",
-      "primary_url": "https://x.com/fal/status/2112251022047412492",
-      "source": "X：fal (@fal)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "3b1919bdb185948ad3323a6bed7c8f4ee802ba16",
-          "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max / Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-          "title_zh": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
-          "title_en": "Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-          "title_original": "Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-          "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/fal/status/2112251022047412492",
-          "source": "X：fal (@fal)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-19T18:34:22Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：fal (@fal)"
-      ],
-      "items": [
-        {
-          "id": "3b1919bdb185948ad3323a6bed7c8f4ee802ba16",
-          "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max / Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-          "title_zh": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
-          "title_en": "Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-          "title_original": "Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-          "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/fal/status/2112251022047412492",
-          "source": "X：fal (@fal)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-19T18:34:22Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7219,
-      "importance": 0.7219,
-      "importance_score": 0.7219,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8629,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-19T18:34:22Z",
-      "latest_at": "2026-10-19T18:34:22Z",
-      "primary_item": {
-        "id": "3b1919bdb185948ad3323a6bed7c8f4ee802ba16",
-        "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max / Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-        "title_zh": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
-        "title_en": "Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-        "title_original": "Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
-        "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/fal/status/2112251022047412492",
-        "source": "X：fal (@fal)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-20T05:03:37.798149Z"
+        "scored_at": "2026-10-20T10:21:53.303931Z"
       }
     }
   ]

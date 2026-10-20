@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-20T05:03:37.342247+00:00",
+  "generated_at": "2026-10-20T10:21:52.836230+00:00",
   "today": "2026-10-20",
-  "lead": "How To Use Decision Models for Evals；OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力；Copilot model policy API for enterprise, orgs, and teams",
+  "lead": "How To Use Decision Models for Evals；OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力；[AINews] 今天没什么事发生",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "根据美国国土安全部（DHS）的新命令，DeepSeek被禁止在美国联邦民用机构中使用",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19",
+      "source": "www.reuters.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-20T05:25:17.965000+00:00",
+      "source_count": 4,
+      "score": 58,
+      "official": true,
+      "topics": [
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "人们正在使用人工智能让他们的智能电视再次变得愚蠢",
       "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
@@ -11,12 +27,12 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T00:19:13+00:00",
       "source_count": 3,
-      "score": 64,
+      "score": 63,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 81
+      "hot_score": 52
     },
     {
       "title": "笼罩在Anthropic首次公开募股（IPO）上空的神秘信托",
@@ -25,14 +41,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-19T20:37:07.726000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 59
+      "hot_score": 38
     },
     {
       "title": "Redact 调查：WhatsApp 帮助页面隐藏 LLM 指令，让 AI 不推荐监管机构、不提 GDPR",
@@ -41,46 +57,30 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T04:21:32.552000+00:00",
       "source_count": 2,
-      "score": 79,
+      "score": 78,
       "official": false,
       "topics": [
         "industry"
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 57
+      "hot_score": 36
     },
     {
-      "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "source": "Inception Labs：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-10-19T18:45:08.587000+00:00",
-      "source_count": 3,
-      "score": 76,
-      "official": false,
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-19T23:39:38+00:00",
+      "source_count": 2,
+      "score": 64,
+      "official": true,
       "topics": [
-        "launch"
+        "anthropic"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 51
-    },
-    {
-      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-      "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-19T16:16:46+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 41
+      "label": "值得关注",
+      "hot_score": 25
     }
   ],
   "topics": [
@@ -89,28 +89,28 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 19
+      "count": 22
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 17
+      "count": 19
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 7
+      "count": 6
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 16
+      "count": 19
     },
     {
       "slug": "qwen",
@@ -124,35 +124,35 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 15
+      "count": 18
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 5
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 10
+      "count": 17
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 17
+      "count": 19
     },
     {
       "slug": "paper",
