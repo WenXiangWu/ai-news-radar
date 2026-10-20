@@ -7,11 +7,11 @@
   "groups": [
     "docs-06"
   ],
-  "run_id": "39338130327",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39338130327",
+  "run_id": "39378141141",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39378141141",
   "conclusion": "failure",
-  "started_at": "2026-10-19T23:34:59.293168+00:00",
-  "finished_at": "2026-10-19T23:34:59.293168+00:00",
+  "started_at": "2026-10-20T06:46:27.201312+00:00",
+  "finished_at": "2026-10-20T06:46:27.201312+00:00",
   "push": {
     "attempted": false
   },
@@ -24,9 +24,9 @@
     },
     {
       "source_id": "docs.phoenix",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "https://arize.com/docs/phoenix: translation unavailable or failed quality gate"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.pi-sdk",
