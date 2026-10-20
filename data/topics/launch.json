@@ -1,11 +1,42 @@
 {
-  "generated_at": "2026-10-20T10:21:52.836230+00:00",
+  "generated_at": "2026-10-20T15:04:32.503752+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 19,
+  "total_items": 11,
   "items": [
+    {
+      "title": "发布虚假统计数据，在LLM中被引用",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-20T13:06:22+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "llm-d 1.0 发布：Kubernetes 原生分布式推理服务走向生产就绪",
+      "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
+      "source": "IBM Research：AI",
+      "site_id": "aihot",
+      "published_at": "2026-10-20T12:00:00+00:00",
+      "source_count": 1,
+      "score": 72,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "奇瑞 CheryMind 垂域基础大模型发布，宣称\"为物理 AI 而生\"",
       "url": "https://www.aibase.com/news/31755",
@@ -13,7 +44,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "launch",
@@ -29,7 +60,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "opensource",
@@ -46,7 +77,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "launch",
@@ -56,13 +87,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
+      "title": "Cloudflare 发布 Clairic，一种基于 Workers AI 的 System One 提取模型",
       "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-20T07:45:41+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "launch"
@@ -71,13 +102,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+      "title": "Inception 以每秒 1,068 个代币的速度发布 Mercury 3 Diffusion LLM",
       "url": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-20T03:32:43+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "launch"
@@ -92,27 +123,11 @@
       "site_id": "curated_media",
       "published_at": "2026-10-19T21:34:39+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Fired OpenAI engineer accused of bugging office won't be released from jail",
-      "url": "https://www.businessinsider.com/judge-detains-fired-openai-engineer-abdulrahman-alfozan-concerns-saudi-arabia-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-19T20:05:58+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai",
         "launch"
       ],
       "reason": "",
@@ -125,7 +140,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-19T18:34:22+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "launch"
@@ -140,7 +155,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-19T17:36:26+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "launch"
@@ -155,7 +170,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-19T16:25:46+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "deepseek",
@@ -164,146 +179,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "langgraph-cli==0.4.37",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-19T14:06:22+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "DeepSeek V4.1-Flash-1017 发布：当\"许愿式编程\"成为 API 调用",
-      "url": "https://juejin.cn/post/7697422926362689578",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-19T13:14:49.556000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI发布ChatGPT扩展程序重大升级，支持跨标签页上下文读取与自动化操作",
-      "url": "https://www.aibase.com/news/31728",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-19T13:14:08.778470+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "英特尔杀入大模型推理市场！发布GPU D系列：最高配480GB显存，专为万亿参数推理而生",
-      "url": "https://www.aibase.com/news/31722",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-19T13:14:08.778470+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "AWS 发布 TorchNeuron：Trainium 的原生 PyTorch 后端",
-      "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium",
-      "source": "PyTorch：Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-19T12:45:23+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Timestral：Mistral 发布时间序列基础模型",
-      "url": "https://mistral.ai/news/timestral",
-      "source": "mistral.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-19T12:39:13.350000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "MiniMax 刚刚推出 M3.1 闪存：428B MoE Agentic 型号，输入价格为 0.15 美元/月",
-      "url": "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-19T12:37:58+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-19T12:00:00+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Microsoft Foundry 中的浏览器自动化工具现已正式发布",
-      "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-19T10:32:13+00:00",
-      "source_count": 1,
-      "score": 79,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ]
 }
