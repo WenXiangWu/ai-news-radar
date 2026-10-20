@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-10-20T19:38:04.393881+00:00",
+  "generated_at": "2026-10-20T22:19:27.608609+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 30,
+  "total_items": 32,
   "items": [
+    {
+      "title": "我用免费的开源替代品取代了 Google Photos、Drive 和 Gemini；现在我无法回去",
+      "url": "https://www.androidpolice.com/replaced-google-photos-drive-gemini-with-free-open-source-alternatives-now-i-can-not-go-back",
+      "source": "Android Police",
+      "site_id": "techurls",
+      "published_at": "2026-10-20T21:00:10+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "google",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "DeepSeek 开源推理框架：96% 的输入，都不用重新计算",
       "url": "https://waytoagi.feishu.cn/wiki/VRniwYlIMitE3lkjM5xcjwNInNc?from=from_copylink",
@@ -13,7 +29,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-20T19:14:13.453170+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "deepseek",
@@ -29,7 +45,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-20T19:14:13.453170+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "anthropic",
@@ -46,7 +62,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-20T19:14:13.453170+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "opensource"
@@ -55,13 +71,28 @@
       "label": "值得关注"
     },
     {
-      "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+      "title": "Google launches TorchTPU, an open-source version of PyTorch to let AI apps run on TPUs and Google Cloud via simple configuration changes without rewriting code (Julie Bort/TechCrunch)",
+      "url": "https://www.techmeme.com/261020/p37",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-20T19:00:58+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Deepseek 开源推理引擎，为其最快、最便宜的人工智能模型提供动力",
       "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-10-20T18:56:15+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "deepseek",
@@ -71,13 +102,13 @@
       "label": "值得关注"
     },
     {
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "title": "NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实",
       "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-20T18:17:47+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource"
@@ -86,13 +117,13 @@
       "label": "官方更新"
     },
     {
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "title": "FairStress：对 LLM 决策公平性的更深入评估",
       "url": "https://huggingface.co/blog/allenai/fairstress",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-20T16:09:19+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource"
@@ -101,13 +132,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs",
+      "title": "Google 开源 TorchTPU，云 TPU 的原生 PyTorch 后端",
       "url": "https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-20T15:22:03+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "opensource"
@@ -122,7 +153,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T15:19:48+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "opensource"
@@ -131,13 +162,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "title": "推出 HN：Respan (YC W24) – 围绕插件构建的开源 Rust AI 网关",
       "url": "https://news.ycombinator.com/item?id=50167583",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-20T15:09:29+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "opensource"
@@ -152,7 +183,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T15:04:09.208000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
@@ -168,7 +199,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T15:04:09.208000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "deepseek",
@@ -178,13 +209,13 @@
       "label": "值得关注"
     },
     {
-      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
+      "title": "DeepSeek 开源 DeepInfer，DeepSeek-V4.1-Flash 背后的推理框架",
       "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-20T14:31:59+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "deepseek",
@@ -200,7 +231,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T14:08:14+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "deepseek",
@@ -216,7 +247,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T13:05:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "deepseek",
@@ -248,7 +279,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "opensource",
@@ -264,7 +295,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "deepseek",
@@ -281,7 +312,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "deepseek",
@@ -298,7 +329,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "deepseek",
@@ -315,7 +346,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "opensource",
@@ -332,7 +363,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T09:42:14.602000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "opensource"
@@ -347,7 +378,7 @@
       "site_id": "iris",
       "published_at": "2026-10-20T09:08:54+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "deepseek",
@@ -363,7 +394,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T08:54:54+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "deepseek",
@@ -428,7 +459,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T04:28:57.259000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "deepseek",
@@ -444,7 +475,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -453,13 +484,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "title": "Hugging Face❤️ TorchTPU：TPU，原生",
       "url": "https://huggingface.co/blog/hf-torchtpu",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-20T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -474,7 +505,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"

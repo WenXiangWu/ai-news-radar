@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-20T19:38:04.393881+00:00",
+  "generated_at": "2026-10-20T22:19:27.608609+00:00",
   "date": "2026-10-21",
   "timezone": "Asia/Shanghai",
-  "lead": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation；FairStress: A deeper evaluation of fairness in LLM decision-making；Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+  "lead": "NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实；FairStress：对 LLM 决策公平性的更深入评估；可编程数据中心 — Evan Conrad，SF Compute",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [],
   "items": [
     {
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "title": "NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实",
       "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-20T18:17:47+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource"
@@ -23,13 +23,13 @@
       "label": "官方更新"
     },
     {
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "title": "FairStress：对 LLM 决策公平性的更深入评估",
       "url": "https://huggingface.co/blog/allenai/fairstress",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-20T16:09:19+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource"
@@ -38,89 +38,36 @@
       "label": "官方更新"
     },
     {
-      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "title": "可编程数据中心 — Evan Conrad，SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T19:31:57+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "最新开放工件 (#25)：DeepSeek V4.1 Flash 1017、美国制造的型号以及美国和中国的新监管控制",
       "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
       "source": "Interconnects",
       "site_id": "official_ai",
       "published_at": "2026-10-20T17:04:21+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
-        "deepseek"
+        "deepseek",
+        "industry"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T15:19:48+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Bulk migrate branch protections to rulesets for a repository",
-      "url": "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T18:06:21+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Updates to GitHub secret scanning",
-      "url": "https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T18:03:55+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Dependabot alerts REST API now includes dependency versions",
-      "url": "https://github.blog/changelog/2026-10-20-dependabot-alerts-rest-api-now-includes-dependency-versions",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T17:13:40+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub package firewall in public preview",
-      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T16:11:53+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "title": "3 位 Java Champion 如何使用 GitHub Copilot 提高工作效率",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
       "source": "GitHub AI & ML",
       "site_id": "official_ai",
@@ -135,13 +82,80 @@
       "label": "官方更新"
     },
     {
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T15:19:48+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "将分支保护批量迁移到代码仓库的规则集",
+      "url": "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T18:06:21+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub秘密扫描更新",
+      "url": "https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T18:03:55+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Dependabot 警报 REST API 现在包括依赖项版本",
+      "url": "https://github.blog/changelog/2026-10-20-dependabot-alerts-rest-api-now-includes-dependency-versions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T17:13:40+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "公共预览版中的 GitHub 软件包防火墙",
+      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T16:11:53+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "特许经营商利用 ChatGPT Work 将现金核对时间缩短 94%",
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-10-20T10:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -156,7 +170,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T13:52:38+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -169,7 +183,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T07:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -182,7 +196,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -191,13 +205,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "title": "Hugging Face❤️ TorchTPU：TPU，原生",
       "url": "https://huggingface.co/blog/hf-torchtpu",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-20T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -212,7 +226,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -227,7 +241,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T05:21:52+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -240,7 +254,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T00:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "openai",
@@ -250,35 +264,20 @@
       "label": "官方更新"
     },
     {
-      "title": "适用于企业、组织和团队的 Copilot 模型策略 API",
-      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-19T21:32:18+00:00",
+      "title": "Anthropic 云合作生变：AWS、Google、微软视其为竞争者",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-20T21:25:22+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 78,
       "official": true,
       "topics": [
-        "coding",
+        "anthropic",
         "industry"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 模型已于 2026 年 10 月 19 日弃用",
-      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-19T21:27:10+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
@@ -287,7 +286,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T08:54:54+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "deepseek",

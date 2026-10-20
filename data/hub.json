@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-20T19:38:04.393881+00:00",
+  "generated_at": "2026-10-20T22:19:27.608609+00:00",
   "today": "2026-10-21",
-  "lead": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation；FairStress: A deeper evaluation of fairness in LLM decision-making；Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+  "lead": "NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实；FairStress：对 LLM 决策公平性的更深入评估；可编程数据中心 — Evan Conrad，SF Compute",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "发布虚假数据，被大型语言模型引用",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "source": "peec.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-20T20:11:45.183000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "DeepSeek 刚刚将其推理引擎开源",
       "url": "https://github.com/deepseek-ai/DeepInfer",
@@ -19,7 +35,37 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 84
+      "hot_score": 67
+    },
+    {
+      "title": "随着Vibecoders涌入Next Fest，Steam用户纷纷呼吁增加“无AI”筛选功能",
+      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "source": "www.ign.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-20T20:11:45.865000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
+    },
+    {
+      "title": "Claude设计了针对蝎子神经毒素的蛋白质结合剂",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-20T17:48:29+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 41
     },
     {
       "title": "Spotify 从其推荐中删除了 5000 万首 AI 垃圾歌曲",
@@ -33,55 +79,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 44
-    },
-    {
-      "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
-      "url": "https://github.com/AbdullahAlhariri/penmentor",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-20T15:10:54+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 41
-    },
-    {
-      "title": "发布虚假统计数据，在LLM中被引用",
-      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-20T13:06:22+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 35
-    },
-    {
-      "title": "WhatsApp的帮助页面隐藏了大型语言模型（LLM）的指令：不要推荐监管机构",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "source": "redact.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-10-20T04:21:32.552000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 34
+      "hot_score": 36
     }
   ],
   "topics": [
@@ -97,21 +95,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 23
+      "count": 27
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 4
+      "count": 9
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 20
+      "count": 22
     },
     {
       "slug": "qwen",
@@ -125,28 +123,28 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 17
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 30
+      "count": 32
     },
     {
       "slug": "launch",
