@@ -7,20 +7,20 @@
   "groups": [
     "docs-05"
   ],
-  "run_id": "39470833786",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39470833786",
+  "run_id": "39507163811",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39507163811",
   "conclusion": "failure",
-  "started_at": "2026-10-20T18:42:18.387410+00:00",
-  "finished_at": "2026-10-20T18:42:18.387410+00:00",
+  "started_at": "2026-10-20T23:00:06.329562+00:00",
+  "finished_at": "2026-10-20T23:00:06.329562+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.milvus",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://github.com/zilliztech/attu: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.neo4j-graphrag",
