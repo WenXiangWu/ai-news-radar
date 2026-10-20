@@ -7,11 +7,11 @@
   "groups": [
     "docs-01"
   ],
-  "run_id": "39424605054",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39424605054",
+  "run_id": "39470833786",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39470833786",
   "conclusion": "failure",
-  "started_at": "2026-10-20T13:17:29.753728+00:00",
-  "finished_at": "2026-10-20T13:17:29.753728+00:00",
+  "started_at": "2026-10-20T18:49:25.149565+00:00",
+  "finished_at": "2026-10-20T18:49:25.149565+00:00",
   "push": {
     "attempted": false
   },
@@ -20,7 +20,7 @@
       "source_id": "docs.a2a",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/a2aproject/A2A/git/trees/main"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.anthropic-skills",
@@ -38,7 +38,7 @@
       "source_id": "docs.chroma",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/chroma-core/chroma/git/trees/main"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.codex-sdk",
