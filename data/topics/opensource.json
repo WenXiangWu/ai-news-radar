@@ -1,11 +1,150 @@
 {
-  "generated_at": "2026-10-20T15:04:32.503752+00:00",
+  "generated_at": "2026-10-20T19:38:04.393881+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 21,
+  "total_items": 30,
   "items": [
+    {
+      "title": "DeepSeek 开源推理框架：96% 的输入，都不用重新计算",
+      "url": "https://waytoagi.feishu.cn/wiki/VRniwYlIMitE3lkjM5xcjwNInNc?from=from_copylink",
+      "source": "社区更新 · 2026-10-20",
+      "site_id": "waytoagi",
+      "published_at": "2026-10-20T19:14:13.453170+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "如何用 Claude / DeepSeek 做资讯类视频（附提示词和开源风格 skill）",
+      "url": "https://waytoagi.feishu.cn/wiki/DOaaw6ZOSiZXkHkklO8chRKan5b?from=from_copylink",
+      "source": "社区更新 · 2026-10-20",
+      "site_id": "waytoagi",
+      "published_at": "2026-10-20T19:14:13.453170+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "deepseek",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）",
+      "url": "https://waytoagi.feishu.cn/wiki/UwzjwwWeTicPwrksP1icj8nYnQc?from=from_copylink",
+      "source": "社区更新 · 2026-10-20",
+      "site_id": "waytoagi",
+      "published_at": "2026-10-20T19:14:13.453170+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+      "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-20T18:56:15+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T18:17:47+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T16:09:19+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs",
+      "url": "https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-20T15:22:03+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T15:19:48+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "url": "https://news.ycombinator.com/item?id=50167583",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-20T15:09:29+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "GitHub 热榜周报(10.19)｜5 个把 AI 装回本地的开源项目：多 agent 控制台、本地语音、节点式生成（含技术看点）",
       "url": "https://juejin.cn/post/7698043261042638886",
@@ -13,7 +152,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T15:04:09.208000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "agent",
@@ -29,8 +168,24 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T15:04:09.208000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
+      "topics": [
+        "deepseek",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
+      "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-20T14:31:59+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
       "topics": [
         "deepseek",
         "opensource"
@@ -45,7 +200,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T14:08:14+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "deepseek",
@@ -61,7 +216,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T13:05:01+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "deepseek",
@@ -76,8 +231,8 @@
       "source": "github.com",
       "site_id": "buzzing",
       "published_at": "2026-10-20T10:27:30.371000+00:00",
-      "source_count": 3,
-      "score": 56,
+      "source_count": 4,
+      "score": 57,
       "official": true,
       "topics": [
         "deepseek",
@@ -93,7 +248,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -109,7 +264,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "deepseek",
@@ -126,7 +281,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "deepseek",
@@ -143,7 +298,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "deepseek",
@@ -160,7 +315,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -177,9 +332,25 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T09:42:14.602000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek 刚刚将其推理引擎开源",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-20T09:08:54+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "deepseek",
         "opensource"
       ],
       "reason": "",
@@ -192,7 +363,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T08:54:54+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "deepseek",
@@ -209,7 +380,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T04:46:49.162930+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "opensource",
@@ -225,7 +396,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T04:46:49.162930+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "opensource",
@@ -241,7 +412,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T04:46:49.162930+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "opensource",
@@ -257,7 +428,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T04:28:57.259000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "deepseek",
@@ -269,6 +440,21 @@
     {
       "title": "AnyLanguageModel 1.0：Apple 平台本地模型一年",
       "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-20T00:00:00+00:00",
@@ -295,57 +481,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
-      "url": "https://x.com/arena/status/2112247114944360666",
-      "source": "X：Arena (@arena)",
-      "site_id": "aihot",
-      "published_at": "2026-10-19T18:18:50+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "agent",
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable. Building the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain. No...",
-      "url": "https://x.com/rauchg/status/2112247046082363821",
-      "source": "Follow Builders · X · Guillermo Rauch",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-19T18:18:34+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
-      "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "site_id": "aihot",
-      "published_at": "2026-10-19T16:25:46+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
