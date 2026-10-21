@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-21T18:38:04.308330+00:00",
+  "generated_at": "2026-10-21T22:20:18.508492+00:00",
   "today": "2026-10-22",
-  "lead": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复；OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden；NVIDIA Kumo Relational 在关系数据上的表现优于监督式机器学习，无需培训",
+  "lead": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden；OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复；通过一致的标准实现广泛的访问",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T18:37:43.968000+00:00",
+      "source_count": 3,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 88
+    },
     {
       "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
       "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
@@ -11,12 +27,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T16:31:01.542000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 74
     },
     {
       "title": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复",
@@ -32,7 +48,7 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 98
+      "hot_score": 72
     },
     {
       "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
@@ -46,7 +62,7 @@
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 86
+      "hot_score": 63
     },
     {
       "title": "利用Claude缩小代码的攻击面",
@@ -55,28 +71,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T14:39:53.533000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 86
-    },
-    {
-      "title": "Rust off Rails：人工智能时代的固执己见的 Web 堆栈",
-      "url": "https://rustoffrails.org",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-21T16:34:16+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
+      "hot_score": 63
     }
   ],
   "topics": [
@@ -92,21 +94,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 34
+      "count": 40
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 17
+      "count": 12
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 10
+      "count": 6
     },
     {
       "slug": "qwen",
@@ -120,14 +122,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 22
+      "count": 27
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 10
+      "count": 11
     },
     {
       "slug": "mcp",
@@ -141,14 +143,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 21
+      "count": 14
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 12
+      "count": 10
     },
     {
       "slug": "paper",
@@ -162,7 +164,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 40
+      "count": 37
     }
   ],
   "days": [
