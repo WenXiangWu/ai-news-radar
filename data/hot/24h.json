@@ -1,23 +1,81 @@
 {
-  "generated_at": "2026-10-21T14:02:01.076871+00:00",
+  "generated_at": "2026-10-21T18:38:04.308330+00:00",
   "window_hours": 24,
   "total_items": 11,
   "items": [
     {
-      "title": "克劳德设计了针对蝎子神经毒素的蛋白质结合剂",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+      "source": "safedep.io",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T16:31:01.542000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T16:14:45.178000+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 98
+    },
+    {
+      "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source": "Wiz：Research（安全研究）",
+      "site_id": "aihot",
+      "published_at": "2026-10-21T14:39:53.537000+00:00",
+      "source_count": 3,
+      "score": 84,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 86
+    },
+    {
+      "title": "利用Claude缩小代码的攻击面",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
       "source": "www.anthropic.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-21T04:54:15.057000+00:00",
+      "published_at": "2026-10-21T14:39:53.533000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 56,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 56
+      "hot_score": 86
+    },
+    {
+      "title": "Rust off Rails：人工智能时代的固执己见的 Web 堆栈",
+      "url": "https://rustoffrails.org",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-21T16:34:16+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 51
     },
     {
       "title": "Anthropic在2026年上半年录得超过800亿美元的净亏损",
@@ -26,37 +84,55 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T04:54:15.064000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 56
+      "hot_score": 38
     },
     {
-      "title": "LayerFS: The filesystem for AI coding agents",
+      "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T12:53:11+00:00",
+      "source_count": 2,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 37
+    },
+    {
+      "title": "LayerFS：AI 编码代理的文件系统",
       "url": "https://layerfs.ai",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-21T12:34:46+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 53
+      "hot_score": 36
     },
     {
       "title": "Nexus-CLI – 到 DeepSeek R1/V3 的 Pure Go 桥接器，具有 Claude 代码和 Ollama 支持",
       "url": "https://github.com/xamrayev/nexus-cli",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
       "published_at": "2026-10-21T04:37:18+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic",
@@ -64,23 +140,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
-    },
-    {
-      "title": "使用 Claude 减少代码的攻击面",
-      "url": "https://www.anthropic.com/research/attack-surface-reduction",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-21T03:36:43+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 25
+      "hot_score": 19
     },
     {
       "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
@@ -89,7 +149,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-21T01:10:02+00:00",
       "source_count": 2,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -99,7 +159,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 21
+      "hot_score": 14
     },
     {
       "title": "Microagi：加速体现 AGI",
@@ -108,72 +168,12 @@
       "site_id": "iris",
       "published_at": "2026-10-21T00:11:30+00:00",
       "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 19
-    },
-    {
-      "title": "随着Vibecoders涌入Next Fest，Steam用户纷纷呼吁增加“无AI”筛选功能",
-      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-      "source": "www.ign.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-20T20:11:45.865000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 14
-    },
-    {
-      "title": "2026 年针对现代人工智能代理对机器人检测系统进行基准测试",
-      "url": "https://research.poh.org/bot-benchmarking-2026",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-20T17:10:31+00:00",
-      "source_count": 2,
       "score": 50,
       "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 11
-    },
-    {
-      "title": "Spotify 从其推荐中删除了 5000 万首 AI 垃圾歌曲",
-      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-20T16:01:36+00:00",
-      "source_count": 2,
-      "score": 56,
-      "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 10
-    },
-    {
-      "title": "Show HN：Penmentor – Claude像老师一样标记你的手写数学",
-      "url": "https://github.com/AbdullahAlhariri/penmentor",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-20T15:10:54+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 13
     }
   ]
 }

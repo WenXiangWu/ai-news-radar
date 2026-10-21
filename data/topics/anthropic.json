@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:02:01.076871+00:00",
+  "generated_at": "2026-10-21T18:38:04.308330+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
@@ -7,13 +7,156 @@
   "total_items": 34,
   "items": [
     {
+      "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
+      "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-21T17:44:22+00:00",
+      "source_count": 1,
+      "score": 67,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "如果超过 50 人死亡，Anthropic 的人工智能安全法案将暂停人工智能模型",
+      "url": "https://mashable.com/tech/anthropic-ai-safety-bill-1-billion-damages-50-people-die",
+      "source": "Mashable",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T16:40:16+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 让 Claude 参与 25 个开源项目，发现了 493 个缺陷",
+      "url": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T15:39:42+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Code 的多代理代码审查的成本和发现",
+      "url": "https://quickchat.ai/post/claude-code-multi-agent-code-review",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-21T15:10:53+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Inception 的 Mercury 3 扩散模型声称以极短的等待时间击败了 GPT-6 Luna 和 Claude Haiku 5.5",
+      "url": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-21T14:45:45+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "利用Claude缩小代码的攻击面",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T14:39:53.533000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "据《华尔街日报》报道，Anthropic 可能在计算领域花费 7500 亿美元",
+      "url": "https://thenextweb.com/news/anthropic-s-1-750bn-compute-80-7bn-loss",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T14:20:15+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude flagged 493 security issues across 25 open-source projects, covering 5M+ lines of C, C++, Java, PHP, and Python code; one went unnoticed for 21 years (Chris Rohlf/Anthropic)",
+      "url": "https://www.techmeme.com/261021/p31",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T14:15:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN：Built Taskman，一个用于并行 Claude/Codex 问题+PR 工作的 Rust TUI",
+      "url": "https://github.com/sanagnos/taskman",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-21T14:03:50+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 招股书拆解:营收暴涨1382%，半年却亏掉807亿美元，算力账单压顶",
       "url": "https://www.aibase.com/news/31780",
       "source": "AIbase",
       "site_id": "aibase",
       "published_at": "2026-10-21T13:45:49.079970+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "anthropic",
@@ -29,7 +172,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T13:45:49.079970+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "anthropic",
@@ -45,7 +188,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-21T13:35:20.210000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -55,13 +198,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Dario Amodei says Anthropic held Mythos back for four months for safety",
+      "title": "达里奥·阿莫代 (Dario Amodei) 表示，出于安全考虑，Anthropic 将 Mythos 推迟了四个月",
       "url": "https://thenextweb.com/news/dario-amodei-anthropic-race-to-the-top-nine-safety-decisions",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-10-21T13:30:43+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
@@ -70,13 +213,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Claude Mods: Flipping the Harness Inside Out",
+      "title": "Claude Mods：将安全带翻转过来",
       "url": "https://www.latent.space/p/claude-mods",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-10-21T13:04:19+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "anthropic"
@@ -85,13 +228,13 @@
       "label": "官方更新"
     },
     {
-      "title": "China protests the US Deepseek ban while blocking ChatGPT, Claude, and Gemini at home",
+      "title": "中国抗议美国Deepseek禁令，同时在国内屏蔽ChatGPT、Claude、Gemini",
       "url": "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-10-21T13:04:19+00:00",
       "source_count": 1,
-      "score": 67,
+      "score": 66,
       "official": true,
       "topics": [
         "openai",
@@ -103,13 +246,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Nvidia turns OpenShell into a full hardware stack for safe AI agents",
+      "title": "Nvidia 将 OpenShell 转变为安全 AI 代理的完整硬件堆栈",
       "url": "https://thenextweb.com/news/nvidia-openshell-ai-agents-safety-anthropic-openai",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-10-21T11:21:45+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
@@ -125,7 +268,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T10:30:06+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -134,13 +277,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Claude Science tackles deadly scorpion stings by designing protein binders from scratch",
+      "title": "Claude科学通过从头开始设计蛋白质结合剂来解决致命的蝎子叮咬问题",
       "url": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-10-21T08:37:06+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "anthropic"
@@ -155,7 +298,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T04:54:15.064000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "anthropic"
@@ -169,23 +312,23 @@
       "source": "www.anthropic.com",
       "site_id": "buzzing",
       "published_at": "2026-10-21T04:54:15.057000+00:00",
-      "source_count": 3,
-      "score": 55,
+      "source_count": 1,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "值得关注"
     },
     {
       "title": "Nexus-CLI – 到 DeepSeek R1/V3 的 Pure Go 桥接器，具有 Claude 代码和 Ollama 支持",
       "url": "https://github.com/xamrayev/nexus-cli",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
       "published_at": "2026-10-21T04:37:18+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic",
@@ -201,7 +344,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-21T04:32:45+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "anthropic",
@@ -217,23 +360,8 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-21T04:01:59+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "使用 Claude 减少代码的攻击面",
-      "url": "https://www.anthropic.com/research/attack-surface-reduction",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-21T03:36:43+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
       "topics": [
         "anthropic"
       ],
@@ -247,7 +375,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T03:16:31+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -264,7 +392,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T01:33:46.727006+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -274,13 +402,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Anthropic Prospectus Shows $80B in Losses",
+      "title": "Anthropic 招股说明书显示亏损 80B 美元",
       "url": "https://aibreakfast.beehiiv.com/p/anthropic-prospectus-shows-80b-in-losses",
       "source": "AI Breakfast",
       "site_id": "aibreakfast",
       "published_at": "2026-10-21T00:00:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "anthropic"
@@ -295,7 +423,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T23:01:23+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -310,7 +438,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-20T22:27:07+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic"
@@ -325,7 +453,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T21:25:22+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": true,
       "topics": [
         "anthropic",
@@ -341,7 +469,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T20:50:03+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic"
@@ -356,7 +484,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T20:46:50+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -373,7 +501,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T19:46:50+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic"
@@ -388,7 +516,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-20T19:34:39+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -403,134 +531,12 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-20T19:14:13.453170+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic",
         "deepseek",
         "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-20T17:55:12+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "免费破解 Anthropic 无限 Claude",
-      "url": "https://exploit.cat/posts/hacking-free-claude",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-20T16:35:28+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Elon Musk's stock grants and Anthropic's public fund are band-aids on an open sore and do not address AI's most fundamental and pressing problems",
-      "url": "https://www.techradar.com/ai-platforms-assistants/elon-musks-stock-grants-and-anthropics-public-fund-are-band-aids-on-an-open-sore-and-do-not-address-ais-most-fundamental-and-pressing-problems",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-20T15:13:32+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN：Penmentor – Claude像老师一样标记你的手写数学",
-      "url": "https://github.com/AbdullahAlhariri/penmentor",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-20T15:10:54+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "适用于 ChatGPT 和 Claude 的 Jotform 应用程序生成器",
-      "url": "https://www.producthunt.com/products/jotform",
-      "source": "producthunt",
-      "site_id": "newsnow",
-      "published_at": "2026-10-20T15:04:09.208000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN：在 1 美元预算内，在栅栏内无人值守地运行 Claude Code",
-      "url": "https://github.com/metahumansworld/SIwithin",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-20T15:00:34+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nscale 与 Anthropic 就 450 亿美元人工智能云新交易进行谈判",
-      "url": "https://slashdot.org/story/26/10/20/0536218/nscale-anthropic-in-talks-for-new-45-billion-ai-cloud-deal",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-10-20T15:00:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "在安全强烈反对后，Anthropic 将重写部分泄露的人工智能法案",
-      "url": "https://thenextweb.com/news/anthropic-leaked-ai-safety-bill-backlash-frontier",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-20T14:37:14+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "值得关注"

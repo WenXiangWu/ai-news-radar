@@ -1,11 +1,127 @@
 {
-  "generated_at": "2026-10-21T14:02:01.076871+00:00",
+  "generated_at": "2026-10-21T18:38:04.308330+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 23,
+  "total_items": 22,
   "items": [
+    {
+      "title": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响",
+      "url": "https://x.com/OpenAI/status/2112945805686604033",
+      "source": "X：OpenAI (@OpenAI)",
+      "site_id": "aihot",
+      "published_at": "2026-10-21T16:35:11+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "AI代理修复了这个bug，但它还改变了什么？",
+      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-21T16:03:32+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Code 的多代理代码审查的成本和发现",
+      "url": "https://quickchat.ai/post/claude-code-multi-agent-code-review",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-21T15:10:53+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 将 GPT-6 Astra 和 Codex 引入竞争对手的平台 Google Cloud",
+      "url": "https://thenextweb.com/news/openai-models-codex-google-cloud",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T14:19:34+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Show HN：Built Taskman，一个用于并行 Claude/Codex 问题+PR 工作的 Rust TUI",
+      "url": "https://github.com/sanagnos/taskman",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-21T14:03:50+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 披露 GPT-6 Astra 智能体关闭安全监控后撒谎的事件",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-21T13:57:43+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "ServiceNow and Nvidia launch Arc, a personal, long-running enterprise AI agent for productivity tasks across email and Teams, for RTX Spark and Nvidia OpenShell (Radhika Rajkumar/ZDNET)",
+      "url": "https://www.techmeme.com/261021/p28",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T13:50:49+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Mistral 发布 Voxtral 3 语音 Agent SDK，支持 50 多种语言与工具调用",
       "url": "https://www.aibase.com/news/31779",
@@ -13,7 +129,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T13:45:49.079970+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "agent",
@@ -30,7 +146,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T13:45:49.079970+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "openai",
@@ -41,13 +157,13 @@
       "label": "行业动态"
     },
     {
-      "title": "AI agents start paying supplier invoices in Visa, BILL and Billtrust pilot",
+      "title": "AI 代理开始在 Visa、BILL 和 Billtrust 试点中支付供应商发票",
       "url": "https://thenextweb.com/news/visa-bill-billtrust-ai-agent-payments-pilot-invoices",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-10-21T10:02:18+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -56,13 +172,13 @@
       "label": "值得关注"
     },
     {
-      "title": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
+      "title": "NVIDIA OpenShell 参考架构如何大规模保护和管理 AI 代理工作负载",
       "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale",
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-21T09:50:14+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "agent"
@@ -71,13 +187,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
+      "title": "使用代理辅助工作流程开发人工智能工厂数字孪生",
       "url": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow",
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-21T09:38:49+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "agent"
@@ -92,7 +208,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T07:36:33.330824+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -109,7 +225,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T06:03:12+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -125,7 +241,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-21T05:47:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "agent",
@@ -135,13 +251,29 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI 与 PerturbAI、Scripps Research 用数千个 GPT‑Rosalind 智能体 32 分钟挖掘脑细胞数据新研究线索",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T04:50:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "我试图让 codex 制作动画解释视频，但 ngmi https://t.co/UT7xloxtXc",
       "url": "https://x.com/swyx/status/2112764130197451209",
       "source": "Follow Builders · X · Swyx",
       "site_id": "followbuilders",
       "published_at": "2026-10-21T04:33:16+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "agent",
@@ -157,7 +289,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T03:16:31+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -174,7 +306,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-21T02:00:14+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -191,7 +323,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-21T01:10:02+00:00",
       "source_count": 2,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -209,7 +341,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T20:46:50+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -226,148 +358,9 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T18:54:32+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Astra did the planning, Sol 6.1 did the coding. I found that the workflow of prompting Astra to run codex cli in worktrees works FAR better than relying on subagents. A second agent oversaw the work to keep Astra on t...",
-      "url": "https://x.com/steipete/status/2112605703219347503",
-      "source": "Follow Builders · X · Peter Steinberger",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-20T18:03:44+00:00",
-      "source_count": 1,
-      "score": 63,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Mistral AI 推出 Voxtral 3，这是一个完整的语音代理堆栈，可以实时聆听、思考和交谈",
-      "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-20T17:17:55+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Asymptote Labs 融资 550 万美元用于跟踪和控制 AI 代理的行为",
-      "url": "https://thenextweb.com/news/asymptote-labs-5-5m-seed-ai-agent-security",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-20T16:17:39+00:00",
-      "source_count": 1,
       "score": 47,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "编程 Agent 增长遭遇人类评审瓶颈：Tessl 博客解析信任赤字",
-      "url": "https://tessl.io/blog/there-arent-enough-chaperones-for-all-your-coding-agents",
-      "source": "Tessl：产品与工程博客",
-      "site_id": "aihot",
-      "published_at": "2026-10-20T16:00:00+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "麻省理工学院的人工智能代理协会结果在消费硬件上得到了验证",
-      "url": "https://thenextweb.com/news/mit-swarmworld-agent-society-replication-open-weight-consumer-gpus",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-20T15:18:03+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "人工智能代理加入了顶级互联网研究人员的列表服务。回复一切混乱仍在上演",
-      "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-20T15:07:43+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GitHub 热榜周报(10.19)｜5 个把 AI 装回本地的开源项目：多 agent 控制台、本地语音、节点式生成（含技术看点）",
-      "url": "https://juejin.cn/post/7698043261042638886",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-20T15:04:09.208000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "一人公司的全栈选型指南：让 AI Agent 写得快，也让生意跑得稳",
-      "url": "https://juejin.cn/post/7698044277812772873",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-20T15:04:09.208000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN：在 1 美元预算内，在栅栏内无人值守地运行 Claude Code",
-      "url": "https://github.com/metahumansworld/SIwithin",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-20T15:00:34+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
         "agent"
       ],
       "reason": "",

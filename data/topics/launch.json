@@ -1,11 +1,61 @@
 {
-  "generated_at": "2026-10-21T14:02:01.076871+00:00",
+  "generated_at": "2026-10-21T18:38:04.308330+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 11,
+  "total_items": 12,
   "items": [
+    {
+      "title": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响",
+      "url": "https://x.com/OpenAI/status/2112945805686604033",
+      "source": "X：OpenAI (@OpenAI)",
+      "site_id": "aihot",
+      "published_at": "2026-10-21T16:35:11+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development (Will Knight/Wired)",
+      "url": "https://www.techmeme.com/261021/p39",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T16:35:02+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "PHP 为 AI 最先发现的两个严重错误紧急发布紧急补丁",
+      "url": "https://thenextweb.com/news/php2shell-php-rce-ai-openai-wiz",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T15:25:13+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Mistral 发布 Voxtral 3 语音 Agent SDK，支持 50 多种语言与工具调用",
       "url": "https://www.aibase.com/news/31779",
@@ -13,7 +63,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T13:45:49.079970+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "agent",
@@ -30,14 +80,13 @@
       "site_id": "aihot",
       "published_at": "2026-10-21T09:30:16+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Mistral AI发布Voxtral3语音模型与语音代理SDK",
@@ -46,7 +95,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T07:36:33.330824+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "launch",
@@ -62,7 +111,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T07:36:33.330824+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "launch",
@@ -78,7 +127,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T06:03:12+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -94,7 +143,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T03:16:31+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -111,7 +160,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T20:46:50+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -128,7 +177,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-20T20:11:45.183000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "launch"
@@ -143,37 +192,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T19:03:15+00:00",
       "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "fal 发布 FLUX 3 Max，图生视频 Elo 达 1139 并列第一",
-      "url": "https://x.com/fal/status/2112600472922333263",
-      "source": "X：fal (@fal)",
-      "site_id": "aihot",
-      "published_at": "2026-10-20T17:42:57+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google 与 Meta 发布 TorchTPU：PyTorch 原生 TPU 后端",
-      "url": "https://pytorch.org/blog/introducing-torchtpu",
-      "source": "PyTorch：Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-20T16:00:30+00:00",
-      "source_count": 1,
-      "score": 71,
+      "score": 57,
       "official": false,
       "topics": [
         "launch"

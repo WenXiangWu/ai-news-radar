@@ -1,87 +1,82 @@
 {
-  "generated_at": "2026-10-21T14:02:01.076871+00:00",
-  "today": "2026-10-21",
-  "lead": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability；Claude Mods: Flipping the Harness Inside Out；Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search",
+  "generated_at": "2026-10-21T18:38:04.308330+00:00",
+  "today": "2026-10-22",
+  "lead": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复；OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden；NVIDIA Kumo Relational 在关系数据上的表现优于监督式机器学习，无需培训",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "克劳德设计了针对蝎子神经毒素的蛋白质结合剂",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+      "source": "safedep.io",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T16:31:01.542000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T16:14:45.178000+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 98
+    },
+    {
+      "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source": "Wiz：Research（安全研究）",
+      "site_id": "aihot",
+      "published_at": "2026-10-21T14:39:53.537000+00:00",
+      "source_count": 3,
+      "score": 84,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 86
+    },
+    {
+      "title": "利用Claude缩小代码的攻击面",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
       "source": "www.anthropic.com",
       "site_id": "buzzing",
-      "published_at": "2026-10-21T04:54:15.057000+00:00",
+      "published_at": "2026-10-21T14:39:53.533000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 56,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 56
+      "hot_score": 86
     },
     {
-      "title": "Anthropic在2026年上半年录得超过800亿美元的净亏损",
-      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20",
-      "source": "www.reuters.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T04:54:15.064000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 56
-    },
-    {
-      "title": "LayerFS: The filesystem for AI coding agents",
-      "url": "https://layerfs.ai",
+      "title": "Rust off Rails：人工智能时代的固执己见的 Web 堆栈",
+      "url": "https://rustoffrails.org",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-21T12:34:46+00:00",
+      "published_at": "2026-10-21T16:34:16+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 53
-    },
-    {
-      "title": "Nexus-CLI – 到 DeepSeek R1/V3 的 Pure Go 桥接器，具有 Claude 代码和 Ollama 支持",
-      "url": "https://github.com/xamrayev/nexus-cli",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-21T04:37:18+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 27
-    },
-    {
-      "title": "使用 Claude 减少代码的攻击面",
-      "url": "https://www.anthropic.com/research/attack-surface-reduction",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-21T03:36:43+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 25
+      "hot_score": 51
     }
   ],
   "topics": [
@@ -90,7 +85,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 35
+      "count": 40
     },
     {
       "slug": "anthropic",
@@ -104,14 +99,14 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 15
+      "count": 17
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 16
+      "count": 10
     },
     {
       "slug": "qwen",
@@ -125,52 +120,53 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 23
+      "count": 22
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 24
+      "count": 21
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 39
+      "count": 40
     }
   ],
   "days": [
+    "2026-10-22",
     "2026-10-21",
     "2026-10-20",
     "2026-10-19",
@@ -183,8 +179,7 @@
     "2026-10-12",
     "2026-10-09",
     "2026-10-08",
-    "2026-10-07",
-    "2026-10-06"
+    "2026-10-07"
   ],
   "week": "2026-W43",
   "month": "2026-10"

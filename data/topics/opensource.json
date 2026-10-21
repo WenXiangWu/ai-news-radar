@@ -1,19 +1,111 @@
 {
-  "generated_at": "2026-10-21T14:02:01.076871+00:00",
+  "generated_at": "2026-10-21T18:38:04.308330+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 24,
+  "total_items": 21,
   "items": [
     {
-      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "title": "NVIDIA Kumo Relational 在关系数据上的表现优于监督式机器学习，无需培训",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T18:26:30+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "SLM 词汇专业化如何在实际应用中将推理成本降低 77%",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T17:35:36+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "TorchNeuron 分析（第 1 部分）：AWS Trainium 上的系统级分析。",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T16:04:43+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 让 Claude 参与 25 个开源项目，发现了 493 个缺陷",
+      "url": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T15:39:42+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Granite Speech 5.0：更准确、更快地转录、翻译和归因",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-21T14:58:18+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Claude flagged 493 security issues across 25 open-source projects, covering 5M+ lines of C, C++, Java, PHP, and Python code; one went unnoticed for 21 years (Chris Rohlf/Anthropic)",
+      "url": "https://www.techmeme.com/261021/p31",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-21T14:15:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "NVIDIA Kumo Forecast 将预训练时间序列表示与历史模式检索和可解释性相结合",
       "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-10-21T12:51:24+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource"
@@ -28,7 +120,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-21T10:00:07+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "opensource",
@@ -44,7 +136,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T06:54:09+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "deepseek",
@@ -60,7 +152,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-21T05:47:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "agent",
@@ -76,7 +168,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T04:33:40+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "opensource"
@@ -91,7 +183,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-21T04:06:48+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "deepseek",
@@ -107,7 +199,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-21T00:03:10+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "opensource"
@@ -122,14 +214,13 @@
       "site_id": "aihot",
       "published_at": "2026-10-21T00:00:00+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
-        "opensource",
-        "industry"
+        "opensource"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "我用免费的开源替代品取代了 Google Photos、Drive 和 Gemini；现在我无法回去",
@@ -138,7 +229,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T21:00:10+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "google",
@@ -169,7 +260,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-20T19:14:13.453170+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "deepseek",
@@ -185,7 +276,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-20T19:14:13.453170+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic",
@@ -202,7 +293,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-20T19:14:13.453170+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "opensource"
@@ -217,7 +308,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T19:00:58+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "opensource"
@@ -232,146 +323,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T18:56:15+00:00",
       "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T18:17:47+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "FairStress：对 LLM 决策公平性的更深入评估",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T16:09:19+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google 开源 TorchTPU，云 TPU 的原生 PyTorch 后端",
-      "url": "https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-20T15:22:03+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T15:19:48+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "推出 HN：Respan (YC W24) – 围绕插件构建的开源 Rust AI 网关",
-      "url": "https://news.ycombinator.com/item?id=50167583",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-20T15:09:29+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GitHub 热榜周报(10.19)｜5 个把 AI 装回本地的开源项目：多 agent 控制台、本地语音、节点式生成（含技术看点）",
-      "url": "https://juejin.cn/post/7698043261042638886",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-20T15:04:09.208000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "预算 1000 美金的开源软件，DeepSeek 只花 1 美金就做完了（Day 6）",
-      "url": "https://juejin.cn/post/7698512689525538825",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-20T15:04:09.208000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DeepSeek 开源 DeepInfer，DeepSeek-V4.1-Flash 背后的推理框架",
-      "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-20T14:31:59+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DeepSeek 开源运行其人工智能模型的引擎 DeepInfer",
-      "url": "https://thenextweb.com/news/deepseek-deepinfer-open-source-inference-engine",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-20T14:08:14+00:00",
-      "source_count": 1,
-      "score": 47,
+      "score": 58,
       "official": true,
       "topics": [
         "deepseek",
