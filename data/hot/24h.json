@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T22:19:27.608609+00:00",
+  "generated_at": "2026-10-21T01:48:55.406715+00:00",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 9,
   "items": [
     {
       "title": "发布虚假数据，被大型语言模型引用",
@@ -10,14 +10,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-20T20:11:45.183000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 75
+    },
+    {
+      "title": "Microagi: Accelerating Embodied AGI",
+      "url": "https://www.microagi.ai",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-21T00:11:30+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
     },
     {
       "title": "DeepSeek 刚刚将其推理引擎开源",
@@ -26,7 +40,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-20T10:27:30.371000+00:00",
       "source_count": 4,
-      "score": 57,
+      "score": 56,
       "official": true,
       "topics": [
         "deepseek",
@@ -34,7 +48,23 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 67
+      "hot_score": 50
+    },
+    {
+      "title": "Anthropic logged net loss of over $80 billion in first half of 2026",
+      "url": "https://www.reddit.com/r/technology/comments/1xb7op7/anthropic_logged_net_loss_of_over_80_billion_in",
+      "source": "Reddit (热门)",
+      "site_id": "iris",
+      "published_at": "2026-10-20T23:36:46+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 50
     },
     {
       "title": "随着Vibecoders涌入Next Fest，Steam用户纷纷呼吁增加“无AI”筛选功能",
@@ -43,12 +73,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-20T20:11:45.865000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
+      "hot_score": 38
     },
     {
       "title": "Claude设计了针对蝎子神经毒素的蛋白质结合剂",
@@ -64,7 +94,23 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 41
+      "hot_score": 31
+    },
+    {
+      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+      "url": "https://research.poh.org/bot-benchmarking-2026",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-20T17:10:31+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 29
     },
     {
       "title": "Spotify 从其推荐中删除了 5000 万首 AI 垃圾歌曲",
@@ -73,12 +119,12 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T16:01:36+00:00",
       "source_count": 2,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 36
+      "hot_score": 27
     },
     {
       "title": "Show HN：Penmentor – Claude像老师一样标记你的手写数学",
@@ -87,46 +133,14 @@
       "site_id": "zeli",
       "published_at": "2026-10-20T15:10:54+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 33
-    },
-    {
-      "title": "WhatsApp的帮助页面隐藏了大型语言模型（LLM）的指令：不要推荐监管机构",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "source": "redact.dev",
-      "site_id": "buzzing",
-      "published_at": "2026-10-20T04:21:32.552000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 27
-    },
-    {
-      "title": "据报道，Nscale 和 Anthropic 正在就另一笔 45B 美元的计算交易进行谈判",
-      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-19T23:39:38+00:00",
-      "source_count": 2,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 25
     }
   ]
 }

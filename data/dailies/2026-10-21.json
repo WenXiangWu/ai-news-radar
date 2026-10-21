@@ -1,27 +1,12 @@
 {
-  "generated_at": "2026-10-20T22:19:27.608609+00:00",
+  "generated_at": "2026-10-21T01:48:55.406715+00:00",
   "date": "2026-10-21",
   "timezone": "Asia/Shanghai",
-  "lead": "NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实；FairStress：对 LLM 决策公平性的更深入评估；可编程数据中心 — Evan Conrad，SF Compute",
+  "lead": "FairStress：对 LLM 决策公平性的更深入评估；NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实；ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [],
   "items": [
-    {
-      "title": "NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T18:17:47+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
     {
       "title": "FairStress：对 LLM 决策公平性的更深入评估",
       "url": "https://huggingface.co/blog/allenai/fairstress",
@@ -38,45 +23,16 @@
       "label": "官方更新"
     },
     {
-      "title": "可编程数据中心 — Evan Conrad，SF Compute",
-      "url": "https://www.latent.space/p/sfcompute2",
-      "source": "Latent Space",
+      "title": "NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-20T19:31:57+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "最新开放工件 (#25)：DeepSeek V4.1 Flash 1017、美国制造的型号以及美国和中国的新监管控制",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T17:04:21+00:00",
+      "published_at": "2026-10-20T18:17:47+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "deepseek",
-        "industry"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "3 位 Java Champion 如何使用 GitHub Copilot 提高工作效率",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
-      "source": "GitHub AI & ML",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T16:05:03+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "coding"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -93,6 +49,19 @@
       "topics": [
         "opensource"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "可编程数据中心 — Evan Conrad，SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T19:31:57+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -123,13 +92,44 @@
       "label": "官方更新"
     },
     {
+      "title": "最新开放工件 (#25)：DeepSeek V4.1 Flash 1017、美国制造的型号以及美国和中国的新监管控制",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T17:04:21+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "3 位 Java Champion 如何使用 GitHub Copilot 提高工作效率",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+      "source": "GitHub AI & ML",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T16:05:03+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "Dependabot 警报 REST API 现在包括依赖项版本",
       "url": "https://github.blog/changelog/2026-10-20-dependabot-alerts-rest-api-now-includes-dependency-versions",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-10-20T17:13:40+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -142,24 +142,9 @@
       "site_id": "official_ai",
       "published_at": "2026-10-20T16:11:53+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "特许经营商利用 ChatGPT Work 将现金核对时间缩短 94%",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T10:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -177,6 +162,36 @@
       "label": "官方更新"
     },
     {
+      "title": "特许经营商利用 ChatGPT Work 将现金核对时间缩短 94%",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T10:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T07:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "如何使用决策模型进行评估",
       "url": "https://hamel.dev/blog/posts/decision-model-evals",
       "source": "Hamel Husain",
@@ -186,51 +201,6 @@
       "score": 81,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "AnyLanguageModel 1.0：Apple 平台本地模型一年",
-      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Hugging Face❤️ TorchTPU：TPU，原生",
-      "url": "https://huggingface.co/blog/hf-torchtpu",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "MPS in PyTorch 2.15",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T00:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -248,29 +218,13 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T00:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Anthropic 云合作生变：AWS、Google、微软视其为竞争者",
       "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy",
       "source": "TechCrunch：AI（RSS）",
       "site_id": "aihot",
       "published_at": "2026-10-20T21:25:22+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "anthropic",
@@ -295,6 +249,51 @@
       ],
       "reason": "",
       "label": "行业动态"
+    },
+    {
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-20T22:24:02+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-20T23:01:23+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 表示 GPT-6 更适合 COBOL 和 Fortran 等传统编程语言",
+      "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-20T16:40:29+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
     }
   ]
 }
