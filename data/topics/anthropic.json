@@ -1,19 +1,65 @@
 {
-  "generated_at": "2026-10-21T01:48:55.406715+00:00",
+  "generated_at": "2026-10-21T07:39:01.338437+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 27,
+  "total_items": 29,
   "items": [
     {
-      "title": "谷歌宣布：Claude Opus 5.5 与 Claude Sonnet 5.5 正式接入 Antigravity 平台",
-      "url": "https://www.aibase.com/news/31768",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-21T01:33:46.727006+00:00",
+      "title": "Anthropic在2026年上半年录得超过800亿美元的净亏损",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20",
+      "source": "www.reuters.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T04:54:15.064000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "克劳德设计了针对蝎子神经毒素的蛋白质结合剂",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T04:54:15.057000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Nexus-CLI – 到 DeepSeek R1/V3 的 Pure Go 桥接器，具有 Claude 代码和 Ollama 支持",
+      "url": "https://github.com/xamrayev/nexus-cli",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-21T04:37:18+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损 807 亿美元、约 4500 亿美元算力承诺",
+      "url": "https://x.com/rohanpaul_ai/status/2112763999586771238",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "site_id": "aihot",
+      "published_at": "2026-10-21T04:32:45+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 80,
       "official": false,
       "topics": [
         "anthropic",
@@ -23,11 +69,26 @@
       "label": "行业动态"
     },
     {
-      "title": "Anthropic logged net loss of over $80 billion in first half of 2026",
-      "url": "https://www.reddit.com/r/technology/comments/1xb7op7/anthropic_logged_net_loss_of_over_80_billion_in",
-      "source": "Reddit (热门)",
+      "title": "Anthropic几乎停招初级员工！占比一年半骤降33%：Agent工时已是员工6倍",
+      "url": "https://www.infoq.cn/article/bTVDaYaUJy2OvNlyuHgz",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-21T04:01:59+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "使用 Claude 减少代码的攻击面",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-20T23:36:46+00:00",
+      "published_at": "2026-10-21T03:36:43+00:00",
       "source_count": 2,
       "score": 54,
       "official": true,
@@ -38,13 +99,46 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "title": "v2.1.306",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-21T03:16:31+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "谷歌宣布：Claude Opus 5.5 与 Claude Sonnet 5.5 正式接入 Antigravity 平台",
+      "url": "https://www.aibase.com/news/31768",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-21T01:33:46.727006+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 提出人工智能安全法案，如果 50 多人死亡，该法案可能会阻止模型的发展",
       "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-10-20T23:01:23+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
@@ -53,13 +147,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic recorded a staggering $80B net loss in the first half of 2026",
+      "title": "Anthropic 在 2026 年上半年录得惊人的 $80B 净亏损",
       "url": "https://twitter.com/Polymarket/status/2112634886070919426",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-10-20T22:27:07+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -74,7 +168,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T21:25:22+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -90,7 +184,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T20:50:03+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -105,7 +199,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T20:46:50+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -122,7 +216,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T19:46:50+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -131,13 +225,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
+      "title": "Anthropic S-1 显示出火热的增长、风险和计算成本",
       "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-10-20T19:34:39+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -152,7 +246,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-20T19:14:13.453170+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic",
@@ -169,22 +263,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T17:55:12+00:00",
       "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude设计了针对蝎子神经毒素的蛋白质结合剂",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-20T17:48:29+00:00",
-      "source_count": 2,
-      "score": 53,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
@@ -199,7 +278,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-20T16:35:28+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -214,7 +293,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T15:13:32+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -229,7 +308,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-20T15:10:54+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
@@ -244,7 +323,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T15:04:09.208000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -260,7 +339,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-20T15:00:34+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -276,7 +355,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T15:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -291,7 +370,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T14:37:14+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -306,7 +385,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T10:55:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic"
@@ -321,14 +400,13 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "anthropic",
-        "industry"
+        "anthropic"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "据报道，Nscale 和 Anthropic 正在就第二笔 450 亿美元的交易进行谈判",
@@ -337,7 +415,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T09:45:38+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -352,7 +430,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T09:16:17+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -369,57 +447,10 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T08:06:25+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Former Google CEO Eric Schmidt reportedly owns about 1% of Anthropic ahead of its IPO",
-      "url": "https://thenextweb.com/news/eric-schmidt-anthropic-stake-ipo",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-20T07:30:33+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic初级技术岗位占比降至14%，AI代理工作时长达员工6倍",
-      "url": "https://www.aibase.com/news/31744",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-20T04:46:49.162930+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Claude 给 Mac 当了一回\"保安\"：写个测温小工具，顺手揪出吃满 12 核的挖矿木马",
-      "url": "https://www.aibase.com/news/31737",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-20T04:46:49.162930+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
         "anthropic",
         "industry"
       ],

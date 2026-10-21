@@ -1,9 +1,58 @@
 {
-  "generated_at": "2026-10-21T01:48:55.406715+00:00",
+  "generated_at": "2026-10-21T07:39:01.338437+00:00",
   "today": "2026-10-21",
-  "lead": "FairStress：对 LLM 决策公平性的更深入评估；NVIDIA Cosmos3-H-Dreams：通过生成模拟将临床手术变为现实；ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+  "lead": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback；《财富 2000 强》中的 AI：Tenex 如何构建 AI 原生 SDLC — Alex Lieberman 和 CJ Hess；东南亚数字经济规模将达3680亿美元",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "克劳德设计了针对蝎子神经毒素的蛋白质结合剂",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T04:54:15.057000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 95
+    },
+    {
+      "title": "Anthropic在2026年上半年录得超过800亿美元的净亏损",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20",
+      "source": "www.reuters.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T04:54:15.064000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 95
+    },
+    {
+      "title": "Nexus-CLI – 到 DeepSeek R1/V3 的 Pure Go 桥接器，具有 Claude 代码和 Ollama 支持",
+      "url": "https://github.com/xamrayev/nexus-cli",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-21T04:37:18+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "deepseek"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 47
+    },
     {
       "title": "发布虚假数据，被大型语言模型引用",
       "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
@@ -11,52 +60,21 @@
       "site_id": "buzzing",
       "published_at": "2026-10-20T20:11:45.183000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 54,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 75
+      "hot_score": 46
     },
     {
-      "title": "Microagi: Accelerating Embodied AGI",
-      "url": "https://www.microagi.ai",
+      "title": "使用 Claude 减少代码的攻击面",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-21T00:11:30+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 52
-    },
-    {
-      "title": "DeepSeek 刚刚将其推理引擎开源",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-20T10:27:30.371000+00:00",
-      "source_count": 4,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "deepseek",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 50
-    },
-    {
-      "title": "Anthropic logged net loss of over $80 billion in first half of 2026",
-      "url": "https://www.reddit.com/r/technology/comments/1xb7op7/anthropic_logged_net_loss_of_over_80_billion_in",
-      "source": "Reddit (热门)",
-      "site_id": "iris",
-      "published_at": "2026-10-20T23:36:46+00:00",
+      "published_at": "2026-10-21T03:36:43+00:00",
       "source_count": 2,
       "score": 54,
       "official": true,
@@ -65,21 +83,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
-    },
-    {
-      "title": "随着Vibecoders涌入Next Fest，Steam用户纷纷呼吁增加“无AI”筛选功能",
-      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-      "source": "www.ign.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-20T20:11:45.865000+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 38
+      "hot_score": 43
     }
   ],
   "topics": [
@@ -88,70 +92,70 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 28
+      "count": 27
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 27
+      "count": 29
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 12
+      "count": 15
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 22
+      "count": 24
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 16
+      "count": 19
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 8
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 29
+      "count": 32
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 12
+      "count": 15
     },
     {
       "slug": "paper",
@@ -165,7 +169,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 40
+      "count": 38
     }
   ],
   "days": [

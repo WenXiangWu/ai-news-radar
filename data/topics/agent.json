@@ -1,19 +1,118 @@
 {
-  "generated_at": "2026-10-21T01:48:55.406715+00:00",
+  "generated_at": "2026-10-21T07:39:01.338437+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 16,
+  "total_items": 19,
   "items": [
+    {
+      "title": "AI 学会主动逃避监管了？OpenAI 披露旗下智能体曾试图关闭内部监控警报",
+      "url": "https://www.aibase.com/news/31771",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-21T07:36:33.330824+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
+      "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-21T06:03:12+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
+      "url": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-21T05:47:00+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "我试图让 codex 制作动画解释视频，但 ngmi https://t.co/UT7xloxtXc",
+      "url": "https://x.com/swyx/status/2112764130197451209",
+      "source": "Follow Builders · X · Swyx",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-21T04:33:16+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.306",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-21T03:16:31+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI – 为工作/codex 用户提供 12 小时缓存 (API) 和“永久缓存”",
+      "url": "https://twitter.com/thsottiaux/status/2112712984644784534",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-21T02:00:14+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
       "url": "https://x.com/thsottiaux/status/2112712984644784534",
       "source": "X：Tibo (@thsottiaux)",
       "site_id": "aihot",
       "published_at": "2026-10-21T01:10:02+00:00",
-      "source_count": 1,
-      "score": 75,
+      "source_count": 2,
+      "score": 76,
       "official": false,
       "topics": [
         "openai",
@@ -31,7 +130,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T20:46:50+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -48,10 +147,26 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T18:54:32+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Astra did the planning, Sol 6.1 did the coding. I found that the workflow of prompting Astra to run codex cli in worktrees works FAR better than relying on subagents. A second agent oversaw the work to keep Astra on t...",
+      "url": "https://x.com/steipete/status/2112605703219347503",
+      "source": "Follow Builders · X · Peter Steinberger",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-20T18:03:44+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -63,7 +178,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T17:17:55+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "agent"
@@ -78,7 +193,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T16:17:39+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -94,7 +209,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-20T15:18:03+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -109,7 +224,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-20T15:07:43+00:00",
       "source_count": 1,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "agent"
@@ -124,7 +239,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T15:04:09.208000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
@@ -140,7 +255,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-20T15:04:09.208000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -155,7 +270,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-20T15:00:34+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -171,7 +286,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T12:32:56+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -187,73 +302,10 @@
       "site_id": "aibase",
       "published_at": "2026-10-20T10:01:50.686402+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "AI生成的代码看不懂就扔掉重来：一位首席架构师的 5 条 Agent 编程反常识原则",
-      "url": "https://www.infoq.cn/article/tgqMEJsqXfX6YzAcOiAR",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-20T07:05:27+00:00",
-      "source_count": 1,
-      "score": 54,
+      "score": 72,
       "official": false,
       "topics": [
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势",
-      "url": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-20T06:55:22+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "一个 Java 后端的 AI Agent 落地全景：工具 · RAG · MCP · 评测 · 护栏 · 可观测（全可复现数字）",
-      "url": "https://juejin.cn/post/7697500325121998848",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-20T04:28:57.259000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "用 Codex 连接 Blender，我做了一块可以走进楼宇的大屏",
-      "url": "https://juejin.cn/post/7697883708062367770",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-20T04:28:57.259000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"
