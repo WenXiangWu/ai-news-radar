@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T07:39:01.338437+00:00",
+  "generated_at": "2026-10-21T14:02:01.076871+00:00",
   "today": "2026-10-21",
-  "lead": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback；《财富 2000 强》中的 AI：Tenex 如何构建 AI 原生 SDLC — Alex Lieberman 和 CJ Hess；东南亚数字经济规模将达3680亿美元",
+  "lead": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability；Claude Mods: Flipping the Harness Inside Out；Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,14 +11,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T04:54:15.057000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 95
+      "hot_score": 56
     },
     {
       "title": "Anthropic在2026年上半年录得超过800亿美元的净亏损",
@@ -27,14 +27,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T04:54:15.064000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 95
+      "hot_score": 56
+    },
+    {
+      "title": "LayerFS: The filesystem for AI coding agents",
+      "url": "https://layerfs.ai",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-21T12:34:46+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 53
     },
     {
       "title": "Nexus-CLI – 到 DeepSeek R1/V3 的 Pure Go 桥接器，具有 Claude 代码和 Ollama 支持",
@@ -43,7 +57,7 @@
       "site_id": "iris",
       "published_at": "2026-10-21T04:37:18+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": true,
       "topics": [
         "anthropic",
@@ -51,23 +65,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 47
-    },
-    {
-      "title": "发布虚假数据，被大型语言模型引用",
-      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-      "source": "peec.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-20T20:11:45.183000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 46
+      "hot_score": 27
     },
     {
       "title": "使用 Claude 减少代码的攻击面",
@@ -76,14 +74,14 @@
       "site_id": "iris",
       "published_at": "2026-10-21T03:36:43+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 43
+      "hot_score": 25
     }
   ],
   "topics": [
@@ -92,14 +90,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 27
+      "count": 35
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 29
+      "count": 34
     },
     {
       "slug": "google",
@@ -113,7 +111,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 24
+      "count": 16
     },
     {
       "slug": "qwen",
@@ -127,14 +125,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 19
+      "count": 23
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "mcp",
@@ -148,14 +146,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 32
+      "count": 24
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 15
+      "count": 11
     },
     {
       "slug": "paper",
@@ -169,7 +167,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 38
+      "count": 39
     }
   ],
   "days": [

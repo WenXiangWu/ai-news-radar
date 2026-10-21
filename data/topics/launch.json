@@ -1,11 +1,44 @@
 {
-  "generated_at": "2026-10-21T07:39:01.338437+00:00",
+  "generated_at": "2026-10-21T14:02:01.076871+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 15,
+  "total_items": 11,
   "items": [
+    {
+      "title": "Mistral 发布 Voxtral 3 语音 Agent SDK，支持 50 多种语言与工具调用",
+      "url": "https://www.aibase.com/news/31779",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-21T13:45:49.079970+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "NVIDIA GTC Berlin 2026：黄仁勋主题演讲发布 Vera Rubin AI 工厂、OpenShell 与 Agile ONE SN 人形机器人",
+      "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote",
+      "source": "NVIDIA Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-21T09:30:16+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": true,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
     {
       "title": "Mistral AI发布Voxtral3语音模型与语音代理SDK",
       "url": "https://www.aibase.com/news/31776",
@@ -13,7 +46,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T07:36:33.330824+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -29,7 +62,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T07:36:33.330824+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -39,13 +72,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
+      "title": "Mistral AI 发布 Voxtral 3：语音转文本、TTS 和语音代理 SDK",
       "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-21T06:03:12+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": false,
       "topics": [
         "agent",
@@ -61,7 +94,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T03:16:31+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -78,7 +111,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T20:46:50+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -94,14 +127,14 @@
       "source": "peec.ai",
       "site_id": "buzzing",
       "published_at": "2026-10-20T20:11:45.183000+00:00",
-      "source_count": 3,
-      "score": 54,
+      "source_count": 1,
+      "score": 48,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
-      "label": "多源热议"
+      "label": "值得关注"
     },
     {
       "title": "Elevenlabs 发布了两种专为实时 AI 对话而设计的新语音到语音模型",
@@ -110,7 +143,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-20T19:03:15+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "launch"
@@ -125,14 +158,13 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T17:42:57+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Google 与 Meta 发布 TorchTPU：PyTorch 原生 TPU 后端",
@@ -141,99 +173,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-20T16:00:30+00:00",
       "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "llm-d 1.0 发布：Kubernetes 原生分布式推理服务走向生产就绪",
-      "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
-      "source": "IBM Research：AI",
-      "site_id": "aihot",
-      "published_at": "2026-10-20T12:00:00+00:00",
-      "source_count": 1,
-      "score": 69,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "奇瑞 CheryMind 垂域基础大模型发布，宣称\"为物理 AI 而生\"",
-      "url": "https://www.aibase.com/news/31755",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-20T10:01:50.686402+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "开源工具 Strata 0.2 重磅发布：硬件门槛再降 16GB，本地流畅跑千亿大模型",
-      "url": "https://www.aibase.com/news/31754",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-20T10:01:50.686402+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "日本演员协会发布首版生成式AI准则，复刻演员声音须全程获授权",
-      "url": "https://www.aibase.com/news/31756",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-20T10:01:50.686402+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ai2 发布 FairStress 基准：测量 LLM 决策中被隐藏的公平性不对称",
-      "url": "https://allenai.org/blog/fairstress",
-      "source": "Ai2 / Allen Institute for AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-20T08:00:00+00:00",
-      "source_count": 1,
-      "score": 68,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cloudflare 发布 Clairic，一种基于 Workers AI 的 System One 提取模型",
-      "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-20T07:45:41+00:00",
-      "source_count": 1,
-      "score": 55,
+      "score": 71,
       "official": false,
       "topics": [
         "launch"
