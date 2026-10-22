@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T01:41:47.344174+00:00",
+  "generated_at": "2026-10-22T07:47:50.392858+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
@@ -7,13 +7,78 @@
   "total_items": 27,
   "items": [
     {
+      "title": "谷歌 CEO 皮查伊：AI 智能体的优势，是 7×24 小时不打烊",
+      "url": "https://www.aibase.com/news/31799",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-22T07:32:30.132101+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "开源项目第242期：HyperFrames —— 写 HTML 就能渲染视频，专为 AI Agent 设计的确定性视频框架",
+      "url": "https://juejin.cn/post/7698552541928194063",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-22T07:12:24.168000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "v2.1.308",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-22T04:34:55+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Agent Profiles with special \"terms\" for AI (Sarah Perez/TechCrunch)",
+      "url": "https://www.techmeme.com/261021/p62",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-22T03:50:03+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent",
+        "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 推出 Claude Duet：可后台常驻、主动干活的 AI 智能体",
       "url": "https://www.aibase.com/news/31784",
       "source": "AIbase",
       "site_id": "aibase",
       "published_at": "2026-10-22T01:29:30.010007+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -24,13 +89,29 @@
       "label": "行业动态"
     },
     {
+      "title": "Anthropic opens research preview of Claude Duet, a agent for professionals",
+      "url": "https://www.reuters.com/technology/anthropic-unveils-claude-duet-ai-agent-app-2026-10-21",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-21T23:12:27+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "v2.1.307",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
       "source": "Claude Code Releases",
       "site_id": "curated_media",
       "published_at": "2026-10-21T22:17:02+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -47,7 +128,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T21:26:06+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -62,7 +143,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T21:01:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -78,7 +159,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T20:41:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic",
@@ -94,7 +175,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T20:29:03+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -111,7 +192,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T20:14:37+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -120,20 +201,21 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 与 PerturbAI、Scripps Research 用数千个 GPT‑Rosalind 智能体 32 分钟挖掘脑细胞数据新研究线索",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T19:57:05.302000+00:00",
-      "source_count": 2,
-      "score": 83,
-      "official": true,
+      "title": "BREAKING: @AnthropicAI just launched Duet, its always-on personal agent. It’s the first personal agent I’d call a pro tool. We’ve been testing it for two weeks. I’ve gone from mostly using ChatGPT to roughly 50/50 bet...",
+      "url": "https://x.com/danshipper/status/2112997559463506059",
+      "source": "Follow Builders · X · Dan Shipper",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-21T20:00:50+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
       "topics": [
         "openai",
+        "anthropic",
         "agent"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "值得关注"
     },
     {
       "title": "Anthropic 与其新人工智能代理 Claude Duet 对抗 Muse",
@@ -142,7 +224,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T19:53:20+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -158,7 +240,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-21T16:35:11+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -177,7 +259,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-21T16:03:32+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -192,7 +274,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-21T15:10:53+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -208,7 +290,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T14:19:34+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -225,7 +307,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-21T14:03:50+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -242,7 +324,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-21T13:57:43+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "openai",
@@ -259,7 +341,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T13:50:49+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -274,7 +356,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T13:45:49.079970+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -291,7 +373,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T13:45:49.079970+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -308,7 +390,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T10:02:18+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -323,7 +405,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T09:50:14+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "agent"
@@ -338,7 +420,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T09:38:49+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "agent"
@@ -353,94 +435,12 @@
       "site_id": "aibase",
       "published_at": "2026-10-21T07:36:33.330824+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "openai",
         "agent",
         "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Mistral AI 发布 Voxtral 3：语音转文本、TTS 和语音代理 SDK",
-      "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-21T06:03:12+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
-      "url": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-21T05:47:00+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "我试图让 codex 制作动画解释视频，但 ngmi https://t.co/UT7xloxtXc",
-      "url": "https://x.com/swyx/status/2112764130197451209",
-      "source": "Follow Builders · X · Swyx",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-21T04:33:16+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.306",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-21T03:16:31+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI – 为工作/codex 用户提供 12 小时缓存 (API) 和“永久缓存”",
-      "url": "https://twitter.com/thsottiaux/status/2112712984644784534",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-21T02:00:14+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "值得关注"

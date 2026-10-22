@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T01:41:47.344174+00:00",
+  "generated_at": "2026-10-22T07:47:50.392858+00:00",
   "window_hours": 24,
   "total_items": 11,
   "items": [
@@ -10,12 +10,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T23:20:49.299000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 99
+      "hot_score": 59
+    },
+    {
+      "title": "利用数千个人工智能代理从生物数据中发掘新线索",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "source": "openai.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T19:57:05.302000+00:00",
+      "source_count": 3,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 45
     },
     {
       "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
@@ -24,36 +40,6 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T18:37:43.968000+00:00",
       "source_count": 3,
-      "score": 88,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 67
-    },
-    {
-      "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
-      "source": "safedep.io",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T16:31:01.542000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 56
-    },
-    {
-      "title": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T16:14:45.178000+00:00",
-      "source_count": 3,
       "score": 86,
       "official": true,
       "topics": [
@@ -61,47 +47,17 @@
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 55
+      "hot_score": 40
     },
     {
-      "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
-      "url": "https://www.wiz.io/blog/php2shell-php-rce",
-      "source": "Wiz：Research（安全研究）",
-      "site_id": "aihot",
-      "published_at": "2026-10-21T14:39:53.537000+00:00",
-      "source_count": 3,
-      "score": 83,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 48
-    },
-    {
-      "title": "利用Claude缩小代码的攻击面",
-      "url": "https://www.anthropic.com/research/attack-surface-reduction",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T14:39:53.533000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 48
-    },
-    {
-      "title": "克劳德·杜埃",
-      "url": "https://claude.com/product/claude-duet",
-      "source": "claude.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T20:12:12.028000+00:00",
+      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-22T02:17:58+00:00",
       "source_count": 2,
       "score": 53,
-      "official": false,
+      "official": true,
       "topics": [
         "anthropic"
       ],
@@ -110,21 +66,65 @@
       "hot_score": 38
     },
     {
-      "title": "OpenAI 与 PerturbAI、Scripps Research 用数千个 GPT‑Rosalind 智能体 32 分钟挖掘脑细胞数据新研究线索",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T19:57:05.302000+00:00",
+      "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+      "source": "safedep.io",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T16:31:01.542000+00:00",
+      "source_count": 3,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 34
+    },
+    {
+      "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source": "Wiz：Research（安全研究）",
+      "site_id": "aihot",
+      "published_at": "2026-10-21T14:39:53.537000+00:00",
+      "source_count": 3,
+      "score": 82,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 29
+    },
+    {
+      "title": "克劳德·杜埃",
+      "url": "https://claude.com/product/claude-duet",
+      "source": "claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T20:12:12.028000+00:00",
       "source_count": 2,
-      "score": 83,
-      "official": true,
+      "score": 52,
+      "official": false,
       "topics": [
-        "openai",
-        "agent"
+        "anthropic"
       ],
       "reason": "",
-      "label": "官方更新",
-      "hot_score": 37
+      "label": "值得关注",
+      "hot_score": 23
+    },
+    {
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "url": "https://github.com/omnara-ai/omnara",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-21T16:44:53+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 17
     },
     {
       "title": "Rust off Rails：人工智能时代的固执己见的 Web 堆栈",
@@ -133,12 +133,28 @@
       "site_id": "zeli",
       "published_at": "2026-10-21T16:34:16+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 28
+      "hot_score": 17
+    },
+    {
+      "title": "“修补地球”：随着安全人员发现漏洞，全球响应工作正逐步协调",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source": "openai.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T16:14:45.178000+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 16
     },
     {
       "title": "LayerFS：AI 编码代理的文件系统",
@@ -147,31 +163,14 @@
       "site_id": "zeli",
       "published_at": "2026-10-21T12:34:46+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "coding"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 20
-    },
-    {
-      "title": "Nexus-CLI – 到 DeepSeek R1/V3 的 Pure Go 桥接器，具有 Claude 代码和 Ollama 支持",
-      "url": "https://github.com/xamrayev/nexus-cli",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-21T04:37:18+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
+      "hot_score": 12
     }
   ]
 }
