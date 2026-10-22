@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-10-21T22:20:18.508492+00:00",
+  "generated_at": "2026-10-22T01:41:47.344174+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 14,
+  "total_items": 13,
   "items": [
+    {
+      "title": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
+      "url": "https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-21T22:15:39+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "NVIDIA Kumo Relational 在关系数据上的表现优于监督式机器学习，无需培训",
       "url": "https://huggingface.co/blog/nvidia/kumo-relational",
@@ -13,7 +28,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T18:26:30+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "opensource"
@@ -28,7 +43,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T17:35:36+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "opensource"
@@ -74,7 +89,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T14:58:18+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "opensource"
@@ -89,26 +104,10 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T14:15:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
-      "url": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-21T13:47:00+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "agent",
         "opensource"
       ],
       "reason": "",
@@ -128,22 +127,6 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "DeepSeek开源最新推理框架：单集群日吞吐155万亿Token，KVCache可保存7天",
-      "url": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-21T12:06:48+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
     },
     {
       "title": "NVIDIA 扩展开源模型家族，覆盖语言、机器人、生物与量子计算以支持欧洲主权智能",
@@ -168,7 +151,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T06:54:09+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "deepseek",
@@ -178,13 +161,29 @@
       "label": "官方更新"
     },
     {
+      "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
+      "url": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-21T05:47:00+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Google Cloud 推出 llm-d 1.0，为 TPU 和 GPU 队列提供缓存感知路由",
       "url": "https://www.marktechpost.com/2026/10/20/llm-d-1-0-open-source-distributed-inference-stack",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-21T04:33:40+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "opensource"
@@ -193,30 +192,16 @@
       "label": "值得关注"
     },
     {
-      "title": "Fun day for the @FirstMarkCap family * Series B announcement at @daytonaio * Series A announcement at @BabaHQ * Big launch of @GradiumAI’s new SOTA open source on-device voice AI model * and just this morning, @synthe...",
-      "url": "https://x.com/mattturck/status/2112696155519775041",
-      "source": "Follow Builders · X · Matt Turck",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-21T00:03:10+00:00",
+      "title": "DeepSeek开源最新推理框架：单集群日吞吐155万亿Token，KVCache可保存7天",
+      "url": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-21T04:06:48+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 57,
       "official": false,
       "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
-      "url": "https://vllm.ai/blog/2026-10-21-humming",
-      "source": "vLLM 官方博客（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-21T00:00:00+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
+        "deepseek",
         "opensource"
       ],
       "reason": "",
