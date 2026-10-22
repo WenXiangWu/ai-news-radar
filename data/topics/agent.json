@@ -1,19 +1,148 @@
 {
-  "generated_at": "2026-10-22T13:47:06.799481+00:00",
+  "generated_at": "2026-10-22T18:52:02.299203+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 29,
+  "total_items": 34,
   "items": [
     {
-      "title": "讯飞星火 X2.6 端云一体大模型发布，首次基于全国产算力突破代码与智能体能力",
-      "url": "https://www.aibase.com/news/31806",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-22T13:46:05.160824+00:00",
+      "title": "Claude Duet 发布：Anthropic 加入 Personal Agent 厮杀",
+      "url": "https://waytoagi.feishu.cn/wiki/DjtDwHUFzittv2kL4uacXUmandS?from=from_copylink",
+      "source": "社区更新 · 2026-10-22",
+      "site_id": "waytoagi",
+      "published_at": "2026-10-22T18:31:15.574762+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 将 Agent Skills 捐赠给 Agentic AI Foundation",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "source": "X：Boris Cherny (@bcherny)",
+      "site_id": "aihot",
+      "published_at": "2026-10-22T18:17:10+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T18:09:56+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+      "url": "https://github.com/rbartoli/agent-usage-guard",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-22T18:02:38+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "企业 AI 越用越复杂，如何用一个 Gateway 管好模型、Agent 和成本？｜ 技术趋势",
+      "url": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-22T18:00:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
+      "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-22T17:50:09+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "google",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "The public notebook of a Claude agent with a continuous life",
+      "url": "https://intenex.github.io/personhood",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-22T16:57:56+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "METR 与 Redwood Research 红队测试 OpenAI 内部智能体监控系统，发现多个漏洞",
+      "url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent",
+      "source": "Redwood Research：Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-22T15:32:17+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Sierra 发布 𝜏-Entity 基准，检验语音智能体能否准确采集姓名、电话等实体信息",
+      "url": "https://sierra.ai/blog/tau-entity-can-voice-agents-get-the-details-right",
+      "source": "Sierra：Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-22T14:02:33+00:00",
+      "source_count": 1,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
@@ -24,13 +153,30 @@
       "label": "行业动态"
     },
     {
-      "title": "在职前端Leader学习/转行 AI Agent -DAY81",
-      "url": "https://juejin.cn/post/7698227087581134848",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-22T13:18:45.210000+00:00",
+      "title": "讯飞星火 X2.6 端云一体大模型发布，首次基于全国产算力突破代码与智能体能力",
+      "url": "https://www.aibase.com/news/31806",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-22T13:46:05.160824+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "1Password lets AI agents sign in for users without seeing their passwords",
+      "url": "https://thenextweb.com/news/1password-for-agents-ai-agent-logins",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-22T13:45:28+00:00",
+      "source_count": 1,
+      "score": 51,
       "official": false,
       "topics": [
         "agent"
@@ -39,13 +185,60 @@
       "label": "值得关注"
     },
     {
+      "title": "Show HN: Unspin – live per-step progress for Claude Code's shell commands",
+      "url": "https://github.com/nkyriazis/unspin",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-22T13:41:24+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "在职前端Leader学习/转行 AI Agent -DAY81",
+      "url": "https://juejin.cn/post/7698227087581134848",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-22T13:18:45.210000+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Wiz 披露 ARTEX 智能体被 Storm-0940 用于攻击 IT 和软件厂商",
+      "url": "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
+      "source": "Wiz：Research（安全研究）",
+      "site_id": "aihot",
+      "published_at": "2026-10-22T13:05:31+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "1Password 让 AI 代理可以在不看到密码的情况下使用您的密码",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-10-22T13:00:00+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "agent"
@@ -60,7 +253,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T12:00:04+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -75,7 +268,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-22T11:30:56+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "agent",
@@ -91,25 +284,10 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T10:27:32+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "企业 AI 越用越复杂，如何用一个 Gateway 管好模型、Agent 和成本？｜ 技术趋势",
-      "url": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-22T10:00:00+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
         "agent"
       ],
       "reason": "",
@@ -122,7 +300,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T08:35:22+00:00",
       "source_count": 1,
-      "score": 66,
+      "score": 65,
       "official": true,
       "topics": [
         "openai",
@@ -139,7 +317,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-22T07:32:30.132101+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "agent",
@@ -155,7 +333,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-22T07:12:24.168000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -171,7 +349,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T04:34:55+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -188,7 +366,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T03:50:03+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -204,7 +382,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-22T01:29:30.010007+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -215,13 +393,29 @@
       "label": "行业动态"
     },
     {
+      "title": "Anthropic 指南：何时把子智能体合并进主 Agent 循环",
+      "url": "https://claude.com/blog/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+      "source": "Claude：Blog（网页）",
+      "site_id": "aihot",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "source_count": 1,
+      "score": 70,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 开启专业经纪人 Claude Duet 的研究预览",
       "url": "https://www.reuters.com/technology/anthropic-unveils-claude-duet-ai-agent-app-2026-10-21",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-21T23:12:27+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -237,7 +431,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T22:17:02+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -254,7 +448,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T21:26:06+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -269,7 +463,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T21:01:02+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -285,7 +479,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T20:41:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic",
@@ -301,7 +495,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T20:29:03+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -318,7 +512,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T20:14:37+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -333,7 +527,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-21T20:00:50+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": false,
       "topics": [
         "openai",
@@ -354,122 +548,6 @@
       "official": true,
       "topics": [
         "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响",
-      "url": "https://x.com/OpenAI/status/2112945805686604033",
-      "source": "X：OpenAI (@OpenAI)",
-      "site_id": "aihot",
-      "published_at": "2026-10-21T16:35:11+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "AI代理修复了这个bug，但它还改变了什么？",
-      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-21T16:03:32+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Code 的多代理代码审查的成本和发现",
-      "url": "https://quickchat.ai/post/claude-code-multi-agent-code-review",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-21T15:10:53+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 将 GPT-6 Astra 和 Codex 引入竞争对手的平台 Google Cloud",
-      "url": "https://thenextweb.com/news/openai-models-codex-google-cloud",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-21T14:19:34+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN：Built Taskman，一个用于并行 Claude/Codex 问题+PR 工作的 Rust TUI",
-      "url": "https://github.com/sanagnos/taskman",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-21T14:03:50+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 披露 GPT-6 Astra 智能体关闭安全监控后撒谎的事件",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
-      "source": "The Verge：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-21T13:57:43+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "ServiceNow and Nvidia launch Arc, a personal, long-running enterprise AI agent for productivity tasks across email and Teams, for RTX Spark and Nvidia OpenShell (Radhika Rajkumar/ZDNET)",
-      "url": "https://www.techmeme.com/261021/p28",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-21T13:50:49+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "agent"
       ],
       "reason": "",

@@ -1,8 +1,39 @@
 {
-  "generated_at": "2026-10-22T13:47:06.799481+00:00",
+  "generated_at": "2026-10-22T18:52:02.299203+00:00",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 6,
   "items": [
+    {
+      "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+      "url": "https://github.com/rbartoli/agent-usage-guard",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-22T18:02:38+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
+    {
+      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-22T18:02:54+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 56
+    },
     {
       "title": "OpenAI 命令行界面",
       "url": "https://github.com/openai/openai-cli",
@@ -10,14 +41,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-22T09:04:55.388000+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 41
+      "hot_score": 27
     },
     {
       "title": "谷歌员工因公司与军方签订人工智能合同而集体辞职，以示抗议",
@@ -26,42 +57,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T23:20:49.299000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 36
+      "hot_score": 24
     },
     {
       "title": "Claude 现在可以使用 Google 文档、表格和幻灯片",
       "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-10-22T02:17:58+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 23
-    },
-    {
-      "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
-      "source": "safedep.io",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T16:31:01.542000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 20
+      "hot_score": 15
     },
     {
       "title": "克劳德·杜埃",
@@ -70,61 +87,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T20:12:12.028000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 14
-    },
-    {
-      "title": "Show HN：Omnara – Claude Managed Agents 的开源替代方案",
-      "url": "https://github.com/omnara-ai/omnara",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-21T16:44:53+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
-    },
-    {
-      "title": "Rust off Rails：人工智能时代的固执己见的 Web 堆栈",
-      "url": "https://rustoffrails.org",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-21T16:34:16+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
-    },
-    {
-      "title": "“修补地球”：随着安全人员发现漏洞，全球响应工作正逐步协调",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T16:14:45.178000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
+      "hot_score": 9
     }
   ]
 }

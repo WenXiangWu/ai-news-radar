@@ -1,11 +1,73 @@
 {
-  "generated_at": "2026-10-22T13:47:06.799481+00:00",
+  "generated_at": "2026-10-22T18:52:02.299203+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 13,
+  "total_items": 9,
   "items": [
+    {
+      "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
+      "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-22T18:31:15.574762+00:00",
+      "source_count": 1,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
+      "url": "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-22T16:56:12+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T16:11:31+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Show HN: Omnara——Claude托管代理的开源替代方案",
+      "url": "https://github.com/omnara-ai/omnara",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-22T16:11:00.497000+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "AI 热点日报（2026-10-20）：DeepSeek V4.1-Flash落地，Meta开源816B大模型，国产AI芯片涨价20%-50%",
       "url": "https://juejin.cn/post/7698331749004083243",
@@ -13,27 +75,11 @@
       "site_id": "newsnow",
       "published_at": "2026-10-22T13:18:45.210000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "deepseek",
         "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
-      "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-22T11:16:58+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -45,7 +91,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T10:45:02+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "opensource",
@@ -61,7 +107,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-22T07:51:31+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [
         "opensource"
@@ -76,7 +122,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-22T07:12:24.168000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -92,118 +138,10 @@
       "site_id": "curated_media",
       "published_at": "2026-10-21T22:15:39+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "NVIDIA Kumo Relational 在关系数据上的表现优于监督式机器学习，无需培训",
-      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T18:26:30+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "SLM 词汇专业化如何在实际应用中将推理成本降低 77%",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T17:35:36+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Show HN：Omnara – Claude Managed Agents 的开源替代方案",
-      "url": "https://github.com/omnara-ai/omnara",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-21T16:44:53+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "TorchNeuron 分析（第 1 部分）：AWS Trainium 上的系统级分析。",
-      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T16:04:43+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 让 Claude 参与 25 个开源项目，发现了 493 个缺陷",
-      "url": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-21T15:39:42+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Granite Speech 5.0：更准确、更快地转录、翻译和归因",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T14:58:18+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Claude flagged 493 security issues across 25 open-source projects, covering 5M+ lines of C, C++, Java, PHP, and Python code; one went unnoticed for 21 years (Chris Rohlf/Anthropic)",
-      "url": "https://www.techmeme.com/261021/p31",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-21T14:15:01+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
         "opensource"
       ],
       "reason": "",

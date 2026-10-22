@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-23",
     "2026-10-22",
     "2026-10-21",
     "2026-10-20",
@@ -85,11 +86,55 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 IBM Granite 时间序列模型进行集合预测",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T18:09:56+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
+      "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T16:39:09+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Industry comparisons in the Copilot impact dashboard",
+      "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T16:28:24+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T07:51:31+00:00",
+      "published_at": "2026-10-22T16:11:31+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
@@ -220,17 +265,41 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-      "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
-      "source": "Latent Space",
+      "title": "Public monitoring now available with data residency",
+      "url": "https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T07:42:44+00:00",
+      "published_at": "2026-10-22T18:12:58+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://www.latent.space/p/modal-d",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T17:40:57+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Pull requests: Saved whitespace preferences and improved split view",
+      "url": "https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T17:24:56+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -494,52 +563,26 @@
       "label": "官方更新"
     },
     {
-      "title": "FDE 在 OpenAI 中意味着什么",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "source": "OpenAI News",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "source": "Google DeepMind",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T06:00:00+00:00",
+      "published_at": "2026-10-22T14:30:24+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "openai"
+        "google"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "如何使用决策模型进行评估",
-      "url": "https://hamel.dev/blog/posts/decision-model-evals",
-      "source": "Hamel Husain",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T07:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm-工具-数据集 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-18T23:43:09+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] 特工反驳多义性；大大提高可解释性和对齐性",
-      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "title": "You are the Team  — Anekha Sokhal, Moshi",
+      "url": "https://www.latent.space/p/moshi",
       "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-16T04:16:45+00:00",
+      "published_at": "2026-10-22T14:03:40+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -548,26 +591,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Slack 和 Microsoft Teams 中 GitHub Copilot 的多存储库支持和其他改进",
-      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T02:16:35+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Granite Switch 4.1：来自一个端点的聊天、决策和语音",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "title": "使用 IBM Granite 时间序列模型进行集合预测",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-15T20:34:01+00:00",
+      "published_at": "2026-10-22T07:51:31+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -576,34 +604,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "分类角色用户或更高级别现在可以存档拉取请求",
-      "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T19:01:42+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "综合超级智能：从半导体到超导体——Periodic Labs 的 Liam Fedus 和 Ekin Dogus Cubuk",
-      "url": "https://www.latent.space/p/periodic",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T16:27:54+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-22T13:47:06.799481+00:00",
+  "generated_at": "2026-10-22T18:52:02.299203+00:00",
   "period": "2026-10"
 }
