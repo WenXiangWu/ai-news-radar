@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-22T07:47:50.392858+00:00",
+  "generated_at": "2026-10-22T13:47:06.799481+00:00",
   "today": "2026-10-22",
-  "lead": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden；通过一致的标准实现广泛的访问；NVIDIA Kumo Relational 在关系数据上的表现优于监督式机器学习，无需培训",
+  "lead": "使用 IBM Granite 时间序列模型进行集合预测；[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months；FDE 在 OpenAI 中意味着什么",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "OpenAI 命令行界面",
+      "url": "https://github.com/openai/openai-cli",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-22T09:04:55.388000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 41
+    },
     {
       "title": "谷歌员工因公司与军方签订人工智能合同而集体辞职，以示抗议",
       "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
@@ -11,60 +27,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T23:20:49.299000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 59
+      "hot_score": 36
     },
     {
-      "title": "利用数千个人工智能代理从生物数据中发掘新线索",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T19:57:05.302000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 45
-    },
-    {
-      "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T18:37:43.968000+00:00",
-      "source_count": 3,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 40
-    },
-    {
-      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "title": "Claude 现在可以使用 Google 文档、表格和幻灯片",
       "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-22T02:17:58+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 38
+      "hot_score": 23
     },
     {
       "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
@@ -73,12 +57,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T16:31:01.542000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 34
+      "hot_score": 20
+    },
+    {
+      "title": "克劳德·杜埃",
+      "url": "https://claude.com/product/claude-duet",
+      "source": "claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T20:12:12.028000+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 14
     }
   ],
   "topics": [
@@ -87,7 +87,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 40
+      "count": 39
     },
     {
       "slug": "anthropic",
@@ -101,14 +101,14 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 8
+      "count": 6
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "qwen",
@@ -122,35 +122,35 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 27
+      "count": 29
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 8
+      "count": 6
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 11
+      "count": 13
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 15
+      "count": 17
     },
     {
       "slug": "paper",

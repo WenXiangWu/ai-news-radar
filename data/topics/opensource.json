@@ -1,11 +1,74 @@
 {
-  "generated_at": "2026-10-22T07:47:50.392858+00:00",
+  "generated_at": "2026-10-22T13:47:06.799481+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 11,
+  "total_items": 13,
   "items": [
+    {
+      "title": "AI 热点日报（2026-10-20）：DeepSeek V4.1-Flash落地，Meta开源816B大模型，国产AI芯片涨价20%-50%",
+      "url": "https://juejin.cn/post/7698331749004083243",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-22T13:18:45.210000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "deepseek",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
+      "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-22T11:16:58+00:00",
+      "source_count": 1,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Hugging Face releases Carbon-X, an open-source, 14B-parameter multimodal AI model to let users query DNA sequences via natural language, trained on 300B tokens (Emily Mullin/Wired)",
+      "url": "https://www.techmeme.com/261022/p15",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-22T10:45:02+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "使用 IBM Granite 时间序列模型进行集合预测",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T07:51:31+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "开源项目第242期：HyperFrames —— 写 HTML 就能渲染视频，专为 AI Agent 设计的确定性视频框架",
       "url": "https://juejin.cn/post/7698552541928194063",
@@ -13,7 +76,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-22T07:12:24.168000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
@@ -23,15 +86,16 @@
       "label": "值得关注"
     },
     {
-      "title": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
+      "title": "Vercel 开源防碰撞编码代理耐用线束",
       "url": "https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-21T22:15:39+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
+        "coding",
         "opensource"
       ],
       "reason": "",
@@ -44,7 +108,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T18:26:30+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -59,7 +123,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T17:35:36+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -68,13 +132,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "title": "Show HN：Omnara – Claude Managed Agents 的开源替代方案",
       "url": "https://github.com/omnara-ai/omnara",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-21T16:44:53+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic",
@@ -90,7 +154,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T16:04:43+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -105,7 +169,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T15:39:42+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -121,7 +185,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-21T14:58:18+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -136,42 +200,11 @@
       "site_id": "techurls",
       "published_at": "2026-10-21T14:15:01+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
         "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "NVIDIA Kumo Forecast 将预训练时间序列表示与历史模式检索和可解释性相结合",
-      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T12:51:24+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA 扩展开源模型家族，覆盖语言、机器人、生物与量子计算以支持欧洲主权智能",
-      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry",
-      "source": "NVIDIA Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-21T10:00:07+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": true,
-      "topics": [
-        "opensource",
-        "industry"
       ],
       "reason": "",
       "label": "值得关注"

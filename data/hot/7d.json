@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-10-22T07:47:50.392858+00:00",
+  "generated_at": "2026-10-22T13:47:06.799481+00:00",
   "window_hours": 168,
-  "total_items": 11,
+  "total_items": 8,
   "items": [
+    {
+      "title": "OpenAI 命令行界面",
+      "url": "https://github.com/openai/openai-cli",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-22T09:04:55.388000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 41
+    },
     {
       "title": "谷歌员工因公司与军方签订人工智能合同而集体辞职，以示抗议",
       "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
@@ -10,98 +26,22 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T23:20:49.299000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 59
+      "hot_score": 36
     },
     {
-      "title": "利用数千个人工智能代理从生物数据中发掘新线索",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T19:57:05.302000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 45
-    },
-    {
-      "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T18:37:43.968000+00:00",
-      "source_count": 3,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 40
-    },
-    {
-      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "title": "Claude 现在可以使用 Google 文档、表格和幻灯片",
       "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-22T02:17:58+00:00",
       "source_count": 2,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 38
-    },
-    {
-      "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
-      "source": "safedep.io",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T16:31:01.542000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 34
-    },
-    {
-      "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
-      "url": "https://www.wiz.io/blog/php2shell-php-rce",
-      "source": "Wiz：Research（安全研究）",
-      "site_id": "aihot",
-      "published_at": "2026-10-21T14:39:53.537000+00:00",
-      "source_count": 3,
-      "score": 82,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 29
-    },
-    {
-      "title": "克劳德·杜埃",
-      "url": "https://claude.com/product/claude-duet",
-      "source": "claude.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-21T20:12:12.028000+00:00",
-      "source_count": 2,
       "score": 52,
-      "official": false,
+      "official": true,
       "topics": [
         "anthropic"
       ],
@@ -110,13 +50,43 @@
       "hot_score": 23
     },
     {
-      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "title": "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+      "source": "safedep.io",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T16:31:01.542000+00:00",
+      "source_count": 3,
+      "score": 52,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 20
+    },
+    {
+      "title": "克劳德·杜埃",
+      "url": "https://claude.com/product/claude-duet",
+      "source": "claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-21T20:12:12.028000+00:00",
+      "source_count": 2,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 14
+    },
+    {
+      "title": "Show HN：Omnara – Claude Managed Agents 的开源替代方案",
       "url": "https://github.com/omnara-ai/omnara",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-21T16:44:53+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic",
@@ -124,7 +94,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
+      "hot_score": 10
     },
     {
       "title": "Rust off Rails：人工智能时代的固执己见的 Web 堆栈",
@@ -133,12 +103,12 @@
       "site_id": "zeli",
       "published_at": "2026-10-21T16:34:16+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 17
+      "hot_score": 10
     },
     {
       "title": "“修补地球”：随着安全人员发现漏洞，全球响应工作正逐步协调",
@@ -147,30 +117,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-21T16:14:45.178000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 16
-    },
-    {
-      "title": "LayerFS：AI 编码代理的文件系统",
-      "url": "https://layerfs.ai",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-21T12:34:46+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
+      "hot_score": 10
     }
   ]
 }
