@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-23T01:30:07.941740+00:00",
+  "generated_at": "2026-10-23T07:41:33.800362+00:00",
   "today": "2026-10-23",
-  "lead": "Visual Studio 中的 GitHub Copilot — 9 月更新；将数据库评分转化为强化学习奖励：使用 ThinkingBox 进行训练后智能体；使用指标 API 中的自定义技能、代理和 MCP 服务器",
+  "lead": "将数据库评分转化为强化学习奖励：使用 ThinkingBox 进行训练后智能体；Visual Studio 中的 GitHub Copilot — 9 月更新；OpenAI and Poland’s NASK partner to advance AI safety and security",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "大型语言模型（LLMs）使得在更大规模上进行形式化软件验证成为可能",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-23T01:37:52.370000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 72
+    },
     {
       "title": "人工智能与“科学公共领域”的圈地运动",
       "url": "https://arxiv.org/abs/2610.27251",
@@ -11,14 +27,30 @@
       "site_id": "buzzing",
       "published_at": "2026-10-23T00:03:55.247000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 64
+    },
+    {
+      "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+      "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-23T06:41:11+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 55
     },
     {
       "title": "每一种人工智能模型对人类都持同样的“有争议”的看法",
@@ -27,12 +59,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-22T21:56:53.250000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 89
+      "hot_score": 53
     },
     {
       "title": "人工智能计算是新的石油——需要新的市场",
@@ -41,42 +73,12 @@
       "site_id": "iris",
       "published_at": "2026-10-22T23:45:16+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
-    },
-    {
-      "title": "LLM正在使正式软件验证在更大范围内变得可行",
-      "url": "https://www.anthropic.com/research/formal-verification",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-22T22:54:43+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
-    },
-    {
-      "title": "法律专家表示，Meta 的人工智能仍然可以抓取新闻网站",
-      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-22T20:32:05+00:00",
-      "source_count": 2,
-      "score": 60,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 40
+      "hot_score": 31
     }
   ],
   "topics": [
@@ -85,14 +87,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 31
+      "count": 34
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 33
+      "count": 35
     },
     {
       "slug": "google",
@@ -106,7 +108,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 5
+      "count": 8
     },
     {
       "slug": "qwen",
@@ -120,7 +122,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 28
+      "count": 32
     },
     {
       "slug": "coding",
@@ -134,28 +136,28 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 12
+      "count": 15
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "industry",

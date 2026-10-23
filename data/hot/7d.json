@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-10-23T01:30:07.941740+00:00",
+  "generated_at": "2026-10-23T07:41:33.800362+00:00",
   "window_hours": 168,
-  "total_items": 12,
+  "total_items": 13,
   "items": [
+    {
+      "title": "大型语言模型（LLMs）使得在更大规模上进行形式化软件验证成为可能",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-23T01:37:52.370000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 72
+    },
     {
       "title": "人工智能与“科学公共领域”的圈地运动",
       "url": "https://arxiv.org/abs/2610.27251",
@@ -10,14 +26,30 @@
       "site_id": "buzzing",
       "published_at": "2026-10-23T00:03:55.247000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 64
+    },
+    {
+      "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+      "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-23T06:41:11+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 55
     },
     {
       "title": "每一种人工智能模型对人类都持同样的“有争议”的看法",
@@ -26,12 +58,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-22T21:56:53.250000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 89
+      "hot_score": 53
     },
     {
       "title": "人工智能计算是新的石油——需要新的市场",
@@ -40,28 +72,12 @@
       "site_id": "iris",
       "published_at": "2026-10-22T23:45:16+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
-    },
-    {
-      "title": "LLM正在使正式软件验证在更大范围内变得可行",
-      "url": "https://www.anthropic.com/research/formal-verification",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-22T22:54:43+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
+      "hot_score": 31
     },
     {
       "title": "法律专家表示，Meta 的人工智能仍然可以抓取新闻网站",
@@ -70,49 +86,84 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T20:32:05+00:00",
       "source_count": 2,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 40
+      "hot_score": 24
+    },
+    {
+      "title": "Claude 网页、桌面和移动端将默认启用 auto mode",
+      "url": "https://x.com/claudeai/status/2113360845409583307",
+      "source": "X：Claude (@claudeai)",
+      "site_id": "aihot",
+      "published_at": "2026-10-22T20:04:24+00:00",
+      "source_count": 2,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 23
+    },
+    {
+      "title": "Anthropic 将 Agent Skills 捐赠给 Agentic AI Foundation",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "source": "X：Boris Cherny (@bcherny)",
+      "site_id": "aihot",
+      "published_at": "2026-10-22T18:17:10+00:00",
+      "source_count": 2,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态",
+      "hot_score": 20
     },
     {
       "title": "Show HN：UI微交互提示AI",
       "url": "https://www.typeui.sh/micro-interactions",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-10-22T18:32:57+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 34
+      "hot_score": 20
     },
     {
       "title": "屡获殊荣的人工智能文献",
       "url": "https://jamesyu.org/award-winning-ai-literature",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-10-22T18:28:26+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 33
+      "hot_score": 20
     },
     {
       "title": "Show HN：agent-usage-guard – 一个 Claude Code mod，用于保护您的使用窗口",
       "url": "https://github.com/rbartoli/agent-usage-guard",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
       "published_at": "2026-10-22T18:02:38+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic",
@@ -120,21 +171,21 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 19
     },
     {
       "title": "CT扫描的AI分析发现42.9%的患者患有冠状动脉炎症",
       "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-10-22T18:02:54+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 19
     },
     {
       "title": "OpenShell – 为自主 AI 代理团队提供安全、私密的运行时",
@@ -143,44 +194,12 @@
       "site_id": "iris",
       "published_at": "2026-10-22T17:44:06+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 31
-    },
-    {
-      "title": "OpenAI 命令行界面",
-      "url": "https://github.com/openai/openai-cli",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-22T09:04:55.388000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 15
-    },
-    {
-      "title": "Claude 现在可以使用 Google 文档、表格和幻灯片",
-      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-22T02:17:58+00:00",
-      "source_count": 2,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 19
     }
   ]
 }

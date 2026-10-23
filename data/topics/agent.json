@@ -1,11 +1,136 @@
 {
-  "generated_at": "2026-10-23T01:30:07.941740+00:00",
+  "generated_at": "2026-10-23T07:41:33.800362+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 28,
+  "total_items": 32,
   "items": [
+    {
+      "title": "多智能体编排：拆分、隔离与收敛的完整实战",
+      "url": "https://juejin.cn/post/7698625451761631268",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-23T07:29:53.872000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 把智能体\"说明书\"交出去：Agent Skills 标准捐给社区",
+      "url": "https://www.aibase.com/news/31831",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-23T07:29:15.090233+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "谷歌推出 ACE：给每个 AI 智能体配一台\"专属电脑\"，唤醒不到 500 毫秒",
+      "url": "https://www.aibase.com/news/31832",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-23T07:29:15.090233+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
+      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-23T07:11:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
+      "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-23T06:05:10+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
+      "url": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-23T05:00:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex &amp; work. But yes… that’s a reset!",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-23T04:46:19+00:00",
+      "source_count": 1,
+      "score": 65,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Foresight AI 正式可用，Gremlin 将智能体引入可靠性工程",
+      "url": "https://www.infoq.cn/article/2bKQkdiAcGEycHJLYPv5",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-23T03:15:00+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "外部评估戳穿 OpenAI 监控漏洞：智能体数百次操作逃过审查",
       "url": "https://www.aibase.com/news/31817",
@@ -13,7 +138,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-23T01:28:59.592774+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "openai",
@@ -30,7 +155,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-22T22:24:34+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "agent",
@@ -46,7 +171,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T22:18:57+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -63,7 +188,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T20:40:10+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -80,7 +205,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-22T20:24:13+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -97,7 +222,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-22T18:31:15.574762+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic",
@@ -113,8 +238,8 @@
       "source": "X：Boris Cherny (@bcherny)",
       "site_id": "aihot",
       "published_at": "2026-10-22T18:17:10+00:00",
-      "source_count": 1,
-      "score": 74,
+      "source_count": 2,
+      "score": 76,
       "official": false,
       "topics": [
         "anthropic",
@@ -131,7 +256,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-22T18:09:56+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "agent"
@@ -142,11 +267,11 @@
     {
       "title": "Show HN：agent-usage-guard – 一个 Claude Code mod，用于保护您的使用窗口",
       "url": "https://github.com/rbartoli/agent-usage-guard",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
       "published_at": "2026-10-22T18:02:38+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic",
@@ -162,7 +287,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T17:50:09+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "google",
@@ -178,7 +303,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-22T15:32:17+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -195,7 +320,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-22T14:02:33+00:00",
       "source_count": 1,
-      "score": 70,
+      "score": 69,
       "official": false,
       "topics": [
         "agent",
@@ -211,7 +336,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-22T13:46:05.160824+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -228,7 +353,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T13:45:28+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -243,7 +368,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-22T13:41:24+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic",
@@ -259,7 +384,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-22T13:18:45.210000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -274,7 +399,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-22T13:05:31+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -290,7 +415,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T13:00:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -305,7 +430,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T12:00:04+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -320,7 +445,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-22T11:30:56+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -336,7 +461,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T10:27:32+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic",
@@ -352,7 +477,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-22T10:00:00+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [
         "agent"
@@ -367,7 +492,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T08:35:22+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
@@ -384,75 +509,9 @@
       "site_id": "aibase",
       "published_at": "2026-10-22T07:32:30.132101+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "开源项目第242期：HyperFrames —— 写 HTML 就能渲染视频，专为 AI Agent 设计的确定性视频框架",
-      "url": "https://juejin.cn/post/7698552541928194063",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-22T07:12:24.168000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.308",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-22T04:34:55+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Agent Profiles with special \"terms\" for AI (Sarah Perez/TechCrunch)",
-      "url": "https://www.techmeme.com/261021/p62",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-22T03:50:03+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 推出 Claude Duet：可后台常驻、主动干活的 AI 智能体",
-      "url": "https://www.aibase.com/news/31784",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-22T01:29:30.010007+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "anthropic",
         "agent"
       ],
       "reason": "",
