@@ -7,20 +7,20 @@
   "groups": [
     "knowledge-04"
   ],
-  "run_id": "39998680063",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39998680063",
+  "run_id": "40032078205",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40032078205",
   "conclusion": "failure",
-  "started_at": "2026-10-23T18:20:12.131006+00:00",
-  "finished_at": "2026-10-23T18:20:12.131006+00:00",
+  "started_at": "2026-10-23T22:38:10.597600+00:00",
+  "finished_at": "2026-10-23T22:38:10.597600+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "source.latent-space.blog",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity: translation unavailable or failed quality gate"
     },
     {
       "source_id": "source.lilian-weng.blog",
