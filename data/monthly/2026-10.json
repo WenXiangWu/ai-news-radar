@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-24",
     "2026-10-23",
     "2026-10-22",
     "2026-10-21",
@@ -36,6 +37,36 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T17:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "LitPivot：通过文学景观中的动态情境化发展研究思路",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T16:15:50+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -82,6 +113,19 @@
       "topics": [
         "launch"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用人工智能代理教小鸭等机器人模拟行走",
+      "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T14:58:32+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -221,11 +265,24 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Black October",
-      "url": "https://latent.space/p/ainews-black-october",
+      "title": "人工智能正在变得擅长数学。这就是为什么。",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math",
       "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T10:09:29+00:00",
+      "published_at": "2026-10-23T15:19:48+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub 应用程序的企业安装现已普遍可用",
+      "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T15:03:30+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -508,16 +565,31 @@
       "label": "官方更新"
     },
     {
-      "title": "您的模型在 AWS Trainium 上运行吗？查找一下",
-      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-      "source": "Hugging Face Blog",
+      "title": "langgraph-cli==0.4.38",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.38",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T00:00:00+00:00",
+      "published_at": "2026-10-23T14:22:29+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "opensource"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.9",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T14:19:24+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -536,77 +608,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "如何使用决策模型进行评估",
-      "url": "https://hamel.dev/blog/posts/decision-model-evals",
-      "source": "Hamel Husain",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T07:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm-工具-数据集 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-18T23:43:09+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] 特工反驳多义性；大大提高可解释性和对齐性",
-      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T04:16:45+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Slack 和 Microsoft Teams 中 GitHub Copilot 的多存储库支持和其他改进",
-      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-16T02:16:35+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Granite Switch 4.1：来自一个端点的聊天、决策和语音",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-15T20:34:01+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-23T13:25:15.211809+00:00",
+  "generated_at": "2026-10-23T18:19:58.611600+00:00",
   "period": "2026-10"
 }

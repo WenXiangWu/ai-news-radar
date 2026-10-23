@@ -1,11 +1,105 @@
 {
-  "generated_at": "2026-10-23T13:25:15.211809+00:00",
+  "generated_at": "2026-10-23T18:19:58.611600+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 17,
+  "total_items": 18,
   "items": [
+    {
+      "title": "Anthropic 表示其未发布的模型比 Mythos 5.1 功能更强大、一致性更好",
+      "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-23T17:19:49+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
+      "url": "https://www.kimi.com/blog/kimi-k3-1-pro",
+      "source": "Moonshot AI：Kimi Blog",
+      "site_id": "aihot",
+      "published_at": "2026-10-23T16:00:00+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
+      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-23T15:11:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "langgraph-cli==0.4.38",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.38",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T14:22:29+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.9",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T14:19:24+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Recursive 发布了 Flint，这是一种主要由其自己的 AI 构建的笔记本电脑编码模型",
+      "url": "https://thenextweb.com/news/recursive-flint-local-coding-model-eureka-machine",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-23T13:29:46+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "月之暗面放 K3.1 预热视频，发布日期仍捂着",
       "url": "https://www.aibase.com/news/31846",
@@ -13,7 +107,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-23T13:24:00.156354+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "launch",
@@ -29,7 +123,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-23T13:24:00.156354+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": false,
       "topics": [
         "launch",
@@ -39,13 +133,28 @@
       "label": "行业动态"
     },
     {
+      "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+      "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-23T11:39:27+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "在得克萨斯州，同一项AI请求产生的二氧化碳排放量是瑞典的8.5倍",
       "url": "https://berget.ai/en/blog/per-request-co2-press-release",
       "source": "berget.ai",
       "site_id": "buzzing",
       "published_at": "2026-10-23T08:37:42.211000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "launch"
@@ -60,7 +169,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-23T07:29:15.090233+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "launch",
@@ -70,44 +179,13 @@
       "label": "行业动态"
     },
     {
-      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-23T07:11:00+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
-      "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-23T03:39:27+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "AISI 发布技术报告：分析 Mythos 5 对齐失败与未授权攻击行为",
       "url": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
       "source": "英国 AI Security Institute：Blog（网页）",
       "site_id": "aihot",
       "published_at": "2026-10-22T23:00:00+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -123,7 +201,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T22:18:57+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -140,10 +218,26 @@
       "site_id": "aihot",
       "published_at": "2026-10-22T20:24:13+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
         "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
+      "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-22T19:16:58+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "opensource",
         "launch"
       ],
       "reason": "",
@@ -156,7 +250,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-22T19:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "openai",
@@ -172,7 +266,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-22T19:00:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "launch"
@@ -187,88 +281,10 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-22T18:31:15.574762+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Microsoft AI 发布 SDBench 基准与 MAI-DxO 诊断系统，登 Science",
-      "url": "https://microsoft.ai/news/building-medical-superintelligence",
-      "source": "Microsoft AI：官方博客（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-10-22T18:01:00+00:00",
-      "source_count": 1,
-      "score": 75,
-      "official": true,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Sierra 发布 𝜏-Entity 基准，检验语音智能体能否准确采集姓名、电话等实体信息",
-      "url": "https://sierra.ai/blog/tau-entity-can-voice-agents-get-the-details-right",
-      "source": "Sierra：Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-22T14:02:33+00:00",
-      "source_count": 1,
-      "score": 68,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI日报：讯飞星火X2.6发布；红果短剧上线小果AI；宇树发布H2X人形机器人测试广告",
-      "url": "https://www.aibase.com/news/31807",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-22T13:46:05.160824+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "英伟达升级Isaac通用机器人平台并发布Agile ONE SN人形样机",
-      "url": "https://www.aibase.com/news/31803",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-22T13:46:05.160824+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "讯飞星火 X2.6 端云一体大模型发布，首次基于全国产算力突破代码与智能体能力",
-      "url": "https://www.aibase.com/news/31806",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-22T13:46:05.160824+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
         "agent",
         "launch"
       ],
