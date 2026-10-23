@@ -7,20 +7,20 @@
   "groups": [
     "knowledge-04"
   ],
-  "run_id": "39909157891",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39909157891",
+  "run_id": "39954836082",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39954836082",
   "conclusion": "failure",
-  "started_at": "2026-10-23T06:22:16.192473+00:00",
-  "finished_at": "2026-10-23T06:22:16.192473+00:00",
+  "started_at": "2026-10-23T13:05:14.987557+00:00",
+  "finished_at": "2026-10-23T13:05:14.987557+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "source.latent-space.blog",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity: Invalid IPv6 URL"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "source.lilian-weng.blog",
