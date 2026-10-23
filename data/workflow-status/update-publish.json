@@ -5,11 +5,11 @@
   "schedule": "after-fetch",
   "combined_lanes": [],
   "groups": [],
-  "run_id": "39884204473",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39884204473",
+  "run_id": "39909157891",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39909157891",
   "conclusion": "success",
-  "started_at": "2026-10-23T01:31:28.289392+00:00",
-  "finished_at": "2026-10-23T01:31:28.289392+00:00",
+  "started_at": "2026-10-23T06:53:32.530421+00:00",
+  "finished_at": "2026-10-23T06:53:32.530421+00:00",
   "push": {
     "attempted": true,
     "ok": true,
@@ -32,7 +32,12 @@
       "docs.letta",
       "docs.llamaindex",
       "docs.mem0",
-      "docs.microsoft-agent-framework"
+      "docs.microsoft-agent-framework",
+      "source.knowledge.langchain.blog",
+      "source.knowledge.llamaindex.docs",
+      "source.knowledge.mcp.docs",
+      "source.knowledge.openai.cookbook",
+      "source.knowledge.openai.docs"
     ],
     "by_owner": {
       "update-news": [
@@ -56,7 +61,12 @@
         "docs.letta",
         "docs.llamaindex",
         "docs.mem0",
-        "docs.microsoft-agent-framework"
+        "docs.microsoft-agent-framework",
+        "source.knowledge.langchain.blog",
+        "source.knowledge.llamaindex.docs",
+        "source.knowledge.mcp.docs",
+        "source.knowledge.openai.cookbook",
+        "source.knowledge.openai.docs"
       ]
     }
   },
@@ -153,6 +163,31 @@
     },
     {
       "source_id": "docs.microsoft-agent-framework",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.langchain.blog",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.llamaindex.docs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.mcp.docs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.openai.cookbook",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "source.knowledge.openai.docs",
       "status": "success",
       "run_kind": "incremental"
     }
