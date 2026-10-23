@@ -86,16 +86,32 @@
       "label": "官方更新"
     },
     {
-      "title": "Global default for Copilot features generally available",
-      "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+      "title": "Visual Studio 中的 GitHub Copilot — 9 月更新",
+      "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T20:44:28+00:00",
+      "published_at": "2026-10-23T00:17:51+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "将数据库评分转化为强化学习奖励：使用 ThinkingBox 进行训练后智能体",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T22:24:34+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -221,6 +237,36 @@
       "label": "官方更新"
     },
     {
+      "title": "使用指标 API 中的自定义技能、代理和 MCP 服务器",
+      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T22:19:17+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "mcp"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 功能的全局默认设置已全面可用",
+      "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T20:44:28+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策",
       "url": "https://openai.com/index/decisions-api",
       "source": "OpenAI News",
@@ -237,51 +283,7 @@
       "label": "官方更新"
     },
     {
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T18:09:56+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
-      "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T16:39:09+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Industry comparisons in the Copilot impact dashboard",
-      "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T16:28:24+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "title": "OlmoEarth v1.3：整个地球最先进的嵌入",
       "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
@@ -555,7 +557,7 @@
       "label": "官方更新"
     },
     {
-      "title": "Meta API endpoints updated for Actions blob storage",
+      "title": "更新了 Actions blob 存储的元 API 端点",
       "url": "https://github.blog/changelog/2026-10-22-meta-api-endpoints-updated-for-actions-blob-storage",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
@@ -568,7 +570,7 @@
       "label": "官方更新"
     },
     {
-      "title": "Public monitoring now available with data residency",
+      "title": "现在可以通过数据驻留进行公共监控",
       "url": "https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
@@ -581,24 +583,26 @@
       "label": "官方更新"
     },
     {
-      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-      "url": "https://www.latent.space/p/modal-d",
-      "source": "Latent Space",
+      "title": "向 Agentic AI 基金会捐赠 Agent 技能",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T17:40:57+00:00",
+      "published_at": "2026-10-22T18:09:56+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "agent"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Pull requests: Saved whitespace preferences and improved split view",
-      "url": "https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view",
-      "source": "GitHub Changelog",
+      "title": "如何使用 NVIDIA GPUDirect Storage 在 Python 中将数据读入 GPU 内存",
+      "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T17:24:56+00:00",
+      "published_at": "2026-10-22T16:39:09+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -607,6 +611,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-22T22:46:08.185715+00:00",
+  "generated_at": "2026-10-23T01:30:07.941740+00:00",
   "period": "2026-10"
 }

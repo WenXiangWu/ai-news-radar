@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-10-22T22:46:08.185715+00:00",
+  "generated_at": "2026-10-23T01:30:07.941740+00:00",
   "window_hours": 24,
-  "total_items": 10,
+  "total_items": 12,
   "items": [
+    {
+      "title": "人工智能与“科学公共领域”的圈地运动",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "source": "arxiv.org",
+      "site_id": "buzzing",
+      "published_at": "2026-10-23T00:03:55.247000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "每一种人工智能模型对人类都持同样的“有争议”的看法",
       "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
@@ -10,79 +26,93 @@
       "site_id": "buzzing",
       "published_at": "2026-10-22T21:56:53.250000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 89
     },
     {
-      "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
+      "title": "人工智能计算是新的石油——需要新的市场",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-22T23:45:16+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
+    },
+    {
+      "title": "LLM正在使正式软件验证在更大范围内变得可行",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-22T22:54:43+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
+    },
+    {
+      "title": "法律专家表示，Meta 的人工智能仍然可以抓取新闻网站",
       "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-10-22T20:32:05+00:00",
       "source_count": 2,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
+      "hot_score": 40
     },
     {
-      "title": "Show HN: UI micro interactions prompts for AI",
+      "title": "Show HN：UI微交互提示AI",
       "url": "https://www.typeui.sh/micro-interactions",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-22T18:32:57+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 42
+      "hot_score": 34
     },
     {
-      "title": "AI and the Enclosure of the Scientific Commons",
-      "url": "https://arxiv.org/abs/2610.27251",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-22T18:28:16+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 42
-    },
-    {
-      "title": "Award-winning AI literature",
+      "title": "屡获殊荣的人工智能文献",
       "url": "https://jamesyu.org/award-winning-ai-literature",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-22T18:28:26+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 42
+      "hot_score": 33
     },
     {
-      "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+      "title": "Show HN：agent-usage-guard – 一个 Claude Code mod，用于保护您的使用窗口",
       "url": "https://github.com/rbartoli/agent-usage-guard",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-22T18:02:38+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "anthropic",
@@ -90,24 +120,24 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 40
+      "hot_score": 32
     },
     {
-      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "title": "CT扫描的AI分析发现42.9%的患者患有冠状动脉炎症",
       "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-22T18:02:54+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 40
+      "hot_score": 32
     },
     {
-      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "title": "OpenShell – 为自主 AI 代理团队提供安全、私密的运行时",
       "url": "https://github.com/NVIDIA/OpenShell",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
@@ -118,7 +148,7 @@
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 39
+      "hot_score": 31
     },
     {
       "title": "OpenAI 命令行界面",
@@ -134,7 +164,7 @@
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 19
+      "hot_score": 15
     },
     {
       "title": "Claude 现在可以使用 Google 文档、表格和幻灯片",
@@ -143,14 +173,14 @@
       "site_id": "zeli",
       "published_at": "2026-10-22T02:17:58+00:00",
       "source_count": 2,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 11
+      "hot_score": 9
     }
   ]
 }

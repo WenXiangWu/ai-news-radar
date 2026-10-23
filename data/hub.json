@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-22T22:46:08.185715+00:00",
+  "generated_at": "2026-10-23T01:30:07.941740+00:00",
   "today": "2026-10-23",
-  "lead": "Global default for Copilot features generally available；OpenAI 正式发布 Decisions API，面向低延迟低成本小决策；Donating Agent Skills to the Agentic AI Foundation",
+  "lead": "Visual Studio 中的 GitHub Copilot — 9 月更新；将数据库评分转化为强化学习奖励：使用 ThinkingBox 进行训练后智能体；使用指标 API 中的自定义技能、代理和 MCP 服务器",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "人工智能与“科学公共领域”的圈地运动",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "source": "arxiv.org",
+      "site_id": "buzzing",
+      "published_at": "2026-10-23T00:03:55.247000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
     {
       "title": "每一种人工智能模型对人类都持同样的“有争议”的看法",
       "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
@@ -11,70 +27,56 @@
       "site_id": "buzzing",
       "published_at": "2026-10-22T21:56:53.250000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 89
     },
     {
-      "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
+      "title": "人工智能计算是新的石油——需要新的市场",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-22T23:45:16+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
+    },
+    {
+      "title": "LLM正在使正式软件验证在更大范围内变得可行",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-22T22:54:43+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 48
+    },
+    {
+      "title": "法律专家表示，Meta 的人工智能仍然可以抓取新闻网站",
       "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-10-22T20:32:05+00:00",
       "source_count": 2,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
-    },
-    {
-      "title": "Show HN: UI micro interactions prompts for AI",
-      "url": "https://www.typeui.sh/micro-interactions",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-22T18:32:57+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 42
-    },
-    {
-      "title": "AI and the Enclosure of the Scientific Commons",
-      "url": "https://arxiv.org/abs/2610.27251",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-22T18:28:16+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 42
-    },
-    {
-      "title": "Award-winning AI literature",
-      "url": "https://jamesyu.org/award-winning-ai-literature",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-22T18:28:26+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 42
+      "hot_score": 40
     }
   ],
   "topics": [
@@ -83,7 +85,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 29
+      "count": 31
     },
     {
       "slug": "anthropic",
@@ -97,14 +99,14 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "qwen",
@@ -118,42 +120,42 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 30
+      "count": 28
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 9
+      "count": 12
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 20
+      "count": 19
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "industry",

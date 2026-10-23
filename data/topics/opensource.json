@@ -1,26 +1,58 @@
 {
-  "generated_at": "2026-10-22T22:46:08.185715+00:00",
+  "generated_at": "2026-10-23T01:30:07.941740+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 9,
+  "total_items": 12,
   "items": [
     {
-      "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
-      "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-22T19:16:58+00:00",
+      "title": "MiniMax开源M3.1 Flash：总参数428B、激活参数23B，72小时处理Token超100万亿",
+      "url": "https://www.aibase.com/news/31816",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-23T01:28:59.592774+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 77,
       "official": false,
       "topics": [
         "opensource",
-        "launch"
+        "industry"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "行业动态"
+    },
+    {
+      "title": "MiniMax 开源 M3.1 Flash，总参数 428B，上线 72 小时处理 Token 超 100 万亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208",
+      "source": "公众号：MiniMax（稀宇科技）",
+      "site_id": "aihot",
+      "published_at": "2026-10-23T00:56:00+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "将数据库评分转化为强化学习奖励：使用 ThinkingBox 进行训练后智能体",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T22:24:34+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
     },
     {
       "title": "Claude flags nearly 500 worrying open source security issues — C, Java, and Python code all at risk as one flaw wasn't spotted for 21 years",
@@ -29,7 +61,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-22T18:35:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -39,13 +71,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
+      "title": "Gradium 开源 Phonon，Apache 2.0 下的 31M 参数设备上 TTS 模型",
       "url": "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts",
       "source": "MarkTechPost Research",
       "site_id": "curated_media",
       "published_at": "2026-10-22T16:56:12+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": false,
       "topics": [
         "opensource"
@@ -54,7 +86,7 @@
       "label": "值得关注"
     },
     {
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "title": "OlmoEarth v1.3：整个地球最先进的嵌入",
       "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
@@ -75,7 +107,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-22T16:11:00.497000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic",
@@ -96,6 +128,22 @@
       "topics": [
         "deepseek",
         "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
+      "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-22T11:16:58+00:00",
+      "source_count": 1,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -123,7 +171,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-22T07:51:31+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -138,7 +186,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-22T07:12:24.168000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent",
