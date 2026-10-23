@@ -5,11 +5,11 @@
   "schedule": "after-fetch",
   "combined_lanes": [],
   "groups": [],
-  "run_id": "39954836082",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/39954836082",
+  "run_id": "40002244795",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40002244795",
   "conclusion": "success",
-  "started_at": "2026-10-23T13:29:14.509547+00:00",
-  "finished_at": "2026-10-23T13:29:14.509547+00:00",
+  "started_at": "2026-10-23T18:21:10.623472+00:00",
+  "finished_at": "2026-10-23T18:21:10.623472+00:00",
   "push": {
     "attempted": true,
     "ok": true,
@@ -24,7 +24,21 @@
       "source.knowledge.llamaindex.docs",
       "source.knowledge.mcp.docs",
       "source.knowledge.openai.cookbook",
-      "source.knowledge.openai.docs"
+      "source.knowledge.openai.docs",
+      "official_ai",
+      "curated_media",
+      "aibreakfast",
+      "followbuilders",
+      "techurls",
+      "buzzing",
+      "iris",
+      "bestblogs",
+      "zeli",
+      "hackernews",
+      "aihubtoday",
+      "aibase",
+      "aihot",
+      "newsnow"
     ],
     "by_owner": {
       "update-radar": [
@@ -39,6 +53,22 @@
         "source.knowledge.mcp.docs",
         "source.knowledge.openai.cookbook",
         "source.knowledge.openai.docs"
+      ],
+      "update-news": [
+        "official_ai",
+        "curated_media",
+        "aibreakfast",
+        "followbuilders",
+        "techurls",
+        "buzzing",
+        "iris",
+        "bestblogs",
+        "zeli",
+        "hackernews",
+        "aihubtoday",
+        "aibase",
+        "aihot",
+        "newsnow"
       ]
     }
   },
@@ -95,6 +125,76 @@
     },
     {
       "source_id": "source.knowledge.openai.docs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "official_ai",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "curated_media",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "aibreakfast",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "followbuilders",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "techurls",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "buzzing",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "iris",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "bestblogs",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "zeli",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "hackernews",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "aihubtoday",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "aibase",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "aihot",
+      "status": "success",
+      "run_kind": "incremental"
+    },
+    {
+      "source_id": "newsnow",
       "status": "success",
       "run_kind": "incremental"
     }
