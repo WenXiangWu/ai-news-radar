@@ -7,11 +7,11 @@
   "groups": [
     "docs-03"
   ],
-  "run_id": "40032078205",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40032078205",
+  "run_id": "40068149274",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40068149274",
   "conclusion": "failure",
-  "started_at": "2026-10-23T22:40:50.811393+00:00",
-  "finished_at": "2026-10-23T22:40:50.811393+00:00",
+  "started_at": "2026-10-24T06:24:05.180786+00:00",
+  "finished_at": "2026-10-24T06:24:05.180786+00:00",
   "push": {
     "attempted": false
   },
@@ -24,9 +24,9 @@
     },
     {
       "source_id": "docs.guidance",
-      "status": "partial",
+      "status": "success",
       "run_kind": "incremental",
-      "error": "docs/api.rst: translation unavailable or failed quality gate"
+      "error": null
     },
     {
       "source_id": "docs.humanlayer",
