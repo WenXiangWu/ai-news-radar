@@ -7,26 +7,26 @@
   "groups": [
     "docs-05"
   ],
-  "run_id": "40112285078",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40112285078",
+  "run_id": "40135038513",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40135038513",
   "conclusion": "failure",
-  "started_at": "2026-10-24T17:19:04.180940+00:00",
-  "finished_at": "2026-10-24T17:19:04.180940+00:00",
+  "started_at": "2026-10-24T22:15:05.990641+00:00",
+  "finished_at": "2026-10-24T22:15:05.990641+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.milvus",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://github.com/zilliztech/attu: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.neo4j-graphrag",
       "status": "partial",
       "run_kind": "incremental",
-      "error": "docs/source/api.rst: translation unavailable or failed quality gate"
+      "error": "docs/source/index.rst: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.ollama",
