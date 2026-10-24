@@ -1,24 +1,38 @@
 {
-  "generated_at": "2026-10-24T18:08:28.890375+00:00",
+  "generated_at": "2026-10-24T20:47:16.570012+00:00",
   "today": "2026-10-25",
-  "lead": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed；使用 Teams 中的 GitHub Copilot 将通知转换为代码；langgraph==1.2.17",
+  "lead": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed；langgraph==1.2.17；使用指标 API 添加了 OpenCode 等工具的使用情况",
   "brief_count": 20,
   "hot_preview": [
     {
-      "title": "保障我们的前沿模型训练环境安全",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-24T06:38:45.839000+00:00",
-      "source_count": 4,
-      "score": 57,
-      "official": true,
+      "title": "科技行业之外没有人工智能带来回报的迹象",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-24T19:47:19+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 55
+    },
+    {
+      "title": "为什么人工智能生成的语言如此难以理解？",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-24T18:04:57+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
       "topics": [
-        "openai"
+        "paper"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 69
+      "label": "值得关注",
+      "hot_score": 48
     },
     {
       "title": "黑客对三星电视进行逆向工程，发现内置AI正在监听，OpenAI账号被暂停",
@@ -27,58 +41,46 @@
       "site_id": "buzzing",
       "published_at": "2026-10-24T09:16:58.436000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 57
+      "hot_score": 46
+    },
+    {
+      "title": "Oai-math-revised：用于修改 OpenAI 数学文章的社区中心",
+      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-24T15:35:17+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 39
     },
     {
       "title": "Z-Library 上的人工智能辅助论文引用了一篇不存在的 TorrentFreak 文章",
       "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
       "published_at": "2026-10-24T11:18:54+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 34
-    },
-    {
-      "title": "显示 HN：通过 CVE-2022-22706 实现 Tcl Android TV 的自主 root",
-      "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-24T10:51:35+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 33
-    },
-    {
-      "title": "Kimi K3.1 在“人工分析”中得分为 55，位于帕累托线上",
-      "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
-      "source": "artificialanalysis.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-23T20:38:45.451000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 10
+      "hot_score": 27
     }
   ],
   "topics": [
@@ -94,7 +96,7 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 16
+      "count": 15
     },
     {
       "slug": "google",
@@ -108,7 +110,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "qwen",
@@ -143,7 +145,7 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "launch",
@@ -157,14 +159,14 @@
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 6
+      "count": 4
     }
   ],
   "days": [
