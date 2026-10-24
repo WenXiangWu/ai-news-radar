@@ -300,64 +300,6 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph==1.2.17",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-24T01:08:05+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用指标 API 添加了 OpenCode 等工具的使用情况",
-      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T23:42:03+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 Teams 中的 GitHub Copilot 将通知转换为代码",
-      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T21:29:58+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T17:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "LitPivot：通过文学景观中的动态情境化发展研究思路",
       "url": "https://huggingface.co/blog/allenai/litpivot",
       "source": "Hugging Face Blog",
@@ -563,11 +505,26 @@
       "label": "官方更新"
     },
     {
-      "title": "EMU deletions fix",
-      "url": "https://github.blog/changelog/2026-10-23-emu-deletions-fix",
+      "title": "langgraph==1.2.17",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-24T01:08:05+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用指标 API 添加了 OpenCode 等工具的使用情况",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T18:56:18+00:00",
+      "published_at": "2026-10-23T23:42:03+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -576,19 +533,67 @@
       "label": "官方更新"
     },
     {
-      "title": "使用人工智能代理教小鸭等机器人模拟行走",
-      "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation",
-      "source": "NVIDIA Developer Blog",
+      "title": "使用 Teams 中的 GitHub Copilot 将通知转换为代码",
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T14:58:32+00:00",
+      "published_at": "2026-10-23T21:29:58+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T17:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 功能的全局默认设置已全面可用",
+      "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T20:44:28+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策",
+      "url": "https://openai.com/index/decisions-api",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T19:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-24T11:07:04.442296+00:00",
+  "generated_at": "2026-10-24T14:31:43.419817+00:00",
   "period": "2026-W43"
 }

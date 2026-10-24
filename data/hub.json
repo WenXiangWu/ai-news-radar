@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T11:07:04.442296+00:00",
+  "generated_at": "2026-10-24T14:31:43.419817+00:00",
   "today": "2026-10-24",
-  "lead": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed；langgraph==1.2.17；使用指标 API 添加了 OpenCode 等工具的使用情况",
+  "lead": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed；LitPivot：通过文学景观中的动态情境化发展研究思路；langgraph==1.2.17",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -18,7 +18,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 93
     },
     {
       "title": "黑客对三星电视进行逆向工程，发现内置AI正在监听，OpenAI账号被暂停",
@@ -27,31 +27,44 @@
       "site_id": "buzzing",
       "published_at": "2026-10-24T09:16:58.436000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 78
     },
     {
-      "title": "瑞典政府机构将禁止使用ChatGPT和Claude",
-      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-      "source": "www.sverigesradio.se",
-      "site_id": "buzzing",
-      "published_at": "2026-10-23T16:26:53.619000+00:00",
-      "source_count": 3,
-      "score": 53,
+      "title": "Z-Library 上的人工智能辅助论文引用了一篇不存在的 TorrentFreak 文章",
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-24T11:18:54+00:00",
+      "source_count": 2,
+      "score": 54,
       "official": false,
       "topics": [
-        "openai",
-        "anthropic"
+        "paper"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 25
+      "label": "值得关注",
+      "hot_score": 46
+    },
+    {
+      "title": "显示 HN：通过 CVE-2022-22706 实现 Tcl Android TV 的自主 root",
+      "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-24T10:51:35+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 44
     },
     {
       "title": "Kimi K3.1 在“人工分析”中得分为 55，位于帕累托线上",
@@ -60,26 +73,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-23T20:38:45.451000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 18
-    },
-    {
-      "title": "Kimi K3.1 Pro",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-23T17:10:27+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 13
+      "hot_score": 14
     }
   ],
   "topics": [
@@ -88,14 +87,14 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 20
+      "count": 23
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 21
+      "count": 22
     },
     {
       "slug": "google",
@@ -109,7 +108,7 @@
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "qwen",
@@ -123,14 +122,14 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 12
+      "count": 18
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 7
     },
     {
       "slug": "mcp",
@@ -151,21 +150,21 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 13
+      "count": 9
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 8
+      "count": 7
     }
   ],
   "days": [
