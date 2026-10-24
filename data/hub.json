@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T00:41:03.631839+00:00",
+  "generated_at": "2026-10-24T05:50:57.889195+00:00",
   "today": "2026-10-24",
-  "lead": "LitPivot：通过文学景观中的动态情境化发展研究思路；OpenAI 详解前沿模型训练环境的安全加固与红队测试；使用指标 API 添加了 OpenCode 等工具的使用情况",
+  "lead": "OpenAI 详解前沿模型训练环境的安全加固与红队测试；langgraph==1.2.17；使用指标 API 添加了 OpenCode 等工具的使用情况",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,7 +11,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-23T16:26:53.619000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "openai",
@@ -19,7 +19,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 60
+      "hot_score": 39
     },
     {
       "title": "Kimi K3.1 在“人工分析”中得分为 55，位于帕累托线上",
@@ -28,12 +28,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-23T20:38:45.451000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 43
+      "hot_score": 28
     },
     {
       "title": "OpenAI 详解前沿模型训练环境的安全加固与红队测试",
@@ -42,14 +42,14 @@
       "site_id": "official_ai",
       "published_at": "2026-10-23T19:50:56+00:00",
       "source_count": 2,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 40
+      "hot_score": 26
     },
     {
       "title": "Kimi K3.1 Pro",
@@ -58,12 +58,12 @@
       "site_id": "zeli",
       "published_at": "2026-10-23T17:10:27+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 32
+      "hot_score": 21
     },
     {
       "title": "在得克萨斯州，同一项AI请求产生的二氧化碳排放量是瑞典的8.5倍",
@@ -72,14 +72,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-23T08:37:42.211000+00:00",
       "source_count": 3,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "launch"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 31
+      "hot_score": 20
     }
   ],
   "topics": [
@@ -95,21 +95,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 20
+      "count": 21
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 10
+      "count": 9
     },
     {
       "slug": "qwen",
@@ -123,7 +123,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 14
+      "count": 12
     },
     {
       "slug": "coding",
@@ -144,14 +144,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 9
+      "count": 6
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 13
+      "count": 15
     },
     {
       "slug": "paper",
@@ -165,7 +165,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 40
+      "count": 21
     }
   ],
   "days": [

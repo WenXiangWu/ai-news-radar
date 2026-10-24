@@ -27,21 +27,6 @@
       "label": "官方更新"
     },
     {
-      "title": "LitPivot：通过文学景观中的动态情境化发展研究思路",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T16:15:50+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "使用 IBM Granite 时间序列模型进行集合预测",
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "source": "Hugging Face Blog",
@@ -92,64 +77,6 @@
       "published_at": "2026-10-21T12:00:00+00:00",
       "source_count": 1,
       "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用指标 API 添加了 OpenCode 等工具的使用情况",
-      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T23:42:03+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 Teams 中的 GitHub Copilot 将通知转换为代码",
-      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T21:29:58+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 详解前沿模型训练环境的安全加固与红队测试",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T19:50:56+00:00",
-      "source_count": 2,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T17:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
       "official": true,
       "topics": [
         "openai"
@@ -288,11 +215,26 @@
       "label": "官方更新"
     },
     {
-      "title": "EMU deletions fix",
-      "url": "https://github.blog/changelog/2026-10-23-emu-deletions-fix",
+      "title": "langgraph==1.2.17",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-24T01:08:05+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用指标 API 添加了 OpenCode 等工具的使用情况",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T18:56:18+00:00",
+      "published_at": "2026-10-23T23:42:03+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
@@ -301,15 +243,62 @@
       "label": "官方更新"
     },
     {
-      "title": "使用人工智能代理教小鸭等机器人模拟行走",
-      "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation",
-      "source": "NVIDIA Developer Blog",
+      "title": "使用 Teams 中的 GitHub Copilot 将通知转换为代码",
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T14:58:32+00:00",
+      "published_at": "2026-10-23T21:29:58+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 详解前沿模型训练环境的安全加固与红队测试",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T19:50:56+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T17:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "LitPivot：通过文学景观中的动态情境化发展研究思路",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T16:15:50+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -370,24 +359,11 @@
       "label": "官方更新"
     },
     {
-      "title": "人工智能正在变得擅长数学。这就是为什么。",
-      "url": "https://latent.space/p/ai-is-getting-good-at-math",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T15:19:48+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub 应用程序的企业安装现已普遍可用",
-      "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available",
+      "title": "EMU deletions fix",
+      "url": "https://github.blog/changelog/2026-10-23-emu-deletions-fix",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T15:03:30+00:00",
+      "published_at": "2026-10-23T18:56:18+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -396,32 +372,15 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph-cli==0.4.38",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.38",
-      "source": "LangGraph Releases",
+      "title": "使用人工智能代理教小鸭等机器人模拟行走",
+      "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T14:22:29+00:00",
+      "published_at": "2026-10-23T14:58:32+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.9",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T14:19:24+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -586,8 +545,49 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-18T23:16:16+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "公共监控增加了分类、有效性、API 和 webhooks",
+      "url": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T17:17:58+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-24T00:41:03.631839+00:00",
+  "generated_at": "2026-10-24T05:50:57.889195+00:00",
   "period": "2026-W43"
 }

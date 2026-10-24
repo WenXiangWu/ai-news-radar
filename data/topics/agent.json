@@ -1,11 +1,44 @@
 {
-  "generated_at": "2026-10-24T00:41:03.631839+00:00",
+  "generated_at": "2026-10-24T05:50:57.889195+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 14,
+  "total_items": 12,
   "items": [
+    {
+      "title": "Claude Code 接入 DeepSeek V4.1 与 MiniMax M3.1 实测：200+ TPS 下的代码准确率与 Token 账单",
+      "url": "https://juejin.cn/post/7698960692758446130",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-24T05:30:18.500000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "deepseek",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "为什么你的 Claude Code 还在转圈等，别人的已经干完三件事了？",
+      "url": "https://juejin.cn/post/7698999578180747291",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-24T05:30:18.500000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "v2.1.310",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
@@ -13,7 +46,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-23T23:39:00+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -30,22 +63,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-23T18:01:56.148000+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-23T17:53:09+00:00",
-      "source_count": 1,
-      "score": 58,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -60,7 +78,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T16:26:29+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -69,42 +87,11 @@
       "label": "值得关注"
     },
     {
-      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61",
+      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
+      "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-10-23T15:11:00+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
-      "url": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-23T13:00:00+00:00",
-      "source_count": 1,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Foresight AI 正式可用，Gremlin 将智能体引入可靠性工程",
-      "url": "https://www.infoq.cn/article/2bKQkdiAcGEycHJLYPv5",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-23T11:15:00+00:00",
+      "published_at": "2026-10-23T09:53:09+00:00",
       "source_count": 1,
       "score": 55,
       "official": false,
@@ -121,7 +108,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T08:52:27+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -136,7 +123,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-23T07:29:53.872000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "agent"
@@ -151,15 +138,14 @@
       "site_id": "aibase",
       "published_at": "2026-10-23T07:29:15.090233+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "谷歌推出 ACE：给每个 AI 智能体配一台\"专属电脑\"，唤醒不到 500 毫秒",
@@ -168,14 +154,29 @@
       "site_id": "aibase",
       "published_at": "2026-10-23T07:29:15.090233+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
+      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-23T07:11:00+00:00",
+      "source_count": 1,
+      "score": 54,
       "official": false,
       "topics": [
         "agent",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Google Cloud 推出代理计算引擎：每个 AI 代理一个 MicroVM",
@@ -184,41 +185,9 @@
       "site_id": "curated_media",
       "published_at": "2026-10-23T06:05:10+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex &amp; work. But yes… that’s a reset!",
-      "url": "https://x.com/thsottiaux/status/2113492187770175603",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-23T04:46:19+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "外部评估戳穿 OpenAI 监控漏洞：智能体数百次操作逃过审查",
-      "url": "https://www.aibase.com/news/31817",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-23T01:28:59.592774+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
         "agent"
       ],
       "reason": "",

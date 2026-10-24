@@ -1,11 +1,77 @@
 {
-  "generated_at": "2026-10-24T00:41:03.631839+00:00",
+  "generated_at": "2026-10-24T05:50:57.889195+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 20,
+  "total_items": 21,
   "items": [
+    {
+      "title": "Claude Code 接入 DeepSeek V4.1 与 MiniMax M3.1 实测：200+ TPS 下的代码准确率与 Token 账单",
+      "url": "https://juejin.cn/post/7698960692758446130",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-24T05:30:18.500000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "deepseek",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "为什么你的 Claude Code 还在转圈等，别人的已经干完三件事了？",
+      "url": "https://juejin.cn/post/7698999578180747291",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-24T05:30:18.500000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 在模型训练期间禁用互联网访问",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-24T02:40:53+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "The UK plans to invest £100M to create the AI Biosecurity Lab to boost defenses against biological threats, supported by OpenAI, Anthropic, and Google DeepMind (Liv McMahon/BBC)",
+      "url": "https://www.techmeme.com/261023/p26",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-24T01:20:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "openai",
+        "anthropic",
+        "google"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "v2.1.310",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
@@ -13,7 +79,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-23T23:39:00+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -30,7 +96,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-23T19:00:07+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
@@ -45,7 +111,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-23T18:19:01.792674+00:00",
       "source_count": 1,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic"
@@ -60,7 +126,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-23T18:01:56.148000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -75,7 +141,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-23T17:19:49+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic",
@@ -91,7 +157,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T17:10:02+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -106,7 +172,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-23T16:26:53.619000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "openai",
@@ -122,7 +188,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T16:21:08+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -137,7 +203,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T16:02:43+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -152,7 +218,7 @@
       "site_id": "iris",
       "published_at": "2026-10-23T14:44:50+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -167,7 +233,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T13:21:17+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -182,7 +248,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-23T13:02:20.633000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -197,7 +263,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-23T11:32:19+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -212,7 +278,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T10:40:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic"
@@ -227,7 +293,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T09:15:03+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -243,15 +309,14 @@
       "site_id": "aibase",
       "published_at": "2026-10-23T07:29:15.090233+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "anthropic",
-        "agent",
-        "industry"
+        "agent"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Claude 狂写 1.8 亿行数学证明：万亿次测试都没抓到的漏洞，被 AI 一锅端",
@@ -259,52 +324,6 @@
       "source": "AIbase",
       "site_id": "aibase",
       "published_at": "2026-10-23T07:29:15.090233+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "大型语言模型（LLMs）使得在更大规模上进行形式化软件验证成为可能",
-      "url": "https://www.anthropic.com/research/formal-verification",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-23T01:37:52.370000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌云开放 Claude 托管部署：企业可在自家基础设施上首发日即用最新模型",
-      "url": "https://www.aibase.com/news/31811",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-23T01:28:59.592774+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "音乐出版商 Reservoir 起诉 Suno 与 Anthropic，指控未经授权用版权歌曲训练 AI",
-      "url": "https://www.aibase.com/news/31815",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-23T01:28:59.592774+00:00",
       "source_count": 1,
       "score": 72,
       "official": false,
