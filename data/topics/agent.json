@@ -1,11 +1,28 @@
 {
-  "generated_at": "2026-10-23T22:09:33.158783+00:00",
+  "generated_at": "2026-10-24T00:41:03.631839+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 17,
+  "total_items": 14,
   "items": [
+    {
+      "title": "v2.1.310",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-23T23:39:00+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "AI Agent 评测：到底要测什么、新手怎么测？（附完整流程）",
       "url": "https://juejin.cn/post/7698614955541020723",
@@ -13,7 +30,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-23T18:01:56.148000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -28,7 +45,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-23T17:53:09+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "agent"
@@ -43,7 +60,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T16:26:29+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -58,7 +75,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-23T15:11:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -89,7 +106,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-23T11:15:00+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -104,7 +121,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-23T08:52:27+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -119,7 +136,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-23T07:29:53.872000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
@@ -202,74 +219,7 @@
       "official": false,
       "topics": [
         "openai",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Codex CLI 0.164.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 介绍 Claude Duet 智能体的安全、隐私与凭证隔离设计",
-      "url": "https://claude.com/blog/claude-duet-safety-privacy-and-security",
-      "source": "Claude：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-10-23T00:00:00+00:00",
-      "source_count": 1,
-      "score": 68,
-      "official": false,
-      "topics": [
-        "anthropic",
         "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "将数据库评分转化为强化学习奖励：使用 ThinkingBox 进行训练后智能体",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T22:24:34+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v2.1.309",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-22T22:18:57+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
       ],
       "reason": "",
       "label": "值得关注"
