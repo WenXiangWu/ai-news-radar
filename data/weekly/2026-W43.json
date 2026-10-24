@@ -1,13 +1,13 @@
 {
   "title": "2026-W43 周报",
   "dates": [
+    "2026-10-25",
     "2026-10-24",
     "2026-10-23",
     "2026-10-22",
     "2026-10-21",
     "2026-10-20",
-    "2026-10-19",
-    "2026-10-18"
+    "2026-10-19"
   ],
   "total_items": 40,
   "items": [
@@ -213,37 +213,6 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.32.1rc0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-18T09:26:56+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-      "url": "https://latent.space/p/ainews-kimi-31",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-24T07:18:29+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "您的模型在 AWS Trainium 上运行吗？查找一下",
       "url": "https://huggingface.co/blog/torch-neuronx-model-support",
       "source": "Hugging Face Blog",
@@ -296,6 +265,22 @@
       "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-24T07:18:29+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -505,34 +490,6 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph==1.2.17",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-24T01:08:05+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用指标 API 添加了 OpenCode 等工具的使用情况",
-      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T23:42:03+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "使用 Teams 中的 GitHub Copilot 将通知转换为代码",
       "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
       "source": "GitHub Changelog",
@@ -592,8 +549,52 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "向 Agentic AI 基金会捐赠 Agent 技能",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T18:09:56+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "如何使用 NVIDIA GPUDirect Storage 在 Python 中将数据读入 GPU 内存",
+      "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T16:39:09+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 影响仪表板中的行业比较",
+      "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-22T16:28:24+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-24T14:31:43.419817+00:00",
+  "generated_at": "2026-10-24T18:08:28.890375+00:00",
   "period": "2026-W43"
 }

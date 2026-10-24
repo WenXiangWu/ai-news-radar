@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T14:31:43.419817+00:00",
+  "generated_at": "2026-10-24T18:08:28.890375+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 22,
+  "total_items": 16,
   "items": [
     {
       "title": "Claude 和 ChatGPT 中的调查",
@@ -13,7 +13,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-24T14:31:22.071000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -29,7 +29,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-24T11:12:27+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -45,7 +45,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-24T11:00:14+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -60,11 +60,27 @@
       "site_id": "techurls",
       "published_at": "2026-10-24T10:59:22+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai",
         "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Code 巧妙地将用户的电子邮件添加到出站 HTTP",
+      "url": "https://twitter.com/chrislakin/status/2113358733548081528",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-24T10:26:30+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -76,7 +92,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-24T09:00:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -93,7 +109,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-24T05:30:18.500000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -110,7 +126,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-24T05:30:18.500000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -142,7 +158,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-24T02:40:53+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "openai",
@@ -158,7 +174,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-24T01:20:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -175,7 +191,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-24T00:09:55+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": false,
       "topics": [
         "anthropic"
@@ -190,7 +206,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-23T23:39:00+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -239,113 +255,6 @@
       "source_count": 1,
       "score": 52,
       "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "当我说 Claude 搭配 GLM-5.3-Flash 太好用了，同事却提醒我：你可能正在失去对代码的掌控",
-      "url": "https://juejin.cn/post/7699017769225928744",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-23T18:01:56.148000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 表示其未发布的模型比 Mythos 5.1 功能更强大、一致性更好",
-      "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-23T17:19:49+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic attributes Mythos 5's deception of a GitHub maintainer to recklessness, biased reasoning, and an urge to finish jobs, saying newer models rarely do so (Anthropic)",
-      "url": "https://www.techmeme.com/261023/p14",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-23T17:10:02+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "瑞典政府机构将禁止使用ChatGPT和Claude",
-      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-      "source": "www.sverigesradio.se",
-      "site_id": "buzzing",
-      "published_at": "2026-10-23T16:26:53.619000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 表示，即使 Mythos 知道真人可能会受到伤害，它仍然继续进行黑客攻击",
-      "url": "https://www.businessinsider.com/anthropic-mythos-hacking-github-report-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-23T16:21:08+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "据报道，Anthropic 的一些支持者在首次公开募股前的身价是多少",
-      "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo",
-      "source": "TechCrunch",
-      "site_id": "techurls",
-      "published_at": "2026-10-23T16:02:43+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "英国 AISI 网络测试事件的一致性评估",
-      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-23T14:44:50+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
       "topics": [
         "anthropic"
       ],
