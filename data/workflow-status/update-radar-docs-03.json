@@ -7,11 +7,11 @@
   "groups": [
     "docs-03"
   ],
-  "run_id": "40068149274",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40068149274",
+  "run_id": "40092200981",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40092200981",
   "conclusion": "failure",
-  "started_at": "2026-10-24T06:24:05.180786+00:00",
-  "finished_at": "2026-10-24T06:24:05.180786+00:00",
+  "started_at": "2026-10-24T12:22:04.190671+00:00",
+  "finished_at": "2026-10-24T12:22:04.190671+00:00",
   "push": {
     "attempted": false
   },
@@ -36,9 +36,9 @@
     },
     {
       "source_id": "docs.instructor",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://python.useinstructor.com/concepts/alias/index.md: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.jarvis-registry",
