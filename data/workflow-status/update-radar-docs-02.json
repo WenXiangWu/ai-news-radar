@@ -7,11 +7,11 @@
   "groups": [
     "docs-02"
   ],
-  "run_id": "40168080434",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40168080434",
+  "run_id": "40193738674",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40193738674",
   "conclusion": "failure",
-  "started_at": "2026-10-25T06:44:41.379055+00:00",
-  "finished_at": "2026-10-25T06:44:41.379055+00:00",
+  "started_at": "2026-10-25T13:14:06.019575+00:00",
+  "finished_at": "2026-10-25T13:14:06.019575+00:00",
   "push": {
     "attempted": false
   },
@@ -36,9 +36,9 @@
     },
     {
       "source_id": "docs.dspy",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/stanfordnlp/dspy/git/trees/main"
+      "error": "docs/docs/api/adapters/Adapter.md: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.faiss",
