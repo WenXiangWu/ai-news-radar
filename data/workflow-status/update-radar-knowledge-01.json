@@ -7,11 +7,11 @@
   "groups": [
     "knowledge-01"
   ],
-  "run_id": "40193738674",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40193738674",
+  "run_id": "40214646070",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40214646070",
   "conclusion": "failure",
-  "started_at": "2026-10-25T13:13:10.872688+00:00",
-  "finished_at": "2026-10-25T13:13:10.872688+00:00",
+  "started_at": "2026-10-25T17:40:02.199662+00:00",
+  "finished_at": "2026-10-25T17:40:02.199662+00:00",
   "push": {
     "attempted": false
   },
@@ -32,7 +32,7 @@
       "source_id": "source.deepmind.blog",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "rss returned an invalid RSS document"
     },
     {
       "source_id": "source.eugene-yan.blog",
