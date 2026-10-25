@@ -7,20 +7,20 @@
   "groups": [
     "knowledge-02"
   ],
-  "run_id": "40214646070",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40214646070",
+  "run_id": "40237191658",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40237191658",
   "conclusion": "failure",
-  "started_at": "2026-10-25T17:45:04.282756+00:00",
-  "finished_at": "2026-10-25T17:45:04.282756+00:00",
+  "started_at": "2026-10-25T22:27:12.558883+00:00",
+  "finished_at": "2026-10-25T22:27:12.558883+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "source.knowledge.anthropic.cookbook",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://platform.claude.com/cookbook/capabilities-classification-guide: translation unavailable or failed quality gate"
     },
     {
       "source_id": "source.knowledge.anthropic.docs",
