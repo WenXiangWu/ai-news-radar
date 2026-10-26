@@ -7,11 +7,11 @@
   "groups": [
     "docs-01"
   ],
-  "run_id": "40278826466",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40278826466",
+  "run_id": "40338186836",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40338186836",
   "conclusion": "failure",
-  "started_at": "2026-10-26T06:57:25.435495+00:00",
-  "finished_at": "2026-10-26T06:57:25.435495+00:00",
+  "started_at": "2026-10-26T14:50:17.165027+00:00",
+  "finished_at": "2026-10-26T14:50:17.165027+00:00",
   "push": {
     "attempted": false
   },
@@ -32,7 +32,7 @@
       "source_id": "docs.autogen",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/ag2ai/ag2/git/trees/main"
     },
     {
       "source_id": "docs.chroma",
