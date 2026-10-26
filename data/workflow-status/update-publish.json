@@ -5,21 +5,16 @@
   "schedule": "after-fetch",
   "combined_lanes": [],
   "groups": [],
-  "run_id": "40326456214",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40326456214",
+  "run_id": "40338186836",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40338186836",
   "conclusion": "success",
-  "started_at": "2026-10-26T13:00:02.486442+00:00",
-  "finished_at": "2026-10-26T13:00:02.486442+00:00",
+  "started_at": "2026-10-26T15:13:46.410639+00:00",
+  "finished_at": "2026-10-26T15:13:46.410639+00:00",
   "push": {
     "attempted": true,
     "ok": true,
     "source_ids": [
       "docs.guidance",
-      "docs.langfuse",
-      "docs.letta",
-      "docs.llamaindex",
-      "docs.mem0",
-      "docs.microsoft-agent-framework",
       "source.knowledge.langchain.blog",
       "source.knowledge.llamaindex.docs",
       "source.knowledge.mcp.docs",
@@ -43,11 +38,6 @@
     "by_owner": {
       "update-radar": [
         "docs.guidance",
-        "docs.langfuse",
-        "docs.letta",
-        "docs.llamaindex",
-        "docs.mem0",
-        "docs.microsoft-agent-framework",
         "source.knowledge.langchain.blog",
         "source.knowledge.llamaindex.docs",
         "source.knowledge.mcp.docs",
@@ -75,31 +65,6 @@
   "sources": [
     {
       "source_id": "docs.guidance",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.langfuse",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.letta",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.llamaindex",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.mem0",
-      "status": "success",
-      "run_kind": "incremental"
-    },
-    {
-      "source_id": "docs.microsoft-agent-framework",
       "status": "success",
       "run_kind": "incremental"
     },
