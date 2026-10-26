@@ -7,20 +7,20 @@
   "groups": [
     "docs-01"
   ],
-  "run_id": "40237191658",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40237191658",
+  "run_id": "40278826466",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40278826466",
   "conclusion": "failure",
-  "started_at": "2026-10-25T22:33:19.174341+00:00",
-  "finished_at": "2026-10-25T22:33:19.174341+00:00",
+  "started_at": "2026-10-26T06:57:25.435495+00:00",
+  "finished_at": "2026-10-26T06:57:25.435495+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.a2a",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "docs/README.md: translation unavailable or failed quality gate"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.anthropic-skills",
@@ -38,7 +38,7 @@
       "source_id": "docs.chroma",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/chroma-core/chroma/git/trees/main"
     },
     {
       "source_id": "docs.codex-sdk",
