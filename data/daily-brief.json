@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T00:20:50.728920Z",
+  "generated_at": "2026-10-26T06:10:25.479178Z",
   "window_hours": 24,
-  "total_items": 10,
+  "total_items": 20,
   "items": [
     {
       "story_id": "story_255f9ebe1b4c",
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8142,
-      "importance": 0.8142,
-      "importance_score": 0.8142,
+      "score": 0.8021,
+      "importance": 0.8021,
+      "importance_score": 0.8021,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8345,
+        "recency": 0.7671,
         "story_heat": 0.0
       },
       "category": "official",
@@ -83,7 +83,826 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_f2c9ffc07e2d",
+      "title": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频 / Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+      "url": "https://x.com/Kling_ai/status/2114574035468386746",
+      "primary_url": "https://x.com/Kling_ai/status/2114574035468386746",
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "360d453c51af0b38d7fbbb5102312331975585fb",
+          "title": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频 / Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+          "title_zh": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频",
+          "title_en": "Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+          "title_original": "Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+          "summary": "Runware 宣布 Kling 4.0 发布首日上线其 API，可生成最长 30 秒的 1080p 视频，并支持原生音频。功能包括多关键帧（首、中、尾帧）、单请求最多 15 个输入（关键帧、参考图、参考视频与元素）以及基于提示词的已有片段编辑。价格自 $0.133 每秒起，未来 7 天常规定价享 15% 折扣；已有用户可将模型 ID 切换为 klingai:kling-video@4.0。Runware API 已有 19 个 Kling 模型，覆盖视频、图像、虚拟人和对口型。Kling AI 官方转发并提醒查看评论区中的创作者指南。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/Kling_ai/status/2114574035468386746",
+          "source": "X：可灵 Kling AI (@Kling_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-26T04:25:11Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：可灵 Kling AI (@Kling_ai)"
+      ],
+      "items": [
+        {
+          "id": "360d453c51af0b38d7fbbb5102312331975585fb",
+          "title": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频 / Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+          "title_zh": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频",
+          "title_en": "Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+          "title_original": "Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+          "summary": "Runware 宣布 Kling 4.0 发布首日上线其 API，可生成最长 30 秒的 1080p 视频，并支持原生音频。功能包括多关键帧（首、中、尾帧）、单请求最多 15 个输入（关键帧、参考图、参考视频与元素）以及基于提示词的已有片段编辑。价格自 $0.133 每秒起，未来 7 天常规定价享 15% 折扣；已有用户可将模型 ID 切换为 klingai:kling-video@4.0。Runware API 已有 19 个 Kling 模型，覆盖视频、图像、虚拟人和对口型。Kling AI 官方转发并提醒查看评论区中的创作者指南。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/Kling_ai/status/2114574035468386746",
+          "source": "X：可灵 Kling AI (@Kling_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-26T04:25:11Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7965,
+      "importance": 0.7965,
+      "importance_score": 0.7965,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.975,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T04:25:11Z",
+      "latest_at": "2026-10-26T04:25:11Z",
+      "primary_item": {
+        "id": "360d453c51af0b38d7fbbb5102312331975585fb",
+        "title": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频 / Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+        "title_zh": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频",
+        "title_en": "Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+        "title_original": "Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
+        "summary": "Runware 宣布 Kling 4.0 发布首日上线其 API，可生成最长 30 秒的 1080p 视频，并支持原生音频。功能包括多关键帧（首、中、尾帧）、单请求最多 15 个输入（关键帧、参考图、参考视频与元素）以及基于提示词的已有片段编辑。价格自 $0.133 每秒起，未来 7 天常规定价享 15% 折扣；已有用户可将模型 ID 切换为 klingai:kling-video@4.0。Runware API 已有 19 个 Kling 模型，覆盖视频、图像、虚拟人和对口型。Kling AI 官方转发并提醒查看评论区中的创作者指南。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/Kling_ai/status/2114574035468386746",
+        "source": "X：可灵 Kling AI (@Kling_ai)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_5ac3f5a0a254",
+      "title": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+      "url": "https://www.aibase.com/news/31862",
+      "primary_url": "https://www.aibase.com/news/31862",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2f20c69c66f23433cee21cf0d8e0f0635a20fc93",
+          "title": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+          "title_zh": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+          "title_en": null,
+          "title_original": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31862",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2f20c69c66f23433cee21cf0d8e0f0635a20fc93",
+          "title": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+          "title_zh": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+          "title_en": null,
+          "title_original": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31862",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
+      "primary_item": {
+        "id": "2f20c69c66f23433cee21cf0d8e0f0635a20fc93",
+        "title": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+        "title_zh": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+        "title_en": null,
+        "title_original": "AI 几分钟复原打码二维码，实测揭穿\"假马赛克\"陷阱",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31862",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_672839c1cfa8",
+      "title": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-10-25-ai-deep-signals-weekly-2026-w43",
+      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-10-25-ai-deep-signals-weekly-2026-w43",
+      "source": "Daily Digest",
+      "source_name": "AI HubToday",
+      "sources": [
+        {
+          "id": "e8148be904c4ea21c742a8e792e71a9faa348f5b",
+          "title": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+          "title_zh": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+          "title_en": null,
+          "title_original": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-10-25-ai-deep-signals-weekly-2026-w43",
+          "source": "Daily Digest",
+          "source_name": "AI HubToday",
+          "site_id": "aihubtoday",
+          "published_at": "2026-10-26T03:08:44Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Daily Digest"
+      ],
+      "items": [
+        {
+          "id": "e8148be904c4ea21c742a8e792e71a9faa348f5b",
+          "title": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+          "title_zh": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+          "title_en": null,
+          "title_original": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-10-25-ai-deep-signals-weekly-2026-w43",
+          "source": "Daily Digest",
+          "source_name": "AI HubToday",
+          "site_id": "aihubtoday",
+          "published_at": "2026-10-26T03:08:44Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7599,
+      "importance": 0.7599,
+      "importance_score": 0.7599,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9572,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T03:08:44Z",
+      "latest_at": "2026-10-26T03:08:44Z",
+      "primary_item": {
+        "id": "e8148be904c4ea21c742a8e792e71a9faa348f5b",
+        "title": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+        "title_zh": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+        "title_en": null,
+        "title_original": "何夕2077 AI 深度信号周报 2026 W43：把关权易主与千亿算力",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-10-25-ai-deep-signals-weekly-2026-w43",
+        "source": "Daily Digest",
+        "source_name": "AI HubToday"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_3a229ccd4575",
+      "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+      "url": "https://x.com/Khazix0918/status/2114579883527655853",
+      "primary_url": "https://x.com/Khazix0918/status/2114579883527655853",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b2e89f2e6440eeac3921b1674c74805eb430d5fa",
+          "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+          "title_zh": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+          "title_en": null,
+          "title_original": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+          "summary": "数字生命卡兹克分享用 AI 逆向改造现实设备的实操教程，以公司 4 台会议室电视为例，通过 Codex 开启 ADB 调试连接电视，清理开机广告、重做简洁桌面和粒子动态屏保，并复刻到其余 3 台。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/Khazix0918/status/2114579883527655853",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-26T04:48:25Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：卡兹克 (@Khazix0918)"
+      ],
+      "items": [
+        {
+          "id": "b2e89f2e6440eeac3921b1674c74805eb430d5fa",
+          "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+          "title_zh": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+          "title_en": null,
+          "title_original": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+          "summary": "数字生命卡兹克分享用 AI 逆向改造现实设备的实操教程，以公司 4 台会议室电视为例，通过 Codex 开启 ADB 调试连接电视，清理开机广告、重做简洁桌面和粒子动态屏保，并复刻到其余 3 台。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/Khazix0918/status/2114579883527655853",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-26T04:48:25Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7491,
+      "importance": 0.7491,
+      "importance_score": 0.7491,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9805,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-26T04:48:25Z",
+      "latest_at": "2026-10-26T04:48:25Z",
+      "primary_item": {
+        "id": "b2e89f2e6440eeac3921b1674c74805eb430d5fa",
+        "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+        "title_zh": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+        "title_en": null,
+        "title_original": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+        "summary": "数字生命卡兹克分享用 AI 逆向改造现实设备的实操教程，以公司 4 台会议室电视为例，通过 Codex 开启 ADB 调试连接电视，清理开机广告、重做简洁桌面和粒子动态屏保，并复刻到其余 3 台。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/Khazix0918/status/2114579883527655853",
+        "source": "X：卡兹克 (@Khazix0918)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_46a20a5fbd4f",
+      "title": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+      "url": "https://www.aibase.com/news/31849",
+      "primary_url": "https://www.aibase.com/news/31849",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f72894d09da7eeb88b22aa37e89a7d00faa12606",
+          "title": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+          "title_zh": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+          "title_en": null,
+          "title_original": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31849",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f72894d09da7eeb88b22aa37e89a7d00faa12606",
+          "title": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+          "title_zh": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+          "title_en": null,
+          "title_original": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31849",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
+      "primary_item": {
+        "id": "f72894d09da7eeb88b22aa37e89a7d00faa12606",
+        "title": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+        "title_zh": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+        "title_en": null,
+        "title_original": "AI巨头遭猫王版权方索赔 4100 万美元：当传奇音乐遇上大模型侵权风暴",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31849",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_fd2a466d13d4",
+      "title": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+      "url": "https://www.aibase.com/news/31851",
+      "primary_url": "https://www.aibase.com/news/31851",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "32f30d09aa11cbbf8e1bf2e5d5fc1a88c21fa405",
+          "title": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+          "title_zh": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+          "title_en": null,
+          "title_original": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31851",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "32f30d09aa11cbbf8e1bf2e5d5fc1a88c21fa405",
+          "title": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+          "title_zh": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+          "title_en": null,
+          "title_original": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31851",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
+      "primary_item": {
+        "id": "32f30d09aa11cbbf8e1bf2e5d5fc1a88c21fa405",
+        "title": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+        "title_zh": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+        "title_en": null,
+        "title_original": "Anthropic Claude 被曝绕过付费墙，偷抓佐治亚州选民数据",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31851",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_64b29a97df59",
+      "title": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+      "url": "https://www.aibase.com/news/31856",
+      "primary_url": "https://www.aibase.com/news/31856",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "c78b9b4bda8e2b2f4263f9e07f7e6b4f8d80974b",
+          "title": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+          "title_zh": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+          "title_en": null,
+          "title_original": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31856",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "c78b9b4bda8e2b2f4263f9e07f7e6b4f8d80974b",
+          "title": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+          "title_zh": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+          "title_en": null,
+          "title_original": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31856",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
+      "primary_item": {
+        "id": "c78b9b4bda8e2b2f4263f9e07f7e6b4f8d80974b",
+        "title": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+        "title_zh": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+        "title_en": null,
+        "title_original": "Block 发布全新语音模型 Dessa:打破文字中转桎梏，实现逼真全双工交互",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31856",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_6ae24aff93c6",
+      "title": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+      "url": "https://www.aibase.com/news/31848",
+      "primary_url": "https://www.aibase.com/news/31848",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "599b6f7b2be700911d9ccaaa207dc7c878fbfc86",
+          "title": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+          "title_zh": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+          "title_en": null,
+          "title_original": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31848",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "599b6f7b2be700911d9ccaaa207dc7c878fbfc86",
+          "title": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+          "title_zh": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+          "title_en": null,
+          "title_original": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31848",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
+      "primary_item": {
+        "id": "599b6f7b2be700911d9ccaaa207dc7c878fbfc86",
+        "title": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+        "title_zh": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+        "title_en": null,
+        "title_original": "Claude 被曝绕过付费墙，违规抓取美佐治亚州选民计票数据",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31848",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_9da66e4409ea",
+      "title": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+      "url": "https://www.aibase.com/news/31858",
+      "primary_url": "https://www.aibase.com/news/31858",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "693676ae76042d3900af6d0e5b55b5c70fb24f67",
+          "title": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+          "title_zh": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+          "title_en": null,
+          "title_original": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31858",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "693676ae76042d3900af6d0e5b55b5c70fb24f67",
+          "title": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+          "title_zh": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+          "title_en": null,
+          "title_original": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31858",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
+      "primary_item": {
+        "id": "693676ae76042d3900af6d0e5b55b5c70fb24f67",
+        "title": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+        "title_zh": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+        "title_en": null,
+        "title_original": "Claude桌面端迎来重大改版：AI全程参与设计，从草图到上线仅用不到 3 周",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31858",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_e173b1256ed3",
+      "title": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+      "url": "https://www.aibase.com/news/31850",
+      "primary_url": "https://www.aibase.com/news/31850",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "98cccc230ab40714356cd52b0002ead431ba4a15",
+          "title": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+          "title_zh": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+          "title_en": null,
+          "title_original": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31850",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "98cccc230ab40714356cd52b0002ead431ba4a15",
+          "title": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+          "title_zh": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+          "title_en": null,
+          "title_original": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31850",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
+      "primary_item": {
+        "id": "98cccc230ab40714356cd52b0002ead431ba4a15",
+        "title": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+        "title_zh": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+        "title_en": null,
+        "title_original": "Epic 老大再喷 Steam AI 公示：逼开发者写\"政治声明\"招来网暴",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31850",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
       }
     },
     {
@@ -159,15 +978,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5892,
-      "importance": 0.5892,
-      "importance_score": 0.5892,
+      "score": 0.5768,
+      "importance": 0.5768,
+      "importance_score": 0.5768,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.8541,
+        "recency": 0.7852,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -192,7 +1011,228 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_043039082271",
+      "title": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+      "url": "https://minimaxir.com/2026/10/cheap-llms",
+      "primary_url": "https://minimaxir.com/2026/10/cheap-llms",
+      "source": "minimaxir.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "dd0eeb1c2fefa99991592346220aef88720bcddf",
+          "title": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+          "title_zh": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+          "title_en": null,
+          "title_original": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://minimaxir.com/2026/10/cheap-llms",
+          "source": "minimaxir.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-26T00:39:51.635000Z"
+        },
+        {
+          "id": "db69cb996f44cb4466c31ad4cab77de9adbee3b3",
+          "title": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "title_zh": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+          "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://minimaxir.com/2026/10/cheap-llms",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-25T21:11:31Z"
+        },
+        {
+          "id": "861647ac8be026777114967923dba58a3ea0666d",
+          "title": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "title_zh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
+          "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=50236102",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-25T21:11:31Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "minimaxir.com"
+      ],
+      "items": [
+        {
+          "id": "dd0eeb1c2fefa99991592346220aef88720bcddf",
+          "title": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+          "title_zh": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+          "title_en": null,
+          "title_original": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://minimaxir.com/2026/10/cheap-llms",
+          "source": "minimaxir.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-26T00:39:51.635000Z"
+        },
+        {
+          "id": "db69cb996f44cb4466c31ad4cab77de9adbee3b3",
+          "title": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "title_zh": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+          "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://minimaxir.com/2026/10/cheap-llms",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-25T21:11:31Z"
+        },
+        {
+          "id": "861647ac8be026777114967923dba58a3ea0666d",
+          "title": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "title_zh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
+          "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=50236102",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-25T21:11:31Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5695,
+      "importance": 0.5695,
+      "importance_score": 0.5695,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.4896,
+        "source_tier": 0.32,
+        "ai_relevance": 0.68,
+        "recency": 0.9235,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-25T21:11:31Z",
+      "latest_at": "2026-10-26T00:39:51.635000Z",
+      "primary_item": {
+        "id": "dd0eeb1c2fefa99991592346220aef88720bcddf",
+        "title": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+        "title_zh": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+        "title_en": null,
+        "title_original": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://minimaxir.com/2026/10/cheap-llms",
+        "source": "minimaxir.com",
+        "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
+      }
+    },
+    {
+      "story_id": "story_24262f039869",
+      "title": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+      "url": "https://www.aibase.com/news/31852",
+      "primary_url": "https://www.aibase.com/news/31852",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "1dea87577c5b5813fc2dae861596b0053830eae4",
+          "title": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+          "title_zh": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+          "title_en": null,
+          "title_original": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31852",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "1dea87577c5b5813fc2dae861596b0053830eae4",
+          "title": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+          "title_zh": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+          "title_en": null,
+          "title_original": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31852",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
+      "primary_item": {
+        "id": "1dea87577c5b5813fc2dae861596b0053830eae4",
+        "title": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+        "title_zh": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+        "title_en": null,
+        "title_original": "Grok首发 7 分钟AI版《奥德赛》史诗短片，叫板诺兰传统大制作",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31852",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-26T06:16:36.608161Z"
       }
     },
     {
@@ -298,15 +1338,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5591,
-      "importance": 0.5591,
-      "importance_score": 0.5591,
+      "score": 0.5455,
+      "importance": 0.5455,
+      "importance_score": 0.5455,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9351,
+        "recency": 0.8596,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -331,7 +1371,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
+        "scored_at": "2026-10-26T06:16:36.608161Z"
       }
     },
     {
@@ -437,15 +1477,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5566,
-      "importance": 0.5566,
-      "importance_score": 0.5566,
+      "score": 0.5432,
+      "importance": 0.5432,
+      "importance_score": 0.5432,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9211,
+        "recency": 0.8468,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -470,7 +1510,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
+        "scored_at": "2026-10-26T06:16:36.608161Z"
       }
     },
     {
@@ -576,15 +1616,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5541,
-      "importance": 0.5541,
-      "importance_score": 0.5541,
+      "score": 0.5409,
+      "importance": 0.5409,
+      "importance_score": 0.5409,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9071,
+        "recency": 0.8339,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -609,44 +1649,44 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
+        "scored_at": "2026-10-26T06:16:36.608161Z"
       }
     },
     {
-      "story_id": "story_043039082271",
-      "title": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "url": "https://minimaxir.com/2026/10/cheap-llms",
-      "primary_url": "https://minimaxir.com/2026/10/cheap-llms",
+      "story_id": "story_13d2d173ce23",
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "primary_url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
       "source": "Hacker News (黑客新闻)",
       "source_name": "Info Flow",
       "sources": [
         {
-          "id": "db69cb996f44cb4466c31ad4cab77de9adbee3b3",
-          "title": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-          "title_zh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
-          "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-          "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "id": "2d0e1c0b578341d47e1e8b4617ff9106218648ab",
+          "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "title_zh": null,
+          "title_en": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "title_original": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://minimaxir.com/2026/10/cheap-llms",
+          "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-10-25T21:11:31Z"
+          "published_at": "2026-10-26T04:11:40Z"
         },
         {
-          "id": "861647ac8be026777114967923dba58a3ea0666d",
-          "title": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-          "title_zh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
-          "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-          "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "id": "29cf15a8c0f093c064d7304d4b5daaccd0925164",
+          "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "title_zh": null,
+          "title_en": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "title_original": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=50236102",
+          "url": "https://news.ycombinator.com/item?id=50239027",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-25T21:11:31Z"
+          "published_at": "2026-10-26T04:11:40Z"
         }
       ],
       "source_count": 2,
@@ -656,62 +1696,62 @@
       ],
       "items": [
         {
-          "id": "db69cb996f44cb4466c31ad4cab77de9adbee3b3",
-          "title": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-          "title_zh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
-          "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-          "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "id": "2d0e1c0b578341d47e1e8b4617ff9106218648ab",
+          "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "title_zh": null,
+          "title_en": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "title_original": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://minimaxir.com/2026/10/cheap-llms",
+          "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-10-25T21:11:31Z"
+          "published_at": "2026-10-26T04:11:40Z"
         },
         {
-          "id": "861647ac8be026777114967923dba58a3ea0666d",
-          "title": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-          "title_zh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
-          "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-          "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "id": "29cf15a8c0f093c064d7304d4b5daaccd0925164",
+          "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "title_zh": null,
+          "title_en": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "title_original": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=50236102",
+          "url": "https://news.ycombinator.com/item?id=50239027",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-25T21:11:31Z"
+          "published_at": "2026-10-26T04:11:40Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5378,
-      "importance": 0.5378,
-      "importance_score": 0.5378,
+      "score": 0.5407,
+      "importance": 0.5407,
+      "importance_score": 0.5407,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9555,
+        "recency": 0.9718,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-25T21:11:31Z",
-      "latest_at": "2026-10-25T21:11:31Z",
+      "earliest_at": "2026-10-26T04:11:40Z",
+      "latest_at": "2026-10-26T04:11:40Z",
       "primary_item": {
-        "id": "db69cb996f44cb4466c31ad4cab77de9adbee3b3",
-        "title": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？ / OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-        "title_zh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
-        "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-        "title_original": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+        "id": "2d0e1c0b578341d47e1e8b4617ff9106218648ab",
+        "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+        "title_zh": null,
+        "title_en": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+        "title_original": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://minimaxir.com/2026/10/cheap-llms",
+        "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
       },
@@ -719,146 +1759,89 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
+        "scored_at": "2026-10-26T06:16:36.608161Z"
       }
     },
     {
-      "story_id": "story_461047623b07",
-      "title": "Cerebras 部署了万亿参数的人工智能模型",
-      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-      "primary_url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-      "source": "www.cerebras.ai",
-      "source_name": "Buzzing",
+      "story_id": "story_4193ace9e9ce",
+      "title": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
+      "url": "https://www.aibase.com/news/31855",
+      "primary_url": "https://www.aibase.com/news/31855",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "e1d77e1ce605edf952f344c063f9a4e8bb5b4e68",
-          "title": "Cerebras 部署了万亿参数的人工智能模型",
-          "title_zh": "Cerebras 部署了万亿参数的人工智能模型",
+          "id": "7537403b5a83d0deef091ca49d6f74c172211e24",
+          "title": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
+          "title_zh": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
           "title_en": null,
-          "title_original": "Cerebras 部署了万亿参数的人工智能模型",
+          "title_original": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-          "source": "www.cerebras.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-25T07:05:49.244000Z"
-        },
-        {
-          "id": "afa998c7bad1bbc38d3abe6965589aa8c94002d9",
-          "title": "Cerebras 部署了万亿参数的人工智能模型 / Cerebras Deploys Trillion-Parameter AI Models",
-          "title_zh": "Cerebras 部署了万亿参数的人工智能模型",
-          "title_en": "Cerebras Deploys Trillion-Parameter AI Models",
-          "title_original": "Cerebras Deploys Trillion-Parameter AI Models",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-25T01:33:49Z"
-        },
-        {
-          "id": "c60843a9d88a05bb6226e001174471b09ee66920",
-          "title": "Cerebras 部署万亿参数人工智能模型 / Cerebras Deploys Trillion-Parameter AI Models",
-          "title_zh": "Cerebras 部署万亿参数人工智能模型",
-          "title_en": "Cerebras Deploys Trillion-Parameter AI Models",
-          "title_original": "Cerebras Deploys Trillion-Parameter AI Models",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=50227356",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-25T01:33:49Z"
+          "url": "https://www.aibase.com/news/31855",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "www.cerebras.ai"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "e1d77e1ce605edf952f344c063f9a4e8bb5b4e68",
-          "title": "Cerebras 部署了万亿参数的人工智能模型",
-          "title_zh": "Cerebras 部署了万亿参数的人工智能模型",
+          "id": "7537403b5a83d0deef091ca49d6f74c172211e24",
+          "title": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
+          "title_zh": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
           "title_en": null,
-          "title_original": "Cerebras 部署了万亿参数的人工智能模型",
+          "title_original": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-          "source": "www.cerebras.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-25T07:05:49.244000Z"
-        },
-        {
-          "id": "afa998c7bad1bbc38d3abe6965589aa8c94002d9",
-          "title": "Cerebras 部署了万亿参数的人工智能模型 / Cerebras Deploys Trillion-Parameter AI Models",
-          "title_zh": "Cerebras 部署了万亿参数的人工智能模型",
-          "title_en": "Cerebras Deploys Trillion-Parameter AI Models",
-          "title_original": "Cerebras Deploys Trillion-Parameter AI Models",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-25T01:33:49Z"
-        },
-        {
-          "id": "c60843a9d88a05bb6226e001174471b09ee66920",
-          "title": "Cerebras 部署万亿参数人工智能模型 / Cerebras Deploys Trillion-Parameter AI Models",
-          "title_zh": "Cerebras 部署万亿参数人工智能模型",
-          "title_en": "Cerebras Deploys Trillion-Parameter AI Models",
-          "title_original": "Cerebras Deploys Trillion-Parameter AI Models",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=50227356",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-25T01:33:49Z"
+          "url": "https://www.aibase.com/news/31855",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-26T06:10:25.479178Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5311,
-      "importance": 0.5311,
-      "importance_score": 0.5311,
-      "importance_label": "多源热议",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7795,
-        "story_heat": 0.5
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
-        "multi_source"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-10-25T01:33:49Z",
-      "latest_at": "2026-10-25T07:05:49.244000Z",
+      "earliest_at": "2026-10-26T06:10:25.479178Z",
+      "latest_at": "2026-10-26T06:10:25.479178Z",
       "primary_item": {
-        "id": "e1d77e1ce605edf952f344c063f9a4e8bb5b4e68",
-        "title": "Cerebras 部署了万亿参数的人工智能模型",
-        "title_zh": "Cerebras 部署了万亿参数的人工智能模型",
+        "id": "7537403b5a83d0deef091ca49d6f74c172211e24",
+        "title": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
+        "title_zh": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
         "title_en": null,
-        "title_original": "Cerebras 部署了万亿参数的人工智能模型",
+        "title_original": "Kimi 就 K3.1 Pro 限流致歉：全体订阅会员补 25% 额度",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-        "source": "www.cerebras.ai",
-        "source_name": "Buzzing"
+        "url": "https://www.aibase.com/news/31855",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
+        "scored_at": "2026-10-26T06:16:36.608161Z"
       }
     },
     {
@@ -935,15 +1918,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5266,
-      "importance": 0.5266,
-      "importance_score": 0.5266,
+      "score": 0.5136,
+      "importance": 0.5136,
+      "importance_score": 0.5136,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8932,
+        "recency": 0.8211,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -968,227 +1951,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
-      }
-    },
-    {
-      "story_id": "story_98b3a4608ebd",
-      "title": "1505年纽伦堡骑士的工具书",
-      "url": "https://loeffelholz-codex.org/en",
-      "primary_url": "https://loeffelholz-codex.org/en",
-      "source": "loeffelholz-codex.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "b979b0f33cf0ade407c4e671398efb2db7d0a879",
-          "title": "1505年纽伦堡骑士的工具书",
-          "title_zh": "1505年纽伦堡骑士的工具书",
-          "title_en": null,
-          "title_original": "1505年纽伦堡骑士的工具书",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://loeffelholz-codex.org/en",
-          "source": "loeffelholz-codex.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-25T15:28:39.190000Z"
-        },
-        {
-          "id": "3a1c93ba0b49ed80881236de7d18c188013300f1",
-          "title": "1505年纽伦堡骑士的工具书 / Tool book of a Nuremberg knight from 1505",
-          "title_zh": "1505年纽伦堡骑士的工具书",
-          "title_en": "Tool book of a Nuremberg knight from 1505",
-          "title_original": "Tool book of a Nuremberg knight from 1505",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://loeffelholz-codex.org/en",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-25T12:37:54Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "loeffelholz-codex.org"
-      ],
-      "items": [
-        {
-          "id": "b979b0f33cf0ade407c4e671398efb2db7d0a879",
-          "title": "1505年纽伦堡骑士的工具书",
-          "title_zh": "1505年纽伦堡骑士的工具书",
-          "title_en": null,
-          "title_original": "1505年纽伦堡骑士的工具书",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://loeffelholz-codex.org/en",
-          "source": "loeffelholz-codex.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-25T15:28:39.190000Z"
-        },
-        {
-          "id": "3a1c93ba0b49ed80881236de7d18c188013300f1",
-          "title": "1505年纽伦堡骑士的工具书 / Tool book of a Nuremberg knight from 1505",
-          "title_zh": "1505年纽伦堡骑士的工具书",
-          "title_en": "Tool book of a Nuremberg knight from 1505",
-          "title_original": "Tool book of a Nuremberg knight from 1505",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://loeffelholz-codex.org/en",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-25T12:37:54Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5242,
-      "importance": 0.5242,
-      "importance_score": 0.5242,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8798,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-25T12:37:54Z",
-      "latest_at": "2026-10-25T15:28:39.190000Z",
-      "primary_item": {
-        "id": "b979b0f33cf0ade407c4e671398efb2db7d0a879",
-        "title": "1505年纽伦堡骑士的工具书",
-        "title_zh": "1505年纽伦堡骑士的工具书",
-        "title_en": null,
-        "title_original": "1505年纽伦堡骑士的工具书",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://loeffelholz-codex.org/en",
-        "source": "loeffelholz-codex.org",
-        "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
-      }
-    },
-    {
-      "story_id": "story_00a103824830",
-      "title": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处 / Imagine an AI future where being banned means you are now economically useless",
-      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
-      "primary_url": "https://twitter.com/boneGPT/status/2114035719853265264",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "bcbe91140a66aeb7353cbf97901cb78f2bcef4b6",
-          "title": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处 / Imagine an AI future where being banned means you are now economically useless",
-          "title_zh": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处",
-          "title_en": "Imagine an AI future where being banned means you are now economically useless",
-          "title_original": "Imagine an AI future where being banned means you are now economically useless",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://twitter.com/boneGPT/status/2114035719853265264",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-25T12:47:20Z"
-        },
-        {
-          "id": "60b26c802e98c80a0271149a65dfaaa37f9c45de",
-          "title": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处 / Imagine an AI future where being banned means you are now economically useless",
-          "title_zh": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处",
-          "title_en": "Imagine an AI future where being banned means you are now economically useless",
-          "title_original": "Imagine an AI future where being banned means you are now economically useless",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=50230995",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-25T12:47:20Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "bcbe91140a66aeb7353cbf97901cb78f2bcef4b6",
-          "title": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处 / Imagine an AI future where being banned means you are now economically useless",
-          "title_zh": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处",
-          "title_en": "Imagine an AI future where being banned means you are now economically useless",
-          "title_original": "Imagine an AI future where being banned means you are now economically useless",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://twitter.com/boneGPT/status/2114035719853265264",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-25T12:47:20Z"
-        },
-        {
-          "id": "60b26c802e98c80a0271149a65dfaaa37f9c45de",
-          "title": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处 / Imagine an AI future where being banned means you are now economically useless",
-          "title_zh": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处",
-          "title_en": "Imagine an AI future where being banned means you are now economically useless",
-          "title_original": "Imagine an AI future where being banned means you are now economically useless",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=50230995",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-25T12:47:20Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5181,
-      "importance": 0.5181,
-      "importance_score": 0.5181,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8463,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-25T12:47:20Z",
-      "latest_at": "2026-10-25T12:47:20Z",
-      "primary_item": {
-        "id": "bcbe91140a66aeb7353cbf97901cb78f2bcef4b6",
-        "title": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处 / Imagine an AI future where being banned means you are now economically useless",
-        "title_zh": "想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处",
-        "title_en": "Imagine an AI future where being banned means you are now economically useless",
-        "title_original": "Imagine an AI future where being banned means you are now economically useless",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://twitter.com/boneGPT/status/2114035719853265264",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-26T00:25:13.962146Z"
+        "scored_at": "2026-10-26T06:16:36.608161Z"
       }
     }
   ]
