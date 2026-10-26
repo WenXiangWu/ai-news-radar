@@ -1,8 +1,114 @@
 {
-  "generated_at": "2026-10-26T12:58:11.598039+00:00",
+  "generated_at": "2026-10-26T23:11:05.872558+00:00",
   "window_hours": 168,
-  "total_items": 7,
+  "total_items": 11,
   "items": [
+    {
+      "title": "关于一款热门无限制权重AI模型的行为",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "source": "cohere.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-26T22:44:25.645000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "解决vLLM中的工具调用准确性问题",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "source": "www.ubicloud.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-26T16:11:03.717000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 67
+    },
+    {
+      "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:44:27.036000+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 58
+    },
+    {
+      "title": "OpenAI 发布 GPT-6.1 Terra，主打高效计算机操作与更低成本",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:44:26.502000+00:00",
+      "source_count": 2,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 58
+    },
+    {
+      "title": "布朗大学学生绘制了推动人工智能发展的全球隐形劳动力图谱",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "source": "www.brown.edu",
+      "site_id": "buzzing",
+      "published_at": "2026-10-26T22:44:25.506000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 58
+    },
+    {
+      "title": "ChatGPT 总是在告诉大家，404 Media 可以解决他们的技术支持问题",
+      "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems",
+      "source": "www.404media.co",
+      "site_id": "buzzing",
+      "published_at": "2026-10-26T22:44:25.921000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 58
+    },
+    {
+      "title": "GLM-5.3 Workers AI 模型中的交叉请求 KV 缓存暴露（155 个响应）",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-26T22:41:48+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 58
+    },
     {
       "title": "PaperPilot——一款基于WASM和MCP的零云、纯Rust PDF引擎",
       "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
@@ -10,103 +116,62 @@
       "site_id": "buzzing",
       "published_at": "2026-10-26T08:02:10.078000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 54,
       "official": true,
       "topics": [
         "paper"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 80
+      "hot_score": 34
     },
     {
-      "title": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
-      "url": "https://minimaxir.com/2026/10/cheap-llms",
-      "source": "minimaxir.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-26T00:39:51.635000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
+      "title": "Show HN: Hob - 开源，在设备上替代 Claude Cowork 和 ChatGPT",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-26T16:12:29+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
       "topics": [
         "openai",
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 34
+    },
+    {
+      "title": "Anthropic S-1 文件也是人工智能世界末日入门书",
+      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-26T16:01:55+00:00",
+      "source_count": 2,
+      "score": 59,
+      "official": true,
+      "topics": [
         "anthropic"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 43
+      "label": "值得关注",
+      "hot_score": 33
     },
     {
       "title": "认知重商主义：人工智能恐慌类似于对早期资本主义的恐惧",
       "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-26T04:11:40+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 29
-    },
-    {
-      "title": "人工智能的应用让加州大学伯克利分校的一位数学教授认为给作业打分“毫无意义”",
-      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-      "source": "www.dailycal.org",
-      "site_id": "buzzing",
-      "published_at": "2026-10-25T19:41:52.295000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 28
-    },
-    {
-      "title": "一款问世10年的CNN在皮肤癌诊断方面表现优于前沿的大语言模型",
-      "url": "https://lynchlab.net/llm-skin-cancer",
-      "source": "lynchlab.net",
-      "site_id": "buzzing",
-      "published_at": "2026-10-25T18:39:28.755000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 26
-    },
-    {
-      "title": "数学家解读人工智能的未来",
-      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
-      "published_at": "2026-10-25T16:31:21+00:00",
+      "published_at": "2026-10-26T04:11:40+00:00",
       "source_count": 2,
       "score": 50,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 11
-    },
-    {
-      "title": "r/opensource 刚刚禁止了人工智能、非英语使用者等",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T13:25:32+00:00",
-      "source_count": 2,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 8
+      "hot_score": 12
     }
   ]
 }

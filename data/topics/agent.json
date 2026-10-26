@@ -1,19 +1,116 @@
 {
-  "generated_at": "2026-10-26T12:58:11.598039+00:00",
+  "generated_at": "2026-10-26T23:11:05.872558+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 7,
+  "total_items": 9,
   "items": [
+    {
+      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v2.1.311",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-26T21:51:23+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Rogue AI agent engages 'Skynet mode' to search the internet for exposed LLMs to hijack and run malware attacks",
+      "url": "https://www.techradar.com/pro/security/rogue-ai-agent-engages-skynet-mode-to-search-the-internet-for-exposed-llms-to-hijack-and-run-malware-attacks",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-26T18:05:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "乐鑫的 Claude Code 替代方案可以准确了解连接到 ESP32 的内容",
+      "url": "https://www.makeuseof.com/this-claude-code-alternative-knows-your-esp32-hardware",
+      "source": "MakeUseOf",
+      "site_id": "techurls",
+      "published_at": "2026-10-26T16:11:29+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
       "url": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-10-26T07:05:27+00:00",
+      "published_at": "2026-10-26T15:05:27+00:00",
       "source_count": 1,
       "score": 55,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
+      "url": "https://x.com/ClementDelangue/status/2114713576296300604",
+      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+      "site_id": "aihot",
+      "published_at": "2026-10-26T13:39:40+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
+      "url": "https://www.infoq.cn/article/0C1Wgt7N9NzM6KjHSFeA",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-26T11:53:09+00:00",
+      "source_count": 1,
+      "score": 54,
       "official": false,
       "topics": [
         "agent"
@@ -28,93 +125,32 @@
       "site_id": "aihot",
       "published_at": "2026-10-26T04:48:25+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 71,
       "official": false,
       "topics": [
         "anthropic",
-        "agent",
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
-      "url": "https://www.infoq.cn/article/0C1Wgt7N9NzM6KjHSFeA",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-26T03:53:09+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "刚刚，Anthropic公开内部Sub-Agent+Loop最佳实践",
-      "url": "https://waytoagi.feishu.cn/wiki/Cx4fwk5UeimScnkuVpFchV9dnJc?from=from_copylink",
-      "source": "社区更新 · 2026-10-25",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-25T19:03:13.498579+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "构建智能体：何时将子智能体整合进主智能体循环",
-      "url": "https://waytoagi.feishu.cn/wiki/IpFRw4RSpiq2yOk9P2Ic2aZLnmf?from=from_copylink",
-      "source": "社区更新 · 2026-10-25",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-25T19:03:13.498579+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "选择正确的多智能体架构",
-      "url": "https://waytoagi.feishu.cn/wiki/F5oawTaaIi6wWrk1BWncA8xznwc?from=from_copylink",
-      "source": "社区更新 · 2026-10-25",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-25T19:03:13.498579+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "1505年纽伦堡骑士的工具书",
-      "url": "https://loeffelholz-codex.org/en",
-      "source": "loeffelholz-codex.org",
-      "site_id": "buzzing",
-      "published_at": "2026-10-25T15:28:39.190000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
         "agent",
         "coding"
       ],
       "reason": "",
       "label": "值得关注"
+    },
+    {
+      "title": "GPT-6.1 Terra 的工作和Codex",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ]
 }

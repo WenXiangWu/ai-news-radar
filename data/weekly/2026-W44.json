@@ -1,16 +1,49 @@
 {
   "title": "2026-W44 周报",
   "dates": [
+    "2026-10-27",
     "2026-10-26",
     "2026-10-25",
     "2026-10-24",
     "2026-10-23",
     "2026-10-22",
-    "2026-10-21",
-    "2026-10-20"
+    "2026-10-21"
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:44:27.036000+00:00",
+      "source_count": 2,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:00:00+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
       "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
@@ -22,6 +55,22 @@
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T19:15:53+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -77,6 +126,79 @@
       "published_at": "2026-10-21T12:00:00+00:00",
       "source_count": 1,
       "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph==1.2.18",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T20:05:16+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.10",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T19:59:56+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-checkpoint==4.3.1",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T19:57:41+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "宣布 Azure AI 语音 LLM 09-2026：更广泛的区域设置支持",
+      "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T17:10:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂代码库的安全性",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T13:45:00+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
@@ -172,15 +294,63 @@
       "label": "官方更新"
     },
     {
-      "title": "Dependabot 现在支持 npm 12、pnpm 11 和 12 以及 Bun 1.4",
-      "url": "https://github.blog/changelog/2026-10-20-dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-1-4",
-      "source": "GitHub Changelog",
+      "title": "OpenAI 发布 GPT-6.1 Terra，主打高效计算机操作与更低成本",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-20T13:52:38+00:00",
-      "source_count": 1,
-      "score": 84,
+      "published_at": "2026-10-26T22:44:26.502000+00:00",
+      "source_count": 2,
+      "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-cli==0.4.40",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T16:45:54+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "我们最新的人工智能任务：绘制人类大脑图谱",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T16:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ChatGPT 不断扩大的工作领域",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T10:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -231,15 +401,34 @@
       "label": "官方更新"
     },
     {
-      "title": "如何使用决策模型进行评估",
-      "url": "https://hamel.dev/blog/posts/decision-model-evals",
-      "source": "Hamel Husain",
+      "title": "langgraph-cli==0.4.39",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.39",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-20T07:00:00+00:00",
+      "published_at": "2026-10-26T14:16:53+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6.1 Terra 的工作和Codex",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -393,97 +582,11 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 今天没什么事发生",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T05:21:52+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "AnyLanguageModel 1.0：Apple 平台本地模型一年",
-      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "MPS in PyTorch 2.15",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T00:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.17",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-24T01:08:05+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用指标 API 添加了 OpenCode 等工具的使用情况",
-      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T23:42:03+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 Teams 中的 GitHub Copilot 将通知转换为代码",
-      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T21:29:58+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "title": "Fanatics 和 OpenAI 如何简化粉丝体验",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T17:00:00+00:00",
+      "published_at": "2026-10-26T07:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -494,101 +597,11 @@
       "label": "官方更新"
     },
     {
-      "title": "Copilot 功能的全局默认设置已全面可用",
-      "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T20:44:28+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策",
-      "url": "https://openai.com/index/decisions-api",
+      "title": "Ultrafast 如何将 OpenAI 的事件调查时间从几小时缩短至几分钟",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T19:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "向 Agentic AI 基金会捐赠 Agent 技能",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T18:09:56+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "如何使用 NVIDIA GPUDirect Storage 在 Python 中将数据读入 GPU 内存",
-      "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T16:39:09+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 影响仪表板中的行业比较",
-      "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T16:28:24+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OlmoEarth v1.3：整个地球最先进的嵌入",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T16:11:31+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "通过一致的标准实现广泛的访问",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T21:00:00+00:00",
+      "published_at": "2026-10-26T07:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -599,6 +612,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-26T12:58:11.598039+00:00",
+  "generated_at": "2026-10-26T23:11:05.872558+00:00",
   "period": "2026-W44"
 }
