@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:16:36.358817+00:00",
+  "generated_at": "2026-10-26T12:58:11.598039+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
@@ -7,13 +7,61 @@
   "total_items": 11,
   "items": [
     {
+      "title": "Reddit 开源社区 r/opensource 封杀 AI 项目，开发者另起炉灶",
+      "url": "https://www.aibase.com/news/31866",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-26T12:57:09.112695+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "英伟达开源机器人数据引擎 Flora:标注成本较 GPT-6Astra 降至125倍",
+      "url": "https://www.aibase.com/news/31869",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-26T12:57:09.112695+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "清华人工智能开源AKV，用于SGLang上LLM代理的缓存工程服务器",
+      "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-26T07:56:45+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "一天一个开源项目（第246篇）：rec —— Recursive 自研的本地推理引擎，在 Mac 上跑 Flint 编码模型，称比 llama.cpp 快 1.4–2.6 倍",
       "url": "https://juejin.cn/post/7699823462953959450",
       "source": "juejin",
       "site_id": "newsnow",
       "published_at": "2026-10-26T06:11:04.114000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "coding",
@@ -29,7 +77,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-26T06:10:25.479178+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -45,7 +93,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-26T06:10:25.479178+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -62,7 +110,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-25T23:35:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "opensource"
@@ -77,7 +125,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-25T15:59:15.722000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "coding",
@@ -93,7 +141,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-25T14:05:03+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "opensource"
@@ -108,7 +156,7 @@
       "site_id": "iris",
       "published_at": "2026-10-25T13:51:03+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "opensource"
@@ -123,56 +171,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-25T13:25:32+00:00",
       "source_count": 2,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "多 Agent 协作终极解：实测 YC 开源新作 Agent Relay，让 Claude Code 和 Codex 直接对话",
-      "url": "https://waytoagi.feishu.cn/wiki/BNxBwo0O3idr76kDQNBctk00nMh?from=from_copylink",
-      "source": "社区更新 · 2026-10-24",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-25T11:22:49.103014+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Nvidia 开源 Flora，使机器人视频标签比 GPT-6 Astra 便宜 125 倍",
-      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T10:08:49+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenMobile-2 证明开源智能手机代理可以与专有模型相媲美",
-      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T06:55:22+00:00",
-      "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "opensource"

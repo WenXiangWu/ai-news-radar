@@ -1,27 +1,26 @@
 {
-  "generated_at": "2026-10-26T06:16:36.358817+00:00",
+  "generated_at": "2026-10-26T12:58:11.598039+00:00",
   "date": "2026-10-26",
   "timezone": "Asia/Shanghai",
-  "lead": "播客：Kimi K3.1 Pro、新的网络现实和 Muse 思考；Nvidia 开源 Flora，使机器人视频标签比 GPT-6 Astra 便宜 125 倍；谷歌前首席执行官埃里克·施密特称 OpenAI 和 Anthropic 现代殖民贸易公司",
+  "lead": "PaperPilot——一款基于WASM和MCP的零云、纯Rust PDF引擎；multica-ai /      andrej-karpathy-skills；The UK government wants to invest £100 million in a ‘world first’ AI Biosecurity Lab — OpenAI and Anthropic to supply £200 million in credits to help safeguard national security",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
     {
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "title": "PaperPilot——一款基于WASM和MCP的零云、纯Rust PDF引擎",
       "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-26T03:29:05+00:00",
-      "source_count": 2,
-      "score": 54,
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-26T08:02:10.078000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": true,
       "topics": [
-        "mcp",
         "paper"
       ],
       "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
+      "label": "多源热议",
+      "hot_score": 80
     },
     {
       "title": "r/opensource 刚刚禁止了人工智能、非英语使用者等",
@@ -30,149 +29,116 @@
       "site_id": "curated_media",
       "published_at": "2026-10-25T13:25:32+00:00",
       "source_count": 2,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 15
+      "hot_score": 8
     }
   ],
   "items": [
     {
-      "title": "播客：Kimi K3.1 Pro、新的网络现实和 Muse 思考",
-      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-10-25T11:49:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Nvidia 开源 Flora，使机器人视频标签比 GPT-6 Astra 便宜 125 倍",
-      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T10:08:49+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌前首席执行官埃里克·施密特称 OpenAI 和 Anthropic 现代殖民贸易公司",
-      "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T08:09:32+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 提供高达 90% 的折扣以挖走 Anthropic 的最大客户",
-      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T07:30:11+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 联合创始人 Jack Clark 将其对人工智能自我改进的预测提前至 2027 年",
-      "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T09:37:46+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 表示，由于模型可以单独处理复杂性，因此一个人工智能代理可以击败许多子代理",
-      "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T09:12:10+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌的人工智能搜索变革颠覆了在线出版",
-      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-25T12:00:00+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "title": "PaperPilot——一款基于WASM和MCP的零云、纯Rust PDF引擎",
       "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-26T03:29:05+00:00",
-      "source_count": 2,
-      "score": 54,
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-26T08:02:10.078000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": true,
       "topics": [
-        "mcp",
         "paper"
       ],
       "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "multica-ai /      andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-10-26T12:57:52.051000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "title": "The UK government wants to invest £100 million in a ‘world first’ AI Biosecurity Lab — OpenAI and Anthropic to supply £200 million in credits to help safeguard national security",
+      "url": "https://www.techradar.com/pro/security/the-uk-government-wants-to-invest-gbp100-million-in-a-world-first-ai-biosecurity-lab-openai-and-anthropic-to-supply-gbp200-million-in-credits-to-help-safeguard-national-security",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-26T12:30:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Microsoft Teams 很快将使用人工智能来警告您偷偷摸摸的网络钓鱼诈骗",
+      "url": "https://www.techradar.com/pro/microsoft-teams-will-soon-use-ai-to-warn-you-of-sneaky-phishing-scams",
+      "source": "TechRadar",
+      "site_id": "techurls",
+      "published_at": "2026-10-26T11:05:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "德克萨斯州就 ChatGPT 的儿童安全问题起诉 OpenAI 和 Sam Altman",
+      "url": "https://thenextweb.com/news/texas-openai-lawsuit-chatgpt-children-altman",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-10-26T10:33:31+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 上市有何意义？几乎一切。",
+      "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
+      "source": "New York Times",
+      "site_id": "techurls",
+      "published_at": "2026-10-26T09:02:15+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Microsoft Decision-1：9B Qwen 模型发布说明",
       "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-26T03:12:05+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
-        "qwen"
+        "qwen",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -184,115 +150,9 @@
       "site_id": "techurls",
       "published_at": "2026-10-25T23:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "据《华尔街日报》报道，OpenAI 检查了研究人员手机上的 Signal 聊天记录",
-      "url": "https://thenextweb.com/news/openai-safety-researchers-fired-signal-chats-greenblatt-wsj",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-25T11:57:04+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AgriciDaniel /      claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-10-25T11:23:43.806000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "官方媒体称 DeepSeek 和 MiniMax 获准将人工智能模型带到国外",
-      "url": "https://thenextweb.com/news/deepseek-minimax-china-ai-export-controls-overseas",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-25T11:11:36+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "deepseek"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌 DeepMind 的一位高管表示，终身学习者将在人工智能工作场所拥有优势",
-      "url": "https://www.businessinsider.com/google-deepmind-lila-ibrahim-skills-to-get-hired-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-25T11:00:01+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "外部评估人员发现了 OpenAI 代理可以绕过其监控的方法",
-      "url": "https://thenextweb.com/news/openai-monitoring-system-metr-redwood-red-team",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-25T10:29:04+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 接近 300 亿美元融资，将估值目标下调至 1.25 兆美元",
-      "url": "https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-25T10:17:55+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "把你的人工智能代理处理这 4 个杀手级任务",
-      "url": "https://www.nytimes.com/2026/10/25/technology/personaltech/openai-dots-meta-muse-4-killer-tasks.html",
-      "source": "New York Times",
-      "site_id": "techurls",
-      "published_at": "2026-10-25T09:01:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "值得关注"
     },
@@ -303,10 +163,107 @@
       "site_id": "curated_media",
       "published_at": "2026-10-25T13:25:32+00:00",
       "source_count": 2,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "提醒您可以自定义 chatgpt 在网络上的外观并使其舒缓 https://t.co/an6R8iY5Ix https://t.co/iysHpdDLml",
+      "url": "https://x.com/thsottiaux/status/2114595002210783279",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-26T05:48:30+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Wall Street's fastest traders are building data centers and backing chip startups to stay ahead in AI",
+      "url": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-26T09:49:33+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "丰田每年在人形机器人和工厂自动化上投入 64 亿美元",
+      "url": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-26T09:18:15+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Here’s how to use Claude to copy any video shorts style in a few minutes. From @jake11moran: “We added this as a native capability in @HyperFrames_ studio. You just upload or pick a reference clip and then describe in...",
+      "url": "https://x.com/petergyang/status/2114507378532229214",
+      "source": "Follow Builders · X · Peter Yang",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-26T00:00:19+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "这很漂亮。谁说人工智能没有品味 https://t.co/gaPLhncKM2",
+      "url": "https://x.com/petergyang/status/2114560930646487116",
+      "source": "Follow Builders · X · Peter Yang",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-26T03:33:07+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Rare footage of how VCs turned their 2021 bets in metaverse, gaming and crypto mining into 'mission-critical AI infrastructure’ https://t.co/ULSKrUwg1f",
+      "url": "https://x.com/mattturck/status/2114507945585328606",
+      "source": "Follow Builders · X · Matt Turck",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-26T00:02:34+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
+      "url": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-26T10:30:50+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "industry"
       ],
       "reason": "",
       "label": "值得关注"
@@ -318,10 +275,25 @@
       "site_id": "curated_media",
       "published_at": "2026-10-25T21:31:16+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "清华人工智能开源AKV，用于SGLang上LLM代理的缓存工程服务器",
+      "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-26T07:56:45+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
@@ -333,7 +305,20 @@
       "site_id": "curated_media",
       "published_at": "2026-10-25T16:57:32+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "让 AI 从需求一路干到上线，软件开发组织要变了？",
+      "url": "https://www.infoq.cn/article/b32Mw2zaPrxyJ6ChePD5",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-26T10:08:13+00:00",
+      "source_count": 1,
+      "score": 57,
       "official": false,
       "topics": [],
       "reason": "",

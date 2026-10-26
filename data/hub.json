@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-26T06:16:36.358817+00:00",
+  "generated_at": "2026-10-26T12:58:11.598039+00:00",
   "today": "2026-10-26",
-  "lead": "播客：Kimi K3.1 Pro、新的网络现实和 Muse 思考；Nvidia 开源 Flora，使机器人视频标签比 GPT-6 Astra 便宜 125 倍；谷歌前首席执行官埃里克·施密特称 OpenAI 和 Anthropic 现代殖民贸易公司",
+  "lead": "PaperPilot——一款基于WASM和MCP的零云、纯Rust PDF引擎；multica-ai /      andrej-karpathy-skills；The UK government wants to invest £100 million in a ‘world first’ AI Biosecurity Lab — OpenAI and Anthropic to supply £200 million in credits to help safeguard national security",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "PaperPilot——一款基于WASM和MCP的零云、纯Rust PDF引擎",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-26T08:02:10.078000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "paper"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 80
+    },
     {
       "title": "OpenAI 和 Anthropic 在短短几个月内将大型语言模型（LLM）的价格下调了高达 80%。这是为什么？",
       "url": "https://minimaxir.com/2026/10/cheap-llms",
@@ -11,7 +27,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-26T00:39:51.635000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
         "openai",
@@ -19,7 +35,21 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 75
+      "hot_score": 43
+    },
+    {
+      "title": "认知重商主义：人工智能恐慌类似于对早期资本主义的恐惧",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-26T04:11:40+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 29
     },
     {
       "title": "人工智能的应用让加州大学伯克利分校的一位数学教授认为给作业打分“毫无意义”",
@@ -28,43 +58,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-25T19:41:52.295000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 50
-    },
-    {
-      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
-      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-26T04:11:40+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 50
-    },
-    {
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-26T03:29:05+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "mcp",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 48
+      "hot_score": 28
     },
     {
       "title": "一款问世10年的CNN在皮肤癌诊断方面表现优于前沿的大语言模型",
@@ -73,12 +72,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-25T18:39:28.755000+00:00",
       "source_count": 3,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 46
+      "hot_score": 26
     }
   ],
   "topics": [
@@ -94,7 +93,7 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 14
+      "count": 17
     },
     {
       "slug": "google",
@@ -122,21 +121,21 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 11
+      "count": 7
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 6
+      "count": 5
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "opensource",
@@ -150,7 +149,7 @@
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 5
+      "count": 7
     },
     {
       "slug": "paper",
@@ -164,7 +163,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 21
+      "count": 29
     }
   ],
   "days": [
