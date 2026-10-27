@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T07:50:14.821655+00:00",
+  "generated_at": "2026-10-27T14:30:16.675281+00:00",
   "date": "2026-10-27",
   "timezone": "Asia/Shanghai",
-  "lead": "与学术界合作，增进对科学的理解；[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn；Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+  "lead": "与学术界合作，增进对科学的理解；Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元；GPT-6.1 Terra",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,14 +13,14 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T22:44:27.036000+00:00",
       "source_count": 3,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 56
+      "hot_score": 32
     }
   ],
   "items": [
@@ -31,7 +31,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T22:44:27.036000+00:00",
       "source_count": 3,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "openai"
@@ -40,33 +40,16 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+      "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
       "url": "https://latent.space/p/ainews-anthropic-s1",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-10-27T07:24:59+00:00",
       "source_count": 1,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T22:00:00+00:00",
-      "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
-        "coding"
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -78,7 +61,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T23:53:07+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -87,15 +70,17 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot 辅助权限正式可用",
-      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
-      "source": "GitHub Changelog",
+      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T22:31:30+00:00",
+      "published_at": "2026-10-26T22:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
+        "openai",
+        "agent",
         "coding"
       ],
       "reason": "",
@@ -108,12 +93,55 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T19:15:53+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai",
         "coding"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 辅助权限正式可用",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:31:30+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.33.0rc0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T17:59:24+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "webframe：被评估为刮刀和沙箱",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T16:15:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -124,7 +152,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T20:05:16+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -139,7 +167,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T19:59:56+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -154,7 +182,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T19:57:41+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -169,37 +197,9 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T17:10:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "webframe：被评估为刮刀和沙箱",
-      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T16:15:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂代码库的安全性",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T13:45:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -210,7 +210,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T16:45:54+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -225,7 +225,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T16:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [
         "google"
@@ -234,34 +234,20 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 不断扩大的工作领域",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T10:00:00+00:00",
+      "title": "OpenAI 请外部专家核查其 AI 在数学、计算机科学和物理学领域产出的证明",
+      "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-27T12:37:24+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 78,
       "official": true,
       "topics": [
-        "openai"
+        "openai",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-cli==0.4.39",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.39",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T14:16:53+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "Anthropic S-1 文件中的五个不寻常细节",
@@ -270,7 +256,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-26T17:10:23+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": true,
       "topics": [
         "anthropic",
@@ -280,29 +266,13 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenAI 如何将其编码工具变成点，一个永远在线的个人助理",
-      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-27T02:00:00+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GPT-6.1 Terra 将 OpenAI 的 API 价格减半，但仍比其更大的模型取得进展",
-      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models",
+      "title": "OpenAI 的合作伙伴内容到达 ChatGPT 时已预先汇总，而网络的其余部分则获得原始片段",
+      "url": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-10-26T20:30:55+00:00",
+      "published_at": "2026-10-27T11:39:24+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 64,
       "official": true,
       "topics": [
         "openai"
@@ -311,16 +281,46 @@
       "label": "值得关注"
     },
     {
-      "title": "Cohere称阿里巴巴的Qwen模型试图向北京发送文件",
-      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing",
-      "source": "TechCrunch AI",
+      "title": "Anthropic 利用 IPO 信函重申 Claude 永远不会展示广告的承诺",
+      "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-10-27T01:12:21+00:00",
+      "published_at": "2026-10-27T11:20:51+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 64,
       "official": true,
       "topics": [
-        "qwen"
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 的 Ted Sanders 分享了选择正确 GPT 模型的经验法则",
+      "url": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-27T10:09:26+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "前 Deepmind 研究员认为 AlphaGo 的剧本可以治愈人工智能幻觉",
+      "url": "https://the-decoder.com/former-deepmind-researcher-thinks-alphagos-playbook-can-cure-ai-hallucinations",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-27T13:55:24+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "值得关注"

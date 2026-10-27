@@ -1,9 +1,51 @@
 {
-  "generated_at": "2026-10-27T07:50:14.821655+00:00",
+  "generated_at": "2026-10-27T14:30:16.675281+00:00",
   "today": "2026-10-27",
-  "lead": "与学术界合作，增进对科学的理解；[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn；Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+  "lead": "与学术界合作，增进对科学的理解；Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元；GPT-6.1 Terra",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "维基百科对人工智能生成内容的清理工作",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "source": "spectrum.ieee.org",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T13:36:03.515000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "人工智能曾承诺能减轻工作负担。但我却从未像现在这样忙过",
+      "url": "https://oioannou.com/blog/ai-promised-less-work",
+      "source": "oioannou.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T13:20:55.099000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "人工智能时代下的《人月神话》",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "source": "j11g.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T09:21:41.971000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 78
+    },
     {
       "title": "GLM-5.3 Workers AI 模型中跨请求 KV 缓存暴露问题（155 条回复）",
       "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
@@ -11,12 +53,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T04:53:02.073000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 94
+      "hot_score": 54
     },
     {
       "title": "Show HN: Hob——一款开源的、在设备端运行的替代方案，可替代 Claude Cowork 和 ChatGPT",
@@ -25,7 +67,7 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T00:21:41.850000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": true,
       "topics": [
         "openai",
@@ -34,51 +76,7 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 64
-    },
-    {
-      "title": "与学术界合作，增进对科学的理解",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T22:44:27.036000+00:00",
-      "source_count": 3,
-      "score": 86,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 56
-    },
-    {
-      "title": "关于一款热门无限制权重AI模型的行为",
-      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "source": "cohere.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-26T22:44:25.645000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 56
-    },
-    {
-      "title": "解决vLLM中的工具调用准确性问题",
-      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
-      "source": "www.ubicloud.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-26T16:11:03.717000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 33
+      "hot_score": 37
     }
   ],
   "topics": [
@@ -87,7 +85,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 40
+      "count": 35
     },
     {
       "slug": "anthropic",
@@ -122,7 +120,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 8
+      "count": 11
     },
     {
       "slug": "coding",
@@ -136,28 +134,28 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 10
+      "count": 7
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "industry",
