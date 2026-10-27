@@ -7,11 +7,11 @@
   "groups": [
     "docs-06"
   ],
-  "run_id": "40510137388",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40510137388",
+  "run_id": "40562529627",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40562529627",
   "conclusion": "failure",
-  "started_at": "2026-10-27T13:52:36.770447+00:00",
-  "finished_at": "2026-10-27T13:52:36.770447+00:00",
+  "started_at": "2026-10-27T19:18:24.399434+00:00",
+  "finished_at": "2026-10-27T19:18:24.399434+00:00",
   "push": {
     "attempted": false
   },
@@ -24,15 +24,15 @@
     },
     {
       "source_id": "docs.phoenix",
-      "status": "partial",
-      "run_kind": "incremental",
-      "error": "https://arize.com/docs/phoenix: translation unavailable or failed quality gate"
-    },
-    {
-      "source_id": "docs.pi-sdk",
       "status": "failed",
       "run_kind": "incremental",
       "error": "operation timed out after 480.00s"
+    },
+    {
+      "source_id": "docs.pi-sdk",
+      "status": "partial",
+      "run_kind": "incremental",
+      "error": "https://mintlify.com/: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.pinecone",
