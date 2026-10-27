@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-10-26T23:11:05.872558+00:00",
+  "generated_at": "2026-10-27T02:05:06.675855+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 9,
+  "total_items": 10,
   "items": [
+    {
+      "title": "Anthropic IPO招股书披露：曾因安全顾虑暂停主力模型训练，四个智能体意外“沙箱逃逸”",
+      "url": "https://www.aibase.com/news/31878",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-27T02:03:49.308330+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "了解我们如何训练人工智能导致流氓行为",
+      "url": "https://www.nytimes.com/interactive/2026/10/26/technology/ai-agent-hacks-training.html",
+      "source": "New York Times",
+      "site_id": "techurls",
+      "published_at": "2026-10-27T01:09:47+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
@@ -13,7 +45,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-26T22:00:00+00:00",
       "source_count": 1,
-      "score": 86,
+      "score": 85,
       "official": true,
       "topics": [
         "openai",
@@ -47,7 +79,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T18:05:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -72,28 +104,13 @@
       "label": "值得关注"
     },
     {
-      "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-      "url": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-26T15:05:27+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
       "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
       "url": "https://x.com/ClementDelangue/status/2114713576296300604",
       "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
       "site_id": "aihot",
       "published_at": "2026-10-26T13:39:40+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -104,13 +121,13 @@
       "label": "行业动态"
     },
     {
-      "title": "从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
-      "url": "https://www.infoq.cn/article/0C1Wgt7N9NzM6KjHSFeA",
+      "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
+      "url": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
-      "published_at": "2026-10-26T11:53:09+00:00",
+      "published_at": "2026-10-26T07:05:27+00:00",
       "source_count": 1,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [
         "agent"
@@ -125,7 +142,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-26T04:48:25+00:00",
       "source_count": 1,
-      "score": 71,
+      "score": 70,
       "official": false,
       "topics": [
         "anthropic",
@@ -136,21 +153,19 @@
       "label": "值得关注"
     },
     {
-      "title": "GPT-6.1 Terra 的工作和Codex",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T00:00:00+00:00",
+      "title": "从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
+      "url": "https://www.infoq.cn/article/0C1Wgt7N9NzM6KjHSFeA",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-26T03:53:09+00:00",
       "source_count": 1,
-      "score": 82,
-      "official": true,
+      "score": 52,
+      "official": false,
       "topics": [
-        "openai",
-        "agent",
-        "coding"
+        "agent"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "值得关注"
     }
   ]
 }

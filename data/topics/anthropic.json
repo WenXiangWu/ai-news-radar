@@ -1,11 +1,154 @@
 {
-  "generated_at": "2026-10-26T23:11:05.872558+00:00",
+  "generated_at": "2026-10-27T02:05:06.675855+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
   "total_items": 40,
   "items": [
+    {
+      "title": "Anthropic IPO招股书披露：曾因安全顾虑暂停主力模型训练，四个智能体意外“沙箱逃逸”",
+      "url": "https://www.aibase.com/news/31878",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-27T02:03:49.308330+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "华尔街联手黑石砸下 630 亿美元巨资：为Anthropic采购博通AI芯片铺路",
+      "url": "https://www.aibase.com/news/31879",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-27T02:03:49.308330+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "大模型真的能赚钱吗?AnthropicIPO文件给出首份财务破局答案",
+      "url": "https://www.aibase.com/news/31874",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-27T02:03:49.308330+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
+      "url": "https://x.com/Khazix0918/status/2114878401190506902",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "site_id": "aihot",
+      "published_at": "2026-10-27T00:34:38+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Show HN: Hob——一款开源的、在设备端运行的替代方案，可替代 Claude Cowork 和 ChatGPT",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T00:21:41.850000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Anthropic IPO 招股书11个细节解读：千亿募资、807亿美元亏损与7美元控股权",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687831&idx=1&sn=6502cb593318d6e324e29d278fae4fcc",
+      "source": "公众号：数字生命卡兹克",
+      "site_id": "aihot",
+      "published_at": "2026-10-27T00:05:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic's IPO filing answers one of the biggest questions about the AI boom: Can AI labs actually make money?",
+      "url": "https://www.businessinsider.com/anthropic-ipo-filing-ai-profit-800-billion-compute-risk-2026-10",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-10-26T23:38:38+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "问 HN：这次 Anthropic 与 Claude 替补们搞什么恶作剧？",
+      "url": "https://news.ycombinator.com/item?id=50252654",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-26T23:29:03+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "别指望Anthropic在短期内能带来巨额利润",
+      "url": "https://www.economist.com/business/2026/10/26/dont-expect-supersize-profits-from-anthropic-any-time-soon",
+      "source": "www.economist.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-26T23:18:52.190000+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "v2.1.311",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
@@ -30,7 +173,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-26T21:45:31+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -45,7 +188,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T21:35:01+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
@@ -60,7 +203,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-26T21:27:15+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 57,
       "official": true,
       "topics": [
         "anthropic"
@@ -75,7 +218,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T20:58:59+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic"
@@ -136,7 +279,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T19:25:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -151,7 +294,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-26T19:14:45+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic"
@@ -166,7 +309,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T19:08:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -181,7 +324,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T18:40:04+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -196,7 +339,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T18:06:58+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -211,7 +354,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T17:45:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -226,7 +369,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T17:20:54+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -241,7 +384,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-26T17:10:23+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "anthropic",
@@ -257,7 +400,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T17:00:50+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -272,7 +415,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-26T16:49:42+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -287,7 +430,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-26T16:33:24+00:00",
       "source_count": 1,
-      "score": 72,
+      "score": 71,
       "official": false,
       "topics": [
         "openai",
@@ -307,23 +450,6 @@
       "official": false,
       "topics": [
         "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: Hob - 开源，在设备上替代 Claude Cowork 和 ChatGPT",
-      "url": "https://github.com/FrigadeHQ/hob",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-26T16:12:29+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
@@ -366,7 +492,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T15:07:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -396,7 +522,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-26T14:35:22+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -411,7 +537,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T13:49:51+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -426,7 +552,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T13:46:14+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic"
@@ -441,7 +567,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-26T13:39:40+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -458,7 +584,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T13:34:56+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -473,7 +599,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-26T13:15:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -489,131 +615,8 @@
       "site_id": "zeli",
       "published_at": "2026-10-26T13:06:35+00:00",
       "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic S-1",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-26T13:04:50+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic S-1",
-      "url": "https://news.ycombinator.com/item?id=50242939",
-      "source": "hackernews",
-      "site_id": "newsnow",
-      "published_at": "2026-10-26T13:04:50+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 计划今日 9AM EST 提交 S-1 IPO 申请文件",
-      "url": "https://x.com/testingcatalog/status/2114696424021451174",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "site_id": "aihot",
-      "published_at": "2026-10-26T12:31:31+00:00",
-      "source_count": 1,
-      "score": 76,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "The UK government wants to invest £100 million in a ‘world first’ AI Biosecurity Lab — OpenAI and Anthropic to supply £200 million in credits to help safeguard national security",
-      "url": "https://www.techradar.com/pro/security/the-uk-government-wants-to-invest-gbp100-million-in-a-world-first-ai-biosecurity-lab-openai-and-anthropic-to-supply-gbp200-million-in-credits-to-help-safeguard-national-security",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-26T12:30:00+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的 Claude AI 模型访问了美国佐治亚州选民数据",
-      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-26T11:48:22+00:00",
-      "source_count": 1,
       "score": 49,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cathedral, a months-old cybersecurity startup founded by ex-DOGE staffers, says it breached Anthropic's internal systems in under 12 hours using AI agents (Washington Post)",
-      "url": "https://www.techmeme.com/261026/p16",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-26T11:35:03+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT 和 Claude 因“有问题的”安全问题被瑞典政府屏蔽",
-      "url": "https://www.techradar.com/pro/security/chatgpt-and-claude-blocked-by-swedish-government-over-problematic-security-concerns",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-26T11:35:00+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "猫王埃尔维斯·普雷斯利 (Elvis Presley) 的遗产管理机构正在起诉 Anthropic 侵犯版权",
-      "url": "https://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-10-26T11:23:48+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": false,
       "topics": [
         "anthropic"
       ],
