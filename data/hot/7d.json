@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-10-27T14:30:16.675281+00:00",
+  "generated_at": "2026-10-27T20:30:15.839207+00:00",
   "window_hours": 168,
-  "total_items": 9,
+  "total_items": 12,
   "items": [
+    {
+      "title": "警方正利用人工智能对有“可疑”行为的司机进行拦截",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "source": "gizmodo.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T18:06:03.572000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 98
+    },
+    {
+      "title": "Anthropic利用非法获取的斯坦福大学教授的著作对Claude进行了训练",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude",
+      "source": "stanforddaily.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T17:18:03.752000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 92
+    },
     {
       "title": "维基百科对人工智能生成内容的清理工作",
       "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
@@ -10,12 +40,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T13:36:03.515000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 68
     },
     {
       "title": "人工智能曾承诺能减轻工作负担。但我却从未像现在这样忙过",
@@ -24,12 +54,26 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T13:20:55.099000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 66
+    },
+    {
+      "title": "US President says he will ban the term 'artificial intelligence'",
+      "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-27T19:11:31+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 54
     },
     {
       "title": "人工智能时代下的《人月神话》",
@@ -38,12 +82,72 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T09:21:41.971000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 78
+      "hot_score": 47
+    },
+    {
+      "title": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
+      "url": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-27T16:25:12+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 43
+    },
+    {
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-27T16:25:30+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 43
+    },
+    {
+      "title": "提供聊天反馈会将您的数据提供给Anthropic",
+      "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+      "source": "privacy.claude.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T15:58:47.876000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 41
+    },
+    {
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools",
+      "source": "Wired AI",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-27T15:10:26+00:00",
+      "source_count": 2,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 38
     },
     {
       "title": "GLM-5.3 Workers AI 模型中跨请求 KV 缓存暴露问题（155 条回复）",
@@ -52,92 +156,28 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T04:53:02.073000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 54
-    },
-    {
-      "title": "Show HN: Hob——一款开源的、在设备端运行的替代方案，可替代 Claude Cowork 和 ChatGPT",
-      "url": "https://github.com/FrigadeHQ/hob",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-27T00:21:41.850000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 37
+      "hot_score": 33
     },
     {
       "title": "与学术界合作，增进对科学的理解",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
+      "source": "openai.com",
+      "site_id": "buzzing",
       "published_at": "2026-10-26T22:44:27.036000+00:00",
-      "source_count": 3,
-      "score": 85,
+      "source_count": 2,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
-      "label": "官方更新",
-      "hot_score": 32
-    },
-    {
-      "title": "关于一款热门无限制权重AI模型的行为",
-      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "source": "cohere.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-26T22:44:25.645000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 32
-    },
-    {
-      "title": "ChatGPT 总是在告诉大家，404 Media 可以解决他们的技术支持问题",
-      "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems",
-      "source": "www.404media.co",
-      "site_id": "buzzing",
-      "published_at": "2026-10-26T22:44:25.921000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
       "label": "值得关注",
-      "hot_score": 16
-    },
-    {
-      "title": "Anthropic S-1 文件也是人工智能世界末日入门书",
-      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer",
-      "source": "Wired AI",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-26T16:01:55+00:00",
-      "source_count": 2,
-      "score": 56,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 10
     }
   ]
 }

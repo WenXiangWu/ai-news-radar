@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-28",
     "2026-10-27",
     "2026-10-26",
     "2026-10-25",
@@ -40,6 +41,51 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T18:53:10+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T18:40:19+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T16:12:42+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -85,6 +131,34 @@
       "official": true,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T17:35:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T17:16:52+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -240,17 +314,28 @@
       "label": "官方更新"
     },
     {
-      "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
-      "url": "https://latent.space/p/ainews-anthropic-s1",
-      "source": "Latent Space",
+      "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
+      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T07:24:59+00:00",
+      "published_at": "2026-10-27T16:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "anthropic"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+      "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T15:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -527,93 +612,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "针对沙特阿拉伯方言微调 NVIDIA Nemotron，并提供通向其他语言的途径",
-      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T05:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-      "url": "https://latent.space/p/ainews-kimi-31",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-24T07:18:29+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "您的模型在 AWS Trainium 上运行吗？查找一下",
-      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "FDE 在 OpenAI 中意味着什么",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T06:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "如何使用决策模型进行评估",
-      "url": "https://hamel.dev/blog/posts/decision-model-evals",
-      "source": "Hamel Husain",
-      "site_id": "official_ai",
-      "published_at": "2026-10-20T07:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm-工具-数据集 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-18T23:43:09+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-27T14:30:16.675281+00:00",
+  "generated_at": "2026-10-27T20:30:15.839207+00:00",
   "period": "2026-10"
 }

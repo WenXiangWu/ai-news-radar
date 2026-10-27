@@ -1,9 +1,39 @@
 {
-  "generated_at": "2026-10-27T14:30:16.675281+00:00",
-  "today": "2026-10-27",
-  "lead": "与学术界合作，增进对科学的理解；Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元；GPT-6.1 Terra",
+  "generated_at": "2026-10-27T20:30:15.839207+00:00",
+  "today": "2026-10-28",
+  "lead": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands；How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands；Can we trust LLMs to judge whether a research idea is novel?",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "警方正利用人工智能对有“可疑”行为的司机进行拦截",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "source": "gizmodo.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T18:06:03.572000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 98
+    },
+    {
+      "title": "Anthropic利用非法获取的斯坦福大学教授的著作对Claude进行了训练",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude",
+      "source": "stanforddaily.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-27T17:18:03.752000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 92
+    },
     {
       "title": "维基百科对人工智能生成内容的清理工作",
       "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
@@ -11,12 +41,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T13:36:03.515000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 68
     },
     {
       "title": "人工智能曾承诺能减轻工作负担。但我却从未像现在这样忙过",
@@ -25,58 +55,26 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T13:20:55.099000+00:00",
       "source_count": 3,
-      "score": 57,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 100
-    },
-    {
-      "title": "人工智能时代下的《人月神话》",
-      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-      "source": "j11g.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-27T09:21:41.971000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 78
-    },
-    {
-      "title": "GLM-5.3 Workers AI 模型中跨请求 KV 缓存暴露问题（155 条回复）",
-      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
-      "source": "blog.cloudflare.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-27T04:53:02.073000+00:00",
-      "source_count": 3,
       "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 54
+      "hot_score": 66
     },
     {
-      "title": "Show HN: Hob——一款开源的、在设备端运行的替代方案，可替代 Claude Cowork 和 ChatGPT",
-      "url": "https://github.com/FrigadeHQ/hob",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-27T00:21:41.850000+00:00",
-      "source_count": 3,
+      "title": "US President says he will ban the term 'artificial intelligence'",
+      "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-27T19:11:31+00:00",
+      "source_count": 2,
       "score": 54,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "opensource"
-      ],
+      "official": false,
+      "topics": [],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 37
+      "label": "值得关注",
+      "hot_score": 54
     }
   ],
   "topics": [
@@ -99,7 +97,7 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "deepseek",
@@ -113,21 +111,21 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 11
+      "count": 17
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 4
+      "count": 6
     },
     {
       "slug": "mcp",
@@ -141,21 +139,21 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 7
+      "count": 9
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 26
+      "count": 14
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "industry",
@@ -166,6 +164,7 @@
     }
   ],
   "days": [
+    "2026-10-28",
     "2026-10-27",
     "2026-10-26",
     "2026-10-25",
@@ -178,8 +177,7 @@
     "2026-10-18",
     "2026-10-17",
     "2026-10-16",
-    "2026-10-15",
-    "2026-10-14"
+    "2026-10-15"
   ],
   "week": "2026-W44",
   "month": "2026-10"
