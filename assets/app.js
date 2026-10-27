@@ -574,7 +574,8 @@ function itemSection(item) {
 }
 
 function itemMatchesSection(item, sectionId = state.activeSection) {
-  return !sectionId || sectionId === "all" || itemSection(item) === sectionId;
+  if (!sectionId || sectionId === "all" || sectionId === "selected" || sectionId === "hot") return true;
+  return itemSection(item) === sectionId;
 }
 
 function sectionBadgeLabel(sectionId) {
@@ -601,7 +602,8 @@ function storySectionOf(story) {
 }
 
 function storyMatchesSection(story, sectionId = state.activeSection) {
-  return !sectionId || sectionId === "all" || storySectionOf(story) === sectionId;
+  if (!sectionId || sectionId === "all" || sectionId === "selected" || sectionId === "hot") return true;
+  return storySectionOf(story) === sectionId;
 }
 
 function storyMatchesQuery(story, query = state.query.trim().toLowerCase()) {
@@ -878,7 +880,7 @@ function hotBoardStories() {
 function hotBoardEntries() {
   if (state.mode !== "selected") return [];
   return hotBoardStories()
-    .filter((story) => storyMatchesSection(story))
+    .filter((story) => storyMatchesSection(story, "all"))
     .slice(0, HOT_BOARD_LIMIT)
     .map((story, index) => storyToRow(story, index));
 }
