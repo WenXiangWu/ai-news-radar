@@ -12,13 +12,28 @@
   "total_items": 40,
   "items": [
     {
+      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+      "url": "https://latent.space/p/ainews-anthropic-s1",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T07:24:59+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "与学术界合作，增进对科学的理解",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-10-26T22:44:27.036000+00:00",
       "source_count": 3,
-      "score": 87,
+      "score": 86,
       "official": true,
       "topics": [
         "openai"
@@ -37,38 +52,6 @@
       "official": true,
       "topics": [
         "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Terra",
-      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T23:53:07+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T22:00:00+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -132,16 +115,17 @@
       "label": "官方更新"
     },
     {
-      "title": "GPT-6.1 Terra in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
-      "source": "GitHub Changelog",
+      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T19:15:53+00:00",
+      "published_at": "2026-10-26T22:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
         "openai",
+        "agent",
         "coding"
       ],
       "reason": "",
@@ -235,87 +219,47 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph==1.2.18",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T20:05:16+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.10",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T19:59:56+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-checkpoint==4.3.1",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T19:57:41+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "宣布 Azure AI 语音 LLM 09-2026：更广泛的区域设置支持",
-      "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T17:10:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "webframe：被评估为刮刀和沙箱",
-      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
       "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T16:15:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂代码库的安全性",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T13:45:00+00:00",
+      "published_at": "2026-10-26T23:53:07+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 辅助权限正式可用",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:31:30+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T19:15:53+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -367,11 +311,11 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph-cli==0.4.40",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40",
+      "title": "langgraph==1.2.18",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
       "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T16:45:54+00:00",
+      "published_at": "2026-10-26T20:05:16+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -382,26 +326,11 @@
       "label": "官方更新"
     },
     {
-      "title": "我们最新的人工智能任务：绘制人类大脑图谱",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T16:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-cli==0.4.39",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.39",
+      "title": "langgraph-sdk==0.4.10",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10",
       "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T14:16:53+00:00",
+      "published_at": "2026-10-26T19:59:56+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -412,11 +341,52 @@
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT 不断扩大的工作领域",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "title": "langgraph-checkpoint==4.3.1",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T19:57:41+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "宣布 Azure AI 语音 LLM 09-2026：更广泛的区域设置支持",
+      "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T17:10:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "webframe：被评估为刮刀和沙箱",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T16:15:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂代码库的安全性",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T10:00:00+00:00",
+      "published_at": "2026-10-26T13:45:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -576,11 +546,41 @@
       "label": "官方更新"
     },
     {
-      "title": "Fanatics 和 OpenAI 如何简化粉丝体验",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "title": "langgraph-cli==0.4.40",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T16:45:54+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "我们最新的人工智能任务：绘制人类大脑图谱",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T16:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "ChatGPT 不断扩大的工作领域",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T07:00:00+00:00",
+      "published_at": "2026-10-26T10:00:00+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -591,21 +591,21 @@
       "label": "官方更新"
     },
     {
-      "title": "Ultrafast 如何将 OpenAI 的事件调查时间从几小时缩短至几分钟",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "source": "OpenAI News",
+      "title": "langgraph==1.2.17",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T07:00:00+00:00",
+      "published_at": "2026-10-24T01:08:05+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "openai"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-27T02:05:06.675855+00:00",
+  "generated_at": "2026-10-27T07:50:14.821655+00:00",
   "period": "2026-W44"
 }
