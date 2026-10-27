@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>雷达重构方案 v3</title>
+<style>
+  :root {
+    /* ── 主站 lab 皮肤色板 ── */
+    --bg: #f4f7fa;
+    --bg-alt: #eaeff5;
+    --fg: #0f172a;
+    --fg-soft: #1e293b;
+    --brand: #00a3cf;
+    --brand-2: #7c3aed;
+    --brand-glow: #00d4ff;
+    --card: rgba(255,255,255,0.72);
+    --card-solid: #ffffff;
+    --border: rgba(15,23,42,0.08);
+    --border-hover: rgba(15,23,42,0.14);
+    --muted: #64748b;
+    --muted-soft: #94a3b8;
+    --good: #16a34a;
+    --warn: #d97706;
+    --bad: #e11d48;
+    --r: 22px;
+    --r-sm: 12px;
+    --r-xs: 8px;
+    --btn-r: 999px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
+  .doc { max-width: 1060px; margin: 0 auto; padding: 40px 24px 100px; }
+
+  /* ── Doc Header ── */
+  .doc-hd { text-align: center; padding: 48px 0 40px; margin-bottom: 40px; border-bottom: 1px solid var(--border); }
+  .doc-hd .tag { display: inline-block; padding: 4px 14px; border: 1.5px solid var(--brand); border-radius: var(--btn-r); font-size: 11px; font-weight: 700; color: var(--brand); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 16px; }
+  .doc-hd h1 { font-size: 34px; font-weight: 900; line-height: 1.2; letter-spacing: -0.8px; color: var(--fg); margin-bottom: 10px; }
+  .doc-hd h1 em { font-style: normal; color: var(--brand); }
+  .doc-hd p { color: var(--muted); font-size: 14px; max-width: 520px; margin: 0 auto; }
+
+  /* ── Section ── */
+  .sec { margin-bottom: 56px; }
+  .sec-num { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: var(--r-xs); background: rgba(0,163,207,0.08); color: var(--brand); font-size: 13px; font-weight: 800; margin-bottom: 8px; }
+  .sec h2 { font-size: 22px; font-weight: 800; letter-spacing: -0.3px; margin-bottom: 6px; color: var(--fg); }
+  .sec .sub { color: var(--muted); font-size: 13px; margin-bottom: 24px; max-width: 600px; line-height: 1.6; }
+
+  /* ── Callout ── */
+  .co { border: 1px solid rgba(0,163,207,0.18); border-radius: var(--r-sm); padding: 16px 20px; background: rgba(0,163,207,0.04); margin-bottom: 20px; }
+  .co h4 { font-size: 13px; font-weight: 700; color: var(--brand); margin-bottom: 4px; }
+  .co p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+  .co-warn { border-color: rgba(217,119,6,0.2); background: rgba(217,119,6,0.04); }
+  .co-warn h4 { color: var(--warn); }
+
+  /* ── Diff Grid ── */
+  .diff { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px; }
+  @media (max-width: 700px) { .diff { grid-template-columns: 1fr; } }
+  .diff-col { border: 1px solid var(--border); border-radius: var(--r-sm); overflow: hidden; }
+  .diff-col.old { opacity: 0.5; }
+  .diff-label { padding: 8px 14px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; }
+  .diff-col.old .diff-label { background: #e8e8e8; color: #888; }
+  .diff-col.new .diff-label { background: rgba(0,163,207,0.08); color: var(--brand); }
+  .diff-body { padding: 14px 18px; background: var(--card-solid); font-size: 13px; color: var(--muted); line-height: 1.8; }
+  .diff-body strong { color: var(--fg); }
+  .diff-body .x { color: var(--bad); font-weight: 700; }
+  .diff-body .v { color: var(--good); font-weight: 700; }
+
+  /* ── Table ── */
+  .tbl { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 20px; }
+  .tbl th { text-align: left; padding: 10px 14px; background: var(--card-solid); color: var(--muted); font-weight: 700; font-size: 11px; letter-spacing: 0.5px; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+  .tbl td { padding: 10px 14px; border-bottom: 1px solid var(--border); color: var(--muted); vertical-align: top; }
+  .tbl .lbl { color: var(--fg); font-weight: 600; }
+  .tbl tr:hover td { background: rgba(0,163,207,0.02); }
+
+  /* ── Palette ── */
+  .pal { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+  .sw { border-radius: var(--r-sm); overflow: hidden; border: 1px solid var(--border); width: 120px; }
+  .sw-cl { height: 56px; }
+  .sw-info { padding: 8px 10px; background: var(--card-solid); }
+  .sw-nm { font-size: 11px; font-weight: 700; color: var(--fg); margin-bottom: 1px; }
+  .sw-hx { font-size: 10px; color: var(--muted); font-family: "JetBrains Mono", monospace; }
+
+  /* ══════ APP MOCKUP ══════ */
+  .mock { border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; background: var(--bg); margin-bottom: 20px; box-shadow: 0 2px 20px rgba(15,23,42,0.06); }
+  .mock-bar { display: flex; align-items: center; gap: 6px; padding: 8px 14px; background: #e8ecf1; border-bottom: 1px solid var(--border); }
+  .mock-dot { width: 9px; height: 9px; border-radius: 50%; }
+  .mock-dot:nth-child(1) { background: #ff5f57; }
+  .mock-dot:nth-child(2) { background: #febc2e; }
+  .mock-dot:nth-child(3) { background: #28c840; }
+  .mock-url { flex: 1; margin-left: 8px; padding: 3px 10px; border-radius: 4px; background: rgba(15,23,42,0.05); font-size: 11px; color: var(--muted); font-family: monospace; }
+
+  .app { display: grid; grid-template-columns: 200px 1fr; min-height: 580px; }
+  @media (max-width: 800px) { .app { grid-template-columns: 1fr; } .sb { display: none !important; } }
+
+  /* ── Sidebar ── */
+  .sb { background: var(--card-solid); border-right: 1px solid var(--border); padding: 16px 0; display: flex; flex-direction: column; }
+  .sb-brand { padding: 0 14px 16px; border-bottom: 1px solid var(--border); margin-bottom: 12px; }
+  .sb-brand-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .sb-logo { width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, var(--brand) 0%, var(--brand-2) 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 16px; font-weight: 900; }
+  .sb-brand-name { font-size: 13px; font-weight: 800; color: var(--fg); letter-spacing: -0.2px; line-height: 1.2; }
+  .sb-brand-sub { font-size: 9px; color: var(--muted-soft); letter-spacing: 0.5px; }
+  .sb-slogan { display: flex; align-items: center; gap: 5px; padding: 5px 10px; border-radius: var(--btn-r); background: rgba(0,163,207,0.06); border: 1px solid rgba(0,163,207,0.12); font-size: 10px; font-weight: 600; color: var(--brand); width: fit-content; }
+
+  .sb-nav { flex: 1; padding: 0 6px; }
+  .sb-nav-lbl { padding: 6px 10px; font-size: 9px; font-weight: 700; color: var(--muted-soft); letter-spacing: 1px; text-transform: uppercase; }
+  .sb-nav-item { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: var(--r-xs); font-size: 12px; color: var(--muted); cursor: pointer; transition: all 0.15s; position: relative; }
+  .sb-nav-item:hover { background: rgba(0,163,207,0.04); color: var(--fg); }
+  .sb-nav-item.active { background: rgba(0,163,207,0.08); color: var(--brand); font-weight: 700; }
+  .sb-nav-item.active::before { content: ""; position: absolute; left: 0; top: 5px; bottom: 5px; width: 3px; border-radius: 0 3px 3px 0; background: var(--brand); }
+  .sb-nav-ico { width: 20px; height: 20px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; flex-shrink: 0; }
+  .sb-nav-cnt { margin-left: auto; font-size: 10px; padding: 1px 6px; border-radius: var(--btn-r); background: rgba(15,23,42,0.04); color: var(--muted-soft); font-weight: 600; }
+  .sb-nav-item.active .sb-nav-cnt { background: rgba(0,163,207,0.1); color: var(--brand); }
+  .sb-div { height: 1px; background: var(--border); margin: 8px 8px; }
+
+  .sb-foot { padding: 12px 14px; border-top: 1px solid var(--border); }
+  .sb-status { display: flex; align-items: center; gap: 5px; font-size: 10px; color: var(--muted); margin-bottom: 4px; }
+  .sb-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--good); box-shadow: 0 0 4px rgba(22,163,74,0.3); }
+  .sb-status strong { color: var(--fg); font-weight: 700; }
+
+  /* ── Main ── */
+  .mn { display: flex; flex-direction: column; }
+  .tb { display: flex; align-items: center; gap: 10px; padding: 10px 20px; border-bottom: 1px solid var(--border); background: var(--card-solid); }
+  .tb-title { font-size: 15px; font-weight: 800; color: var(--fg); display: flex; align-items: center; gap: 6px; }
+  .tb-title .teemo { font-size: 16px; }
+  .tb-search { flex: 1; max-width: 280px; margin-left: auto; border: 1px solid var(--border); border-radius: var(--btn-r); padding: 6px 14px; background: var(--bg); color: var(--muted); font-size: 12px; outline: none; }
+  .tb-mode { display: flex; border: 1px solid var(--border); border-radius: var(--btn-r); overflow: hidden; background: var(--bg); }
+  .tb-mode-btn { padding: 5px 12px; font-size: 11px; font-weight: 700; color: var(--muted); background: transparent; border: none; cursor: pointer; }
+  .tb-mode-btn.on { background: var(--brand); color: #fff; }
+  .tb-time { font-size: 10px; color: var(--muted-soft); white-space: nowrap; font-family: monospace; }
+
+  /* ── Content ── */
+  .ct { padding: 16px 20px; overflow-y: auto; flex: 1; }
+
+  /* Daily Brief */
+  .db { border: 1px solid rgba(0,163,207,0.12); border-radius: var(--r); padding: 20px; background: linear-gradient(135deg, rgba(0,163,207,0.04) 0%, rgba(124,58,237,0.03) 100%); margin-bottom: 16px; position: relative; overflow: hidden; }
+  .db::before { content: ""; position: absolute; top: -30px; right: -10px; width: 120px; height: 120px; border-radius: 50%; background: radial-gradient(circle, rgba(0,212,255,0.08) 0%, transparent 70%); pointer-events: none; }
+  .db-hd { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; position: relative; }
+  .db-hd h3 { font-size: 14px; font-weight: 800; display: flex; align-items: center; gap: 6px; color: var(--fg); }
+  .db-hd h3 .ico { width: 24px; height: 24px; border-radius: 7px; background: rgba(0,163,207,0.1); display: flex; align-items: center; justify-content: center; font-size: 12px; }
+  .db-date { font-size: 10px; color: var(--muted-soft); font-family: monospace; }
+  .db-body { display: grid; grid-template-columns: 1fr auto; gap: 16px; position: relative; align-items: start; }
+  @media (max-width: 800px) { .db-body { grid-template-columns: 1fr; } }
+  .db-text { font-size: 13px; color: var(--muted); line-height: 1.7; }
+  .db-text strong { color: var(--brand); font-weight: 700; }
+  .db-text em { color: var(--brand-2); font-style: normal; font-weight: 600; }
+  .db-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .db-st { border: 1px solid var(--border); border-radius: var(--r-xs); padding: 10px; background: var(--card-solid); text-align: center; min-width: 72px; }
+  .db-st-n { font-size: 20px; font-weight: 900; font-variant-numeric: tabular-nums; }
+  .db-st-n.c1 { color: var(--brand); }
+  .db-st-n.c2 { color: var(--brand-2); }
+  .db-st-n.c3 { color: var(--good); }
+  .db-st-n.c4 { color: var(--warn); }
+  .db-st-l { font-size: 10px; color: var(--muted-soft); margin-top: 2px; }
+
+  /* Bento Grid */
+  .bento { display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: minmax(60px, auto); gap: 10px; margin-bottom: 16px; }
+  @media (max-width: 800px) { .bento { grid-template-columns: 1fr; } .bento > * { grid-column: span 1 !important; grid-row: auto !important; } }
+  .b-hot { grid-column: span 4; }
+  .b-teemo { grid-column: span 2; }
+  .b-n1 { grid-column: span 3; }
+  .b-n2 { grid-column: span 3; }
+  .b-health { grid-column: span 2; }
+  .b-activity { grid-column: span 4; }
+
+  .bc { border: 1px solid var(--border); border-radius: var(--r-sm); padding: 14px; background: var(--card-solid); transition: all 0.15s; }
+  .bc:hover { border-color: var(--border-hover); box-shadow: 0 2px 12px rgba(15,23,42,0.04); }
+  .bc-hd { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+  .bc-hd h4 { font-size: 12px; font-weight: 700; color: var(--fg); display: flex; align-items: center; gap: 5px; }
+  .bc-hd .more { font-size: 10px; color: var(--brand); text-decoration: none; font-weight: 600; }
+  .bc-hd .more:hover { text-decoration: underline; }
+
+  /* Hot list */
+  .hl-row { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-top: 1px solid var(--border); }
+  .hl-row:first-child { border-top: none; }
+  .hl-rk { font-size: 13px; font-weight: 900; min-width: 18px; font-variant-numeric: tabular-nums; color: var(--muted-soft); }
+  .hl-rk.g1 { color: var(--brand); }
+  .hl-rk.g2 { color: var(--brand-2); }
+  .hl-rk.g3 { color: var(--warn); }
+  .hl-tt { flex: 1; font-size: 12px; color: var(--fg); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; }
+  .hl-tt:hover { color: var(--brand); }
+  .hl-mt { font-size: 10px; color: var(--muted-soft); white-space: nowrap; }
+
+  /* Teemo panel */
+  .tp { height: 100%; display: flex; flex-direction: column; }
+  .tp-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  .tp-avatar { width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, rgba(0,163,207,0.12) 0%, rgba(124,58,237,0.08) 100%); display: flex; align-items: center; justify-content: center; font-size: 18px; border: 1px solid rgba(0,163,207,0.15); }
+  .tp-info h5 { font-size: 13px; font-weight: 700; color: var(--fg); }
+  .tp-info span { font-size: 10px; color: var(--muted-soft); }
+  .tp-quote { flex: 1; font-size: 12px; color: var(--muted); line-height: 1.6; padding: 10px; border-radius: var(--r-xs); background: var(--bg); border-left: 3px solid var(--brand); margin-bottom: 10px; }
+  .tp-items { display: grid; gap: 4px; }
+  .tp-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--muted); }
+  .tp-item .dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+
+  /* News card */
+  .nc { display: flex; flex-direction: column; height: 100%; }
+  .nc-meta { display: flex; align-items: center; gap: 5px; margin-bottom: 6px; flex-wrap: wrap; }
+  .nc-badge { font-size: 9px; font-weight: 700; padding: 2px 7px; border-radius: var(--btn-r); }
+  .nc-badge.src { background: var(--bg); color: var(--muted-soft); border: 1px solid var(--border); }
+  .nc-badge.score { background: rgba(0,163,207,0.08); color: var(--brand); border: 1px solid rgba(0,163,207,0.15); }
+  .nc-badge.cat { background: rgba(124,58,237,0.06); color: var(--brand-2); border: 1px solid rgba(124,58,237,0.12); }
+  .nc-badge.curated { background: rgba(0,163,207,0.06); color: var(--brand); border: 1px solid rgba(0,163,207,0.12); }
+  .nc-title { font-size: 13px; font-weight: 700; color: var(--fg); line-height: 1.4; margin-bottom: 4px; text-decoration: none; display: block; }
+  .nc-title:hover { color: var(--brand); }
+  .nc-desc { font-size: 11px; color: var(--muted); line-height: 1.5; flex: 1; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .nc-foot { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); }
+  .nc-tags { display: flex; gap: 3px; }
+  .nc-tag { font-size: 9px; padding: 1px 6px; border-radius: var(--btn-r); background: var(--bg); color: var(--muted-soft); border: 1px solid var(--border); }
+  .nc-link { font-size: 10px; color: var(--brand); text-decoration: none; font-weight: 700; }
+  .nc-link:hover { text-decoration: underline; }
+
+  /* Health ring */
+  .hp { display: flex; flex-direction: column; align-items: center; }
+  .hp-ring { width: 64px; height: 64px; border-radius: 50%; border: 3px solid var(--good); display: flex; align-items: center; justify-content: center; margin-bottom: 8px; box-shadow: 0 0 12px rgba(22,163,74,0.1); }
+  .hp-ring-n { font-size: 16px; font-weight: 900; color: var(--good); }
+  .hp-ring-l { font-size: 11px; color: var(--muted); text-align: center; margin-bottom: 8px; }
+  .hp-items { width: 100%; display: grid; gap: 3px; }
+  .hp-item { display: flex; align-items: center; justify-content: space-between; font-size: 10px; padding: 2px 0; }
+  .hp-item-name { color: var(--muted); }
+  .hp-item-st { font-weight: 700; }
+  .hp-item-st.ok { color: var(--good); }
+
+  /* Activity */
+  .ag { display: flex; gap: 2px; flex-wrap: wrap; }
+  .ag-c { width: 10px; height: 10px; border-radius: 2px; background: var(--bg); border: 1px solid var(--border); }
+  .ag-c.l1 { background: rgba(0,163,207,0.12); border-color: rgba(0,163,207,0.15); }
+  .ag-c.l2 { background: rgba(0,163,207,0.25); border-color: rgba(0,163,207,0.2); }
+  .ag-c.l3 { background: rgba(0,163,207,0.45); border-color: rgba(0,163,207,0.3); }
+  .ag-c.l4 { background: var(--brand); border-color: var(--brand); }
+  .ag-lg { display: flex; align-items: center; gap: 3px; margin-top: 8px; font-size: 9px; color: var(--muted-soft); }
+  .ag-lg .ag-c { width: 8px; height: 8px; }
+
+  /* ── Principles ── */
+  .princ { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .pc { border: 1px solid var(--border); border-radius: var(--r-sm); padding: 18px; background: var(--card-solid); }
+  .pc .ico { font-size: 22px; margin-bottom: 8px; }
+  .pc h4 { font-size: 13px; font-weight: 700; color: var(--fg); margin-bottom: 4px; }
+  .pc p { font-size: 11px; color: var(--muted); line-height: 1.5; }
+
+  /* ── Phase ── */
+  .ph { border: 1px solid var(--border); border-radius: var(--r-sm); padding: 18px 20px; background: var(--card-solid); margin-bottom: 10px; }
+  .ph-tag { display: inline-block; font-size: 9px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; margin-bottom: 6px; }
+  .ph-tag.p1 { background: rgba(0,163,207,0.08); color: var(--brand); }
+  .ph-tag.p2 { background: rgba(124,58,237,0.08); color: var(--brand-2); }
+  .ph-tag.p3 { background: rgba(22,163,74,0.08); color: var(--good); }
+  .ph h3 { font-size: 15px; font-weight: 800; color: var(--fg); margin-bottom: 4px; }
+  .ph p { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 8px; }
+  .ph ul { padding-left: 16px; }
+  .ph li { font-size: 11px; color: var(--muted); line-height: 1.7; }
+
+  .divider { height: 1px; background: var(--border); margin: 48px 0; }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <header class="doc-hd">
+    <div class="tag">v3 · 最终方案</div>
+    <h1>AI 雷达重构 · <em>提莫版</em></h1>
+    <p>只有提莫一个角色，配色对齐主站 lab 皮肤，纯中文无翻译</p>
+  </header>
+
+  <!-- ══════ 1 ══════ -->
+  <section class="sec">
+    <div class="sec-num">1</div>
+    <h2>配色方案：对齐主站</h2>
+    <p class="sub">直接使用 cyber-blitz 主站 lab 皮肤的 CSS 变量，确保雷达和主站视觉一体</p>
+
+    <div class="pal">
+      <div class="sw"><div class="sw-cl" style="background:#f4f7fa"></div><div class="sw-info"><div class="sw-nm">背景</div><div class="sw-hx">#F4F7FA</div></div></div>
+      <div class="sw"><div class="sw-cl" style="background:#ffffff;border-bottom:1px solid #eee"></div><div class="sw-info"><div class="sw-nm">卡片面</div><div class="sw-hx">#FFFFFF</div></div></div>
+      <div class="sw"><div class="sw-cl" style="background:#0f172a"></div><div class="sw-info"><div class="sw-nm">主文字</div><div class="sw-hx">#0F172A</div></div></div>
+      <div class="sw"><div class="sw-cl" style="background:#64748b"></div><div class="sw-info"><div class="sw-nm">副文字</div><div class="sw-hx">#64748B</div></div></div>
+      <div class="sw"><div class="sw-cl" style="background:#00a3cf"></div><div class="sw-info"><div class="sw-nm">品牌青</div><div class="sw-hx">#00A3CF</div></div></div>
+      <div class="sw"><div class="sw-cl" style="background:#7c3aed"></div><div class="sw-info"><div class="sw-nm">品牌紫</div><div class="sw-hx">#7C3AED</div></div></div>
+      <div class="sw"><div class="sw-cl" style="background:#00d4ff"></div><div class="sw-info"><div class="sw-nm">辉光青</div><div class="sw-hx">#00D4FF</div></div></div>
+      <div class="sw"><div class="sw-cl" style="background:#16a34a"></div><div class="sw-info"><div class="sw-nm">正常绿</div><div class="sw-hx">#16A34A</div></div></div>
+    </div>
+
+    <div class="co">
+      <h4>色彩使用规则</h4>
+      <p>
+        <strong>品牌青 #00a3cf</strong> → 主强调色：选中态、链接、提莫相关、评分徽章<br>
+        <strong>品牌紫 #7c3aed</strong> → 次强调色：分类标签、渐变点缀、热点 TOP2<br>
+        <strong>辉光青 #00d4ff</strong> → 光晕效果：简报卡背景渐变、hover glow<br>
+        <strong>所有 border</strong> → <code>rgba(15,23,42,0.08)</code>，和主站一致<br>
+        <strong>圆角</strong> → <code>22px</code>（大容器）/ <code>12px</code>（卡片）/ <code>999px</code>（按钮），沿用主站规范
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════ 2 ══════ -->
+  <section class="sec">
+    <div class="sec-num">2</div>
+    <h2>角色方案：只有提莫</h2>
+    <p class="sub">提莫是侦察兵，天然适合"雷达"概念。其他角色全部移除，提莫作为唯一品牌吉祥物</p>
+
+    <div class="diff">
+      <div class="diff-col old">
+        <div class="diff-label">✗ 原版多角色方案</div>
+        <div class="diff-body">
+          6 个角色各管一个频道：<br>
+          提莫=全部 / 黑默丁格=精选 / 吉格斯=热点…<br><br>
+          <span class="x">✗</span> 角色太多，用户记不住<br>
+          <span class="x">✗</span> 和主站 IP 矩阵冲突<br>
+          <span class="x">✗</span> 每个角色要设计头像和配色
+        </div>
+      </div>
+      <div class="diff-col new">
+        <div class="diff-label">✓ 提莫独占方案</div>
+        <div class="diff-body">
+          提莫 = 雷达的侦察兵 / 品牌吉祥物：<br>
+          <strong>提莫侦察中</strong> = 正在抓取信源<br>
+          <strong>提莫发现了 N 条信号</strong> = 今日更新数<br>
+          <strong>提莫的雷达</strong> = 热点板块<br><br>
+          <span class="v">✓</span> 一个角色足够，辨识度反而更高<br>
+          <span class="v">✓</span> 侦察兵 × 雷达 = 天然语义匹配<br>
+          <span class="v">✓</span> 频道用分类代替角色（全部/模型/产品/社区…）
+        </div>
+      </div>
+    </div>
+
+    <div class="co">
+      <h4>提莫在界面中的位置</h4>
+      <p>
+        ① <strong>侧栏品牌区</strong>：Logo 旁写「赛博维克托 · 雷达」，下方 Slogan 徽章用提莫语气写<br>
+        ② <strong>顶部条标题</strong>：「🍄 提莫侦察中」随频道切换（如切到模型类 → 「🍄 提莫扫描模型」）<br>
+        ③ <strong>每日简报</strong>：用提莫第一人称写总结（"今天我替你盯了 32 个信源…"）<br>
+        ④ <strong>右侧面板</strong>：提莫头像 + 一句点评 + 统计数据
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════ 3 ══════ -->
+  <section class="sec">
+    <div class="sec-num">3</div>
+    <h2>结构差异化：和原版零相似度</h2>
+    <p class="sub">布局骨架完全重做，截图对比无法识别为 fork</p>
+
+    <table class="tbl">
+      <thead><tr><th style="width:130px">维度</th><th>原版</th><th style="color:var(--brand)">重构版</th></tr></thead>
+      <tbody>
+        <tr><td class="lbl">页面布局</td><td>全宽单栏，从上到下</td><td><strong>左侧栏 + 右侧主区</strong>（Dashboard 风格）</td></tr>
+        <tr><td class="lbl">导航</td><td>顶部横向滚动 Tab</td><td><strong>侧栏分类列表</strong>（全部/精选/模型/产品/社区/论文）</td></tr>
+        <tr><td class="lbl">首屏</td><td>Hero 大标题 + 外链按钮</td><td><strong>提莫每日简报卡</strong>（今日摘要 + 4 个数据）</td></tr>
+        <tr><td class="lbl">信息排列</td><td>时间轴竖线 + 单列卡片</td><td><strong>Bento 棋盘格</strong>（大小卡片错落排列）</td></tr>
+        <tr><td class="lbl">热点展示</td><td>独立编号列表板块</td><td>嵌入棋盘格左侧大卡，金银铜色序号</td></tr>
+        <tr><td class="lbl">独有组件</td><td>无</td><td>每日简报 + 提莫面板 + 信源健康环 + 活动热力图</td></tr>
+        <tr><td class="lbl">品牌</td><td>"AI News Radar"</td><td>"赛博维克托 · 雷达" + 提莫吉祥物</td></tr>
+        <tr><td class="lbl">配色</td><td>暖白底 + 深青强调</td><td>浅蓝灰底 + 品牌青 + 品牌紫（对齐主站）</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══════ 4. Mockup ══════ -->
+  <section class="sec">
+    <div class="sec-num">4</div>
+    <h2>完整界面 Mockup</h2>
+    <p class="sub">左侧栏 + 提莫品牌 + Bento 棋盘格 + 主站配色</p>
+
+    <div class="mock">
+      <div class="mock-bar">
+        <div class="mock-dot"></div><div class="mock-dot"></div><div class="mock-dot"></div>
+        <div class="mock-url">wenxiangwu.github.io/ai-news-radar/</div>
+      </div>
+      <div class="app">
+
+        <!-- Sidebar -->
+        <aside class="sb">
+          <div class="sb-brand">
+            <div class="sb-brand-row">
+              <div class="sb-logo">V</div>
+              <div>
+                <div class="sb-brand-name">赛博维克托</div>
+                <div class="sb-brand-sub">AI NEWS RADAR</div>
+              </div>
+            </div>
+            <div class="sb-slogan">🍄 提莫替你盯着呢</div>
+          </div>
+          <nav class="sb-nav">
+            <div class="sb-nav-lbl">频道</div>
+            <div class="sb-nav-item active">
+              <div class="sb-nav-ico" style="background:rgba(0,163,207,0.08);color:var(--brand)">🔍</div>
+              全部
+              <span class="sb-nav-cnt">236</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-ico" style="background:rgba(0,163,207,0.08);color:var(--brand)">✦</div>
+              精选
+              <span class="sb-nav-cnt">48</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-ico" style="background:rgba(217,119,6,0.08);color:var(--warn)">🔥</div>
+              热点
+              <span class="sb-nav-cnt">8</span>
+            </div>
+            <div class="sb-div"></div>
+            <div class="sb-nav-lbl">分类</div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-ico" style="background:rgba(0,163,207,0.06);color:var(--brand)">🤖</div>
+              模型
+              <span class="sb-nav-cnt">34</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-ico" style="background:rgba(124,58,237,0.06);color:var(--brand-2)">📦</div>
+              产品
+              <span class="sb-nav-cnt">24</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-ico" style="background:rgba(0,163,207,0.06);color:var(--brand)">⚡</div>
+              开发者
+              <span class="sb-nav-cnt">16</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-ico" style="background:rgba(124,58,237,0.06);color:var(--brand-2)">💬</div>
+              社区
+              <span class="sb-nav-cnt">68</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-ico" style="background:rgba(0,163,207,0.06);color:var(--brand)">📄</div>
+              论文
+              <span class="sb-nav-cnt">11</span>
+            </div>
+          </nav>
+          <div class="sb-foot">
+            <div class="sb-status"><div class="sb-dot"></div><strong>16/16</strong> 源正常</div>
+            <div class="sb-status">更新 <strong>15:49</strong></div>
+          </div>
+        </aside>
+
+        <!-- Main -->
+        <div class="mn">
+          <div class="tb">
+            <div class="tb-title"><span class="teemo">🍄</span> 提莫侦察中</div>
+            <input class="tb-search" placeholder="搜索 AI 信号…" readonly>
+            <div class="tb-mode">
+              <button class="tb-mode-btn on">✦ 精选</button>
+              <button class="tb-mode-btn">☰ 全量</button>
+            </div>
+            <div class="tb-time">10-27 15:49</div>
+          </div>
+
+          <div class="ct">
+
+            <!-- Daily Brief -->
+            <div class="db">
+              <div class="db-hd">
+                <h3><span class="ico">📡</span> 提莫今日简报</h3>
+                <span class="db-date">2026-10-27 · 周一</span>
+              </div>
+              <div class="db-body">
+                <div class="db-text">
+                  今天我替你盯了 <strong>32 个信源</strong>，捞回 <strong>236 条信号</strong>。
+                  主旋律是<em>模型升级</em>——GPT-5 和 Claude 4.5 同日发布，Agent 能力同时拉满。
+                  Cursor 的 $90B 估值说明 AI 编程赛道还在加速。我标了 <strong>48 条精选</strong>，够你读一下午的。
+                </div>
+                <div class="db-stats">
+                  <div class="db-st"><div class="db-st-n c1">236</div><div class="db-st-l">今日信号</div></div>
+                  <div class="db-st"><div class="db-st-n c2">48</div><div class="db-st-l">精选推荐</div></div>
+                  <div class="db-st"><div class="db-st-n c3">16/16</div><div class="db-st-l">信源正常</div></div>
+                  <div class="db-st"><div class="db-st-n c4">8</div><div class="db-st-l">热点事件</div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bento Grid -->
+            <div class="bento">
+
+              <!-- Hot: 4 cols -->
+              <div class="bc b-hot">
+                <div class="bc-hd">
+                  <h4>🔥 提莫的雷达 · 热点</h4>
+                  <a class="more" href="#">全部 →</a>
+                </div>
+                <div class="hl-row"><span class="hl-rk g1">1</span><a class="hl-tt" href="#">OpenAI 发布 GPT-5：多模态推理全面升级</a><span class="hl-mt">3 源 · 4h</span></div>
+                <div class="hl-row"><span class="hl-rk g2">2</span><a class="hl-tt" href="#">Claude 4.5 Sonnet 上线：Agent 能力大幅提升</a><span class="hl-mt">5 源 · 6h</span></div>
+                <div class="hl-row"><span class="hl-rk g3">3</span><a class="hl-tt" href="#">DeepMind 开源 Gemini 2.0 Flash 轻量模型</a><span class="hl-mt">2 源 · 8h</span></div>
+                <div class="hl-row"><span class="hl-rk">4</span><a class="hl-tt" href="#">Cursor 完成 $900M 融资，估值 $90B</a><span class="hl-mt">2 源 · 10h</span></div>
+                <div class="hl-row"><span class="hl-rk">5</span><a class="hl-tt" href="#">Anthropic 发布 Model Context Protocol 开源标准</a><span class="hl-mt">1 源 · 12h</span></div>
+              </div>
+
+              <!-- Teemo Panel: 2 cols -->
+              <div class="bc b-teemo">
+                <div class="tp">
+                  <div class="tp-head">
+                    <div class="tp-avatar">🍄</div>
+                    <div class="tp-info">
+                      <h5>提莫</h5>
+                      <span>侦察兵 · 你的信源哨兵</span>
+                    </div>
+                  </div>
+                  <div class="tp-quote">
+                    "今天模型圈炸了，GPT-5 和 Claude 4.5 对着发。我帮你标了重点，先看精选不会错。"
+                  </div>
+                  <div class="tp-items">
+                    <div class="tp-item"><div class="dot" style="background:var(--brand)"></div>今日精选 48 条</div>
+                    <div class="tp-item"><div class="dot" style="background:var(--brand-2)"></div>模型类占比 35%</div>
+                    <div class="tp-item"><div class="dot" style="background:var(--warn)"></div>最高评分 96 分</div>
+                    <div class="tp-item"><div class="dot" style="background:var(--good)"></div>连续更新 127 天</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- News 1: 3 cols -->
+              <div class="bc b-n1">
+                <div class="nc">
+                  <div class="nc-meta">
+                    <span class="nc-badge src">AIbase</span>
+                    <span class="nc-badge score">92 分</span>
+                    <span class="nc-badge cat">模型</span>
+                    <span class="nc-badge curated">✦ 精选</span>
+                  </div>
+                  <a class="nc-title" href="#">OpenAI 发布 GPT-5：多模态推理全面升级，benchmarks 刷新纪录</a>
+                  <div class="nc-desc">模型在数学、编程和多语言理解上均有显著提升，在多项 benchmarks 上刷新纪录。新模型支持原生图像、音频和视频输入。</div>
+                  <div class="nc-foot">
+                    <div class="nc-tags"><span class="nc-tag">GPT-5</span><span class="nc-tag">OpenAI</span><span class="nc-tag">多模态</span></div>
+                    <a class="nc-link" href="#">原文 ↗</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- News 2: 3 cols -->
+              <div class="bc b-n2">
+                <div class="nc">
+                  <div class="nc-meta">
+                    <span class="nc-badge src">AI工程化</span>
+                    <span class="nc-badge score">87 分</span>
+                    <span class="nc-badge cat" style="background:rgba(0,163,207,0.06);color:var(--brand);border-color:rgba(0,163,207,0.12)">产品</span>
+                  </div>
+                  <a class="nc-title" href="#">Claude 4.5 Sonnet 上线：Agent 能力大幅提升，支持 1M 上下文</a>
+                  <div class="nc-desc">支持 1M token 上下文窗口，新增 computer use 能力，可以直接操作浏览器和桌面应用。SWE-bench 得分提升 40%。</div>
+                  <div class="nc-foot">
+                    <div class="nc-tags"><span class="nc-tag">Claude</span><span class="nc-tag">Agent</span><span class="nc-tag">Anthropic</span></div>
+                    <a class="nc-link" href="#">原文 ↗</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Health: 2 cols -->
+              <div class="bc b-health">
+                <div class="hp">
+                  <div class="bc-hd" style="width:100%"><h4>📡 信源状态</h4></div>
+                  <div class="hp-ring"><span class="hp-ring-n">100%</span></div>
+                  <div class="hp-ring-l">16/16 源正常</div>
+                  <div class="hp-items">
+                    <div class="hp-item"><span class="hp-item-name">AIbase</span><span class="hp-item-st ok">●</span></div>
+                    <div class="hp-item"><span class="hp-item-name">NewsNow</span><span class="hp-item-st ok">●</span></div>
+                    <div class="hp-item"><span class="hp-item-name">Hacker News</span><span class="hp-item-st ok">●</span></div>
+                    <div class="hp-item"><span class="hp-item-name">ArXiv</span><span class="hp-item-st ok">●</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Activity: 4 cols -->
+              <div class="bc b-activity">
+                <div class="bc-hd">
+                  <h4>📊 提莫的侦察记录</h4>
+                  <span style="font-size:10px;color:var(--muted-soft)">过去 30 天</span>
+                </div>
+                <div class="ag">
+                  <div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l3"></div><div class="ag-c l4"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l3"></div><div class="ag-c l4"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l4"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l3"></div><div class="ag-c l4"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l4"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l3"></div><div class="ag-c l4"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l3"></div><div class="ag-c l4"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l3"></div><div class="ag-c l2"></div><div class="ag-c l1"></div><div class="ag-c"></div><div class="ag-c l1"></div><div class="ag-c l2"></div><div class="ag-c l4"></div>
+                </div>
+                <div class="ag-lg">
+                  少
+                  <div class="ag-c"></div>
+                  <div class="ag-c l1"></div>
+                  <div class="ag-c l2"></div>
+                  <div class="ag-c l3"></div>
+                  <div class="ag-c l4"></div>
+                  多
+                </div>
+              </div>
+
+            </div><!-- /bento -->
+          </div><!-- /content -->
+        </div><!-- /main -->
+      </div><!-- /app -->
+    </div><!-- /mock -->
+  </section>
+
+  <!-- ══════ 5. 去 i18n ══════ -->
+  <section class="sec">
+    <div class="sec-num">5</div>
+    <h2>去翻译 · 纯中文</h2>
+    <p class="sub">移除 i18n 相关代码，所有文案固定为中文</p>
+
+    <table class="tbl">
+      <thead><tr><th>移除项</th><th>说明</th></tr></thead>
+      <tbody>
+        <tr><td class="lbl">messages/ 目录</td><td>删除 zh-CN.json / zh-TW.json / en.json / ja.json 四个翻译文件</td></tr>
+        <tr><td class="lbl">src/i18n/ 目录</td><td>删除 routing.ts 和配置文件</td></tr>
+        <tr><td class="lbl">next.config.ts 中的 i18n 配置</td><td>移除 locales / defaultLocale 等配置</td></tr>
+        <tr><td class="lbl">组件中的 useTranslation()</td><td>替换为直接写中文字符串</td></tr>
+        <tr><td class="lbl">[locale] 路由段</td><td>app/[locale]/ 改为 app/，去掉语言前缀路由</td></tr>
+      </tbody>
+    </table>
+
+    <div class="co co-warn">
+      <h4>注意：这个去 i18n 是针对雷达站点</h4>
+      <p>雷达站（ai-news-radar）目前是纯静态 HTML/JS，本身没有 i18n。如果后续迁移到 Next.js，直接不做 i18n 即可。主站 cyber-blitz 的 i18n 不受影响。</p>
+    </div>
+  </section>
+
+  <!-- ══════ 6. 实施 ══════ -->
+  <section class="sec">
+    <div class="sec-num">6</div>
+    <h2>实施路线</h2>
+    <p class="sub">三个阶段，总计 3-5 天</p>
+
+    <div class="ph">
+      <div class="ph-tag p1">Phase 1 · 骨架重建（2 天）</div>
+      <h3>侧栏 + 顶部条 + Bento 棋盘格</h3>
+      <p>彻底替换页面布局结构，这是区分 fork 最关键的一步。</p>
+      <ul>
+        <li>重写 index.html：左侧栏 + 右侧主区的两栏布局</li>
+        <li>侧栏：品牌 Logo + 提莫 Slogan + 分类导航 + 底部状态</li>
+        <li>顶部条：频道标题 + 搜索框 + 精选/全量开关 + 更新时间</li>
+        <li>主区：每日简报卡 + Bento 棋盘格（CSS Grid 6 列）</li>
+        <li>重写 styles.css：使用主站 lab 皮肤色板</li>
+        <li>重写 app.js 渲染函数：适配新的 DOM 结构</li>
+      </ul>
+    </div>
+
+    <div class="ph">
+      <div class="ph-tag p2">Phase 2 · 提莫注入 + 独有组件（1-2 天）</div>
+      <h3>每日简报 + 提莫面板 + 信源健康环 + 活动热力图</h3>
+      <p>实现 4 个原版没有的组件，彻底消除 fork 痕迹。</p>
+      <ul>
+        <li>提莫每日简报卡：从 daily-brief.json 读摘要 + 统计数据</li>
+        <li>提莫状态面板：头像 + 第一人称点评 + 统计项</li>
+        <li>信源健康环：SVG 圆环 + source-status.json 数据</li>
+        <li>活动热力图：从历史数据聚合 30 天活动量</li>
+        <li>所有文案用提莫语气："今天我替你盯了 N 个信源…"</li>
+      </ul>
+    </div>
+
+    <div class="ph">
+      <div class="ph-tag p3">Phase 3 · 打磨 + 上线（1 天）</div>
+      <h3>响应式 + 动效 + 部署</h3>
+      <ul>
+        <li>移动端：侧栏折叠为底部 Tab 栏或汉堡菜单</li>
+        <li>meta 标签更新：title="赛博维克托 · 雷达" / og 信息</li>
+        <li>卡片 hover 效果 + 简报卡背景光晕</li>
+        <li>GitHub Pages 部署验证</li>
+        <li>原版保留在 classic/ 目录备用</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════ 7. 对比检查 ══════ -->
+  <section class="sec">
+    <div class="sec-num">7</div>
+    <h2>对比检查：还能认出是 fork 吗？</h2>
+    <p class="sub">逐项确认每个"可识别点"都已被消除</p>
+
+    <table class="tbl">
+      <thead><tr><th>原版识别点</th><th>状态</th><th>处理</th></tr></thead>
+      <tbody>
+        <tr><td class="lbl">全宽单栏线性布局</td><td style="color:var(--good)">✓ 消除</td><td>左侧栏 + Bento 棋盘格</td></tr>
+        <tr><td class="lbl">顶部横向滚动 Tab</td><td style="color:var(--good)">✓ 消除</td><td>侧栏分类列表</td></tr>
+        <tr><td class="lbl">时间轴竖线卡片流</td><td style="color:var(--good)">✓ 消除</td><td>Bento 大小卡片错落</td></tr>
+        <tr><td class="lbl">Hero 大标题 + 外链</td><td style="color:var(--good)">✓ 消除</td><td>提莫每日简报卡</td></tr>
+        <tr><td class="lbl">暖白底 #f6f6f2</td><td style="color:var(--good)">✓ 消除</td><td>浅蓝灰 #f4f7fa（主站色）</td></tr>
+        <tr><td class="lbl">深青 #126a73 强调</td><td style="color:var(--good)">✓ 消除</td><td>品牌青 #00a3cf + 品牌紫 #7c3aed</td></tr>
+        <tr><td class="lbl">通用雷达 Logo</td><td style="color:var(--good)">✓ 消除</td><td>渐变 V 字 Logo + 提莫吉祥物</td></tr>
+        <tr><td class="lbl">"AI News Radar" 标题</td><td style="color:var(--good)">✓ 消除</td><td>"赛博维克托 · 雷达"</td></tr>
+        <tr><td class="lbl">英文 UI 文案</td><td style="color:var(--good)">✓ 消除</td><td>全中文 + 提莫语气</td></tr>
+        <tr><td class="lbl">高级筛选折叠面板</td><td style="color:var(--good)">✓ 消除</td><td>侧栏底部源状态 + 搜索框</td></tr>
+        <tr><td class="lbl">WaytoAGI 独立板块</td><td style="color:var(--good)">✓ 消除</td><td>可嵌入棋盘格或移除</td></tr>
+      </tbody>
+    </table>
+
+    <div class="co">
+      <h4>结论</h4>
+      <p>经过骨架重建 + 4 个独有组件 + 提莫品牌注入 + 主站配色对齐后，截图对比原版，<strong>没有任何一个视觉元素可以直接对应</strong>。布局、导航、首屏、卡片排列、品牌标识、配色方案全部不同。即使有人看过原版，也无法识别这是 fork。</p>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

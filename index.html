@@ -1,204 +1,292 @@
 <!doctype html>
-<html lang="zh-CN" data-radar-view="mobile">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI News Radar｜24 小时 AI 更新雷达</title>
+    <title>迅捷哨兵｜24 小时 AI 前沿追踪</title>
     <meta
       name="description"
-      content="自动整理过去 24 小时值得看的 AI、模型和开发者工具更新；伯乐Skill（Scout Skill）帮你从一堆信源里选出千里马。"
+      content="提莫替你盯着 32 个信源，自动整理过去 24 小时值得看的 AI、模型和开发者工具更新。"
     />
     <link rel="canonical" href="https://news.learnprompt.pro/" />
-    <meta property="og:title" content="AI News Radar｜24 小时 AI 更新雷达" />
+    <meta property="og:title" content="迅捷哨兵｜24 小时 AI 前沿追踪" />
     <meta
       property="og:description"
-      content="自动整理过去 24 小时值得看的 AI、模型和开发者工具更新；伯乐Skill（Scout Skill）帮你从一堆信源里选出千里马。"
+      content="提莫替你盯着 32 个信源，自动整理过去 24 小时值得看的 AI、模型和开发者工具更新。"
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://news.learnprompt.pro/" />
-    <meta property="og:site_name" content="AI News Radar" />
-    <meta name="application-name" content="AI News Radar" />
-    <meta name="theme-color" content="#f6f6f2" />
+    <meta property="og:site_name" content="迅捷哨兵" />
+    <meta name="application-name" content="迅捷哨兵" />
+    <meta name="theme-color" content="#f4f7fa" />
     <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="AI News Radar" />
+    <meta name="apple-mobile-web-app-title" content="迅捷哨兵" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="AI News Radar｜24 小时 AI 更新雷达" />
+    <meta name="twitter:title" content="迅捷哨兵｜24 小时 AI 前沿追踪" />
     <meta
       name="twitter:description"
-      content="自动整理过去 24 小时值得看的 AI、模型和开发者工具更新；伯乐Skill（Scout Skill）帮你从一堆信源里选出千里马。"
+      content="提莫替你盯着 32 个信源，自动整理过去 24 小时值得看的 AI、模型和开发者工具更新。"
     />
     <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
     <link rel="icon" href="./assets/icons/favicon-32.png" sizes="32x32" type="image/png" />
     <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png" sizes="180x180" />
     <link rel="manifest" href="./site.webmanifest" />
-    <script src="./assets/view-mode.js?v=dual-view-0713c" data-root="./"></script>
-    <link rel="stylesheet" href="./assets/styles.css?v=aihot-0715b" />
-    <link rel="stylesheet" href="./assets/view-switch.css?v=dual-view-0713b" />
+    <link rel="stylesheet" href="./assets/styles.css?v=v3-001" />
   </head>
   <body>
-    <a class="skip-link" href="#hotBoardWrap">跳到当前热点</a>
-    <main class="shell">
-      <header class="hero">
-        <div class="hero-main">
-          <div class="hero-headline">
-            <img class="hero-logo" src="./assets/logo.svg" alt="AI News Radar Logo" />
+    <div class="app">
+      <!-- ══════ 侧栏 ══════ -->
+      <aside class="sb" id="sidebar">
+        <div class="sb-brand">
+          <div class="sb-brand-row">
+            <div class="sb-logo">V</div>
             <div>
-              <h1>AI News Radar</h1>
-              <div class="hero-updated hero-view-row">
-                <span class="updated-label">更新时间</span>
-                <span class="updated" id="updatedAt">加载中...</span>
-                <div class="view-switch" role="group" aria-label="视角切换">
-                  <span class="view-switch-label">视角</span>
-                  <button class="view-switch-btn" type="button" data-radar-view-target="mobile">手机版</button>
-                  <button class="view-switch-btn" type="button" data-radar-view-target="classic">经典版</button>
+              <div class="sb-brand-name">迅捷哨兵</div>
+              <div class="sb-brand-sub">AI前沿追踪</div>
+            </div>
+          </div>
+          <div class="sb-slogan">🍄 提莫替你盯着呢</div>
+        </div>
+
+        <nav class="sb-nav">
+          <div class="sb-nav-lbl">频道</div>
+          <div class="sb-nav-item active" data-section="all">
+            <div class="sb-nav-ico sb-ico-all">🔍</div>
+            <span>全部</span>
+            <span class="sb-nav-cnt" id="cntAll">-</span>
+          </div>
+          <div class="sb-nav-item" data-section="selected">
+            <div class="sb-nav-ico sb-ico-star">✦</div>
+            <span>精选</span>
+            <span class="sb-nav-cnt" id="cntSelected">-</span>
+          </div>
+          <div class="sb-nav-item" data-section="hot">
+            <div class="sb-nav-ico sb-ico-hot">🔥</div>
+            <span>热点</span>
+            <span class="sb-nav-cnt" id="cntHot">-</span>
+          </div>
+
+          <div class="sb-div"></div>
+          <div class="sb-nav-lbl">分类</div>
+          <div class="sb-nav-item" data-section="models">
+            <div class="sb-nav-ico sb-ico-model">🤖</div>
+            <span>模型</span>
+            <span class="sb-nav-cnt" id="cntModels">-</span>
+          </div>
+          <div class="sb-nav-item" data-section="products">
+            <div class="sb-nav-ico sb-ico-prod">📦</div>
+            <span>产品</span>
+            <span class="sb-nav-cnt" id="cntProducts">-</span>
+          </div>
+          <div class="sb-nav-item" data-section="devtools">
+            <div class="sb-nav-ico sb-ico-dev">⚡</div>
+            <span>开发者</span>
+            <span class="sb-nav-cnt" id="cntDevtools">-</span>
+          </div>
+          <div class="sb-nav-item" data-section="community">
+            <div class="sb-nav-ico sb-ico-com">💬</div>
+            <span>社区</span>
+            <span class="sb-nav-cnt" id="cntCommunity">-</span>
+          </div>
+          <div class="sb-nav-item" data-section="research">
+            <div class="sb-nav-ico sb-ico-res">📄</div>
+            <span>论文</span>
+            <span class="sb-nav-cnt" id="cntResearch">-</span>
+          </div>
+        </nav>
+
+        <div class="sb-foot">
+          <div class="sb-status">
+            <div class="sb-dot" id="sbDot"></div>
+            <span id="sbSourceStatus">源状态加载中</span>
+          </div>
+          <div class="sb-status">
+            更新 <strong id="sbUpdatedAt">-</strong>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ══════ 主区 ══════ -->
+      <div class="mn">
+        <!-- 顶部条 -->
+        <div class="tb">
+          <div class="tb-title">
+            <span class="tb-teemo">🍄</span>
+            <span id="tbTitle">提莫侦察中</span>
+          </div>
+          <input
+            class="tb-search"
+            id="searchInput"
+            type="search"
+            placeholder="搜索 AI 信号…"
+            aria-label="搜索 AI 信号"
+          />
+          <div class="tb-mode">
+            <button class="tb-mode-btn on" id="modeSelectedBtn" type="button">✦ 精选</button>
+            <button class="tb-mode-btn" id="modeAllBtn" type="button">☰ 全量</button>
+          </div>
+          <div class="tb-time" id="tbTime">-</div>
+          <button class="tb-menu-btn" id="menuBtn" type="button" aria-label="菜单">☰</button>
+        </div>
+
+        <!-- 内容区 -->
+        <div class="ct" id="contentArea">
+          <!-- 每日简报 -->
+          <div class="db" id="dailyBrief">
+            <div class="db-hd">
+              <h3><span class="db-ico">📡</span> 提莫今日简报</h3>
+              <span class="db-date" id="dbDate">-</span>
+            </div>
+            <div class="db-body">
+              <div class="db-text" id="dbText">
+                提莫正在侦察中，稍后为你汇总今日信号…
+              </div>
+              <div class="db-stats">
+                <div class="db-st">
+                  <div class="db-st-n c1" id="dbStatSignals">-</div>
+                  <div class="db-st-l">今日信号</div>
+                </div>
+                <div class="db-st">
+                  <div class="db-st-n c2" id="dbStatCurated">-</div>
+                  <div class="db-st-l">精选推荐</div>
+                </div>
+                <div class="db-st">
+                  <div class="db-st-n c3" id="dbStatSources">-</div>
+                  <div class="db-st-l">信源正常</div>
+                </div>
+                <div class="db-st">
+                  <div class="db-st-n c4" id="dbStatHot">-</div>
+                  <div class="db-st-l">热点事件</div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="hero-meta">
-          <span class="source-status-pill" id="sourceStatusPill">源状态加载中</span>
-          <div class="hero-links" aria-label="项目入口">
-            <a
-              class="hero-link"
-              href="https://github.com/LearnPrompt/ai-news-radar"
-              target="_blank"
-              rel="noopener noreferrer"
-            >GitHub 与接入指南</a>
-            <a
-              class="hero-link"
-              href="https://aimap.carlwow.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >AI MAP 热点图谱</a>
-            <a
-              class="hero-link"
-              href="https://goodcase.carlwow.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >GoodCase 用例库</a>
-          </div>
-        </div>
 
-        <section class="section-nav-wrap" aria-label="内容栏目">
-          <div class="section-tabs" id="sectionTabs" role="tablist" aria-label="AI 新闻栏目"></div>
-          <div class="section-scroll-hint" aria-hidden="true">左右滑动，查看更多栏目 →</div>
-        </section>
-      </header>
-
-      <section class="primary-controls">
-        <div class="mode-switch curation-mode-switch" role="group" aria-label="精选/全量切换">
-          <button id="modeSelectedBtn" class="mode-btn active" type="button" aria-pressed="true">
-            <span class="mode-btn-icon" aria-hidden="true">&#10022;</span>精选
-          </button>
-          <button id="modeAllBtn" class="mode-btn" type="button" aria-pressed="false">
-            <span class="mode-btn-icon" aria-hidden="true">&#9776;</span>全量
-          </button>
-        </div>
-        <input id="searchInput" type="search" placeholder="搜索 AI 信号 / 来源" aria-label="搜索 AI 信号或来源" />
-        <div class="mode-hint" id="modeHint">精选加载中</div>
-        <button class="clear-filters-btn" id="clearFiltersBtn" type="button" hidden>清除筛选</button>
-      </section>
-
-      <details class="advanced-panel">
-          <summary>
-            <span>高级筛选</span>
-            <span class="advanced-hint">只看某个来源，或检查各信源采集是否正常</span>
-          </summary>
-          <div class="advanced-content">
-            <div class="advanced-controls">
-              <label class="field">
-                <span>具体来源</span>
-                <select id="siteSelect">
-                  <option value="">全部站点</option>
-                </select>
-              </label>
+          <!-- Bento 棋盘格 -->
+          <div class="bento">
+            <!-- 热点：4 列 -->
+            <div class="bc b-hot" id="hotBoard">
+              <div class="bc-hd">
+                <h4>🔥 提莫的雷达 · 热点</h4>
+                <a class="more" href="#" id="hotMoreLink">全部 →</a>
+              </div>
+              <div class="hl-list" id="hotList">
+                <div class="hl-loading">提莫侦察中…</div>
+              </div>
             </div>
-            <div class="data-source-indicator" id="dataSourceIndicator" hidden>
-              <span id="dataSourceIndicatorText"></span>
-              <button type="button" id="dataSourceResetBtn" class="data-source-reset-btn">恢复本地</button>
+
+            <!-- 提莫面板：2 列 -->
+            <div class="bc b-teemo">
+              <div class="tp">
+                <div class="tp-head">
+                  <div class="tp-avatar">🍄</div>
+                  <div class="tp-info">
+                    <h5>提莫</h5>
+                    <span>侦察兵 · 你的信源哨兵</span>
+                  </div>
+                </div>
+                <div class="tp-quote" id="teemoQuote">
+                  "我正在替你盯着所有信源，稍后给你汇报。"
+                </div>
+                <div class="tp-items" id="teemoStats">
+                  <div class="tp-item"><div class="dot" style="background:var(--brand)"></div>加载中…</div>
+                </div>
+              </div>
             </div>
-            <div class="source-health" id="sourceHealth">源状态加载中...</div>
-            <details class="source-detail-panel">
-              <summary>查看源状态详情</summary>
-              <div class="source-health-details" id="sourceHealthDetails"></div>
-              <section class="source-status-table" id="sourceStatusTable" aria-label="源状态详情"></section>
-            </details>
-          </div>
-      </details>
 
-      <section class="list-wrap hot-board-wrap" id="hotBoardWrap" aria-label="当前热点">
-        <div class="list-head">
-          <h2>当前热点</h2>
-          <span id="hotBoardMeta">按热度排序</span>
-        </div>
-        <div id="hotBoardList" class="hot-board-list"></div>
-      </section>
-
-      <section class="list-wrap top3-board-wrap" id="top3BoardWrap" aria-label="今日 TOP3 · 三口味锐评" hidden>
-        <div class="list-head">
-          <h2>今日 TOP3 · 三口味锐评</h2>
-          <span id="top3BoardMeta"></span>
-        </div>
-        <div id="top3BoardList" class="top3-board-list"></div>
-      </section>
-
-      <section class="waytoagi-wrap">
-        <div class="waytoagi-head">
-          <h2>社区更新 · WaytoAGI</h2>
-          <div class="waytoagi-tools">
-            <div class="waytoagi-switch">
-              <button id="waytoagiTodayBtn" class="waytoagi-btn active" type="button" aria-pressed="true">最近更新日</button>
-              <button id="waytoagi7dBtn" class="waytoagi-btn" type="button" aria-pressed="false">近7日</button>
+            <!-- 新闻卡 1：3 列 -->
+            <div class="bc b-n1" id="newsCard1">
+              <div class="nc">
+                <div class="nc-meta" id="nc1Meta"></div>
+                <a class="nc-title" href="#" id="nc1Title" target="_blank" rel="noopener">-</a>
+                <div class="nc-desc" id="nc1Desc">-</div>
+                <div class="nc-foot">
+                  <div class="nc-tags" id="nc1Tags"></div>
+                  <a class="nc-link" href="#" id="nc1Link" target="_blank" rel="noopener">原文 ↗</a>
+                </div>
+              </div>
             </div>
-            <span id="waytoagiUpdatedAt">加载中...</span>
+
+            <!-- 新闻卡 2：3 列 -->
+            <div class="bc b-n2" id="newsCard2">
+              <div class="nc">
+                <div class="nc-meta" id="nc2Meta"></div>
+                <a class="nc-title" href="#" id="nc2Title" target="_blank" rel="noopener">-</a>
+                <div class="nc-desc" id="nc2Desc">-</div>
+                <div class="nc-foot">
+                  <div class="nc-tags" id="nc2Tags"></div>
+                  <a class="nc-link" href="#" id="nc2Link" target="_blank" rel="noopener">原文 ↗</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 信源健康：2 列 -->
+            <div class="bc b-health">
+              <div class="hp">
+                <div class="bc-hd" style="width:100%"><h4>📡 信源状态</h4></div>
+                <div class="hp-ring" id="healthRing">
+                  <span class="hp-ring-n" id="healthPercent">-</span>
+                </div>
+                <div class="hp-ring-l" id="healthLabel">加载中…</div>
+                <div class="hp-items" id="healthItems"></div>
+              </div>
+            </div>
+
+            <!-- 活动热力图：4 列 -->
+            <div class="bc b-activity">
+              <div class="bc-hd">
+                <h4>📊 提莫的侦察记录</h4>
+                <span class="ha-period">过去 30 天</span>
+              </div>
+              <div class="ag" id="activityGrid"></div>
+              <div class="ag-lg">
+                <span>少</span>
+                <div class="ag-c"></div>
+                <div class="ag-c l1"></div>
+                <div class="ag-c l2"></div>
+                <div class="ag-c l3"></div>
+                <div class="ag-c l4"></div>
+                <span>多</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 完整列表 -->
+          <div class="full-list" id="fullListWrap">
+            <div class="fl-hd">
+              <h4 id="flTitle">全部信号</h4>
+              <span class="fl-cnt" id="flCount">-</span>
+            </div>
+            <div class="fl-list" id="newsList"></div>
+            <button class="fl-more" id="loadMoreBtn" type="button" hidden>加载更多</button>
           </div>
         </div>
-        <div id="waytoagiMeta" class="waytoagi-meta"></div>
-        <div id="waytoagiList" class="waytoagi-list"></div>
-      </section>
+      </div>
+    </div>
 
-      <section class="list-wrap" id="newsListWrap">
-        <div class="list-head">
-          <h2 id="listTitle">精选</h2>
-          <div class="list-head-tools">
-            <label id="allDedupeWrap" class="all-dedupe" for="allDedupeToggle">
-              <input id="allDedupeToggle" type="checkbox" checked />
-              <span class="all-dedupe-dot"></span>
-              <span id="allDedupeLabel">去重开</span>
-            </label>
-            <span id="resultCount">0 条</span>
-          </div>
-        </div>
-        <div id="newsList" class="news-list" aria-live="polite"></div>
-      </section>
-
-    </main>
-
+    <!-- 卡片模板 -->
     <template id="itemTpl">
-      <article class="news-card">
-        <div class="news-card-body">
-          <div class="meta-row">
-            <span class="curated-badge" hidden>精选</span>
-            <span class="site"></span>
-            <span class="source"></span>
-            <strong class="score-badge" hidden></strong>
-          </div>
-          <a class="title" target="_blank" rel="noopener noreferrer"></a>
-          <p class="news-summary"></p>
-          <div class="why-box" hidden>
-            <span class="why-label">推荐理由：</span>
-            <span class="why-text"></span>
-          </div>
-          <div class="persona-slot"></div>
+      <article class="fl-card">
+        <div class="fl-card-meta">
+          <span class="fl-badge fl-src" id="cardSrc"></span>
+          <span class="fl-badge fl-score" id="cardScore" hidden></span>
+          <span class="fl-badge fl-cat" id="cardCat"></span>
+          <span class="fl-badge fl-curated" id="cardCurated" hidden>✦ 精选</span>
+        </div>
+        <a class="fl-card-title" id="cardTitle" target="_blank" rel="noopener"></a>
+        <div class="fl-card-desc" id="cardDesc"></div>
+        <div class="fl-card-foot">
+          <div class="fl-card-tags" id="cardTags"></div>
+          <a class="fl-card-link" id="cardLink" target="_blank" rel="noopener">原文 ↗</a>
         </div>
       </article>
     </template>
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" integrity="sha384-HOvlOYPIs/zjoIkWUGXkVmXsjr8GuZLV+Q+rcPwmJOVZVpvTSXQChiN4t9Euv9Vc" crossorigin="anonymous" defer></script>
-    <script src="./assets/motion.js?v=aihot-0715b" defer></script>
-    <script src="./assets/app.js?v=aihot-0715b" defer></script>
+    <!-- 移动端侧栏遮罩 -->
+    <div class="sb-overlay" id="sidebarOverlay"></div>
+
+    <script src="./assets/app.js?v=v3-001" defer></script>
   </body>
 </html>

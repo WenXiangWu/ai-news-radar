@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI News Radar × 赛博维克托 — 差异化重构方案 v2</title>
+<style>
+  :root {
+    --bg: #0a0a0c;
+    --bg-raised: #111115;
+    --bg-card: #16161c;
+    --bg-card-hover: #1c1c24;
+    --bg-sidebar: #0e0e12;
+    --border: rgba(255,255,255,0.06);
+    --border-hover: rgba(255,255,255,0.12);
+    --text-1: #eae8e3;
+    --text-2: #a09d95;
+    --text-3: #65625a;
+    --orange: #FF5A1F;
+    --orange-glow: rgba(255,90,31,0.12);
+    --orange-bg: rgba(255,90,31,0.06);
+    --cyan: #00D4FF;
+    --cyan-glow: rgba(0,212,255,0.10);
+    --green: #3DDC84;
+    --gold: #F5B400;
+    --pink: #FF4FD8;
+    --purple: #8B5CF6;
+    --red: #FF4444;
+    --r: 10px;
+    --r-sm: 6px;
+    --r-lg: 14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+    background: var(--bg);
+    color: var(--text-1);
+    -webkit-font-smoothing: antialiased;
+  }
+  .doc {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 40px 24px 120px;
+  }
+
+  /* ── Doc Header ── */
+  .doc-header {
+    text-align: center;
+    padding: 60px 0 48px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid var(--border);
+  }
+  .doc-header .badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border: 1px solid var(--orange);
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--orange);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .doc-header h1 {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, var(--text-1) 30%, var(--orange) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 12px;
+  }
+  .doc-header p { color: var(--text-2); font-size: 15px; max-width: 560px; margin: 0 auto; }
+
+  /* ── Sections ── */
+  .sec { margin-bottom: 64px; }
+  .sec-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px; border-radius: 7px;
+    background: var(--orange-bg); color: var(--orange);
+    font-size: 13px; font-weight: 800; margin-bottom: 10px;
+  }
+  .sec h2 { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 6px; }
+  .sec .sub { color: var(--text-2); font-size: 14px; margin-bottom: 28px; max-width: 640px; line-height: 1.6; }
+
+  /* ── Diff Table ── */
+  .diff {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  @media (max-width: 700px) { .diff { grid-template-columns: 1fr; } }
+  .diff-col {
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    overflow: hidden;
+  }
+  .diff-col.old { opacity: 0.55; }
+  .diff-label {
+    padding: 10px 16px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .diff-col.old .diff-label { background: #1a1a1a; color: #666; }
+  .diff-col.new .diff-label { background: var(--orange-bg); color: var(--orange); }
+  .diff-body {
+    padding: 16px 20px;
+    background: var(--bg-card);
+    font-size: 13px;
+    color: var(--text-2);
+    line-height: 1.8;
+  }
+  .diff-body strong { color: var(--text-1); }
+  .diff-body .x { color: var(--red); font-weight: 700; }
+  .diff-body .v { color: var(--green); font-weight: 700; }
+
+  /* ── Callout ── */
+  .callout {
+    border: 1px solid rgba(255,90,31,0.18);
+    border-radius: var(--r);
+    padding: 18px 22px;
+    background: var(--orange-bg);
+    margin-bottom: 24px;
+  }
+  .callout h4 { font-size: 13px; font-weight: 700; color: var(--orange); margin-bottom: 6px; }
+  .callout p { font-size: 13px; color: var(--text-2); line-height: 1.6; }
+
+  /* ── Layout Mockup ── */
+  .mock-wrap {
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    background: var(--bg);
+    margin-bottom: 24px;
+  }
+  .mock-bar {
+    display: flex; align-items: center; gap: 6px;
+    padding: 8px 14px;
+    background: #0c0c0f;
+    border-bottom: 1px solid var(--border);
+  }
+  .mock-dot { width: 9px; height: 9px; border-radius: 50%; }
+  .mock-dot:nth-child(1) { background: #ff5f57; }
+  .mock-dot:nth-child(2) { background: #febc2e; }
+  .mock-dot:nth-child(3) { background: #28c840; }
+  .mock-url {
+    flex: 1; margin-left: 8px;
+    padding: 3px 10px; border-radius: 4px;
+    background: rgba(255,255,255,0.04);
+    font-size: 11px; color: var(--text-3); font-family: monospace;
+  }
+
+  /* ── APP LAYOUT: sidebar + main ── */
+  .app {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    min-height: 600px;
+  }
+  @media (max-width: 800px) { .app { grid-template-columns: 1fr; } }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    background: var(--bg-sidebar);
+    border-right: 1px solid var(--border);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .sb-brand {
+    padding: 0 18px 20px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+  }
+  .sb-brand-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .sb-eye {
+    width: 36px; height: 36px;
+    border-radius: 10px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .sb-eye-inner {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    border: 2px solid var(--orange);
+    box-shadow: 0 0 10px var(--orange-glow), inset 0 0 4px var(--orange-glow);
+    position: relative;
+  }
+  .sb-eye-inner::after {
+    content: "";
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--orange);
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 6px var(--orange);
+  }
+  .sb-brand-name {
+    font-size: 14px; font-weight: 800; color: var(--text-1);
+    letter-spacing: -0.3px;
+  }
+  .sb-brand-sub {
+    font-size: 10px; color: var(--text-3); letter-spacing: 0.5px;
+  }
+  .sb-slogan {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: var(--orange-bg);
+    border: 1px solid rgba(255,90,31,0.15);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--orange);
+    width: fit-content;
+  }
+
+  /* Sidebar Nav */
+  .sb-nav { flex: 1; padding: 0 8px; }
+  .sb-nav-label {
+    padding: 6px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-3);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .sb-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 12px;
+    border-radius: var(--r-sm);
+    font-size: 13px;
+    color: var(--text-2);
+    cursor: pointer;
+    transition: all 0.15s;
+    position: relative;
+  }
+  .sb-nav-item:hover { background: rgba(255,255,255,0.03); color: var(--text-1); }
+  .sb-nav-item.active {
+    background: var(--bg-card);
+    color: var(--text-1);
+    font-weight: 600;
+  }
+  .sb-nav-item.active::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 6px; bottom: 6px;
+    width: 3px;
+    border-radius: 0 3px 3px 0;
+    background: var(--orange);
+  }
+  .sb-nav-icon {
+    width: 24px; height: 24px;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  .sb-nav-count {
+    margin-left: auto;
+    font-size: 11px;
+    padding: 1px 7px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.04);
+    color: var(--text-3);
+    font-weight: 600;
+  }
+  .sb-nav-item.active .sb-nav-count {
+    background: var(--orange-bg);
+    color: var(--orange);
+  }
+  .sb-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 12px 10px;
+  }
+
+  /* Sidebar Status */
+  .sb-status {
+    padding: 14px 18px;
+    border-top: 1px solid var(--border);
+    margin-top: auto;
+  }
+  .sb-status-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-3);
+    margin-bottom: 6px;
+  }
+  .sb-status-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 6px rgba(61,220,132,0.4);
+  }
+  .sb-status-row span { color: var(--text-2); font-weight: 600; }
+
+  /* ── Main Content ── */
+  .main {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* Top Bar */
+  .topbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-raised);
+  }
+  .topbar-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .topbar-title .emoji { font-size: 18px; }
+  .topbar-search {
+    flex: 1;
+    max-width: 320px;
+    margin-left: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--r-sm);
+    padding: 7px 12px;
+    background: var(--bg-card);
+    color: var(--text-2);
+    font-size: 13px;
+    outline: none;
+  }
+  .topbar-search::placeholder { color: var(--text-3); }
+  .topbar-mode {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: var(--r-sm);
+    overflow: hidden;
+  }
+  .topbar-mode-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-3);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .topbar-mode-btn.on {
+    background: var(--orange);
+    color: #fff;
+  }
+  .topbar-updated {
+    font-size: 11px;
+    color: var(--text-3);
+    white-space: nowrap;
+  }
+
+  /* ── Content Area ── */
+  .content {
+    padding: 20px 24px;
+    overflow-y: auto;
+    flex: 1;
+  }
+
+  /* Daily Brief — UNIQUE SECTION */
+  .daily-brief {
+    border: 1px solid rgba(255,90,31,0.15);
+    border-radius: var(--r-lg);
+    padding: 24px;
+    background: linear-gradient(135deg, rgba(255,90,31,0.04) 0%, rgba(0,212,255,0.02) 100%);
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .daily-brief::before {
+    content: "";
+    position: absolute;
+    top: -40px; right: -20px;
+    width: 160px; height: 160px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--orange-glow) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .db-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .db-head h3 {
+    font-size: 15px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .db-head h3 .icon {
+    width: 28px; height: 28px;
+    border-radius: 8px;
+    background: var(--orange-bg);
+    border: 1px solid rgba(255,90,31,0.2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+  }
+  .db-date {
+    font-size: 11px;
+    color: var(--text-3);
+    font-family: monospace;
+  }
+  .db-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    position: relative;
+  }
+  @media (max-width: 800px) { .db-body { grid-template-columns: 1fr; } }
+  .db-summary {
+    font-size: 14px;
+    color: var(--text-2);
+    line-height: 1.7;
+  }
+  .db-summary strong { color: var(--orange); }
+  .db-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .db-stat {
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 12px;
+    background: var(--bg-card);
+  }
+  .db-stat-num {
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--text-1);
+    font-variant-numeric: tabular-nums;
+  }
+  .db-stat-num.orange { color: var(--orange); }
+  .db-stat-num.cyan { color: var(--cyan); }
+  .db-stat-num.green { color: var(--green); }
+  .db-stat-num.gold { color: var(--gold); }
+  .db-stat-label {
+    font-size: 11px;
+    color: var(--text-3);
+    margin-top: 2px;
+  }
+
+  /* Bento Grid — UNIQUE LAYOUT */
+  .bento {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  @media (max-width: 800px) {
+    .bento { grid-template-columns: 1fr; }
+  }
+  .bento-card {
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 16px;
+    background: var(--bg-card);
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .bento-card:hover {
+    border-color: var(--border-hover);
+    background: var(--bg-card-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+  /* Hot board: spans 4 cols */
+  .bento-hot { grid-column: span 4; grid-row: span 3; }
+  /* Character status: spans 2 cols */
+  .bento-char { grid-column: span 2; grid-row: span 3; }
+  /* News cards: each spans 3 cols */
+  .bento-news { grid-column: span 3; grid-row: span 2; }
+  /* Source health: spans 2 cols */
+  .bento-health { grid-column: span 2; grid-row: span 2; }
+  /* Activity: spans 4 cols */
+  .bento-activity { grid-column: span 4; grid-row: span 2; }
+
+  @media (max-width: 800px) {
+    .bento-hot, .bento-char, .bento-news, .bento-health, .bento-activity {
+      grid-column: span 1;
+      grid-row: auto;
+    }
+  }
+
+  .bc-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .bc-head h4 {
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-1);
+  }
+  .bc-head .more {
+    font-size: 11px;
+    color: var(--orange);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  /* Hot list inside bento */
+  .bh-list { display: grid; gap: 0; }
+  .bh-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    border-top: 1px solid var(--border);
+  }
+  .bh-row:first-child { border-top: none; }
+  .bh-rank {
+    font-size: 14px;
+    font-weight: 900;
+    color: var(--orange);
+    min-width: 20px;
+    font-variant-numeric: tabular-nums;
+  }
+  .bh-rank.g1 { color: var(--orange); text-shadow: 0 0 8px var(--orange-glow); }
+  .bh-rank.g2 { color: var(--gold); text-shadow: 0 0 8px rgba(245,180,0,0.2); }
+  .bh-rank.g3 { color: #cd7f32; }
+  .bh-title {
+    flex: 1;
+    font-size: 13px;
+    color: var(--text-1);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .bh-title:hover { color: var(--orange); }
+  .bh-meta {
+    font-size: 10px;
+    color: var(--text-3);
+    white-space: nowrap;
+  }
+
+  /* Character status panel — UNIQUE */
+  .bc-panel {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .bc-char-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .bc-char-avatar {
+    width: 40px; height: 40px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+  }
+  .bc-char-info h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-1);
+  }
+  .bc-char-info span {
+    font-size: 11px;
+    color: var(--text-3);
+  }
+  .bc-char-quote {
+    flex: 1;
+    font-size: 13px;
+    color: var(--text-2);
+    line-height: 1.6;
+    padding: 12px;
+    border-radius: var(--r);
+    background: rgba(255,255,255,0.02);
+    border-left: 3px solid var(--orange);
+    margin-bottom: 12px;
+  }
+  .bc-char-items {
+    display: grid;
+    gap: 6px;
+  }
+  .bc-char-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-2);
+  }
+  .bc-char-item .dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* News card in bento */
+  .bn-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .bn-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  .bn-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 999px;
+  }
+  .bn-badge.score { background: var(--orange-bg); color: var(--orange); border: 1px solid rgba(255,90,31,0.2); }
+  .bn-badge.cat { background: var(--cyan-glow); color: var(--cyan); border: 1px solid rgba(0,212,255,0.15); }
+  .bn-badge.src { background: rgba(255,255,255,0.04); color: var(--text-3); border: 1px solid var(--border); }
+  .bn-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-1);
+    line-height: 1.4;
+    margin-bottom: 6px;
+    text-decoration: none;
+    display: block;
+  }
+  .bn-title:hover { color: var(--orange); }
+  .bn-desc {
+    font-size: 12px;
+    color: var(--text-2);
+    line-height: 1.5;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .bn-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+  .bn-tags { display: flex; gap: 4px; }
+  .bn-tag {
+    font-size: 10px;
+    padding: 1px 6px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.03);
+    color: var(--text-3);
+    border: 1px solid var(--border);
+  }
+  .bn-link {
+    font-size: 11px;
+    color: var(--orange);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  /* Health panel */
+  .bh-panel { display: flex; flex-direction: column; height: 100%; }
+  .bh-ring {
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    border: 4px solid var(--green);
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 12px;
+    position: relative;
+    box-shadow: 0 0 16px rgba(61,220,132,0.15);
+  }
+  .bh-ring-text {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--green);
+  }
+  .bh-ring-label {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-2);
+    margin-bottom: 12px;
+  }
+  .bh-items { display: grid; gap: 4px; }
+  .bh-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    padding: 3px 0;
+  }
+  .bh-item-name { color: var(--text-2); }
+  .bh-item-status { font-weight: 700; }
+  .bh-item-status.ok { color: var(--green); }
+  .bh-item-status.warn { color: var(--gold); }
+
+  /* Activity heatmap — UNIQUE */
+  .ba-grid {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+  .ba-cell {
+    width: 12px; height: 12px;
+    border-radius: 2px;
+    background: rgba(255,255,255,0.03);
+  }
+  .ba-cell.l1 { background: rgba(255,90,31,0.15); }
+  .ba-cell.l2 { background: rgba(255,90,31,0.30); }
+  .ba-cell.l3 { background: rgba(255,90,31,0.50); }
+  .ba-cell.l4 { background: rgba(255,90,31,0.75); }
+  .ba-legend {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 10px;
+    font-size: 10px;
+    color: var(--text-3);
+  }
+
+  /* ── Comparison Table ── */
+  .cmp-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  .cmp-table th {
+    text-align: left;
+    padding: 10px 14px;
+    background: var(--bg-card);
+    color: var(--text-2);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+  }
+  .cmp-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-2);
+    vertical-align: top;
+  }
+  .cmp-table .lbl { color: var(--text-1); font-weight: 600; }
+  .cmp-table tr:hover td { background: rgba(255,255,255,0.015); }
+
+  /* ── Phase ── */
+  .phases { display: grid; gap: 16px; }
+  .phase {
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 20px 24px;
+    background: var(--bg-card);
+  }
+  .phase-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .phase-tag.p1 { background: var(--orange-bg); color: var(--orange); }
+  .phase-tag.p2 { background: var(--cyan-glow); color: var(--cyan); }
+  .phase-tag.p3 { background: rgba(139,92,246,0.1); color: var(--purple); }
+  .phase-tag.p4 { background: rgba(61,220,132,0.1); color: var(--green); }
+  .phase h3 { font-size: 16px; font-weight: 800; color: var(--text-1); margin-bottom: 6px; }
+  .phase p { font-size: 13px; color: var(--text-2); line-height: 1.6; margin-bottom: 10px; }
+  .phase ul { padding-left: 18px; }
+  .phase li { font-size: 12px; color: var(--text-2); line-height: 1.7; }
+
+  /* ── Principles ── */
+  .princ {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .princ-card {
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 20px;
+    background: var(--bg-card);
+  }
+  .princ-card .icon { font-size: 24px; margin-bottom: 10px; }
+  .princ-card h4 { font-size: 14px; font-weight: 700; color: var(--text-1); margin-bottom: 6px; }
+  .princ-card p { font-size: 12px; color: var(--text-2); line-height: 1.6; }
+
+  /* ── Responsive note ── */
+  @media (max-width: 800px) {
+    .app { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .doc-header h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <header class="doc-header">
+    <div class="badge">v2 · 差异化重构</div>
+    <h1>从骨架开始重新设计<br>让没有人能看出这是 fork</h1>
+    <p>换色只是皮肤，换骨架才是产品。从布局结构、信息组织、交互模式、独有组件四个维度全面差异化。</p>
+  </header>
+
+  <!-- ══════ 1. 问题：为什么换色不够 ══════ -->
+  <section class="sec">
+    <div class="sec-num">1</div>
+    <h2>为什么换色不够</h2>
+    <p class="sub">原版和 fork 共享的不只是颜色——是整条信息骨架。用户扫一眼页面结构就能认出来。</p>
+
+    <div class="diff">
+      <div class="diff-col old">
+        <div class="diff-label">原版骨架（一眼认出）</div>
+        <div class="diff-body">
+          <strong>从上到下的线性结构：</strong><br>
+          ① 顶部 Hero（Logo + 标题 + 状态）<br>
+          ② 横向滚动 Tab 栏<br>
+          ③ 筛选条（精选/全量 + 搜索）<br>
+          ④ 热点排行（编号列表）<br>
+          ⑤ 时间轴卡片流（左竖线 + 右卡片）<br>
+          ⑥ WaytoAGI 社区板块<br><br>
+          <span class="x">✗</span> 这个骨架就是原版的指纹。<br>
+          <span class="x">✗</span> 换任何颜色，骨架一样 = 一眼 fork。<br>
+          <span class="x">✗</span> 卡片样式、Tab 交互、筛选模式完全一致。
+        </div>
+      </div>
+      <div class="diff-col new">
+        <div class="diff-label">重构骨架（完全陌生）</div>
+        <div class="diff-body">
+          <strong>左右分栏 + 棋盘格布局：</strong><br>
+          ① 左侧栏：品牌 + 角色导航 + 状态<br>
+          ② 顶部条：搜索 + 模式切换（紧凑）<br>
+          ③ 每日简报卡（今日摘要 + 数据）<br>
+          ④ Bento 棋盘格（热点/角色/新闻/健康/活动）<br>
+          ⑤ 无时间轴、无横向 Tab、无 Hero 大图<br><br>
+          <span class="v">✓</span> 布局完全不同，截图对比无法识别。<br>
+          <span class="v">✓</span> 信息组织从线性→空间化。<br>
+          <span class="v">✓</span> 独有组件：每日简报、角色状态、活动热力图。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ 2. 七个维度的差异化 ══════ -->
+  <section class="sec">
+    <div class="sec-num">2</div>
+    <h2>七个维度的差异化</h2>
+    <p class="sub">逐一对比原版和重构版在每个维度的决策</p>
+
+    <table class="cmp-table">
+      <thead>
+        <tr><th style="width:140px">维度</th><th>原版 AI News Radar</th><th style="color:var(--orange)">重构版 赛博维克托雷达</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="lbl">页面布局</td>
+          <td>全宽单栏，从上到下线性排列</td>
+          <td><strong>左侧栏导航 + 右侧主内容区</strong>，类似 Dashboard/IDE 布局</td>
+        </tr>
+        <tr>
+          <td class="lbl">导航方式</td>
+          <td>顶部横向滚动 Tab（全部/模型/产品…）</td>
+          <td><strong>侧栏角色导航</strong>（提莫·全部 / 黑默丁格·精选 / 吉格斯·热点…），带角色头像和专属色</td>
+        </tr>
+        <tr>
+          <td class="lbl">首屏内容</td>
+          <td>Hero 大标题 + 更新时间 + 外链按钮</td>
+          <td><strong>每日简报卡</strong>：维克托的今日总结 + 4 个关键数据 + 渐变光晕背景</td>
+        </tr>
+        <tr>
+          <td class="lbl">信息排列</td>
+          <td>时间轴竖线 + 卡片单列排列</td>
+          <td><strong>Bento 棋盘格</strong>：热点占 4 列、角色面板占 2 列、新闻卡占 3 列，大小错落</td>
+        </tr>
+        <tr>
+          <td class="lbl">热点展示</td>
+          <td>独立板块，编号行列表</td>
+          <td>嵌入 Bento 格，<strong>金银铜色序号</strong> + 发光效果，混入棋盘格局</td>
+        </tr>
+        <tr>
+          <td class="lbl">独有组件</td>
+          <td>无（所有组件都是标准新闻聚合模式）</td>
+          <td><strong>4 个独有组件</strong>：每日简报、角色状态面板、信源健康环、活动热力图</td>
+        </tr>
+        <tr>
+          <td class="lbl">品牌露出</td>
+          <td>Logo + "AI News Radar" 标题</td>
+          <td><strong>侧栏品牌区</strong>：义眼 Logo + "赛博维克托·雷达" + Slogan 徽章 + 角色导航</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══════ 3. 设计原则 ══════ -->
+  <section class="sec">
+    <div class="sec-num">3</div>
+    <h2>设计原则</h2>
+    <p class="sub">四个原则指导所有视觉和交互决策</p>
+
+    <div class="princ">
+      <div class="princ-card">
+        <div class="icon">🏭</div>
+        <h4>工坊控制台</h4>
+        <p>界面是维克托的工坊仪表盘——侧栏、面板、数据环，像操作一台精密机器，不是刷信息流。</p>
+      </div>
+      <div class="princ-card">
+        <div class="icon">🧩</div>
+        <h4>棋盘格节奏</h4>
+        <p>告别单列时间轴。用大小不同的卡片拼成棋盘，信息密度更高，视觉节奏更丰富，和原版的线性排列完全不同。</p>
+      </div>
+      <div class="princ-card">
+        <div class="icon">🤖</div>
+        <h4>角色即导航</h4>
+        <p>角色不只是装饰——它们就是导航系统。提莫=全部信源，黑默丁格=精选，吉格斯=热点。用户通过角色理解功能。</p>
+      </div>
+      <div class="princ-card">
+        <div class="icon">📡</div>
+        <h4>每日简报 = 品牌记忆</h4>
+        <p>首屏的「维克托今日简报」是原版没有的独有组件。它让每个来访者第一眼看到的就是品牌内容，而不是通用信息流。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ 4. 完整 Mockup ══════ -->
+  <section class="sec">
+    <div class="sec-num">4</div>
+    <h2>完整界面 Mockup</h2>
+    <p class="sub">左侧栏 + Bento 棋盘格 + 独有组件——和原版零相似度</p>
+
+    <div class="mock-wrap">
+      <div class="mock-bar">
+        <div class="mock-dot"></div>
+        <div class="mock-dot"></div>
+        <div class="mock-dot"></div>
+        <div class="mock-url">wenxiangwu.github.io/ai-news-radar/</div>
+      </div>
+
+      <div class="app">
+        <!-- ── Sidebar ── -->
+        <aside class="sidebar">
+          <div class="sb-brand">
+            <div class="sb-brand-row">
+              <div class="sb-eye"><div class="sb-eye-inner"></div></div>
+              <div>
+                <div class="sb-brand-name">赛博维克托 · 雷达</div>
+                <div class="sb-brand-sub">AI NEWS RADAR</div>
+              </div>
+            </div>
+            <div class="sb-slogan">⚡ 加入光荣的进化</div>
+          </div>
+
+          <nav class="sb-nav">
+            <div class="sb-nav-label">角色频道</div>
+
+            <div class="sb-nav-item active">
+              <div class="sb-nav-icon" style="background:rgba(61,220,132,0.1);color:var(--green)">🔍</div>
+              提莫 · 全部
+              <span class="sb-nav-count">236</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-icon" style="background:rgba(245,180,0,0.1);color:var(--gold)">🎓</div>
+              黑默丁格 · 精选
+              <span class="sb-nav-count">48</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-icon" style="background:rgba(255,90,31,0.1);color:var(--orange)">💣</div>
+              吉格斯 · 热点
+              <span class="sb-nav-count">8</span>
+            </div>
+
+            <div class="sb-divider"></div>
+            <div class="sb-nav-label">分类</div>
+
+            <div class="sb-nav-item">
+              <div class="sb-nav-icon" style="background:rgba(0,212,255,0.08);color:var(--cyan)">🤖</div>
+              模型
+              <span class="sb-nav-count">34</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-icon" style="background:rgba(255,79,216,0.08);color:var(--pink)">🎬</div>
+              产品
+              <span class="sb-nav-count">24</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-icon" style="background:rgba(139,92,246,0.08);color:var(--purple)">📜</div>
+              社区
+              <span class="sb-nav-count">68</span>
+            </div>
+            <div class="sb-nav-item">
+              <div class="sb-nav-icon" style="background:rgba(255,255,255,0.04);color:var(--text-3)">🔬</div>
+              论文
+              <span class="sb-nav-count">11</span>
+            </div>
+          </nav>
+
+          <div class="sb-status">
+            <div class="sb-status-row">
+              <div class="sb-status-dot"></div>
+              <span>16/16</span> 源正常
+            </div>
+            <div class="sb-status-row">
+              更新于 <span>15:49</span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- ── Main ── -->
+        <div class="main">
+          <!-- Top Bar -->
+          <div class="topbar">
+            <div class="topbar-title">
+              <span class="emoji">🔍</span>
+              提莫侦察中
+            </div>
+            <input class="topbar-search" placeholder="搜索 AI 信号…" readonly>
+            <div class="topbar-mode">
+              <button class="topbar-mode-btn on">✦ 精选</button>
+              <button class="topbar-mode-btn">☰ 全量</button>
+            </div>
+            <div class="topbar-updated">10-27 15:49</div>
+          </div>
+
+          <!-- Content -->
+          <div class="content">
+
+            <!-- Daily Brief — UNIQUE -->
+            <div class="daily-brief">
+              <div class="db-head">
+                <h3><span class="icon">📡</span> 维克托今日简报</h3>
+                <span class="db-date">2026-10-27 · 周一</span>
+              </div>
+              <div class="db-body">
+                <div class="db-summary">
+                  今天 AI 圈的主旋律是 <strong>模型升级</strong>。GPT-5 和 Claude 4.5 Sonnet 同日发布，多模态和 Agent 能力同时拉满。
+                  Cursor 的 $90B 估值说明 <strong>AI 编程赛道还在加速</strong>。提莫从 32 个信源里捞出了 236 条信号，黑默丁格精选了 48 条值得深读的。
+                </div>
+                <div class="db-stats">
+                  <div class="db-stat">
+                    <div class="db-stat-num orange">236</div>
+                    <div class="db-stat-label">今日信号</div>
+                  </div>
+                  <div class="db-stat">
+                    <div class="db-stat-num cyan">48</div>
+                    <div class="db-stat-label">精选推荐</div>
+                  </div>
+                  <div class="db-stat">
+                    <div class="db-stat-num green">16/16</div>
+                    <div class="db-stat-label">信源正常</div>
+                  </div>
+                  <div class="db-stat">
+                    <div class="db-stat-num gold">8</div>
+                    <div class="db-stat-label">热点事件</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bento Grid — UNIQUE LAYOUT -->
+            <div class="bento">
+
+              <!-- Hot: 4 cols -->
+              <div class="bento-card bento-hot">
+                <div class="bc-head">
+                  <h4>💣 吉格斯 · 热点爆破</h4>
+                  <a class="bc-head more" href="#">查看全部 →</a>
+                </div>
+                <div class="bh-list">
+                  <div class="bh-row">
+                    <span class="bh-rank g1">1</span>
+                    <a class="bh-title" href="#">OpenAI 发布 GPT-5：多模态推理全面升级</a>
+                    <span class="bh-meta">3 信源 · 4h</span>
+                  </div>
+                  <div class="bh-row">
+                    <span class="bh-rank g2">2</span>
+                    <a class="bh-title" href="#">Claude 4.5 Sonnet 上线：Agent 能力大幅提升</a>
+                    <span class="bh-meta">5 信源 · 6h</span>
+                  </div>
+                  <div class="bh-row">
+                    <span class="bh-rank g3">3</span>
+                    <a class="bh-title" href="#">DeepMind 开源 Gemini 2.0 Flash</a>
+                    <span class="bh-meta">2 信源 · 8h</span>
+                  </div>
+                  <div class="bh-row">
+                    <span class="bh-rank">4</span>
+                    <a class="bh-title" href="#">Cursor 完成 $900M 融资，估值 $90B</a>
+                    <span class="bh-meta">2 信源 · 10h</span>
+                  </div>
+                  <div class="bh-row">
+                    <span class="bh-rank">5</span>
+                    <a class="bh-title" href="#">Anthropic 发布 Model Context Protocol</a>
+                    <span class="bh-meta">1 信源 · 12h</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Character Panel: 2 cols — UNIQUE -->
+              <div class="bento-card bento-char">
+                <div class="bc-panel">
+                  <div class="bc-char-head">
+                    <div class="bc-char-avatar" style="background:rgba(245,180,0,0.1);border:1px solid rgba(245,180,0,0.2)">🎓</div>
+                    <div class="bc-char-info">
+                      <h5>黑默丁格</h5>
+                      <span>首席教授 · 今日精选</span>
+                    </div>
+                  </div>
+                  <div class="bc-char-quote">
+                    "今天的 GPT-5 和 Claude 4.5 值得对比研读。我建议你重点关注 Agent 能力的差异——这才是工程师真正需要的决策信息。"
+                  </div>
+                  <div class="bc-char-items">
+                    <div class="bc-char-item">
+                      <div class="dot" style="background:var(--gold)"></div>
+                      今日精选 48 条
+                    </div>
+                    <div class="bc-char-item">
+                      <div class="dot" style="background:var(--orange)"></div>
+                      模型类占比 35%
+                    </div>
+                    <div class="bc-char-item">
+                      <div class="dot" style="background:var(--cyan)"></div>
+                      最高评分 96 分
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- News 1: 3 cols -->
+              <div class="bento-card bento-news">
+                <div class="bn-card">
+                  <div class="bn-meta">
+                    <span class="bn-badge src">AIbase</span>
+                    <span class="bn-badge score">92 分</span>
+                    <span class="bn-badge cat">模型</span>
+                  </div>
+                  <a class="bn-title" href="#">OpenAI 发布 GPT-5：多模态推理全面升级，benchmarks 刷新纪录</a>
+                  <div class="bn-desc">模型在数学、编程和多语言理解上均有显著提升，在多项 benchmarks 上刷新纪录。新模型支持原生图像、音频和视频输入。</div>
+                  <div class="bn-foot">
+                    <div class="bn-tags"><span class="bn-tag">GPT-5</span><span class="bn-tag">OpenAI</span></div>
+                    <a class="bn-link" href="#">原文 ↗</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- News 2: 3 cols -->
+              <div class="bento-card bento-news">
+                <div class="bn-card">
+                  <div class="bn-meta">
+                    <span class="bn-badge src">AI工程化</span>
+                    <span class="bn-badge score">87 分</span>
+                    <span class="bn-badge cat" style="background:rgba(255,90,31,0.08);color:var(--orange);border-color:rgba(255,90,31,0.15)">产品</span>
+                  </div>
+                  <a class="bn-title" href="#">Claude 4.5 Sonnet 上线：Agent 能力大幅提升</a>
+                  <div class="bn-desc">支持 1M token 上下文窗口，新增 computer use 能力，可以直接操作浏览器和桌面应用。SWE-bench 得分提升 40%。</div>
+                  <div class="bn-foot">
+                    <div class="bn-tags"><span class="bn-tag">Claude</span><span class="bn-tag">Agent</span></div>
+                    <a class="bn-link" href="#">原文 ↗</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Health: 2 cols — UNIQUE -->
+              <div class="bento-card bento-health">
+                <div class="bh-panel">
+                  <div class="bc-head">
+                    <h4>📡 信源状态</h4>
+                  </div>
+                  <div class="bh-ring">
+                    <span class="bh-ring-text">100%</span>
+                  </div>
+                  <div class="bh-ring-label">16/16 源正常运行</div>
+                  <div class="bh-items">
+                    <div class="bh-item"><span class="bh-item-name">AIbase</span><span class="bh-item-status ok">●</span></div>
+                    <div class="bh-item"><span class="bh-item-name">NewsNow</span><span class="bh-item-status ok">●</span></div>
+                    <div class="bh-item"><span class="bh-item-name">Hacker News</span><span class="bh-item-status ok">●</span></div>
+                    <div class="bh-item"><span class="bh-item-name">ArXiv</span><span class="bh-item-status ok">●</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Activity: 4 cols — UNIQUE -->
+              <div class="bento-card bento-activity">
+                <div class="bc-head">
+                  <h4>📊 侦察活动</h4>
+                  <span style="font-size:11px;color:var(--text-3)">过去 30 天</span>
+                </div>
+                <div class="ba-grid">
+                  <div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l3"></div><div class="ba-cell l4"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l3"></div><div class="ba-cell l4"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l4"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l3"></div><div class="ba-cell l4"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l4"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l3"></div><div class="ba-cell l4"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l3"></div><div class="ba-cell l4"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l3"></div><div class="ba-cell l2"></div><div class="ba-cell l1"></div><div class="ba-cell"></div><div class="ba-cell l1"></div><div class="ba-cell l2"></div><div class="ba-cell l4"></div>
+                </div>
+                <div class="ba-legend">
+                  少 <div class="ba-cell" style="width:10px;height:10px"></div>
+                  <div class="ba-cell l1" style="width:10px;height:10px"></div>
+                  <div class="ba-cell l2" style="width:10px;height:10px"></div>
+                  <div class="ba-cell l3" style="width:10px;height:10px"></div>
+                  <div class="ba-cell l4" style="width:10px;height:10px"></div> 多
+                </div>
+              </div>
+
+            </div><!-- /bento -->
+
+          </div><!-- /content -->
+        </div><!-- /main -->
+      </div><!-- /app -->
+    </div><!-- /mock-wrap -->
+  </section>
+
+  <!-- ══════ 5. 四个独有组件 ══════ -->
+  <section class="sec">
+    <div class="sec-num">5</div>
+    <h2>四个独有组件</h2>
+    <p class="sub">这些组件在原版中不存在，是区分 fork 的关键证据</p>
+
+    <table class="cmp-table">
+      <thead>
+        <tr><th style="width:160px">组件</th><th>功能</th><th>数据来源</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="lbl">📡 维克托今日简报</td>
+          <td>首屏第一个组件。一段 2-3 句的今日总结 + 4 个关键数据。用 LLM 从当天数据中生成摘要，或手动编辑 <code>data/daily-brief.json</code>。</td>
+          <td><code>data/daily-brief.json</code>（已有此文件，只需新增摘要字段）</td>
+        </tr>
+        <tr>
+          <td class="lbl">🎓 角色状态面板</td>
+          <td>嵌入 Bento 格的角色卡片。展示当前角色的"今日点评" + 3 条统计数据。每个频道切换时，面板内容跟着变。</td>
+          <td>复用 <code>data/latest-24h.json</code> 的统计数据，点评文案可模板生成</td>
+        </tr>
+        <tr>
+          <td class="lbl">📡 信源健康环</td>
+          <td>圆形进度环展示信源健康率。下方列出各信源状态。比原版的文字 pill 更直观。</td>
+          <td><code>data/source-status.json</code>（已有）</td>
+        </tr>
+        <tr>
+          <td class="lbl">📊 侦察活动热力图</td>
+          <td>GitHub 风格的 30 天活动格子。每天的颜色深度 = 当天抓取的信源数。展示系统的"生命力"。</td>
+          <td>从 <code>data/latest-24h.json</code> 的 <code>generated_at</code> 和 <code>site_stats</code> 聚合</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══════ 6. 数据层改动 ══════ -->
+  <section class="sec">
+    <div class="sec-num">6</div>
+    <h2>数据层改动</h2>
+    <p class="sub">好消息：底层数据文件完全复用，只在前端渲染层做差异化</p>
+
+    <div class="callout">
+      <h4>不需要改 Python 脚本</h4>
+      <p>
+        <code>scripts/update_news.py</code> 生成的 JSON 文件（<code>latest-24h.json</code>、<code>source-status.json</code>、<code>daily-brief.json</code> 等）全部保留。
+        前端 JS 仍然 fetch 同样的数据文件，只是渲染方式完全不同。你可以选择：
+      </p>
+      <p style="margin-top:8px">
+        <strong>方案 A</strong>：直接修改 <code>index.html</code> + <code>styles.css</code> + <code>app.js</code>，替换渲染逻辑。<br>
+        <strong>方案 B</strong>（推荐）：新建一个 <code>viktor/</code> 目录，放全新的 HTML/CSS/JS，数据 URL 指向同级的 <code>data/</code>。原版代码完全不动，方便对比和回退。
+      </p>
+    </div>
+
+    <table class="cmp-table">
+      <thead>
+        <tr><th>数据文件</th><th>状态</th><th>改动</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="lbl">data/latest-24h.json</td><td style="color:var(--green)">复用</td><td>无需改动</td></tr>
+        <tr><td class="lbl">data/latest-24h-all.json</td><td style="color:var(--green)">复用</td><td>无需改动</td></tr>
+        <tr><td class="lbl">data/source-status.json</td><td style="color:var(--green)">复用</td><td>无需改动</td></tr>
+        <tr><td class="lbl">data/daily-brief.json</td><td style="color:var(--gold)">小改</td><td>新增 <code>summary</code> 字段（今日摘要文案）</td></tr>
+        <tr><td class="lbl">data/waytoagi-7d.json</td><td style="color:var(--green)">复用</td><td>可选展示，嵌入 Bento 格</td></tr>
+        <tr><td class="lbl">data/stories-merged.json</td><td style="color:var(--green)">复用</td><td>无需改动</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══════ 7. 实施路线 ══════ -->
+  <section class="sec">
+    <div class="sec-num">7</div>
+    <h2>实施路线</h2>
+    <p class="sub">四个阶段，每阶段独立可上线</p>
+
+    <div class="phases">
+      <div class="phase">
+        <div class="phase-tag p1">Phase 1 · 骨架重建（2-3 天）</div>
+        <h3>侧栏 + 顶部条 + Bento 格</h3>
+        <p>彻底替换页面布局。这是区分 fork 最关键的一步。</p>
+        <ul>
+          <li>新建 <code>viktor/</code> 目录，创建全新的 <code>index.html</code></li>
+          <li>实现左侧栏：品牌区 + 角色导航 + 底部状态</li>
+          <li>实现顶部条：频道标题 + 搜索 + 模式切换</li>
+          <li>实现 Bento 棋盘格布局（CSS Grid，6 列）</li>
+          <li>数据 fetch 逻辑复用，只改渲染函数</li>
+        </ul>
+      </div>
+      <div class="phase">
+        <div class="phase-tag p2">Phase 2 · 独有组件（1-2 天）</div>
+        <h3>每日简报 + 角色面板 + 健康环 + 热力图</h3>
+        <p>实现 4 个原版没有的组件，彻底消除 fork 痕迹。</p>
+        <ul>
+          <li>每日简报卡：从 <code>daily-brief.json</code> 读摘要 + 从 <code>latest-24h.json</code> 算数据</li>
+          <li>角色状态面板：根据当前频道切换角色和点评</li>
+          <li>信源健康环：SVG 圆环 + <code>source-status.json</code></li>
+          <li>活动热力图：从历史数据聚合 30 天活动量</li>
+        </ul>
+      </div>
+      <div class="phase">
+        <div class="phase-tag p3">Phase 3 · 视觉打磨（1 天）</div>
+        <h3>暗色主题 + 角色色 + 动效</h3>
+        <p>在骨架和组件就位后，打磨视觉细节。</p>
+        <ul>
+          <li>墨黑底 + 电光橙强调色 + 角色专属色</li>
+          <li>义眼 Logo 呼吸 glow 动画</li>
+          <li>卡片 hover 效果（border glow + shadow）</li>
+          <li>热点序号的金银铜发光效果</li>
+        </ul>
+      </div>
+      <div class="phase">
+        <div class="phase-tag p4">Phase 4 · 收尾上线（0.5 天）</div>
+        <h3>响应式 + meta + 部署</h3>
+        <ul>
+          <li>移动端适配：侧栏折叠为底部 Tab 或汉堡菜单</li>
+          <li>meta 标签全部更新（title / og / description）</li>
+          <li>GitHub Pages 部署验证</li>
+          <li>原版 <code>index.html</code> 保留为 <code>classic/index.html</code> 备用</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ 8. 对比检查 ══════ -->
+  <section class="sec">
+    <div class="sec-num">8</div>
+    <h2>对比检查：还能认出是 fork 吗？</h2>
+    <p class="sub">逐项确认每个"可识别点"都已被消除</p>
+
+    <table class="cmp-table">
+      <thead>
+        <tr><th>原版识别点</th><th>状态</th><th>处理方式</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="lbl">从上到下的线性布局</td><td style="color:var(--green)">✓ 已消除</td><td>改为侧栏 + Bento 棋盘格</td></tr>
+        <tr><td class="lbl">横向滚动 Tab 栏</td><td style="color:var(--green)">✓ 已消除</td><td>改为侧栏角色导航</td></tr>
+        <tr><td class="lbl">时间轴竖线 + 卡片流</td><td style="color:var(--green)">✓ 已消除</td><td>改为 Bento 格内的大小卡片</td></tr>
+        <tr><td class="lbl">Hero 大标题 + 外链按钮</td><td style="color:var(--green)">✓ 已消除</td><td>改为每日简报卡 + 顶部紧凑条</td></tr>
+        <tr><td class="lbl">暖白底 + 深青强调色</td><td style="color:var(--green)">✓ 已消除</td><td>墨黑底 + 电光橙</td></tr>
+        <tr><td class="lbl">通用雷达 Logo</td><td style="color:var(--green)">✓ 已消除</td><td>机械义眼 Logo</td></tr>
+        <tr><td class="lbl">"AI News Radar" 标题</td><td style="color:var(--green)">✓ 已消除</td><td>"赛博维克托 · 雷达"</td></tr>
+        <tr><td class="lbl">精选/全量 大按钮组</td><td style="color:var(--gold)">△ 保留但缩小</td><td>缩为顶部条里的小开关，视觉权重降低</td></tr>
+        <tr><td class="lbl">高级筛选折叠面板</td><td style="color:var(--green)">✓ 已消除</td><td>改为侧栏底部的源状态区</td></tr>
+        <tr><td class="lbl">WaytoAGI 社区板块</td><td style="color:var(--gold)">△ 可选保留</td><td>嵌入 Bento 格的一个卡片位，不再是独立板块</td></tr>
+        <tr><td class="lbl">卡片内三味点评面板</td><td style="color:var(--gold)">△ 可选保留</td><td>可保留为卡片展开详情，不影响外部识别</td></tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <h4>结论</h4>
+      <p>经过骨架重建 + 4 个独有组件 + 品牌注入后，截图对比原版，<strong>没有任何一个视觉元素可以直接对应</strong>。布局、导航、首屏、卡片排列、品牌标识全部不同。即使有人看过原版，也无法识别这是 fork。</p>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

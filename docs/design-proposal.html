@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI News Radar × 赛博维克托 — 前端重构设计方案</title>
+<style>
+  :root {
+    --ink-black: #0d0d0f;
+    --ink-deep: #141418;
+    --ink-card: #1a1a20;
+    --ink-card-hover: #22222a;
+    --ink-border: rgba(255,255,255,0.06);
+    --ink-border-hover: rgba(255,255,255,0.12);
+    --text-primary: #e8e6e1;
+    --text-secondary: #9a978f;
+    --text-muted: #6b6860;
+    --orange-main: #FF5A1F;
+    --orange-glow: rgba(255,90,31,0.15);
+    --orange-soft: rgba(255,90,31,0.08);
+    --cyan-main: #00D4FF;
+    --cyan-glow: rgba(0,212,255,0.12);
+    --green-main: #3DDC84;
+    --gold-main: #F5B400;
+    --pink-main: #FF4FD8;
+    --purple-main: #8B5CF6;
+    --radius: 10px;
+    --radius-sm: 6px;
+    --radius-lg: 16px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    background: var(--ink-black);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .proposal {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 24px 120px;
+  }
+
+  /* ── Proposal Header ── */
+  .proposal-header {
+    text-align: center;
+    padding: 80px 0 60px;
+    border-bottom: 1px solid var(--ink-border);
+    margin-bottom: 60px;
+  }
+  .proposal-header .tag {
+    display: inline-block;
+    border: 1px solid var(--orange-main);
+    color: var(--orange-main);
+    border-radius: 999px;
+    padding: 4px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .proposal-header h1 {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, var(--text-primary) 0%, var(--orange-main) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .proposal-header p {
+    color: var(--text-secondary);
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* ── Section ── */
+  .section {
+    margin-bottom: 72px;
+  }
+  .section-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--orange-soft);
+    color: var(--orange-main);
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+  .section h2 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+  }
+  .section .subtitle {
+    color: var(--text-secondary);
+    font-size: 15px;
+    margin-bottom: 32px;
+    max-width: 680px;
+  }
+
+  /* ── Before/After Compare ── */
+  .compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+  @media (max-width: 700px) { .compare { grid-template-columns: 1fr; } }
+  .compare-panel {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--ink-border);
+  }
+  .compare-panel.before { opacity: 0.65; }
+  .compare-label {
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .compare-panel.before .compare-label {
+    background: #2a2a2a;
+    color: #888;
+  }
+  .compare-panel.after .compare-label {
+    background: var(--orange-soft);
+    color: var(--orange-main);
+  }
+  .compare-content {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+  }
+  .compare-panel.before .compare-content { background: #1a1a1a; }
+  .compare-panel.after .compare-content { background: var(--ink-card); }
+
+  /* ── Color Palette ── */
+  .palette {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .swatch {
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--ink-border);
+  }
+  .swatch-color {
+    height: 72px;
+  }
+  .swatch-info {
+    padding: 10px 12px;
+    background: var(--ink-card);
+  }
+  .swatch-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+  }
+  .swatch-hex {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
+  }
+
+  /* ── Mockup ── */
+  .mockup {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--ink-border);
+    background: var(--ink-deep);
+    margin-bottom: 24px;
+  }
+  .mockup-bar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 16px;
+    background: #111114;
+    border-bottom: 1px solid var(--ink-border);
+  }
+  .mockup-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #333;
+  }
+  .mockup-dot:nth-child(1) { background: #ff5f57; }
+  .mockup-dot:nth-child(2) { background: #febc2e; }
+  .mockup-dot:nth-child(3) { background: #28c840; }
+  .mockup-url {
+    flex: 1;
+    margin-left: 8px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.05);
+    padding: 4px 12px;
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: monospace;
+  }
+  .mockup-body {
+    padding: 0;
+  }
+
+  /* ── Hero Mockup ── */
+  .m-hero {
+    position: relative;
+    padding: 40px 32px 32px;
+    background: linear-gradient(180deg, rgba(255,90,31,0.04) 0%, transparent 100%);
+    border-bottom: 1px solid var(--ink-border);
+    overflow: hidden;
+  }
+  .m-hero::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    right: -40px;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--orange-glow) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .m-hero-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    position: relative;
+    z-index: 1;
+  }
+  .m-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .m-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: var(--ink-card);
+    border: 1px solid var(--ink-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .m-logo-eye {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2.5px solid var(--orange-main);
+    position: relative;
+    box-shadow: 0 0 12px var(--orange-glow), inset 0 0 6px var(--orange-glow);
+  }
+  .m-logo-eye::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--orange-main);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 8px var(--orange-main);
+  }
+  .m-brand-text h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -0.3px;
+  }
+  .m-brand-text span {
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+  }
+  .m-nav {
+    display: flex;
+    gap: 6px;
+  }
+  .m-nav a {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--ink-border);
+    transition: all 0.2s;
+  }
+  .m-nav a:hover { border-color: var(--orange-main); color: var(--orange-main); }
+
+  .m-headline {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+  .m-headline h1 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+  .m-headline h1 .accent { color: var(--orange-main); }
+  .m-headline p {
+    color: var(--text-secondary);
+    font-size: 14px;
+    max-width: 520px;
+  }
+
+  .m-slogan {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgba(255,90,31,0.2);
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-size: 13px;
+    color: var(--orange-main);
+    background: var(--orange-soft);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .m-slogan::before {
+    content: "⚡";
+    font-size: 14px;
+  }
+
+  .m-stats {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  .m-stat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .m-stat-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green-main);
+    box-shadow: 0 0 8px rgba(61,220,132,0.4);
+  }
+  .m-stat-dot.warn { background: var(--gold-main); box-shadow: 0 0 8px rgba(245,180,0,0.4); }
+  .m-stat span {
+    font-size: 12px;
+    color: var(--text-secondary);
+    font-weight: 600;
+  }
+
+  /* ── Character Tabs Mockup ── */
+  .m-tabs {
+    display: flex;
+    gap: 4px;
+    padding: 16px 32px;
+    border-bottom: 1px solid var(--ink-border);
+    overflow-x: auto;
+  }
+  .m-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: var(--radius);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: transparent;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .m-tab:hover { color: var(--text-secondary); background: rgba(255,255,255,0.03); }
+  .m-tab.active {
+    color: var(--text-primary);
+    background: var(--ink-card);
+    border-color: var(--ink-border-hover);
+  }
+  .m-tab .char-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+  }
+  .m-tab .count {
+    font-size: 11px;
+    padding: 1px 6px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.05);
+    color: var(--text-muted);
+  }
+  .m-tab.active .count { background: var(--orange-soft); color: var(--orange-main); }
+
+  /* ── Filter Bar Mockup ── */
+  .m-filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 32px;
+    border-bottom: 1px solid var(--ink-border);
+  }
+  .m-mode-switch {
+    display: flex;
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .m-mode-btn {
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-muted);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .m-mode-btn.active {
+    background: var(--orange-main);
+    color: #fff;
+  }
+  .m-search {
+    flex: 1;
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius);
+    padding: 8px 14px;
+    background: var(--ink-card);
+    color: var(--text-secondary);
+    font-size: 13px;
+    outline: none;
+  }
+  .m-search::placeholder { color: var(--text-muted); }
+  .m-result-count {
+    font-size: 12px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    font-weight: 600;
+  }
+
+  /* ── Hot Board Mockup ── */
+  .m-hot {
+    padding: 20px 32px;
+    border-bottom: 1px solid var(--ink-border);
+  }
+  .m-section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .m-section-head h2 {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .m-section-head h2 .fire { color: var(--orange-main); }
+  .m-section-head span {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  .m-hot-list {
+    display: grid;
+    gap: 0;
+  }
+  .m-hot-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-top: 1px solid var(--ink-border);
+  }
+  .m-hot-rank {
+    font-size: 15px;
+    font-weight: 900;
+    color: var(--orange-main);
+    min-width: 24px;
+    font-variant-numeric: tabular-nums;
+  }
+  .m-hot-rank.top { font-size: 17px; }
+  .m-hot-title {
+    flex: 1;
+    font-size: 14px;
+    color: var(--text-primary);
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .m-hot-meta {
+    font-size: 11px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .m-hot-source {
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--cyan-glow);
+    color: var(--cyan-main);
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  /* ── Timeline Cards Mockup ── */
+  .m-timeline {
+    padding: 20px 32px 32px;
+  }
+  .m-timeline-item {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 0 16px;
+    position: relative;
+    padding-bottom: 16px;
+  }
+  .m-timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 27px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--ink-border);
+  }
+  .m-timeline-item:last-child::before { display: none; }
+  .m-tl-rail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    position: relative;
+  }
+  .m-tl-time {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    background: var(--ink-deep);
+    padding: 0 4px;
+  }
+  .m-tl-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--orange-main);
+    margin-top: 6px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 10px var(--orange-glow);
+  }
+  .m-tl-dot.cyan { background: var(--cyan-main); box-shadow: 0 0 10px var(--cyan-glow); }
+
+  .m-card {
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    background: var(--ink-card);
+    transition: all 0.2s;
+  }
+  .m-card:hover {
+    border-color: var(--ink-border-hover);
+    background: var(--ink-card-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  .m-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  .m-card-source {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-secondary);
+  }
+  .m-card-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+  }
+  .m-card-badge.score {
+    background: var(--orange-soft);
+    color: var(--orange-main);
+    border: 1px solid rgba(255,90,31,0.2);
+  }
+  .m-card-badge.cat {
+    background: rgba(0,212,255,0.08);
+    color: var(--cyan-main);
+    border: 1px solid rgba(0,212,255,0.15);
+  }
+  .m-card-badge.curated {
+    background: rgba(255,90,31,0.08);
+    color: var(--orange-main);
+    border: 1px solid rgba(255,90,31,0.2);
+  }
+  .m-card h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.4;
+    margin-bottom: 6px;
+  }
+  .m-card p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.55;
+  }
+  .m-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--ink-border);
+  }
+  .m-card-tags {
+    display: flex;
+    gap: 4px;
+  }
+  .m-card-tag {
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.04);
+    color: var(--text-muted);
+    border: 1px solid var(--ink-border);
+  }
+  .m-card-link {
+    font-size: 12px;
+    color: var(--orange-main);
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .m-card-link:hover { text-decoration: underline; }
+
+  /* ── Character Panel ── */
+  .m-persona {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    margin-top: 10px;
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .m-persona-col {
+    padding: 12px 14px;
+    border-right: 1px solid var(--ink-border);
+  }
+  .m-persona-col:last-child { border-right: none; }
+  .m-persona-name {
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .m-persona-name.pragmatic { color: var(--cyan-main); }
+  .m-persona-name.cynic { color: var(--orange-main); }
+  .m-persona-name.police { color: var(--purple-main); }
+  .m-persona-text {
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  /* ── Footer Mockup ── */
+  .m-footer {
+    padding: 24px 32px;
+    border-top: 1px solid var(--ink-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255,255,255,0.01);
+  }
+  .m-footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .m-footer-slogan {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* ── Spec Table ── */
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    font-size: 14px;
+  }
+  .spec-table th {
+    text-align: left;
+    padding: 12px 16px;
+    background: var(--ink-card);
+    color: var(--text-secondary);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--ink-border);
+  }
+  .spec-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--ink-border);
+    color: var(--text-secondary);
+    vertical-align: top;
+  }
+  .spec-table tr:hover td { background: rgba(255,255,255,0.02); }
+  .spec-table .label { color: var(--text-primary); font-weight: 600; }
+
+  /* ── Principle Cards ── */
+  .principles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .principle-card {
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius);
+    padding: 24px;
+    background: var(--ink-card);
+    transition: border-color 0.2s;
+  }
+  .principle-card:hover { border-color: var(--ink-border-hover); }
+  .principle-icon {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .principle-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .principle-card p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* ── Phase Timeline ── */
+  .phase-timeline {
+    position: relative;
+    padding-left: 32px;
+  }
+  .phase-timeline::before {
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--orange-main) 0%, var(--cyan-main) 50%, var(--purple-main) 100%);
+    border-radius: 2px;
+  }
+  .phase {
+    position: relative;
+    padding: 0 0 40px 24px;
+  }
+  .phase:last-child { padding-bottom: 0; }
+  .phase::before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid var(--orange-main);
+    background: var(--ink-black);
+  }
+  .phase:nth-child(2)::before { border-color: var(--cyan-main); }
+  .phase:nth-child(3)::before { border-color: var(--purple-main); }
+  .phase-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--orange-main);
+    margin-bottom: 6px;
+  }
+  .phase:nth-child(2) .phase-tag { color: var(--cyan-main); }
+  .phase:nth-child(3) .phase-tag { color: var(--purple-main); }
+  .phase h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .phase p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  .phase-items {
+    display: grid;
+    gap: 6px;
+  }
+  .phase-item {
+    font-size: 13px;
+   -
+    color: var(--text-secondary);
+    padding-left: 16px;
+    position: relative;
+  }
+  .phase-item::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+  }
+
+  /* ── Callout ── */
+  .callout {
+    border: 1px solid rgba(255,90,31,0.2);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    background: var(--orange-soft);
+    margin-bottom: 24px;
+  }
+  .callout h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--orange-main);
+    margin-bottom: 8px;
+  }
+  .callout p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* ── Character Grid ── */
+  .char-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .char-card {
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius);
+    padding: 20px;
+    background: var(--ink-card);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  .char-card:hover {
+    border-color: var(--ink-border-hover);
+    transform: translateY(-2px);
+  }
+  .char-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    margin: 0 auto 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  .char-card h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+  }
+  .char-card .role {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+  .char-card .section-name {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+    display: inline-block;
+  }
+
+  /* ── Typography Spec ── */
+  .type-spec {
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .type-row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    border-bottom: 1px solid var(--ink-border);
+  }
+  .type-row:last-child { border-bottom: none; }
+  .type-label {
+    padding: 16px;
+    background: rgba(255,255,255,0.02);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+  }
+  .type-sample {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+  }
+  .type-sample .t-h1 { font-size: 36px; font-weight: 900; color: var(--text-primary); letter-spacing: -1px; }
+  .type-sample .t-h2 { font-size: 22px; font-weight: 800; color: var(--text-primary); }
+  .type-sample .t-h3 { font-size: 16px; font-weight: 700; color: var(--text-primary); }
+  .type-sample .t-body { font-size: 14px; color: var(--text-secondary); }
+  .type-sample .t-small { font-size: 12px; color: var(--text-muted); }
+  .type-sample .t-mono { font-size: 13px; color: var(--cyan-main); font-family: "JetBrains Mono", monospace; }
+
+  /* ── Divider ── */
+  .divider {
+    height: 1px;
+    background: var(--ink-border);
+    margin: 60px 0;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 700px) {
+    .proposal-header h1 { font-size: 28px; }
+    .m-hero { padding: 24px 16px; }
+    .m-headline h1 { font-size: 24px; }
+    .m-tabs, .m-filters, .m-hot, .m-timeline, .m-footer { padding-left: 16px; padding-right: 16px; }
+    .m-persona { grid-template-columns: 1fr; }
+    .m-persona-col { border-right: none; border-bottom: 1px solid var(--ink-border); }
+    .m-nav { display: none; }
+    .m-stats { flex-wrap: wrap; gap: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="proposal">
+
+  <!-- ═══════════ Header ═══════════ -->
+  <header class="proposal-header">
+    <div class="tag">Design Proposal</div>
+    <h1>AI News Radar × 赛博维克托<br>前端重构设计方案</h1>
+    <p>将「赛博工坊」IP 体系注入新闻雷达，从工具型界面升级为品牌型产品</p>
+  </header>
+
+  <!-- ═══════════ 1. 问题诊断 ═══════════ -->
+  <section class="section">
+    <div class="section-number">1</div>
+    <h2>问题诊断</h2>
+    <p class="subtitle">当前界面是一个功能完备但缺乏品牌个性的信息仪表盘。与「赛博维克托」IP 体系完全脱节。</p>
+
+    <div class="compare">
+      <div class="compare-panel before">
+        <div class="compare-label">Before · 当前状态</div>
+        <div class="compare-content">
+          <strong style="color:#888">问题清单</strong><br><br>
+          ✗ 无任何 IP 角色元素，品牌感为零<br>
+          ✗ 暖白底 + 深青强调色，视觉偏"内部工具"<br>
+          ✗ Logo 是通用雷达图标，无辨识度<br>
+          ✗ 标题"AI News Radar"与个人 IP 无关联<br>
+          ✗ 栏目 Tab 用数字分类，缺乏角色人格<br>
+          ✗ 无 Slogan / 品牌主张露出<br>
+          ✗ 卡片样式单调，信息层次扁平<br>
+          ✗ 无暗色模式，缺乏赛博感
+        </div>
+      </div>
+      <div class="compare-panel after">
+        <div class="compare-label">After · 重构目标</div>
+        <div class="compare-content">
+          <strong style="color:var(--orange-main)">目标清单</strong><br><br>
+          ✓ 赛博工坊世界观贯穿全站<br>
+          ✓ 水墨橙黑 + 电光青暗色主题<br>
+          ✓ 机械义眼 Logo，一眼识别<br>
+          ✓ 品牌名「赛博维克托 · 雷达」<br>
+          ✓ 角色 Tab：提莫侦察 / 黑默丁格精选 / 吉格斯热点<br>
+          ✓ 「加入光荣的进化」主 Slogan<br>
+          ✓ 卡片分层：时间轴 + 角色署名 + 评分徽章<br>
+          ✓ 暗色为主，赛博工坊沉浸感
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 2. 设计原则 ═══════════ -->
+  <section class="section">
+    <div class="section-number">2</div>
+    <h2>设计原则</h2>
+    <p class="subtitle">四个核心原则指导所有视觉决策</p>
+
+    <div class="principles">
+      <div class="principle-card">
+        <div class="principle-icon">🔧</div>
+        <h3>工坊感 · Workshop Aesthetic</h3>
+        <p>界面是维克托的工坊控制台——深色底、发光元素、精密仪表感。每个区块像一个正在运转的机器模块。</p>
+      </div>
+      <div class="principle-card">
+        <div class="principle-icon">👁</div>
+        <h3>义眼焦点 · Single Focus</h3>
+        <p>只用一个强调色（橙）引导视线，其余信息用明度层级区分。像机械义眼一样精准锁定重要内容。</p>
+      </div>
+      <div class="principle-card">
+        <div class="principle-icon">🤖</div>
+        <h3>角色即功能 · Characters as Functions</h3>
+        <p>每个 IP 角色对应一个功能模块：提莫=前沿雷达，黑默丁格=学习路线，吉格斯=热点爆破。用户通过角色理解信息结构。</p>
+      </div>
+      <div class="principle-card">
+        <div class="principle-icon">📐</div>
+        <h3>信息密度不妥协 · Density First</h3>
+        <p>视觉升级不牺牲信息效率。卡片仍是一行一条，时间轴保留，筛选器保持可达。美感服务于可读性。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 3. 色彩系统 ═══════════ -->
+  <section class="section">
+    <div class="section-number">3</div>
+    <h2>色彩系统</h2>
+    <p class="subtitle">从暖白工具风切换到水墨赛博暗色主题，保留角色专属色体系</p>
+
+    <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;color:var(--text-primary)">基础色板</h3>
+    <div class="palette">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#0d0d0f"></div>
+        <div class="swatch-info"><div class="swatch-name">墨黑底</div><div class="swatch-hex">#0D0D0F</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#1a1a20"></div>
+        <div class="swatch-info"><div class="swatch-name">卡片面</div><div class="swatch-hex">#1A1A20</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#e8e6e1"></div>
+        <div class="swatch-info"><div class="swatch-name">主文字</div><div class="swatch-hex">#E8E6E1</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#9a978f"></div>
+        <div class="swatch-info"><div class="swatch-name">副文字</div><div class="swatch-hex">#9A978F</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:rgba(255,255,255,0.06)"></div>
+        <div class="swatch-info"><div class="swatch-name">边界线</div><div class="swatch-hex">rgba(255,255,255,0.06)</div></div>
+      </div>
+    </div>
+
+    <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;color:var(--text-primary)">功能色 & 角色色</h3>
+    <div class="palette">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#FF5A1F"></div>
+        <div class="swatch-info"><div class="swatch-name">电光橙 · 主强调</div><div class="swatch-hex">#FF5A1F</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#00D4FF"></div>
+        <div class="swatch-info"><div class="swatch-name">电光青 · 信息</div><div class="swatch-hex">#00D4FF</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#3DDC84"></div>
+        <div class="swatch-info"><div class="swatch-name">侦察绿 · 提莫</div><div class="swatch-hex">#3DDC84</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#F5B400"></div>
+        <div class="swatch-info"><div class="swatch-name">黄铜金 · 黑默丁格</div><div class="swatch-hex">#F5B400</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#FF4FD8"></div>
+        <div class="swatch-info"><div class="swatch-name">霓虹粉 · 萨勒芬妮</div><div class="swatch-hex">#FF4FD8</div></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#8B5CF6"></div>
+        <div class="swatch-info"><div class="swatch-name">星辉紫 · 巴德</div><div class="swatch-hex">#8B5CF6</div></div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h4>色彩映射规则</h4>
+      <p>
+        <strong>旧 --accent (#126a73 深青)</strong> → 新 <strong>--orange-main (#FF5A1F 电光橙)</strong>，所有主要 CTA、选中态、评分徽章统一换橙。<br>
+        <strong>旧 --accent-warm (#b55231 暖红)</strong> → 保留为精选/热门标记色，与主橙形成同色系层次。<br>
+        <strong>旧 --bg (#f6f6f2 暖白)</strong> → 新 <strong>--ink-black (#0D0D0F 墨黑)</strong>，整体翻转为暗色。
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ 4. 字体规范 ═══════════ -->
+  <section class="section">
+    <div class="section-number">4</div>
+    <h2>字体规范</h2>
+    <p class="subtitle">保持系统字体栈，调整字重层级，加入等宽字体用于数据展示</p>
+
+    <div class="type-spec">
+      <div class="type-row">
+        <div class="type-label">H1 · 主标题</div>
+        <div class="type-sample"><span class="t-h1">加入光荣的进化。</span></div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">H2 · 板块标题</div>
+        <div class="type-sample"><span class="t-h2">当前热点 · 提莫侦察中</span></div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">H3 · 卡片标题</div>
+        <div class="type-sample"><span class="t-h3">OpenAI 发布 GPT-5：多模态推理全面升级</span></div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">Body · 正文</div>
+        <div class="type-sample"><span class="t-body">模型在数学、编程和多语言理解上均有显著提升， benchmarks 全面领先…</span></div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">Small · 辅助信息</div>
+        <div class="type-sample"><span class="t-small">3 个信源 · 4 小时前 · 精选评分 92</span></div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">Mono · 数据/代码</div>
+        <div class="type-sample"><span class="t-mono">v2.4.1 · 2026-10-27T15:49:00+08:00</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 5. 角色 × 功能映射 ═══════════ -->
+  <section class="section">
+    <div class="section-number">5</div>
+    <h2>角色 × 功能映射</h2>
+    <p class="subtitle">将栏目 Tab 从纯数字分类升级为角色驱动的功能分区</p>
+
+    <div class="char-grid">
+      <div class="char-card">
+        <div class="char-avatar" style="background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.2)">🔍</div>
+        <h4>提莫 · 侦察兵</h4>
+        <div class="role">前沿雷达 / 全部信源</div>
+        <div class="section-name" style="background:rgba(61,220,132,0.1);color:var(--green-main);border:1px solid rgba(61,220,132,0.2)">全部</div>
+      </div>
+      <div class="char-card">
+        <div class="char-avatar" style="background:rgba(245,180,0,0.1);border:1px solid rgba(245,180,0,0.2)">🎓</div>
+        <h4>黑默丁格 · 教授</h4>
+        <div class="role">精选推荐 / 深度学习</div>
+        <div class="section-name" style="background:rgba(245,180,0,0.1);color:var(--gold-main);border:1px solid rgba(245,180,0,0.2)">精选</div>
+      </div>
+      <div class="char-card">
+        <div class="char-avatar" style="background:rgba(255,90,31,0.1);border:1px solid rgba(255,90,31,0.2)">💣</div>
+        <h4>吉格斯 · 爆破手</h4>
+        <div class="role">热点排行 / 爆款内容</div>
+        <div class="section-name" style="background:var(--orange-soft);color:var(--orange-main);border:1px solid rgba(255,90,31,0.2)">热点</div>
+      </div>
+      <div class="char-card">
+        <div class="char-avatar" style="background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.2)">🤖</div>
+        <h4>布里茨 · 旗舰</h4>
+        <div class="role">Agent 实战 / 模型动态</div>
+        <div class="section-name" style="background:rgba(0,212,255,0.08);color:var(--cyan-main);border:1px solid rgba(0,212,255,0.15)">模型</div>
+      </div>
+      <div class="char-card">
+        <div class="char-avatar" style="background:rgba(255,79,216,0.1);border:1px solid rgba(255,79,216,0.2)">🎬</div>
+        <h4>萨勒芬妮 · 导演</h4>
+        <div class="role">产品 / 开发者工具</div>
+        <div class="section-name" style="background:rgba(255,79,216,0.08);color:var(--pink-main);border:1px solid rgba(255,79,216,0.15)">产品</div>
+      </div>
+      <div class="char-card">
+        <div class="char-avatar" style="background:rgba(139,92,246,0.1);border:1px solid rgba(139,92,246,0.2)">📜</div>
+        <h4>巴德 · 说书人</h4>
+        <div class="role">社区 / 论文 / 行业</div>
+        <div class="section-name" style="background:rgba(139,92,246,0.08);color:var(--purple-main);border:1px solid rgba(139,92,246,0.15)">社区</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h4>映射逻辑</h4>
+      <p>角色 Tab 替代原来的纯文字分类 Tab。每个角色带专属色圆点 + 角色名 + 内容计数。选中态用角色专属色描边。鼠标悬停角色时，对应的内容卡片边框也微微发光（同色系 glow），强化"这个角色在给你讲这条新闻"的沉浸感。</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ 6. 界面重构 Mockup ═══════════ -->
+  <section class="section">
+    <div class="section-number">6</div>
+    <h2>界面重构 · 完整 Mockup</h2>
+    <p class="subtitle">以下是重构后的完整页面结构模拟，展示所有设计决策的落地效果</p>
+
+    <div class="mockup">
+      <div class="mockup-bar">
+        <div class="mockup-dot"></div>
+        <div class="mockup-dot"></div>
+        <div class="mockup-dot"></div>
+        <div class="mockup-url">wenxiangwu.github.io/ai-news-radar/</div>
+      </div>
+      <div class="mockup-body">
+
+        <!-- Hero -->
+        <div class="m-hero">
+          <div class="m-hero-top">
+            <div class="m-brand">
+              <div class="m-logo">
+                <div class="m-logo-eye"></div>
+              </div>
+              <div class="m-brand-text">
+                <h3>赛博维克托 · 雷达</h3>
+                <span>AI NEWS RADAR · BY CYBER VIKTOR</span>
+              </div>
+            </div>
+            <div class="m-nav">
+              <a href="#">GitHub</a>
+              <a href="#">AI MAP</a>
+              <a href="#">GoodCase</a>
+            </div>
+          </div>
+
+          <div class="m-slogan">加入光荣的进化。</div>
+
+          <div class="m-headline">
+            <h1>24 小时 AI <span class="accent">信号雷达</span></h1>
+            <p>提莫替你盯着 32 个信源，黑默丁格精选值得深读的，吉格斯标出正在爆的。拆开看，跑起来。</p>
+          </div>
+
+          <div class="m-stats">
+            <div class="m-stat">
+              <div class="m-stat-dot"></div>
+              <span>16/16 源正常</span>
+            </div>
+            <div class="m-stat">
+              <div class="m-stat-dot warn"></div>
+              <span>更新于 15:49</span>
+            </div>
+            <div class="m-stat">
+              <span style="color:var(--text-muted)">视角</span>
+              <span style="color:var(--orange-main);font-weight:700">手机版</span>
+              <span style="color:var(--text-muted)">·</span>
+              <span>经典版</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Character Tabs -->
+        <div class="m-tabs">
+          <div class="m-tab active">
+            <span class="char-dot" style="background:rgba(61,220,132,0.15);color:var(--green-main)">🔍</span>
+            提莫 · 全部
+            <span class="count">236</span>
+          </div>
+          <div class="m-tab">
+            <span class="char-dot" style="background:rgba(245,180,0,0.15);color:var(--gold-main)">🎓</span>
+            黑默丁格 · 精选
+            <span class="count">48</span>
+          </div>
+          <div class="m-tab">
+            <span class="char-dot" style="background:rgba(255,90,31,0.15);color:var(--orange-main)">💣</span>
+            吉格斯 · 热点
+            <span class="count">8</span>
+          </div>
+          <div class="m-tab">
+            <span class="char-dot" style="background:rgba(0,212,255,0.15);color:var(--cyan-main)">🤖</span>
+            布里茨 · 模型
+            <span class="count">34</span>
+          </div>
+          <div class="m-tab">
+            <span class="char-dot" style="background:rgba(255,79,216,0.15);color:var(--pink-main)">🎬</span>
+            萨勒芬妮 · 产品
+            <span class="count">24</span>
+          </div>
+          <div class="m-tab">
+            <span class="char-dot" style="background:rgba(139,92,246,0.15);color:var(--purple-main)">📜</span>
+            巴德 · 社区
+            <span class="count">68</span>
+          </div>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="m-filters">
+          <div class="m-mode-switch">
+            <button class="m-mode-btn active">✦ 精选</button>
+            <button class="m-mode-btn">☰ 全量</button>
+          </div>
+          <input class="m-search" type="text" placeholder="搜索 AI 信号 / 来源…" readonly>
+          <span class="m-result-count">精选 236 条</span>
+        </div>
+
+        <!-- Hot Board -->
+        <div class="m-hot">
+          <div class="m-section-head">
+            <h2><span class="fire">🔥</span> 吉格斯 · 当前热点</h2>
+            <span>当前 8 条热点 · 按热度降序</span>
+          </div>
+          <div class="m-hot-list">
+            <div class="m-hot-row">
+              <span class="m-hot-rank top">1</span>
+              <a class="m-hot-title" href="#">OpenAI 发布 GPT-5：多模态推理全面升级，benchmarks 刷新纪录</a>
+              <div class="m-hot-meta">
+                <span class="m-hot-source">3 信源</span>
+                <span>4h 前</span>
+              </div>
+            </div>
+            <div class="m-hot-row">
+              <span class="m-hot-rank top">2</span>
+              <a class="m-hot-title" href="#">Claude 4.5 Sonnet 上线：Agent 能力大幅提升，支持 1M token 上下文</a>
+              <div class="m-hot-meta">
+                <span class="m-hot-source">5 信源</span>
+                <span>6h 前</span>
+              </div>
+            </div>
+            <div class="m-hot-row">
+              <span class="m-hot-rank top">3</span>
+              <a class="m-hot-title" href="#">Google DeepMind 开源 Gemini 2.0 Flash：轻量级多模态模型</a>
+              <div class="m-hot-meta">
+                <span class="m-hot-source">2 信源</span>
+                <span>8h 前</span>
+              </div>
+            </div>
+            <div class="m-hot-row">
+              <span class="m-hot-rank">4</span>
+              <a class="m-hot-title" href="#">Cursor 完成 $900M 融资，估值 $90B：AI 编程赛道持续升温</a>
+              <div class="m-hot-meta">
+                <span class="m-hot-source">2 信源</span>
+                <span>10h 前</span>
+              </div>
+            </div>
+            <div class="m-hot-row">
+              <span class="m-hot-rank">5</span>
+              <a class="m-hot-title" href="#">Anthropic 发布 Model Context Protocol 开源标准</a>
+              <div class="m-hot-meta">
+                <span class="m-hot-source">1 信源</span>
+                <span>12h 前</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Feed -->
+        <div class="m-timeline">
+          <div class="m-section-head">
+            <h2>黑默丁格 · 精选</h2>
+            <span>按时间倒序</span>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="m-timeline-item">
+            <div class="m-tl-rail">
+              <span class="m-tl-time">15:49</span>
+              <div class="m-tl-dot"></div>
+            </div>
+            <div class="m-card">
+              <div class="m-card-meta">
+                <span class="m-card-source">AIbase</span>
+                <span class="m-card-badge score">92 分</span>
+                <span class="m-card-badge cat">模型</span>
+                <span class="m-card-badge curated">✦ 精选</span>
+              </div>
+              <h3>OpenAI 发布 GPT-5：多模态推理全面升级</h3>
+              <p>模型在数学、编程和多语言理解上均有显著提升，在多项 benchmarks 上刷新纪录。新模型支持原生图像、音频和视频输入…</p>
+              <div class="m-card-footer">
+                <div class="m-card-tags">
+                  <span class="m-card-tag">GPT-5</span>
+                  <span class="m-card-tag">OpenAI</span>
+                  <span class="m-card-tag">多模态</span>
+                </div>
+                <a class="m-card-link" href="#">查看原文 ↗</a>
+              </div>
+              <div class="m-persona">
+                <div class="m-persona-col">
+                  <div class="m-persona-name pragmatic">实用派</div>
+                  <div class="m-persona-text">直接能用，API 价格是关键</div>
+                </div>
+                <div class="m-persona-col">
+                  <div class="m-persona-name cynic">怀疑派</div>
+                  <div class="m-persona-text">等第三方评测出来再说</div>
+                </div>
+                <div class="m-persona-col">
+                  <div class="m-persona-name police">论文警</div>
+                  <div class="m-persona-text">技术报告还没放出来</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="m-timeline-item">
+            <div class="m-tl-rail">
+              <span class="m-tl-time">14:22</span>
+              <div class="m-tl-dot cyan"></div>
+            </div>
+            <div class="m-card">
+              <div class="m-card-meta">
+                <span class="m-card-source">AI工程化</span>
+                <span class="m-card-badge score">87 分</span>
+                <span class="m-card-badge cat" style="background:rgba(255,90,31,0.08);color:var(--orange-main);border-color:rgba(255,90,31,0.15)">产品</span>
+              </div>
+              <h3>Claude 4.5 Sonnet 上线：Agent 能力大幅提升</h3>
+              <p>支持 1M token 上下文窗口，新增 computer use 能力，可以直接操作浏览器和桌面应用。在 SWE-bench 上得分提升 40%…</p>
+              <div class="m-card-footer">
+                <div class="m-card-tags">
+                  <span class="m-card-tag">Claude</span>
+                  <span class="m-card-tag">Agent</span>
+                  <span class="m-card-tag">Anthropic</span>
+                </div>
+                <a class="m-card-link" href="#">查看原文 ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="m-timeline-item">
+            <div class="m-tl-rail">
+              <span class="m-tl-time">11:05</span>
+              <div class="m-tl-dot"></div>
+            </div>
+            <div class="m-card">
+              <div class="m-card-meta">
+                <span class="m-card-source">Hacker News</span>
+                <span class="m-card-badge score">78 分</span>
+                <span class="m-card-badge cat">开发者</span>
+              </div>
+              <h3>Cursor 完成 $900M 融资，估值 $90B</h3>
+              <p>AI 编程赛道持续升温，Cursor 成为估值增长最快的开发工具公司。新一轮融资将用于扩展企业版和模型训练…</p>
+              <div class="m-card-footer">
+                <div class="m-card-tags">
+                  <span class="m-card-tag">Cursor</span>
+                  <span class="m-card-tag">融资</span>
+                  <span class="m-card-tag">AI编程</span>
+                </div>
+                <a class="m-card-link" href="#">查看原文 ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="m-footer">
+          <div class="m-footer-brand">
+            <div class="m-logo" style="width:28px;height:28px;border-radius:8px">
+              <div class="m-logo-eye" style="width:12px;height:12px;border-width:2px"></div>
+            </div>
+            赛博维克托 · 雷达 — 拆开看，跑起来。
+          </div>
+          <div class="m-footer-slogan">加入光荣的进化。</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 7. 组件规范 ═══════════ -->
+  <section class="section">
+    <div class="section-number">7</div>
+    <h2>组件规范 · Detail Spec</h2>
+    <p class="subtitle">每个关键组件的具体样式规则</p>
+
+    <table class="spec-table">
+      <thead>
+        <tr><th style="width:160px">组件</th><th>样式规则</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="label">Logo · 机械义眼</td>
+          <td>48×48 圆角方块(12px radius)，墨黑底 + 细边框。内部是一个发光圆环(橙) + 中心实心圆点(橙)，带 glow 阴影。小尺寸(28px)只保留圆环+点。替代当前的雷达 SVG。</td>
+        </tr>
+        <tr>
+          <td class="label">Hero 区</td>
+          <td>顶部：Logo + 品牌名「赛博维克托 · 雷达」+ 英文副标。Slogan 徽章「加入光荣的进化。」。主标题 H1 36px 粗黑，关键词用橙色。描述文字 14px 灰色。底部状态行：源状态绿点 + 更新时间 + 视角切换。</td>
+        </tr>
+        <tr>
+          <td class="label">角色 Tab</td>
+          <td>每个 Tab = 角色 emoji(20px 圆角方块) + 角色名 + 计数徽章。未选中：透明底 + 灰字。选中：深色底 + 角色专属色边框 + 白字。Hover：微亮背景。Tab 容器有底部 1px 分隔线。</td>
+        </tr>
+        <tr>
+          <td class="label">精选/全量开关</td>
+          <td>双按钮组，选中态用橙色实底白字，未选中透明底灰字。与搜索框同行。</td>
+        </tr>
+        <tr>
+          <td class="label">热点排行</td>
+          <td>标题行：🔥 emoji + 「吉格斯 · 当前热点」。每行：序号(橙/金/铜色) + 标题 + 信源数徽章 + 时间。行间距用 1px 分隔线。TOP3 序号加大加粗。</td>
+        </tr>
+        <tr>
+          <td class="label">时间轴卡片</td>
+          <td>左侧 rail：时间(12px 灰) + 发光圆点(橙/青交替)。右侧卡片：墨黑底(#1A1A20) + 1px 边框 + 10px 圆角。内部：信源名 + 评分徽章(橙) + 分类徽章(角色色) + 精选徽章。标题 15px 粗白。摘要 13px 灰。底部分隔线后是标签 + 查看原文链接(橙色)。</td>
+        </tr>
+        <tr>
+          <td class="label">三味点评面板</td>
+          <td>嵌在卡片底部，3 列网格，列间 1px 竖线。每列：角色名(11px 彩色) + 点评文字(11px 灰)。面板背景比卡片略深。移动端改为单列堆叠。</td>
+        </tr>
+        <tr>
+          <td class="label">页脚</td>
+          <td>1px 顶部分隔线。左侧：小 Logo + 「赛博维克托 · 雷达 — 拆开看，跑起来。」右侧：「加入光荣的进化。」斜体灰色。</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ═══════════ 8. 动效规范 ═══════════ -->
+  <section class="section">
+    <div class="section-number">8</div>
+    <h2>动效规范</h2>
+    <p class="subtitle">克制的动效增强赛博感，不牺牲性能</p>
+
+    <table class="spec-table">
+      <thead>
+        <tr><th style="width:180px">动效</th><th>规则</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="label">义眼 Logo glow</td>
+          <td>CSS animation，呼吸频率 3s ease-in-out，box-shadow 在 8px~14px 间循环。prefers-reduced-motion 时关闭。</td>
+        </tr>
+        <tr>
+          <td class="label">卡片 hover</td>
+          <td>translateY(-2px) + box-shadow 增强 + border-color 微亮。transition 200ms ease。</td>
+        </tr>
+        <tr>
+          <td class="label">Tab 切换</td>
+          <td>选中态 border-color 渐变 150ms。对应内容区域 fade-in 200ms。</td>
+        </tr>
+        <tr>
+          <td class="label">时间轴圆点</td>
+          <td>新内容到达时，圆点 pulse 一次（scale 1→1.5→1，400ms），glow 增强后恢复。</td>
+        </tr>
+        <tr>
+          <td class="label">热点序号</td>
+          <td>TOP3 序号有微弱的 text-shadow glow，颜色与序号一致（橙/金/铜）。</td>
+        </tr>
+        <tr>
+          <td class="label">卡片入场</td>
+          <td>保留当前 translateY(12px) → 0 的入场动画，增加 opacity 0→1，时长 300ms。</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ═══════════ 9. 实施路线 ═══════════ -->
+  <section class="section">
+    <div class="section-number">9</div>
+    <h2>实施路线</h2>
+    <p class="subtitle">分三个阶段，每阶段可独立上线验证</p>
+
+    <div class="phase-timeline">
+      <div class="phase">
+        <div class="phase-tag">Phase 1 · 视觉翻转（1-2 天）</div>
+        <h3>暗色主题 + 色彩系统替换</h3>
+        <p>最小改动，最大感知变化。替换 CSS 变量即可覆盖 80% 视觉效果。</p>
+        <div class="phase-items">
+          <div class="phase-item">替换 :root 变量：背景→墨黑，文字→暖白，强调→电光橙</div>
+          <div class="phase-item">所有 border 从 rgba(23,23,23,0.08) 改为 rgba(255,255,255,0.06)</div>
+          <div class="phase-item">卡片背景从 #fff 改为 #1A1A20，文字色反转</div>
+          <div class="phase-item">按钮选中态从深青改为电光橙实底</div>
+          <div class="phase-item">Logo SVG 替换为机械义眼</div>
+        </div>
+      </div>
+
+      <div class="phase">
+        <div class="phase-tag">Phase 2 · IP 注入（2-3 天）</div>
+        <h3>角色系统 + 品牌文案</h3>
+        <p>将角色映射到功能模块，注入品牌叙事。</p>
+        <div class="phase-items">
+          <div class="phase-item">栏目 Tab 重构为角色 Tab（emoji + 名称 + 专属色）</div>
+          <div class="phase-item">Hero 区文案替换：标题、副标、Slogan 徽章</div>
+          <div class="phase-item">热点板块标题改为「吉格斯 · 当前热点」</div>
+          <div class="phase-item">精选板块标题改为「黑默丁格 · 精选」</div>
+          <div class="phase-item">页脚品牌信息替换</div>
+          <div class="phase-item">meta 标签更新（title / description / og）</div>
+        </div>
+      </div>
+
+      <div class="phase">
+        <div class="phase-tag">Phase 3 · 体验增强（1-2 天）</div>
+        <h3>动效 + 细节打磨</h3>
+        <p>增加赛博感的微交互，打磨视觉细节。</p>
+        <div class="phase-items">
+          <div class="phase-item">义眼 Logo 呼吸 glow 动画</div>
+          <div class="phase-item">卡片 hover 效果增强（border glow + shadow）</div>
+          <div class="phase-item">时间轴圆点 pulse 入场动画</div>
+          <div class="phase-item">角色 Tab 切换时的内容 fade-in</div>
+          <div class="phase-item">Hero 区背景 radial-gradient 光晕</div>
+          <div class="phase-item">评分徽章和热点序号的 text-shadow glow</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 10. CSS 变量清单 ═══════════ -->
+  <section class="section">
+    <div class="section-number">10</div>
+    <h2>CSS 变量替换清单</h2>
+    <p class="subtitle">Phase 1 可直接复制使用的变量定义</p>
+
+    <div class="mockup" style="padding:0">
+      <div style="padding:20px 24px;border-bottom:1px solid var(--ink-border);font-size:12px;color:var(--text-muted);font-weight:700;letter-spacing:1px;text-transform:uppercase">styles.css · :root 替换</div>
+      <pre style="padding:24px;margin:0;font-size:13px;line-height:1.8;color:var(--text-secondary);font-family:'JetBrains Mono','SF Mono','Fira Code',monospace;overflow-x:auto;background:var(--ink-card)"><code>:root {
+  <span style="color:var(--text-muted)">/* ── 底色系统：暖白 → 墨黑 ── */</span>
+  <span style="color:var(--cyan-main)">--bg</span>: <span style="color:var(--orange-main)">#0d0d0f</span>;
+  <span style="color:var(--cyan-main)">--bg-alt</span>: <span style="color:var(--orange-main)">#111114</span>;
+  <span style="color:var(--cyan-main)">--surface</span>: <span style="color:var(--orange-main)">#1a1a20</span>;
+  <span style="color:var(--cyan-main)">--surface-soft</span>: <span style="color:var(--orange-main)">#16161b</span>;
+  <span style="color:var(--cyan-main)">--surface-alt</span>: <span style="color:var(--orange-main)">#1e1e25</span>;
+
+  <span style="color:var(--text-muted)">/* ── 文字系统：黑 → 暖白 ── */</span>
+  <span style="color:var(--cyan-main)">--ink</span>: <span style="color:var(--orange-main)">#e8e6e1</span>;
+  <span style="color:var(--cyan-main)">--ink-soft</span>: <span style="color:var(--orange-main)">#c5c3bc</span>;
+  <span style="color:var(--cyan-main)">--muted</span>: <span style="color:var(--orange-main)">#9a978f</span>;
+  <span style="color:var(--cyan-main)">--muted-soft</span>: <span style="color:var(--orange-main)">#6b6860</span>;
+
+  <span style="color:var(--text-muted)">/* ── 边框系统：深灰 → 微光白 ── */</span>
+  <span style="color:var(--cyan-main)">--line</span>: <span style="color:var(--orange-main)">rgba(255,255,255,0.08)</span>;
+  <span style="color:var(--cyan-main)">--line-soft</span>: <span style="color:var(--orange-main)">rgba(255,255,255,0.05)</span>;
+
+  <span style="color:var(--text-muted)">/* ── 强调系统：深青 → 电光橙 ── */</span>
+  <span style="color:var(--cyan-main)">--accent</span>: <span style="color:var(--orange-main)">#ff5a1f</span>;
+  <span style="color:var(--cyan-main)">--accent-warm</span>: <span style="color:var(--orange-main)">#ff7a4a</span>;
+
+  <span style="color:var(--text-muted)">/* ── 状态色（保持语义，调亮度） ── */</span>
+  <span style="color:var(--cyan-main)">--good</span>: <span style="color:var(--orange-main)">#3ddc84</span>;
+  <span style="color:var(--cyan-main)">--warn</span>: <span style="color:var(--orange-main)">#f5b400</span>;
+  <span style="color:var(--cyan-main)">--bad</span>: <span style="color:var(--orange-main)">#ff4444</span>;
+
+  <span style="color:var(--text-muted)">/* ── 新增：角色专属色 ── */</span>
+  <span style="color:var(--cyan-main)">--char-teemo</span>: <span style="color:var(--orange-main)">#3ddc84</span>;
+  <span style="color:var(--cyan-main)">--char-heimer</span>: <span style="color:var(--orange-main)">#f5b400</span>;
+  <span style="color:var(--cyan-main)">--char-ziggs</span>: <span style="color:var(--orange-main)">#ff5a1f</span>;
+  <span style="color:var(--cyan-main)">--char-blitz</span>: <span style="color:var(--orange-main)">#00d4ff</span>;
+  <span style="color:var(--cyan-main)">--char-sera</span>: <span style="color:var(--orange-main)">#ff4fd8</span>;
+  <span style="color:var(--cyan-main)">--char-bard</span>: <span style="color:var(--orange-main)">#8b5cf6</span>;
+
+  <span style="color:var(--cyan-main)">--radius</span>: 10px;
+}</code></pre>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
