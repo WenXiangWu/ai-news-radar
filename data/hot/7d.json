@@ -1,21 +1,37 @@
 {
-  "generated_at": "2026-10-28T18:52:32.007327+00:00",
+  "generated_at": "2026-10-28T23:14:07.038443+00:00",
   "window_hours": 168,
-  "total_items": 9,
+  "total_items": 7,
   "items": [
     {
-      "title": "美国总统表示将禁止使用“人工智能”一词",
-      "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term",
-      "source": "thehill.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-28T17:24:03.356000+00:00",
+      "title": "Nvidia Nemotron 3.5 Transcribe：支持 40 种语言的开源语音识别（ASR）",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T22:56:46.012000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 90,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 100
+    },
+    {
+      "title": "本职工作：税务——通过50项专业税务任务对AI代理进行评估",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "source": "surgehq.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-10-28T18:58:56.922000+00:00",
+      "source_count": 3,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 84
     },
     {
       "title": "肯塔基州一名男子成为首位获得人工智能宗教豁免的人文主义者",
@@ -24,42 +40,57 @@
       "site_id": "buzzing",
       "published_at": "2026-10-28T15:02:24.966000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 87
+      "hot_score": 61
     },
     {
-      "title": "Dayjob：税务——评估人工智能代理的 50 项专业税务任务",
-      "url": "https://surgehq.ai/blog/dayjob-tax",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-28T15:46:30+00:00",
+      "title": "当被问及谁赢得了2020年大选时，谷歌AI表现得有些含糊其辞",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections",
+      "source": "arstechnica.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-28T22:40:37.703000+00:00",
       "source_count": 2,
       "score": 54,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
+    },
+    {
+      "title": "Claude Code 发现我从 iPhone 的隐藏缓存中删除了 145K 张照片",
+      "url": "https://twitter.com/coolerwave/status/2114088769112477849",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-28T22:34:30+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 57
+    },
+    {
+      "title": "人工智能高管可能太脱离现实，无法为公众服务",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-28T20:00:00+00:00",
+      "source_count": 2,
+      "score": 63,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
       "hot_score": 46
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Transcribe 和 Granary v2：您可以提示和调整的智能多语言转录",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:17:53+00:00",
-      "source_count": 2,
-      "score": 88,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新",
-      "hot_score": 45
     },
     {
       "title": "谷歌 DeepMind 发布 Genie 4：能\"走进去\"的虚拟世界，首次同步发声",
@@ -68,7 +99,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-28T11:50:31.400552+00:00",
       "source_count": 2,
-      "score": 78,
+      "score": 77,
       "official": false,
       "topics": [
         "google",
@@ -77,67 +108,7 @@
       ],
       "reason": "",
       "label": "行业动态",
-      "hot_score": 33
-    },
-    {
-      "title": "借助Claude加速药物研发的初步进展",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "source": "www.anthropic.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-28T00:43:01.822000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 26
-    },
-    {
-      "title": "Survival LLM：可在您自己的计算机上运行的 AI 助手和应急知识库",
-      "url": "https://www.brangus.io/survival-llm",
-      "source": "www.brangus.io",
-      "site_id": "buzzing",
-      "published_at": "2026-10-27T22:20:46.155000+00:00",
-      "source_count": 3,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 22
-    },
-    {
-      "title": "评论者很少谈论可靠性。车主提及该话题的频率则是他们的两倍",
-      "url": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
-      "source": "www.bettascore.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-28T06:16:58.214000+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 21
-    },
-    {
-      "title": "扩大我们与 GSA 的合作伙伴关系，将 Claude 带到各级政府",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-27T22:23:37+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 11
+      "hot_score": 23
     }
   ]
 }

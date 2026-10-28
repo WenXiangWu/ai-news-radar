@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-10-28T18:52:32.007327+00:00",
+  "generated_at": "2026-10-28T23:14:07.038443+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 9,
+  "total_items": 7,
   "items": [
+    {
+      "title": "Nvidia Nemotron 3.5 Transcribe：支持 40 种语言的开源语音识别（ASR）",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T22:56:46.012000+00:00",
+      "source_count": 3,
+      "score": 90,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "MiniMax 开源 MCode Stack：编码团队日常使用的 15 项代理技能",
       "url": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills",
@@ -13,7 +28,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-28T17:20:29+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": false,
       "topics": [
         "agent",
@@ -24,28 +39,13 @@
       "label": "值得关注"
     },
     {
-      "title": "NVIDIA Nemotron 3.5 Transcribe 和 Granary v2：您可以提示和调整的智能多语言转录",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:17:53+00:00",
-      "source_count": 2,
-      "score": 88,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "Harvey 为合法人工智能筹集了 5 亿美元，我构建了相同的并开源了它",
       "url": "https://github.com/thomasunise/casecite",
       "source": "Hacker News · 24h最热",
       "site_id": "zeli",
       "published_at": "2026-10-28T13:56:21+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "opensource"
@@ -70,13 +70,28 @@
       "label": "值得关注"
     },
     {
+      "title": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务",
+      "url": "https://www.infoq.cn/article/wIuu0NSaLSaqJJpXVExD",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-28T12:13:00+00:00",
+      "source_count": 1,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
       "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499654&idx=1&sn=9bcbf9492c492a5d5e611af41670425f",
       "source": "公众号：面壁智能（MiniCPM）",
       "site_id": "aihot",
       "published_at": "2026-10-28T11:38:17+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "opensource",
@@ -93,7 +108,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-28T05:38:48.877382+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "opensource",
@@ -101,54 +116,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务",
-      "url": "https://www.infoq.cn/article/wIuu0NSaLSaqJJpXVExD",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-28T04:13:00+00:00",
-      "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "认识 LEANN：一种开源矢量索引，可将 60M 块 RAG 索引从 201 GB 缩小到 6 GB",
-      "url": "https://www.marktechpost.com/2026/10/27/leann-vector-index-mlsys-2026",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-27T21:54:37+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "我评估了 369 个 Claude/CodeX AI 视频与自动化剪辑开源项目",
-      "url": "https://waytoagi.feishu.cn/wiki/Te14wRPAJiVpJ1k4O9pcpgX3nHg?from=from_copylink",
-      "source": "社区更新 · 2026-10-27",
-      "site_id": "waytoagi",
-      "published_at": "2026-10-27T20:05:03.994974+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
