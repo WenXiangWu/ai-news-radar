@@ -7,11 +7,11 @@
   "groups": [
     "wiki-01"
   ],
-  "run_id": "40598635717",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40598635717",
+  "run_id": "40646481300",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40646481300",
   "conclusion": "failure",
-  "started_at": "2026-10-27T22:59:23.614882+00:00",
-  "finished_at": "2026-10-27T22:59:23.614882+00:00",
+  "started_at": "2026-10-28T06:55:11.806810+00:00",
+  "finished_at": "2026-10-28T06:55:11.806810+00:00",
   "push": {
     "attempted": false
   },
@@ -32,25 +32,25 @@
       "source_id": "wiki.dspy",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/stanfordnlp/dspy"
+      "error": ".agents/skills/writing-release-notes/SKILL.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/stanfordnlp/dspy/.agents/skills/writing-release-notes/SKILL"
     },
     {
       "source_id": "wiki.fastmcp",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/jlowin/fastmcp"
+      "error": ".agents/skills/docs/SKILL.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/jlowin/fastmcp/.agents/skills/docs/SKILL"
     },
     {
       "source_id": "wiki.jarvis-registry",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/ascending-llc/jarvis-registry"
+      "error": ".github/copilot-instructions.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/ascending-llc/jarvis-registry/.github/copilot-instructions"
     },
     {
       "source_id": "wiki.langchain",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "deepwiki request failed with HTTP 403 for https://api.github.com/repos/langchain-ai/langchain"
+      "error": ".devcontainer/README.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/langchain-ai/langchain/.devcontainer/README"
     }
   ]
 }
