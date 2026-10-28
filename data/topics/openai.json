@@ -1,32 +1,99 @@
 {
-  "generated_at": "2026-10-28T00:16:01.823318+00:00",
+  "generated_at": "2026-10-28T05:40:00.228197+00:00",
   "slug": "openai",
   "label": "OpenAI / ChatGPT",
   "group": "vendor",
   "blurb": "GPT、ChatGPT、Sora 与公司动态",
-  "total_items": 28,
+  "total_items": 24,
   "items": [
     {
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-27T23:34:27+00:00",
+      "title": "31 岁工程师离世，父母怒告 OpenAI：ChatGPT 教她减药瞒医",
+      "url": "https://www.aibase.com/news/31907",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-28T05:38:48.877382+00:00",
       "source_count": 1,
-      "score": 65,
-      "official": true,
+      "score": 77,
+      "official": false,
       "topics": [
-        "openai"
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "甲骨文把 ChatGPT 和 Codex 塞进自家应用，数据库从此能听懂人话",
+      "url": "https://www.aibase.com/news/31908",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-28T05:38:48.877382+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "突破硬件多元化布局：OpenAI计划采购谷歌自研AI芯片",
+      "url": "https://www.aibase.com/news/31910",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-10-28T05:38:48.877382+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "GPT-6.1 Terra 发布：比旗舰快 3 倍，价格仅1/10！事实错误率暴降近 70%",
+      "url": "https://www.infoq.cn/article/28VVsANi9FBYRKfUz8vA",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-28T02:37:05+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "openai",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "ChatGPT can work with your iCloud Mail and Calendar thanks to new plugin support",
-      "url": "https://www.engadget.com/2299026/chatgpt-can-work-with-your-icloud-mail-and-calendar-thanks-to-new-plugin-support",
-      "source": "Engadget",
+      "title": "OpenAI 和 Anthropic 的对抗证据震惊了科学家",
+      "url": "https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-28T01:47:28+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Source: OpenAI, a major Nvidia customer, plans to buy Google's TPUs; a job listing shows it seeks an engineer to \"lead the optimization\" of its models on TPUs (Ryan Barwick/The Information)",
+      "url": "https://www.techmeme.com/261027/p39",
+      "source": "Techmeme",
       "site_id": "techurls",
-      "published_at": "2026-10-27T21:13:59+00:00",
+      "published_at": "2026-10-28T00:15:41+00:00",
       "source_count": 1,
       "score": 51,
       "official": false,
@@ -37,13 +104,44 @@
       "label": "值得关注"
     },
     {
-      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication",
+      "source": "TechCrunch：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-27T23:34:27+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "由于新的插件支持，ChatGPT 可以与您的 iCloud 邮件和日历配合使用",
+      "url": "https://www.engadget.com/2299026/chatgpt-can-work-with-your-icloud-mail-and-calendar-thanks-to-new-plugin-support",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-10-27T21:13:59+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "研究人员已经厌倦了 OpenAI 的突破",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-10-27T20:48:58+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 58,
       "official": true,
       "topics": [
         "openai"
@@ -52,13 +150,13 @@
       "label": "值得关注"
     },
     {
-      "title": "What smart people are saying about OpenAI's Exponential Time Hypothesis claim",
+      "title": "聪明人如何评价 OpenAI 的指数时间假说",
       "url": "https://www.businessinsider.com/smart-people-openai-exponential-time-hypothesis-2026-10",
       "source": "Business Insider",
       "site_id": "techurls",
       "published_at": "2026-10-27T20:23:04+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -73,7 +171,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-27T20:05:53.915000+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
@@ -88,7 +186,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-27T20:05:03.994974+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "openai"
@@ -97,13 +195,28 @@
       "label": "值得关注"
     },
     {
-      "title": "ChatGPT Can Now Access Your iCloud Mail and Calendar",
+      "title": "ChatGPT 现在可以访问您的 iCloud 邮件和日历",
       "url": "https://www.macrumors.com/2026/10/27/chatgpt-icloud-mail-calendar-plugin",
       "source": "Mac Rumors",
       "site_id": "techurls",
       "published_at": "2026-10-27T19:51:25+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "她担心减少用药剂量。 ChatGPT 让她继续前进",
+      "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-27T17:49:47+00:00",
+      "source_count": 1,
+      "score": 49,
       "official": false,
       "topics": [
         "openai"
@@ -118,7 +231,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-27T16:30:29+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai",
@@ -129,13 +242,13 @@
       "label": "值得关注"
     },
     {
-      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "title": "英国内政部可能因使用 OpenAI 技术而面临调查",
       "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools",
       "source": "Wired AI",
       "site_id": "opmlrss",
       "published_at": "2026-10-27T15:10:26+00:00",
       "source_count": 2,
-      "score": 59,
+      "score": 58,
       "official": true,
       "topics": [
         "openai"
@@ -144,13 +257,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "title": "Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话",
       "url": "https://openai.com/index/retell-ai",
       "source": "OpenAI News",
       "site_id": "official_ai",
       "published_at": "2026-10-27T15:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -165,7 +278,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-27T14:10:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -181,7 +294,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-27T12:37:24+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 75,
       "official": true,
       "topics": [
         "openai",
@@ -197,7 +310,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-27T11:39:24+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai"
@@ -212,7 +325,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-27T10:09:26+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -227,7 +340,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-27T08:18:16+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "openai"
@@ -242,14 +355,13 @@
       "site_id": "aibase",
       "published_at": "2026-10-27T07:49:13.086093+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "openai",
-        "industry"
+        "openai"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
@@ -258,181 +370,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T07:00:00+00:00",
       "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 推出 GPT-6.1 Terra，将 GPT-6.1 Sol 的代理工作 API 价格减半",
-      "url": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-27T02:45:27+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 发 GPT-6.1 Terra：会自己操作电脑，性价比甩开旗舰",
-      "url": "https://www.aibase.com/news/31880",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-27T02:03:49.308330+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI公布三项数学与科学新突破并发布成果发布计划",
-      "url": "https://www.aibase.com/news/31875",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-27T02:03:49.308330+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "电脑操作提速超 3 倍、API价格直接腰斩：OpenAI重磅发布GPT-6.1 Terra",
-      "url": "https://www.aibase.com/news/31873",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-27T02:03:49.308330+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 如何将其编码工具变成点，一个永远在线的个人助理",
-      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-27T02:00:00+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ahead of US midterms, ChatGPT draws images \"depicting election interference or that may discourage voting\" in a cartoon style, ignoring photorealism requests (Katelyn Chedraoui/CNET)",
-      "url": "https://www.techmeme.com/261026/p50",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-27T01:45:07+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI asked three scientific communities how to release its discoveries and got three different answers: Mathematicians: “Just post it. Who gives a shit anymore.” Computer scientists: “Open source it, but also pay fo...",
-      "url": "https://x.com/amasad/status/2114890745471545419",
-      "source": "Follow Builders · X · Amjad Masad",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-27T01:23:41+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "openai",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Show HN: Hob——一款开源的、在设备端运行的替代方案，可替代 Claude Cowork 和 ChatGPT",
-      "url": "https://github.com/FrigadeHQ/hob",
-      "source": "github.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-27T00:21:41.850000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Codex CLI 0.165.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T00:00:00+00:00",
-      "source_count": 1,
       "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T00:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Terra",
-      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T23:53:07+00:00",
-      "source_count": 1,
-      "score": 80,
       "official": true,
       "topics": [
         "openai"

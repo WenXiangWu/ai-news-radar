@@ -1,9 +1,25 @@
 {
-  "generated_at": "2026-10-28T00:16:01.823318+00:00",
+  "generated_at": "2026-10-28T05:40:00.228197+00:00",
   "today": "2026-10-28",
-  "lead": "GitHub Copilot supports server-to-server authentication；How Anthropic ships Claude with Claude: Separating the Brain from the Hands；How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+  "lead": "我们可以信任LLM来判断一个研究想法是否新颖吗？；GitHub Copilot 支持服务器到服务器身份验证；Anthropic 如何用Claude运送Claude：将大脑与双手分开",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "借助Claude加速药物研发的初步进展",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source": "www.anthropic.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-28T00:43:01.822000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 79
+    },
     {
       "title": "Survival LLM：可在您自己的计算机上运行的 AI 助手和应急知识库",
       "url": "https://www.brangus.io/survival-llm",
@@ -11,12 +27,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T22:20:46.155000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 65
     },
     {
       "title": "亚马逊因持续失败正大幅裁撤其人工智能部门",
@@ -25,12 +41,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T20:28:58.649000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 88
+      "hot_score": 56
     },
     {
       "title": "警方正利用人工智能对有“可疑”行为的司机进行拦截",
@@ -39,12 +55,12 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T18:06:03.572000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 72
+      "hot_score": 46
     },
     {
       "title": "Anthropic利用非法获取的斯坦福大学教授的著作对Claude进行了训练",
@@ -53,28 +69,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-27T17:18:03.752000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 67
-    },
-    {
-      "title": "LFM3 简介：涵盖所有模态的专用智能模型",
-      "url": "https://www.liquid.ai/blog/lfm3",
-      "source": "www.liquid.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-27T23:07:38.034000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 55
+      "hot_score": 43
     }
   ],
   "topics": [
@@ -83,7 +85,7 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 28
+      "count": 24
     },
     {
       "slug": "anthropic",
@@ -97,35 +99,35 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 7
+      "count": 9
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 19
+      "count": 18
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "mcp",
@@ -139,14 +141,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 10
+      "count": 8
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 14
+      "count": 16
     },
     {
       "slug": "paper",
@@ -160,7 +162,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 35
+      "count": 33
     }
   ],
   "days": [

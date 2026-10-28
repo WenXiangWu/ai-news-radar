@@ -91,66 +91,6 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot supports server-to-server authentication",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T21:36:55+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
-      "url": "https://latent.space/p/opus55",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:53:10+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:40:19+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Can we trust LLMs to judge whether a research idea is novel?",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T16:12:42+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "与学术界合作，增进对科学的理解",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "source": "OpenAI News",
@@ -301,24 +241,11 @@
       "label": "官方更新"
     },
     {
-      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T17:35:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Build specialized multimodal models with LFM3",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "title": "我们可以信任LLM来判断一个研究想法是否新颖吗？",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T17:16:52+00:00",
+      "published_at": "2026-10-27T16:12:42+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -571,6 +498,23 @@
       "label": "官方更新"
     },
     {
+      "title": "适用于 iOS 的 ChatGPT 1.2026.272",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-07T00:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "v0.5.21",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
       "source": "SGLang Releases",
@@ -599,19 +543,82 @@
       "label": "官方更新"
     },
     {
-      "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
-      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages",
-      "source": "NVIDIA Developer Blog",
+      "title": "GitHub Copilot 支持服务器到服务器身份验证",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T16:00:00+00:00",
+      "published_at": "2026-10-27T21:36:55+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 如何用Claude运送Claude：将大脑与双手分开",
+      "url": "https://latent.space/p/opus55",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T18:53:10+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 如何安全地运送世界排名第一的LLM：将大脑与双手分离",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T18:40:19+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 LFM3 构建专门的多模式模型",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T17:16:52+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-24T07:18:29+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-28T00:16:01.823318+00:00",
+  "generated_at": "2026-10-28T05:40:00.228197+00:00",
   "period": "2026-10"
 }

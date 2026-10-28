@@ -12,66 +12,6 @@
   "total_items": 40,
   "items": [
     {
-      "title": "GitHub Copilot supports server-to-server authentication",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T21:36:55+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
-      "url": "https://latent.space/p/opus55",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:53:10+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:40:19+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Can we trust LLMs to judge whether a research idea is novel?",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T16:12:42+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "与学术界合作，增进对科学的理解",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "source": "OpenAI News",
@@ -102,24 +42,11 @@
       "label": "官方更新"
     },
     {
-      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T17:35:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Build specialized multimodal models with LFM3",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "title": "我们可以信任LLM来判断一个研究想法是否新颖吗？",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T17:16:52+00:00",
+      "published_at": "2026-10-27T16:12:42+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
@@ -158,43 +85,62 @@
       "label": "官方更新"
     },
     {
-      "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
-      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages",
-      "source": "NVIDIA Developer Blog",
+      "title": "GitHub Copilot 支持服务器到服务器身份验证",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T16:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "url": "https://openai.com/index/retell-ai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T15:00:00+00:00",
+      "published_at": "2026-10-27T21:36:55+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "openai"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-      "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
-      "source": "NVIDIA Developer Blog",
+      "title": "Anthropic 如何用Claude运送Claude：将大脑与双手分开",
+      "url": "https://latent.space/p/opus55",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T15:00:00+00:00",
+      "published_at": "2026-10-27T18:53:10+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 如何安全地运送世界排名第一的LLM：将大脑与双手分离",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T18:40:19+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 LFM3 构建专门的多模式模型",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T17:16:52+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -245,57 +191,65 @@
       "label": "官方更新"
     },
     {
-      "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
-      "source": "Google DeepMind",
+      "title": "睡眠框架：LLM在持续学习中保留知识的新方法",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+      "source": "Google Research Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T16:01:38+00:00",
+      "published_at": "2026-10-27T17:35:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Coding From the Himalayas With an Offline AI Agent",
-      "url": "https://latent.space/p/offline-coding",
-      "source": "Latent Space",
+      "title": "微调 NVIDIA Nemotron 以了解当地规则，而不仅仅是当地语言",
+      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T14:41:25+00:00",
+      "published_at": "2026-10-27T16:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "agent"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
-      "url": "https://latent.space/p/ainews-anthropic-s1",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T07:24:59+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "title": "Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话",
+      "url": "https://openai.com/index/retell-ai",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T07:00:00+00:00",
+      "published_at": "2026-10-27T15:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "增强 NVIDIA DGX Spark 上的 MoE 推理能力的 3 种方法",
+      "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T15:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T23:53:07+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -430,18 +384,62 @@
       "label": "官方更新"
     },
     {
-      "title": "Codex CLI 0.165.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
+      "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "source": "Google DeepMind",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T00:00:00+00:00",
+      "published_at": "2026-10-27T16:01:38+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "openai",
-        "agent",
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用离线 AI 代理在喜马拉雅山进行编码",
+      "url": "https://latent.space/p/offline-coding",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T14:41:25+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
+      "url": "https://latent.space/p/ainews-anthropic-s1",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T07:24:59+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -607,6 +605,6 @@
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-28T00:16:01.823318+00:00",
+  "generated_at": "2026-10-28T05:40:00.228197+00:00",
   "period": "2026-W44"
 }
