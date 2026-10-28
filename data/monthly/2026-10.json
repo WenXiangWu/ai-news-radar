@@ -241,16 +241,62 @@
       "label": "官方更新"
     },
     {
-      "title": "我们可以信任LLM来判断一个研究想法是否新颖吗？",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "source": "Hugging Face Blog",
+      "title": "v0.33.0rc1：[CI] 修复 DGX Spark 上过时的 NVFP4 解码测试选择器 (#64107)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T16:12:42+00:00",
+      "published_at": "2026-10-28T09:31:23+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "opensource"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Legora正在构建法律工作代理操作系统",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Anthropic 结束编码采访：“饥饿战胜了终身教职”",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T08:50:30+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
+      "url": "https://latent.space/p/ainews-anthropic-s1",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T07:24:59+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -543,66 +589,6 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot 支持服务器到服务器身份验证",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T21:36:55+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 如何用Claude运送Claude：将大脑与双手分开",
-      "url": "https://latent.space/p/opus55",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:53:10+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 如何安全地运送世界排名第一的LLM：将大脑与双手分离",
-      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:40:19+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 LFM3 构建专门的多模式模型",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T17:16:52+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
       "url": "https://latent.space/p/ainews-kimi-31",
       "source": "Latent Space",
@@ -617,8 +603,23 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "您的模型在 AWS Trainium 上运行吗？查找一下",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-28T05:40:00.228197+00:00",
+  "generated_at": "2026-10-28T12:52:00.694148+00:00",
   "period": "2026-10"
 }

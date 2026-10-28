@@ -1,23 +1,54 @@
 {
-  "generated_at": "2026-10-28T05:40:00.228197+00:00",
+  "generated_at": "2026-10-28T12:52:00.694148+00:00",
   "date": "2026-10-28",
   "timezone": "Asia/Shanghai",
-  "lead": "我们可以信任LLM来判断一个研究想法是否新颖吗？；GitHub Copilot 支持服务器到服务器身份验证；Anthropic 如何用Claude运送Claude：将大脑与双手分开",
+  "lead": "v0.33.0rc1：[CI] 修复 DGX Spark 上过时的 NVFP4 解码测试选择器 (#64107)；Legora正在构建法律工作代理操作系统；[AINews] Anthropic 结束编码采访：“饥饿战胜了终身教职”",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [],
   "items": [
     {
-      "title": "我们可以信任LLM来判断一个研究想法是否新颖吗？",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "source": "Hugging Face Blog",
+      "title": "v0.33.0rc1：[CI] 修复 DGX Spark 上过时的 NVFP4 解码测试选择器 (#64107)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T16:12:42+00:00",
+      "published_at": "2026-10-28T09:31:23+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "opensource"
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Legora正在构建法律工作代理操作系统",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Anthropic 结束编码采访：“饥饿战胜了终身教职”",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T08:50:30+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -29,7 +60,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T21:36:55+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "coding"
@@ -44,7 +75,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T18:53:10+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "anthropic"
@@ -59,7 +90,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T18:40:19+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "anthropic"
@@ -74,7 +105,22 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T17:16:52+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "我们可以信任LLM来判断一个研究想法是否新颖吗？",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T16:12:42+00:00",
+      "source_count": 1,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -89,9 +135,25 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T17:35:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T16:01:38+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -102,7 +164,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T16:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -115,7 +177,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T15:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "openai"
@@ -130,25 +192,9 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T15:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T16:01:38+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -159,7 +205,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-27T14:41:25+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [
         "coding"
@@ -168,34 +214,21 @@
       "label": "官方更新"
     },
     {
-      "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
-      "url": "https://latent.space/p/ainews-anthropic-s1",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T07:24:59+00:00",
+      "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
+      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-28T10:56:24+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 78,
       "official": true,
       "topics": [
-        "anthropic"
+        "anthropic",
+        "agent",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T07:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
@@ -204,7 +237,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-27T23:34:27+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 77,
       "official": true,
       "topics": [
         "openai",
@@ -219,22 +252,6 @@
       "source": "TechCrunch：AI（RSS）",
       "site_id": "aihot",
       "published_at": "2026-10-28T01:15:28+00:00",
-      "source_count": 1,
-      "score": 78,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-      "source": "The Verge：AI（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-27T16:51:22+00:00",
       "source_count": 1,
       "score": 76,
       "official": true,
@@ -252,7 +269,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-27T17:31:56+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
         "anthropic",
@@ -262,16 +279,16 @@
       "label": "行业动态"
     },
     {
-      "title": "OpenAI 请外部专家核查其 AI 在数学、计算机科学和物理学领域产出的证明",
-      "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics",
-      "source": "The Decoder：AI News（RSS）",
+      "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "source": "The Verge：AI（RSS）",
       "site_id": "aihot",
-      "published_at": "2026-10-27T12:37:24+00:00",
+      "published_at": "2026-10-27T16:51:22+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": true,
       "topics": [
-        "openai",
+        "anthropic",
         "industry"
       ],
       "reason": "",
@@ -284,27 +301,11 @@
       "site_id": "aihot",
       "published_at": "2026-10-27T16:45:00+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": true,
       "topics": [
         "agent",
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "首次公开募股后，谁才是 Anthropic 的真正负责人？",
-      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-27T21:38:28+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic"
+        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
