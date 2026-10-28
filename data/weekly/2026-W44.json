@@ -1,16 +1,63 @@
 {
   "title": "2026-W44 周报",
   "dates": [
+    "2026-10-29",
     "2026-10-28",
     "2026-10-27",
     "2026-10-26",
     "2026-10-25",
     "2026-10-24",
-    "2026-10-23",
-    "2026-10-22"
+    "2026-10-23"
   ],
   "total_items": 40,
   "items": [
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe 和 Granary v2：您可以提示和调整的智能多语言转录",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:17:53+00:00",
+      "source_count": 2,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T17:00:58+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在 Foundry Agent Service 中引入 Microsoft Copilot 工具",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T16:45:06+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "与学术界合作，增进对科学的理解",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
@@ -27,62 +74,164 @@
       "label": "官方更新"
     },
     {
-      "title": "使用 IBM Granite 时间序列模型进行集合预测",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "source": "Hugging Face Blog",
+      "title": "使用 GitHub Copilot Fusion 路由和编排模型",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T07:51:31+00:00",
+      "published_at": "2026-10-28T16:00:00+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
-        "opensource"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "v0.33.0rc1：[CI] 修复 DGX Spark 上过时的 NVFP4 解码测试选择器 (#64107)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
-      "source": "vLLM Releases",
+      "title": "GitHub Copilot 应用程序、Universe 发布",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T09:31:23+00:00",
+      "published_at": "2026-10-28T15:55:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
+        "coding",
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Legora正在构建法律工作代理操作系统",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "source": "OpenAI News",
+      "title": "GitHub Enterprise 现在包含对 GitHub Copilot 的访问",
+      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T09:30:00+00:00",
+      "published_at": "2026-10-28T15:50:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Anthropic 结束编码采访：“饥饿战胜了终身教职”",
-      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
-      "source": "Latent Space",
+      "title": "GitHub Copilot 应用程序的安全扩展",
+      "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T08:50:30+00:00",
+      "published_at": "2026-10-28T15:45:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "anthropic",
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub 智能让您的代码、上下文和历史记录发挥作用",
+      "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:40:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 Copilot Automations 为您的团队构建共享工作流程",
+      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:35:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "VS Code 中的 GitHub Copilot、Universe 版本",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:33:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "直接在 Copilot 中生成和编辑图像",
+      "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:30:55+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot Fusion 现在支持选择本地模型",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:30:42+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Agentic 工作流程正式可用",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:30:15+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "人工分析 v5 和基准测试者的困境",
+      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T12:58:39+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -116,16 +265,62 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-      "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
-      "source": "Latent Space",
+      "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-22T07:42:44+00:00",
+      "published_at": "2026-10-28T10:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.33.0rc1：[CI] 修复 DGX Spark 上过时的 NVFP4 解码测试选择器 (#64107)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T09:31:23+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Legora正在构建法律工作代理操作系统",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Anthropic 结束编码采访：“饥饿战胜了终身教职”",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T08:50:30+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -157,51 +352,6 @@
       "official": true,
       "topics": [
         "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "FDE 在 OpenAI 中意味着什么",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T06:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 支持服务器到服务器身份验证",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T21:36:55+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 如何用Claude运送Claude：将大脑与双手分开",
-      "url": "https://latent.space/p/opus55",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:53:10+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -376,16 +526,16 @@
       "label": "官方更新"
     },
     {
-      "title": "NVIDIA Kumo Relational 在关系数据上的表现优于监督式机器学习，无需培训",
-      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "source": "Hugging Face Blog",
+      "title": "Anthropic 如何用Claude运送Claude：将大脑与双手分开",
+      "url": "https://latent.space/p/opus55",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-21T18:26:30+00:00",
+      "published_at": "2026-10-27T18:53:10+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
-        "opensource"
+        "anthropic"
       ],
       "reason": "",
       "label": "官方更新"
@@ -460,156 +610,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "使用指标 API 添加了 OpenCode 等工具的使用情况",
-      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T23:42:03+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 Teams 中的 GitHub Copilot 将通知转换为代码",
-      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T21:29:58+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T17:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 功能的全局默认设置已全面可用",
-      "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T20:44:28+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策",
-      "url": "https://openai.com/index/decisions-api",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T19:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "向 Agentic AI 基金会捐赠 Agent 技能",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T18:09:56+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "如何使用 NVIDIA GPUDirect Storage 在 Python 中将数据读入 GPU 内存",
-      "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T16:39:09+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Copilot 影响仪表板中的行业比较",
-      "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T16:28:24+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding",
-        "industry"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OlmoEarth v1.3：整个地球最先进的嵌入",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-22T16:11:31+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "通过一致的标准实现广泛的访问",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-21T21:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-28T12:52:00.694148+00:00",
+  "generated_at": "2026-10-28T18:52:32.007327+00:00",
   "period": "2026-W44"
 }

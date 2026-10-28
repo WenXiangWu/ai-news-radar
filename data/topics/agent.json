@@ -1,11 +1,173 @@
 {
-  "generated_at": "2026-10-28T12:52:00.694148+00:00",
+  "generated_at": "2026-10-28T18:52:32.007327+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 24,
+  "total_items": 27,
   "items": [
+    {
+      "title": "MiniMax 开源 MCode Stack：编码团队日常使用的 15 项代理技能",
+      "url": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-10-28T17:20:29+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
+      "url": "https://x.com/bcherny/status/2115491259381072269",
+      "source": "X：Boris Cherny (@bcherny)",
+      "site_id": "aihot",
+      "published_at": "2026-10-28T17:09:54+00:00",
+      "source_count": 1,
+      "score": 75,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work",
+      "source": "Microsoft：Official Blog（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-28T16:51:35+00:00",
+      "source_count": 1,
+      "score": 74,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "在 Foundry Agent Service 中引入 Microsoft Copilot 工具",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T16:45:06+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack",
+      "source": "GitHub Blog",
+      "site_id": "aihot",
+      "published_at": "2026-10-28T16:09:28+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
+      "source": "GitHub Blog",
+      "site_id": "aihot",
+      "published_at": "2026-10-28T16:07:40+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
+      "url": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-28T14:53:53+00:00",
+      "source_count": 1,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-28T14:05:40+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "The Agent SDK",
+      "url": "https://cursor.com/blog/agent-sdk",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-28T14:02:20+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
+      "url": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-10-28T13:39:45+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Three.js 医院三维大屏实战：Codex + Blender MCP + React 从建模到交互全流程",
       "url": "https://juejin.cn/post/7700887980140429322",
@@ -13,12 +175,28 @@
       "site_id": "newsnow",
       "published_at": "2026-10-28T12:29:53.398000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
         "coding",
         "mcp"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Chalk，一个让 Claude Code 为自己的回复着色的模组",
+      "url": "https://github.com/adamkdean/claude-chalk",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-28T12:29:43+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
       ],
       "reason": "",
       "label": "值得关注"
@@ -30,7 +208,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-28T10:56:24+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 76,
       "official": true,
       "topics": [
         "anthropic",
@@ -47,7 +225,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-28T09:54:54+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
         "anthropic",
@@ -63,7 +241,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-28T09:45:17+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
         "anthropic",
@@ -79,7 +257,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-28T06:15:43+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -96,7 +274,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-28T05:39:42.686000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -112,7 +290,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-28T05:38:48.877382+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "openai",
@@ -130,10 +308,27 @@
       "site_id": "techurls",
       "published_at": "2026-10-28T01:45:42+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
+      "url": "https://openrouter.ai/blog/tutorials/claude-code-usage-limit",
+      "source": "OpenRouter：Announcements（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "source_count": 1,
+      "score": 72,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -145,7 +340,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-27T23:31:32+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "agent",
@@ -161,7 +356,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-27T20:57:26+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic",
@@ -178,7 +373,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-27T20:24:20+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -195,7 +390,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-27T20:05:03.994974+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic",
@@ -211,7 +406,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-27T20:05:03.994974+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "agent"
@@ -226,7 +421,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-27T20:05:03.994974+00:00",
       "source_count": 1,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [
         "anthropic",
@@ -244,151 +439,7 @@
       "site_id": "waytoagi",
       "published_at": "2026-10-27T20:05:03.994974+00:00",
       "source_count": 1,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior and add new modes, it uses jev to clas...",
-      "url": "https://x.com/trq212/status/2115135857669881939",
-      "source": "Follow Builders · X · Thariq",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-27T17:37:40+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd",
-      "url": "https://x.com/swyx/status/2115135448876269782",
-      "source": "Follow Builders · X · Swyx",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-27T17:36:02+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google Deepmind 的 Genie 4 对早于LLM之前的代理设计进行了现代诠释",
-      "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-27T17:25:09+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "google",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
-      "url": "https://www.langchain.com/blog/design-agent",
-      "source": "LangChain：Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-27T16:45:00+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": true,
-      "topics": [
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Oracle adds ChatGPT and Codex to its app stack and expands Oracle Cloud Infrastructure lineup with Google TPUs, OpenAI's Jalapeño chip, and Cerebras hardware (Seema Mody/CNBC)",
-      "url": "https://www.techmeme.com/261027/p24",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-27T16:30:29+00:00",
-      "source_count": 1,
-      "score": 50,
-      "official": false,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "针对召回进行优化的人工智能审查（比 Codex 或 Claude 发现更多缺陷）",
-      "url": "https://github.com/quickchatai/quickreview",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-27T15:15:57+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer...",
-      "url": "https://x.com/swyx/status/2115089887959359988",
-      "source": "Follow Builders · X · Swyx",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-27T14:35:00+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "三十亿美元加码!英伟达与Meta联手重塑AI智能体新纪元",
-      "url": "https://www.aibase.com/news/31902",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-27T14:29:06.935438+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ben Horowitz 长文解析 Databricks 与智能体时代的公司形态",
-      "url": "https://www.a16z.news/p/databricks-and-the-future-of-the",
-      "source": "a16z：News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-27T14:02:28+00:00",
-      "source_count": 1,
-      "score": 69,
+      "score": 52,
       "official": false,
       "topics": [
         "agent"

@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-29",
     "2026-10-28",
     "2026-10-27",
     "2026-10-26",
@@ -46,6 +47,21 @@
       "label": "官方更新"
     },
     {
+      "title": "NVIDIA Nemotron 3.5 Transcribe 和 Granary v2：您可以提示和调整的智能多语言转录",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:17:53+00:00",
+      "source_count": 2,
+      "score": 88,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
       "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
       "source": "Hugging Face Blog",
@@ -86,6 +102,38 @@
       "official": true,
       "topics": [
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T17:00:58+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在 Foundry Agent Service 中引入 Microsoft Copilot 工具",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T16:45:06+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -241,47 +289,164 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.33.0rc1：[CI] 修复 DGX Spark 上过时的 NVFP4 解码测试选择器 (#64107)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
-      "source": "vLLM Releases",
+      "title": "使用 GitHub Copilot Fusion 路由和编排模型",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T09:31:23+00:00",
+      "published_at": "2026-10-28T16:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 应用程序、Universe 发布",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:55:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding",
         "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Legora正在构建法律工作代理操作系统",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "source": "OpenAI News",
+      "title": "GitHub Enterprise 现在包含对 GitHub Copilot 的访问",
+      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T09:30:00+00:00",
+      "published_at": "2026-10-28T15:50:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "openai"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Anthropic 结束编码采访：“饥饿战胜了终身教职”",
-      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
-      "source": "Latent Space",
+      "title": "GitHub Copilot 应用程序的安全扩展",
+      "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T08:50:30+00:00",
+      "published_at": "2026-10-28T15:45:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "anthropic",
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub 智能让您的代码、上下文和历史记录发挥作用",
+      "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:40:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 Copilot Automations 为您的团队构建共享工作流程",
+      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:35:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "VS Code 中的 GitHub Copilot、Universe 版本",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:33:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "直接在 Copilot 中生成和编辑图像",
+      "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:30:55+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot Fusion 现在支持选择本地模型",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:30:42+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Agentic 工作流程正式可用",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:30:15+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "人工分析 v5 和基准测试者的困境",
+      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T12:58:39+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "paper"
       ],
       "reason": "",
       "label": "官方更新"
@@ -458,168 +623,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
-      "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-15T10:08:08+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.32.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc2",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-15T09:50:46+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] 纽约 AI 工程师：Gemini 4 Argon、Vals AI 基准测试",
-      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-14T05:40:28+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] 今天没什么事发生",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T23:29:43+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "构建可靠的数据分析代理：KDD 杯的经验教训",
-      "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-08T18:30:02+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Playground 简介：创建和玩自定义游戏",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T12:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "适用于 iOS 的 ChatGPT 1.2026.272",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.5.21",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
-      "source": "SGLang Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T06:22:41+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "针对沙特阿拉伯方言微调 NVIDIA Nemotron，并提供通向其他语言的途径",
-      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-01T05:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-      "url": "https://latent.space/p/ainews-kimi-31",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-24T07:18:29+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "您的模型在 AWS Trainium 上运行吗？查找一下",
-      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-23T00:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-28T12:52:00.694148+00:00",
+  "generated_at": "2026-10-28T18:52:32.007327+00:00",
   "period": "2026-10"
 }
