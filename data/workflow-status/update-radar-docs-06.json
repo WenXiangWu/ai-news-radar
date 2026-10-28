@@ -7,11 +7,11 @@
   "groups": [
     "docs-06"
   ],
-  "run_id": "40701970915",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40701970915",
+  "run_id": "40785904481",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/40785904481",
   "conclusion": "failure",
-  "started_at": "2026-10-28T14:43:23.021885+00:00",
-  "finished_at": "2026-10-28T14:43:23.021885+00:00",
+  "started_at": "2026-10-28T23:41:55.014692+00:00",
+  "finished_at": "2026-10-28T23:41:55.014692+00:00",
   "push": {
     "attempted": false
   },
@@ -24,15 +24,15 @@
     },
     {
       "source_id": "docs.phoenix",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://arize.com/docs/phoenix: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.pi-sdk",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "llms_txt request failed with HTTP 404 for https://badlogic-pi-mono.mintlify.app/llms.txt"
     },
     {
       "source_id": "docs.pinecone",
