@@ -1,6 +1,6 @@
 {
   "schema": "radar-pending-publish/v1",
-  "ready": true,
+  "ready": false,
   "workflow_id": "update-radar",
   "group_id": "knowledge-03",
   "source_ids": [
@@ -13,5 +13,6 @@
   "excluded": [
     "source.knowledge.langchain.langgraph"
   ],
-  "finished_at": "2026-10-28T23:15:36.569998+00:00"
+  "finished_at": "2026-10-28T23:15:36.569998+00:00",
+  "published_at": "2026-10-28T23:57:24.316161+00:00"
 }
