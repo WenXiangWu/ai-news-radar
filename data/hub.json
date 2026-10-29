@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T02:37:13.462438+00:00",
+  "generated_at": "2026-10-29T10:14:49.925236+00:00",
   "today": "2026-10-29",
-  "lead": "Nvidia Nemotron 3.5 Transcribe：支持 40 种语言的开源语音识别（ASR）；为什么代理商喜欢 Supabase；Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+  "lead": "Nvidia Nemotron 3.5 Transcribe：支持 40 种语言的开源语音识别（ASR）；[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders；为什么代理商喜欢 Supabase",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,14 +11,14 @@
       "site_id": "official_ai",
       "published_at": "2026-10-28T22:56:46.012000+00:00",
       "source_count": 3,
-      "score": 89,
+      "score": 87,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "官方更新",
-      "hot_score": 88
+      "hot_score": 47
     },
     {
       "title": "本职工作：税务——通过50项专业税务任务对AI代理进行评估",
@@ -27,12 +27,46 @@
       "site_id": "buzzing",
       "published_at": "2026-10-28T18:58:56.922000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 63
+      "hot_score": 34
+    },
+    {
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-29T03:33:42+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 34
+    },
+    {
+      "title": "Agent SDK",
+      "url": "https://cursor.com/blog/agent-sdk",
+      "source": "cursor.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-29T02:56:45.178000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 33
     },
     {
       "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
@@ -41,42 +75,14 @@
       "site_id": "zeli",
       "published_at": "2026-10-29T00:30:37+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": true,
       "topics": [
         "industry"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 50
-    },
-    {
-      "title": "肯塔基州一名男子成为首位获得人工智能宗教豁免的人文主义者",
-      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai",
-      "source": "religionnews.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-28T15:02:24.966000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 46
-    },
-    {
-      "title": "当被问及谁赢得了2020年大选时，谷歌AI表现得有些含糊其辞",
-      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections",
-      "source": "arstechnica.com",
-      "site_id": "buzzing",
-      "published_at": "2026-10-28T22:40:37.703000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 43
+      "hot_score": 27
     }
   ],
   "topics": [
@@ -92,21 +98,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 37
+      "count": 40
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 21
+      "count": 23
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "qwen",
@@ -120,42 +126,42 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 25
+      "count": 27
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 25
+      "count": 24
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 9
+      "count": 13
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 21
+      "count": 23
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 3
     },
     {
       "slug": "industry",
