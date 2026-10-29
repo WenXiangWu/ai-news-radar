@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-10-29T16:56:08.113416+00:00",
+  "generated_at": "2026-10-29T21:49:23.185544+00:00",
   "date": "2026-10-30",
   "timezone": "Asia/Shanghai",
-  "lead": "Granite Switch 4.1.1 — 像更新软件一样更新模型；前沿模型能否识破诱饵？ Elorian 测试视觉推理；[AINews] Gemini 4 Carbon 登顶排行榜，为网络防御者推出",
+  "lead": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则；Granite Switch 4.1.1 — 像更新软件一样更新模型；添加到 Meta API 的 Webhook IP 范围",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [],
   "items": [
+    {
+      "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-29T17:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "Granite Switch 4.1.1 — 像更新软件一样更新模型",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
@@ -14,11 +29,24 @@
       "site_id": "official_ai",
       "published_at": "2026-10-29T13:37:07+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "opensource"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "添加到 Meta API 的 Webhook IP 范围",
+      "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-29T17:14:38+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -29,9 +57,39 @@
       "site_id": "official_ai",
       "published_at": "2026-10-29T16:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "OpenAI 详解如何检测前沿模型失准行为",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-29T09:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Ropes & Gray 如何开发用于交易尽职调查的人工智能",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -42,10 +100,27 @@
       "site_id": "official_ai",
       "published_at": "2026-10-29T05:55:19+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Codex CLI 0.166.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -57,7 +132,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-29T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -72,7 +147,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-29T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -87,7 +162,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-29T00:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "opensource"
@@ -96,33 +171,20 @@
       "label": "官方更新"
     },
     {
-      "title": "为什么代理商喜欢 Supabase",
-      "url": "https://latent.space/p/supabase",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T19:48:05+00:00",
+      "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
+      "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
+      "source": "Timothy B. Lee：Understanding AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-29T19:10:41+00:00",
       "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T17:00:58+00:00",
-      "source_count": 1,
-      "score": 80,
+      "score": 78,
       "official": true,
       "topics": [
-        "google",
-        "launch"
+        "anthropic",
+        "industry"
       ],
       "reason": "",
-      "label": "官方更新"
+      "label": "行业动态"
     },
     {
       "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
@@ -131,7 +193,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-29T14:00:00+00:00",
       "source_count": 1,
-      "score": 79,
+      "score": 78,
       "official": true,
       "topics": [
         "anthropic",
@@ -147,25 +209,10 @@
       "site_id": "aihot",
       "published_at": "2026-10-29T13:30:00+00:00",
       "source_count": 1,
-      "score": 78,
+      "score": 77,
       "official": true,
       "topics": [
         "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
-      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe",
-      "source": "The Decoder：AI News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-29T10:16:34+00:00",
-      "source_count": 1,
-      "score": 78,
-      "official": true,
-      "topics": [
         "industry"
       ],
       "reason": "",
@@ -178,7 +225,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-29T13:42:38+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 76,
       "official": true,
       "topics": [
         "industry"
@@ -187,11 +234,26 @@
       "label": "行业动态"
     },
     {
-      "title": "Anthropic加强防御后，OpenAI的Astra成为中国人工智能实验室的主要目标",
-      "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses",
+      "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
+      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe",
+      "source": "The Decoder：AI News（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-29T10:16:34+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": true,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "随着与 Anthropic 的竞争加剧，OpenAI 将 Pro 计划的使用限制提高了一倍",
+      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-10-29T13:20:14+00:00",
+      "published_at": "2026-10-29T20:01:27+00:00",
       "source_count": 1,
       "score": 64,
       "official": true,
@@ -203,69 +265,29 @@
       "label": "值得关注"
     },
     {
-      "title": "美国反垄断监管机构正在审查英伟达的 Hugging Face 交易和销售行为",
-      "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices",
-      "source": "The Decoder AI News",
+      "title": "OpenAI 支持的 Thrive Holdings 收购 ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt",
+      "source": "TechCrunch AI",
       "site_id": "curated_media",
-      "published_at": "2026-10-29T14:07:49+00:00",
+      "published_at": "2026-10-29T19:56:19+00:00",
       "source_count": 1,
       "score": 63,
       "official": true,
       "topics": [
+        "openai",
         "industry"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "美国调查中国针对英伟达首席执行官的间谍阴谋",
-      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
-      "source": "TechCrunch AI",
+      "title": "Anthropic研究发现，专家们采纳了人工智能代理的随机意见，并认为它们是他们自己的",
+      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-10-29T16:42:32+00:00",
+      "published_at": "2026-10-29T19:33:37+00:00",
       "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软的人工智能未来就业机会更少",
-      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-10-29T16:00:00+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软 OpenAI 收入达 100 亿美元",
-      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-28T21:34:30+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 刚刚推出了工具，向公司展示他们的人工智能支出正在购买什么",
-      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-28T19:19:58+00:00",
-      "source_count": 1,
-      "score": 59,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -274,31 +296,18 @@
       "label": "值得关注"
     },
     {
-      "title": "谷歌 Deepmind 在 Argon 发布两周后发布 Gemini 4 Carbon 并取得全面进展",
-      "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board",
+      "title": "Anthropic加强防御后，OpenAI的Astra成为中国人工智能实验室的主要目标",
+      "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-10-28T19:17:58+00:00",
+      "published_at": "2026-10-29T13:20:14+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 63,
       "official": true,
       "topics": [
-        "google",
-        "launch"
+        "openai",
+        "anthropic"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软刚刚分享了Azure的实际收入（美元）：332亿美元",
-      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-28T21:58:32+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     }
