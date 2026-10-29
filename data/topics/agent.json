@@ -1,11 +1,88 @@
 {
-  "generated_at": "2026-10-29T10:14:49.925236+00:00",
+  "generated_at": "2026-10-29T16:56:08.113416+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 27,
+  "total_items": 23,
   "items": [
+    {
+      "title": "别把 Agent 架构画成组织架构图——子代理该不该拆，用任务级 Eval 说话",
+      "url": "https://juejin.cn/post/7701250821648236554",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-10-29T16:55:48.692000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Wiz 分析智能体攻击的七大指纹与发展趋势",
+      "url": "https://www.wiz.io/blog/the-rise-of-agentic-attacks-what-they-look-like-and-where-theyre-headed",
+      "source": "Wiz：Research（安全研究）",
+      "site_id": "aihot",
+      "published_at": "2026-10-29T14:36:22+00:00",
+      "source_count": 1,
+      "score": 76,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Wabi，构建迷你应用程序的人工智能代理，最新一轮融资后估值现为 $1.25B",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-10-29T14:35:26+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "agent",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Q&A with Sam Altman on finding PHP bugs, sandboxing superhuman models as an unsolved safety dilemma, robotics scaling data centers, math, agent swarms, and more (John Collison/Cheeky Pint)",
+      "url": "https://www.techmeme.com/261029/p26",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-29T12:40:02+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Ro's CEO showed us its new AI agent — and its bigger plan to own more of your healthcare",
+      "url": "https://www.businessinsider.com/exclusive-ro-launches-ai-agent-for-healthcare-2026-10",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-10-29T09:59:01+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Ainna AI",
       "url": "https://www.producthunt.com/products/ainna-the-ai-innovation-agent",
@@ -13,7 +90,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-29T09:55:47.352000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent"
@@ -28,7 +105,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-29T09:55:47.352000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -45,7 +122,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-29T09:55:47.352000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "deepseek",
@@ -61,7 +138,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-29T09:55:08.469236+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -72,13 +149,29 @@
       "label": "行业动态"
     },
     {
+      "title": "告诉 HN：Claude Code 将您的电子邮件添加到提示中，LLM 将其发送到网站",
+      "url": "https://news.ycombinator.com/item?id=50286306",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-29T09:06:12+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "生产级 AI：隐性故障、工程落地与智能体治理",
       "url": "https://www.infoq.cn/article/tsyyFmCmzphHw4gWy7Fo",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
       "published_at": "2026-10-29T07:21:00+00:00",
       "source_count": 1,
-      "score": 58,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -87,13 +180,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "title": "Claude Code 定期将每个后台特工的成绩单发送给其模型",
       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-29T03:33:42+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic",
@@ -109,7 +202,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-29T03:05:22+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "agent"
@@ -123,8 +216,8 @@
       "source": "cursor.com",
       "site_id": "buzzing",
       "published_at": "2026-10-29T02:56:45.178000+00:00",
-      "source_count": 2,
-      "score": 53,
+      "source_count": 1,
+      "score": 49,
       "official": false,
       "topics": [
         "agent",
@@ -140,7 +233,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-29T02:26:07.766091+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -156,7 +249,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-29T02:14:49.774000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": false,
       "topics": [
         "agent"
@@ -171,7 +264,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-29T00:00:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent",
@@ -187,7 +280,7 @@
       "site_id": "iris",
       "published_at": "2026-10-28T22:34:30+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -203,7 +296,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-28T19:15:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -219,7 +312,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-28T18:47:09+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "agent",
@@ -235,7 +328,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-28T18:00:40+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -251,7 +344,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-28T17:20:29+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent",
@@ -268,169 +361,8 @@
       "site_id": "aihot",
       "published_at": "2026-10-28T17:09:54+00:00",
       "source_count": 2,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
-      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work",
-      "source": "Microsoft：Official Blog（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-28T16:51:35+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "在 Foundry Agent Service 中引入 Microsoft Copilot 工具",
-      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T16:45:06+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
-      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack",
-      "source": "GitHub Blog",
-      "site_id": "aihot",
-      "published_at": "2026-10-28T16:09:28+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
-      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
-      "source": "GitHub Blog",
-      "site_id": "aihot",
-      "published_at": "2026-10-28T16:07:40+00:00",
-      "source_count": 1,
-      "score": 74,
-      "official": true,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
-      "url": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-28T14:53:53+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
-      "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-28T14:05:40+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
-      "url": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-28T13:39:45+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Three.js 医院三维大屏实战：Codex + Blender MCP + React 从建模到交互全流程",
-      "url": "https://juejin.cn/post/7700887980140429322",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-28T12:29:53.398000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding",
-        "mcp"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Chalk，一个让 Claude Code 为自己的回复着色的模组",
-      "url": "https://github.com/adamkdean/claude-chalk",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-28T12:29:43+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
-      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense",
-      "source": "The Decoder：AI News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-28T10:56:24+00:00",
-      "source_count": 1,
       "score": 73,
-      "official": true,
+      "official": false,
       "topics": [
         "anthropic",
         "agent",

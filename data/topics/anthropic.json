@@ -1,11 +1,89 @@
 {
-  "generated_at": "2026-10-29T10:14:49.925236+00:00",
+  "generated_at": "2026-10-29T16:56:08.113416+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 40,
+  "total_items": 30,
   "items": [
+    {
+      "title": "Donchitos / Claude代码游戏工作室",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "source": "github",
+      "site_id": "newsnow",
+      "published_at": "2026-10-29T16:45:20.887000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
+      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-29T14:00:00+00:00",
+      "source_count": 1,
+      "score": 79,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "The Verge 解读 Anthropic S-1：约 8500 亿美元 compute 承诺押注递归自我改进",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "source": "The Verge：AI（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-29T13:30:00+00:00",
+      "source_count": 1,
+      "score": 78,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic加强防御后，OpenAI的Astra成为中国人工智能实验室的主要目标",
+      "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-10-29T13:20:14+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Q&A with Palantir CTO Shyam Sankar on diffusing intelligence, safety, AI lessons, forward-deployed engineering, Anthropic vs. the US, AI religion, and more (Ben Thompson/Stratechery)",
+      "url": "https://www.techmeme.com/261029/p25",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-10-29T12:31:03+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Claude Code vs Codex：Computer Use 实现原理深度拆解",
       "url": "https://juejin.cn/post/7700850888098594870",
@@ -13,7 +91,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-29T09:55:47.352000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -30,7 +108,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-29T09:55:08.469236+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -46,7 +124,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-29T09:55:08.469236+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -63,7 +141,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-29T09:55:08.469236+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -73,13 +151,29 @@
       "label": "行业动态"
     },
     {
+      "title": "告诉 HN：Claude Code 将您的电子邮件添加到提示中，LLM 将其发送到网站",
+      "url": "https://news.ycombinator.com/item?id=50286306",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-10-29T09:06:12+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 取消编程面试：新人第一次有机会直接和资深工程师竞争",
       "url": "https://www.infoq.cn/article/EQTckj5GQQymiQES22Bo",
       "source": "InfoQ CN",
       "site_id": "opmlrss",
       "published_at": "2026-10-29T08:44:01+00:00",
       "source_count": 1,
-      "score": 59,
+      "score": 58,
       "official": false,
       "topics": [
         "anthropic"
@@ -88,13 +182,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic tells Governor Gavin Newsom courts should be able to block risky AI models",
+      "title": "Anthropic 告诉州长加文·纽瑟姆，法院应该能够阻止有风险的人工智能模型",
       "url": "https://thenextweb.com/news/anthropic-newsom-letter-courts-block-ai-models",
       "source": "The Next Web",
       "site_id": "techurls",
       "published_at": "2026-10-29T08:19:49+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -109,7 +203,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-29T06:15:01+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -124,7 +218,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-29T06:13:39+00:00",
       "source_count": 1,
-      "score": 76,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -134,13 +228,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "title": "Claude Code 定期将每个后台特工的成绩单发送给其模型",
       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
       "published_at": "2026-10-29T03:33:42+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic",
@@ -150,13 +244,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Claudes new smart reports tell bosses when workers are off-topic",
+      "title": "Claude斯新的智能报告可以在员工偏离主题时告诉老板",
       "url": "https://mashable.com/tech/claude-smart-reports-anthropic-ai-worker-overview",
       "source": "Mashable",
       "site_id": "techurls",
       "published_at": "2026-10-29T03:04:35+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -171,7 +265,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-29T02:26:07.766091+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -187,7 +281,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-29T02:26:07.766091+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -197,13 +291,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Anthropic Engineer Declares the Coding Interview Dead",
+      "title": "人类工程师宣布编程面试已死",
       "url": "https://slashdot.org/story/26/10/28/2222217/anthropic-engineer-declares-the-coding-interview-dead",
       "source": "Slashdot",
       "site_id": "techurls",
       "published_at": "2026-10-28T23:00:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": true,
       "topics": [
         "anthropic"
@@ -218,7 +312,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-28T22:35:25.040000+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -234,7 +328,7 @@
       "site_id": "iris",
       "published_at": "2026-10-28T22:34:30+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -250,7 +344,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-28T20:25:10+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -265,7 +359,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-28T19:43:52+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -280,7 +374,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-28T19:19:58+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -295,7 +389,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-28T18:08:43+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -310,7 +404,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-28T18:08:03+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic",
@@ -326,7 +420,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-28T18:00:40+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -342,7 +436,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-28T17:51:00+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "anthropic",
@@ -358,7 +452,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-28T17:11:27+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -374,239 +468,8 @@
       "site_id": "aihot",
       "published_at": "2026-10-28T17:09:54+00:00",
       "source_count": 2,
-      "score": 74,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "谷歌的人工智能芯片业务越来越难以让英伟达忽视",
-      "url": "https://www.businessinsider.com/google-ai-chip-business-oracle-tpus-nvidia-threat-anthropic-openai-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-28T16:28:34+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai",
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude for Legal 现在自动验证来源，然后将文件交给律师",
-      "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-28T16:20:03+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Learn more: https://t.co/m3tOri9JR3",
-      "url": "https://x.com/claudeai/status/2115467193626571174",
-      "source": "Follow Builders · X · Claude",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-28T15:34:17+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "New in Claude for Legal: a gallery of ready-made artifacts for contract review, regulatory horizon scans, cite checks, and more. Start from the built-in example, add your own documents and connectors, and share it wit...",
-      "url": "https://x.com/claudeai/status/2115467192276025500",
-      "source": "Follow Builders · X · Claude",
-      "site_id": "followbuilders",
-      "published_at": "2026-10-28T15:34:16+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI startup claims it hacked Anthropic in 12 hours, gains access to employee details and internal messages",
-      "url": "https://www.techradar.com/pro/security/ai-startup-claims-it-hacked-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-10-28T15:25:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的 IPO 文件将 Ben Mann 排除在其创始人投票组之外",
-      "url": "https://thenextweb.com/news/ben-mann-anthropic-ipo-founder-llc",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-28T15:16:05+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 现在允许 Claude 用户在不使用降落伞的情况下跳出飞机",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/27/anthropic-now-lets-claude-users-jump-out-of-plane-without-parachute/5305807",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-28T14:51:56+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI编程能力改变招聘标准，Anthropic招聘负责人取消传统编程面试",
-      "url": "https://www.aibase.com/news/31923",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-28T12:50:31.400552+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "马斯克前员工创立的AI初创公司仅用 12 小时攻破Anthropic办公系统",
-      "url": "https://www.aibase.com/news/31924",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-28T12:50:31.400552+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Claude Chalk，一个让 Claude Code 为自己的回复着色的模组",
-      "url": "https://github.com/adamkdean/claude-chalk",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-28T12:29:43+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Sources: Anthropic's seven cofounders remain extremely influential and personally tight; Daniela Amodei, who runs operations, is seen as a good balance to Dario (Financial Times)",
-      "url": "https://www.techmeme.com/261028/p20",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-28T11:45:01+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 收购了一家单人生物技术公司并启动了自己的药物项目",
-      "url": "https://thenextweb.com/news/anthropic-mithril-acquisition-claude-drug-development",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-28T11:43:13+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "英国前首相为 Anthropic、微软和高盛提供咨询服务的时薪高达 10,000 美元",
-      "url": "https://www.businessinsider.com/how-much-anthropic-and-microsoft-are-paying-rishi-sunak-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-28T11:30:45+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "随着人工智能编写代码，创业思维现在对于 Anthropic 的新人来说最重要",
-      "url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-10-28T11:15:00+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
-      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense",
-      "source": "The Decoder：AI News（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-28T10:56:24+00:00",
-      "source_count": 1,
       "score": 73,
-      "official": true,
+      "official": false,
       "topics": [
         "anthropic",
         "agent",
@@ -614,22 +477,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "人类经理说“编码面试已经死了”——这是他给初级开发人员的建议",
-      "url": "https://www.businessinsider.com/coding-interview-dead-ai-junior-developer-hiring-tips-anthropic-claude-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-28T10:56:21+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
