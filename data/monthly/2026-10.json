@@ -1,6 +1,7 @@
 {
   "title": "2026-10 月报",
   "dates": [
+    "2026-10-31",
     "2026-10-30",
     "2026-10-29",
     "2026-10-28",
@@ -108,15 +109,17 @@
       "label": "官方更新"
     },
     {
-      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
-      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
-      "source": "NVIDIA Developer Blog",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T15:01:36+00:00",
+      "published_at": "2026-10-30T17:57:24+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
-      "topics": [],
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -271,17 +274,41 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
-      "source": "vLLM Releases",
+      "title": "Was I wrong about open models & cyber risks?",
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "source": "Interconnects",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T09:10:43+00:00",
+      "published_at": "2026-10-30T17:36:56+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "launch"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+      "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T15:01:36+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -587,40 +614,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "Playground 简介：创建和玩自定义游戏",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
-      "source": "Google AI Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T12:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "适用于 iOS 的 ChatGPT 1.2026.272",
-      "url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-30T15:56:42.741387+00:00",
+  "generated_at": "2026-10-30T21:06:04.249126+00:00",
   "period": "2026-10"
 }

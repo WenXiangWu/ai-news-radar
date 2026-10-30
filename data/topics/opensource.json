@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-10-30T15:56:42.741387+00:00",
+  "generated_at": "2026-10-30T21:06:04.249126+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 8,
+  "total_items": 4,
   "items": [
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "万亿参数开源模型Mistral Large4 登场：用更少Token打平顶级性能",
       "url": "https://www.aibase.com/news/31986",
@@ -13,7 +28,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-30T08:37:09.064056+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 74,
       "official": false,
       "topics": [
         "opensource",
@@ -29,7 +44,7 @@
       "site_id": "hackernews",
       "published_at": "2026-10-30T05:20:20+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -45,7 +60,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-30T01:57:20.016918+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "opensource",
@@ -53,84 +68,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
-      "url": "https://x.com/Khazix0918/status/2115898252004622617",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "site_id": "aihot",
-      "published_at": "2026-10-29T20:07:09+00:00",
-      "source_count": 1,
-      "score": 71,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Baseten 的 joey-1 以每百万代币一分钱的价格做出人工智能决策",
-      "url": "https://thenextweb.com/news/baseten-joey-1-decision-model-open-weights",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-29T18:49:52+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Deepgram 收购 Pipecat 制造商 Daily 并保持语音 AI 框架开放",
-      "url": "https://thenextweb.com/news/deepgram-daily-acquisition-pipecat-open-source",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-29T17:54:57+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
-      "url": "https://x.com/TencentHunyuan/status/2115851165904814283",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "site_id": "aihot",
-      "published_at": "2026-10-29T17:00:03+00:00",
-      "source_count": 1,
-      "score": 70,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Mistral 发布万亿参数人工智能模型权重，瞄准网络安全",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-29T17:00:00+00:00",
-      "source_count": 1,
-      "score": 57,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }

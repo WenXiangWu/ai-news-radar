@@ -1,13 +1,13 @@
 {
   "title": "2026-W44 周报",
   "dates": [
+    "2026-10-31",
     "2026-10-30",
     "2026-10-29",
     "2026-10-28",
     "2026-10-27",
     "2026-10-26",
-    "2026-10-25",
-    "2026-10-24"
+    "2026-10-25"
   ],
   "total_items": 40,
   "items": [
@@ -27,15 +27,17 @@
       "label": "官方更新"
     },
     {
-      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
-      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
-      "source": "NVIDIA Developer Blog",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T15:01:36+00:00",
+      "published_at": "2026-10-30T17:57:24+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
-      "topics": [],
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -55,17 +57,41 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
-      "source": "vLLM Releases",
+      "title": "Was I wrong about open models & cyber risks?",
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "source": "Interconnects",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T09:10:43+00:00",
+      "published_at": "2026-10-30T17:36:56+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "launch"
-      ],
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+      "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T15:01:36+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -146,33 +172,46 @@
       "label": "官方更新"
     },
     {
-      "title": "【AINews】构建AIE CODE：顶级编码代理大会",
-      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
-      "source": "Latent Space",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T08:24:29+00:00",
+      "published_at": "2026-10-30T09:30:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
-        "agent",
-        "coding"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-      "url": "https://latent.space/p/ainews-kimi-31",
-      "source": "Latent Space",
+      "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-24T07:18:29+00:00",
+      "published_at": "2026-10-30T09:10:43+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
-        "opensource",
         "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T09:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -301,46 +340,17 @@
       "label": "官方更新"
     },
     {
-      "title": "LitPivot：通过文学景观中的动态情境化发展研究思路",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "source": "Hugging Face Blog",
+      "title": "【AINews】构建AIE CODE：顶级编码代理大会",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-23T16:15:50+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.5.23",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23",
-      "source": "SGLang Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-30T00:13:59+00:00",
+      "published_at": "2026-10-30T08:24:29+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
       "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "符合资格的 ChatGPT 订阅的 API 积分权益",
-      "url": "https://simonwillison.net/2026/Oct/29/api-credits",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-29T22:48:29+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -595,23 +605,8 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.17",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-24T01:08:05+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-30T15:56:42.741387+00:00",
+  "generated_at": "2026-10-30T21:06:04.249126+00:00",
   "period": "2026-W44"
 }
