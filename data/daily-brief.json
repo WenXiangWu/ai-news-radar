@@ -1,11 +1,177 @@
 {
-  "generated_at": "2026-10-30T08:37:09.064056Z",
+  "generated_at": "2026-10-30T15:55:24.341755Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
+      "story_id": "story_cc1a628da3f4",
+      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储 / How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+      "primary_url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+      "source": "NVIDIA Developer Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "fbabbac640cdc1e3bddf631fd308c20dae85cc83",
+          "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储 / How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+          "title_zh": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+          "title_en": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+          "title_original": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+          "source": "NVIDIA Developer Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-30T15:01:36Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Developer Blog"
+      ],
+      "items": [
+        {
+          "id": "fbabbac640cdc1e3bddf631fd308c20dae85cc83",
+          "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储 / How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+          "title_zh": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+          "title_en": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+          "title_original": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+          "source": "NVIDIA Developer Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-30T15:01:36Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8537,
+      "importance": 0.8537,
+      "importance_score": 0.8537,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.93,
+        "recency": 0.9871,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T15:01:36Z",
+      "latest_at": "2026-10-30T15:01:36Z",
+      "primary_item": {
+        "id": "fbabbac640cdc1e3bddf631fd308c20dae85cc83",
+        "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储 / How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+        "title_zh": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+        "title_en": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+        "title_original": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+        "source": "NVIDIA Developer Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-30T15:56:43.214647Z"
+      }
+    },
+    {
+      "story_id": "story_d411f7afb89a",
+      "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567) / v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+      "primary_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+      "source": "vLLM Releases",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ee2615fa2eddef2143c165c6f420b46d344a8dd4",
+          "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567) / v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+          "title_zh": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
+          "title_en": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+          "title_original": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+          "source": "vLLM Releases",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-30T09:10:43Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "vLLM Releases"
+      ],
+      "items": [
+        {
+          "id": "ee2615fa2eddef2143c165c6f420b46d344a8dd4",
+          "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567) / v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+          "title_zh": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
+          "title_en": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+          "title_original": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+          "source": "vLLM Releases",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-30T09:10:43Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8353,
+      "importance": 0.8353,
+      "importance_score": 0.8353,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9072,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T09:10:43Z",
+      "latest_at": "2026-10-30T09:10:43Z",
+      "primary_item": {
+        "id": "ee2615fa2eddef2143c165c6f420b46d344a8dd4",
+        "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567) / v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+        "title_zh": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
+        "title_en": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+        "title_original": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+        "source": "vLLM Releases",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-30T15:56:43.214647Z"
+      }
+    },
+    {
       "story_id": "story_4ea9cc94cadf",
-      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "title": "【AINews】构建AIE CODE：顶级编码代理大会 / [AINews] Building AIE CODE: The top Coding Agent Conference",
       "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
       "primary_url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
       "source": "Latent Space",
@@ -13,8 +179,8 @@
       "sources": [
         {
           "id": "8fff18ef35add4d0bf833f77875418d62ef86053",
-          "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
-          "title_zh": null,
+          "title": "【AINews】构建AIE CODE：顶级编码代理大会 / [AINews] Building AIE CODE: The top Coding Agent Conference",
+          "title_zh": "【AINews】构建AIE CODE：顶级编码代理大会",
           "title_en": "[AINews] Building AIE CODE: The top Coding Agent Conference",
           "title_original": "[AINews] Building AIE CODE: The top Coding Agent Conference",
           "summary": null,
@@ -33,8 +199,8 @@
       "items": [
         {
           "id": "8fff18ef35add4d0bf833f77875418d62ef86053",
-          "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
-          "title_zh": null,
+          "title": "【AINews】构建AIE CODE：顶级编码代理大会 / [AINews] Building AIE CODE: The top Coding Agent Conference",
+          "title_zh": "【AINews】构建AIE CODE：顶级编码代理大会",
           "title_en": "[AINews] Building AIE CODE: The top Coding Agent Conference",
           "title_original": "[AINews] Building AIE CODE: The top Coding Agent Conference",
           "summary": null,
@@ -48,15 +214,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8435,
-      "importance": 0.8435,
-      "importance_score": 0.8435,
+      "score": 0.8255,
+      "importance": 0.8255,
+      "importance_score": 0.8255,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.997,
+        "recency": 0.8972,
         "story_heat": 0.0
       },
       "category": "official",
@@ -69,8 +235,8 @@
       "latest_at": "2026-10-30T08:24:29Z",
       "primary_item": {
         "id": "8fff18ef35add4d0bf833f77875418d62ef86053",
-        "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
-        "title_zh": null,
+        "title": "【AINews】构建AIE CODE：顶级编码代理大会 / [AINews] Building AIE CODE: The top Coding Agent Conference",
+        "title_zh": "【AINews】构建AIE CODE：顶级编码代理大会",
         "title_en": "[AINews] Building AIE CODE: The top Coding Agent Conference",
         "title_original": "[AINews] Building AIE CODE: The top Coding Agent Conference",
         "summary": null,
@@ -83,12 +249,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
       "story_id": "story_2d6cb6000f7b",
-      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "title": "符合资格的 ChatGPT 订阅的 API 积分权益 / API credits benefit for eligible ChatGPT subscriptions",
       "url": "https://simonwillison.net/2026/Oct/29/api-credits",
       "primary_url": "https://simonwillison.net/2026/Oct/29/api-credits",
       "source": "Simon Willison",
@@ -96,8 +262,8 @@
       "sources": [
         {
           "id": "39f26034876d30ec88b03acbb01d83f83878b136",
-          "title": "API credits benefit for eligible ChatGPT subscriptions",
-          "title_zh": null,
+          "title": "符合资格的 ChatGPT 订阅的 API 积分权益 / API credits benefit for eligible ChatGPT subscriptions",
+          "title_zh": "符合资格的 ChatGPT 订阅的 API 积分权益",
           "title_en": "API credits benefit for eligible ChatGPT subscriptions",
           "title_original": "API credits benefit for eligible ChatGPT subscriptions",
           "summary": null,
@@ -116,8 +282,8 @@
       "items": [
         {
           "id": "39f26034876d30ec88b03acbb01d83f83878b136",
-          "title": "API credits benefit for eligible ChatGPT subscriptions",
-          "title_zh": null,
+          "title": "符合资格的 ChatGPT 订阅的 API 积分权益 / API credits benefit for eligible ChatGPT subscriptions",
+          "title_zh": "符合资格的 ChatGPT 订阅的 API 积分权益",
           "title_en": "API credits benefit for eligible ChatGPT subscriptions",
           "title_original": "API credits benefit for eligible ChatGPT subscriptions",
           "summary": null,
@@ -131,15 +297,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8282,
-      "importance": 0.8282,
-      "importance_score": 0.8282,
+      "score": 0.8126,
+      "importance": 0.8126,
+      "importance_score": 0.8126,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8679,
+        "recency": 0.781,
         "story_heat": 0.0
       },
       "category": "official",
@@ -152,8 +318,8 @@
       "latest_at": "2026-10-29T22:48:29Z",
       "primary_item": {
         "id": "39f26034876d30ec88b03acbb01d83f83878b136",
-        "title": "API credits benefit for eligible ChatGPT subscriptions",
-        "title_zh": null,
+        "title": "符合资格的 ChatGPT 订阅的 API 积分权益 / API credits benefit for eligible ChatGPT subscriptions",
+        "title_zh": "符合资格的 ChatGPT 订阅的 API 积分权益",
         "title_en": "API credits benefit for eligible ChatGPT subscriptions",
         "title_original": "API credits benefit for eligible ChatGPT subscriptions",
         "summary": null,
@@ -166,7 +332,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -214,15 +380,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8235,
-      "importance": 0.8235,
-      "importance_score": 0.8235,
+      "score": 0.8075,
+      "importance": 0.8075,
+      "importance_score": 0.8075,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8859,
+        "recency": 0.7973,
         "story_heat": 0.0
       },
       "category": "official",
@@ -249,90 +415,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
-      }
-    },
-    {
-      "story_id": "story_46b030e91541",
-      "title": "Granite Switch 4.1.1 — 像更新软件一样更新模型 / Granite Switch 4.1.1 — Update models like you update software",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "primary_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "0c17e3a2cde678293d2cb85b966f8cdb05ad6533",
-          "title": "Granite Switch 4.1.1 — 像更新软件一样更新模型 / Granite Switch 4.1.1 — Update models like you update software",
-          "title_zh": "Granite Switch 4.1.1 — 像更新软件一样更新模型",
-          "title_en": "Granite Switch 4.1.1 — Update models like you update software",
-          "title_original": "Granite Switch 4.1.1 — Update models like you update software",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-29T13:37:07Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "0c17e3a2cde678293d2cb85b966f8cdb05ad6533",
-          "title": "Granite Switch 4.1.1 — 像更新软件一样更新模型 / Granite Switch 4.1.1 — Update models like you update software",
-          "title_zh": "Granite Switch 4.1.1 — 像更新软件一样更新模型",
-          "title_en": "Granite Switch 4.1.1 — Update models like you update software",
-          "title_original": "Granite Switch 4.1.1 — Update models like you update software",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-29T13:37:07Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8168,
-      "importance": 0.8168,
-      "importance_score": 0.8168,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.76,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-29T13:37:07Z",
-      "latest_at": "2026-10-29T13:37:07Z",
-      "primary_item": {
-        "id": "0c17e3a2cde678293d2cb85b966f8cdb05ad6533",
-        "title": "Granite Switch 4.1.1 — 像更新软件一样更新模型 / Granite Switch 4.1.1 — Update models like you update software",
-        "title_zh": "Granite Switch 4.1.1 — 像更新软件一样更新模型",
-        "title_en": "Granite Switch 4.1.1 — Update models like you update software",
-        "title_original": "Granite Switch 4.1.1 — Update models like you update software",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -380,15 +463,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8157,
-      "importance": 0.8157,
-      "importance_score": 0.8157,
+      "score": 0.8013,
+      "importance": 0.8013,
+      "importance_score": 0.8013,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7981,
+        "recency": 0.7182,
         "story_heat": 0.0
       },
       "category": "official",
@@ -415,7 +498,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -463,15 +546,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8082,
-      "importance": 0.8082,
-      "importance_score": 0.8082,
+      "score": 0.7937,
+      "importance": 0.7937,
+      "importance_score": 0.7937,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8009,
+        "recency": 0.7207,
         "story_heat": 0.0
       },
       "category": "official",
@@ -498,148 +581,201 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
-      "story_id": "story_e149b8747c2d",
-      "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化 / Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-      "primary_url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-      "source": "404 Media（RSS）",
+      "story_id": "story_4c05b26f3043",
+      "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露 / Silicon Valley wants you to invest in miracles",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "source": "The Verge：AI（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "3e59f3a17425e339d369ff822cdca4645d9db83c",
-          "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化 / Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-          "title_zh": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
-          "title_en": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-          "title_original": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-          "summary": "404 Media 采访九名现任与离职 Proton 员工并查阅内部文件，报道 CEO Andy Yen 强推 AI 转型引发的内部冲突。10 月公司 90% 代码由 AI 编写，多使用 Anthropic 的 Claude；Yen 称今年是最后一年招聘工程师，并宣布将以可能决定去留的重新面试评估员工 AI 使用情况。",
+          "id": "d7fb8cbaabd9907004a46c51b82748c25cbea18f",
+          "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露 / Silicon Valley wants you to invest in miracles",
+          "title_zh": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
+          "title_en": "Silicon Valley wants you to invest in miracles",
+          "title_original": "Silicon Valley wants you to invest in miracles",
+          "summary": "The Verge 分析 Anthropic 提交的 335 页 S-1 招股书，其中创始人信以带来奇迹时代为愿景，同时用 94 页风险因素警告模型可能对人类构成灾难性甚至生存风险。",
           "recommend_reason_zh": null,
-          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-          "source": "404 Media（RSS）",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+          "source": "The Verge：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-29T14:21:49Z"
-        },
-        {
-          "id": "f4579d3e1db2bcd5c78a835ce1fc4f6f5b95808f",
-          "title": "宣言、恐惧与“失败者思维”：深入探秘Proton的人工智能之战",
-          "title_zh": "宣言、恐惧与“失败者思维”：深入探秘Proton的人工智能之战",
-          "title_en": null,
-          "title_original": "宣言、恐惧与“失败者思维”：深入探秘Proton的人工智能之战",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-          "source": "www.404media.co",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-29T23:49:53.582000Z"
-        },
-        {
-          "id": "051ff645629b74978dbe881478916824d79301f7",
-          "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化 / Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-          "title_zh": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
-          "title_en": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-          "title_original": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-29T14:29:06Z"
+          "published_at": "2026-10-30T13:11:05Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "404 Media（RSS）",
-        "Hacker News · 24h最热",
-        "www.404media.co"
+        "The Verge：AI（RSS）"
       ],
       "items": [
         {
-          "id": "3e59f3a17425e339d369ff822cdca4645d9db83c",
-          "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化 / Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-          "title_zh": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
-          "title_en": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-          "title_original": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-          "summary": "404 Media 采访九名现任与离职 Proton 员工并查阅内部文件，报道 CEO Andy Yen 强推 AI 转型引发的内部冲突。10 月公司 90% 代码由 AI 编写，多使用 Anthropic 的 Claude；Yen 称今年是最后一年招聘工程师，并宣布将以可能决定去留的重新面试评估员工 AI 使用情况。",
+          "id": "d7fb8cbaabd9907004a46c51b82748c25cbea18f",
+          "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露 / Silicon Valley wants you to invest in miracles",
+          "title_zh": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
+          "title_en": "Silicon Valley wants you to invest in miracles",
+          "title_original": "Silicon Valley wants you to invest in miracles",
+          "summary": "The Verge 分析 Anthropic 提交的 335 页 S-1 招股书，其中创始人信以带来奇迹时代为愿景，同时用 94 页风险因素警告模型可能对人类构成灾难性甚至生存风险。",
           "recommend_reason_zh": null,
-          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-          "source": "404 Media（RSS）",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+          "source": "The Verge：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-29T14:21:49Z"
-        },
-        {
-          "id": "f4579d3e1db2bcd5c78a835ce1fc4f6f5b95808f",
-          "title": "宣言、恐惧与“失败者思维”：深入探秘Proton的人工智能之战",
-          "title_zh": "宣言、恐惧与“失败者思维”：深入探秘Proton的人工智能之战",
-          "title_en": null,
-          "title_original": "宣言、恐惧与“失败者思维”：深入探秘Proton的人工智能之战",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-          "source": "www.404media.co",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-29T23:49:53.582000Z"
-        },
-        {
-          "id": "051ff645629b74978dbe881478916824d79301f7",
-          "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化 / Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-          "title_zh": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
-          "title_en": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-          "title_original": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-29T14:29:06Z"
+          "published_at": "2026-10-30T13:11:05Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7969,
-      "importance": 0.7969,
-      "importance_score": 0.7969,
-      "importance_label": "多源热议",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7786,
+      "importance": 0.7786,
+      "importance_score": 0.7786,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.79,
+        "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7683,
-        "story_heat": 0.5
+        "recency": 0.9612,
+        "story_heat": 0.0
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-29T14:21:49Z",
-      "latest_at": "2026-10-29T23:49:53.582000Z",
+      "earliest_at": "2026-10-30T13:11:05Z",
+      "latest_at": "2026-10-30T13:11:05Z",
       "primary_item": {
-        "id": "3e59f3a17425e339d369ff822cdca4645d9db83c",
-        "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化 / Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-        "title_zh": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
-        "title_en": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-        "title_original": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
-        "summary": "404 Media 采访九名现任与离职 Proton 员工并查阅内部文件，报道 CEO Andy Yen 强推 AI 转型引发的内部冲突。10 月公司 90% 代码由 AI 编写，多使用 Anthropic 的 Claude；Yen 称今年是最后一年招聘工程师，并宣布将以可能决定去留的重新面试评估员工 AI 使用情况。",
+        "id": "d7fb8cbaabd9907004a46c51b82748c25cbea18f",
+        "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露 / Silicon Valley wants you to invest in miracles",
+        "title_zh": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
+        "title_en": "Silicon Valley wants you to invest in miracles",
+        "title_original": "Silicon Valley wants you to invest in miracles",
+        "summary": "The Verge 分析 Anthropic 提交的 335 页 S-1 招股书，其中创始人信以带来奇迹时代为愿景，同时用 94 页风险因素警告模型可能对人类构成灾难性甚至生存风险。",
         "recommend_reason_zh": null,
-        "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-        "source": "404 Media（RSS）",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+        "source": "The Verge：AI（RSS）",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
+      }
+    },
+    {
+      "story_id": "story_c0d93c51570c",
+      "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧 / Google value plunges by $500B as AI fears rattle Wall Street",
+      "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+      "primary_url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+      "source": "Hacker News：AI 热帖",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "66c9008c3638deeb0bcaace1cca0024a483c0f10",
+          "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧 / Google value plunges by $500B as AI fears rattle Wall Street",
+          "title_zh": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
+          "title_en": "Google value plunges by $500B as AI fears rattle Wall Street",
+          "title_original": "Google value plunges by $500B as AI fears rattle Wall Street",
+          "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
+          "recommend_reason_zh": null,
+          "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+          "source": "Hacker News：AI 热帖",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-29T21:29:51.580000Z"
+        },
+        {
+          "id": "e127e915e758a4ee74115684b444dc067f8a7bb2",
+          "title": "人工智能担忧扰乱华尔街，谷歌市值暴跌 5000 亿美元 / Google value plunges by $500bn as AI fears rattle Wall Street",
+          "title_zh": "人工智能担忧扰乱华尔街，谷歌市值暴跌 5000 亿美元",
+          "title_en": "Google value plunges by $500bn as AI fears rattle Wall Street",
+          "title_original": "Google value plunges by $500bn as AI fears rattle Wall Street",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-29T21:52:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "BBC News",
+        "Hacker News：AI 热帖"
+      ],
+      "items": [
+        {
+          "id": "66c9008c3638deeb0bcaace1cca0024a483c0f10",
+          "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧 / Google value plunges by $500B as AI fears rattle Wall Street",
+          "title_zh": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
+          "title_en": "Google value plunges by $500B as AI fears rattle Wall Street",
+          "title_original": "Google value plunges by $500B as AI fears rattle Wall Street",
+          "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
+          "recommend_reason_zh": null,
+          "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+          "source": "Hacker News：AI 热帖",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-29T21:29:51.580000Z"
+        },
+        {
+          "id": "e127e915e758a4ee74115684b444dc067f8a7bb2",
+          "title": "人工智能担忧扰乱华尔街，谷歌市值暴跌 5000 亿美元 / Google value plunges by $500bn as AI fears rattle Wall Street",
+          "title_zh": "人工智能担忧扰乱华尔街，谷歌市值暴跌 5000 亿美元",
+          "title_en": "Google value plunges by $500bn as AI fears rattle Wall Street",
+          "title_original": "Google value plunges by $500bn as AI fears rattle Wall Street",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-29T21:52:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7745,
+      "importance": 0.7745,
+      "importance_score": 0.7745,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7664,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-29T21:29:51.580000Z",
+      "latest_at": "2026-10-29T21:52:13Z",
+      "primary_item": {
+        "id": "66c9008c3638deeb0bcaace1cca0024a483c0f10",
+        "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧 / Google value plunges by $500B as AI fears rattle Wall Street",
+        "title_zh": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
+        "title_en": "Google value plunges by $500B as AI fears rattle Wall Street",
+        "title_original": "Google value plunges by $500B as AI fears rattle Wall Street",
+        "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
+        "recommend_reason_zh": null,
+        "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+        "source": "Hacker News：AI 热帖",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -687,15 +823,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7905,
-      "importance": 0.7905,
-      "importance_score": 0.7905,
+      "score": 0.7744,
+      "importance": 0.7744,
+      "importance_score": 0.7744,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8939,
+        "recency": 0.8044,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -721,119 +857,171 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
-      "story_id": "story_c0d93c51570c",
-      "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧 / Google value plunges by $500B as AI fears rattle Wall Street",
-      "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
-      "primary_url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
-      "source": "Hacker News：AI 热帖",
+      "story_id": "story_dfe72b41cb92",
+      "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox / AI can turn public security fixes into working exploits before users receive an update",
+      "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+      "primary_url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+      "source": "Epoch AI：Gradient Updates（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "66c9008c3638deeb0bcaace1cca0024a483c0f10",
-          "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧 / Google value plunges by $500B as AI fears rattle Wall Street",
-          "title_zh": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
-          "title_en": "Google value plunges by $500B as AI fears rattle Wall Street",
-          "title_original": "Google value plunges by $500B as AI fears rattle Wall Street",
-          "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
+          "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
+          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox / AI can turn public security fixes into working exploits before users receive an update",
+          "title_zh": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+          "title_en": "AI can turn public security fixes into working exploits before users receive an update",
+          "title_original": "AI can turn public security fixes into working exploits before users receive an update",
+          "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
           "recommend_reason_zh": null,
-          "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
-          "source": "Hacker News：AI 热帖",
+          "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+          "source": "Epoch AI：Gradient Updates（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-29T21:29:51.580000Z"
-        },
-        {
-          "id": "e127e915e758a4ee74115684b444dc067f8a7bb2",
-          "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
-          "title_zh": null,
-          "title_en": "Google value plunges by $500bn as AI fears rattle Wall Street",
-          "title_original": "Google value plunges by $500bn as AI fears rattle Wall Street",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-10-29T21:52:13Z"
+          "published_at": "2026-10-30T12:07:16Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "BBC News",
-        "Hacker News：AI 热帖"
+        "Epoch AI：Gradient Updates（RSS）"
       ],
       "items": [
         {
-          "id": "66c9008c3638deeb0bcaace1cca0024a483c0f10",
-          "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧 / Google value plunges by $500B as AI fears rattle Wall Street",
-          "title_zh": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
-          "title_en": "Google value plunges by $500B as AI fears rattle Wall Street",
-          "title_original": "Google value plunges by $500B as AI fears rattle Wall Street",
-          "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
+          "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
+          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox / AI can turn public security fixes into working exploits before users receive an update",
+          "title_zh": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+          "title_en": "AI can turn public security fixes into working exploits before users receive an update",
+          "title_original": "AI can turn public security fixes into working exploits before users receive an update",
+          "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
           "recommend_reason_zh": null,
-          "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
-          "source": "Hacker News：AI 热帖",
+          "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+          "source": "Epoch AI：Gradient Updates（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-29T21:29:51.580000Z"
-        },
-        {
-          "id": "e127e915e758a4ee74115684b444dc067f8a7bb2",
-          "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
-          "title_zh": null,
-          "title_en": "Google value plunges by $500bn as AI fears rattle Wall Street",
-          "title_original": "Google value plunges by $500bn as AI fears rattle Wall Street",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-10-29T21:52:13Z"
+          "published_at": "2026-10-30T12:07:16Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7899,
-      "importance": 0.7899,
-      "importance_score": 0.7899,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.773,
+      "importance": 0.773,
+      "importance_score": 0.773,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.8,
+        "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8516,
-        "story_heat": 0.25
+        "recency": 0.9466,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-29T21:29:51.580000Z",
-      "latest_at": "2026-10-29T21:52:13Z",
+      "earliest_at": "2026-10-30T12:07:16Z",
+      "latest_at": "2026-10-30T12:07:16Z",
       "primary_item": {
-        "id": "66c9008c3638deeb0bcaace1cca0024a483c0f10",
-        "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧 / Google value plunges by $500B as AI fears rattle Wall Street",
-        "title_zh": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
-        "title_en": "Google value plunges by $500B as AI fears rattle Wall Street",
-        "title_original": "Google value plunges by $500B as AI fears rattle Wall Street",
-        "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
+        "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
+        "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox / AI can turn public security fixes into working exploits before users receive an update",
+        "title_zh": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+        "title_en": "AI can turn public security fixes into working exploits before users receive an update",
+        "title_original": "AI can turn public security fixes into working exploits before users receive an update",
+        "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
         "recommend_reason_zh": null,
-        "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
-        "source": "Hacker News：AI 热帖",
+        "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+        "source": "Epoch AI：Gradient Updates（RSS）",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
+      }
+    },
+    {
+      "story_id": "story_c443cc9a8196",
+      "title": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+      "url": "https://www.aibase.com/news/31995",
+      "primary_url": "https://www.aibase.com/news/31995",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "1daa6533f0453e3bb2b9f84d884192accb4f41f3",
+          "title": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+          "title_zh": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+          "title_en": null,
+          "title_original": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31995",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-30T15:55:24.341755Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "1daa6533f0453e3bb2b9f84d884192accb4f41f3",
+          "title": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+          "title_zh": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+          "title_en": null,
+          "title_original": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31995",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-30T15:55:24.341755Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T15:55:24.341755Z",
+      "latest_at": "2026-10-30T15:55:24.341755Z",
+      "primary_item": {
+        "id": "1daa6533f0453e3bb2b9f84d884192accb4f41f3",
+        "title": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+        "title_zh": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+        "title_en": null,
+        "title_original": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31995",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -881,15 +1069,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8056,
-      "importance": 0.8056,
-      "importance_score": 0.8056,
+      "score": 0.7914,
+      "importance": 0.7914,
+      "importance_score": 0.7914,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7866,
+        "recency": 0.7079,
         "story_heat": 0.0
       },
       "category": "official",
@@ -916,172 +1104,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
-      }
-    },
-    {
-      "story_id": "story_023d6c3fddb5",
-      "title": "OpenAI 详解如何检测前沿模型失准行为 / How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "primary_url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "f166caf33232a1d28015438ec78e6eb2177e2c18",
-          "title": "OpenAI 详解如何检测前沿模型失准行为 / How we detect frontier model misalignment",
-          "title_zh": "OpenAI 详解如何检测前沿模型失准行为",
-          "title_en": "How we detect frontier model misalignment",
-          "title_original": "How we detect frontier model misalignment",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-29T09:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "f166caf33232a1d28015438ec78e6eb2177e2c18",
-          "title": "OpenAI 详解如何检测前沿模型失准行为 / How we detect frontier model misalignment",
-          "title_zh": "OpenAI 详解如何检测前沿模型失准行为",
-          "title_en": "How we detect frontier model misalignment",
-          "title_original": "How we detect frontier model misalignment",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-29T09:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8,
-      "importance": 0.8,
-      "importance_score": 0.8,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.711,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-29T09:00:00Z",
-      "latest_at": "2026-10-29T09:00:00Z",
-      "primary_item": {
-        "id": "f166caf33232a1d28015438ec78e6eb2177e2c18",
-        "title": "OpenAI 详解如何检测前沿模型失准行为 / How we detect frontier model misalignment",
-        "title_zh": "OpenAI 详解如何检测前沿模型失准行为",
-        "title_en": "How we detect frontier model misalignment",
-        "title_original": "How we detect frontier model misalignment",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
-      }
-    },
-    {
-      "story_id": "story_84ac9483c1ab",
-      "title": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-      "url": "https://www.aibase.com/news/31989",
-      "primary_url": "https://www.aibase.com/news/31989",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "03e104bd50d3982ce37c0956f1787721b216018d",
-          "title": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-          "title_zh": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-          "title_en": null,
-          "title_original": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31989",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-10-30T08:37:09.064056Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "03e104bd50d3982ce37c0956f1787721b216018d",
-          "title": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-          "title_zh": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-          "title_en": null,
-          "title_original": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31989",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-10-30T08:37:09.064056Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-30T08:37:09.064056Z",
-      "latest_at": "2026-10-30T08:37:09.064056Z",
-      "primary_item": {
-        "id": "03e104bd50d3982ce37c0956f1787721b216018d",
-        "title": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-        "title_zh": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-        "title_en": null,
-        "title_original": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31989",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -1129,21 +1152,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7639,
-      "importance": 0.7639,
-      "importance_score": 0.7639,
+      "score": 0.748,
+      "importance": 0.748,
+      "importance_score": 0.748,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8792,
+        "recency": 0.7912,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-10-29T23:42:22Z",
       "latest_at": "2026-10-29T23:42:22Z",
@@ -1163,7 +1185,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -1211,21 +1233,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7598,
-      "importance": 0.7598,
-      "importance_score": 0.7598,
+      "score": 0.745,
+      "importance": 0.745,
+      "importance_score": 0.745,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8236,
+        "recency": 0.7411,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-10-29T19:10:41Z",
       "latest_at": "2026-10-29T19:10:41Z",
@@ -1245,63 +1266,63 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
-      "story_id": "story_bbff85cd6612",
-      "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账 / Anthropic is asking Wall Street to believe in AGI",
-      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "primary_url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "source": "The Verge：AI（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_f2620ef44fff",
+      "title": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+      "url": "https://www.aibase.com/news/31994",
+      "primary_url": "https://www.aibase.com/news/31994",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "eaa05489664eb686d3790e0f001f5a3916b3292f",
-          "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账 / Anthropic is asking Wall Street to believe in AGI",
-          "title_zh": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
-          "title_en": "Anthropic is asking Wall Street to believe in AGI",
-          "title_original": "Anthropic is asking Wall Street to believe in AGI",
-          "summary": "The Verge Decoder 节目邀请 SemiAnalysis 分析师 Joey Brookhart 解读 Anthropic 提交的 S-1 招股书，公司拟在纳斯达克上市，估值区间 1.5 万亿至 2 万亿美元。",
+          "id": "04de0e9bb79741accfdf810cc503536c59eee85d",
+          "title": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+          "title_zh": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+          "title_en": null,
+          "title_original": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+          "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-          "source": "The Verge：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T14:00:00Z"
+          "url": "https://www.aibase.com/news/31994",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-30T15:55:24.341755Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "The Verge：AI（RSS）"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "eaa05489664eb686d3790e0f001f5a3916b3292f",
-          "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账 / Anthropic is asking Wall Street to believe in AGI",
-          "title_zh": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
-          "title_en": "Anthropic is asking Wall Street to believe in AGI",
-          "title_original": "Anthropic is asking Wall Street to believe in AGI",
-          "summary": "The Verge Decoder 节目邀请 SemiAnalysis 分析师 Joey Brookhart 解读 Anthropic 提交的 S-1 招股书，公司拟在纳斯达克上市，估值区间 1.5 万亿至 2 万亿美元。",
+          "id": "04de0e9bb79741accfdf810cc503536c59eee85d",
+          "title": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+          "title_zh": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+          "title_en": null,
+          "title_original": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+          "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-          "source": "The Verge：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T14:00:00Z"
+          "url": "https://www.aibase.com/news/31994",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-30T15:55:24.341755Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7582,
-      "importance": 0.7582,
-      "importance_score": 0.7582,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.83,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7642,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1309,187 +1330,106 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-29T14:00:00Z",
-      "latest_at": "2026-10-29T14:00:00Z",
+      "earliest_at": "2026-10-30T15:55:24.341755Z",
+      "latest_at": "2026-10-30T15:55:24.341755Z",
       "primary_item": {
-        "id": "eaa05489664eb686d3790e0f001f5a3916b3292f",
-        "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账 / Anthropic is asking Wall Street to believe in AGI",
-        "title_zh": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
-        "title_en": "Anthropic is asking Wall Street to believe in AGI",
-        "title_original": "Anthropic is asking Wall Street to believe in AGI",
-        "summary": "The Verge Decoder 节目邀请 SemiAnalysis 分析师 Joey Brookhart 解读 Anthropic 提交的 S-1 招股书，公司拟在纳斯达克上市，估值区间 1.5 万亿至 2 万亿美元。",
-        "recommend_reason_zh": null,
-        "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-        "source": "The Verge：AI（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
-      }
-    },
-    {
-      "story_id": "story_6204af019ccf",
-      "title": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响 / Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-      "url": "https://cursor.com/blog/claude-code-extension-security-notice",
-      "primary_url": "https://cursor.com/blog/claude-code-extension-security-notice",
-      "source": "Cursor Blog",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c491de88f8d0d2528703fb49cfe2a7775dc2408a",
-          "title": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响 / Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-          "title_zh": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响",
-          "title_en": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-          "title_original": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-          "summary": "Cursor 官方披露，其 VS Code 扩展市场中的 Anthropic.claude-code 2.1.313 为恶意篡改版本，并非 Anthropic 开发，在 10 月 29 日 2:27am PT 至 1:35pm PT 期间上架，最多影响 4100 名用户。",
-          "recommend_reason_zh": null,
-          "url": "https://cursor.com/blog/claude-code-extension-security-notice",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T12:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Cursor Blog"
-      ],
-      "items": [
-        {
-          "id": "c491de88f8d0d2528703fb49cfe2a7775dc2408a",
-          "title": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响 / Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-          "title_zh": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响",
-          "title_en": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-          "title_original": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-          "summary": "Cursor 官方披露，其 VS Code 扩展市场中的 Anthropic.claude-code 2.1.313 为恶意篡改版本，并非 Anthropic 开发，在 10 月 29 日 2:27am PT 至 1:35pm PT 期间上架，最多影响 4100 名用户。",
-          "recommend_reason_zh": null,
-          "url": "https://cursor.com/blog/claude-code-extension-security-notice",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T12:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7482,
-      "importance": 0.7482,
-      "importance_score": 0.7482,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7425,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-29T12:00:00Z",
-      "latest_at": "2026-10-29T12:00:00Z",
-      "primary_item": {
-        "id": "c491de88f8d0d2528703fb49cfe2a7775dc2408a",
-        "title": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响 / Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-        "title_zh": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响",
-        "title_en": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-        "title_original": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
-        "summary": "Cursor 官方披露，其 VS Code 扩展市场中的 Anthropic.claude-code 2.1.313 为恶意篡改版本，并非 Anthropic 开发，在 10 月 29 日 2:27am PT 至 1:35pm PT 期间上架，最多影响 4100 名用户。",
-        "recommend_reason_zh": null,
-        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
-        "source": "Cursor Blog",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
-      }
-    },
-    {
-      "story_id": "story_342bac922280",
-      "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-      "source": "公众号：月之暗面（Kimi）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4341062db06c4806c98812189a143621cafb83cd",
-          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "title_zh": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "title_en": null,
-          "title_original": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
-          "recommend_reason_zh": null,
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-          "source": "公众号：月之暗面（Kimi）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T04:04:56Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：月之暗面（Kimi）"
-      ],
-      "items": [
-        {
-          "id": "4341062db06c4806c98812189a143621cafb83cd",
-          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "title_zh": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "title_en": null,
-          "title_original": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
-          "recommend_reason_zh": null,
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-          "source": "公众号：月之暗面（Kimi）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T04:04:56Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7472,
-      "importance": 0.7472,
-      "importance_score": 0.7472,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9366,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-30T04:04:56Z",
-      "latest_at": "2026-10-30T04:04:56Z",
-      "primary_item": {
-        "id": "4341062db06c4806c98812189a143621cafb83cd",
-        "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-        "title_zh": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+        "id": "04de0e9bb79741accfdf810cc503536c59eee85d",
+        "title": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+        "title_zh": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
         "title_en": null,
-        "title_original": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-        "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
+        "title_original": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+        "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-        "source": "公众号：月之暗面（Kimi）",
+        "url": "https://www.aibase.com/news/31994",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-30T15:56:43.214647Z"
+      }
+    },
+    {
+      "story_id": "story_62b4ec8a4595",
+      "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元 / Our customers’ ambition is accelerating our growth",
+      "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
+      "primary_url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
+      "source": "Sierra：Blog（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e68eae64b1758b39ba34ddf7038dee1f03c58346",
+          "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元 / Our customers’ ambition is accelerating our growth",
+          "title_zh": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
+          "title_en": "Our customers’ ambition is accelerating our growth",
+          "title_original": "Our customers’ ambition is accelerating our growth",
+          "summary": "Sierra 宣布本周 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元，从 2 亿到 4 亿仅用五个月，快于此前六个月的翻倍节奏。",
+          "recommend_reason_zh": null,
+          "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
+          "source": "Sierra：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T12:50:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Sierra：Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "e68eae64b1758b39ba34ddf7038dee1f03c58346",
+          "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元 / Our customers’ ambition is accelerating our growth",
+          "title_zh": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
+          "title_en": "Our customers’ ambition is accelerating our growth",
+          "title_original": "Our customers’ ambition is accelerating our growth",
+          "summary": "Sierra 宣布本周 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元，从 2 亿到 4 亿仅用五个月，快于此前六个月的翻倍节奏。",
+          "recommend_reason_zh": null,
+          "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
+          "source": "Sierra：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T12:50:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7357,
+      "importance": 0.7357,
+      "importance_score": 0.7357,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.64,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9564,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-30T12:50:00Z",
+      "latest_at": "2026-10-30T12:50:00Z",
+      "primary_item": {
+        "id": "e68eae64b1758b39ba34ddf7038dee1f03c58346",
+        "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元 / Our customers’ ambition is accelerating our growth",
+        "title_zh": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
+        "title_en": "Our customers’ ambition is accelerating our growth",
+        "title_original": "Our customers’ ambition is accelerating our growth",
+        "summary": "Sierra 宣布本周 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元，从 2 亿到 4 亿仅用五个月，快于此前六个月的翻倍节奏。",
+        "recommend_reason_zh": null,
+        "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
+        "source": "Sierra：Blog（RSS）",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -1537,15 +1477,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7465,
-      "importance": 0.7465,
-      "importance_score": 0.7465,
+      "score": 0.7306,
+      "importance": 0.7306,
+      "importance_score": 0.7306,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.883,
+        "recency": 0.7946,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1570,7 +1510,88 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
+      }
+    },
+    {
+      "story_id": "story_342bac922280",
+      "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
+      "source": "公众号：月之暗面（Kimi）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "4341062db06c4806c98812189a143621cafb83cd",
+          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+          "title_zh": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+          "title_en": null,
+          "title_original": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+          "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
+          "source": "公众号：月之暗面（Kimi）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T04:04:56Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：月之暗面（Kimi）"
+      ],
+      "items": [
+        {
+          "id": "4341062db06c4806c98812189a143621cafb83cd",
+          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+          "title_zh": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+          "title_en": null,
+          "title_original": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+          "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
+          "source": "公众号：月之暗面（Kimi）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T04:04:56Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7303,
+      "importance": 0.7303,
+      "importance_score": 0.7303,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8428,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-30T04:04:56Z",
+      "latest_at": "2026-10-30T04:04:56Z",
+      "primary_item": {
+        "id": "4341062db06c4806c98812189a143621cafb83cd",
+        "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+        "title_zh": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+        "title_en": null,
+        "title_original": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+        "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
+        "recommend_reason_zh": null,
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
+        "source": "公众号：月之暗面（Kimi）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     },
     {
@@ -1618,15 +1639,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7444,
-      "importance": 0.7444,
-      "importance_score": 0.7444,
+      "score": 0.7266,
+      "importance": 0.7266,
+      "importance_score": 0.7266,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9879,
+        "recency": 0.889,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1651,88 +1672,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
-      }
-    },
-    {
-      "story_id": "story_5685e68ea126",
-      "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务 / Google's AI search problem finally shows up in the earnings report, some investors believe",
-      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe",
-      "primary_url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "af60c04413c21de76dda706eafcda5fedf8b7805",
-          "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务 / Google's AI search problem finally shows up in the earnings report, some investors believe",
-          "title_zh": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
-          "title_en": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-          "title_original": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-          "summary": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。",
-          "recommend_reason_zh": null,
-          "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T10:16:34Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "af60c04413c21de76dda706eafcda5fedf8b7805",
-          "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务 / Google's AI search problem finally shows up in the earnings report, some investors believe",
-          "title_zh": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
-          "title_en": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-          "title_original": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-          "summary": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。",
-          "recommend_reason_zh": null,
-          "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T10:16:34Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.742,
-      "importance": 0.742,
-      "importance_score": 0.742,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7242,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-29T10:16:34Z",
-      "latest_at": "2026-10-29T10:16:34Z",
-      "primary_item": {
-        "id": "af60c04413c21de76dda706eafcda5fedf8b7805",
-        "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务 / Google's AI search problem finally shows up in the earnings report, some investors believe",
-        "title_zh": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
-        "title_en": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-        "title_original": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-        "summary": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。",
-        "recommend_reason_zh": null,
-        "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-10-30T08:57:17.645936Z"
+        "scored_at": "2026-10-30T15:56:43.214647Z"
       }
     }
   ]

@@ -27,6 +27,19 @@
       "label": "官方更新"
     },
     {
+      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T15:01:36+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "与学术界合作，增进对科学的理解",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "source": "OpenAI News",
@@ -42,16 +55,16 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
-      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
-      "source": "Latent Space",
+      "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T08:24:29+00:00",
+      "published_at": "2026-10-30T09:10:43+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "agent"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -133,16 +146,17 @@
       "label": "官方更新"
     },
     {
-      "title": "API credits benefit for eligible ChatGPT subscriptions",
-      "url": "https://simonwillison.net/2026/Oct/29/api-credits",
-      "source": "Simon Willison",
+      "title": "【AINews】构建AIE CODE：顶级编码代理大会",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-29T22:48:29+00:00",
+      "published_at": "2026-10-30T08:24:29+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [
-        "openai"
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -159,51 +173,6 @@
       "topics": [
         "opensource",
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.5.23",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23",
-      "source": "SGLang Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-30T00:13:59+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-29T17:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Granite Switch 4.1.1 — 像更新软件一样更新模型",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-29T13:37:07+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -347,28 +316,32 @@
       "label": "官方更新"
     },
     {
-      "title": "添加到 Meta API 的 Webhook IP 范围",
-      "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-      "source": "GitHub Changelog",
+      "title": "v0.5.23",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23",
+      "source": "SGLang Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-29T17:14:38+00:00",
+      "published_at": "2026-10-30T00:13:59+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "前沿模型能否识破诱饵？ Elorian 测试视觉推理",
-      "url": "https://latent.space/p/elorian",
-      "source": "Latent Space",
+      "title": "符合资格的 ChatGPT 订阅的 API 积分权益",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-10-29T16:00:00+00:00",
+      "published_at": "2026-10-29T22:48:29+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -609,8 +582,36 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "webframe：被评估为刮刀和沙箱",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T16:15:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph==1.2.17",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-24T01:08:05+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-30T08:57:17.181783+00:00",
+  "generated_at": "2026-10-30T15:56:42.741387+00:00",
   "period": "2026-W44"
 }

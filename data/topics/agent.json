@@ -1,22 +1,56 @@
 {
-  "generated_at": "2026-10-30T08:57:17.181783+00:00",
+  "generated_at": "2026-10-30T15:56:42.741387+00:00",
   "slug": "agent",
   "label": "Agent 智能体",
   "group": "tech",
   "blurb": "规划、工具调用、多步任务",
-  "total_items": 27,
+  "total_items": 19,
   "items": [
     {
-      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "title": "Ro 首席执行官分享其新人工智能代理的制作过程",
+      "url": "https://www.businessinsider.com/ro-ceo-shares-making-of-new-ai-agent-2026-10",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-10-30T13:26:16+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Cursor 市场发布带后门的 Claude Code VS Code 扩展",
+      "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-10-30T10:22:51+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "【AINews】构建AIE CODE：顶级编码代理大会",
       "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-10-30T08:24:29+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
-        "agent"
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -28,7 +62,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-30T08:14:27.535000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -45,7 +79,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-30T07:46:39+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -63,7 +97,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-30T07:26:12+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 58,
       "official": false,
       "topics": [
         "anthropic",
@@ -74,15 +108,16 @@
       "label": "值得关注"
     },
     {
-      "title": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
-      "url": "https://www.arsaze.com",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-30T06:55:33+00:00",
-      "source_count": 1,
+      "title": "Cursor Marketplace 上用于 VS Code 扩展的 Claude Code 中的后门",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-30T07:09:12+00:00",
+      "source_count": 2,
       "score": 52,
       "official": false,
       "topics": [
+        "anthropic",
         "agent",
         "coding"
       ],
@@ -90,30 +125,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Trojanized Claude Code Extension Plants an SSH Backdoor",
-      "url": "https://opensourcemalware.com/blog/trojanized-claude-code-extension-plants-persistent-ssh-backdoor",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-30T05:20:20+00:00",
-      "source_count": 1,
-      "score": 51,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "A Claude Code agent's test escaped into my Mac. I only noticed because it talked",
+      "title": "Claude Code 代理的测试逃进了我的 Mac。我只是注意到因为它会说话",
       "url": "https://www.marutpandya.com/posts/2026/10/my-mac-started-reading-json-aloud",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-10-30T05:16:33+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -129,7 +147,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-30T03:22:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [
         "agent"
@@ -144,7 +162,7 @@
       "site_id": "aibase",
       "published_at": "2026-10-30T01:57:20.016918+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -161,7 +179,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-30T01:23:00+00:00",
       "source_count": 1,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [
         "agent",
@@ -177,7 +195,7 @@
       "site_id": "curated_media",
       "published_at": "2026-10-30T01:06:26+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -194,7 +212,7 @@
       "site_id": "followbuilders",
       "published_at": "2026-10-29T21:42:26+00:00",
       "source_count": 1,
-      "score": 66,
+      "score": 64,
       "official": false,
       "topics": [
         "anthropic",
@@ -211,7 +229,7 @@
       "site_id": "aihot",
       "published_at": "2026-10-29T21:00:00+00:00",
       "source_count": 1,
-      "score": 70,
+      "score": 69,
       "official": false,
       "topics": [
         "agent"
@@ -226,7 +244,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-29T19:26:03+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "agent",
@@ -242,7 +260,7 @@
       "site_id": "techurls",
       "published_at": "2026-10-29T19:10:01+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "anthropic",
@@ -258,7 +276,7 @@
       "site_id": "opmlrss",
       "published_at": "2026-10-29T18:47:56+00:00",
       "source_count": 2,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "agent"
@@ -273,15 +291,14 @@
       "site_id": "aihot",
       "published_at": "2026-10-29T16:56:07+00:00",
       "source_count": 2,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
-        "coding",
-        "industry"
+        "coding"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "别把 Agent 架构画成组织架构图——子代理该不该拆，用任务级 Eval 说话",
@@ -290,151 +307,9 @@
       "site_id": "newsnow",
       "published_at": "2026-10-29T16:55:48.692000+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Wiz 分析智能体攻击的七大指纹与发展趋势",
-      "url": "https://www.wiz.io/blog/the-rise-of-agentic-attacks-what-they-look-like-and-where-theyre-headed",
-      "source": "Wiz：Research（安全研究）",
-      "site_id": "aihot",
-      "published_at": "2026-10-29T14:36:22+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Wabi，构建迷你应用程序的人工智能代理，最新一轮融资后估值现为 $1.25B",
-      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-10-29T14:35:26+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "agent",
-        "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Q&A with Sam Altman on finding PHP bugs, sandboxing superhuman models as an unsolved safety dilemma, robotics scaling data centers, math, agent swarms, and more (John Collison/Cheeky Pint)",
-      "url": "https://www.techmeme.com/261029/p26",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-29T12:40:02+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ro's CEO showed us its new AI agent — and its bigger plan to own more of your healthcare",
-      "url": "https://www.businessinsider.com/exclusive-ro-launches-ai-agent-for-healthcare-2026-10",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-10-29T09:59:01+00:00",
-      "source_count": 1,
       "score": 47,
       "official": false,
       "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Ainna AI",
-      "url": "https://www.producthunt.com/products/ainna-the-ai-innovation-agent",
-      "source": "producthunt",
-      "site_id": "newsnow",
-      "published_at": "2026-10-29T09:55:47.352000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Code vs Codex：Computer Use 实现原理深度拆解",
-      "url": "https://juejin.cn/post/7700850888098594870",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-29T09:55:47.352000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "DeepSeek Harness 和 Pi Agent 怎么选？先想想你愿意折腾什么",
-      "url": "https://juejin.cn/post/7701490621295935529",
-      "source": "juejin",
-      "site_id": "newsnow",
-      "published_at": "2026-10-29T09:55:47.352000+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "deepseek",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "AI删文件终于可以不用再问了！Claude Code上线全新环境变量，赋予开发者绝对放行权限",
-      "url": "https://www.aibase.com/news/31963",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-29T09:55:08.469236+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "告诉 HN：Claude Code 将您的电子邮件添加到提示中，LLM 将其发送到网站",
-      "url": "https://news.ycombinator.com/item?id=50286306",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-29T09:06:12+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
         "agent"
       ],
       "reason": "",

@@ -1,9 +1,37 @@
 {
-  "generated_at": "2026-10-30T08:57:17.181783+00:00",
+  "generated_at": "2026-10-30T15:56:42.741387+00:00",
   "today": "2026-10-30",
-  "lead": "[AINews] Building AIE CODE: The top Coding Agent Conference；API credits benefit for eligible ChatGPT subscriptions；v0.5.23",
+  "lead": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储；v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)；【AINews】构建AIE CODE：顶级编码代理大会",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "Neal Stephenson 谈人工智能和下一步发展 [视频]",
+      "url": "https://www.youtube.com/watch?v=Ii-aeW5pHPQ",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-30T14:18:34+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 52
+    },
+    {
+      "title": "美国众议员领导反对人工智能的民主党决议大型科技公司的泡沫救助",
+      "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-30T12:08:00+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 44
+    },
     {
       "title": "克劳德·杜埃特（Claude Duet）是首款让人觉得实用的“私人助理”式穿戴设备",
       "url": "https://fig.blue/posts/duet-is-the-future",
@@ -11,14 +39,14 @@
       "site_id": "buzzing",
       "published_at": "2026-10-30T00:53:45.369000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 61
+      "hot_score": 34
     },
     {
       "title": "我们在《我的世界》和《Mindustry》中运行了AI代理群",
@@ -27,56 +55,32 @@
       "site_id": "buzzing",
       "published_at": "2026-10-30T00:05:54.868000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 53,
       "official": false,
       "topics": [
         "industry"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 57
+      "hot_score": 32
     },
     {
-      "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
-      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
-      "source": "404 Media（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-10-29T23:49:53.582000+00:00",
-      "source_count": 3,
-      "score": 80,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 56
-    },
-    {
-      "title": "僵尸数据：AI引用的数字从何而来",
-      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
-      "source": "trakkr.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-29T19:34:40.869000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 39
-    },
-    {
-      "title": "Show HN: I Turned DOOM into a Transformer",
-      "url": "https://github.com/mottopanikeiku/doomformer",
+      "title": "Cursor Marketplace 上用于 VS Code 扩展的 Claude Code 中的后门",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-10-29T23:25:46+00:00",
+      "published_at": "2026-10-30T07:09:12+00:00",
       "source_count": 2,
       "score": 52,
-      "official": true,
-      "topics": [],
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent",
+        "coding"
+      ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 27
+      "hot_score": 29
     }
   ],
   "topics": [
@@ -99,14 +103,14 @@
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 12
+      "count": 10
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 4
+      "count": 3
     },
     {
       "slug": "qwen",
@@ -120,7 +124,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 27
+      "count": 19
     },
     {
       "slug": "coding",
@@ -134,28 +138,28 @@
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 13
+      "count": 8
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 19
+      "count": 14
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "industry",
