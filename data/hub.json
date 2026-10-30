@@ -1,9 +1,55 @@
 {
-  "generated_at": "2026-10-29T21:49:23.185544+00:00",
+  "generated_at": "2026-10-30T02:12:16.092193+00:00",
   "today": "2026-10-30",
-  "lead": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则；Granite Switch 4.1.1 — 像更新软件一样更新模型；添加到 Meta API 的 Webhook IP 范围",
+  "lead": "v0.5.23；API credits benefit for eligible ChatGPT subscriptions；OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "克劳德·杜埃特（Claude Duet）是首款让人觉得实用的“私人助理”式穿戴设备",
+      "url": "https://fig.blue/posts/duet-is-the-future",
+      "source": "fig.blue",
+      "site_id": "buzzing",
+      "published_at": "2026-10-30T00:53:45.369000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "我们在《我的世界》和《Mindustry》中运行了AI代理群",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "source": "labs.ycombinator.com",
+      "site_id": "buzzing",
+      "published_at": "2026-10-30T00:05:54.868000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
+      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
+      "source": "404 Media（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-10-29T23:49:53.582000+00:00",
+      "source_count": 3,
+      "score": 81,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 98
+    },
     {
       "title": "僵尸数据：AI引用的数字从何而来",
       "url": "https://trakkr.ai/trakkr-research/zombie-stats",
@@ -11,74 +57,26 @@
       "site_id": "buzzing",
       "published_at": "2026-10-29T19:34:40.869000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 56,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 69
     },
     {
-      "title": "Gemini 4 Carbon 荣登“人工智能分析指数 v5”榜首",
-      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-      "source": "artificialanalysis.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-29T14:03:43.780000+00:00",
-      "source_count": 3,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 63
-    },
-    {
-      "title": "格蕾丝·布莱克韦尔需要一个新的调度程序：在相同的机架上，可用GPU数量增加了27%",
-      "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
-      "source": "skypilot.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-10-29T20:06:55.729000+00:00",
+      "title": "Show HN: I Turned DOOM into a Transformer",
+      "url": "https://github.com/mottopanikeiku/doomformer",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-29T23:25:46+00:00",
       "source_count": 2,
       "score": 54,
-      "official": false,
+      "official": true,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
-    },
-    {
-      "title": "采用Claude支持的抗体设计，用于治疗食物过敏的 IgE 干扰物 [pdf]",
-      "url": "https://divergencelabs.com/publications/ige-preprint.pdf",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-29T19:25:48+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 49
-    },
-    {
-      "title": "Claude Duet 是聊天机器人交互的未来",
-      "url": "https://fig.blue/posts/duet-is-the-future",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-29T17:24:25+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 42
+      "hot_score": 48
     }
   ],
   "topics": [
@@ -94,21 +92,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 31
+      "count": 34
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 15
+      "count": 13
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "qwen",
@@ -122,7 +120,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 26
+      "count": 24
     },
     {
       "slug": "coding",
@@ -143,14 +141,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 16
+      "count": 12
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 16
+      "count": 18
     },
     {
       "slug": "paper",
