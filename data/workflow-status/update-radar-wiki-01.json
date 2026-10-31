@@ -7,11 +7,11 @@
   "groups": [
     "wiki-01"
   ],
-  "run_id": "41141590304",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41141590304",
+  "run_id": "41178810387",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41178810387",
   "conclusion": "failure",
-  "started_at": "2026-10-30T23:01:31.015254+00:00",
-  "finished_at": "2026-10-30T23:01:31.015254+00:00",
+  "started_at": "2026-10-31T07:02:47.802976+00:00",
+  "finished_at": "2026-10-31T07:02:47.802976+00:00",
   "push": {
     "attempted": false
   },
@@ -38,7 +38,7 @@
       "source_id": "wiki.fastmcp",
       "status": "failed",
       "run_kind": "incremental",
-      "error": ".agents/skills/docs/SKILL.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/jlowin/fastmcp/.agents/skills/docs/SKILL"
+      "error": ".agents/skills/adversarial-review/SKILL.md: deepwiki fetch failed with HTTP 429 for https://deepwiki.com/jlowin/fastmcp/.agents/skills/adversarial-review/SKILL"
     },
     {
       "source_id": "wiki.jarvis-registry",
