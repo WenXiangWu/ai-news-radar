@@ -1,13 +1,13 @@
 {
   "title": "2026-W44 周报",
   "dates": [
+    "2026-11-01",
     "2026-10-31",
     "2026-10-30",
     "2026-10-29",
     "2026-10-28",
     "2026-10-27",
-    "2026-10-26",
-    "2026-10-25"
+    "2026-10-26"
   ],
   "total_items": 40,
   "items": [
@@ -27,6 +27,19 @@
       "label": "官方更新"
     },
     {
+      "title": "代理提示人们：使用代理进行长期财务工作",
+      "url": "https://latent.space/p/arca",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-31T16:05:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "与学术界合作，增进对科学的理解",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "source": "OpenAI News",
@@ -37,21 +50,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.33.0rc3",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-31T07:15:45+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -164,15 +162,17 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
-      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c",
-      "source": "Latent Space",
+      "title": "v0.33.0rc3",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-31T05:00:48+00:00",
+      "published_at": "2026-10-31T07:15:45+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -315,47 +315,15 @@
       "label": "官方更新"
     },
     {
-      "title": "langgraph==1.2.19",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
-      "source": "LangGraph Releases",
+      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T22:23:43+00:00",
+      "published_at": "2026-10-31T05:00:48+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-checkpoint-sqlite==3.1.3",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.3",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-30T22:18:54+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.11",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-30T22:17:59+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -609,8 +577,38 @@
       "topics": [],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 辅助权限正式可用",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:31:30+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.33.0rc0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T17:59:24+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-31T13:39:32.427506+00:00",
+  "generated_at": "2026-10-31T18:33:12.798887+00:00",
   "period": "2026-W44"
 }
