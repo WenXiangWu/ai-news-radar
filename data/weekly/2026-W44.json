@@ -27,21 +27,6 @@
       "label": "官方更新"
     },
     {
-      "title": "nemotron-halloween",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-30T17:57:24+00:00",
-      "source_count": 1,
-      "score": 85,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
       "title": "与学术界合作，增进对科学的理解",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "source": "OpenAI News",
@@ -57,41 +42,62 @@
       "label": "官方更新"
     },
     {
-      "title": "Was I wrong about open models & cyber risks?",
-      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
-      "source": "Interconnects",
+      "title": "langgraph==1.2.19",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T17:36:56+00:00",
+      "published_at": "2026-10-30T22:23:43+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
-      "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw",
-      "source": "NVIDIA Developer Blog",
+      "title": "langgraph-checkpoint-sqlite==3.1.3",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.3",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T16:00:00+00:00",
+      "published_at": "2026-10-30T22:18:54+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
-      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
-      "source": "NVIDIA Developer Blog",
+      "title": "langgraph-sdk==0.4.11",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T15:01:36+00:00",
+      "published_at": "2026-10-30T22:17:59+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -172,7 +178,46 @@
       "label": "官方更新"
     },
     {
-      "title": "Making it easier for websites to express AI training preferences",
+      "title": "我对开放模型和网络风险的看法是否错误？",
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "source": "Interconnects",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T17:36:56+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 NVIDIA NemoClaw 在您控制的堆栈上构建专业代理",
+      "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T16:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T15:01:36+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "让网站更容易表达人工智能训练偏好",
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "source": "OpenAI News",
       "site_id": "official_ai",
@@ -202,7 +247,7 @@
       "label": "官方更新"
     },
     {
-      "title": "Community safety report and new protections for teens",
+      "title": "社区安全报告和针对青少年的新保护",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "source": "OpenAI News",
       "site_id": "official_ai",
@@ -351,6 +396,36 @@
       "topics": [
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.5.23",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23",
+      "source": "SGLang Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T00:13:59+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "符合资格的 ChatGPT 订阅的 API 积分权益",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-29T22:48:29+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -534,79 +609,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "OpenAI 和 ServiceNow 扩大跨企业工作流程的合作伙伴关系",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T13:15:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "睡眠框架：LLM在持续学习中保留知识的新方法",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
-      "source": "Google Research Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T17:35:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 辅助权限正式可用",
-      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T22:31:30+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v0.33.0rc0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0",
-      "source": "vLLM Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T17:59:24+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "webframe：被评估为刮刀和沙箱",
-      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T16:15:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-10-30T21:06:04.249126+00:00",
+  "generated_at": "2026-10-31T00:48:08.129925+00:00",
   "period": "2026-W44"
 }
