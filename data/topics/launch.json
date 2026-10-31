@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:48:08.129925+00:00",
+  "generated_at": "2026-10-31T07:00:11.834870+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
@@ -7,13 +7,47 @@
   "total_items": 10,
   "items": [
     {
+      "title": "v2.1.316",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-10-31T01:01:35+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
+      "url": "https://www.figma.com/blog/the-tldr-on-figma-weave",
+      "source": "Figma AI / Agent / Make",
+      "site_id": "aihot",
+      "published_at": "2026-10-31T00:58:00+00:00",
+      "source_count": 1,
+      "score": 73,
+      "official": false,
+      "topics": [
+        "agent",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
       "title": "langgraph==1.2.19",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
       "source": "LangGraph Releases",
       "site_id": "official_ai",
       "published_at": "2026-10-30T22:23:43+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -28,7 +62,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-30T22:18:54+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -43,7 +77,7 @@
       "site_id": "official_ai",
       "published_at": "2026-10-30T22:17:59+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -52,13 +86,29 @@
       "label": "官方更新"
     },
     {
+      "title": "上周五，iPhone Duo 发布。 @GeminiApp 在第一天就在那里，并对其进行了优化。 https://t.co/izOwYBdMf9",
+      "url": "https://x.com/joshwoodward/status/2116220878593900775",
+      "source": "Follow Builders · X · Josh Woodward",
+      "site_id": "followbuilders",
+      "published_at": "2026-10-30T17:29:09+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
       "source": "vLLM Releases",
       "site_id": "official_ai",
       "published_at": "2026-10-30T09:10:43+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -73,14 +123,13 @@
       "site_id": "aibase",
       "published_at": "2026-10-30T08:37:09.064056+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "英伟达发布语音转录大模型Nemotron 3.5 Transcribe，8 人同时抢话也能精准识别",
@@ -89,14 +138,13 @@
       "site_id": "aibase",
       "published_at": "2026-10-30T08:37:09.064056+00:00",
       "source_count": 1,
-      "score": 73,
+      "score": 72,
       "official": false,
       "topics": [
-        "launch",
-        "industry"
+        "launch"
       ],
       "reason": "",
-      "label": "行业动态"
+      "label": "值得关注"
     },
     {
       "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
@@ -105,56 +153,8 @@
       "site_id": "curated_media",
       "published_at": "2026-10-30T07:26:12+00:00",
       "source_count": 1,
-      "score": 56,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Edge0 发布 Audio8-TTS-Realistic，0.6B 语音克隆 TTS 模型",
-      "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-30T05:02:52+00:00",
-      "source_count": 1,
       "score": 55,
       "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "深兰科技联合华为发布全球首款大模型智能体工作手机Wowoker",
-      "url": "https://www.aibase.com/news/31970",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-30T01:57:20.016918+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "v2.1.314",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-10-30T01:06:26+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
       "topics": [
         "anthropic",
         "agent",
