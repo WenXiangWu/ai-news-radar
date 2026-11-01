@@ -1,9 +1,37 @@
 {
-  "generated_at": "2026-11-01T02:19:28.991849+00:00",
+  "generated_at": "2026-11-01T09:24:12.976954+00:00",
   "today": "2026-11-01",
-  "lead": "datasette-llm 0.1a9；How We Took Over ChatGPT Accounts；代理提示人们：使用代理进行长期财务工作",
+  "lead": "How We Took Over ChatGPT Accounts；datasette-llm 0.1a9；代理提示人们：使用代理进行长期财务工作",
   "brief_count": 20,
   "hot_preview": [
+    {
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-01T06:06:19+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 46
+    },
+    {
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-01T02:19:53+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 33
+    },
     {
       "title": "AI text watermarking and quality loss",
       "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
@@ -11,12 +39,30 @@
       "site_id": "iris",
       "published_at": "2026-10-31T21:50:13+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 41
+      "hot_score": 23
+    },
+    {
+      "title": "ChatGPT and Codex usage limits merging",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-10-31T21:49:07+00:00",
+      "source_count": 2,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 23
     },
     {
       "title": "Anthropic 阻止用户进行任何涉及训练更大模型的事情",
@@ -25,60 +71,14 @@
       "site_id": "iris",
       "published_at": "2026-10-31T19:39:19+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": false,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 34
-    },
-    {
-      "title": "算一算：我们是如何接管 ChatGPT 帐户的",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-31T10:30:11+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 32
-    },
-    {
-      "title": "GPT-5.6 Sol 可以在和平模式下击败异星工厂",
-      "url": "https://ryanmadden.net/gpt-56-beats-factorio",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-31T18:50:34+00:00",
-      "source_count": 2,
-      "score": 53,
-      "official": false,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 32
-    },
-    {
-      "title": "恶意软件利用LLM根据受害者的价值对受害者进行排名",
-      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-31T14:29:03+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 22
+      "hot_score": 19
     }
   ],
   "topics": [
@@ -94,21 +94,21 @@
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 20
+      "count": 18
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 2
+      "count": 7
     },
     {
       "slug": "qwen",
@@ -122,7 +122,7 @@
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 8
+      "count": 12
     },
     {
       "slug": "coding",
@@ -143,14 +143,14 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 1
+      "count": 6
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 3
+      "count": 2
     },
     {
       "slug": "paper",
@@ -164,7 +164,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 6
+      "count": 8
     }
   ],
   "days": [
