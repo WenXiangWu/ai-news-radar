@@ -7,20 +7,20 @@
   "groups": [
     "docs-05"
   ],
-  "run_id": "41285300479",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41285300479",
+  "run_id": "41359122959",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41359122959",
   "conclusion": "failure",
-  "started_at": "2026-11-01T08:01:31.275863+00:00",
-  "finished_at": "2026-11-01T08:01:31.275863+00:00",
+  "started_at": "2026-11-01T23:27:24.184978+00:00",
+  "finished_at": "2026-11-01T23:27:24.184978+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.milvus",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://github.com/zilliztech/attu: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.neo4j-graphrag",
@@ -38,13 +38,13 @@
       "source_id": "docs.openai-agents-sdk",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/openai/openai-agents-python/git/trees/main"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.opencode-sdk",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/anomalyco/opencode/git/trees/dev"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.opik",
