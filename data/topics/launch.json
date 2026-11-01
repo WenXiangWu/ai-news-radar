@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-11-01T09:24:12.976954+00:00",
+  "generated_at": "2026-11-01T16:03:03.684862+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 2,
+  "total_items": 3,
   "items": [
+    {
+      "title": "v0.33.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-01T09:21:10+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "翻完 DeepSeek 的 GitHub 仓库，我发现 V5 的发布路已经修好了",
       "url": "https://juejin.cn/post/7701710876097314859",
@@ -13,7 +28,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-31T22:07:09.966000+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 48,
       "official": false,
       "topics": [
         "deepseek",
@@ -29,7 +44,7 @@
       "site_id": "zeli",
       "published_at": "2026-10-31T17:21:16+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "launch"

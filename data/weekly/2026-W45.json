@@ -1,0 +1,616 @@
+{
+  "title": "2026-W45 周报",
+  "dates": [
+    "2026-11-02",
+    "2026-11-01",
+    "2026-10-31",
+    "2026-10-30",
+    "2026-10-29",
+    "2026-10-28",
+    "2026-10-27"
+  ],
+  "total_items": 40,
+  "items": [
+    {
+      "title": "Nvidia Nemotron 3.5 Transcribe：支持 40 种语言的开源语音识别（ASR）",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T22:56:46.012000+00:00",
+      "source_count": 3,
+      "score": 87,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "与学术界合作，增进对科学的理解",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:44:27.036000+00:00",
+      "source_count": 3,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "我们如何接管 ChatGPT 帐户",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-11-01T15:41:41+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.33.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-01T09:21:10+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.33.0rc3",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-31T07:15:45+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T09:10:43+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-29T05:55:19+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.33.0rc1：[CI] 修复 DGX Spark 上过时的 NVFP4 解码测试选择器 (#64107)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T09:31:23+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Legora正在构建法律工作代理操作系统",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Anthropic 结束编码采访：“饥饿战胜了终身教职”",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T08:50:30+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
+      "url": "https://latent.space/p/ainews-anthropic-s1",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T07:24:59+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "【AINews】构建AIE CODE：顶级编码代理大会",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T08:24:29+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-31T22:10:01+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-31T05:00:48+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 支持服务器到服务器身份验证",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T21:36:55+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 如何用Claude运送Claude：将大脑与双手分开",
+      "url": "https://latent.space/p/opus55",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T18:53:10+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Anthropic 如何安全地运送世界排名第一的LLM：将大脑与双手分离",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T18:40:19+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 LFM3 构建专门的多模式模型",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T17:16:52+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "我们可以信任LLM来判断一个研究想法是否新颖吗？",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-27T16:12:42+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T23:53:07+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T22:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-26T19:15:53+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph==1.2.19",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T22:23:43+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-checkpoint-sqlite==3.1.3",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.3",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T22:18:54+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.11",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T22:17:59+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T15:01:36+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.5.23",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23",
+      "source": "SGLang Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T00:13:59+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "符合资格的 ChatGPT 订阅的 API 积分权益",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-10-29T22:48:29+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "为什么代理商喜欢 Supabase",
+      "url": "https://latent.space/p/supabase",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T19:48:05+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T17:00:58+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "google",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "在 Foundry Agent Service 中引入 Microsoft Copilot 工具",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry",
+      "source": "Azure AI Foundry Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T16:45:06+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 GitHub Copilot Fusion 路由和编排模型",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T16:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 应用程序、Universe 发布",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:55:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Enterprise 现在包含对 GitHub Copilot 的访问",
+      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:50:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 应用程序的安全扩展",
+      "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:45:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub 智能让您的代码、上下文和历史记录发挥作用",
+      "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:40:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 Copilot Automations 为您的团队构建共享工作流程",
+      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:35:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "VS Code 中的 GitHub Copilot、Universe 版本",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:33:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "直接在 Copilot 中生成和编辑图像",
+      "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:30:55+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    }
+  ],
+  "generated_at": "2026-11-01T16:03:03.684862+00:00",
+  "period": "2026-W45"
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:24:12.976954+00:00",
+  "generated_at": "2026-11-01T16:03:03.684862+00:00",
   "slug": "coding",
   "label": "AI 编码",
   "group": "tech",
@@ -7,17 +7,88 @@
   "total_items": 7,
   "items": [
     {
+      "title": "ChatGPT 和 Codex 的使用限制将合并",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "source": "help.openai.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-01T12:27:13.631000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "DeepSeek 开源 Super-Agent，一种读取团队聊天记录的编码代理",
+      "url": "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-11-01T11:13:57+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "agent",
+        "coding",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Codex Co²：AI 时代的结对编程，应该是怎样的？",
       "url": "https://juejin.cn/post/7702592913591517203",
       "source": "juejin",
       "site_id": "newsnow",
       "published_at": "2026-11-01T09:14:48.657000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "agent",
         "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek 推出先进编码代理以与 Claude Code 竞争",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-11-01T09:07:49+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "deepseek",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "DeepSeek 开源 dsh-superagent，一个 Router-Worker 编码代理",
+      "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-11-01T07:47:17+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": true,
+      "topics": [
+        "deepseek",
+        "agent",
+        "coding",
+        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
@@ -29,27 +100,10 @@
       "site_id": "techurls",
       "published_at": "2026-11-01T00:00:14+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "ChatGPT and Codex usage limits merging",
-      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-31T21:49:07+00:00",
-      "source_count": 2,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
         "coding"
       ],
       "reason": "",
@@ -62,53 +116,7 @@
       "site_id": "newsnow",
       "published_at": "2026-10-31T18:06:14.095000+00:00",
       "source_count": 1,
-      "score": 49,
-      "official": false,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GitHub Copilot Fusion",
-      "url": "https://www.producthunt.com/products/github-copilot-fusion",
-      "source": "producthunt",
-      "site_id": "newsnow",
-      "published_at": "2026-10-31T13:39:13.834000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 否认因被篡改的 Claude 代码扩展攻击 Cursor 用户而造成违规",
-      "url": "https://thenextweb.com/news/tampered-claude-code-extension-cursor-ssh-backdoor",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-31T11:27:53+00:00",
-      "source_count": 1,
       "score": 47,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "认识 Factory Droid 1.0：基于脚本模式构建的独立于模型的编码代理工具",
-      "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-31T10:38:14+00:00",
-      "source_count": 1,
-      "score": 54,
       "official": false,
       "topics": [
         "coding"
