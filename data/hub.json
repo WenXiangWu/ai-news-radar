@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:43:28.576239+00:00",
+  "generated_at": "2026-11-02T07:40:56.080349+00:00",
   "today": "2026-11-02",
   "lead": "v0.33.0；OpenAI 可能会将其数据中心重新命名为“AI 计算园区”；OpenAI 即将在 ChatGPT 中进行聊天与工作合并，这标志着随心所欲定价模式的结束",
   "brief_count": 20,
@@ -11,12 +11,12 @@
       "site_id": "buzzing",
       "published_at": "2026-11-02T00:37:42.544000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 67
     },
     {
       "title": "《我的世界》中的AI智能体群落未能建立文明，反而在官僚主义中陷入泥潭",
@@ -25,7 +25,7 @@
       "site_id": "buzzing",
       "published_at": "2026-11-01T17:59:39.145000+00:00",
       "source_count": 3,
-      "score": 55,
+      "score": 54,
       "official": false,
       "topics": [
         "agent",
@@ -33,7 +33,21 @@
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 68
+      "hot_score": 38
+    },
+    {
+      "title": "充满错误的人工智能粉丝维基正在搅乱游戏文化的水域",
+      "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-02T01:47:07+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 37
     },
     {
       "title": "让质子的电荷发生反转的并不是人工智能",
@@ -42,26 +56,12 @@
       "site_id": "buzzing",
       "published_at": "2026-11-01T21:11:57.459000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 45
-    },
-    {
-      "title": "JavaScript 框架的 AI 成本",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
-      "source": "nolanlawson.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-01T12:27:13.785000+00:00",
-      "source_count": 3,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 43
+      "hot_score": 25
     },
     {
       "title": "我们接管了 ChatGPT 帐户",
@@ -70,14 +70,14 @@
       "site_id": "iris",
       "published_at": "2026-11-01T15:41:41+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": false,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 28
+      "hot_score": 16
     }
   ],
   "topics": [
@@ -86,84 +86,84 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 12
+      "count": 20
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 18
+      "count": 22
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 13
+      "count": 19
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 7
     },
     {
       "slug": "mcp",
       "label": "MCP 与工具",
       "group": "tech",
       "blurb": "MCP、function calling、工具链",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "opensource",
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 7
+      "count": 6
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 1
+      "count": 3
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "industry",
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 9
+      "count": 26
     }
   ],
   "days": [
