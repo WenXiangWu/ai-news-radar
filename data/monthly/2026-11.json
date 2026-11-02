@@ -1,11 +1,111 @@
 {
   "title": "2026-11 月报",
   "dates": [
+    "2026-11-03",
     "2026-11-02",
     "2026-11-01"
   ],
-  "total_items": 39,
+  "total_items": 40,
   "items": [
+    {
+      "title": "使用 NVIDIA Cosmos 构建用于交互式模拟的世界模型",
+      "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T17:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "我们于 2026 年 10 月公布的最新 AI 新闻",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T17:45:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "安全风险评估包括代码仓库保护状态",
+      "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T15:47:21+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "pull_request_target 默认被阻止 12 月 2 日",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T15:14:46+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "电网保护者计划简介",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T15:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T09:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "v0.33.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "source": "vLLM Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T10:11:34+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "How We Took Over ChatGPT Accounts",
       "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
@@ -63,6 +163,51 @@
       "label": "官方更新"
     },
     {
+      "title": "OpenAI 最终合并 ChatGPT 的聊天和工作选项卡",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-11-02T13:57:53+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 收入增长 12 倍，但亏损 230 亿美元",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-11-02T16:26:03+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 为华盛顿中期选举准备游说闪电战",
+      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-11-02T10:47:59+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 的水印推出给两个旧的 Claude 模型留下了漏洞",
       "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
       "source": "The Decoder AI News",
@@ -78,11 +223,11 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 可能会将其数据中心重新命名为“AI 计算园区”",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "source": "TechCrunch AI",
+      "title": "OpenAI 即将在 ChatGPT 中进行聊天与工作合并，这标志着随心所欲定价模式的结束",
+      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing",
+      "source": "The Decoder AI News",
       "site_id": "curated_media",
-      "published_at": "2026-11-01T21:55:23+00:00",
+      "published_at": "2026-11-01T09:51:06+00:00",
       "source_count": 1,
       "score": 61,
       "official": true,
@@ -93,13 +238,13 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI 即将在 ChatGPT 中进行聊天与工作合并，这标志着随心所欲定价模式的结束",
-      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing",
-      "source": "The Decoder AI News",
+      "title": "OpenAI 将数据中心发电厂作为保护附近地区的一种方式",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "source": "The Verge",
       "site_id": "curated_media",
-      "published_at": "2026-11-01T09:51:06+00:00",
+      "published_at": "2026-11-02T18:01:30+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 60,
       "official": true,
       "topics": [
         "openai"
@@ -154,6 +299,50 @@
       "label": "值得关注"
     },
     {
+      "title": "OpenAI 可能会将其数据中心重新命名为“AI 计算园区”",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-11-01T21:55:23+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "第一天就让 Kubernetes 为 NVIDIA Vera Rubin 做好 AI 准备",
+      "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one",
+      "source": "NVIDIA Generative AI Blog",
+      "site_id": "opmlrss",
+      "published_at": "2026-11-02T18:00:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 融资有困难吗？",
+      "url": "https://aibreakfast.beehiiv.com/p/is-openai-having-trouble-raising-money",
+      "source": "AI Breakfast",
+      "site_id": "aibreakfast",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "source_count": 1,
+      "score": 58,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "谷歌希望视频人工智能能够了解人们工作时的需求",
       "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help",
       "source": "The Decoder AI News",
@@ -177,6 +366,23 @@
       "official": true,
       "topics": [
         "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "NVIDIA 发布 Auto Ontology：支持 AI Agent SQL 的开放语义层",
+      "url": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents",
+      "source": "MarkTechPost Research",
+      "site_id": "curated_media",
+      "published_at": "2026-11-02T07:47:12+00:00",
+      "source_count": 1,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "agent",
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "值得关注"
@@ -223,6 +429,82 @@
         "agent",
         "coding",
         "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 内部人工智能的使用（按零售价计算）现已超过其员工工资",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-02T16:40:29+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic在修订后的S-1文件中报告第三季度营收为170亿美元，承诺金额达8950亿美元",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "source": "www.cnbc.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-02T16:16:00.368000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-Rosalind-6 System Card Addendum",
+      "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-02T14:44:02+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "失业的科技工人被排除在旧金山的人工智能热潮之外",
+      "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-02T14:40:05+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Gemini可能会翻阅你的电子邮件 - 以下是阻止它的方法",
+      "url": "https://www.engadget.com/2300353/google-gemini-poking-through-email-how-to-stop",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-11-02T17:15:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "google"
       ],
       "reason": "",
       "label": "值得关注"
@@ -318,269 +600,8 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "为什么 Anthropic 的文件会压垮科技股",
-      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-10-31T12:32:10+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "微软人工智能负责人表示人工智能没有意识，我们应该保持这种状态",
-      "url": "https://www.businessinsider.com/mustafa-suleyman-microsoft-ai-consciousness-2026-11",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T19:45:17+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌正在为 NASA 打造机器人医生，用于未来的深空任务",
-      "url": "https://www.techradar.com/pro/google-is-building-nasa-a-robot-doctor-for-use-on-future-deep-space-missions",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T19:35:00+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 承诺购买谷歌 AI 芯片，这是其摆脱完全依赖 Nvidia 的第一步",
-      "url": "https://www.techradar.com/pro/openai-pledges-to-buy-google-ai-chips-in-its-first-move-away-from-depending-solely-on-nvidia",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T18:20:00+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 添加了新的Claude规则，禁止重新制作现有游戏",
-      "url": "https://www.dexerto.com/gaming/anthropic-adds-new-claude-rule-banning-recreations-of-existing-games-3423516",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-11-01T17:36:08+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "我就是 OpenAI 杀死无限聊天的原因",
-      "url": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-11-01T17:01:34+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 从 11 月 3 日开始将文本水印扩展到较旧的 Claude 版本",
-      "url": "https://mashable.com/tech/anthropic-expands-text-watermarking-to-older-claude-versions",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T16:59:47+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "涉嫌神话级Anthropic检查点泄漏",
-      "url": "https://huggingface.co/burner22/numbat",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-11-01T16:43:36+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 采取措施阻止Claude对视频游戏进行逆向工程",
-      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-10-31T21:07:58+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "二十名众议院民主党人就解雇安全研究人员向 OpenAI 施压",
-      "url": "https://thenextweb.com/news/openai-whistleblowers-house-democrats-casar-letter",
-      "source": "The Next Web",
-      "site_id": "techurls",
-      "published_at": "2026-10-31T20:55:45+00:00",
-      "source_count": 1,
-      "score": 49,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "'AI is not creating the problem': OpenAI CEO Sam Altman says AI is merely uncovering all the vulnerabilities we've accumulated over the years",
-      "url": "https://www.techradar.com/pro/security/ai-is-not-creating-the-problem-openai-ceo-sam-altman-says-ai-is-merely-uncovering-all-the-vulnerabilities-weve-accumulated-over-the-years",
-      "source": "TechRadar",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T16:05:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "在人工智能禁令中，微软和 OpenAI 为孩子们计划了一个“欢乐”的人工智能时光",
-      "url": "https://news.slashdot.org/story/26/11/01/0211213/amid-ai-bans-microsoft-and-openai-plan-a-joyful-hour-of-ai-for-kids",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T15:34:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "patchy631 / 人工智能工程中心",
-      "url": "https://github.com/patchy631/ai-engineering-hub",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-11-01T15:33:00.053000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 内部人工智能的使用（按零售价计算）现已超过其员工工资",
-      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-      "source": "Business Insider",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T15:00:01+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "谷歌的人工智能概述降低了 Reddit 的流量。其股价下跌 29%",
-      "url": "https://tech.slashdot.org/story/26/10/31/0458218/googles-ai-overviews-lowered-reddits-traffic-its-stock-dropped-29",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-10-31T15:50:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 命令人工智能工具 Claude 停止重新制作视频游戏",
-      "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-10-31T14:41:44+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GitHub Copilot Fusion",
-      "url": "https://www.producthunt.com/products/github-copilot-fusion",
-      "source": "producthunt",
-      "site_id": "newsnow",
-      "published_at": "2026-10-31T13:39:13.834000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Orkas-AI /      Orkas",
-      "url": "https://github.com/Orkas-AI/Orkas",
-      "source": "github",
-      "site_id": "newsnow",
-      "published_at": "2026-10-31T13:28:15.789000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注"
     }
   ],
-  "generated_at": "2026-11-02T07:40:56.080349+00:00",
+  "generated_at": "2026-11-02T18:20:41.589341+00:00",
   "period": "2026-11"
 }

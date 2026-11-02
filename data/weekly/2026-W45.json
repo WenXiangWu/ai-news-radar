@@ -1,13 +1,13 @@
 {
   "title": "2026-W45 周报",
   "dates": [
+    "2026-11-03",
     "2026-11-02",
     "2026-11-01",
     "2026-10-31",
     "2026-10-30",
     "2026-10-29",
-    "2026-10-28",
-    "2026-10-27"
+    "2026-10-28"
   ],
   "total_items": 40,
   "items": [
@@ -27,13 +27,67 @@
       "label": "官方更新"
     },
     {
-      "title": "与学术界合作，增进对科学的理解",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "title": "使用 NVIDIA Cosmos 构建用于交互式模拟的世界模型",
+      "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T17:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "我们于 2026 年 10 月公布的最新 AI 新闻",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "source": "Google AI Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T17:45:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "安全风险评估包括代码仓库保护状态",
+      "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T15:47:21+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "pull_request_target 默认被阻止 12 月 2 日",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T15:14:46+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "电网保护者计划简介",
+      "url": "https://openai.com/index/grid-protectors-program",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-26T22:44:27.036000+00:00",
-      "source_count": 3,
-      "score": 85,
+      "published_at": "2026-11-02T15:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
         "openai"
@@ -42,16 +96,16 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.33.0rc3",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-      "source": "vLLM Releases",
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-31T07:15:45+00:00",
+      "published_at": "2026-11-02T09:00:00+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "launch"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -133,16 +187,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
-      "url": "https://latent.space/p/ainews-anthropic-s1",
-      "source": "Latent Space",
+      "title": "v0.33.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "source": "vLLM Releases",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T07:24:59+00:00",
+      "published_at": "2026-11-02T10:11:34+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
-        "anthropic"
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
@@ -290,54 +344,6 @@
       "official": true,
       "topics": [
         "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Terra",
-      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T23:53:07+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T22:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GPT-6.1 Terra in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-26T19:15:53+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai",
-        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -592,23 +598,8 @@
       ],
       "reason": "",
       "label": "官方更新"
-    },
-    {
-      "title": "直接在 Copilot 中生成和编辑图像",
-      "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:30:55+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-11-02T07:40:56.080349+00:00",
+  "generated_at": "2026-11-02T18:20:41.589341+00:00",
   "period": "2026-W45"
 }
