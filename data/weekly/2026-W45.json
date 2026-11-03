@@ -1,13 +1,13 @@
 {
   "title": "2026-W45 周报",
   "dates": [
+    "2026-11-04",
     "2026-11-03",
     "2026-11-02",
     "2026-11-01",
     "2026-10-31",
     "2026-10-30",
-    "2026-10-29",
-    "2026-10-28"
+    "2026-10-29"
   ],
   "total_items": 40,
   "items": [
@@ -27,18 +27,88 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
-      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of",
-      "source": "Latent Space",
+      "title": "StateBench：测试语言模型如何跟踪长文档的状态变化",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-11-03T05:35:00+00:00",
+      "published_at": "2026-11-03T17:15:21+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Palette：教一个小模型用你的设计语言构建牌组",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T16:35:36+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 现已在 JetBrains Air 中可用",
+      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T15:11:46+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 Google Antigravity 进行代理化学信息学",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "source": "Google DeepMind",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T17:01:49+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
       "topics": [
-        "opensource",
-        "launch"
+        "google"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 GitHub REST API 查找资源的成本中心",
+      "url": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T15:27:13+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "CodeQL 2.27.3 添加了 Python 3.15 功能和 JSON 数据扩展",
+      "url": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T14:56:03+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -53,21 +123,6 @@
       "official": true,
       "topics": [
         "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Transformers Model Integration Contracts",
-      "url": "https://huggingface.co/blog/transformers-mic",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-03T00:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -103,28 +158,26 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.33.0rc1：[CI] 修复 DGX Spark 上过时的 NVFP4 解码测试选择器 (#64107)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
-      "source": "vLLM Releases",
+      "title": "Dependabot 现在支持 Python 3.15",
+      "url": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T09:31:23+00:00",
+      "published_at": "2026-11-03T13:49:32+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
-      "topics": [
-        "launch"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Legora正在构建法律工作代理操作系统",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "title": "Heimstaden 正在利用人工智能改变住宅房地产管理",
+      "url": "https://openai.com/index/heimstaden",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T09:30:00+00:00",
+      "published_at": "2026-11-03T08:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "openai"
@@ -133,31 +186,17 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Anthropic 结束编码采访：“饥饿战胜了终身教职”",
-      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
-      "source": "Latent Space",
+      "title": "Transformers 模型集成合约",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T08:50:30+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "llm 0.37",
-      "url": "https://simonwillison.net/2026/Nov/2/llm",
-      "source": "Simon Willison",
-      "site_id": "official_ai",
-      "published_at": "2026-11-02T23:49:30+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -206,11 +245,11 @@
       "label": "官方更新"
     },
     {
-      "title": "为律师构建人工智能 - Jacob Lauritzen，Legora 首席技术官",
-      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora",
-      "source": "Latent Space",
+      "title": "GitHub Desktop 添加了短期身份验证令牌",
+      "url": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-11-02T23:01:02+00:00",
+      "published_at": "2026-11-03T07:55:58+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
@@ -219,44 +258,32 @@
       "label": "官方更新"
     },
     {
-      "title": "当你看不到数据时建立法律代理 - Jacob Lauritzen，Legora 首席技术官",
-      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora",
+      "title": "[AINews] LLM可以读写神经网络权重：“权重空间编程”将 Autoresearch 排除在 RSI 循环之外",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of",
       "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-11-02T22:54:03+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-11-02T18:00:00+00:00",
+      "published_at": "2026-11-03T05:35:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "openai"
+        "opensource",
+        "launch"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "source": "OpenAI News",
+      "title": "CWE-bench v2：更大的覆盖范围、质量和透明度",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-11-02T18:00:00+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "openai"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -290,77 +317,15 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot 支持服务器到服务器身份验证",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "source": "GitHub Changelog",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-10-27T21:36:55+00:00",
+      "published_at": "2026-11-02T23:49:30+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 如何用Claude运送Claude：将大脑与双手分开",
-      "url": "https://latent.space/p/opus55",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:53:10+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Anthropic 如何安全地运送世界排名第一的LLM：将大脑与双手分离",
-      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T18:40:19+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 LFM3 构建专门的多模式模型",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T17:16:52+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "我们可以信任LLM来判断一个研究想法是否新颖吗？",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-27T16:12:42+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -598,8 +563,36 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot 应用程序的安全扩展",
+      "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:45:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub 智能让您的代码、上下文和历史记录发挥作用",
+      "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-28T15:40:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-11-03T09:43:59.641673+00:00",
+  "generated_at": "2026-11-03T17:51:39.166516+00:00",
   "period": "2026-W45"
 }

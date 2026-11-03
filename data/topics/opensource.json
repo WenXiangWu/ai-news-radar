@@ -1,11 +1,90 @@
 {
-  "generated_at": "2026-11-03T09:43:59.641673+00:00",
+  "generated_at": "2026-11-03T17:51:39.166516+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 7,
+  "total_items": 11,
   "items": [
+    {
+      "title": "StateBench：测试语言模型如何跟踪长文档的状态变化",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T17:15:21+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Palette：教一个小模型用你的设计语言构建牌组",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T16:35:36+00:00",
+      "source_count": 1,
+      "score": 86,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "麻省理工学院研究人员使用 GPT-6 Astra 直接编辑 Qwen 的开放权重，提高数学成绩",
+      "url": "https://science.slashdot.org/story/26/11/03/0537252/mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-scores",
+      "source": "Slashdot",
+      "site_id": "techurls",
+      "published_at": "2026-11-03T16:00:00+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": true,
+      "topics": [
+        "openai",
+        "qwen",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Octomind – 开源 AI 工具，可保存您的代币、静态 Rust",
+      "url": "https://github.com/Muvon/octomind",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-11-03T15:02:58+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "大型语言模型在解读和生成神经网络权重方面并不具备超人般的 ability",
+      "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights",
+      "source": "www.seangoedecke.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-03T14:51:07.144000+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "8GB显存也能玩转128K超长上下文！开源本地大模型工具Strata 0.2. 10 发布",
       "url": "https://www.aibase.com/news/32047",
@@ -13,7 +92,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-03T09:29:59.404569+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -30,7 +109,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-03T09:29:59.404569+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "qwen",
@@ -41,13 +120,13 @@
       "label": "行业动态"
     },
     {
-      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "title": "[AINews] LLM可以读写神经网络权重：“权重空间编程”将 Autoresearch 排除在 RSI 循环之外",
       "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-11-03T05:35:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource",
@@ -57,13 +136,13 @@
       "label": "官方更新"
     },
     {
-      "title": "Transformers Model Integration Contracts",
+      "title": "Transformers 模型集成合约",
       "url": "https://huggingface.co/blog/transformers-mic",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-11-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
         "opensource"
@@ -72,20 +151,19 @@
       "label": "官方更新"
     },
     {
-      "title": "LLM在读写神经网络权重方面并不是超人",
-      "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-11-02T22:26:53+00:00",
+      "title": "CWE-bench v2：更大的覆盖范围、质量和透明度",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T00:00:00+00:00",
       "source_count": 1,
-      "score": 49,
-      "official": false,
+      "score": 82,
+      "official": true,
       "topics": [
-        "opensource",
-        "launch"
+        "opensource"
       ],
       "reason": "",
-      "label": "值得关注"
+      "label": "官方更新"
     },
     {
       "title": "Researchers say LLMs can be good at natively reading and writing neural network weights; GPT-6 Astra edited Qwen3.5-0.8B's weights to make it better at math (Rikiya Takehi)",
@@ -94,7 +172,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T20:00:53+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",
@@ -103,22 +181,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "六步实现音视频联合生成！Pika基于MiniMax H3 重磅开源Pika H3 Flex",
-      "url": "https://www.aibase.com/news/32024",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-02T17:19:33.074525+00:00",
-      "source_count": 1,
-      "score": 73,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }
