@@ -1,11 +1,257 @@
 {
-  "generated_at": "2026-11-02T18:20:41.589341+00:00",
+  "generated_at": "2026-11-03T01:35:54.402933+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 23,
+  "total_items": 35,
   "items": [
+    {
+      "title": "Anthropic修订S-1文件:AI可能很快达到递归式自我改进阈值",
+      "url": "https://www.aibase.com/news/32029",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-03T01:34:13.472383+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "​从 2 万亿到 1.5 万亿：Anthropic 上市前夜，公开市场给 AI 泼了盆冷水",
+      "url": "https://www.aibase.com/news/32030",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-03T01:34:13.472383+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.317",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-11-03T01:25:46+00:00",
+      "source_count": 1,
+      "score": 64,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "美国证券交易委员会应阻止Anthropic的首次公开募股，以保护公众利益",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+      "source": "www.techpolicy.press",
+      "site_id": "buzzing",
+      "published_at": "2026-11-03T00:13:47.603000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Anthropic 的增长势头刚刚趋于平缓",
+      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+      "source": "www.regenerator1.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-02T23:57:43.658000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Anthropic S-1 claims it may \"imminently meet\" its RSI threshold and may fail to identify \"significant acceleration\" in its development until after it's occurred (Julie Bort/TechCrunch)",
+      "url": "https://www.techmeme.com/261102/p44",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-11-02T23:05:00+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 警告说，它非常接近 RSI 能力，即自我构建人工智能",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-11-02T22:14:50+00:00",
+      "source_count": 1,
+      "score": 63,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Sources: institutional investors told Anthropic that its IPO valuation should be around $1.5T to $1.6T, down from estimates of $2T, citing a tech stock selloff (Wall Street Journal)",
+      "url": "https://www.techmeme.com/261102/p42",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-11-02T22:10:01+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Claude的新人工智能成绩单工具让公司可以更仔细地了解成本，并标记“效率低下”",
+      "url": "https://www.businessinsider.com/anthropic-claude-smart-reports-ai-usage-costs-inefficiences-2026-11",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-11-02T21:15:27+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 的消息线程让 Claude 代理跳过重新发送聊天",
+      "url": "https://thenextweb.com/news/anthropic-message-threads-beta-claude-api-agents",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-11-02T20:14:25+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 的巨额薪酬方案使该公司每位员工每月花费超过 10 万美元",
+      "url": "https://www.businessinsider.com/anthropic-ipo-filing-q3-personnel-costs-2026-11",
+      "source": "Business Insider",
+      "site_id": "techurls",
+      "published_at": "2026-11-02T19:59:06+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 在 IPO 前透露了 900B 美元的人工智能支出承诺",
+      "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-11-02T19:36:37+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "失业的科技工作者被排除在旧金山的人工智能热潮之外",
+      "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "source": "www.bloomberg.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-02T19:10:58.920000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "openai",
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "人类对Claude的人工智能视频游戏克隆进行了取缔",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-11-02T18:56:02+00:00",
+      "source_count": 1,
+      "score": 60,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic公司内部的人工智能使用成本（按零售价计算）现已超过其员工薪资总额",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "source": "www.businessinsider.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-02T18:22:40.125000+00:00",
+      "source_count": 3,
+      "score": 55,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "多源热议"
+    },
+    {
+      "title": "Anthropic 的支出承诺激增至近 $900B",
+      "url": "https://www.axios.com/2026/11/02/anthropic-spending-revenue-surge",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-11-02T18:15:01+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Claude反对游戏克隆的新规则不会阻止人工智能复制热潮",
       "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
@@ -13,7 +259,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T18:05:31+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -28,7 +274,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T17:32:05+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "openai",
@@ -44,7 +290,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T17:05:05+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -61,22 +307,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T16:58:14+00:00",
       "source_count": 1,
-      "score": 52,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 内部人工智能的使用（按零售价计算）现已超过其员工工资",
-      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-11-02T16:40:29+00:00",
-      "source_count": 2,
-      "score": 54,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -91,7 +322,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T16:35:00+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -106,7 +337,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-02T16:26:03+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
       "official": true,
       "topics": [
         "anthropic"
@@ -121,7 +352,7 @@
       "site_id": "iris",
       "published_at": "2026-11-02T16:25:33+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -136,7 +367,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T16:21:52+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -151,7 +382,7 @@
       "site_id": "buzzing",
       "published_at": "2026-11-02T16:16:00.368000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 52,
       "official": true,
       "topics": [
         "anthropic"
@@ -166,7 +397,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T15:48:38+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -181,7 +412,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T15:43:47+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -196,7 +427,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T15:20:25+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic"
@@ -211,7 +442,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T15:08:36+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "anthropic"
@@ -226,25 +457,9 @@
       "site_id": "techurls",
       "published_at": "2026-11-02T14:46:05+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "失业的科技工人被排除在旧金山的人工智能热潮之外",
-      "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
-      "source": "Hacker News (黑客新闻)",
-      "site_id": "iris",
-      "published_at": "2026-11-02T14:40:05+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": true,
-      "topics": [
-        "openai",
         "anthropic"
       ],
       "reason": "",
@@ -257,7 +472,7 @@
       "site_id": "hackernews",
       "published_at": "2026-11-02T13:13:48+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "anthropic"
@@ -272,7 +487,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-02T07:39:52.068720+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -288,7 +503,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-02T07:39:52.068720+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -305,7 +520,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-02T07:39:52.068720+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 73,
       "official": false,
       "topics": [
         "openai",
@@ -321,36 +536,6 @@
       "source": "TechRadar",
       "site_id": "techurls",
       "published_at": "2026-11-02T02:15:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "凭借价值 20 美元的电子学位成为 Claude 高级用户",
-      "url": "https://mashable.com/tech/nov-1-claude-ai-professional-e-degree",
-      "source": "Mashable",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T22:00:00+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 更新了 Claude，以阻止其重新创建现有的视频游戏",
-      "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games",
-      "source": "Engadget",
-      "site_id": "techurls",
-      "published_at": "2026-11-01T21:08:32+00:00",
       "source_count": 1,
       "score": 47,
       "official": true,
