@@ -1,46 +1,75 @@
 {
-  "generated_at": "2026-11-03T01:35:54.402933+00:00",
+  "generated_at": "2026-11-03T09:43:59.641673+00:00",
   "date": "2026-11-03",
   "timezone": "Asia/Shanghai",
-  "lead": "llm 0.37；为律师构建人工智能 - Jacob Lauritzen，Legora 首席技术官；当你看不到数据时建立法律代理 - Jacob Lauritzen，Legora 首席技术官",
+  "lead": "OpenAI 中的 Git 扩展；[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop；Transformers Model Integration Contracts",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
     {
-      "title": "美国证券交易委员会应阻止Anthropic的首次公开募股，以保护公众利益",
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
-      "source": "www.techpolicy.press",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T00:13:47.603000+00:00",
-      "source_count": 3,
-      "score": 57,
+      "title": "OpenAI 中的 Git 扩展",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T04:44:37.385000+00:00",
+      "source_count": 2,
+      "score": 84,
       "official": true,
       "topics": [
-        "anthropic",
-        "industry"
+        "openai"
       ],
       "reason": "",
-      "label": "多源热议",
-      "hot_score": 100
-    },
-    {
-      "title": "Anthropic 的增长势头刚刚趋于平缓",
-      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-      "source": "www.regenerator1.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-02T23:57:43.658000+00:00",
-      "source_count": 3,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 100
+      "label": "官方更新",
+      "hot_score": 40
     }
   ],
   "items": [
+    {
+      "title": "OpenAI 中的 Git 扩展",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T04:44:37.385000+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T05:35:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
     {
       "title": "llm 0.37",
       "url": "https://simonwillison.net/2026/Nov/2/llm",
@@ -48,7 +77,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-02T23:49:30+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
@@ -61,7 +90,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-02T23:01:02+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
@@ -74,33 +103,20 @@
       "site_id": "official_ai",
       "published_at": "2026-11-02T22:54:03+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "使用 NVIDIA Cosmos 构建用于交互式模拟的世界模型",
-      "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-02T17:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-11-02T15:30:00+00:00",
+      "published_at": "2026-11-02T18:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -109,13 +125,13 @@
       "label": "官方更新"
     },
     {
-      "title": "电网保护者计划简介",
-      "url": "https://openai.com/index/grid-protectors-program",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-11-02T15:00:00+00:00",
+      "published_at": "2026-11-02T18:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "openai"
@@ -130,10 +146,38 @@
       "site_id": "official_ai",
       "published_at": "2026-11-02T17:45:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用 NVIDIA Cosmos 构建用于交互式模拟的世界模型",
+      "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T17:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "电网保护者计划简介",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-02T15:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -145,7 +189,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-02T15:47:21+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -158,7 +202,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-02T15:14:46+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -171,25 +215,10 @@
       "site_id": "official_ai",
       "published_at": "2026-11-02T10:11:34+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-11-02T09:00:00+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -201,7 +230,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-03T01:25:46+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 62,
       "official": true,
       "topics": [
         "anthropic",
@@ -212,13 +241,41 @@
       "label": "值得关注"
     },
     {
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-11-03T03:30:00+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic 警告说，它非常接近 RSI 能力，即自我构建人工智能",
       "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-11-02T22:14:50+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 61,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 收入增长 12 倍，但亏损 230 亿美元",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-11-02T16:26:03+00:00",
+      "source_count": 1,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic"
@@ -233,40 +290,10 @@
       "site_id": "curated_media",
       "published_at": "2026-11-02T13:57:53+00:00",
       "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 收入增长 12 倍，但亏损 230 亿美元",
-      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-11-02T16:26:03+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "人类对Claude的人工智能视频游戏克隆进行了取缔",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-11-02T18:56:02+00:00",
-      "source_count": 1,
       "score": 60,
       "official": true,
       "topics": [
-        "anthropic"
+        "openai"
       ],
       "reason": "",
       "label": "值得关注"
@@ -278,59 +305,13 @@
       "site_id": "curated_media",
       "published_at": "2026-11-02T10:47:59+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 将数据中心发电厂作为保护附近地区的一种方式",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-11-02T18:01:30+00:00",
-      "source_count": 1,
-      "score": 58,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "美国证券交易委员会应阻止Anthropic的首次公开募股，以保护公众利益",
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
-      "source": "www.techpolicy.press",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T00:13:47.603000+00:00",
-      "source_count": 3,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议"
-    },
-    {
-      "title": "Anthropic 的增长势头刚刚趋于平缓",
-      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-      "source": "www.regenerator1.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-02T23:57:43.658000+00:00",
-      "source_count": 3,
-      "score": 57,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议"
     }
   ]
 }
