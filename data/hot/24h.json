@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T17:51:39.166516+00:00",
+  "generated_at": "2026-11-03T23:45:01.817938+00:00",
   "window_hours": 24,
   "total_items": 15,
   "items": [
@@ -9,8 +9,8 @@
       "source": "www.nytimes.com",
       "site_id": "buzzing",
       "published_at": "2026-11-03T17:14:02.313000+00:00",
-      "source_count": 4,
-      "score": 59,
+      "source_count": 6,
+      "score": 61,
       "official": true,
       "topics": [],
       "reason": "",
@@ -18,57 +18,41 @@
       "hot_score": 100
     },
     {
-      "title": "OpenAI似乎正在悄然恢复Codex聊天功能上的模型训练",
-      "url": "https://news.ycombinator.com/item?id=50352757",
-      "source": "news.ycombinator.com",
+      "title": "Postman 会悄无声息地自动安装 AI 插件，并尝试共享所有 API 数据",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "source": "github.com",
       "site_id": "buzzing",
-      "published_at": "2026-11-03T17:14:02.309000+00:00",
+      "published_at": "2026-11-03T18:01:03.121000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 74
+    },
+    {
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-03T21:40:53+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
       "topics": [
-        "openai",
-        "agent",
-        "coding"
+        "paper"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 57
+      "hot_score": 50
     },
     {
-      "title": "谷歌将在不需要人工智能的学校中完全禁用搜索",
-      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-11-03T17:00:04+00:00",
-      "source_count": 2,
-      "score": 61,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 56
-    },
-    {
-      "title": "Show HN：关于 RLHF、注意力、LoRA 和 LLM 评估的互动笔记",
-      "url": "https://concepts.laxmena.com",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-11-03T15:48:35+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "只是稍微抵制一下AI，当作一种乐趣",
-      "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat",
-      "source": "shkspr.mobi",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T15:37:43.926000+00:00",
+      "published_at": "2026-11-03T21:26:44+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
@@ -78,18 +62,122 @@
       "hot_score": 50
     },
     {
+      "title": "人工智能正在毁掉我的计算机科学学位",
+      "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree",
+      "source": "lordtoots.bearblog.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-11-03T18:33:21.251000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 39
+    },
+    {
+      "title": "How I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-03T18:11:11+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 38
+    },
+    {
+      "title": "OpenAI似乎正在悄然恢复Codex聊天功能上的模型训练",
+      "url": "https://news.ycombinator.com/item?id=50352757",
+      "source": "news.ycombinator.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-03T17:14:02.309000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 35
+    },
+    {
+      "title": "谷歌将在不需要人工智能的学校中完全禁用搜索",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "source": "The Verge",
+      "site_id": "curated_media",
+      "published_at": "2026-11-03T17:00:04+00:00",
+      "source_count": 2,
+      "score": 60,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 34
+    },
+    {
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-03T16:47:29+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 34
+    },
+    {
+      "title": "Show HN：关于 RLHF、注意力、LoRA 和 LLM 评估的互动笔记",
+      "url": "https://concepts.laxmena.com",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-03T15:48:35+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 31
+    },
+    {
       "title": "苹果全力投入人工智能——它自己的和其他人的",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
       "source": "The Verge",
       "site_id": "curated_media",
       "published_at": "2026-11-03T15:24:51+00:00",
       "source_count": 2,
-      "score": 61,
+      "score": 60,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 30
+    },
+    {
+      "title": "只是稍微抵制一下AI，当作一种乐趣",
+      "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat",
+      "source": "shkspr.mobi",
+      "site_id": "buzzing",
+      "published_at": "2026-11-03T15:37:43.926000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 30
     },
     {
       "title": "Octomind – 开源 AI 工具，可保存您的代币、静态 Rust",
@@ -98,31 +186,14 @@
       "site_id": "zeli",
       "published_at": "2026-11-03T15:02:58+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "opensource"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 47
-    },
-    {
-      "title": "大型语言模型在解读和生成神经网络权重方面并不具备超人般的 ability",
-      "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights",
-      "source": "www.seangoedecke.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T14:51:07.144000+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 47
+      "hot_score": 29
     },
     {
       "title": "这就是为什么你不应该使用人工智能投票",
@@ -131,73 +202,12 @@
       "site_id": "opmlrss",
       "published_at": "2026-11-03T14:45:08+00:00",
       "source_count": 2,
-      "score": 59,
+      "score": 57,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 46
-    },
-    {
-      "title": "人工智能时代中的“无我”数学",
-      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
-      "source": "terrytao.wordpress.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T00:29:45.651000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
       "hot_score": 28
-    },
-    {
-      "title": "美国证券交易委员会应阻止Anthropic的首次公开募股，以保护公众利益",
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
-      "source": "www.techpolicy.press",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T00:13:47.603000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 28
-    },
-    {
-      "title": "Anthropic 的增长势头刚刚趋于平缓",
-      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-      "source": "www.regenerator1.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-02T23:57:43.658000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 27
-    },
-    {
-      "title": "甲骨文提交申请，拟发行200亿美元新股和债券，为人工智能建设筹集资金",
-      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "source": "www.cnbc.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-02T22:06:19.965000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 23
     },
     {
       "title": "OpenAI 中的 Git 扩展",
@@ -206,28 +216,14 @@
       "site_id": "buzzing",
       "published_at": "2026-11-03T04:44:37.385000+00:00",
       "source_count": 2,
-      "score": 51,
+      "score": 50,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 20
-    },
-    {
-      "title": "《纽约时报》起诉 Brave 网络浏览器进行人工智能抓取和绕过付费墙",
-      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-11-02T19:00:00+00:00",
-      "source_count": 2,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 12
     }
   ]
 }

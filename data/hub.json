@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03T17:51:39.166516+00:00",
+  "generated_at": "2026-11-03T23:45:01.817938+00:00",
   "today": "2026-11-04",
-  "lead": "StateBench：测试语言模型如何跟踪长文档的状态变化；Palette：教一个小模型用你的设计语言构建牌组；GitHub Copilot 现已在 JetBrains Air 中可用",
+  "lead": "Dependabot version updates support Agent Package Manager；StateBench：测试语言模型如何跟踪长文档的状态变化；Palette：教一个小模型用你的设计语言构建牌组",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -10,8 +10,8 @@
       "source": "www.nytimes.com",
       "site_id": "buzzing",
       "published_at": "2026-11-03T17:14:02.313000+00:00",
-      "source_count": 4,
-      "score": 59,
+      "source_count": 6,
+      "score": 61,
       "official": true,
       "topics": [],
       "reason": "",
@@ -19,57 +19,41 @@
       "hot_score": 100
     },
     {
-      "title": "OpenAI似乎正在悄然恢复Codex聊天功能上的模型训练",
-      "url": "https://news.ycombinator.com/item?id=50352757",
-      "source": "news.ycombinator.com",
+      "title": "Postman 会悄无声息地自动安装 AI 插件，并尝试共享所有 API 数据",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "source": "github.com",
       "site_id": "buzzing",
-      "published_at": "2026-11-03T17:14:02.309000+00:00",
+      "published_at": "2026-11-03T18:01:03.121000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 74
+    },
+    {
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-03T21:40:53+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
       "topics": [
-        "openai",
-        "agent",
-        "coding"
+        "paper"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 57
+      "hot_score": 50
     },
     {
-      "title": "谷歌将在不需要人工智能的学校中完全禁用搜索",
-      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-11-03T17:00:04+00:00",
-      "source_count": 2,
-      "score": 61,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 56
-    },
-    {
-      "title": "Show HN：关于 RLHF、注意力、LoRA 和 LLM 评估的互动笔记",
-      "url": "https://concepts.laxmena.com",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-11-03T15:48:35+00:00",
-      "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 51
-    },
-    {
-      "title": "只是稍微抵制一下AI，当作一种乐趣",
-      "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat",
-      "source": "shkspr.mobi",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T15:37:43.926000+00:00",
+      "published_at": "2026-11-03T21:26:44+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
@@ -77,6 +61,20 @@
       "reason": "",
       "label": "值得关注",
       "hot_score": 50
+    },
+    {
+      "title": "人工智能正在毁掉我的计算机科学学位",
+      "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree",
+      "source": "lordtoots.bearblog.dev",
+      "site_id": "buzzing",
+      "published_at": "2026-11-03T18:33:21.251000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 39
     }
   ],
   "topics": [
@@ -85,49 +83,49 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 29
+      "count": 30
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 29
+      "count": 24
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 6
+      "count": 8
     },
     {
       "slug": "deepseek",
       "label": "DeepSeek",
       "group": "vendor",
       "blurb": "开源权重与技术报告",
-      "count": 6
+      "count": 5
     },
     {
       "slug": "qwen",
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 5
+      "count": 4
     },
     {
       "slug": "mcp",
@@ -141,7 +139,7 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 11
+      "count": 13
     },
     {
       "slug": "launch",
@@ -162,7 +160,7 @@
       "label": "行业动态",
       "group": "form",
       "blurb": "融资、监管与公司",
-      "count": 36
+      "count": 27
     }
   ],
   "days": [
