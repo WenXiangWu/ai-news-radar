@@ -1,11 +1,74 @@
 {
-  "generated_at": "2026-11-04T06:29:03.842942+00:00",
+  "generated_at": "2026-11-04T14:33:40.065061+00:00",
   "slug": "anthropic",
   "label": "Anthropic / Claude",
   "group": "vendor",
   "blurb": "Claude、Claude Code 与安全研究",
-  "total_items": 24,
+  "total_items": 26,
   "items": [
+    {
+      "title": "用自家大模型造自己的“芯”：Anthropic 组建 15 人芯片设计团队，Claude 助阵让研发提速",
+      "url": "https://www.aibase.com/news/32091",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-04T14:32:31.383581+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "给 AI 输出盖\"数字指纹\"：Anthropic 研发 FlashProve 让换模型无处遁形",
+      "url": "https://www.aibase.com/news/32086",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-04T14:32:31.383581+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "Anthropic 为重要开源项目新增可选安全扫描服务",
+      "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-11-04T11:53:34+00:00",
+      "source_count": 1,
+      "score": 59,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic：大型语言模型可证明推理的进展",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "source": "HN Algolia · AI 24h",
+      "site_id": "hackernews",
+      "published_at": "2026-11-04T07:57:06+00:00",
+      "source_count": 1,
+      "score": 50,
+      "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Anthropic 杀手级验真系统 FlashProve 正式开源：17 秒精准戳破“套壳模型”，验身速度飙升 5000 倍",
       "url": "https://www.aibase.com/news/32079",
@@ -13,7 +76,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T06:14:29.276238+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -30,7 +93,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T06:14:29.276238+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -47,7 +110,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T06:14:29.276238+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -65,7 +128,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T06:14:29.276238+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -75,13 +138,13 @@
       "label": "行业动态"
     },
     {
-      "title": "Running 17 Claude Code bots in a real company for $100/month",
+      "title": "在一家真实的公司中运行 17 个 Claude Code 机器人，每月费用为 100 美元",
       "url": "https://botsinproduction.com/blog/what-10-claude-code-bots-cost-per-month",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-11-04T02:02:12+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "anthropic",
@@ -91,13 +154,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Cat Wu, product lead for Claude Code, has left Anthropic",
+      "title": "Claude Code 产品负责人 Cat Wu 已离开 Anthropic",
       "url": "https://www.businessinsider.com/claude-code-leader-cat-wu-exits-anthropic-before-big-ipo-2026-11",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-11-04T01:07:22+00:00",
       "source_count": 2,
-      "score": 53,
+      "score": 51,
       "official": true,
       "topics": [
         "anthropic",
@@ -113,7 +176,23 @@
       "site_id": "techurls",
       "published_at": "2026-11-04T00:40:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "My two favorite default skills on Claude Code, still, that seem relatively less used are a) /insights and b) /playground.. For insights, I have a regular cron job that runs this now every two weeks. It tells me all th...",
+      "url": "https://x.com/nikunj/status/2117773647868018897",
+      "source": "Follow Builders · X · Nikunj Kothari",
+      "site_id": "followbuilders",
+      "published_at": "2026-11-04T00:19:18+00:00",
+      "source_count": 1,
+      "score": 62,
       "official": false,
       "topics": [
         "anthropic",
@@ -129,7 +208,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-04T00:01:03+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
@@ -140,14 +219,29 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "title": "Anthropic 正在开发一个系统来证明人工智能模型的身份",
       "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-11-03T22:41:03+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Can't believe how many people are leaving Anthropic to play World of Warcraft Forever smh j/k what a generational run from cat https://t.co/Uy1hGnnrvW",
+      "url": "https://x.com/petergyang/status/2117738099627450657",
+      "source": "Follow Builders · X · Peter Yang",
+      "site_id": "followbuilders",
+      "published_at": "2026-11-03T21:58:03+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
       "topics": [
         "anthropic"
       ],
@@ -161,7 +255,23 @@
       "site_id": "techurls",
       "published_at": "2026-11-03T21:50:01+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Friday was my last day at Anthropic. Two years ago, when Claude Code was a small internal tool, I asked it to build an RL env. I steered it for tens of hours but never manually wrote a line of code. It worked, I was h...",
+      "url": "https://x.com/_catwu/status/2117731934340337676",
+      "source": "Follow Builders · X · Cat Wu",
+      "site_id": "followbuilders",
+      "published_at": "2026-11-03T21:33:33+00:00",
+      "source_count": 1,
+      "score": 63,
       "official": false,
       "topics": [
         "anthropic",
@@ -177,7 +287,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-03T21:10:03+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -188,16 +298,17 @@
       "label": "值得关注"
     },
     {
-      "title": "Revolut swaps Claude for GLM open-weight model, cutting AI coding bill by 90%",
+      "title": "Revolut 将 Claude 替换为 GLM 开放权重模型，将 AI 编码费用削减了 90%",
       "url": "https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai",
       "source": "HN Algolia · AI 24h",
       "site_id": "hackernews",
       "published_at": "2026-11-03T20:57:15+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
-        "anthropic"
+        "anthropic",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
@@ -209,7 +320,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-03T20:30:02+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic"
@@ -224,7 +335,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-03T19:45:03+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "openai",
@@ -234,13 +345,28 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI and Anthropic Set Up ‘War Rooms’ to Fight Disinfo About Midterm Elections",
+      "title": "Signing in to your company's plugins one by one is annoying, so we let Claude auto-connect to them now. Team and Enterprise admins can set them up, and teammates are connected automatically the first time they use the...",
+      "url": "https://x.com/bcherny/status/2117693181651542387",
+      "source": "Follow Builders · X · Boris Cherny",
+      "site_id": "followbuilders",
+      "published_at": "2026-11-03T18:59:33+00:00",
+      "source_count": 1,
+      "score": 61,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 和 Anthropic 设立“作战室”来打击有关中期选举的虚假信息",
       "url": "https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html",
       "source": "New York Times",
       "site_id": "techurls",
       "published_at": "2026-11-03T18:00:07+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": false,
       "topics": [
         "openai",
@@ -256,7 +382,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-03T17:07:01+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic"
@@ -271,7 +397,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-03T16:25:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "anthropic"
@@ -280,111 +406,22 @@
       "label": "值得关注"
     },
     {
-      "title": "Sources: Anthropic tells investors that its 15-person chip design team is already using Claude for engineering and design work on its custom chips (The Information)",
-      "url": "https://www.techmeme.com/261103/p16",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-11-03T14:20:04+00:00",
+      "title": "We live in special times.. I love using @ChatGPT Codex app AND @claudeai desktop app AND the @bot app AND the @Muse app. All have their quirks, but each of them is delightfully designed. I never thought I'd be reachin...",
+      "url": "https://x.com/nikunj/status/2117650163066183769",
+      "source": "Follow Builders · X · Nikunj Kothari",
+      "site_id": "followbuilders",
+      "published_at": "2026-11-03T16:08:37+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 64,
       "official": false,
       "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的 IPO 文件警告称其可能“即将”接近 RSI",
-      "url": "https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-11-03T13:26:43+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Claude Opus 5.5 能够绘制符合审批标准的建筑图纸",
-      "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
-      "source": "stephenjgallagher.substack.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T12:58:14.136000+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的消息线程将长时间对话的第一个标记时间缩短了 35%",
-      "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-11-03T12:35:49+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic IPO 申请：季度工资 1.7B 美元，每位员工每月约 107K 美元",
-      "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-11-03T11:16:07+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": true,
-      "topics": [
-        "anthropic"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "在人工智能仿冒浪潮过后，Anthropic 严厉打击 Claude Code 中的游戏克隆行为",
-      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-11-03T09:48:08+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": true,
-      "topics": [
+        "openai",
         "anthropic",
-        "agent"
+        "agent",
+        "coding"
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "营收狂飙却难掩巨额账单：Anthropic三季度重回亏损，近 9000 亿美元算力承诺成IPO最大考验",
-      "url": "https://www.aibase.com/news/32045",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-03T09:29:59.404569+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }

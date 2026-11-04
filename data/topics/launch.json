@@ -1,11 +1,42 @@
 {
-  "generated_at": "2026-11-04T06:29:03.842942+00:00",
+  "generated_at": "2026-11-04T14:33:40.065061+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 13,
+  "total_items": 11,
   "items": [
+    {
+      "title": "百度首次发布物理AI世界模型Apollo World，萝卜快跑近百辆无人车搭载新架构运营",
+      "url": "https://www.aibase.com/news/32087",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-04T14:32:31.383581+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "在 AI 游戏泛滥之际，Valve 刚刚改变了 Steam 发布规则",
+      "url": "https://www.engadget.com/2306215/valve-changed-its-steam-release-rules-amid-a-flood-of-ai-games",
+      "source": "Engadget",
+      "site_id": "techurls",
+      "published_at": "2026-11-04T08:28:09+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "Anthropic发布开源系统FlashProve:通过密码学指纹实现AI模型身份可验证",
       "url": "https://www.aibase.com/news/32061",
@@ -13,7 +44,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T06:14:29.276238+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "anthropic",
@@ -31,7 +62,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T06:14:29.276238+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -47,11 +78,26 @@
       "site_id": "curated_media",
       "published_at": "2026-11-04T00:01:03+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": true,
       "topics": [
         "anthropic",
         "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "为什么每个人工智能模型都会以洪流形式发布",
+      "url": "https://pirateface.co/articles/one-model-one-swarm",
+      "source": "Hacker News · 24h最热",
+      "site_id": "zeli",
+      "published_at": "2026-11-03T22:36:22+00:00",
+      "source_count": 1,
+      "score": 48,
+      "official": false,
+      "topics": [
         "launch"
       ],
       "reason": "",
@@ -64,7 +110,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-03T21:10:03+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "anthropic",
@@ -81,7 +127,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-03T18:10:30+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 80,
       "official": true,
       "topics": [
         "launch"
@@ -96,7 +142,7 @@
       "site_id": "hackernews",
       "published_at": "2026-11-03T17:40:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "qwen",
@@ -113,7 +159,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-03T16:00:00+00:00",
       "source_count": 1,
-      "score": 49,
+      "score": 47,
       "official": true,
       "topics": [
         "openai",
@@ -131,7 +177,7 @@
       "site_id": "buzzing",
       "published_at": "2026-11-03T14:51:07.144000+00:00",
       "source_count": 1,
-      "score": 48,
+      "score": 47,
       "official": false,
       "topics": [
         "opensource",
@@ -139,88 +185,6 @@
       ],
       "reason": "",
       "label": "值得关注"
-    },
-    {
-      "title": "8GB显存也能玩转128K超长上下文！开源本地大模型工具Strata 0.2. 10 发布",
-      "url": "https://www.aibase.com/news/32047",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-03T09:29:59.404569+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "opensource",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "商汤正式发布日日新SenseNova 6.8 Flash，主打真实任务执行与设计协作",
-      "url": "https://www.aibase.com/news/32049",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-03T09:29:59.404569+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "美团发布全新1. 6 万亿多模态大模型LongCat-2.5：多项智能Agent基准登顶全球第一",
-      "url": "https://www.aibase.com/news/32040",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-03T09:29:59.404569+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "腾讯混元重磅发布Hyra 2.0，让AI Agent全面参与科学大模型与硬核研发",
-      "url": "https://www.aibase.com/news/32055",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-03T09:29:59.404569+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "蚂蚁数科携「智能体超级工厂」亮相香港金融科技周，全新发布KYA方案",
-      "url": "https://www.aibase.com/news/32038",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-03T09:29:59.404569+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "agent",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
     }
   ]
 }
