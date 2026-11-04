@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:45:01.817938+00:00",
+  "generated_at": "2026-11-04T06:29:03.842942+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
@@ -7,13 +7,64 @@
   "total_items": 13,
   "items": [
     {
+      "title": "Anthropic发布开源系统FlashProve:通过密码学指纹实现AI模型身份可验证",
+      "url": "https://www.aibase.com/news/32061",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-04T06:14:29.276238+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "opensource",
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "阿里云发布AI投研工作台Qovest:99元/月开放个人邀测",
+      "url": "https://www.aibase.com/news/32069",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-04T06:14:29.276238+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "launch",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "v2.1.318",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "source": "Claude Code Releases",
+      "site_id": "curated_media",
+      "published_at": "2026-11-04T00:01:03+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "Anthropic releases FlashProve, open-source code that cryptographically verifies an AI response came from a given model, not a cheaper one swapped in by a router (Anthropic)",
       "url": "https://www.techmeme.com/261103/p32",
       "source": "Techmeme",
       "site_id": "techurls",
       "published_at": "2026-11-03T21:10:03+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "anthropic",
@@ -30,7 +81,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-03T18:10:30+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "launch"
@@ -45,7 +96,7 @@
       "site_id": "hackernews",
       "published_at": "2026-11-03T17:40:00+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": true,
       "topics": [
         "qwen",
@@ -62,7 +113,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-03T16:00:00+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 49,
       "official": true,
       "topics": [
         "openai",
@@ -80,7 +131,7 @@
       "site_id": "buzzing",
       "published_at": "2026-11-03T14:51:07.144000+00:00",
       "source_count": 1,
-      "score": 50,
+      "score": 48,
       "official": false,
       "topics": [
         "opensource",
@@ -96,7 +147,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-03T09:29:59.404569+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "opensource",
@@ -113,7 +164,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-03T09:29:59.404569+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "launch",
@@ -129,7 +180,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-03T09:29:59.404569+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "launch",
@@ -145,7 +196,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-03T09:29:59.404569+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "launch",
@@ -161,7 +212,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-03T09:29:59.404569+00:00",
       "source_count": 1,
-      "score": 74,
+      "score": 72,
       "official": false,
       "topics": [
         "agent",
@@ -170,56 +221,6 @@
       ],
       "reason": "",
       "label": "行业动态"
-    },
-    {
-      "title": "[AINews] LLM可以读写神经网络权重：“权重空间编程”将 Autoresearch 排除在 RSI 循环之外",
-      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-11-03T05:35:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "v2.1.317",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-      "source": "Claude Code Releases",
-      "site_id": "curated_media",
-      "published_at": "2026-11-03T01:25:46+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "agent",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "The Letter 公司发布 Letterpress-1：专为生长工程打造的编码剂",
-      "url": "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent",
-      "source": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-11-03T00:43:03+00:00",
-      "source_count": 1,
-      "score": 54,
-      "official": false,
-      "topics": [
-        "agent",
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
     }
   ]
 }
