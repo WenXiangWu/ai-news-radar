@@ -5,15 +5,16 @@
   "schedule": "after-fetch",
   "combined_lanes": [],
   "groups": [],
-  "run_id": "41848521580",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41848521580",
+  "run_id": "41906556137",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41906556137",
   "conclusion": "success",
-  "started_at": "2026-11-04T14:35:13.172769+00:00",
-  "finished_at": "2026-11-04T14:35:13.172769+00:00",
+  "started_at": "2026-11-04T21:16:37.611640+00:00",
+  "finished_at": "2026-11-04T21:16:37.611640+00:00",
   "push": {
     "attempted": true,
     "ok": true,
     "source_ids": [
+      "docs.guidance",
       "docs.langfuse",
       "docs.letta",
       "docs.llamaindex",
@@ -41,6 +42,7 @@
     ],
     "by_owner": {
       "update-radar": [
+        "docs.guidance",
         "docs.langfuse",
         "docs.letta",
         "docs.llamaindex",
@@ -71,6 +73,11 @@
     }
   },
   "sources": [
+    {
+      "source_id": "docs.guidance",
+      "status": "success",
+      "run_kind": "incremental"
+    },
     {
       "source_id": "docs.langfuse",
       "status": "success",
