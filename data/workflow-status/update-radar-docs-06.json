@@ -7,20 +7,20 @@
   "groups": [
     "docs-06"
   ],
-  "run_id": "41792708289",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41792708289",
+  "run_id": "41906556137",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41906556137",
   "conclusion": "failure",
-  "started_at": "2026-11-04T08:05:18.214892+00:00",
-  "finished_at": "2026-11-04T08:05:18.214892+00:00",
+  "started_at": "2026-11-04T20:58:35.884756+00:00",
+  "finished_at": "2026-11-04T20:58:35.884756+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.pgvector",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "CHANGELOG.md: translation unavailable or failed quality gate"
+      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/pgvector/pgvector/git/trees/master"
     },
     {
       "source_id": "docs.phoenix",

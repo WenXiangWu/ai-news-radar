@@ -7,11 +7,11 @@
   "groups": [
     "docs-03"
   ],
-  "run_id": "41792708289",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41792708289",
+  "run_id": "41906556137",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/41906556137",
   "conclusion": "failure",
-  "started_at": "2026-11-04T07:58:48.599900+00:00",
-  "finished_at": "2026-11-04T07:58:48.599900+00:00",
+  "started_at": "2026-11-04T20:54:48.568499+00:00",
+  "finished_at": "2026-11-04T20:54:48.568499+00:00",
   "push": {
     "attempted": false
   },
@@ -24,9 +24,9 @@
     },
     {
       "source_id": "docs.guidance",
-      "status": "partial",
+      "status": "success",
       "run_kind": "incremental",
-      "error": "docs/api.rst: translation unavailable or failed quality gate"
+      "error": null
     },
     {
       "source_id": "docs.humanlayer",
@@ -36,9 +36,9 @@
     },
     {
       "source_id": "docs.instructor",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "https://python.useinstructor.com/concepts/alias/index.md: translation unavailable or failed quality gate"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.jarvis-registry",
