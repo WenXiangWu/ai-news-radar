@@ -1,24 +1,55 @@
 {
   "title": "2026-W45 周报",
   "dates": [
+    "2026-11-05",
     "2026-11-04",
     "2026-11-03",
     "2026-11-02",
     "2026-11-01",
     "2026-10-31",
-    "2026-10-30",
-    "2026-10-29"
+    "2026-10-30"
   ],
   "total_items": 40,
   "items": [
     {
-      "title": "Nvidia Nemotron 3.5 Transcribe：支持 40 种语言的开源语音识别（ASR）",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "title": "OpenAI将收购Pierre Computer Company",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T21:12:50.695000+00:00",
+      "source_count": 4,
+      "score": 91,
+      "official": true,
+      "topics": [
+        "openai",
+        "industry"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T19:10:40+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T22:56:46.012000+00:00",
-      "source_count": 3,
-      "score": 87,
+      "published_at": "2026-11-04T17:50:10+00:00",
+      "source_count": 1,
+      "score": 85,
       "official": true,
       "topics": [
         "opensource"
@@ -27,18 +58,82 @@
       "label": "官方更新"
     },
     {
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "source": "OpenAI News",
+      "title": "CodeQL 2.27.4 improves accuracy and query metadata",
+      "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-11-04T14:30:00+00:00",
+      "published_at": "2026-11-04T20:04:52+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai",
+      "source": "Latent Space",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T19:17:30+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Agile Deliberation: How AI helps humans define the gray areas",
+      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
+      "source": "Google Research Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T18:07:05+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T17:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+      "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T16:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
       "official": true,
       "topics": [
-        "openai",
-        "industry"
+        "agent"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T15:26:02+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -104,17 +199,15 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
-      "url": "https://latent.space/p/ainews-gemini-4-carbon",
-      "source": "Latent Space",
+      "title": "How big is the open model economy today?",
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Interconnects",
       "site_id": "official_ai",
-      "published_at": "2026-10-29T05:55:19+00:00",
+      "published_at": "2026-11-04T16:35:44+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
-      "topics": [
-        "google"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -176,16 +269,16 @@
       "label": "官方更新"
     },
     {
-      "title": "Copilot 使用 API 中的 BYOK 和企业自定义模型",
-      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-      "source": "GitHub Changelog",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-11-04T00:32:19+00:00",
+      "published_at": "2026-11-04T07:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "coding"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -270,6 +363,21 @@
       "official": true,
       "topics": [
         "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Copilot 使用 API 中的 BYOK 和企业自定义模型",
+      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T00:32:19+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
@@ -449,156 +557,34 @@
       "label": "官方更新"
     },
     {
-      "title": "为什么代理商喜欢 Supabase",
-      "url": "https://latent.space/p/supabase",
-      "source": "Latent Space",
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
+      "source": "Simon Willison",
       "site_id": "official_ai",
-      "published_at": "2026-10-28T19:48:05+00:00",
+      "published_at": "2026-11-03T23:13:45+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
+      "official": true,
+      "topics": [
+        "agent"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "llm 0.37.1",
+      "url": "https://simonwillison.net/2026/Nov/3/llm",
+      "source": "Simon Willison",
+      "site_id": "official_ai",
+      "published_at": "2026-11-03T21:41:42+00:00",
+      "source_count": 1,
+      "score": 80,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "source": "Google DeepMind",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T17:00:58+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "google",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "在 Foundry Agent Service 中引入 Microsoft Copilot 工具",
-      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry",
-      "source": "Azure AI Foundry Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T16:45:06+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 GitHub Copilot Fusion 路由和编排模型",
-      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T16:00:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 应用程序、Universe 发布",
-      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:55:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Enterprise 现在包含对 GitHub Copilot 的访问",
-      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:50:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 应用程序的安全扩展",
-      "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:45:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub 智能让您的代码、上下文和历史记录发挥作用",
-      "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:40:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "使用 Copilot Automations 为您的团队构建共享工作流程",
-      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:35:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "VS Code 中的 GitHub Copilot、Universe 版本",
-      "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-28T15:33:00+00:00",
-      "source_count": 1,
-      "score": 81,
-      "official": true,
-      "topics": [
-        "coding",
-        "launch"
-      ],
       "reason": "",
       "label": "官方更新"
     }
   ],
-  "generated_at": "2026-11-04T14:33:40.065061+00:00",
+  "generated_at": "2026-11-04T21:45:28.376742+00:00",
   "period": "2026-W45"
 }

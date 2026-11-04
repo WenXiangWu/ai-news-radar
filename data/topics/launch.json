@@ -1,11 +1,60 @@
 {
-  "generated_at": "2026-11-04T14:33:40.065061+00:00",
+  "generated_at": "2026-11-04T21:45:28.376742+00:00",
   "slug": "launch",
   "label": "模型发布",
   "group": "form",
   "blurb": "新模型、权重与价格",
-  "total_items": 11,
+  "total_items": 9,
   "items": [
+    {
+      "title": "Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image detection, and Image Flash 1.0, which powers its AI video detection (Isaac Kasahara/Pangram)",
+      "url": "https://www.techmeme.com/261104/p43",
+      "source": "Techmeme",
+      "site_id": "techurls",
+      "published_at": "2026-11-04T17:02:08+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": false,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
+      "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-11-04T15:44:44+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "openai",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic's new prototype proves which model wrote an AI response without exposing its weights",
+      "url": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-11-04T15:23:49+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "百度首次发布物理AI世界模型Apollo World，萝卜快跑近百辆无人车搭载新架构运营",
       "url": "https://www.aibase.com/news/32087",
@@ -13,7 +62,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T14:32:31.383581+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "launch",
@@ -29,7 +78,7 @@
       "site_id": "techurls",
       "published_at": "2026-11-04T08:28:09+00:00",
       "source_count": 1,
-      "score": 51,
+      "score": 49,
       "official": false,
       "topics": [
         "launch"
@@ -44,7 +93,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T06:14:29.276238+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "anthropic",
@@ -62,7 +111,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-04T06:14:29.276238+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "launch",
@@ -78,7 +127,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-04T00:01:03+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -95,92 +144,9 @@
       "site_id": "zeli",
       "published_at": "2026-11-03T22:36:22+00:00",
       "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic releases FlashProve, open-source code that cryptographically verifies an AI response came from a given model, not a cheaper one swapped in by a router (Anthropic)",
-      "url": "https://www.techmeme.com/261103/p32",
-      "source": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-11-03T21:10:03+00:00",
-      "source_count": 1,
-      "score": 48,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "langgraph-sdk==0.4.12",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-11-03T18:10:30+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "我笔记本电脑上的 Qwen 3.8 27B 也能解析模型权重",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
-      "source": "HN Algolia · AI 24h",
-      "site_id": "hackernews",
-      "published_at": "2026-11-03T17:40:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "qwen",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "麻省理工学院研究人员使用 GPT-6 Astra 直接编辑 Qwen 的开放权重，提高数学成绩",
-      "url": "https://science.slashdot.org/story/26/11/03/0537252/mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-scores",
-      "source": "Slashdot",
-      "site_id": "techurls",
-      "published_at": "2026-11-03T16:00:00+00:00",
-      "source_count": 1,
-      "score": 47,
-      "official": true,
-      "topics": [
-        "openai",
-        "qwen",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "大型语言模型在解读和生成神经网络权重方面并不具备超人般的 ability",
-      "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights",
-      "source": "www.seangoedecke.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-03T14:51:07.144000+00:00",
-      "source_count": 1,
       "score": 47,
       "official": false,
       "topics": [
-        "opensource",
         "launch"
       ],
       "reason": "",
