@@ -1,11 +1,58 @@
 {
-  "generated_at": "2026-11-05T02:26:39.026472+00:00",
+  "generated_at": "2026-11-05T10:51:27.789174+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 14,
+  "total_items": 13,
   "items": [
+    {
+      "title": "国产RNA生物大模型重大突破：中国科大团队研发 structRFM 登上《自然》并全面开源",
+      "url": "https://www.aibase.com/news/32107",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-05T10:50:22.611924+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "百度开源2800亿参数文心5.5Flash Base，多项基准测试刷新同尺寸SOTA",
+      "url": "https://www.aibase.com/news/32118",
+      "source": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-05T10:50:22.611924+00:00",
+      "source_count": 1,
+      "score": 77,
+      "official": false,
+      "topics": [
+        "opensource",
+        "industry"
+      ],
+      "reason": "",
+      "label": "行业动态"
+    },
+    {
+      "title": "我用 AI 给自己写了一个 Markdown 编辑器，然后把它开源了",
+      "url": "https://juejin.cn/post/7703823130586316800",
+      "source": "juejin",
+      "site_id": "newsnow",
+      "published_at": "2026-11-05T10:41:03.430000+00:00",
+      "source_count": 1,
+      "score": 52,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "月之暗面开放 2.8 万亿参数 Kimi K3.1 Pro 权重，强势登顶 Agent Arena 开源榜",
       "url": "https://www.aibase.com/news/32100",
@@ -13,7 +60,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-05T02:25:29.527974+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "agent",
@@ -24,13 +71,28 @@
       "label": "行业动态"
     },
     {
+      "title": "仔细观察声子 TTS。推出领先基准的高质量设备语音。",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
       "title": "开源人工智能正在蓬勃发展。Hugging Face解释了谁获利。",
       "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-11-04T19:30:04+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "opensource"
@@ -45,7 +107,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-04T18:44:57+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "opensource",
@@ -61,7 +123,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-04T17:50:10+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -76,7 +138,7 @@
       "site_id": "buzzing",
       "published_at": "2026-11-04T17:30:58.063000+00:00",
       "source_count": 2,
-      "score": 52,
+      "score": 51,
       "official": true,
       "topics": [
         "opensource"
@@ -91,7 +153,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-04T16:42:52+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 60,
       "official": false,
       "topics": [
         "opensource",
@@ -107,7 +169,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-04T15:44:44+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": false,
       "topics": [
         "openai",
@@ -124,7 +186,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-04T15:23:49+00:00",
       "source_count": 1,
-      "score": 61,
+      "score": 59,
       "official": true,
       "topics": [
         "anthropic",
@@ -141,92 +203,10 @@
       "site_id": "opmlrss",
       "published_at": "2026-11-04T11:53:34+00:00",
       "source_count": 1,
-      "score": 56,
+      "score": 55,
       "official": false,
       "topics": [
         "anthropic",
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 杀手级验真系统 FlashProve 正式开源：17 秒精准戳破“套壳模型”，验身速度飙升 5000 倍",
-      "url": "https://www.aibase.com/news/32079",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-04T06:14:29.276238+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "Anthropic发布开源系统FlashProve:通过密码学指纹实现AI模型身份可验证",
-      "url": "https://www.aibase.com/news/32061",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-04T06:14:29.276238+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "opensource",
-        "launch",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "中国开源AI凭什么火遍全球？乌镇峰会揭秘：调用量连续 27 周超越美国，成海外企业和开发者的香饽饽",
-      "url": "https://www.aibase.com/news/32074",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-04T06:14:29.276238+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "腾讯 Hy4 正式版亮相：挤进最强开源阵营，主打\"真干活\"",
-      "url": "https://www.aibase.com/news/32078",
-      "source": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-04T06:14:29.276238+00:00",
-      "source_count": 1,
-      "score": 72,
-      "official": false,
-      "topics": [
-        "opensource",
-        "industry"
-      ],
-      "reason": "",
-      "label": "行业动态"
-    },
-    {
-      "title": "开源我这折腾了1年的「Agent自动化系统」，愿所有人都能感受Agent的魅力。",
-      "url": "https://waytoagi.feishu.cn/wiki/I483wE1iMiISKskYEfFcXBChnRb?from=from_copylink",
-      "source": "社区更新 · 2026-11-03",
-      "site_id": "waytoagi",
-      "published_at": "2026-11-04T06:14:29.276238+00:00",
-      "source_count": 1,
-      "score": 52,
-      "official": false,
-      "topics": [
         "opensource"
       ],
       "reason": "",
