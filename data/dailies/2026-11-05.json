@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T21:45:28.376742+00:00",
+  "generated_at": "2026-11-05T02:26:39.026472+00:00",
   "date": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "lead": "OpenAI将收购Pierre Computer Company；GitHub Copilot is now available in Xcode’s coding assistant；Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+  "lead": "OpenAI将收购Pierre Computer Company；通往root的路径少了1000条简体中文（大陆）；langgraph==1.2.20",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [
@@ -13,7 +13,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-04T21:12:50.695000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 90,
       "official": true,
       "topics": [
         "openai",
@@ -22,6 +22,22 @@
       "reason": "",
       "label": "官方更新",
       "hot_score": 100
+    },
+    {
+      "title": "通往root的路径少了1000条简体中文（大陆）",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T02:01:04.884000+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 58
     }
   ],
   "items": [
@@ -32,7 +48,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-04T21:12:50.695000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 90,
       "official": true,
       "topics": [
         "openai",
@@ -42,28 +58,71 @@
       "label": "官方更新"
     },
     {
-      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "source": "GitHub Changelog",
+      "title": "通往root的路径少了1000条简体中文（大陆）",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-11-04T19:10:40+00:00",
-      "source_count": 1,
-      "score": 85,
+      "published_at": "2026-11-05T02:01:04.884000+00:00",
+      "source_count": 2,
+      "score": 84,
       "official": true,
       "topics": [
-        "coding"
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "title": "langgraph==1.2.20",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T02:20:53+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.13",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T02:16:06+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T22:00:17+00:00",
+      "source_count": 1,
+      "score": 84,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段",
       "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "source": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-11-04T17:50:10+00:00",
       "source_count": 1,
-      "score": 85,
+      "score": 84,
       "official": true,
       "topics": [
         "opensource"
@@ -72,69 +131,56 @@
       "label": "官方更新"
     },
     {
-      "title": "CodeQL 2.27.4 improves accuracy and query metadata",
+      "title": "CodeQL 2.27.4 提高了准确性和查询元数据",
       "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
       "source": "GitHub Changelog",
       "site_id": "official_ai",
       "published_at": "2026-11-04T20:04:52+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "title": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海",
       "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai",
       "source": "Latent Space",
       "site_id": "official_ai",
       "published_at": "2026-11-04T19:17:30+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Agile Deliberation: How AI helps humans define the gray areas",
-      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
-      "source": "Google Research Blog",
+      "title": "GitHub Copilot 现已在 Xcode 的编码助手中可用",
+      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+      "source": "GitHub Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-11-04T18:07:05+00:00",
+      "published_at": "2026-11-04T19:10:40+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
-      "topics": [],
+      "topics": [
+        "coding"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+      "title": "NVIDIA 工厂运营蓝图如何协调 AI 代理来调查生产问题",
       "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
       "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
       "published_at": "2026-11-04T17:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
-      "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-04T16:00:00+00:00",
-      "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [
-        "agent"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -145,19 +191,6 @@
       "site_id": "official_ai",
       "published_at": "2026-11-04T15:26:02+00:00",
       "source_count": 1,
-      "score": 84,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "How big is the open model economy today?",
-      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
-      "source": "Interconnects",
-      "site_id": "official_ai",
-      "published_at": "2026-11-04T16:35:44+00:00",
-      "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [],
@@ -165,43 +198,39 @@
       "label": "官方更新"
     },
     {
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "source": "OpenAI News",
+      "title": "敏捷审议：人工智能如何帮助人类定义灰色地带",
+      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
+      "source": "Google Research Blog",
       "site_id": "official_ai",
-      "published_at": "2026-11-04T07:00:00+00:00",
+      "published_at": "2026-11-04T18:07:05+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
-      "topics": [
-        "openai"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "Copilot 使用 API 中的 BYOK 和企业自定义模型",
-      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-      "source": "GitHub Changelog",
+      "title": "今天的开放模式经济有多大？",
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Interconnects",
       "site_id": "official_ai",
-      "published_at": "2026-11-04T00:32:19+00:00",
+      "published_at": "2026-11-04T16:35:44+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 82,
       "official": true,
-      "topics": [
-        "coding"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "datasette-agent 0.5a0",
-      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
-      "source": "Simon Willison",
+      "title": "使用 NVIDIA NeMo 将代理故障转化为测试和利用修复",
+      "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes",
+      "source": "NVIDIA Developer Blog",
       "site_id": "official_ai",
-      "published_at": "2026-11-03T23:13:45+00:00",
+      "published_at": "2026-11-04T16:00:00+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 82,
       "official": true,
       "topics": [
         "agent"
@@ -210,26 +239,28 @@
       "label": "官方更新"
     },
     {
-      "title": "llm 0.37.1",
-      "url": "https://simonwillison.net/2026/Nov/3/llm",
-      "source": "Simon Willison",
+      "title": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "OpenAI News",
       "site_id": "official_ai",
-      "published_at": "2026-11-03T21:41:42+00:00",
+      "published_at": "2026-11-04T07:00:00+00:00",
       "source_count": 1,
-      "score": 80,
+      "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+      "title": "ChatGPT 现在可以使用 OpenAI 的 Images 2.6 模型将文本提示和照片转换为动画 GIF",
       "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-11-04T19:44:20+00:00",
       "source_count": 1,
-      "score": 66,
+      "score": 64,
       "official": true,
       "topics": [
         "openai"
@@ -238,13 +269,13 @@
       "label": "值得关注"
     },
     {
-      "title": "Anthropic's text watermark is easy to bypass on several older Claude models",
+      "title": "Anthropic 的文本水印在几个旧的 Claude 模型上很容易被绕过",
       "url": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-11-04T19:03:55+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 63,
       "official": true,
       "topics": [
         "anthropic"
@@ -253,63 +284,49 @@
       "label": "值得关注"
     },
     {
-      "title": "OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents",
+      "title": "OpenAI 已经在尝试塑造 2028 年选举",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-11-04T21:25:44+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "OpenAI 收购 Pierre Computer Company，让 Git 跟上 AI 编码代理的步伐",
       "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents",
       "source": "The Decoder AI News",
       "site_id": "curated_media",
       "published_at": "2026-11-04T18:41:03+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
+        "coding",
         "industry"
       ],
       "reason": "",
       "label": "值得关注"
     },
     {
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "title": "在谷歌人工智能政策遭到强烈反对之际，DuckDuckGo 向学校推销自己",
       "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-11-04T19:29:52+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "industry"
       ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic's new prototype proves which model wrote an AI response without exposing its weights",
-      "url": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-11-04T15:23:49+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-11-04T16:17:22+00:00",
-      "source_count": 1,
-      "score": 61,
-      "official": true,
-      "topics": [],
       "reason": "",
       "label": "值得关注"
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:18:36.903193Z",
+  "generated_at": "2026-11-05T02:25:29.527974Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -55,8 +55,8 @@
         },
         {
           "id": "3c4b7ca66be58e1ab9ed97226c73f51e1975e9ad",
-          "title": "OpenAI to acquire Pierre Computer Company",
-          "title_zh": null,
+          "title": "OpenAI 将收购 Pierre 计算机公司 / OpenAI to acquire Pierre Computer Company",
+          "title_zh": "OpenAI 将收购 Pierre 计算机公司",
           "title_en": "OpenAI to acquire Pierre Computer Company",
           "title_original": "OpenAI to acquire Pierre Computer Company",
           "summary": null,
@@ -120,8 +120,8 @@
         },
         {
           "id": "3c4b7ca66be58e1ab9ed97226c73f51e1975e9ad",
-          "title": "OpenAI to acquire Pierre Computer Company",
-          "title_zh": null,
+          "title": "OpenAI 将收购 Pierre 计算机公司 / OpenAI to acquire Pierre Computer Company",
+          "title_zh": "OpenAI 将收购 Pierre 计算机公司",
           "title_en": "OpenAI to acquire Pierre Computer Company",
           "title_original": "OpenAI to acquire Pierre Computer Company",
           "summary": null,
@@ -135,15 +135,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.9101,
-      "importance": 0.9101,
-      "importance_score": 0.9101,
+      "score": 0.8985,
+      "importance": 0.8985,
+      "importance_score": 0.8985,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9063,
+        "recency": 0.8418,
         "story_heat": 0.75
       },
       "category": "official",
@@ -171,12 +171,95 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
+      }
+    },
+    {
+      "story_id": "story_bd293b9e2c08",
+      "title": "langgraph==1.2.20",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
+      "primary_url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
+      "source": "LangGraph Releases",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "036490da7602f942d0d1f76767c3dd996ed2fc81",
+          "title": "langgraph==1.2.20",
+          "title_zh": null,
+          "title_en": "langgraph==1.2.20",
+          "title_original": "langgraph==1.2.20",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
+          "source": "LangGraph Releases",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-05T02:20:53Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LangGraph Releases"
+      ],
+      "items": [
+        {
+          "id": "036490da7602f942d0d1f76767c3dd996ed2fc81",
+          "title": "langgraph==1.2.20",
+          "title_zh": null,
+          "title_en": "langgraph==1.2.20",
+          "title_original": "langgraph==1.2.20",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
+          "source": "LangGraph Releases",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-05T02:20:53Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8438,
+      "importance": 0.8438,
+      "importance_score": 0.8438,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9989,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-05T02:20:53Z",
+      "latest_at": "2026-11-05T02:20:53Z",
+      "primary_item": {
+        "id": "036490da7602f942d0d1f76767c3dd996ed2fc81",
+        "title": "langgraph==1.2.20",
+        "title_zh": null,
+        "title_en": "langgraph==1.2.20",
+        "title_original": "langgraph==1.2.20",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
+        "source": "LangGraph Releases",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
       "story_id": "story_a1cac76551fa",
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
       "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "primary_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "source": "Hugging Face Blog",
@@ -184,8 +267,8 @@
       "sources": [
         {
           "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
-          "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-          "title_zh": null,
+          "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "title_zh": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段",
           "title_en": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
           "title_original": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
           "summary": null,
@@ -204,8 +287,8 @@
       "items": [
         {
           "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
-          "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-          "title_zh": null,
+          "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "title_zh": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段",
           "title_en": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
           "title_original": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
           "summary": null,
@@ -219,15 +302,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8512,
-      "importance": 0.8512,
-      "importance_score": 0.8512,
+      "score": 0.839,
+      "importance": 0.839,
+      "importance_score": 0.839,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9511,
+        "recency": 0.8834,
         "story_heat": 0.0
       },
       "category": "official",
@@ -240,8 +323,8 @@
       "latest_at": "2026-11-04T17:50:10Z",
       "primary_item": {
         "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
-        "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-        "title_zh": null,
+        "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+        "title_zh": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段",
         "title_en": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
         "title_original": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
         "summary": null,
@@ -254,12 +337,95 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
+      }
+    },
+    {
+      "story_id": "story_13d780be14b1",
+      "title": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营 / How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations",
+      "primary_url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations",
+      "source": "NVIDIA Developer Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "42417fd61f5bb12de59f4c6cdb5c74b61886b069",
+          "title": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营 / How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+          "title_zh": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营",
+          "title_en": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+          "title_original": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations",
+          "source": "NVIDIA Developer Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-04T22:00:17Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Developer Blog"
+      ],
+      "items": [
+        {
+          "id": "42417fd61f5bb12de59f4c6cdb5c74b61886b069",
+          "title": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营 / How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+          "title_zh": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营",
+          "title_en": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+          "title_original": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations",
+          "source": "NVIDIA Developer Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-04T22:00:17Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8389,
+      "importance": 0.8389,
+      "importance_score": 0.8389,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.9,
+        "recency": 0.9382,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-04T22:00:17Z",
+      "latest_at": "2026-11-04T22:00:17Z",
+      "primary_item": {
+        "id": "42417fd61f5bb12de59f4c6cdb5c74b61886b069",
+        "title": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营 / How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+        "title_zh": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营",
+        "title_en": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+        "title_original": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations",
+        "source": "NVIDIA Developer Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
       "story_id": "story_bf5abd3d9223",
-      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+      "title": "GitHub Copilot 现已在 Xcode 的编码助手中可用 / GitHub Copilot is now available in Xcode’s coding assistant",
       "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
       "primary_url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
       "source": "GitHub Changelog",
@@ -267,8 +433,8 @@
       "sources": [
         {
           "id": "e9c885c788ee9f0558a5c5799b829ed4d58705cc",
-          "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-          "title_zh": null,
+          "title": "GitHub Copilot 现已在 Xcode 的编码助手中可用 / GitHub Copilot is now available in Xcode’s coding assistant",
+          "title_zh": "GitHub Copilot 现已在 Xcode 的编码助手中可用",
           "title_en": "GitHub Copilot is now available in Xcode’s coding assistant",
           "title_original": "GitHub Copilot is now available in Xcode’s coding assistant",
           "summary": null,
@@ -287,8 +453,8 @@
       "items": [
         {
           "id": "e9c885c788ee9f0558a5c5799b829ed4d58705cc",
-          "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-          "title_zh": null,
+          "title": "GitHub Copilot 现已在 Xcode 的编码助手中可用 / GitHub Copilot is now available in Xcode’s coding assistant",
+          "title_zh": "GitHub Copilot 现已在 Xcode 的编码助手中可用",
           "title_en": "GitHub Copilot is now available in Xcode’s coding assistant",
           "title_original": "GitHub Copilot is now available in Xcode’s coding assistant",
           "summary": null,
@@ -302,15 +468,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8465,
-      "importance": 0.8465,
-      "importance_score": 0.8465,
+      "score": 0.8341,
+      "importance": 0.8341,
+      "importance_score": 0.8341,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9697,
+        "recency": 0.9006,
         "story_heat": 0.0
       },
       "category": "official",
@@ -323,8 +489,8 @@
       "latest_at": "2026-11-04T19:10:40Z",
       "primary_item": {
         "id": "e9c885c788ee9f0558a5c5799b829ed4d58705cc",
-        "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-        "title_zh": null,
+        "title": "GitHub Copilot 现已在 Xcode 的编码助手中可用 / GitHub Copilot is now available in Xcode’s coding assistant",
+        "title_zh": "GitHub Copilot 现已在 Xcode 的编码助手中可用",
         "title_en": "GitHub Copilot is now available in Xcode’s coding assistant",
         "title_original": "GitHub Copilot is now available in Xcode’s coding assistant",
         "summary": null,
@@ -337,7 +503,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
@@ -385,15 +551,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8434,
-      "importance": 0.8434,
-      "importance_score": 0.8434,
+      "score": 0.8316,
+      "importance": 0.8316,
+      "importance_score": 0.8316,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9186,
+        "recency": 0.8532,
         "story_heat": 0.0
       },
       "category": "official",
@@ -420,95 +586,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
-      }
-    },
-    {
-      "story_id": "story_93081f8d7ce0",
-      "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-      "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
-      "primary_url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
-      "source": "NVIDIA Developer Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "8bf891ad4442c080b28e71ce7263b36bb258536c",
-          "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-          "title_zh": null,
-          "title_en": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-          "title_original": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
-          "source": "NVIDIA Developer Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-04T17:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "NVIDIA Developer Blog"
-      ],
-      "items": [
-        {
-          "id": "8bf891ad4442c080b28e71ce7263b36bb258536c",
-          "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-          "title_zh": null,
-          "title_en": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-          "title_original": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
-          "source": "NVIDIA Developer Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-04T17:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8391,
-      "importance": 0.8391,
-      "importance_score": 0.8391,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.9,
-        "recency": 0.9397,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-04T17:00:00Z",
-      "latest_at": "2026-11-04T17:00:00Z",
-      "primary_item": {
-        "id": "8bf891ad4442c080b28e71ce7263b36bb258536c",
-        "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-        "title_zh": null,
-        "title_en": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-        "title_original": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
-        "source": "NVIDIA Developer Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
       "story_id": "story_31acb647fbf4",
-      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "title": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海 / [AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
       "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai",
       "primary_url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai",
       "source": "Latent Space",
@@ -516,8 +599,8 @@
       "sources": [
         {
           "id": "48dafdaecb3f27529bddfa92cd59b88fa5cf511f",
-          "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-          "title_zh": null,
+          "title": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海 / [AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+          "title_zh": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海",
           "title_en": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
           "title_original": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
           "summary": null,
@@ -536,8 +619,8 @@
       "items": [
         {
           "id": "48dafdaecb3f27529bddfa92cd59b88fa5cf511f",
-          "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-          "title_zh": null,
+          "title": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海 / [AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+          "title_zh": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海",
           "title_en": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
           "title_original": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
           "summary": null,
@@ -551,15 +634,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8388,
-      "importance": 0.8388,
-      "importance_score": 0.8388,
+      "score": 0.8264,
+      "importance": 0.8264,
+      "importance_score": 0.8264,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9713,
+        "recency": 0.9021,
         "story_heat": 0.0
       },
       "category": "official",
@@ -572,8 +655,8 @@
       "latest_at": "2026-11-04T19:17:30Z",
       "primary_item": {
         "id": "48dafdaecb3f27529bddfa92cd59b88fa5cf511f",
-        "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-        "title_zh": null,
+        "title": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海 / [AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+        "title_zh": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海",
         "title_en": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
         "title_original": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
         "summary": null,
@@ -586,12 +669,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
       "story_id": "story_a609cf207cdd",
-      "title": "Agile Deliberation: How AI helps humans define the gray areas",
+      "title": "敏捷审议：人工智能如何帮助人类定义灰色地带 / Agile Deliberation: How AI helps humans define the gray areas",
       "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
       "primary_url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
       "source": "Google Research Blog",
@@ -599,8 +682,8 @@
       "sources": [
         {
           "id": "b1364b692c31629e3724711e5cc3bff1d3fb3ac0",
-          "title": "Agile Deliberation: How AI helps humans define the gray areas",
-          "title_zh": null,
+          "title": "敏捷审议：人工智能如何帮助人类定义灰色地带 / Agile Deliberation: How AI helps humans define the gray areas",
+          "title_zh": "敏捷审议：人工智能如何帮助人类定义灰色地带",
           "title_en": "Agile Deliberation: How AI helps humans define the gray areas",
           "title_original": "Agile Deliberation: How AI helps humans define the gray areas",
           "summary": null,
@@ -619,8 +702,8 @@
       "items": [
         {
           "id": "b1364b692c31629e3724711e5cc3bff1d3fb3ac0",
-          "title": "Agile Deliberation: How AI helps humans define the gray areas",
-          "title_zh": null,
+          "title": "敏捷审议：人工智能如何帮助人类定义灰色地带 / Agile Deliberation: How AI helps humans define the gray areas",
+          "title_zh": "敏捷审议：人工智能如何帮助人类定义灰色地带",
           "title_en": "Agile Deliberation: How AI helps humans define the gray areas",
           "title_original": "Agile Deliberation: How AI helps humans define the gray areas",
           "summary": null,
@@ -634,15 +717,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8359,
-      "importance": 0.8359,
-      "importance_score": 0.8359,
+      "score": 0.8237,
+      "importance": 0.8237,
+      "importance_score": 0.8237,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9549,
+        "recency": 0.887,
         "story_heat": 0.0
       },
       "category": "official",
@@ -655,8 +738,8 @@
       "latest_at": "2026-11-04T18:07:05Z",
       "primary_item": {
         "id": "b1364b692c31629e3724711e5cc3bff1d3fb3ac0",
-        "title": "Agile Deliberation: How AI helps humans define the gray areas",
-        "title_zh": null,
+        "title": "敏捷审议：人工智能如何帮助人类定义灰色地带 / Agile Deliberation: How AI helps humans define the gray areas",
+        "title_zh": "敏捷审议：人工智能如何帮助人类定义灰色地带",
         "title_en": "Agile Deliberation: How AI helps humans define the gray areas",
         "title_original": "Agile Deliberation: How AI helps humans define the gray areas",
         "summary": null,
@@ -669,12 +752,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
       "story_id": "story_21fd076d6fb8",
-      "title": "How big is the open model economy today?",
+      "title": "今天的开放模式经济有多大？ / How big is the open model economy today?",
       "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
       "primary_url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
       "source": "Interconnects",
@@ -682,8 +765,8 @@
       "sources": [
         {
           "id": "5374c05a01c0a1a99c729735e311d744fdfca289",
-          "title": "How big is the open model economy today?",
-          "title_zh": null,
+          "title": "今天的开放模式经济有多大？ / How big is the open model economy today?",
+          "title_zh": "今天的开放模式经济有多大？",
           "title_en": "How big is the open model economy today?",
           "title_original": "How big is the open model economy today?",
           "summary": null,
@@ -702,8 +785,8 @@
       "items": [
         {
           "id": "5374c05a01c0a1a99c729735e311d744fdfca289",
-          "title": "How big is the open model economy today?",
-          "title_zh": null,
+          "title": "今天的开放模式经济有多大？ / How big is the open model economy today?",
+          "title_zh": "今天的开放模式经济有多大？",
           "title_en": "How big is the open model economy today?",
           "title_original": "How big is the open model economy today?",
           "summary": null,
@@ -717,15 +800,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8322,
-      "importance": 0.8322,
-      "importance_score": 0.8322,
+      "score": 0.8202,
+      "importance": 0.8202,
+      "importance_score": 0.8202,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9342,
+        "recency": 0.8677,
         "story_heat": 0.0
       },
       "category": "official",
@@ -738,8 +821,8 @@
       "latest_at": "2026-11-04T16:35:44Z",
       "primary_item": {
         "id": "5374c05a01c0a1a99c729735e311d744fdfca289",
-        "title": "How big is the open model economy today?",
-        "title_zh": null,
+        "title": "今天的开放模式经济有多大？ / How big is the open model economy today?",
+        "title_zh": "今天的开放模式经济有多大？",
         "title_en": "How big is the open model economy today?",
         "title_original": "How big is the open model economy today?",
         "summary": null,
@@ -752,12 +835,208 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
+      }
+    },
+    {
+      "story_id": "story_d1628fb52445",
+      "title": "langgraph-sdk==0.4.13",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
+      "primary_url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
+      "source": "LangGraph Releases",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "8eb9148ee0c01b62ab0fb9b2cf51f47b611e72bd",
+          "title": "langgraph-sdk==0.4.13",
+          "title_zh": null,
+          "title_en": "langgraph-sdk==0.4.13",
+          "title_original": "langgraph-sdk==0.4.13",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
+          "source": "LangGraph Releases",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-05T02:16:06Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LangGraph Releases"
+      ],
+      "items": [
+        {
+          "id": "8eb9148ee0c01b62ab0fb9b2cf51f47b611e72bd",
+          "title": "langgraph-sdk==0.4.13",
+          "title_zh": null,
+          "title_en": "langgraph-sdk==0.4.13",
+          "title_original": "langgraph-sdk==0.4.13",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
+          "source": "LangGraph Releases",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-05T02:16:06Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8436,
+      "importance": 0.8436,
+      "importance_score": 0.8436,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9977,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-05T02:16:06Z",
+      "latest_at": "2026-11-05T02:16:06Z",
+      "primary_item": {
+        "id": "8eb9148ee0c01b62ab0fb9b2cf51f47b611e72bd",
+        "title": "langgraph-sdk==0.4.13",
+        "title_zh": null,
+        "title_en": "langgraph-sdk==0.4.13",
+        "title_original": "langgraph-sdk==0.4.13",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
+        "source": "LangGraph Releases",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-11-05T02:26:39.494413Z"
+      }
+    },
+    {
+      "story_id": "story_f06268fdc285",
+      "title": "通往root的路径少了1000条简体中文（大陆） / A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "primary_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e847b83d4b78cfeb44f598d593db6aa5d5d80526",
+          "title": "通往root的路径少了1000条简体中文（大陆） / A thousand fewer paths to root",
+          "title_zh": "通往root的路径少了1000条简体中文（大陆）",
+          "title_en": "A thousand fewer paths to root",
+          "title_original": "A thousand fewer paths to root",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-04T08:00:00Z"
+        },
+        {
+          "id": "aa228762a9fff3cb54547c4b48a689f9c48de331",
+          "title": "通往root的路径少了1000条简体中文（大陆）",
+          "title_zh": "通往root的路径少了1000条简体中文（大陆）",
+          "title_en": null,
+          "title_original": "通往root的路径少了1000条简体中文（大陆）",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-05T02:01:04.884000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "openai.com"
+      ],
+      "items": [
+        {
+          "id": "e847b83d4b78cfeb44f598d593db6aa5d5d80526",
+          "title": "通往root的路径少了1000条简体中文（大陆） / A thousand fewer paths to root",
+          "title_zh": "通往root的路径少了1000条简体中文（大陆）",
+          "title_en": "A thousand fewer paths to root",
+          "title_original": "A thousand fewer paths to root",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-04T08:00:00Z"
+        },
+        {
+          "id": "aa228762a9fff3cb54547c4b48a689f9c48de331",
+          "title": "通往root的路径少了1000条简体中文（大陆）",
+          "title_zh": "通往root的路径少了1000条简体中文（大陆）",
+          "title_en": null,
+          "title_original": "通往root的路径少了1000条简体中文（大陆）",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-05T02:01:04.884000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.835,
+      "importance": 0.835,
+      "importance_score": 0.835,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7664,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-04T08:00:00Z",
+      "latest_at": "2026-11-05T02:01:04.884000Z",
+      "primary_item": {
+        "id": "e847b83d4b78cfeb44f598d593db6aa5d5d80526",
+        "title": "通往root的路径少了1000条简体中文（大陆） / A thousand fewer paths to root",
+        "title_zh": "通往root的路径少了1000条简体中文（大陆）",
+        "title_en": "A thousand fewer paths to root",
+        "title_original": "A thousand fewer paths to root",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
       "story_id": "story_103533f8718a",
-      "title": "CodeQL 2.27.4 improves accuracy and query metadata",
+      "title": "CodeQL 2.27.4 提高了准确性和查询元数据 / CodeQL 2.27.4 improves accuracy and query metadata",
       "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
       "primary_url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
       "source": "GitHub Changelog",
@@ -765,8 +1044,8 @@
       "sources": [
         {
           "id": "10fd7b165b0b7526bf7a8ff3da4d8869df89d28a",
-          "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-          "title_zh": null,
+          "title": "CodeQL 2.27.4 提高了准确性和查询元数据 / CodeQL 2.27.4 improves accuracy and query metadata",
+          "title_zh": "CodeQL 2.27.4 提高了准确性和查询元数据",
           "title_en": "CodeQL 2.27.4 improves accuracy and query metadata",
           "title_original": "CodeQL 2.27.4 improves accuracy and query metadata",
           "summary": null,
@@ -785,8 +1064,8 @@
       "items": [
         {
           "id": "10fd7b165b0b7526bf7a8ff3da4d8869df89d28a",
-          "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-          "title_zh": null,
+          "title": "CodeQL 2.27.4 提高了准确性和查询元数据 / CodeQL 2.27.4 improves accuracy and query metadata",
+          "title_zh": "CodeQL 2.27.4 提高了准确性和查询元数据",
           "title_en": "CodeQL 2.27.4 improves accuracy and query metadata",
           "title_original": "CodeQL 2.27.4 improves accuracy and query metadata",
           "summary": null,
@@ -800,15 +1079,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8408,
-      "importance": 0.8408,
-      "importance_score": 0.8408,
+      "score": 0.8282,
+      "importance": 0.8282,
+      "importance_score": 0.8282,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9824,
+        "recency": 0.9125,
         "story_heat": 0.0
       },
       "category": "official",
@@ -821,8 +1100,8 @@
       "latest_at": "2026-11-04T20:04:52Z",
       "primary_item": {
         "id": "10fd7b165b0b7526bf7a8ff3da4d8869df89d28a",
-        "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-        "title_zh": null,
+        "title": "CodeQL 2.27.4 提高了准确性和查询元数据 / CodeQL 2.27.4 improves accuracy and query metadata",
+        "title_zh": "CodeQL 2.27.4 提高了准确性和查询元数据",
         "title_en": "CodeQL 2.27.4 improves accuracy and query metadata",
         "title_original": "CodeQL 2.27.4 improves accuracy and query metadata",
         "summary": null,
@@ -835,12 +1114,177 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
+      }
+    },
+    {
+      "story_id": "story_93081f8d7ce0",
+      "title": "NVIDIA 工厂运营蓝图如何协调 AI 代理来调查生产问题 / How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
+      "primary_url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
+      "source": "NVIDIA Developer Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "8bf891ad4442c080b28e71ce7263b36bb258536c",
+          "title": "NVIDIA 工厂运营蓝图如何协调 AI 代理来调查生产问题 / How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+          "title_zh": "NVIDIA 工厂运营蓝图如何协调 AI 代理来调查生产问题",
+          "title_en": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+          "title_original": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
+          "source": "NVIDIA Developer Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-04T17:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Developer Blog"
+      ],
+      "items": [
+        {
+          "id": "8bf891ad4442c080b28e71ce7263b36bb258536c",
+          "title": "NVIDIA 工厂运营蓝图如何协调 AI 代理来调查生产问题 / How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+          "title_zh": "NVIDIA 工厂运营蓝图如何协调 AI 代理来调查生产问题",
+          "title_en": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+          "title_original": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
+          "source": "NVIDIA Developer Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-04T17:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8271,
+      "importance": 0.8271,
+      "importance_score": 0.8271,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.9,
+        "recency": 0.8728,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-04T17:00:00Z",
+      "latest_at": "2026-11-04T17:00:00Z",
+      "primary_item": {
+        "id": "8bf891ad4442c080b28e71ce7263b36bb258536c",
+        "title": "NVIDIA 工厂运营蓝图如何协调 AI 代理来调查生产问题 / How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+        "title_zh": "NVIDIA 工厂运营蓝图如何协调 AI 代理来调查生产问题",
+        "title_en": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+        "title_original": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues",
+        "source": "NVIDIA Developer Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-11-05T02:26:39.494413Z"
+      }
+    },
+    {
+      "story_id": "story_0e832117a16c",
+      "title": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+      "url": "https://www.aibase.com/news/32094",
+      "primary_url": "https://www.aibase.com/news/32094",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "8d88b476ec0bc63aa12aaf564bedc03668d90ffb",
+          "title": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+          "title_zh": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+          "title_en": null,
+          "title_original": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/32094",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-05T02:25:29.527974Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "8d88b476ec0bc63aa12aaf564bedc03668d90ffb",
+          "title": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+          "title_zh": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+          "title_en": null,
+          "title_original": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/32094",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-05T02:25:29.527974Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-05T02:25:29.527974Z",
+      "latest_at": "2026-11-05T02:25:29.527974Z",
+      "primary_item": {
+        "id": "8d88b476ec0bc63aa12aaf564bedc03668d90ffb",
+        "title": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+        "title_zh": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+        "title_en": null,
+        "title_original": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/32094",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
       "story_id": "story_8c723b403b8a",
-      "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+      "title": "使用 NVIDIA NeMo 将代理故障转化为测试和利用修复 / Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
       "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes",
       "primary_url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes",
       "source": "NVIDIA Developer Blog",
@@ -848,8 +1292,8 @@
       "sources": [
         {
           "id": "b96944b7ee8a80d44544d51222bf9f06d3b6f020",
-          "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
-          "title_zh": null,
+          "title": "使用 NVIDIA NeMo 将代理故障转化为测试和利用修复 / Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+          "title_zh": "使用 NVIDIA NeMo 将代理故障转化为测试和利用修复",
           "title_en": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
           "title_original": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
           "summary": null,
@@ -868,8 +1312,8 @@
       "items": [
         {
           "id": "b96944b7ee8a80d44544d51222bf9f06d3b6f020",
-          "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
-          "title_zh": null,
+          "title": "使用 NVIDIA NeMo 将代理故障转化为测试和利用修复 / Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+          "title_zh": "使用 NVIDIA NeMo 将代理故障转化为测试和利用修复",
           "title_en": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
           "title_original": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
           "summary": null,
@@ -883,15 +1327,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8367,
-      "importance": 0.8367,
-      "importance_score": 0.8367,
+      "score": 0.8248,
+      "importance": 0.8248,
+      "importance_score": 0.8248,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 0.9262,
+        "recency": 0.8602,
         "story_heat": 0.0
       },
       "category": "official",
@@ -904,8 +1348,8 @@
       "latest_at": "2026-11-04T16:00:00Z",
       "primary_item": {
         "id": "b96944b7ee8a80d44544d51222bf9f06d3b6f020",
-        "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
-        "title_zh": null,
+        "title": "使用 NVIDIA NeMo 将代理故障转化为测试和利用修复 / Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+        "title_zh": "使用 NVIDIA NeMo 将代理故障转化为测试和利用修复",
         "title_en": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
         "title_original": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
         "summary": null,
@@ -918,12 +1362,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
       "story_id": "story_909e1b342a31",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "title": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出 / Daybreak Red is now available in AWS GovCloud (US-East)",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "primary_url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "source": "OpenAI News",
@@ -931,8 +1375,8 @@
       "sources": [
         {
           "id": "9ae15b42a761f5271593ea78bb607bee577e4a74",
-          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-          "title_zh": null,
+          "title": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出 / Daybreak Red is now available in AWS GovCloud (US-East)",
+          "title_zh": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出",
           "title_en": "Daybreak Red is now available in AWS GovCloud (US-East)",
           "title_original": "Daybreak Red is now available in AWS GovCloud (US-East)",
           "summary": null,
@@ -951,8 +1395,8 @@
       "items": [
         {
           "id": "9ae15b42a761f5271593ea78bb607bee577e4a74",
-          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-          "title_zh": null,
+          "title": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出 / Daybreak Red is now available in AWS GovCloud (US-East)",
+          "title_zh": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出",
           "title_en": "Daybreak Red is now available in AWS GovCloud (US-East)",
           "title_original": "Daybreak Red is now available in AWS GovCloud (US-East)",
           "summary": null,
@@ -966,15 +1410,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8244,
-      "importance": 0.8244,
-      "importance_score": 0.8244,
+      "score": 0.814,
+      "importance": 0.814,
+      "importance_score": 0.814,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.8133,
+        "recency": 0.7554,
         "story_heat": 0.0
       },
       "category": "official",
@@ -987,8 +1431,8 @@
       "latest_at": "2026-11-04T07:00:00Z",
       "primary_item": {
         "id": "9ae15b42a761f5271593ea78bb607bee577e4a74",
-        "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-        "title_zh": null,
+        "title": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出 / Daybreak Red is now available in AWS GovCloud (US-East)",
+        "title_zh": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出",
         "title_en": "Daybreak Red is now available in AWS GovCloud (US-East)",
         "title_original": "Daybreak Red is now available in AWS GovCloud (US-East)",
         "summary": null,
@@ -1001,113 +1445,30 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
-      "story_id": "story_62835688e46d",
-      "title": "datasette-agent 0.5a0",
-      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
-      "primary_url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
-      "source": "Simon Willison",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "f85fea254c25c515d5f4fb888aec83f298d0f9ae",
-          "title": "datasette-agent 0.5a0",
-          "title_zh": null,
-          "title_en": "datasette-agent 0.5a0",
-          "title_original": "datasette-agent 0.5a0",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
-          "source": "Simon Willison",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-03T23:13:45Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Simon Willison"
-      ],
-      "items": [
-        {
-          "id": "f85fea254c25c515d5f4fb888aec83f298d0f9ae",
-          "title": "datasette-agent 0.5a0",
-          "title_zh": null,
-          "title_en": "datasette-agent 0.5a0",
-          "title_original": "datasette-agent 0.5a0",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
-          "source": "Simon Willison",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-03T23:13:45Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8009,
-      "importance": 0.8009,
-      "importance_score": 0.8009,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.9,
-        "recency": 0.727,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-03T23:13:45Z",
-      "latest_at": "2026-11-03T23:13:45Z",
-      "primary_item": {
-        "id": "f85fea254c25c515d5f4fb888aec83f298d0f9ae",
-        "title": "datasette-agent 0.5a0",
-        "title_zh": null,
-        "title_en": "datasette-agent 0.5a0",
-        "title_original": "datasette-agent 0.5a0",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
-        "source": "Simon Willison",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
-      }
-    },
-    {
-      "story_id": "story_2cee1d071980",
-      "title": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
-      "url": "https://www.aibase.com/news/32089",
-      "primary_url": "https://www.aibase.com/news/32089",
+      "story_id": "story_8b70abe0bcf8",
+      "title": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
+      "url": "https://www.aibase.com/news/32095",
+      "primary_url": "https://www.aibase.com/news/32095",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "5ad830cd72f917c094845028a4281a1db1a229f4",
-          "title": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
-          "title_zh": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
+          "id": "628d21f15f54245a3a0def4ba41e2ac5f02d93e9",
+          "title": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
+          "title_zh": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
           "title_en": null,
-          "title_original": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
+          "title_original": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32089",
+          "url": "https://www.aibase.com/news/32095",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
+          "published_at": "2026-11-05T02:25:29.527974Z"
         }
       ],
       "source_count": 1,
@@ -1116,31 +1477,31 @@
       ],
       "items": [
         {
-          "id": "5ad830cd72f917c094845028a4281a1db1a229f4",
-          "title": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
-          "title_zh": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
+          "id": "628d21f15f54245a3a0def4ba41e2ac5f02d93e9",
+          "title": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
+          "title_zh": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
           "title_en": null,
-          "title_original": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
+          "title_original": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32089",
+          "url": "https://www.aibase.com/news/32095",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
+          "published_at": "2026-11-05T02:25:29.527974Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7508,
-      "importance": 0.7508,
-      "importance_score": 0.7508,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9069,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1148,17 +1509,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-04T14:32:31.383581Z",
-      "latest_at": "2026-11-04T14:32:31.383581Z",
+      "earliest_at": "2026-11-05T02:25:29.527974Z",
+      "latest_at": "2026-11-05T02:25:29.527974Z",
       "primary_item": {
-        "id": "5ad830cd72f917c094845028a4281a1db1a229f4",
-        "title": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
-        "title_zh": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
+        "id": "628d21f15f54245a3a0def4ba41e2ac5f02d93e9",
+        "title": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
+        "title_zh": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
         "title_en": null,
-        "title_original": "OpenAI 员工的\"副业\"硬件：GPT-6 Astra 一周出图、一月出样",
+        "title_original": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/32089",
+        "url": "https://www.aibase.com/news/32095",
         "source": "AIbase",
         "source_name": "AIbase"
       },
@@ -1166,196 +1527,30 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
-      "story_id": "story_e2a9defc33ad",
-      "title": "Copilot 使用 API 中的 BYOK 和企业自定义模型 / BYOK and enterprise custom models in the Copilot usage API",
-      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-      "primary_url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "0b2414a218d2dfcfe59d09ac7f9ae87c04ea42d6",
-          "title": "Copilot 使用 API 中的 BYOK 和企业自定义模型 / BYOK and enterprise custom models in the Copilot usage API",
-          "title_zh": "Copilot 使用 API 中的 BYOK 和企业自定义模型",
-          "title_en": "BYOK and enterprise custom models in the Copilot usage API",
-          "title_original": "BYOK and enterprise custom models in the Copilot usage API",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-04T00:32:19Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "0b2414a218d2dfcfe59d09ac7f9ae87c04ea42d6",
-          "title": "Copilot 使用 API 中的 BYOK 和企业自定义模型 / BYOK and enterprise custom models in the Copilot usage API",
-          "title_zh": "Copilot 使用 API 中的 BYOK 和企业自定义模型",
-          "title_en": "BYOK and enterprise custom models in the Copilot usage API",
-          "title_original": "BYOK and enterprise custom models in the Copilot usage API",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-04T00:32:19Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8054,
-      "importance": 0.8054,
-      "importance_score": 0.8054,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7409,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-04T00:32:19Z",
-      "latest_at": "2026-11-04T00:32:19Z",
-      "primary_item": {
-        "id": "0b2414a218d2dfcfe59d09ac7f9ae87c04ea42d6",
-        "title": "Copilot 使用 API 中的 BYOK 和企业自定义模型 / BYOK and enterprise custom models in the Copilot usage API",
-        "title_zh": "Copilot 使用 API 中的 BYOK 和企业自定义模型",
-        "title_en": "BYOK and enterprise custom models in the Copilot usage API",
-        "title_original": "BYOK and enterprise custom models in the Copilot usage API",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
-      }
-    },
-    {
-      "story_id": "story_6ed65d9ab38c",
-      "title": "llm 0.37.1",
-      "url": "https://simonwillison.net/2026/Nov/3/llm",
-      "primary_url": "https://simonwillison.net/2026/Nov/3/llm",
-      "source": "Simon Willison",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "40f9489506ca8f31beec69a4b75f021d23a34a06",
-          "title": "llm 0.37.1",
-          "title_zh": null,
-          "title_en": null,
-          "title_original": "llm 0.37.1",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Nov/3/llm",
-          "source": "Simon Willison",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-03T21:41:42Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Simon Willison"
-      ],
-      "items": [
-        {
-          "id": "40f9489506ca8f31beec69a4b75f021d23a34a06",
-          "title": "llm 0.37.1",
-          "title_zh": null,
-          "title_en": null,
-          "title_original": "llm 0.37.1",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://simonwillison.net/2026/Nov/3/llm",
-          "source": "Simon Willison",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-03T21:41:42Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8,
-      "importance": 0.8,
-      "importance_score": 0.8,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.711,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-03T21:41:42Z",
-      "latest_at": "2026-11-03T21:41:42Z",
-      "primary_item": {
-        "id": "40f9489506ca8f31beec69a4b75f021d23a34a06",
-        "title": "llm 0.37.1",
-        "title_zh": null,
-        "title_en": null,
-        "title_original": "llm 0.37.1",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://simonwillison.net/2026/Nov/3/llm",
-        "source": "Simon Willison",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
-      }
-    },
-    {
-      "story_id": "story_18d99203e626",
-      "title": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
-      "url": "https://www.aibase.com/news/32088",
-      "primary_url": "https://www.aibase.com/news/32088",
+      "story_id": "story_36c313c0fbf0",
+      "title": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
+      "url": "https://www.aibase.com/news/32096",
+      "primary_url": "https://www.aibase.com/news/32096",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "59e2c45e7c4f8ac1db2a0e349793854ea3844b91",
-          "title": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
-          "title_zh": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
+          "id": "3aa40abea025579d7ff13ecca5f945430c568bbd",
+          "title": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
+          "title_zh": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
           "title_en": null,
-          "title_original": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
+          "title_original": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32088",
+          "url": "https://www.aibase.com/news/32096",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
+          "published_at": "2026-11-05T02:25:29.527974Z"
         }
       ],
       "source_count": 1,
@@ -1364,31 +1559,31 @@
       ],
       "items": [
         {
-          "id": "59e2c45e7c4f8ac1db2a0e349793854ea3844b91",
-          "title": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
-          "title_zh": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
+          "id": "3aa40abea025579d7ff13ecca5f945430c568bbd",
+          "title": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
+          "title_zh": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
           "title_en": null,
-          "title_original": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
+          "title_original": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32088",
+          "url": "https://www.aibase.com/news/32096",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
+          "published_at": "2026-11-05T02:25:29.527974Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7508,
-      "importance": 0.7508,
-      "importance_score": 0.7508,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9069,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1396,17 +1591,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-04T14:32:31.383581Z",
-      "latest_at": "2026-11-04T14:32:31.383581Z",
+      "earliest_at": "2026-11-05T02:25:29.527974Z",
+      "latest_at": "2026-11-05T02:25:29.527974Z",
       "primary_item": {
-        "id": "59e2c45e7c4f8ac1db2a0e349793854ea3844b91",
-        "title": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
-        "title_zh": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
+        "id": "3aa40abea025579d7ff13ecca5f945430c568bbd",
+        "title": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
+        "title_zh": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
         "title_en": null,
-        "title_original": "一个人一天搞定：Windows 11 原生测速工具背后的\"AI 副驾\"模式",
+        "title_original": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/32088",
+        "url": "https://www.aibase.com/news/32096",
         "source": "AIbase",
         "source_name": "AIbase"
       },
@@ -1414,30 +1609,30 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
-      "story_id": "story_5f6ae507519e",
-      "title": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
-      "url": "https://www.aibase.com/news/32082",
-      "primary_url": "https://www.aibase.com/news/32082",
+      "story_id": "story_d511db0265a2",
+      "title": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
+      "url": "https://www.aibase.com/news/32093",
+      "primary_url": "https://www.aibase.com/news/32093",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "b28a9cfc8e6305ff4790828343e96aff9cf318bd",
-          "title": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
-          "title_zh": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
+          "id": "309b16945333dc2cf4f209ec5d71d66565fb7cdf",
+          "title": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
+          "title_zh": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
           "title_en": null,
-          "title_original": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
+          "title_original": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32082",
+          "url": "https://www.aibase.com/news/32093",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
+          "published_at": "2026-11-05T02:25:29.527974Z"
         }
       ],
       "source_count": 1,
@@ -1446,31 +1641,31 @@
       ],
       "items": [
         {
-          "id": "b28a9cfc8e6305ff4790828343e96aff9cf318bd",
-          "title": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
-          "title_zh": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
+          "id": "309b16945333dc2cf4f209ec5d71d66565fb7cdf",
+          "title": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
+          "title_zh": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
           "title_en": null,
-          "title_original": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
+          "title_original": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32082",
+          "url": "https://www.aibase.com/news/32093",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
+          "published_at": "2026-11-05T02:25:29.527974Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7508,
-      "importance": 0.7508,
-      "importance_score": 0.7508,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9069,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1478,17 +1673,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-04T14:32:31.383581Z",
-      "latest_at": "2026-11-04T14:32:31.383581Z",
+      "earliest_at": "2026-11-05T02:25:29.527974Z",
+      "latest_at": "2026-11-05T02:25:29.527974Z",
       "primary_item": {
-        "id": "b28a9cfc8e6305ff4790828343e96aff9cf318bd",
-        "title": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
-        "title_zh": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
+        "id": "309b16945333dc2cf4f209ec5d71d66565fb7cdf",
+        "title": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
+        "title_zh": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
         "title_en": null,
-        "title_original": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
+        "title_original": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/32082",
+        "url": "https://www.aibase.com/news/32093",
         "source": "AIbase",
         "source_name": "AIbase"
       },
@@ -1496,30 +1691,30 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     },
     {
-      "story_id": "story_30b7a3b71d5a",
-      "title": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
-      "url": "https://www.aibase.com/news/32084",
-      "primary_url": "https://www.aibase.com/news/32084",
+      "story_id": "story_45491d707194",
+      "title": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
+      "url": "https://www.aibase.com/news/32098",
+      "primary_url": "https://www.aibase.com/news/32098",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "fe216d8a15ddf018dc559b1027367280c696a14f",
-          "title": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
-          "title_zh": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
+          "id": "330bd5a15cabc7f77c14d8c93f3f001e058ccbe5",
+          "title": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
+          "title_zh": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
           "title_en": null,
-          "title_original": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
+          "title_original": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32084",
+          "url": "https://www.aibase.com/news/32098",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
+          "published_at": "2026-11-05T02:25:29.527974Z"
         }
       ],
       "source_count": 1,
@@ -1528,31 +1723,31 @@
       ],
       "items": [
         {
-          "id": "fe216d8a15ddf018dc559b1027367280c696a14f",
-          "title": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
-          "title_zh": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
+          "id": "330bd5a15cabc7f77c14d8c93f3f001e058ccbe5",
+          "title": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
+          "title_zh": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
           "title_en": null,
-          "title_original": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
+          "title_original": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32084",
+          "url": "https://www.aibase.com/news/32098",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
+          "published_at": "2026-11-05T02:25:29.527974Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7508,
-      "importance": 0.7508,
-      "importance_score": 0.7508,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9069,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1560,17 +1755,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-04T14:32:31.383581Z",
-      "latest_at": "2026-11-04T14:32:31.383581Z",
+      "earliest_at": "2026-11-05T02:25:29.527974Z",
+      "latest_at": "2026-11-05T02:25:29.527974Z",
       "primary_item": {
-        "id": "fe216d8a15ddf018dc559b1027367280c696a14f",
-        "title": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
-        "title_zh": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
+        "id": "330bd5a15cabc7f77c14d8c93f3f001e058ccbe5",
+        "title": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
+        "title_zh": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
         "title_en": null,
-        "title_original": "字节跳动收紧内部AI权限：网传将全公司封禁外部AI访问L4 代码库，高管回应保密与体验平衡",
+        "title_original": "OpenAI在ChatGPT内置GIF生成器，由未公开Images2.6模型驱动",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/32084",
+        "url": "https://www.aibase.com/news/32098",
         "source": "AIbase",
         "source_name": "AIbase"
       },
@@ -1578,171 +1773,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
-      }
-    },
-    {
-      "story_id": "story_47237af9f73d",
-      "title": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-      "url": "https://www.aibase.com/news/32081",
-      "primary_url": "https://www.aibase.com/news/32081",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "436f600a520e291d8dd2807b50c2df2d9288bf24",
-          "title": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-          "title_zh": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-          "title_en": null,
-          "title_original": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32081",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "436f600a520e291d8dd2807b50c2df2d9288bf24",
-          "title": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-          "title_zh": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-          "title_en": null,
-          "title_original": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32081",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7508,
-      "importance": 0.7508,
-      "importance_score": 0.7508,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9069,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-04T14:32:31.383581Z",
-      "latest_at": "2026-11-04T14:32:31.383581Z",
-      "primary_item": {
-        "id": "436f600a520e291d8dd2807b50c2df2d9288bf24",
-        "title": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-        "title_zh": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-        "title_en": null,
-        "title_original": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/32081",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
-      }
-    },
-    {
-      "story_id": "story_b2062a31b869",
-      "title": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-      "url": "https://www.aibase.com/news/32083",
-      "primary_url": "https://www.aibase.com/news/32083",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "0bf26dbbe0b2100ff61c8a57c77433150aa8a099",
-          "title": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-          "title_zh": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-          "title_en": null,
-          "title_original": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32083",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "0bf26dbbe0b2100ff61c8a57c77433150aa8a099",
-          "title": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-          "title_zh": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-          "title_en": null,
-          "title_original": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32083",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-04T14:32:31.383581Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7508,
-      "importance": 0.7508,
-      "importance_score": 0.7508,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9069,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-04T14:32:31.383581Z",
-      "latest_at": "2026-11-04T14:32:31.383581Z",
-      "primary_item": {
-        "id": "0bf26dbbe0b2100ff61c8a57c77433150aa8a099",
-        "title": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-        "title_zh": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-        "title_en": null,
-        "title_original": "机器人距离自主完成复杂任务还有多远?王兴兴谈具身智能突破方向",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/32083",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-11-04T21:45:28.730324Z"
+        "scored_at": "2026-11-05T02:26:39.494413Z"
       }
     }
   ]

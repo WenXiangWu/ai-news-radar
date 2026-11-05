@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T21:45:28.376742+00:00",
+  "generated_at": "2026-11-05T02:26:39.026472+00:00",
   "today": "2026-11-05",
-  "lead": "OpenAI将收购Pierre Computer Company；GitHub Copilot is now available in Xcode’s coding assistant；Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+  "lead": "OpenAI将收购Pierre Computer Company；通往root的路径少了1000条简体中文（大陆）；langgraph==1.2.20",
   "brief_count": 20,
   "hot_preview": [
     {
@@ -11,7 +11,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-04T21:12:50.695000+00:00",
       "source_count": 4,
-      "score": 91,
+      "score": 90,
       "official": true,
       "topics": [
         "openai",
@@ -22,62 +22,66 @@
       "hot_score": 100
     },
     {
+      "title": "高通 Cloud AI 100 Ultra——150W 人工智能加速卡，配备 128GB 内存，传输速率达 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "source": "www.qualcomm.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-05T01:44:43.584000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
       "title": "大型语言模型可证明推理方面的进展",
       "url": "https://www.anthropic.com/research/provable-inference",
       "source": "www.anthropic.com",
       "site_id": "buzzing",
       "published_at": "2026-11-04T19:37:46.946000+00:00",
       "source_count": 3,
-      "score": 57,
+      "score": 55,
       "official": true,
       "topics": [
         "anthropic"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 100
+      "hot_score": 68
     },
     {
-      "title": "杰弗里·辛顿：说不定没有人工智能，我们的处境反而会更好",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-      "source": "www.theguardian.com",
+      "title": "图 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "source": "openai.com",
       "site_id": "buzzing",
-      "published_at": "2026-11-04T15:21:22.116000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 70
-    },
-    {
-      "title": "人工智能正迫使我们偿还40年的技术债务",
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "source": "spectrum.ieee.org",
-      "site_id": "buzzing",
-      "published_at": "2026-11-04T15:21:22.120000+00:00",
-      "source_count": 3,
-      "score": 56,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 70
-    },
-    {
-      "title": "腾讯 Hy4",
-      "url": "https://hy.tencent.ai/research/hy4",
-      "source": "hy.tencent.ai",
-      "site_id": "buzzing",
-      "published_at": "2026-11-04T20:08:58.499000+00:00",
+      "published_at": "2026-11-05T02:17:02.236000+00:00",
       "source_count": 2,
-      "score": 54,
-      "official": false,
-      "topics": [],
+      "score": 55,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
+      "hot_score": 59
+    },
+    {
+      "title": "通往root的路径少了1000条简体中文（大陆）",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T02:01:04.884000+00:00",
+      "source_count": 2,
+      "score": 84,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
+      "reason": "",
+      "label": "官方更新",
+      "hot_score": 58
     }
   ],
   "topics": [
@@ -86,21 +90,21 @@
       "label": "OpenAI / ChatGPT",
       "group": "vendor",
       "blurb": "GPT、ChatGPT、Sora 与公司动态",
-      "count": 19
+      "count": 26
     },
     {
       "slug": "anthropic",
       "label": "Anthropic / Claude",
       "group": "vendor",
       "blurb": "Claude、Claude Code 与安全研究",
-      "count": 23
+      "count": 20
     },
     {
       "slug": "google",
       "label": "Google / Gemini",
       "group": "vendor",
       "blurb": "Gemini、DeepMind、Veo",
-      "count": 9
+      "count": 8
     },
     {
       "slug": "deepseek",
@@ -114,21 +118,21 @@
       "label": "通义千问 Qwen",
       "group": "vendor",
       "blurb": "Qwen 开源与端侧",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "agent",
       "label": "Agent 智能体",
       "group": "tech",
       "blurb": "规划、工具调用、多步任务",
-      "count": 17
+      "count": 13
     },
     {
       "slug": "coding",
       "label": "AI 编码",
       "group": "tech",
       "blurb": "编码助手与开发工作流",
-      "count": 8
+      "count": 12
     },
     {
       "slug": "mcp",
@@ -142,21 +146,21 @@
       "label": "开源生态",
       "group": "tech",
       "blurb": "权重开放与社区项目",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "launch",
       "label": "模型发布",
       "group": "form",
       "blurb": "新模型、权重与价格",
-      "count": 9
+      "count": 14
     },
     {
       "slug": "paper",
       "label": "论文研究",
       "group": "form",
       "blurb": "论文、基准与评测",
-      "count": 2
+      "count": 1
     },
     {
       "slug": "industry",
