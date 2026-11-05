@@ -1,13 +1,13 @@
 {
   "title": "2026-W45 周报",
   "dates": [
+    "2026-11-06",
     "2026-11-05",
     "2026-11-04",
     "2026-11-03",
     "2026-11-02",
     "2026-11-01",
-    "2026-10-31",
-    "2026-10-30"
+    "2026-10-31"
   ],
   "total_items": 40,
   "items": [
@@ -28,17 +28,30 @@
       "label": "官方更新"
     },
     {
-      "title": "仔细观察声子 TTS。推出领先基准的高质量设备语音。",
-      "url": "https://huggingface.co/blog/phonon-tts",
-      "source": "Hugging Face Blog",
+      "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "source": "Google AI Blog",
       "site_id": "official_ai",
-      "published_at": "2026-11-05T00:00:00+00:00",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "source_count": 1,
+      "score": 85,
+      "official": true,
+      "topics": [
+        "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "秘密扫描升级探测器，SpaceX 成为合作伙伴",
+      "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T15:48:50+00:00",
       "source_count": 1,
       "score": 84,
       "official": true,
-      "topics": [
-        "opensource"
-      ],
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -89,45 +102,30 @@
       "label": "官方更新"
     },
     {
-      "title": "v0.33.0rc2: [ROCm][错误修复] 当 gfx950 上 M*N >= 2^31 时跳过 AITER 调整的 GEMM (#64567)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
-      "source": "vLLM Releases",
+      "title": "通过 Foundry Local 在设备上进行代理编码",
+      "url": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b",
+      "source": "Azure AI Foundry Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T09:10:43+00:00",
+      "published_at": "2026-11-05T14:00:38+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [
-        "launch"
+        "coding"
       ],
       "reason": "",
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 交换季节到了",
-      "url": "https://latent.space/p/ainews-it-s-swapping-season",
-      "source": "Latent Space",
+      "title": "Microsoft Foundry 的新增功能 | 2026 年 10 月",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026",
+      "source": "Azure AI Foundry Blog",
       "site_id": "official_ai",
-      "published_at": "2026-11-05T06:24:09+00:00",
+      "published_at": "2026-11-05T11:40:48+00:00",
       "source_count": 1,
       "score": 83,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "为负责任的人工智能基础设施设定新标准",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T02:00:00+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -173,90 +171,16 @@
       "label": "官方更新"
     },
     {
-      "title": "【AINews】构建AIE CODE：顶级编码代理大会",
-      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
-      "source": "Latent Space",
+      "title": "仔细观察声子 TTS。推出领先基准的高质量设备语音。",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source": "Hugging Face Blog",
       "site_id": "official_ai",
-      "published_at": "2026-10-30T08:24:29+00:00",
-      "source_count": 1,
-      "score": 83,
-      "official": true,
-      "topics": [
-        "agent",
-        "coding"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-cli==0.4.41",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.41",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T02:30:54+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
       "source_count": 1,
       "score": 82,
       "official": true,
       "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.20",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T02:20:53+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.13",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T02:16:06+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营",
-      "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations",
-      "source": "NVIDIA Developer Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-04T22:00:17+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "GitHub Copilot 现已在 Xcode 的编码助手中可用",
-      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "source": "GitHub Changelog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-04T19:10:40+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "coding"
+        "opensource"
       ],
       "reason": "",
       "label": "官方更新"
@@ -376,11 +300,11 @@
       "label": "官方更新"
     },
     {
-      "title": "CodeQL 2.27.4 提高了准确性和查询元数据",
-      "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-      "source": "GitHub Changelog",
+      "title": "[AINews] 交换季节到了",
+      "url": "https://latent.space/p/ainews-it-s-swapping-season",
+      "source": "Latent Space",
       "site_id": "official_ai",
-      "published_at": "2026-11-04T20:04:52+00:00",
+      "published_at": "2026-11-05T06:24:09+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
@@ -389,15 +313,62 @@
       "label": "官方更新"
     },
     {
-      "title": "[AINews] 潜在空间背后：2026 年杀掉我的 SaaS、Jev 和 AI |艾艾上海",
-      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai",
-      "source": "Latent Space",
+      "title": "langgraph-cli==0.4.41",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.41",
+      "source": "LangGraph Releases",
       "site_id": "official_ai",
-      "published_at": "2026-11-04T19:17:30+00:00",
+      "published_at": "2026-11-05T02:30:54+00:00",
       "source_count": 1,
       "score": 81,
       "official": true,
-      "topics": [],
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph==1.2.20",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T02:20:53+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.13",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T02:16:06+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "为负责任的人工智能基础设施设定新标准",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T02:00:00+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [
+        "openai"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -585,8 +556,34 @@
       ],
       "reason": "",
       "label": "官方更新"
+    },
+    {
+      "title": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
+      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-10-30T15:01:36+00:00",
+      "source_count": 1,
+      "score": 81,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "NVIDIA 如何使用 AI 代理简化 AI 工厂运营",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations",
+      "source": "NVIDIA Developer Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-04T22:00:17+00:00",
+      "source_count": 1,
+      "score": 80,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
     }
   ],
-  "generated_at": "2026-11-05T10:51:27.789174+00:00",
+  "generated_at": "2026-11-05T18:44:33.455236+00:00",
   "period": "2026-W45"
 }

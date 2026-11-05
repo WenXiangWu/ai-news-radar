@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-11-05T10:51:27.789174+00:00",
+  "generated_at": "2026-11-05T18:44:33.455236+00:00",
   "slug": "opensource",
   "label": "开源生态",
   "group": "tech",
   "blurb": "权重开放与社区项目",
-  "total_items": 13,
+  "total_items": 10,
   "items": [
+    {
+      "title": "百度发布2800亿参数ERNIE 5.5 Flash Base开源基础模型",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
+      "source": "The Decoder AI News",
+      "site_id": "curated_media",
+      "published_at": "2026-11-05T17:56:41+00:00",
+      "source_count": 1,
+      "score": 62,
+      "official": false,
+      "topics": [
+        "opensource",
+        "launch"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
+      "title": "Anthropic 开源 FlashProve 来证明哪个 AI 模型写出了答案",
+      "url": "https://thenextweb.com/news/anthropic-flashprove-provable-inference-ai-model-identity",
+      "source": "The Next Web",
+      "site_id": "techurls",
+      "published_at": "2026-11-05T14:26:38+00:00",
+      "source_count": 1,
+      "score": 51,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
     {
       "title": "国产RNA生物大模型重大突破：中国科大团队研发 structRFM 登上《自然》并全面开源",
       "url": "https://www.aibase.com/news/32107",
@@ -13,7 +45,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-05T10:50:22.611924+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -29,7 +61,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-05T10:50:22.611924+00:00",
       "source_count": 1,
-      "score": 77,
+      "score": 75,
       "official": false,
       "topics": [
         "opensource",
@@ -45,7 +77,7 @@
       "site_id": "newsnow",
       "published_at": "2026-11-05T10:41:03.430000+00:00",
       "source_count": 1,
-      "score": 52,
+      "score": 50,
       "official": false,
       "topics": [
         "opensource"
@@ -60,7 +92,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-05T02:25:29.527974+00:00",
       "source_count": 1,
-      "score": 75,
+      "score": 73,
       "official": false,
       "topics": [
         "agent",
@@ -77,7 +109,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T00:00:00+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 82,
       "official": true,
       "topics": [
         "opensource"
@@ -86,13 +118,29 @@
       "label": "官方更新"
     },
     {
+      "title": "Anthropic 为重要开源项目新增可选安全扫描服务",
+      "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa",
+      "source": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-11-04T19:53:34+00:00",
+      "source_count": 1,
+      "score": 55,
+      "official": false,
+      "topics": [
+        "anthropic",
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注"
+    },
+    {
       "title": "开源人工智能正在蓬勃发展。Hugging Face解释了谁获利。",
       "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
       "source": "TechCrunch AI",
       "site_id": "curated_media",
       "published_at": "2026-11-04T19:30:04+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 58,
       "official": false,
       "topics": [
         "opensource"
@@ -107,107 +155,11 @@
       "site_id": "curated_media",
       "published_at": "2026-11-04T18:44:57+00:00",
       "source_count": 1,
-      "score": 60,
+      "score": 58,
       "official": false,
       "topics": [
         "opensource",
         "industry"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "source": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-04T17:50:10+00:00",
-      "source_count": 1,
-      "score": 82,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Kimi K3.1 Pro 各款车型的重量已公布",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "source": "huggingface.co",
-      "site_id": "buzzing",
-      "published_at": "2026-11-04T17:30:58.063000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "opensource"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "新的开源基准揭示推理是云运营中人工智能的最大瓶颈",
-      "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-11-04T16:42:52+00:00",
-      "source_count": 1,
-      "score": 60,
-      "official": false,
-      "topics": [
-        "opensource",
-        "paper"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "GPT-6 Astra 看到矩阵并直接通过权重重新编程其他 AI 模型",
-      "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-11-04T15:44:44+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": false,
-      "topics": [
-        "openai",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 的新原型证明了哪个模型在不暴露其权重的情况下编写了 AI 响应",
-      "url": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights",
-      "source": "The Decoder AI News",
-      "site_id": "curated_media",
-      "published_at": "2026-11-04T15:23:49+00:00",
-      "source_count": 1,
-      "score": 59,
-      "official": true,
-      "topics": [
-        "anthropic",
-        "opensource",
-        "launch"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "Anthropic 为重要开源项目新增可选安全扫描服务",
-      "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa",
-      "source": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-11-04T11:53:34+00:00",
-      "source_count": 1,
-      "score": 55,
-      "official": false,
-      "topics": [
-        "anthropic",
-        "opensource"
       ],
       "reason": "",
       "label": "值得关注"
