@@ -1,24 +1,82 @@
 {
-  "generated_at": "2026-11-06T00:15:12.514507+00:00",
+  "generated_at": "2026-11-06T06:46:15.260236+00:00",
   "date": "2026-11-06",
   "timezone": "Asia/Shanghai",
-  "lead": "用于交互式世界模拟的全新 NVIDIA Cosmos 3 开放模型；适用于 Azure Developer CLI 的 Microsoft Foundry 扩展现已正式推出；Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
+  "lead": "Codex CLI 0.167.0；langgraph-cli==0.4.42；langgraph-sdk==0.4.14",
   "total_items": 20,
   "selection": "official_first_then_crossing",
   "hot": [],
   "items": [
     {
-      "title": "用于交互式世界模拟的全新 NVIDIA Cosmos 3 开放模型",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "source": "Hugging Face Blog",
+      "title": "Codex CLI 0.167.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "site_id": "official_ai",
-      "published_at": "2026-11-05T19:35:16+00:00",
+      "published_at": "2026-11-06T00:00:00+00:00",
       "source_count": 1,
       "score": 85,
       "official": true,
       "topics": [
-        "opensource"
+        "openai",
+        "agent",
+        "coding"
       ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-cli==0.4.42",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.42",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-06T03:04:13+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "langgraph-sdk==0.4.14",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14",
+      "source": "LangGraph Releases",
+      "site_id": "official_ai",
+      "published_at": "2026-11-06T03:03:34+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "launch"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用指标 API 添加了代码审查详细信息和解决率",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-06T00:19:07+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "使用指标 API 标记遥测和版本差距",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "source": "GitHub Changelog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-06T00:08:31+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [],
       "reason": "",
       "label": "官方更新"
     },
@@ -29,9 +87,41 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T20:55:45+00:00",
       "source_count": 1,
-      "score": 84,
+      "score": 83,
       "official": true,
       "topics": [],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "Cult.fit 通过 Codex 增强运营能力",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T20:00:00+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "openai",
+        "agent",
+        "coding"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "用于交互式世界模拟的全新 NVIDIA Cosmos 3 开放模型",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T19:35:16+00:00",
+      "source_count": 1,
+      "score": 83,
+      "official": true,
+      "topics": [
+        "opensource"
+      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -42,10 +132,25 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T17:00:00+00:00",
       "source_count": 1,
-      "score": 83,
+      "score": 82,
       "official": true,
       "topics": [
         "google"
+      ],
+      "reason": "",
+      "label": "官方更新"
+    },
+    {
+      "title": "澳大利亚大学正在培养人工智能本土毕业生",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source": "OpenAI News",
+      "site_id": "official_ai",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "source_count": 1,
+      "score": 82,
+      "official": true,
+      "topics": [
+        "openai"
       ],
       "reason": "",
       "label": "官方更新"
@@ -57,7 +162,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T15:48:50+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [],
       "reason": "",
@@ -70,7 +175,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T14:00:38+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "coding"
@@ -85,7 +190,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T09:00:00+00:00",
       "source_count": 1,
-      "score": 82,
+      "score": 81,
       "official": true,
       "topics": [
         "openai"
@@ -100,7 +205,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T11:40:48+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [],
       "reason": "",
@@ -113,7 +218,7 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T08:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 80,
       "official": true,
       "topics": [
         "openai"
@@ -128,97 +233,9 @@
       "site_id": "official_ai",
       "published_at": "2026-11-05T08:00:00+00:00",
       "source_count": 1,
-      "score": 81,
+      "score": 79,
       "official": true,
       "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "[AINews] 交换季节到了",
-      "url": "https://latent.space/p/ainews-it-s-swapping-season",
-      "source": "Latent Space",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T06:24:09+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-cli==0.4.41",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.41",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T02:30:54+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph==1.2.20",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T02:20:53+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "langgraph-sdk==0.4.13",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
-      "source": "LangGraph Releases",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T02:16:06+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "launch"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "为负责任的人工智能基础设施设定新标准",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T02:00:00+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "官方更新"
-    },
-    {
-      "title": "Flipsnack 通过转化优化来增加产品注册量",
-      "url": "https://openai.com/ads/customers/flipsnack",
-      "source": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-11-05T00:45:15+00:00",
-      "source_count": 1,
-      "score": 80,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
       "reason": "",
       "label": "官方更新"
     },
@@ -229,7 +246,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-05T20:36:25+00:00",
       "source_count": 1,
-      "score": 64,
+      "score": 62,
       "official": true,
       "topics": [
         "openai"
@@ -244,7 +261,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-05T12:20:35+00:00",
       "source_count": 1,
-      "score": 63,
+      "score": 62,
       "official": true,
       "topics": [
         "openai",
@@ -261,7 +278,7 @@
       "site_id": "curated_media",
       "published_at": "2026-11-05T19:06:12+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "openai",
@@ -277,25 +294,10 @@
       "site_id": "curated_media",
       "published_at": "2026-11-05T19:05:31+00:00",
       "source_count": 1,
-      "score": 62,
+      "score": 61,
       "official": true,
       "topics": [
         "google"
-      ],
-      "reason": "",
-      "label": "值得关注"
-    },
-    {
-      "title": "OpenAI 总裁 Greg Brockman 表示公司可能会在 2027 年做好 IPO 的准备",
-      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027",
-      "source": "TechCrunch AI",
-      "site_id": "curated_media",
-      "published_at": "2026-11-05T18:02:27+00:00",
-      "source_count": 1,
-      "score": 62,
-      "official": true,
-      "topics": [
-        "openai"
       ],
       "reason": "",
       "label": "值得关注"
