@@ -1,8 +1,39 @@
 {
-  "generated_at": "2026-11-05T18:44:33.455236+00:00",
+  "generated_at": "2026-11-06T00:15:12.514507+00:00",
   "window_hours": 168,
-  "total_items": 11,
+  "total_items": 10,
   "items": [
+    {
+      "title": "Claude Code 会将您的电子邮件地址发送给网站",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "source": "github.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-05T23:17:07.742000+00:00",
+      "source_count": 3,
+      "score": 57,
+      "official": true,
+      "topics": [
+        "anthropic",
+        "agent"
+      ],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 100
+    },
+    {
+      "title": "大选后投资者撤离AI交易，纳斯达克指数下跌5%",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "source": "www.wsj.com",
+      "site_id": "buzzing",
+      "published_at": "2026-11-05T19:34:42.615000+00:00",
+      "source_count": 3,
+      "score": 56,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "多源热议",
+      "hot_score": 81
+    },
     {
       "title": "GPT-6 Astra 在安全研究方面表现隐隐逊色",
       "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
@@ -10,28 +41,74 @@
       "site_id": "buzzing",
       "published_at": "2026-11-05T15:45:34.486000+00:00",
       "source_count": 3,
-      "score": 56,
+      "score": 55,
       "official": true,
       "topics": [
         "openai"
       ],
       "reason": "",
       "label": "多源热议",
-      "hot_score": 94
+      "hot_score": 59
     },
     {
-      "title": "由于投资者在选举后退出人工智能交易，纳斯达克指数下跌 5%",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "title": "库班：Facebook 故意投放人工智能深度伪造诈骗广告；文档称欺诈收入为 $16B",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
       "source": "Hacker News (黑客新闻)",
       "site_id": "iris",
-      "published_at": "2026-11-05T18:00:01+00:00",
+      "published_at": "2026-11-05T23:09:57+00:00",
       "source_count": 2,
       "score": 54,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 56
+      "hot_score": 55
+    },
+    {
+      "title": "腾讯推出领先的开源人工智能模型之一Hy4",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models",
+      "source": "Hacker News (黑客新闻)",
+      "site_id": "iris",
+      "published_at": "2026-11-05T20:21:43+00:00",
+      "source_count": 2,
+      "score": 54,
+      "official": false,
+      "topics": [
+        "opensource"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 43
+    },
+    {
+      "title": "作为双侧人工耳蜗使用者，我的心理物理学体验",
+      "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+      "source": "claude.ai",
+      "site_id": "buzzing",
+      "published_at": "2026-11-05T19:34:42.612000+00:00",
+      "source_count": 2,
+      "score": 53,
+      "official": false,
+      "topics": [
+        "anthropic"
+      ],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 41
+    },
+    {
+      "title": "Meta 警告称，选举对数据中心的强烈反对可能会使人工智能扩张变得更加困难",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder",
+      "source": "TechCrunch AI",
+      "site_id": "curated_media",
+      "published_at": "2026-11-05T19:12:39+00:00",
+      "source_count": 2,
+      "score": 64,
+      "official": false,
+      "topics": [],
+      "reason": "",
+      "label": "值得关注",
+      "hot_score": 39
     },
     {
       "title": "Bild AI (YC W25) 正在招聘创始产品工程师",
@@ -40,12 +117,12 @@
       "site_id": "iris",
       "published_at": "2026-11-05T17:01:23+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 52
+      "hot_score": 33
     },
     {
       "title": "MCP 详解",
@@ -54,14 +131,14 @@
       "site_id": "buzzing",
       "published_at": "2026-11-05T16:23:50.403000+00:00",
       "source_count": 2,
-      "score": 54,
+      "score": 53,
       "official": true,
       "topics": [
         "mcp"
       ],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 49
+      "hot_score": 31
     },
     {
       "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
@@ -70,102 +147,12 @@
       "site_id": "curated_media",
       "published_at": "2026-11-05T14:42:00+00:00",
       "source_count": 2,
-      "score": 64,
+      "score": 63,
       "official": false,
       "topics": [],
       "reason": "",
       "label": "值得关注",
-      "hot_score": 43
-    },
-    {
-      "title": "高通 Cloud AI 100 Ultra——150W 人工智能加速卡，配备 128GB 内存，传输速率达 548GB/s",
-      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-      "source": "www.qualcomm.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-05T01:44:43.584000+00:00",
-      "source_count": 3,
-      "score": 53,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "多源热议",
-      "hot_score": 29
-    },
-    {
-      "title": "图 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-05T02:17:02.236000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 15
-    },
-    {
-      "title": "通往root的路径少了1000条简体中文（大陆）",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "source": "openai.com",
-      "site_id": "buzzing",
-      "published_at": "2026-11-05T02:01:04.884000+00:00",
-      "source_count": 2,
-      "score": 51,
-      "official": true,
-      "topics": [
-        "openai"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 15
-    },
-    {
-      "title": "你需要钢铁般的意志才能与人工智能代理合作",
-      "url": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents",
-      "source": "Hacker News · 24h最热",
-      "site_id": "zeli",
-      "published_at": "2026-11-05T00:01:30+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 13
-    },
-    {
-      "title": "现在什么都是AI骗局了",
-      "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now",
-      "source": "www.davidralphlewis.co.uk",
-      "site_id": "buzzing",
-      "published_at": "2026-11-04T23:04:46.586000+00:00",
-      "source_count": 2,
-      "score": 50,
-      "official": false,
-      "topics": [],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 12
-    },
-    {
-      "title": "Gemini for Home 现已接入 AT&T 的智能安全系统",
-      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "source": "The Verge",
-      "site_id": "curated_media",
-      "published_at": "2026-11-04T20:23:24+00:00",
-      "source_count": 2,
-      "score": 58,
-      "official": false,
-      "topics": [
-        "google"
-      ],
-      "reason": "",
-      "label": "值得关注",
-      "hot_score": 9
+      "hot_score": 27
     }
   ]
 }
