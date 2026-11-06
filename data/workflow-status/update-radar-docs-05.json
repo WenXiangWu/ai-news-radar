@@ -7,11 +7,11 @@
   "groups": [
     "docs-05"
   ],
-  "run_id": "42184140622",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/42184140622",
+  "run_id": "42284155111",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/42284155111",
   "conclusion": "failure",
-  "started_at": "2026-11-06T08:39:45.595036+00:00",
-  "finished_at": "2026-11-06T08:39:45.595036+00:00",
+  "started_at": "2026-11-06T20:42:13.297483+00:00",
+  "finished_at": "2026-11-06T20:42:13.297483+00:00",
   "push": {
     "attempted": false
   },
@@ -30,9 +30,9 @@
     },
     {
       "source_id": "docs.ollama",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "https://docs.ollama.com/api-reference/get-version.md: translation unavailable or failed quality gate"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.openai-agents-sdk",

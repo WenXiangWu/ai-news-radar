@@ -7,11 +7,11 @@
   "groups": [
     "docs-01"
   ],
-  "run_id": "42184140622",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/42184140622",
+  "run_id": "42284155111",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/42284155111",
   "conclusion": "failure",
-  "started_at": "2026-11-06T08:37:25.624297+00:00",
-  "finished_at": "2026-11-06T08:37:25.624297+00:00",
+  "started_at": "2026-11-06T20:46:49.025187+00:00",
+  "finished_at": "2026-11-06T20:46:49.025187+00:00",
   "push": {
     "attempted": false
   },
@@ -38,7 +38,7 @@
       "source_id": "docs.chroma",
       "status": "failed",
       "run_kind": "incremental",
-      "error": "github_tree request failed with HTTP 403 for https://api.github.com/repos/chroma-core/chroma/git/trees/main"
+      "error": "operation timed out after 480.00s"
     },
     {
       "source_id": "docs.codex-sdk",
