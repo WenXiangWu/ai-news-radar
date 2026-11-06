@@ -7,11 +7,11 @@
   "groups": [
     "docs-06"
   ],
-  "run_id": "42105596562",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/42105596562",
+  "run_id": "42184140622",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/42184140622",
   "conclusion": "failure",
-  "started_at": "2026-11-05T21:17:22.632646+00:00",
-  "finished_at": "2026-11-05T21:17:22.632646+00:00",
+  "started_at": "2026-11-06T08:32:45.406882+00:00",
+  "finished_at": "2026-11-06T08:32:45.406882+00:00",
   "push": {
     "attempted": false
   },
@@ -48,9 +48,9 @@
     },
     {
       "source_id": "docs.qdrant",
-      "status": "partial",
+      "status": "failed",
       "run_kind": "incremental",
-      "error": "https://api.qdrant.tech/llms.txt: translation unavailable or failed quality gate"
+      "error": "operation timed out after 480.00s"
     }
   ]
 }

@@ -7,20 +7,20 @@
   "groups": [
     "docs-02"
   ],
-  "run_id": "42105596562",
-  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/42105596562",
+  "run_id": "42184140622",
+  "html_url": "https://github.com/WenXiangWu/ai-news-radar/actions/runs/42184140622",
   "conclusion": "failure",
-  "started_at": "2026-11-05T21:18:46.632415+00:00",
-  "finished_at": "2026-11-05T21:18:46.632415+00:00",
+  "started_at": "2026-11-06T08:28:40.392051+00:00",
+  "finished_at": "2026-11-06T08:28:40.392051+00:00",
   "push": {
     "attempted": false
   },
   "sources": [
     {
       "source_id": "docs.crewai",
-      "status": "failed",
+      "status": "partial",
       "run_kind": "incremental",
-      "error": "operation timed out after 480.00s"
+      "error": "https://docs.crewai.com/index.md: translation unavailable or failed quality gate"
     },
     {
       "source_id": "docs.cursor",
